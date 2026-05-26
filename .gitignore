@@ -1,2 +1,4 @@
 node_modules/
 lighthouse-report*.html
+
+.vercel

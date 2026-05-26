@@ -72,8 +72,8 @@
 
 .blog-item-cat {
     display: inline-block;
-    background: var(--primary-light);
-    color: var(--primary);
+    background: rgba(45, 82, 64, 0.1);
+    color: var(--primary-dark);
     font-size: 0.75rem;
     font-weight: 600;
     padding: 4px 12px;
@@ -273,8 +273,8 @@
 
 .post-category {
     display: inline-block;
-    background: var(--primary-light);
-    color: var(--primary);
+    background: rgba(45, 82, 64, 0.1);
+    color: var(--primary-dark);
     font-size: 0.8rem;
     font-weight: 600;
     padding: 6px 16px;
@@ -677,7 +677,6 @@
     }
     .blog-sidebar {
         position: static;
-        order: -1;
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 16px;
