@@ -1,0 +1,45 @@
+{
+    "stats": {
+        "totalReviews": 153,
+        "rating": 4.9,
+        "peopleHelped": 4000
+    },
+    "reviews": [
+        {
+            "reviewer_name": "سارة الخالدي",
+            "rating": 5,
+            "relative_time": "3 أسابيع مضى",
+            "review_text": "تجربة ممتازة مع رولا! غيرت نظرتي للأكل بالكامل. حملت وزني الزائد بسهولة بدون رجيم قاسي. أشعر بطاقة غير طبيعية والحمدلله."
+        },
+        {
+            "reviewer_name": "نورة المحمد",
+            "rating": 5,
+            "relative_time": "شهر مضى",
+            "review_text": "أفضل قرار اتخذته لهالمسافة. رولا سمتني على خطمي وتبعتي خطوة بخطوة. النتيجة ١٨ كيلو بنزلوا والحمدلله! الله يبارك بيكي"
+        },
+        {
+            "reviewer_name": "لمى العتيبي",
+            "rating": 5,
+            "relative_time": "5 أسابيع مضى",
+            "review_text": "رولا غيّرت حياتي. كانت عندي مشكلة مع تكيس المبايض وزني ما يتحرك. بعد الكورس حسّنت كل شي والحمدلله."
+        },
+        {
+            "reviewer_name": "أحمد الترك",
+            "rating": 5,
+            "relative_time": "شهرين مضى",
+            "review_text": "Professional and caring. Rula helped me understand my eating habits and made sustainable changes. The online courses are well-structured and very practical."
+        },
+        {
+            "reviewer_name": "دانة القحطاني",
+            "rating": 5,
+            "relative_time": "6 أسابيع مضى",
+            "review_text": "كنت أكره الرجيم وكنت أفشل كل مرة. مع رولا الأمور سهلة وطبيعية. خسرت ١٢ كيلو خلال ٣ أشهر بدون ما أحس إني محروم."
+        },
+        {
+            "reviewer_name": "لميس الحربي",
+            "rating": 5,
+            "relative_time": "شهر مضى",
+            "review_text": "الدورات ممتازة فعلاً. معلومات عملية مو بس نظرية. وتشفري مع رولا كأنك تتكلمي مع صديقة تفهمك. أنصح الكل!"
+        }
+    ]
+}
