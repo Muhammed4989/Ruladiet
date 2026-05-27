@@ -301,8 +301,8 @@ a {
     position: relative;
     padding: 0;
     overflow: visible;
-    height: 80vh;
-    max-height: 720px;
+    height: 60vh;
+    max-height: 540px;
     display: flex;
     align-items: center;
 }
@@ -530,7 +530,7 @@ a {
     .hero {
         height: auto;
         max-height: none;
-        min-height: 70vh;
+        min-height: 50vh;
     }
     .hero-content {
         padding: 40px 0;
