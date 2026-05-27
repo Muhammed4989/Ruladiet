@@ -358,6 +358,10 @@
                             <h4>رولا علوش</h4>
                             <p>اختصاصية التغذية والحمية العلاجية. أشاركك نصائح علمية لصحة أفضل.</p>
                         </div>
+                        <div class="sidebar-widget sidebar-toc" id="sidebarToc">
+                            <h3>محتويات المقال</h3>
+                            <ul class="toc-list" id="tocList"></ul>
+                        </div>
 
                         <div class="sidebar-widget sidebar-latest">
                             <h3>أحدث المقالات</h3>
@@ -467,6 +471,28 @@
             var isOpen = nav.classList.toggle('open');
             this.setAttribute('aria-expanded', isOpen);
         });
+    </script>
+    <script>
+        (function() {
+            var content = document.querySelector('.post-content');
+            if (!content) return;
+            var headings = content.querySelectorAll('h2, h3');
+            var tocList = document.getElementById('tocList');
+            if (!tocList || headings.length === 0) return;
+            headings.forEach(function(h, i) {
+                var text = h.textContent.trim();
+                var id = text.replace(/[^\w\s\u0600-\u06FF]/g, '').replace(/\s+/g, '-').replace(/^-+|-+$/g, '').toLowerCase();
+                if (!id || id.length < 2) id = 'section-' + i;
+                h.id = id;
+                var li = document.createElement('li');
+                var a = document.createElement('a');
+                a.href = '#' + id;
+                a.textContent = text;
+                if (h.tagName === 'H3') a.className = 'toc-h3';
+                li.appendChild(a);
+                tocList.appendChild(li);
+            });
+        })();
     </script>
 </body>
 </html>

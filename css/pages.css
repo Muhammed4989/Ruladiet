@@ -137,6 +137,41 @@
     border-bottom: 2px solid var(--primary-light);
 }
 
+/* Table of Contents */
+.toc-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.toc-list li {
+    padding: 6px 0;
+    border-bottom: 1px solid var(--border-light);
+    line-height: 1.5;
+}
+
+.toc-list li:last-child {
+    border-bottom: none;
+}
+
+.toc-list a {
+    color: var(--text-body);
+    font-size: 0.85rem;
+    text-decoration: none;
+    display: block;
+    padding: 4px 0;
+    transition: color 0.2s;
+}
+
+.toc-list a:hover {
+    color: var(--brand-green);
+}
+
+.toc-list .toc-h3 {
+    padding-right: 16px;
+    font-size: 0.8rem;
+}
+
 /* Author Widget */
 .sidebar-author {
     text-align: center;
@@ -478,6 +513,20 @@
 .post-sidebar .sidebar-cta .btn {
     font-size: 0.8rem;
     padding: 10px 20px;
+}
+
+.post-sidebar .toc-list a {
+    font-size: 0.8rem;
+    padding: 3px 0;
+}
+
+.post-sidebar .toc-list .toc-h3 {
+    font-size: 0.75rem;
+    padding-right: 14px;
+}
+
+.post-sidebar .toc-list li {
+    padding: 4px 0;
 }
 
 @media (max-width: 900px) {
