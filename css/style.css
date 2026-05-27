@@ -412,7 +412,7 @@ a {
 }
 
 .hero-text-col .hero-stats .stat {
-    text-align: right;
+    text-align: center;
 }
 
 .hero-subtitle {
@@ -499,15 +499,21 @@ a {
     display: flex;
     justify-content: flex-end;
     gap: 24px;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     padding-top: 32px;
     padding-right: 20px;
     border-top: 1px solid rgba(255,255,255,0.12);
 }
 
 .stat {
-    text-align: right;
-    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: auto;
+    padding: 20px;
+    text-align: center;
     min-width: 0;
 }
 
@@ -516,14 +522,14 @@ a {
     font-size: 1.35rem;
     font-weight: 800;
     color: #fff;
-    margin-bottom: 4px;
-    white-space: nowrap;
+    line-height: 1.2;
 }
 
 .stat-label {
     font-size: 0.75rem;
     color: rgba(255,255,255,0.65);
-    white-space: nowrap;
+    line-height: 1.4;
+    text-align: center;
 }
 
 @media (max-width: 768px) {
