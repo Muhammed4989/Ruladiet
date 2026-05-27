@@ -301,8 +301,8 @@ a {
     position: relative;
     padding: 0;
     overflow: visible;
-    height: 75vh;
-    max-height: 500px;
+    height: 80vh;
+    max-height: 650px;
     display: flex;
     align-items: center;
 }
