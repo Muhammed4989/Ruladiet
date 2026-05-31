@@ -208,27 +208,44 @@ document.addEventListener('DOMContentLoaded', function() {
         startAutoplay();
     });
 
+    renderReviews();
+
     var newsletterForm = document.getElementById('newsletterForm');
     if (newsletterForm) {
         newsletterForm.addEventListener('submit', function(e) {
             e.preventDefault();
-            var btn = this.querySelector('.btn-subscribe');
-            btn.innerHTML = '<span>جاري الإرسال...</span>';
+            var btn = document.getElementById('nl-submit');
+            var msgEl = document.getElementById('nl-msg');
             btn.disabled = true;
+            btn.innerHTML = '<span>جاري الإرسال...</span>';
+            if (msgEl) { msgEl.style.display = 'none'; }
 
-            setTimeout(function() {
-                btn.innerHTML = '<span>تم الاشتراك ✓</span>';
-                btn.style.background = '#A8E6CF';
-                newsletterForm.reset();
-
-                setTimeout(function() {
-                    btn.innerHTML = '<span>اشترك</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>';
-                    btn.style.background = '';
+            fetch('/api/subscribe', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    email: document.getElementById('nl-email').value,
+                    firstName: document.getElementById('nl-first').value,
+                    lastName: document.getElementById('nl-last').value
+                })
+            })
+            .then(function(r) { return r.json(); })
+            .then(function(data) {
+                if (data.success) {
+                    newsletterForm.style.display = 'none';
+                    document.getElementById('nl-success').style.display = 'block';
+                } else {
                     btn.disabled = false;
-                }, 3000);
-            }, 1500);
+                    btn.innerHTML = '<span>اشترك</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>';
+                    if (msgEl) { msgEl.textContent = data.message; msgEl.style.display = 'block'; }
+                    else { alert(data.message); }
+                }
+            })
+            .catch(function() {
+                btn.disabled = false;
+                btn.innerHTML = '<span>اشترك</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>';
+                alert('حدث خطأ. حاول مرة أخرى لاحقاً.');
+            });
         });
     }
-
-    renderReviews();
 });
