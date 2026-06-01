@@ -1,8 +1,7 @@
-{
+﻿{
   "rewrites": [
-    { "source": "/course/change-journey", "destination": "/course/change-journey.html" },
-    { "source": "/course/emotional-eating", "destination": "/course/emotional-eating.html" },
-    { "source": "/course/health-track", "destination": "/course/health-track.html" },
-    { "source": "/course/pcos", "destination": "/course/pcos.html" }
+    { "source": "/course/:path*", "destination": "/course/:path*.html" },
+    { "source": "/blog/:path*", "destination": "/blog/:path*.html" },
+    { "source": "/:path*/", "destination": "/:path*.html" }
   ]
 }
