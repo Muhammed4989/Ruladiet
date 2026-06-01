@@ -1,4 +1,4 @@
-﻿{
+{
   "rewrites": [
     { "source": "/course/:path*", "destination": "/course/:path*.html" },
     { "source": "/blog/:path*", "destination": "/blog/:path*.html" },
