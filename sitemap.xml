@@ -3,121 +3,127 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://ruladiet.com/</loc>
-    <lastmod>2026-05-31</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <priority>1.0</priority>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://ruladiet.com/المدونة</loc>
-    <lastmod>2026-05-31</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <priority>0.9</priority>
     <changefreq>weekly</changefreq>
   </url>
   <url>
+    <loc>https://ruladiet.com/404</loc>
+    <lastmod>2026-06-10</lastmod>
+    <priority>0.1</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
     <loc>https://ruladiet.com/الدورات</loc>
-    <lastmod>2026-05-31</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://ruladiet.com/الفريق</loc>
-    <lastmod>2026-05-31</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://ruladiet.com/احجز-موعد</loc>
-    <lastmod>2026-05-31</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://ruladiet.com/رولا-علوش</loc>
-    <lastmod>2026-05-31</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://ruladiet.com/الخصوصية</loc>
-    <lastmod>2026-05-31</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <priority>0.3</priority>
     <changefreq>yearly</changefreq>
   </url>
   <url>
     <loc>https://ruladiet.com/الشروط</loc>
-    <lastmod>2026-05-31</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <priority>0.3</priority>
     <changefreq>yearly</changefreq>
   </url>
   <url>
     <loc>https://ruladiet.com/الإسترجاع</loc>
-    <lastmod>2026-05-31</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <priority>0.3</priority>
     <changefreq>yearly</changefreq>
   </url>
   <url>
     <loc>https://ruladiet.com/blog/مقاومة-الأنسولين</loc>
-    <lastmod>2026-05-31</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://ruladiet.com/blog/خسارة-الوزن</loc>
-    <lastmod>2026-05-31</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://ruladiet.com/blog/الأكل-العاطفي</loc>
-    <lastmod>2026-05-31</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://ruladiet.com/blog/ابر-التنحيف-الحديثة</loc>
-    <lastmod>2026-05-31</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://ruladiet.com/blog/رمضان-بلا-سكر</loc>
-    <lastmod>2026-05-31</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://ruladiet.com/blog/المهمة-الممكنة-للعام-الجديد</loc>
-    <lastmod>2026-05-31</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://ruladiet.com/blog/المهمة-المستحيلة-للأمهات</loc>
-    <lastmod>2026-05-31</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://ruladiet.com/course/الأكل-العاطفي</loc>
-    <lastmod>2026-05-31</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://ruladiet.com/course/رحلة-التغيير</loc>
-    <lastmod>2026-05-31</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://ruladiet.com/course/المسار-الصحي</loc>
-    <lastmod>2026-05-31</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://ruladiet.com/course/تكيس-المبايض</loc>
-    <lastmod>2026-05-31</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>

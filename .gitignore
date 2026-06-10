@@ -3,3 +3,6 @@ lighthouse-report*.html
 
 .vercel
 .env
+vimeo-downloads/
+_all-code.txt
+download-videos.js
