@@ -235,23 +235,11 @@ a {
     font-size: 0.9rem;
 }
 
-.menu-toggle {
-    display: none;
-    flex-direction: column;
-    gap: 5px;
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 8px;
-}
-
-.menu-toggle span {
-    display: block;
-    width: 22px;
-    height: 2px;
-    background: var(--text);
-    border-radius: 2px;
-    transition: var(--transition);
+@media(min-width:769px){
+  .menu-toggle{display:none !important}
+  .nav{position:static;width:auto;height:auto;background:transparent;box-shadow:none;padding:0}
+  .nav-list{flex-direction:row;gap:8px}
+  .nav.open{right:auto}
 }
 
 @media (max-width: 768px) {
