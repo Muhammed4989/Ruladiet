@@ -1,27 +1,267 @@
-<!DOCTYPE html>
+const fs = require('fs');
+const path = require('path');
+
+const COURSES_DIR = path.join(__dirname, 'course');
+
+const courses = [
+  {
+    file: 'المسار-الصحي.html',
+    slug: 'المسار-الصحي',
+    title: 'كورس المسار الصحي',
+    badge: 'دورة شاملة',
+    heading: 'كورس المسار الصحي',
+    subtitle: 'دورة شاملة لفهم أساسيات التغذية وتحسين عادات الأكل — 11 أسبوع من المحتوى العلمي والتطبيقات العملية',
+    aboutBadge: 'عن الدورة',
+    aboutTitle: 'ما هو كورس المسار الصحي؟',
+    aboutDesc: 'دورة شاملة لفهم أساسيات التغذية وتحسين عادات الأكل. 11 أسبوع من المحتوى العلمي والتطبيقات العملية التي تساعدك على بناء نظام غذائي صحي متوازن يناسب احتياجاتك الفردية.',
+    whoTitle: 'هذا الكورس لك إذا كنت...',
+    whoItems: [
+      'ترغب في تغيير وزنك ونظام حياتك الصحي',
+      'تعاني من تكرار فشل الدايت دون نتائج مستدامة',
+      'تبحث عن بداية صحية واقعية قابلة للاستمرار',
+      'تعاني من الأكل المرتبط بالمشاعر والتوتر'
+    ],
+    learnItems: [
+      'فهم أساسيات التغذية والمفاهيم الأساسية للعناصر والحصص الغذائية',
+      'تحسين عادات التغذية اليومية وتحويلها لعادات تلقائية',
+      'اختيار الأطعمة الصحية وتركيب وجبات متوازنة',
+      'تصميم النظام الغذائي الخاص بك حسب أهدافك',
+      'التسوق الصحي وقراءة البطاقات الغذائية',
+      'فهم مشكلة إدمان الطعام وطرق علاجها',
+      'التعرف على أسرار ضبط الشهية والوصول لعلاقة صحية مع الطعام',
+      'التفريق بين الجوع الجسدي والجوع العاطفي',
+      'الأكل الواعي أو التأملي للسيطرة على الشهية',
+      'طرق رفع معدل الحرق والاستقلاب في جسمك',
+      'فهم أسباب ثبات الوزن المزعجة وعلاجاتها',
+      'التعرف على أنواع الرياضات واختيار الأنسب لك',
+      'دمج التغذية الصحية مع التمارين وإدارة التوتر والنوم',
+      'تطبيق نظام الصيام المتقطع وحمية البحر الأبيض المتوسط',
+      'دعم مستمر عبر مجموعة خاصة للمشتركين',
+      'أوراق عمل وأدوات لتحقيق أهدافك الصحية'
+    ],
+    chapters: [
+      { title: 'أساسيات المسار الصحي', lessons: ['التطبيقات العملية للمسار الصحي', 'المسار الصحي (المفاهيم الأساسية)', 'صفات الهدف الذكي'] },
+      { title: 'المجموعات الغذائية الخمسة', lessons: ['المجموعات الغذائية الخمسة'] },
+      { title: 'المغذيات الكبرى', lessons: ['هرم ماسلو', 'أفضل أنواع المغذيات', 'أضرار كل نوع + التطبيقات العملية (1)', 'أضرار كل نوع + التطبيقات العملية (2)'] },
+      { title: 'النظام الغذائي المتوازن', lessons: ['دوائر الصحة النفسية', 'معادلات خسارة الوزن + احتياج الماء', 'توازن السعرات + شروط النظام', 'معادلات حساب الطاقة', 'نظام البدائل الغذائية', 'الحصص الغذائية', 'تصميم النظام الغذائي', 'نصائح عامة'] },
+      { title: 'التسوق الغذائي الصحي', lessons: ['خطوات التسوق الصحي', 'البطاقة الغذائية وقائمة المحتويات', 'أمثلة + طريقة معرفة السعرات للمنتجات'] },
+      { title: 'رفع معدل الحرق', lessons: ['تعريف الاستقلاب + عوامل التأثير عليه', 'طرق رفع الحرق'] },
+      { title: 'الحركة والرياضة', lessons: ['الفرق بين الحركة والرياضة + معدل الجهد', 'تمارين الـ Hit + التطبيق العملي'] },
+      { title: 'ضبط الشهية', lessons: ['أساسيات ضبط الشهية', 'أسباب ثبات الوزن المزعجة'] },
+      { title: 'اكتساب العادات', lessons: ['العادات وكيفية اكتسابها', 'نصائح لاكتساب العادات + تطبيق عملي'] },
+      { title: 'أنظمة غذائية صحيحة', lessons: ['أنظمة غذائية صحيحة'] },
+      { title: 'الخاتمة', lessons: ['الخاتمة'] }
+    ],
+    infoCards: [
+      { title: 'مواد الدورة', items: ['ملف التطبيقات العملية', 'ملف الوصفات الصحية', 'ملف البدائل الغذائية', 'ملف تكوين العادات الصحية', '3 جداول رياضية', 'شهادة حضور للبرنامج التدريبي'] },
+      { title: 'المتطلبات', items: ['الوعي والالتزام بتطبيق ما تتعلمه', 'لا يتطلب الكورس أي خبرة مسبقة', 'يُنصح بمتابعة الدروس بالترتيب', 'تخصيص وقت أسبوعي للتطبيق العملي'] }
+    ],
+    includes: ['29 درس فيديو', '2 ساعة 53 دقيقة محتوى', '11 أسبوع برنامج متكامل', 'وصول مدى الحياة', 'متاح على الجوال'],
+    metaLessons: '29 درس',
+    metaDuration: '2 ساعة 53 دقيقة',
+    metaLevel: 'جميع المستويات',
+    metaInstructor: 'رولا علوش',
+    price: '$247',
+    priceLabel: 'دورة شاملة',
+    whatsappText: 'الاستفسار عن كورس المسار الصحي',
+    heroDuration: '2 ساعة 53 دقيقة',
+    heroWeeks: '11 أسبوع',
+    heroStudents: '16 ملتحق',
+    canonicalName: 'المسار-الصحي'
+  },
+  {
+    file: 'الأكل-العاطفي.html',
+    slug: 'الأكل-العاطفي',
+    title: 'كورس التعافي من الشهية الانفعالية - رولا دايت',
+    badge: 'دورة مدفوعة',
+    heading: 'كورس التعافي من الشهية الانفعالية',
+    subtitle: 'رحلة فريدة تمتدّ على مدى 6 أسابيع، تجمع بين العِلم والتطبيق لفهم علاقتك مع الطعام، والتحرّر من الأكل العاطفي بشكل نهائي',
+    aboutBadge: 'عن الدورة',
+    aboutTitle: 'تخلّصي من الأكل العاطفي نهائياً',
+    aboutDesc: 'رحلة فريدة تمتدّ على مدى 6 أسابيع، تجمع بين العِلم والتطبيق لفهم علاقتك مع الطعام، والتحرّر من الأكل العاطفي بشكل نهائي. ستتعلمين كيف تميّزين بين الجوع الجسدي والعاطفي، وكيف تتعاملين مع مشاعرك دون اللجوء للطعام، وتبنين علاقة متوازنة مع جسدك تستمر مدى الحياة.',
+    whoTitle: 'هذا الكورس لك إذا كنت...',
+    whoItems: [
+      'تأكلين عند الغضب أو التوتر أو الملل دون وعي',
+      'تشعرين بالذنب بعد الأكل وتعودين للسلوك نفسه',
+      'جرّبتِ أنظمة كثيرة ولم تستطعي الالتزام',
+      'تعانين من نوبات شراهة أو أكل ليلي',
+      'تريدين أن تحبّي جسدك دون جلد أو حرمان',
+      'تبحثين عن توازن حقيقي — لا تجويع ولا فوضى'
+    ],
+    learnItems: [
+      'التمييز بين الجوع الجسدي والعاطفي',
+      'التعامل مع المشاعر دون اللجوء للطعام',
+      'كسر التعلّق بالأكل كوسيلة راحة',
+      'بناء علاقة متوازنة مع جسدك',
+      'استعادة طاقتك وثقتك بنفسك',
+      'عيش حياة غذائية هادئة ومستقرة',
+      'إتقان مصادر البهجة الجديدة'
+    ],
+    chapters: [
+      { title: 'إدمان الطعام', lessons: ['تعريف إدمان الطعام', 'اختبار إدمان الطعام', 'علاج الإدمان + الجوع الحقيقي والعاطفي', 'مؤشر الجوع + الأكل التأملي', 'مناهج خاطئة في التفكير', 'طرق لعلاج الإدمان + تطبيقات عملية', 'كيف يعمل الإدمان'] }
+    ],
+    infoCards: [
+      { title: 'ماذا ستحصلين؟', items: ['6 أسابيع من المحتوى العلمي والتطبيقي', 'تمارين عملية لفهم مشاعرك تجاه الطعام', 'أدوات للتمييز بين الجوع الجسدي والعاطفي', 'خطوات لكسر دائرة الذنب والحرمان', 'استراتيجيات لبناء عادات غذائية متوازنة', 'دعم مستمر لضمان الاستمرارية والثبات'] },
+      { title: 'المتطلبات', items: ['لا يتطلب الكورس أي خلفية مسبقة', 'ينصح بمتابعة الأسابيع بالترتيب', 'تخصيص وقت للتطبيق العملي والتمارين', 'الالتزام بدون ضغط أو قسوة على النفس', 'رغبة صادقة في تغيير العلاقة مع الطعام'] }
+    ],
+    includes: ['7 دروس فيديو', '6 أسابيع برنامج متكامل', 'تمارين وأدوات عملية', 'وصول مدى الحياة', 'متاح على الجوال'],
+    metaLessons: '7 دروس',
+    metaDuration: '6 أسابيع',
+    metaLevel: 'جميع المستويات',
+    metaInstructor: 'رولا علوش',
+    price: '$200.00',
+    priceOld: '$249.00',
+    priceLabel: 'دورة مدفوعة',
+    whatsappText: 'الاستفسار عن كورس الشهية الانفعالية',
+    heroDuration: '6 أسابيع',
+    heroWeeks: '7 دروس',
+    heroStudents: '5 ملتحق',
+    canonicalName: 'الأكل-العاطفي'
+  },
+  {
+    file: 'تكيس-المبايض.html',
+    slug: 'تكيس-المبايض',
+    title: 'كورس التغذية لتكيس المبايض - رولا دايت',
+    badge: 'PCOS',
+    heading: 'كورس التعافي من تكيس المبايض',
+    subtitle: 'صُمم ليعطيك صورة واضحة وشاملة عن كل ما يخص التكيس والدورة الشهرية والعلاج',
+    aboutBadge: 'عن الدورة',
+    aboutTitle: 'كل ما تريدين معرفته عن تكيس المبايض',
+    aboutDesc: 'كورس التعافي من تكيس المبايض صُمم ليعطيك صورة واضحة وشاملة عن كل ما يخص التكيس والدورة الشهرية والعلاج. يشرح الكورس الأسباب الحقيقية لاضطرابات الدورة، طرق التشخيص الصحيحة، والخيارات العلاجية المتاحة مع توضيح مميزاتها وأعراضها الجانبية.',
+    whoTitle: 'هذا الكورس لك إذا كنت...',
+    whoItems: [
+      'تعانين من تكيس المبايض وتبحثين عن حلول صحية',
+      'تعانين من اضطرابات الدورة الشهرية وعدم انتظامها',
+      'تبحثين عن تحسين هرموناتك وزيادة فرص الحمل',
+      'تريدين فهم العلاقة بين الوزن والتكيس والأنسولين'
+    ],
+    learnItems: [
+      'فهم أسباب اضطراب الدورة الشهرية وعلاقتها بالهرمونات',
+      'التعرف على متلازمة تكيس المبايض: الأعراض والتشخيص',
+      'الطرق العلاجية المتاحة: الأدوية والمكملات والنظام الغذائي',
+      'العلاقة بين الوزن ومقاومة الأنسولين وصعوبة نزوله',
+      'التعامل مع الحبوب الهرمونية والأعراض الجانبية',
+      'استراتيجيات لزيادة فرص الحمل مع وجود التكيس',
+      'إجابات علمية لأشهر الأسئلة والمفاهيم الخاطئة'
+    ],
+    chapters: [
+      { title: 'مقدمة عن تكيس المبايض', lessons: ['ما هو تكيس المبايض؟', 'الفرق بين التكيس والأكياس', 'أسباب متلازمة تكيس المبايض'] },
+      { title: 'الأعراض والتشخيص', lessons: ['أعراض تكيس المبايض', 'طرق التشخيص الصحيحة', 'تحاليل الهرمونات المطلوبة'] },
+      { title: 'العلاج بالتغذية', lessons: ['النظام الغذائي المناسب للتكيس', 'الأطعمة المفيدة والممنوعة', 'المكملات الغذائية الموصى بها'] },
+      { title: 'الهرمونات والأدوية', lessons: ['الحبوب الهرمونية والأعراض الجانبية', 'العلاج الدوائي للتكيس', 'مقاومة الأنسولين وعلاقتها بالوزن'] },
+      { title: 'الحمل والتكيس', lessons: ['زيادة فرص الحمل مع التكيس', 'تنظيم الدورة الشهرية', 'العناية بالصحة الإنجابية'] },
+      { title: 'أسئلة شائعة', lessons: ['أشهر المفاهيم الخاطئة', 'إجابات علمية لأسئلتك', 'نصائح عملية للتطبيق'] }
+    ],
+    infoCards: [
+      { title: 'المواد المرفقة', items: ['فيديوهات مسجّلة تشرح كل المواضيع', 'ملخصات مكتوبة لأهم النقاط', 'جداول عملية لمتابعة الوزن والتحاليل', 'قائمة مكملات وأدوية مع شرح الاستعمال', 'إجابات على الأسئلة الشائعة'] },
+      { title: 'المتطلبات', items: ['لا تحتاج المشتركة لأي خلفية طبية مسبقة', 'يفضّل وجود دفتر لمتابعة الملاحظات', 'الالتزام بمشاهدة الدروس بالترتيب', 'تخصيص وقت للتطبيق العملي'] }
+    ],
+    includes: ['33 درس فيديو', '2 ساعة محتوى', 'ملخصات مكتوبة', 'وصول مدى الحياة', 'متاح على الجوال'],
+    metaLessons: '33 درس',
+    metaDuration: '2 ساعة',
+    metaLevel: 'جميع المستويات',
+    metaInstructor: 'رولا علوش',
+    price: '$247',
+    priceLabel: 'دورة متخصصة',
+    whatsappText: 'الاستفسار عن كورس تكيس المبايض',
+    heroDuration: '2 ساعة',
+    heroWeeks: '33 درس',
+    heroStudents: '13 ملتحق',
+    canonicalName: 'تكيس-المبايض'
+  }
+];
+
+function generateCourseHTML(c) {
+  const totalLessons = c.chapters.reduce((sum, ch) => sum + ch.lessons.length, 0);
+  let lessonCounter = 1;
+
+  const curriculumHTML = c.chapters.map(ch => `
+          <div class="chapter-label">${ch.title} — ${ch.lessons.length} دروس</div>
+          <div class="curriculum">${ch.lessons.map(lesson => `
+            <div class="lecture">
+              <div class="lecture-info">
+                <div class="lecture-number">${lessonCounter++}</div>
+                <span class="lecture-title">${lesson}</span>
+              </div>
+              <div class="lecture-right">
+                <span class="lecture-free">مسجّل</span>
+              </div>
+            </div>`).join('')}
+          </div>`).join('\n');
+
+  const learnHTML = c.learnItems.map(item =>
+    `            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+              ${item}
+            </li>`).join('\n');
+
+  const whoHTML = c.whoItems.map(item =>
+    `          <div class="who-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+            <span>${item}</span>
+          </div>`).join('\n');
+
+  const infoCardsHTML = c.infoCards.map(card => `
+          <div class="info-card">
+            <h4>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+              ${card.title}
+            </h4>
+            <ul>
+              ${card.items.map(item => `<li>${item}</li>`).join('\n              ')}
+            </ul>
+          </div>`).join('\n');
+
+  const includesHTML = c.includes.map(item =>
+    `              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
+                ${item}
+              </li>`).join('\n');
+
+  const priceDisplay = c.priceOld
+    ? `<div class="sidebar-price-box">
+            <div class="price-free" style="font-size:1.8rem">${c.price}</div>
+            <div class="price-label" style="text-decoration:line-through;opacity:0.6">${c.priceOld}</div>
+            <div class="price-label">${c.priceLabel}</div>
+          </div>`
+    : `<div class="sidebar-price-box">
+            <div class="price-free" style="font-size:1.8rem">${c.price}</div>
+            <div class="price-label">${c.priceLabel}</div>
+          </div>`;
+
+  const heroPrice = c.priceOld
+    ? `<div style="margin:16px 0">
+                    <span style="font-size:2rem;font-weight:800;color:var(--accent)">${c.price}</span>
+                    <span style="font-size:1.1rem;text-decoration:line-through;opacity:0.6;margin-right:12px">${c.priceOld}</span>
+                  </div>`
+    : '';
+
+  const encodedWhatsapp = encodeURIComponent(c.whatsappText);
+
+  return `<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>كورس التغذية لتكيس المبايض - رولا دايت</title>
-<meta name="description" content="صُمم ليعطيك صورة واضحة وشاملة عن كل ما يخص التكيس والدورة الشهرية والعلاج">
+<title>${c.title}</title>
+<meta name="description" content="${c.subtitle}">
 <meta name="robots" content="index, follow, max-image-preview:large">
-<link rel="canonical" href="https://ruladiet.com/course/%D8%AA%D9%83%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D9%8A%D8%B6">
-<meta property="og:title" content="كورس التغذية لتكيس المبايض - رولا دايت">
-<meta property="og:description" content="صُمم ليعطيك صورة واضحة وشاملة عن كل ما يخص التكيس والدورة الشهرية والعلاج">
+<link rel="canonical" href="https://ruladiet.com/course/${encodeURIComponent(c.canonicalName)}">
+<meta property="og:title" content="${c.title}">
+<meta property="og:description" content="${c.subtitle}">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://ruladiet.com/course/%D8%AA%D9%83%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D9%8A%D8%B6">
+<meta property="og:url" content="https://ruladiet.com/course/${encodeURIComponent(c.canonicalName)}">
 <meta property="og:image" content="https://ruladiet.com/images/ruladiet1.webp">
 <meta property="og:locale" content="ar_AR">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Course",
-  "name": "كورس التعافي من تكيس المبايض",
-  "description": "كورس التعافي من تكيس المبايض صُمم ليعطيك صورة واضحة وشاملة عن كل ما يخص التكيس والدورة الشهرية والعلاج.",
+  "name": "${c.heading}",
+  "description": "${c.aboutDesc.split('.')[0]}.",
   "provider": {"@type": "Organization", "name": "رولا دايت", "url": "https://ruladiet.com"},
   "instructor": {"@type": "Person", "name": "رولا علوش", "jobTitle": "اختصاصية تغذية"},
-  "offers": {"@type": "Offer", "price": "247", "priceCurrency": "USD", "availability": "https://schema.org/OnlineOnly", "url": "https://ruladiet.com/course/%D8%AA%D9%83%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D9%8A%D8%B6"},
+  "offers": {"@type": "Offer", "price": "${c.price.replace('$','')}", "priceCurrency": "USD", "availability": "https://schema.org/OnlineOnly", "url": "https://ruladiet.com/course/${encodeURIComponent(c.canonicalName)}"},
   "educationalLevel": "All",
   "inLanguage": "ar"
 }
@@ -33,7 +273,7 @@
   "itemListElement": [
     {"@type": "ListItem", "position": 1, "name": "الرئيسية", "item": "https://ruladiet.com/"},
     {"@type": "ListItem", "position": 2, "name": "الدورات", "item": "https://ruladiet.com/%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D8%A7%D8%AA"},
-    {"@type": "ListItem", "position": 3, "name": "كورس التعافي من تكيس المبايض", "item": "https://ruladiet.com/course/%D8%AA%D9%83%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D9%8A%D8%B6"}
+    {"@type": "ListItem", "position": 3, "name": "${c.heading}", "item": "https://ruladiet.com/course/${encodeURIComponent(c.canonicalName)}"}
   ]
 }
 </script>
@@ -179,7 +419,7 @@ img{max-width:100%;height:auto;display:block}
 <header class="header">
   <div class="container">
     <div class="header-inner">
-      <button type="button" class="btn btn-primary nav-cta" onclick="window.location.href='https://wa.me/905300222468?text=%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D9%83%D9%88%D8%B1%D8%B3%20%D8%AA%D9%83%D9%8A%D8%B3%20%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D9%8A%D8%B6'">اشترِ الآن</button>
+      <button type="button" class="btn btn-primary nav-cta" onclick="window.location.href='https://wa.me/905300222468?text=${encodedWhatsapp}'">اشترِ الآن</button>
       <nav class="nav" id="nav" aria-label="القائمة الرئيسية">
         <ul class="nav-list">
           <li><a href="../" class="nav-link">الرئيسية</a></li>
@@ -202,22 +442,22 @@ img{max-width:100%;height:auto;display:block}
 <main>
   <section class="page-hero">
     <div class="container">
-      <span class="section-badge">PCOS</span>
-      <h1>كورس التعافي من تكيس المبايض</h1>
-      <p class="sub">صُمم ليعطيك صورة واضحة وشاملة عن كل ما يخص التكيس والدورة الشهرية والعلاج</p>
-      
+      <span class="section-badge">${c.badge}</span>
+      <h1>${c.heading}</h1>
+      <p class="sub">${c.subtitle}</p>
+      ${heroPrice}
       <div class="hero-meta">
         <span>
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
-          2 ساعة
+          ${c.heroDuration}
         </span>
         <span>
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
-          33 درس
+          ${c.heroWeeks}
         </span>
         <span>
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-          13 ملتحق
+          ${c.heroStudents}
         </span>
         <span>
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
@@ -230,31 +470,16 @@ img{max-width:100%;height:auto;display:block}
   <div class="container">
     <div class="course-layout">
       <div class="course-main">
-        <span class="section-badge section-title-badge">عن الدورة</span>
-        <h2 class="section-heading">كل ما تريدين معرفته عن تكيس المبايض</h2>
-        <p class="section-desc">كورس التعافي من تكيس المبايض صُمم ليعطيك صورة واضحة وشاملة عن كل ما يخص التكيس والدورة الشهرية والعلاج. يشرح الكورس الأسباب الحقيقية لاضطرابات الدورة، طرق التشخيص الصحيحة، والخيارات العلاجية المتاحة مع توضيح مميزاتها وأعراضها الجانبية.</p>
+        <span class="section-badge section-title-badge">${c.aboutBadge}</span>
+        <h2 class="section-heading">${c.aboutTitle}</h2>
+        <p class="section-desc">${c.aboutDesc}</p>
 
         <h3 style="font-size:1.1rem;font-weight:700;color:var(--text);margin-bottom:16px;display:flex;align-items:center;gap:8px">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
-          هذا الكورس لك إذا كنت...
+          ${c.whoTitle}
         </h3>
         <div class="who-for-grid">
-          <div class="who-item">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-            <span>تعانين من تكيس المبايض وتبحثين عن حلول صحية</span>
-          </div>
-          <div class="who-item">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-            <span>تعانين من اضطرابات الدورة الشهرية وعدم انتظامها</span>
-          </div>
-          <div class="who-item">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-            <span>تبحثين عن تحسين هرموناتك وزيادة فرص الحمل</span>
-          </div>
-          <div class="who-item">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-            <span>تريدين فهم العلاقة بين الوزن والتكيس والأنسولين</span>
-          </div>
+${whoHTML}
         </div>
 
         <div class="learn-section">
@@ -263,34 +488,7 @@ img{max-width:100%;height:auto;display:block}
             ماذا ستتعلم؟
           </h3>
           <ul class="learn-list">
-            <li>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-              فهم أسباب اضطراب الدورة الشهرية وعلاقتها بالهرمونات
-            </li>
-            <li>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-              التعرف على متلازمة تكيس المبايض: الأعراض والتشخيص
-            </li>
-            <li>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-              الطرق العلاجية المتاحة: الأدوية والمكملات والنظام الغذائي
-            </li>
-            <li>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-              العلاقة بين الوزن ومقاومة الأنسولين وصعوبة نزوله
-            </li>
-            <li>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-              التعامل مع الحبوب الهرمونية والأعراض الجانبية
-            </li>
-            <li>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-              استراتيجيات لزيادة فرص الحمل مع وجود التكيس
-            </li>
-            <li>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-              إجابات علمية لأشهر الأسئلة والمفاهيم الخاطئة
-            </li>
+${learnHTML}
           </ul>
         </div>
 
@@ -299,222 +497,11 @@ img{max-width:100%;height:auto;display:block}
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
             محتوى الدورة
           </h3>
-
-          <div class="chapter-label">مقدمة عن تكيس المبايض — 3 دروس</div>
-          <div class="curriculum">
-            <div class="lecture">
-              <div class="lecture-info">
-                <div class="lecture-number">1</div>
-                <span class="lecture-title">ما هو تكيس المبايض؟</span>
-              </div>
-              <div class="lecture-right">
-                <span class="lecture-free">مسجّل</span>
-              </div>
-            </div>
-            <div class="lecture">
-              <div class="lecture-info">
-                <div class="lecture-number">2</div>
-                <span class="lecture-title">الفرق بين التكيس والأكياس</span>
-              </div>
-              <div class="lecture-right">
-                <span class="lecture-free">مسجّل</span>
-              </div>
-            </div>
-            <div class="lecture">
-              <div class="lecture-info">
-                <div class="lecture-number">3</div>
-                <span class="lecture-title">أسباب متلازمة تكيس المبايض</span>
-              </div>
-              <div class="lecture-right">
-                <span class="lecture-free">مسجّل</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="chapter-label">الأعراض والتشخيص — 3 دروس</div>
-          <div class="curriculum">
-            <div class="lecture">
-              <div class="lecture-info">
-                <div class="lecture-number">4</div>
-                <span class="lecture-title">أعراض تكيس المبايض</span>
-              </div>
-              <div class="lecture-right">
-                <span class="lecture-free">مسجّل</span>
-              </div>
-            </div>
-            <div class="lecture">
-              <div class="lecture-info">
-                <div class="lecture-number">5</div>
-                <span class="lecture-title">طرق التشخيص الصحيحة</span>
-              </div>
-              <div class="lecture-right">
-                <span class="lecture-free">مسجّل</span>
-              </div>
-            </div>
-            <div class="lecture">
-              <div class="lecture-info">
-                <div class="lecture-number">6</div>
-                <span class="lecture-title">تحاليل الهرمونات المطلوبة</span>
-              </div>
-              <div class="lecture-right">
-                <span class="lecture-free">مسجّل</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="chapter-label">العلاج بالتغذية — 3 دروس</div>
-          <div class="curriculum">
-            <div class="lecture">
-              <div class="lecture-info">
-                <div class="lecture-number">7</div>
-                <span class="lecture-title">النظام الغذائي المناسب للتكيس</span>
-              </div>
-              <div class="lecture-right">
-                <span class="lecture-free">مسجّل</span>
-              </div>
-            </div>
-            <div class="lecture">
-              <div class="lecture-info">
-                <div class="lecture-number">8</div>
-                <span class="lecture-title">الأطعمة المفيدة والممنوعة</span>
-              </div>
-              <div class="lecture-right">
-                <span class="lecture-free">مسجّل</span>
-              </div>
-            </div>
-            <div class="lecture">
-              <div class="lecture-info">
-                <div class="lecture-number">9</div>
-                <span class="lecture-title">المكملات الغذائية الموصى بها</span>
-              </div>
-              <div class="lecture-right">
-                <span class="lecture-free">مسجّل</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="chapter-label">الهرمونات والأدوية — 3 دروس</div>
-          <div class="curriculum">
-            <div class="lecture">
-              <div class="lecture-info">
-                <div class="lecture-number">10</div>
-                <span class="lecture-title">الحبوب الهرمونية والأعراض الجانبية</span>
-              </div>
-              <div class="lecture-right">
-                <span class="lecture-free">مسجّل</span>
-              </div>
-            </div>
-            <div class="lecture">
-              <div class="lecture-info">
-                <div class="lecture-number">11</div>
-                <span class="lecture-title">العلاج الدوائي للتكيس</span>
-              </div>
-              <div class="lecture-right">
-                <span class="lecture-free">مسجّل</span>
-              </div>
-            </div>
-            <div class="lecture">
-              <div class="lecture-info">
-                <div class="lecture-number">12</div>
-                <span class="lecture-title">مقاومة الأنسولين وعلاقتها بالوزن</span>
-              </div>
-              <div class="lecture-right">
-                <span class="lecture-free">مسجّل</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="chapter-label">الحمل والتكيس — 3 دروس</div>
-          <div class="curriculum">
-            <div class="lecture">
-              <div class="lecture-info">
-                <div class="lecture-number">13</div>
-                <span class="lecture-title">زيادة فرص الحمل مع التكيس</span>
-              </div>
-              <div class="lecture-right">
-                <span class="lecture-free">مسجّل</span>
-              </div>
-            </div>
-            <div class="lecture">
-              <div class="lecture-info">
-                <div class="lecture-number">14</div>
-                <span class="lecture-title">تنظيم الدورة الشهرية</span>
-              </div>
-              <div class="lecture-right">
-                <span class="lecture-free">مسجّل</span>
-              </div>
-            </div>
-            <div class="lecture">
-              <div class="lecture-info">
-                <div class="lecture-number">15</div>
-                <span class="lecture-title">العناية بالصحة الإنجابية</span>
-              </div>
-              <div class="lecture-right">
-                <span class="lecture-free">مسجّل</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="chapter-label">أسئلة شائعة — 3 دروس</div>
-          <div class="curriculum">
-            <div class="lecture">
-              <div class="lecture-info">
-                <div class="lecture-number">16</div>
-                <span class="lecture-title">أشهر المفاهيم الخاطئة</span>
-              </div>
-              <div class="lecture-right">
-                <span class="lecture-free">مسجّل</span>
-              </div>
-            </div>
-            <div class="lecture">
-              <div class="lecture-info">
-                <div class="lecture-number">17</div>
-                <span class="lecture-title">إجابات علمية لأسئلتك</span>
-              </div>
-              <div class="lecture-right">
-                <span class="lecture-free">مسجّل</span>
-              </div>
-            </div>
-            <div class="lecture">
-              <div class="lecture-info">
-                <div class="lecture-number">18</div>
-                <span class="lecture-title">نصائح عملية للتطبيق</span>
-              </div>
-              <div class="lecture-right">
-                <span class="lecture-free">مسجّل</span>
-              </div>
-            </div>
-          </div>
+${curriculumHTML}
         </div>
 
         <div class="info-cards">
-
-          <div class="info-card">
-            <h4>
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-              المواد المرفقة
-            </h4>
-            <ul>
-              <li>فيديوهات مسجّلة تشرح كل المواضيع</li>
-              <li>ملخصات مكتوبة لأهم النقاط</li>
-              <li>جداول عملية لمتابعة الوزن والتحاليل</li>
-              <li>قائمة مكملات وأدوية مع شرح الاستعمال</li>
-              <li>إجابات على الأسئلة الشائعة</li>
-            </ul>
-          </div>
-
-          <div class="info-card">
-            <h4>
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-              المتطلبات
-            </h4>
-            <ul>
-              <li>لا تحتاج المشتركة لأي خلفية طبية مسبقة</li>
-              <li>يفضّل وجود دفتر لمتابعة الملاحظات</li>
-              <li>الالتزام بمشاهدة الدروس بالترتيب</li>
-              <li>تخصيص وقت للتطبيق العملي</li>
-            </ul>
-          </div>
+${infoCardsHTML}
         </div>
 
         <div class="instructor-card">
@@ -528,38 +515,16 @@ img{max-width:100%;height:auto;display:block}
 
       <aside class="course-sidebar">
         <div class="sidebar-card">
-          <div class="sidebar-price-box">
-            <div class="price-free" style="font-size:1.8rem">$247</div>
-            <div class="price-label">دورة متخصصة</div>
-          </div>
+          ${priceDisplay}
           <div class="sidebar-cta">
-            <a href="https://wa.me/905300222468?text=%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D9%83%D9%88%D8%B1%D8%B3%20%D8%AA%D9%83%D9%8A%D8%B3%20%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D9%8A%D8%B6" class="btn-accent" target="_blank" rel="noopener">اشترِ الآن - $247</a>
+            <a href="https://wa.me/905300222468?text=${encodedWhatsapp}" class="btn-accent" target="_blank" rel="noopener">اشترِ الآن - ${c.price}</a>
             <a href="../%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D8%A7%D8%AA" class="btn-outline-dark">جميع الدورات</a>
           </div>
           <div class="sidebar-divider"></div>
           <div class="sidebar-includes">
             <h4>تشمل الدورة</h4>
             <ul class="includes-list">
-              <li>
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
-                33 درس فيديو
-              </li>
-              <li>
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
-                2 ساعة محتوى
-              </li>
-              <li>
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
-                ملخصات مكتوبة
-              </li>
-              <li>
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
-                وصول مدى الحياة
-              </li>
-              <li>
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
-                متاح على الجوال
-              </li>
+${includesHTML}
             </ul>
           </div>
           <div class="sidebar-divider"></div>
@@ -568,15 +533,15 @@ img{max-width:100%;height:auto;display:block}
             <ul class="meta-list">
               <li>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
-                33 درس — 2 ساعة
+                ${c.metaLessons} — ${c.metaDuration}
               </li>
               <li>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
-                مستوى: جميع المستويات
+                مستوى: ${c.metaLevel}
               </li>
               <li>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-                المدربة: رولا علوش
+                المدربة: ${c.metaInstructor}
               </li>
               <li>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
@@ -657,4 +622,15 @@ img{max-width:100%;height:auto;display:block}
   });
 </script>
 </body>
-</html>
+</html>`;
+}
+
+// Generate all course pages
+courses.forEach(c => {
+  const html = generateCourseHTML(c);
+  const filePath = path.join(COURSES_DIR, c.file);
+  fs.writeFileSync(filePath, html, 'utf8');
+  console.log(`✅ Generated: ${c.file}`);
+});
+
+console.log('\n🎉 All 3 course pages generated successfully!');
