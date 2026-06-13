@@ -3,12 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>كورس المسار الصحي</title>
-<meta name="description" content="دورة شاملة لفهم أساسيات التغذية وتحسين عادات الأكل — 11 أسبوع من المحتوى العلمي والتطبيقات العملية">
+<title>كورس المسار الصحي - رولا دايت</title>
+<meta name="description" content="دورة شاملة من 11 أسبوع تأخذك من أساسيات التغذية حتى تصميم نظامك الغذائي وتغيير عاداتك للأبد">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="https://ruladiet.com/course/%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D8%B1-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A">
-<meta property="og:title" content="كورس المسار الصحي">
-<meta property="og:description" content="دورة شاملة لفهم أساسيات التغذية وتحسين عادات الأكل — 11 أسبوع من المحتوى العلمي والتطبيقات العملية">
+<meta property="og:title" content="كورس المسار الصحي - رولا دايت">
+<meta property="og:description" content="دورة شاملة من 11 أسبوع تأخذك من أساسيات التغذية حتى تصميم نظامك الغذائي وتغيير عاداتك للأبد">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://ruladiet.com/course/%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D8%B1-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A">
 <meta property="og:image" content="https://ruladiet.com/images/ruladiet1.webp">
@@ -18,7 +18,7 @@
   "@context": "https://schema.org",
   "@type": "Course",
   "name": "كورس المسار الصحي",
-  "description": "دورة شاملة لفهم أساسيات التغذية وتحسين عادات الأكل.",
+  "description": "دورة شاملة من 11 أسبوع تأخذك من أساسيات التغذية حتى تصميم نظامك الغذائي وتغيير عاداتك للأبد.",
   "provider": {"@type": "Organization", "name": "رولا دايت", "url": "https://ruladiet.com"},
   "instructor": {"@type": "Person", "name": "رولا علوش", "jobTitle": "اختصاصية تغذية"},
   "offers": {"@type": "Offer", "price": "247", "priceCurrency": "USD", "availability": "https://schema.org/OnlineOnly", "url": "https://ruladiet.com/course/%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D8%B1-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A"},
@@ -95,7 +95,7 @@ img{max-width:100%;height:auto;display:block}
 .curriculum-section{margin-bottom:32px}
 .curriculum-section h3{font-size:1.15rem;font-weight:700;color:var(--text);margin-bottom:16px;display:flex;align-items:center;gap:8px}
 .chapter-label{background:var(--primary);color:var(--white);padding:10px 20px;border-radius:var(--radius-sm);font-weight:600;font-size:0.9rem;margin-bottom:8px}
-.curriculum{display:flex;flex-direction:column;gap:8px}
+.curriculum{display:flex;flex-direction:column;gap:8px;margin-bottom:12px}
 .lecture{display:flex;align-items:center;justify-content:space-between;background:var(--white);padding:14px 18px;border-radius:var(--radius-sm);border:1px solid var(--border);transition:var(--transition)}
 .lecture:hover{border-color:var(--primary);box-shadow:var(--shadow)}
 .lecture-info{display:flex;align-items:center;gap:12px}
@@ -135,6 +135,9 @@ img{max-width:100%;height:auto;display:block}
 .meta-list{list-style:none;display:flex;flex-direction:column;gap:8px}
 .meta-list li{display:flex;align-items:center;gap:10px;font-size:0.85rem;color:var(--text-light)}
 .meta-list li svg{color:var(--primary);flex-shrink:0;width:16px;height:16px}
+/* ── HIDE LECTURE TITLES ── */
+.lecture-title{font-size:0;color:transparent;user-select:none}
+.lecture-title::before{content:'محتوى الدرس';font-size:0.92rem;color:var(--text-faint);font-style:italic;user-select:none}
 .footer{background:var(--primary-dark);color:var(--white);padding:60px 0 20px}
 .footer-top{display:grid;grid-template-columns:2fr 3fr;gap:48px;margin-bottom:40px}
 .footer-brand p{color:rgba(255,255,255,0.7);font-size:0.9rem;margin-top:8px}
@@ -190,7 +193,8 @@ img{max-width:100%;height:auto;display:block}
         </ul>
       </nav>
       <a href="../" class="logo" aria-label="رولا دايت - الصفحة الرئيسية">
-        <img src="/images/RULA-DIET-LOGO.png" alt="شعار رولا دايت" width="180" height="60">
+        <img src="/images/RULA-DIET-LOGO.png" alt="شعار رولا دايت" width="180" height="60"
+          onerror="this.src='/images/ruladiet1.webp'">
       </a>
       <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة" aria-expanded="false">
         <span></span><span></span><span></span>
@@ -202,22 +206,17 @@ img{max-width:100%;height:auto;display:block}
 <main>
   <section class="page-hero">
     <div class="container">
-      <span class="section-badge">دورة شاملة</span>
+      <span class="section-badge">التغذية الصحية</span>
       <h1>كورس المسار الصحي</h1>
-      <p class="sub">دورة شاملة لفهم أساسيات التغذية وتحسين عادات الأكل — 11 أسبوع من المحتوى العلمي والتطبيقات العملية</p>
-      
+      <p class="sub">دورة شاملة من 11 أسبوع تأخذك من أساسيات التغذية حتى تصميم نظامك الغذائي وتغيير عاداتك للأبد</p>
       <div class="hero-meta">
         <span>
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
-          2 ساعة 53 دقيقة
-        </span>
-        <span>
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
           11 أسبوع
         </span>
         <span>
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-          16 ملتحق
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+          42 درس
         </span>
         <span>
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
@@ -227,20 +226,12 @@ img{max-width:100%;height:auto;display:block}
     </div>
   </section>
 
-  <section style="background:var(--primary-dark);padding:0 0 60px">
-    <div class="container">
-      <div style="max-width:860px;margin:0 auto;position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:var(--radius);box-shadow:0 24px 64px rgba(0,0,0,0.4)">
-        <iframe src="https://player.vimeo.com/video/1096270449?badge=0&autopause=0&player_id=0&app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%" title="كورس المسار الصحي - مقدمة"></iframe>
-      </div>
-    </div>
-  </section>
-
   <div class="container">
     <div class="course-layout">
       <div class="course-main">
         <span class="section-badge section-title-badge">عن الدورة</span>
-        <h2 class="section-heading">ما هو كورس المسار الصحي؟</h2>
-        <p class="section-desc">دورة شاملة لفهم أساسيات التغذية وتحسين عادات الأكل. 11 أسبوع من المحتوى العلمي والتطبيقات العملية التي تساعدك على بناء نظام غذائي صحي متوازن يناسب احتياجاتك الفردية.</p>
+        <h2 class="section-heading">طريقك لعلاقة صحية مع الغذاء</h2>
+        <p class="section-desc">كورس المسار الصحي هو دورة تغذية شاملة من 11 أسبوع صُممت لتأخذك خطوة بخطوة من فهم أساسيات الغذاء وضبط أهدافك الصحية، مروراً بتصميم نظامك الغذائي الخاص، وصولاً إلى التعامل مع الأكل العاطفي وبناء عادات صحية دائمة. الكورس مبني على العلم والتطبيق معاً — كل أسبوع يحمل معلومات ووسائل عملية تستخدمها مباشرة في حياتك.</p>
 
         <h3 style="font-size:1.1rem;font-weight:700;color:var(--text);margin-bottom:16px;display:flex;align-items:center;gap:8px">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
@@ -249,19 +240,27 @@ img{max-width:100%;height:auto;display:block}
         <div class="who-for-grid">
           <div class="who-item">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-            <span>ترغب في تغيير وزنك ونظام حياتك الصحي</span>
+            <span>تريد إنقاص وزنك بطريقة صحية ومستدامة</span>
           </div>
           <div class="who-item">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-            <span>تعاني من تكرار فشل الدايت دون نتائج مستدامة</span>
+            <span>جربت رجيمات كثيرة ولم تنجح معك على المدى البعيد</span>
           </div>
           <div class="who-item">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-            <span>تبحث عن بداية صحية واقعية قابلة للاستمرار</span>
+            <span>تعاني من الأكل العاطفي أو إدمان الطعام</span>
           </div>
           <div class="who-item">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-            <span>تعاني من الأكل المرتبط بالمشاعر والتوتر</span>
+            <span>تريد فهم التغذية بشكل علمي وتطبيقي دون تعقيد</span>
+          </div>
+          <div class="who-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+            <span>وزنك ثابت ولا تعرف السبب</span>
+          </div>
+          <div class="who-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+            <span>تريد بناء عادات صحية حقيقية وليس مجرد نظام مؤقت</span>
           </div>
         </div>
 
@@ -273,67 +272,43 @@ img{max-width:100%;height:auto;display:block}
           <ul class="learn-list">
             <li>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-              فهم أساسيات التغذية والمفاهيم الأساسية للعناصر والحصص الغذائية
+              تحديد أهداف صحية ذكية وواقعية
             </li>
             <li>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-              تحسين عادات التغذية اليومية وتحويلها لعادات تلقائية
+              فهم المجموعات الغذائية والمغذيات الكبرى
             </li>
             <li>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-              اختيار الأطعمة الصحية وتركيب وجبات متوازنة
+              حساب السعرات وتصميم نظامك الغذائي الخاص
             </li>
             <li>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-              تصميم النظام الغذائي الخاص بك حسب أهدافك
+              مهارات التسوق الصحي وقراءة البطاقات الغذائية
             </li>
             <li>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-              التسوق الصحي وقراءة البطاقات الغذائية
+              التعامل مع إدمان الطعام والأكل العاطفي
             </li>
             <li>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-              فهم مشكلة إدمان الطعام وطرق علاجها
+              فهم الاستقلاب وطرق رفع معدل الحرق
             </li>
             <li>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-              التعرف على أسرار ضبط الشهية والوصول لعلاقة صحية مع الطعام
+              دور الرياضة والحركة في خسارة الوزن
             </li>
             <li>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-              التفريق بين الجوع الجسدي والجوع العاطفي
+              ضبط الشهية وحل مشكلة ثبات الوزن
             </li>
             <li>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-              الأكل الواعي أو التأملي للسيطرة على الشهية
+              بناء عادات صحية دائمة خطوة بخطوة
             </li>
             <li>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-              طرق رفع معدل الحرق والاستقلاب في جسمك
-            </li>
-            <li>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-              فهم أسباب ثبات الوزن المزعجة وعلاجاتها
-            </li>
-            <li>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-              التعرف على أنواع الرياضات واختيار الأنسب لك
-            </li>
-            <li>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-              دمج التغذية الصحية مع التمارين وإدارة التوتر والنوم
-            </li>
-            <li>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-              تطبيق نظام الصيام المتقطع وحمية البحر الأبيض المتوسط
-            </li>
-            <li>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-              دعم مستمر عبر مجموعة خاصة للمشتركين
-            </li>
-            <li>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-              أوراق عمل وأدوات لتحقيق أهدافك الصحية
+              أفضل الأنظمة الغذائية الصحية ومقارنتها
             </li>
           </ul>
         </div>
@@ -341,145 +316,383 @@ img{max-width:100%;height:auto;display:block}
         <div class="curriculum-section">
           <h3>
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
-            محتوى الدورة — 11 أسبوع
+            محتوى الدورة
           </h3>
-          <style>
-            .week-locked{display:flex;align-items:center;justify-content:space-between;background:var(--bg);padding:12px 18px;border-radius:var(--radius-sm);border:1px solid var(--border);margin-bottom:6px}
-            .week-locked-info{display:flex;align-items:center;gap:10px;color:var(--text-faint);font-size:0.88rem}
-            .lock-icon{color:var(--text-faint);flex-shrink:0}
-          </style>
 
           <!-- Week 1 -->
-          <div class="chapter-label">الأسبوع الأول</div>
-          <div class="curriculum" style="margin-bottom:16px">
-            <div class="week-locked"><div class="week-locked-info"><svg class="lock-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>محتوى مقفل للمشتركين</div></div>
-            <div class="week-locked"><div class="week-locked-info"><svg class="lock-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>محتوى مقفل للمشتركين</div></div>
+          <div class="chapter-label">الأسبوع الأول — 2 دروس</div>
+          <div class="curriculum">
+            <div class="lecture">
+              <div class="lecture-info">
+                <div class="lecture-number">1</div>
+                <span class="lecture-title">صفات الهدف الذكي</span>
+              </div>
+              <div class="lecture-right"><span class="lecture-duration">4:56</span></div>
+            </div>
+            <div class="lecture">
+              <div class="lecture-info">
+                <div class="lecture-number">2</div>
+                <span class="lecture-title">التطبيقات العملية</span>
+              </div>
+              <div class="lecture-right"><span class="lecture-duration">8:15</span></div>
+            </div>
           </div>
 
           <!-- Week 2 -->
-          <div class="chapter-label">الأسبوع الثاني</div>
-          <div class="curriculum" style="margin-bottom:16px">
-            <div class="week-locked"><div class="week-locked-info"><svg class="lock-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>محتوى مقفل للمشتركين</div></div>
+          <div class="chapter-label">الأسبوع الثاني — درس واحد</div>
+          <div class="curriculum">
+            <div class="lecture">
+              <div class="lecture-info">
+                <div class="lecture-number">3</div>
+                <span class="lecture-title">المجموعات الغذائية الخمسة</span>
+              </div>
+              <div class="lecture-right"><span class="lecture-duration">8:35</span></div>
+            </div>
           </div>
 
           <!-- Week 3 -->
-          <div class="chapter-label">الأسبوع الثالث</div>
-          <div class="curriculum" style="margin-bottom:16px">
-            <div class="week-locked"><div class="week-locked-info"><svg class="lock-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>محتوى مقفل للمشتركين</div></div>
-            <div class="week-locked"><div class="week-locked-info"><svg class="lock-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>محتوى مقفل للمشتركين</div></div>
-            <div class="week-locked"><div class="week-locked-info"><svg class="lock-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>محتوى مقفل للمشتركين</div></div>
+          <div class="chapter-label">الأسبوع الثالث — 3 دروس</div>
+          <div class="curriculum">
+            <div class="lecture">
+              <div class="lecture-info">
+                <div class="lecture-number">4</div>
+                <span class="lecture-title">هرم ماسلو</span>
+              </div>
+              <div class="lecture-right"><span class="lecture-duration">3:31</span></div>
+            </div>
+            <div class="lecture">
+              <div class="lecture-info">
+                <div class="lecture-number">5</div>
+                <span class="lecture-title">أفضل أنواع المغذيات</span>
+              </div>
+              <div class="lecture-right"><span class="lecture-duration">4:25</span></div>
+            </div>
+            <div class="lecture">
+              <div class="lecture-info">
+                <div class="lecture-number">6</div>
+                <span class="lecture-title">أضرار كل نوع + التطبيقات العملية</span>
+              </div>
+              <div class="lecture-right"><span class="lecture-duration">5:20</span></div>
+            </div>
           </div>
 
           <!-- Week 4 -->
-          <div class="chapter-label">الأسبوع الرابع</div>
-          <div class="curriculum" style="margin-bottom:16px">
-            <div class="week-locked"><div class="week-locked-info"><svg class="lock-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>محتوى مقفل للمشتركين</div></div>
-            <div class="week-locked"><div class="week-locked-info"><svg class="lock-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>محتوى مقفل للمشتركين</div></div>
-            <div class="week-locked"><div class="week-locked-info"><svg class="lock-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>محتوى مقفل للمشتركين</div></div>
-            <div class="week-locked"><div class="week-locked-info"><svg class="lock-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>محتوى مقفل للمشتركين</div></div>
-            <div class="week-locked"><div class="week-locked-info"><svg class="lock-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>محتوى مقفل للمشتركين</div></div>
-            <div class="week-locked"><div class="week-locked-info"><svg class="lock-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>محتوى مقفل للمشتركين</div></div>
-            <div class="week-locked"><div class="week-locked-info"><svg class="lock-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>محتوى مقفل للمشتركين</div></div>
-            <div class="week-locked"><div class="week-locked-info"><svg class="lock-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>محتوى مقفل للمشتركين</div></div>
+          <div class="chapter-label">الأسبوع الرابع — 8 دروس</div>
+          <div class="curriculum">
+            <div class="lecture">
+              <div class="lecture-info">
+                <div class="lecture-number">7</div>
+                <span class="lecture-title">دوائر الصحة النفسية</span>
+              </div>
+              <div class="lecture-right"><span class="lecture-duration">3:09</span></div>
+            </div>
+            <div class="lecture">
+              <div class="lecture-info">
+                <div class="lecture-number">8</div>
+                <span class="lecture-title">معادلات خسارة الوزن + احتياج الماء</span>
+              </div>
+              <div class="lecture-right"><span class="lecture-duration">5:19</span></div>
+            </div>
+            <div class="lecture">
+              <div class="lecture-info">
+                <div class="lecture-number">9</div>
+                <span class="lecture-title">توازن السعرات + شروط النظام</span>
+              </div>
+              <div class="lecture-right"><span class="lecture-duration">4:25</span></div>
+            </div>
+            <div class="lecture">
+              <div class="lecture-info">
+                <div class="lecture-number">10</div>
+                <span class="lecture-title">معادلات حساب الطاقة</span>
+              </div>
+              <div class="lecture-right"><span class="lecture-duration">8:07</span></div>
+            </div>
+            <div class="lecture">
+              <div class="lecture-info">
+                <div class="lecture-number">11</div>
+                <span class="lecture-title">نظام البدائل الغذائية</span>
+              </div>
+              <div class="lecture-right"><span class="lecture-duration">6:17</span></div>
+            </div>
+            <div class="lecture">
+              <div class="lecture-info">
+                <div class="lecture-number">12</div>
+                <span class="lecture-title">الحصص الغذائية</span>
+              </div>
+              <div class="lecture-right"><span class="lecture-duration">6:06</span></div>
+            </div>
+            <div class="lecture">
+              <div class="lecture-info">
+                <div class="lecture-number">13</div>
+                <span class="lecture-title">تصميم النظام الغذائي</span>
+              </div>
+              <div class="lecture-right"><span class="lecture-duration">15:17</span></div>
+            </div>
+            <div class="lecture">
+              <div class="lecture-info">
+                <div class="lecture-number">14</div>
+                <span class="lecture-title">نصائح عامة</span>
+              </div>
+              <div class="lecture-right"><span class="lecture-duration">4:48</span></div>
+            </div>
           </div>
 
           <!-- Week 5 -->
-          <div class="chapter-label">الأسبوع الخامس</div>
-          <div class="curriculum" style="margin-bottom:16px">
-            <div class="week-locked"><div class="week-locked-info"><svg class="lock-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>محتوى مقفل للمشتركين</div></div>
-            <div class="week-locked"><div class="week-locked-info"><svg class="lock-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>محتوى مقفل للمشتركين</div></div>
-            <div class="week-locked"><div class="week-locked-info"><svg class="lock-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>محتوى مقفل للمشتركين</div></div>
+          <div class="chapter-label">الأسبوع الخامس — 3 دروس</div>
+          <div class="curriculum">
+            <div class="lecture">
+              <div class="lecture-info">
+                <div class="lecture-number">15</div>
+                <span class="lecture-title">خطوات التسوق الصحي</span>
+              </div>
+              <div class="lecture-right"><span class="lecture-duration">9:22</span></div>
+            </div>
+            <div class="lecture">
+              <div class="lecture-info">
+                <div class="lecture-number">16</div>
+                <span class="lecture-title">البطاقة الغذائية وقائمة المحتويات</span>
+              </div>
+              <div class="lecture-right"><span class="lecture-duration">12:34</span></div>
+            </div>
+            <div class="lecture">
+              <div class="lecture-info">
+                <div class="lecture-number">17</div>
+                <span class="lecture-title">أمثلة + طريقة معرفة السعرات للمنتجات</span>
+              </div>
+              <div class="lecture-right"><span class="lecture-duration">4:22</span></div>
+            </div>
           </div>
 
           <!-- Week 6 -->
-          <div class="chapter-label">الأسبوع السادس</div>
-          <div class="curriculum" style="margin-bottom:16px">
-            <div class="week-locked"><div class="week-locked-info"><svg class="lock-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>محتوى مقفل للمشتركين</div></div>
-            <div class="week-locked"><div class="week-locked-info"><svg class="lock-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>محتوى مقفل للمشتركين</div></div>
-            <div class="week-locked"><div class="week-locked-info"><svg class="lock-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>محتوى مقفل للمشتركين</div></div>
-            <div class="week-locked"><div class="week-locked-info"><svg class="lock-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>محتوى مقفل للمشتركين</div></div>
-            <div class="week-locked"><div class="week-locked-info"><svg class="lock-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>محتوى مقفل للمشتركين</div></div>
-            <div class="week-locked"><div class="week-locked-info"><svg class="lock-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>محتوى مقفل للمشتركين</div></div>
-            <div class="week-locked"><div class="week-locked-info"><svg class="lock-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>محتوى مقفل للمشتركين</div></div>
+          <div class="chapter-label">الأسبوع السادس — 7 دروس</div>
+          <div class="curriculum">
+            <div class="lecture">
+              <div class="lecture-info">
+                <div class="lecture-number">18</div>
+                <span class="lecture-title">تعريف إدمان الطعام</span>
+              </div>
+              <div class="lecture-right"><span class="lecture-duration">4:29</span></div>
+            </div>
+            <div class="lecture">
+              <div class="lecture-info">
+                <div class="lecture-number">19</div>
+                <span class="lecture-title">اختبار إدمان الطعام</span>
+              </div>
+            </div>
+            <div class="lecture">
+              <div class="lecture-info">
+                <div class="lecture-number">20</div>
+                <span class="lecture-title">علاج الإدمان + الجوع الحقيقي والعاطفي</span>
+              </div>
+              <div class="lecture-right"><span class="lecture-duration">9:23</span></div>
+            </div>
+            <div class="lecture">
+              <div class="lecture-info">
+                <div class="lecture-number">21</div>
+                <span class="lecture-title">مؤشر الجوع + الأكل التأملي</span>
+              </div>
+              <div class="lecture-right"><span class="lecture-duration">7:46</span></div>
+            </div>
+            <div class="lecture">
+              <div class="lecture-info">
+                <div class="lecture-number">22</div>
+                <span class="lecture-title">مناهج خاطئة في التفكير</span>
+              </div>
+              <div class="lecture-right"><span class="lecture-duration">5:25</span></div>
+            </div>
+            <div class="lecture">
+              <div class="lecture-info">
+                <div class="lecture-number">23</div>
+                <span class="lecture-title">طرق لعلاج الإدمان + تطبيقات عملية</span>
+              </div>
+              <div class="lecture-right"><span class="lecture-duration">6:39</span></div>
+            </div>
+            <div class="lecture">
+              <div class="lecture-info">
+                <div class="lecture-number">24</div>
+                <span class="lecture-title">كيف يعمل الإدمان</span>
+              </div>
+              <div class="lecture-right"><span class="lecture-duration">1:30</span></div>
+            </div>
           </div>
 
           <!-- Week 7 -->
-          <div class="chapter-label">الأسبوع السابع</div>
-          <div class="curriculum" style="margin-bottom:16px">
-            <div class="week-locked"><div class="week-locked-info"><svg class="lock-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>محتوى مقفل للمشتركين</div></div>
-            <div class="week-locked"><div class="week-locked-info"><svg class="lock-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>محتوى مقفل للمشتركين</div></div>
-            <div class="week-locked"><div class="week-locked-info"><svg class="lock-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>محتوى مقفل للمشتركين</div></div>
+          <div class="chapter-label">الأسبوع السابع — 3 دروس</div>
+          <div class="curriculum">
+            <div class="lecture">
+              <div class="lecture-info">
+                <div class="lecture-number">25</div>
+                <span class="lecture-title">تعريف الاستقلاب + عوامل التأثير عليه</span>
+              </div>
+              <div class="lecture-right"><span class="lecture-duration">6:23</span></div>
+            </div>
+            <div class="lecture">
+              <div class="lecture-info">
+                <div class="lecture-number">26</div>
+                <span class="lecture-title">طرق رفع الحرق</span>
+              </div>
+            </div>
+            <div class="lecture">
+              <div class="lecture-info">
+                <div class="lecture-number">27</div>
+                <span class="lecture-title">تطبيقات عملية — الاستقلاب</span>
+              </div>
+            </div>
           </div>
 
-          <!-- Weeks 8-11 -->
-          <div class="chapter-label">الأسبوع الثامن</div>
-          <div class="curriculum" style="margin-bottom:16px">
-            <div class="week-locked"><div class="week-locked-info"><svg class="lock-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>محتوى مقفل للمشتركين</div></div>
-            <div class="week-locked"><div class="week-locked-info"><svg class="lock-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>محتوى مقفل للمشتركين</div></div>
-            <div class="week-locked"><div class="week-locked-info"><svg class="lock-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>محتوى مقفل للمشتركين</div></div>
+          <!-- Week 8 -->
+          <div class="chapter-label">الأسبوع الثامن — 3 دروس</div>
+          <div class="curriculum">
+            <div class="lecture">
+              <div class="lecture-info">
+                <div class="lecture-number">28</div>
+                <span class="lecture-title">الفرق بين الحركة والرياضة + معدل الجهد</span>
+              </div>
+              <div class="lecture-right"><span class="lecture-duration">7:22</span></div>
+            </div>
+            <div class="lecture">
+              <div class="lecture-info">
+                <div class="lecture-number">29</div>
+                <span class="lecture-title">التطبيق العملي + تمارين الـ HIIT</span>
+              </div>
+              <div class="lecture-right"><span class="lecture-duration">10:12</span></div>
+            </div>
+            <div class="lecture">
+              <div class="lecture-info">
+                <div class="lecture-number">30</div>
+                <span class="lecture-title">تطبيقات عملية — الرياضة</span>
+              </div>
+            </div>
           </div>
 
-          <div class="chapter-label">الأسبوع التاسع</div>
-          <div class="curriculum" style="margin-bottom:16px">
-            <div class="week-locked"><div class="week-locked-info"><svg class="lock-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>محتوى مقفل للمشتركين</div></div>
-            <div class="week-locked"><div class="week-locked-info"><svg class="lock-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>محتوى مقفل للمشتركين</div></div>
-            <div class="week-locked"><div class="week-locked-info"><svg class="lock-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>محتوى مقفل للمشتركين</div></div>
+          <!-- Week 9 -->
+          <div class="chapter-label">الأسبوع التاسع — 3 دروس</div>
+          <div class="curriculum">
+            <div class="lecture">
+              <div class="lecture-info">
+                <div class="lecture-number">31</div>
+                <span class="lecture-title">أساسيات ضبط الشهية</span>
+              </div>
+              <div class="lecture-right"><span class="lecture-duration">10:54</span></div>
+            </div>
+            <div class="lecture">
+              <div class="lecture-info">
+                <div class="lecture-number">32</div>
+                <span class="lecture-title">أسباب ثبات الوزن المزعجة</span>
+              </div>
+              <div class="lecture-right"><span class="lecture-duration">5:31</span></div>
+            </div>
+            <div class="lecture">
+              <div class="lecture-info">
+                <div class="lecture-number">33</div>
+                <span class="lecture-title">تطبيقات عملية — الشهية</span>
+              </div>
+            </div>
           </div>
 
-          <div class="chapter-label">الأسبوع العاشر</div>
-          <div class="curriculum" style="margin-bottom:16px">
-            <div class="week-locked"><div class="week-locked-info"><svg class="lock-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>محتوى مقفل للمشتركين</div></div>
-            <div class="week-locked"><div class="week-locked-info"><svg class="lock-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>محتوى مقفل للمشتركين</div></div>
-            <div class="week-locked"><div class="week-locked-info"><svg class="lock-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>محتوى مقفل للمشتركين</div></div>
+          <!-- Week 10 -->
+          <div class="chapter-label">الأسبوع العاشر — 3 دروس</div>
+          <div class="curriculum">
+            <div class="lecture">
+              <div class="lecture-info">
+                <div class="lecture-number">34</div>
+                <span class="lecture-title">العادات وكيفية اكتسابها</span>
+              </div>
+              <div class="lecture-right"><span class="lecture-duration">9:17</span></div>
+            </div>
+            <div class="lecture">
+              <div class="lecture-info">
+                <div class="lecture-number">35</div>
+                <span class="lecture-title">نصائح لاكتساب العادات + تطبيق عملي</span>
+              </div>
+              <div class="lecture-right"><span class="lecture-duration">8:08</span></div>
+            </div>
+            <div class="lecture">
+              <div class="lecture-info">
+                <div class="lecture-number">36</div>
+                <span class="lecture-title">تطبيقات عملية — العادات</span>
+              </div>
+            </div>
           </div>
 
-          <div class="chapter-label">الأسبوع الحادي عشر</div>
-          <div class="curriculum" style="margin-bottom:16px">
-            <div class="week-locked"><div class="week-locked-info"><svg class="lock-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>محتوى مقفل للمشتركين</div></div>
-            <div class="week-locked"><div class="week-locked-info"><svg class="lock-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>محتوى مقفل للمشتركين</div></div>
-            <div class="week-locked"><div class="week-locked-info"><svg class="lock-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>محتوى مقفل للمشتركين</div></div>
+          <!-- Week 11 -->
+          <div class="chapter-label">الأسبوع الحادي عشر — 3 دروس</div>
+          <div class="curriculum">
+            <div class="lecture">
+              <div class="lecture-info">
+                <div class="lecture-number">37</div>
+                <span class="lecture-title">أنظمة غذائية صحيحة</span>
+              </div>
+            </div>
+            <div class="lecture">
+              <div class="lecture-info">
+                <div class="lecture-number">38</div>
+                <span class="lecture-title">مقارنة الأنظمة الغذائية</span>
+              </div>
+            </div>
+            <div class="lecture">
+              <div class="lecture-info">
+                <div class="lecture-number">39</div>
+                <span class="lecture-title">تطبيقات عملية — الأنظمة الغذائية</span>
+              </div>
+            </div>
           </div>
 
-          <!-- Book -->
-          <div class="chapter-label" style="background:var(--accent)">كتاب التطبيقات العملية</div>
-          <div class="curriculum" style="margin-bottom:16px">
-            <div class="week-locked" style="border-color:var(--accent)"><div class="week-locked-info"><svg class="lock-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>متاح للمشتركين فقط</div></div>
+          <!-- Bonus -->
+          <div class="chapter-label">📒 كتاب التطبيقات العملية — 3 دروس إضافية</div>
+          <div class="curriculum">
+            <div class="lecture">
+              <div class="lecture-info">
+                <div class="lecture-number">40</div>
+                <span class="lecture-title">كتاب التطبيقات العملية</span>
+              </div>
+            </div>
+            <div class="lecture">
+              <div class="lecture-info">
+                <div class="lecture-number">41</div>
+                <span class="lecture-title">المسار الصحي — نظرة عامة</span>
+              </div>
+            </div>
+            <div class="lecture">
+              <div class="lecture-info">
+                <div class="lecture-number">42</div>
+                <span class="lecture-title">خلاصة الكورس + الخطوات القادمة</span>
+              </div>
+            </div>
           </div>
         </div>
 
         <div class="info-cards">
-
           <div class="info-card">
             <h4>
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-              مواد الدورة
+              المواد المرفقة
             </h4>
             <ul>
-              <li>ملف التطبيقات العملية</li>
-              <li>ملف الوصفات الصحية</li>
-              <li>ملف البدائل الغذائية</li>
-              <li>ملف تكوين العادات الصحية</li>
-              <li>3 جداول رياضية</li>
-              <li>شهادة حضور للبرنامج التدريبي</li>
+              <li>42 فيديو مسجّل تشرح كل المواضيع</li>
+              <li>كتاب التطبيقات العملية</li>
+              <li>جداول لحساب السعرات والبدائل الغذائية</li>
+              <li>قوائم تسوق صحي جاهزة</li>
+              <li>تمارين عملية في نهاية كل أسبوع</li>
             </ul>
           </div>
-
           <div class="info-card">
             <h4>
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
               المتطلبات
             </h4>
             <ul>
-              <li>الوعي والالتزام بتطبيق ما تتعلمه</li>
-              <li>لا يتطلب الكورس أي خبرة مسبقة</li>
-              <li>يُنصح بمتابعة الدروس بالترتيب</li>
-              <li>تخصيص وقت أسبوعي للتطبيق العملي</li>
+              <li>لا تحتاج لخلفية علمية مسبقة</li>
+              <li>الالتزام بمشاهدة الدروس بالترتيب</li>
+              <li>تخصيص وقت للتطبيق الأسبوعي</li>
+              <li>يفضّل وجود دفتر لتدوين الملاحظات</li>
             </ul>
           </div>
         </div>
 
         <div class="instructor-card">
-          <img src="../images/newrulaface.png" alt="رولا علوش" loading="lazy">
+          <img src="/images/newrulaface.png" alt="رولا علوش" loading="lazy"
+            onerror="this.style.display='none'">
           <div class="instructor-info">
             <h4>رولا علوش</h4>
             <p>اختصاصية التغذية — أكثر من 140 ألف متابع على انستغرام، مؤسسة رولا دايت ومقدمة برامج التوعية الغذائية.</p>
@@ -491,7 +704,7 @@ img{max-width:100%;height:auto;display:block}
         <div class="sidebar-card">
           <div class="sidebar-price-box">
             <div class="price-free" style="font-size:1.8rem">$247</div>
-            <div class="price-label">دورة شاملة</div>
+            <div class="price-label">دورة شاملة — 11 أسبوع</div>
           </div>
           <div class="sidebar-cta">
             <a href="https://wa.me/905300222468?text=%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D9%83%D9%88%D8%B1%D8%B3%20%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D8%B1%20%D8%A7%D9%84%D8%B5%D8%AD%D9%8A" class="btn-accent" target="_blank" rel="noopener">اشترِ الآن - $247</a>
@@ -503,15 +716,15 @@ img{max-width:100%;height:auto;display:block}
             <ul class="includes-list">
               <li>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
-                29 درس فيديو
+                42 درس فيديو
               </li>
               <li>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
-                2 ساعة 53 دقيقة محتوى
+                11 أسبوع محتوى
               </li>
               <li>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
-                11 أسبوع برنامج متكامل
+                كتاب التطبيقات العملية
               </li>
               <li>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
@@ -529,7 +742,7 @@ img{max-width:100%;height:auto;display:block}
             <ul class="meta-list">
               <li>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
-                29 درس — 2 ساعة 53 دقيقة
+                42 درس — 11 أسبوع
               </li>
               <li>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
@@ -555,7 +768,8 @@ img{max-width:100%;height:auto;display:block}
   <div class="container">
     <div class="footer-top">
       <div class="footer-brand">
-        <img src="/images/RULA-DIET-LOGO.png" alt="رولا دايت" width="180" height="60" loading="lazy">
+        <img src="/images/RULA-DIET-LOGO.png" alt="رولا دايت" width="180" height="60" loading="lazy"
+          onerror="this.src='/images/ruladiet1.webp'">
         <p>اختصاصية التغذية رولا علوش<br>عيادة التغذية في اسطنبول</p>
       </div>
       <div class="footer-links-new">

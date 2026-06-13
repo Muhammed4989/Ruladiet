@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>صفات الهدف الذكي — الأسبوع الأول | كورس المسار الصحي</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;600;700;800&display=swap">
+<style>
+:root{
+  --primary:#2D5240;--primary-light:#3A6B54;--primary-dark:#1F3A2D;
+  --accent:#C8A97E;--accent-hover:#B8956A;
+  --bg:#F7F9F5;--bg-alt:#E8F5EE;
+  --text:#1A2E24;--text-light:#4A6B5A;--text-faint:#8BA69A;
+  --border:#D4E3D9;--white:#FFFFFF;
+  --shadow:0 4px 24px rgba(45,82,64,0.08);
+  --radius:16px;--radius-sm:10px;--transition:0.3s ease;
+  --font-primary:'Tajawal',sans-serif
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--font-primary);background:var(--bg);color:var(--text);line-height:1.8;overflow-x:hidden}
+a{text-decoration:none;color:inherit}
+img{max-width:100%;height:auto;display:block}
+
+/* ── HEADER ── */
+.header{position:fixed;top:0;left:0;right:0;z-index:1000;background:rgba(255,255,255,0.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
+.header-inner{display:flex;align-items:center;justify-content:space-between;height:68px;max-width:1300px;margin:0 auto;padding:0 24px;gap:16px}
+.logo img{height:54px;width:auto}
+.header-course-title{font-weight:600;font-size:0.9rem;color:var(--text-light);display:flex;align-items:center;gap:8px}
+.header-course-title span{color:var(--primary);font-weight:700}
+.nav-cta{background:var(--primary);color:var(--white);padding:9px 22px;border-radius:var(--radius-sm);font-weight:600;font-size:0.88rem;transition:var(--transition)}
+.nav-cta:hover{background:var(--primary-light)}
+
+/* ── LAYOUT ── */
+.lesson-layout{display:grid;grid-template-columns:1fr 340px;gap:32px;max-width:1300px;margin:0 auto;padding:96px 24px 60px;align-items:start}
+
+/* ── VIDEO AREA ── */
+.video-area{}
+.breadcrumb{display:flex;align-items:center;gap:8px;font-size:0.85rem;color:var(--text-faint);margin-bottom:20px;flex-wrap:wrap}
+.breadcrumb a{color:var(--text-light);transition:var(--transition)}
+.breadcrumb a:hover{color:var(--primary)}
+.breadcrumb .sep{color:var(--border)}
+.breadcrumb .current{color:var(--primary);font-weight:600}
+
+.week-badge{display:inline-flex;align-items:center;gap:6px;background:var(--bg-alt);color:var(--primary);border:1px solid var(--border);padding:5px 14px;border-radius:20px;font-size:0.82rem;font-weight:600;margin-bottom:14px}
+.lesson-title{font-size:1.75rem;font-weight:800;color:var(--text);margin-bottom:22px;line-height:1.4}
+
+.video-wrapper{position:relative;padding-bottom:56.25%;height:0;border-radius:var(--radius);overflow:hidden;background:#0a0a0a;box-shadow:0 8px 40px rgba(45,82,64,0.15)}
+.video-wrapper iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0}
+
+/* ── LESSON NAV ── */
+.lesson-nav{display:flex;justify-content:space-between;align-items:center;margin-top:24px;gap:12px}
+.lesson-nav-btn{display:inline-flex;align-items:center;gap:8px;padding:10px 20px;border-radius:var(--radius-sm);font-weight:600;font-size:0.9rem;transition:var(--transition);border:2px solid var(--border);color:var(--text-light);background:var(--white)}
+.lesson-nav-btn:hover{border-color:var(--primary);color:var(--primary);background:var(--bg-alt)}
+.lesson-nav-btn.next{background:var(--primary);color:var(--white);border-color:var(--primary)}
+.lesson-nav-btn.next:hover{background:var(--primary-light)}
+.lesson-nav-btn svg{width:18px;height:18px;flex-shrink:0}
+.lesson-nav-center{font-size:0.85rem;color:var(--text-faint)}
+
+/* ── LESSON INFO ── */
+.lesson-info{margin-top:32px;background:var(--white);border-radius:var(--radius);border:1px solid var(--border);padding:28px}
+.lesson-info h3{font-size:1.05rem;font-weight:700;color:var(--text);margin-bottom:14px;padding-bottom:12px;border-bottom:1px solid var(--border)}
+.lesson-info p{font-size:0.95rem;color:var(--text-light);line-height:1.9}
+
+/* ── SIDEBAR ── */
+.sidebar{position:sticky;top:88px}
+.sidebar-card{background:var(--white);border-radius:var(--radius);border:1px solid var(--border);overflow:hidden;box-shadow:var(--shadow)}
+.sidebar-header{background:linear-gradient(135deg,var(--primary),var(--primary-dark));padding:20px 22px;color:var(--white)}
+.sidebar-header h3{font-size:1rem;font-weight:700;margin-bottom:4px}
+.sidebar-header p{font-size:0.82rem;opacity:0.85}
+
+.progress-bar-wrap{margin-top:14px}
+.progress-bar-track{background:rgba(255,255,255,0.2);border-radius:99px;height:6px;overflow:hidden}
+.progress-bar-fill{height:100%;border-radius:99px;background:var(--accent);width:4%}
+.progress-label{display:flex;justify-content:space-between;font-size:0.78rem;opacity:0.85;margin-top:6px}
+
+.week-group{border-bottom:1px solid var(--border)}
+.week-group:last-child{border-bottom:none}
+.week-header{display:flex;align-items:center;justify-content:space-between;padding:14px 18px;cursor:pointer;transition:var(--transition);user-select:none}
+.week-header:hover{background:var(--bg)}
+.week-header-title{font-weight:700;font-size:0.88rem;color:var(--text);display:flex;align-items:center;gap:8px}
+.week-header-count{font-size:0.78rem;color:var(--text-faint);font-weight:400}
+.week-header-icon{color:var(--text-faint);transition:var(--transition);font-size:0.75rem}
+.week-header.open .week-header-icon{transform:rotate(180deg)}
+.week-lessons{display:none;border-top:1px solid var(--border)}
+.week-header.open + .week-lessons{display:block}
+
+.lesson-item{display:flex;align-items:center;gap:10px;padding:11px 18px 11px 22px;font-size:0.85rem;color:var(--text-light);transition:var(--transition);cursor:pointer;border-bottom:1px solid var(--bg)}
+.lesson-item:last-child{border-bottom:none}
+.lesson-item:hover{background:var(--bg);color:var(--primary)}
+.lesson-item.active{background:var(--bg-alt);color:var(--primary);font-weight:700;border-right:3px solid var(--primary)}
+.lesson-item.locked{color:var(--text-faint);cursor:default}
+.lesson-item.locked:hover{background:transparent;color:var(--text-faint)}
+.lesson-icon{width:22px;height:22px;border-radius:50%;border:2px solid currentColor;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:0.65rem}
+.lesson-item.active .lesson-icon{background:var(--primary);border-color:var(--primary);color:var(--white)}
+.lesson-item.locked .lesson-icon{border-color:var(--border)}
+.lesson-num{font-size:0.78rem;color:var(--text-faint);margin-right:auto;flex-shrink:0}
+
+/* ── LOCKED LESSON TITLE HIDE ── */
+.lesson-item.locked span:not(.lesson-num){
+  font-size:0;
+  color:transparent;
+  user-select:none;
+}
+.lesson-item.locked span:not(.lesson-num)::before{
+  content:'محتوى مقفل';
+  font-size:0.88rem;
+  color:var(--text-faint);
+  font-style:italic;
+  user-select:none;
+}
+
+/* ── FOOTER ── */
+.footer{background:var(--primary-dark);color:rgba(255,255,255,0.7);text-align:center;padding:28px 20px;font-size:0.85rem;margin-top:60px}
+.footer a{color:var(--accent);transition:var(--transition)}
+.footer a:hover{color:var(--white)}
+
+/* ── RESPONSIVE ── */
+@media(max-width:900px){
+  .lesson-layout{grid-template-columns:1fr;padding:84px 16px 40px}
+  .sidebar{position:static}
+  .lesson-title{font-size:1.4rem}
+}
+@media(max-width:600px){
+  .header-course-title{display:none}
+  .lesson-nav-btn span{display:none}
+}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="header-inner">
+    <a href="/" class="logo"><img src="../../images/ruladiet-logo.svg" alt="رولا دايت" onerror="this.style.display='none'"></a>
+    <div class="header-course-title">
+      <span>كورس المسار الصحي</span>
+      <span style="color:var(--border)">›</span>
+      الأسبوع الأول
+    </div>
+    <a href="../المسار-الصحي.html" class="nav-cta">← العودة للكورس</a>
+  </div>
+</header>
+
+<!-- MAIN LAYOUT -->
+<div class="lesson-layout">
+
+  <!-- VIDEO + INFO -->
+  <main class="video-area">
+
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb" aria-label="مسار التنقل">
+      <a href="/">الرئيسية</a>
+      <span class="sep">›</span>
+      <a href="../المسار-الصحي.html">المسار الصحي</a>
+      <span class="sep">›</span>
+      <span>الأسبوع الأول</span>
+      <span class="sep">›</span>
+      <span class="current">صفات الهدف الذكي</span>
+    </nav>
+
+    <!-- Week & Title -->
+    <div class="week-badge">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+      الأسبوع الأول
+    </div>
+    <h1 class="lesson-title">صفات الهدف الذكي</h1>
+
+    <!-- Video Player -->
+    <div class="video-wrapper">
+      <iframe
+        src="https://player.vimeo.com/video/1096735056?badge=0&autopause=0&player_id=0&app_id=58479"
+        allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+        title="صفات الهدف الذكي — كورس المسار الصحي">
+      </iframe>
+    </div>
+
+    <!-- Lesson Navigation -->
+    <nav class="lesson-nav" aria-label="التنقل بين الدروس">
+      <span class="lesson-nav-center">درس 1 من 2 — الأسبوع الأول</span>
+      <a href="التطبيقات-العملية.html" class="lesson-nav-btn next">
+        <span>الدرس التالي</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+      </a>
+    </nav>
+
+    <!-- Lesson Description -->
+    <div class="lesson-info">
+      <h3>عن هذا الدرس</h3>
+      <p>
+        في هذا الدرس ستتعرفين على صفات الهدف الذكي (SMART Goal) وكيفية وضع أهداف صحية قابلة للتحقيق وواقعية. الهدف الذكي هو أساس أي خطة تغذية ناجحة، وسيساعدكِ على التركيز والاستمرار.
+      </p>
+    </div>
+
+  </main>
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="sidebar-card">
+      <div class="sidebar-header">
+        <h3>محتوى الكورس</h3>
+        <p>11 أسبوع · 40+ درس</p>
+        <div class="progress-bar-wrap">
+          <div class="progress-bar-track"><div class="progress-bar-fill"></div></div>
+          <div class="progress-label"><span>تقدمك</span><span>1 / 41</span></div>
+        </div>
+      </div>
+
+      <!-- Week 1 -->
+      <div class="week-group">
+        <div class="week-header open" onclick="toggleWeek(this)">
+          <div class="week-header-title">
+            الأسبوع الأول
+            <span class="week-header-count">درسان</span>
+          </div>
+          <span class="week-header-icon">▾</span>
+        </div>
+        <div class="week-lessons">
+          <div class="lesson-item active">
+            <div class="lesson-icon">▶</div>
+            <span>صفات الهدف الذكي</span>
+            <span class="lesson-num">4:56</span>
+          </div>
+          <a href="التطبيقات-العملية.html" class="lesson-item">
+            <div class="lesson-icon">○</div>
+            <span>التطبيقات العملية</span>
+            <span class="lesson-num">8:15</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Week 2 -->
+      <div class="week-group">
+        <div class="week-header" onclick="toggleWeek(this)">
+          <div class="week-header-title">
+            الأسبوع الثاني
+            <span class="week-header-count">درس واحد</span>
+          </div>
+          <span class="week-header-icon">▾</span>
+        </div>
+        <div class="week-lessons">
+          <div class="lesson-item locked">
+            <div class="lesson-icon">🔒</div>
+            <span>المجموعات الغذائية الخمسة</span>
+            <span class="lesson-num">8:35</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Week 3 -->
+      <div class="week-group">
+        <div class="week-header" onclick="toggleWeek(this)">
+          <div class="week-header-title">
+            الأسبوع الثالث
+            <span class="week-header-count">3 دروس</span>
+          </div>
+          <span class="week-header-icon">▾</span>
+        </div>
+        <div class="week-lessons">
+          <div class="lesson-item locked"><div class="lesson-icon">🔒</div><span>هرم ماسلو</span><span class="lesson-num">3:31</span></div>
+          <div class="lesson-item locked"><div class="lesson-icon">🔒</div><span>أفضل أنواع المغذيات</span><span class="lesson-num">4:25</span></div>
+          <div class="lesson-item locked"><div class="lesson-icon">🔒</div><span>أضرار كل نوع + التطبيقات العملية</span><span class="lesson-num">5:20</span></div>
+        </div>
+      </div>
+
+      <!-- Week 4 -->
+      <div class="week-group">
+        <div class="week-header" onclick="toggleWeek(this)">
+          <div class="week-header-title">
+            الأسبوع الرابع
+            <span class="week-header-count">8 دروس</span>
+          </div>
+          <span class="week-header-icon">▾</span>
+        </div>
+        <div class="week-lessons">
+          <div class="lesson-item locked"><div class="lesson-icon">🔒</div><span>دوائر الصح النفسية</span><span class="lesson-num">3:09</span></div>
+          <div class="lesson-item locked"><div class="lesson-icon">🔒</div><span>معادلات خسارة الوزن + احتياج الماء</span><span class="lesson-num">5:19</span></div>
+          <div class="lesson-item locked"><div class="lesson-icon">🔒</div><span>توازن السعرات + شروط النظام</span><span class="lesson-num">4:25</span></div>
+          <div class="lesson-item locked"><div class="lesson-icon">🔒</div><span>معادلات حساب الطاقة</span><span class="lesson-num">8:07</span></div>
+          <div class="lesson-item locked"><div class="lesson-icon">🔒</div><span>نظام البدائل الغذائية</span><span class="lesson-num">6:17</span></div>
+          <div class="lesson-item locked"><div class="lesson-icon">🔒</div><span>الحصص الغذائية</span><span class="lesson-num">6:06</span></div>
+          <div class="lesson-item locked"><div class="lesson-icon">🔒</div><span>تصميم النظام الغذائي</span><span class="lesson-num">15:17</span></div>
+          <div class="lesson-item locked"><div class="lesson-icon">🔒</div><span>نصائح عامة</span><span class="lesson-num">4:48</span></div>
+        </div>
+      </div>
+
+      <!-- Week 5 -->
+      <div class="week-group">
+        <div class="week-header" onclick="toggleWeek(this)">
+          <div class="week-header-title">الأسبوع الخامس<span class="week-header-count">3 دروس</span></div>
+          <span class="week-header-icon">▾</span>
+        </div>
+        <div class="week-lessons">
+          <div class="lesson-item locked"><div class="lesson-icon">🔒</div><span>خطوات التسوق الصحي</span><span class="lesson-num">9:22</span></div>
+          <div class="lesson-item locked"><div class="lesson-icon">🔒</div><span>البطاقة الغذائية وقائمة المحتويات</span><span class="lesson-num">12:34</span></div>
+          <div class="lesson-item locked"><div class="lesson-icon">🔒</div><span>أمثلة + طريقة معرفة السعرات للمنتجات</span><span class="lesson-num">4:22</span></div>
+        </div>
+      </div>
+
+      <!-- Week 6 -->
+      <div class="week-group">
+        <div class="week-header" onclick="toggleWeek(this)">
+          <div class="week-header-title">الأسبوع السادس<span class="week-header-count">7 دروس</span></div>
+          <span class="week-header-icon">▾</span>
+        </div>
+        <div class="week-lessons">
+          <div class="lesson-item locked"><div class="lesson-icon">🔒</div><span>تعريف إدمان الطعام</span><span class="lesson-num">4:29</span></div>
+          <div class="lesson-item locked"><div class="lesson-icon">🔒</div><span>اختبار إدمان الطعام</span></div>
+          <div class="lesson-item locked"><div class="lesson-icon">🔒</div><span>علاج الإدمان + الجوع الحقيقي والعاطفي</span><span class="lesson-num">9:23</span></div>
+          <div class="lesson-item locked"><div class="lesson-icon">🔒</div><span>مؤشر الجوع + الأكل التأملي</span><span class="lesson-num">7:46</span></div>
+          <div class="lesson-item locked"><div class="lesson-icon">🔒</div><span>مداهج خاطئة في التفكير</span><span class="lesson-num">5:25</span></div>
+          <div class="lesson-item locked"><div class="lesson-icon">🔒</div><span>طرق لعلاج الإدمان + تطبيقات عملية</span><span class="lesson-num">6:39</span></div>
+          <div class="lesson-item locked"><div class="lesson-icon">🔒</div><span>كيف يعمل الإدمان</span><span class="lesson-num">1:30</span></div>
+        </div>
+      </div>
+
+      <!-- Weeks 7-11 collapsed -->
+      <div class="week-group">
+        <div class="week-header" onclick="toggleWeek(this)">
+          <div class="week-header-title">الأسبوع السابع<span class="week-header-count">3 دروس</span></div>
+          <span class="week-header-icon">▾</span>
+        </div>
+        <div class="week-lessons">
+          <div class="lesson-item locked"><div class="lesson-icon">🔒</div><span>تعريف الاستقلاب + عوامل التأثير عليه</span><span class="lesson-num">6:23</span></div>
+          <div class="lesson-item locked"><div class="lesson-icon">🔒</div><span>طرق رفع الحرق</span></div>
+          <div class="lesson-item locked"><div class="lesson-icon">🔒</div><span>الأسبوع السابع — الدرس 3</span></div>
+        </div>
+      </div>
+
+      <div class="week-group">
+        <div class="week-header" onclick="toggleWeek(this)">
+          <div class="week-header-title">الأسبوع الثامن<span class="week-header-count">3 دروس</span></div>
+          <span class="week-header-icon">▾</span>
+        </div>
+        <div class="week-lessons">
+          <div class="lesson-item locked"><div class="lesson-icon">🔒</div><span>الفرق بين الحركة والرياضة + معدل الجهد</span><span class="lesson-num">7:22</span></div>
+          <div class="lesson-item locked"><div class="lesson-icon">🔒</div><span>التطبيق العملي + تمارين الـ Hit</span><span class="lesson-num">10:12</span></div>
+          <div class="lesson-item locked"><div class="lesson-icon">🔒</div><span>الأسبوع الثامن — الدرس 3</span></div>
+        </div>
+      </div>
+
+      <div class="week-group">
+        <div class="week-header" onclick="toggleWeek(this)">
+          <div class="week-header-title">الأسبوع التاسع<span class="week-header-count">3 دروس</span></div>
+          <span class="week-header-icon">▾</span>
+        </div>
+        <div class="week-lessons">
+          <div class="lesson-item locked"><div class="lesson-icon">🔒</div><span>أساسيات ضبط الشهية</span><span class="lesson-num">10:54</span></div>
+          <div class="lesson-item locked"><div class="lesson-icon">🔒</div><span>أسباب ثبات الوزن المزعجة</span><span class="lesson-num">5:31</span></div>
+          <div class="lesson-item locked"><div class="lesson-icon">🔒</div><span>الأسبوع التاسع — الدرس 3</span></div>
+        </div>
+      </div>
+
+      <div class="week-group">
+        <div class="week-header" onclick="toggleWeek(this)">
+          <div class="week-header-title">الأسبوع العاشر<span class="week-header-count">3 دروس</span></div>
+          <span class="week-header-icon">▾</span>
+        </div>
+        <div class="week-lessons">
+          <div class="lesson-item locked"><div class="lesson-icon">🔒</div><span>العادات وكيفية اكتسابها</span><span class="lesson-num">9:17</span></div>
+          <div class="lesson-item locked"><div class="lesson-icon">🔒</div><span>نصائح لاكتساب العادات + تطبيق عملي</span><span class="lesson-num">8:08</span></div>
+          <div class="lesson-item locked"><div class="lesson-icon">🔒</div><span>الأسبوع العاشر — الدرس 3</span></div>
+        </div>
+      </div>
+
+      <div class="week-group">
+        <div class="week-header" onclick="toggleWeek(this)">
+          <div class="week-header-title">الأسبوع الحادي عشر<span class="week-header-count">3 دروس</span></div>
+          <span class="week-header-icon">▾</span>
+        </div>
+        <div class="week-lessons">
+          <div class="lesson-item locked"><div class="lesson-icon">🔒</div><span>أنظمة غذائية صحيحة</span></div>
+          <div class="lesson-item locked"><div class="lesson-icon">🔒</div><span>الأسبوع الحادي عشر — الدرس 2</span></div>
+          <div class="lesson-item locked"><div class="lesson-icon">🔒</div><span>الأسبوع الحادي عشر — الدرس 3</span></div>
+        </div>
+      </div>
+
+      <div class="week-group">
+        <div class="week-header" onclick="toggleWeek(this)">
+          <div class="week-header-title">📒 كتاب التطبيقات العملية<span class="week-header-count">درس واحد</span></div>
+          <span class="week-header-icon">▾</span>
+        </div>
+        <div class="week-lessons">
+          <div class="lesson-item locked"><div class="lesson-icon">🔒</div><span>كتاب التطبيقات العملية</span></div>
+        </div>
+      </div>
+
+    </div><!-- /sidebar-card -->
+  </aside>
+
+</div><!-- /lesson-layout -->
+
+<footer class="footer">
+  <p>© 2025 رولا دايت — جميع الحقوق محفوظة | <a href="/">الرئيسية</a></p>
+</footer>
+
+<script>
+function toggleWeek(header) {
+  header.classList.toggle('open');
+}
+</script>
+</body>
+</html>
