@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 '<div class="testimonial-stars">' + starsHtml + '</div>' +
                 '<div class="testimonial-text-wrapper">' +
                     '<p class="testimonial-text" id="review-' + index + '">' + shortText + (needsMore ? '...' : '') + '</p>' +
-                    (needsMore ? '<button class="expand-btn" onclick="toggleReview(' + index + ', \'' + escapeText(review.text) + '\', \'' + escapeText(shortText) + '\')">عرض المزيد</button>' : '') +
+                    (needsMore ? '<button class="expand-btn visible" onclick="toggleReview(' + index + ', \'' + escapeText(review.text) + '\', \'' + escapeText(shortText) + '\')">عرض المزيد</button>' : '') +
                 '</div>';
 
             sliderTrack.appendChild(card);

@@ -138,3 +138,90 @@
   .course-card { flex: 0 0 78vw; }
   .courses-grid { padding-inline-end: 16px; }
 }
+
+/* ===== TESTIMONIALS FIX ===== */
+.avatar-initials {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--primary-dark);
+  background: linear-gradient(135deg, var(--bg-alt), var(--border));
+  border-radius: 50%;
+  letter-spacing: 0.5px;
+}
+
+/* Expand button: always visible (override display:none) */
+.expand-btn {
+  display: inline-block;
+  margin-top: 6px;
+}
+
+/* ===== SCROLLER v3 ===== */
+/* Remove old left-side gradient (was wrong side & covered buttons) */
+.courses-wrapper::after {
+  display: none;
+}
+
+/* Scroll controls: above any stacking */
+.scroll-controls {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding-top: 24px;
+}
+
+/* Prominent filled buttons */
+.scroll-btn {
+  width: 48px;
+  height: 48px;
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 4px 14px rgba(45,82,64,0.25);
+  font-size: 1.1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--transition);
+  flex-shrink: 0;
+  position: static;
+  transform: none;
+}
+.scroll-btn:hover {
+  background: var(--primary-dark);
+  box-shadow: 0 6px 20px rgba(45,82,64,0.35);
+  transform: scale(1.08);
+}
+
+/* Right-side peek gradient (overflow direction = LEFT in RTL) */
+.courses-wrapper::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  bottom: 80px;
+  background: linear-gradient(to right, var(--bg) 30%, transparent);
+  pointer-events: none;
+  z-index: 3;
+}
+
+@media (max-width: 768px) {
+  .scroll-controls { display: flex !important; padding-top: 20px; }
+  .scroll-btn { display: flex !important; width: 44px; height: 44px; }
+  .courses-wrapper::before { display: none; }
+}
+
+/* Fix: avatar has margin:-56px so needs extra top clearance in slider */
+.slider-track {
+  padding-top: 32px;
+}
