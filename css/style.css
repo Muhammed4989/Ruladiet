@@ -165,3 +165,14 @@
 .courses-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;overflow:visible;scroll-snap-type:unset;padding-inline-end:0;margin-bottom:0}
 .course-card{flex:unset;width:100%;min-width:0;scroll-snap-align:unset}
 @media(max-width:600px){.courses-grid{grid-template-columns:1fr}}
+
+/* ===== COURSE CARD SPLIT BANNER ===== */
+.course-card .course-image{height:240px;position:relative;overflow:hidden;flex-shrink:0}
+.course-card .course-image img{width:100%;height:100%;object-fit:cover;object-position:left center}
+.course-card .course-image::after{content:'';position:absolute;inset:0;background:linear-gradient(to right,transparent 0%,transparent 26%,rgba(248,245,238,.45) 42%,rgba(248,245,238,.92) 58%,#f8f5ee 70%);pointer-events:none;z-index:1}
+.course-img-label{position:absolute;top:0;right:0;bottom:0;width:55%;z-index:2;display:flex;flex-direction:column;justify-content:center;padding:18px 22px 18px 6px;text-align:right}
+.cil-title{display:block;font-family:'Tajawal',sans-serif;font-size:.96rem;font-weight:800;color:#1a2e24;line-height:1.6;margin-bottom:8px}
+.cil-divider{display:block;width:32px;height:2px;background:#c8a97e;border-radius:2px;margin-bottom:8px;margin-right:0;margin-left:auto}
+.cil-author{display:block;font-family:'Tajawal',sans-serif;font-size:.67rem;font-weight:600;color:#2d5240;line-height:1.4;opacity:.85}
+.course-author-credit{font-size:.74rem;font-weight:500;color:var(--text-faint);margin-top:4px;margin-bottom:4px;font-style:italic}
+@media(max-width:600px){.course-card .course-image{height:200px}.course-img-label{width:58%}.cil-title{font-size:.86rem}}
