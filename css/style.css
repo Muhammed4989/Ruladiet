@@ -158,3 +158,10 @@
 .slider-track {
   padding-top: 32px;
 }
+
+/* ===== COURSES GRID (responsive, no scroll) ===== */
+.courses-wrapper{overflow:visible}
+.courses-wrapper::before{display:none}
+.courses-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;overflow:visible;scroll-snap-type:unset;padding-inline-end:0;margin-bottom:0}
+.course-card{flex:unset;width:100%;min-width:0;scroll-snap-align:unset}
+@media(max-width:600px){.courses-grid{grid-template-columns:1fr}}
