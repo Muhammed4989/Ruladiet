@@ -583,7 +583,7 @@ ${includesHTML}
           <h4>تواصلي معنا</h4>
           <ul>
             <li><a href="https://wa.me/905300222468" target="_blank">واتساب</a></li>
-            <li><a href="mailto:ruladietltd@gmail.com">البريد الإلكتروني</a></li>
+            <li><a href="mailto:info@ruladiet.com">البريد الإلكتروني</a></li>
             <li><a href="tel:+905300222468">+90 530 022 24 68</a></li>
           </ul>
         </div>
@@ -633,3 +633,4 @@ courses.forEach(c => {
 });
 
 console.log('\n🎉 All 3 course pages generated successfully!');
+    

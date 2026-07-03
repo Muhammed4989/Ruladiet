@@ -247,5 +247,4 @@ document.addEventListener('DOMContentLoaded', function() {
                 alert('حدث خطأ. حاول مرة أخرى لاحقاً.');
             });
         });
-    }
-});
+ 
