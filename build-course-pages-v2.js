@@ -633,4 +633,3 @@ courses.forEach(c => {
 });
 
 console.log('\n🎉 All 3 course pages generated successfully!');
-    
