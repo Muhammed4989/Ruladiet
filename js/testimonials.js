@@ -4,11 +4,11 @@ window.toggleReview = function(index, btn, fullText, shortText) {
     if (!p) return;
     var isExpanded = p.getAttribute('data-expanded') === 'true';
     if (isExpanded) {
-        p.innerHTML = shortText + '...';
+        p.classList.remove('expanded');
         p.setAttribute('data-expanded', 'false');
         btn.textContent = 'عرض المزيد';
     } else {
-        p.innerHTML = fullText;
+        p.classList.add('expanded');
         p.setAttribute('data-expanded', 'true');
         btn.textContent = 'عرض أقل';
     }
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function updateCardsPerView() {
         var w = window.innerWidth;
-        if (w <= 600) cardsPerView = 2;
+        if (w <= 600) cardsPerView = 1;
         else if (w <= 900) cardsPerView = 2;
         else cardsPerView = 4;
     }
