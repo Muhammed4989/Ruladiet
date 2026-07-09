@@ -32,9 +32,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function updateCardsPerView() {
         var w = window.innerWidth;
-        if (w <= 600) cardsPerView = 1;
+        if (w <= 600) cardsPerView = 2;
         else if (w <= 900) cardsPerView = 2;
-        else cardsPerView = 3;
+        else cardsPerView = 4;
     }
 
     function goToSlide(index) {
