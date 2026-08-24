@@ -2,6 +2,9 @@
   "rewrites": [
     { "source": "/course/:path*", "destination": "/course/:path*.html" },
     { "source": "/blog/:path*", "destination": "/blog/:path*.html" },
+    { "source": "/js/:path*", "destination": "/js/:path*" },
+    { "source": "/css/:path*", "destination": "/css/:path*" },
+    { "source": "/images/:path*", "destination": "/images/:path*" },
     { "source": "/([^/]+)", "destination": "/$1.html" }
   ]
 }
