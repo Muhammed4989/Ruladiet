@@ -1,7 +1,13 @@
 (function () {
   'use strict';
   var BLOG_POSTS = [
+    { slug: 'نظام-غذائي-لتكيس-المبايض', title: 'نظام غذائي لتكيس المبايض', img: '/images/blog-weight-loss.webp', date: '2026-09-07' },
+    { slug: 'مقاومة-الانسولين-والكربوهيدرات', title: 'الكربوهيدرات ومقاومة الإنسولين', img: '/images/blog-insulin-resistance.webp', date: '2026-09-07' },
+    { slug: 'الصيام-المتقطع-الاخطاء-الشائعة', title: 'الصيام المتقطع وأخطاؤه', img: '/images/blog-weight-loss.webp', date: '2026-09-07' },
+    { slug: 'شرب-الماء-لخسارة-الوزن', title: 'شرب الماء لخسارة الوزن', img: '/images/blog-weight-loss.webp', date: '2026-09-07' },
+    { slug: 'الغدة-الدرقية-والوزن', title: 'الغدة الدرقية والوزن', img: '/images/blog-weight-loss.webp', date: '2026-09-07' },
     { slug: 'الأنظمة-الغذائية-مع-ابر-التنحيف', title: 'الأنظمة الغذائية مع إبر التنحيف', img: '/images/webpc-passthru-2-500x300.webp', date: '2026-09-07' },
+    { slug: 'تخفيف-السعرات-الحرارية-في-المنزل-والعمل', title: 'تخفيف السعرات الحرارية', img: '/images/blog-weight-loss.webp', date: '2026-09-07' },
     { slug: 'نظام-غذائي-مع-مونجارو', title: 'نظام غذائي مع مونجارو', img: '/images/blog-mounjaro-diet-cover.webp', date: '2026-08-20' },
     { slug: 'مونجارو', title: 'مونجارو للتنحيف: الدليل الشامل', img: '/images/blog-mounjaro-diet-cover.webp', date: '2026-07-19' },
     { slug: 'الأكل-العاطفي', title: 'الأكل العاطفي', img: '/images/blog-emotional-eating.webp', date: '2026-05-31' },
