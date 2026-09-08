@@ -140,16 +140,13 @@
     var host = document.getElementById('footerMapEmbed');
     if (!host) return;
 
-    if ('IntersectionObserver' in window) {
-      var io = new IntersectionObserver(function (entries) {
-        for (var i = 0; i < entries.length; i++) {
-          if (entries[i].isIntersecting) { loadMap(host); io.disconnect(); return; }
-        }
-      }, { rootMargin: '250px' });
-      io.observe(host);
-    } else {
-      loadMap(host);
-    }
+    // Insert straight away and let the browser defer it via the iframe's own
+    // loading="lazy". An IntersectionObserver was tried here first and never
+    // fired on this site: body carries overflow-x:hidden (css/style.css),
+    // which makes body a scroll container and breaks intersection against the
+    // implicit viewport root, so the map stayed unloaded even when the footer
+    // was fully on screen. Native lazy loading has no such failure mode.
+    loadMap(host);
   }
 
   if (document.readyState === 'loading') {
