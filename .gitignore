@@ -7,3 +7,7 @@ vimeo-downloads/
 videos/
 _all-code.txt
 download-videos.js
+*.bak-footermap
+*.bak-address
+*.bak-dir
+Claude outputs/

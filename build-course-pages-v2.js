@@ -591,8 +591,9 @@ ${includesHTML}
         <div class="footer-col-new">
           <h4>الموقع</h4>
           <ul>
-            <li>Esenkent, Esenkent-Bahçeşehir Yolu</li>
-            <li>34510 Esenyurt/İstanbul</li>
+            <li dir="ltr" style="text-align:inherit">Kayabaşı, Adnan Menderes Bulvarı</li>
+            <li dir="ltr" style="text-align:inherit">Emlak Konut Kuzey Yakası A2 Blok No:3</li>
+            <li dir="ltr" style="text-align:inherit">34494 Başakşehir/İstanbul</li>
           </ul>
         </div>
       </div>

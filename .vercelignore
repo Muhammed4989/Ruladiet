@@ -19,3 +19,9 @@ vimeo-videos-list.txt
 vimeo-videos.json
 .vscode
 .git
+*.bak-footermap
+add-footer-map.js
+*.bak-address
+update-address.js
+*.bak-dir
+fix-address-dir.js
