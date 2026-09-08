@@ -73,16 +73,16 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function startAutoplay() {
+        // Auto-scroll removed: the reviews used to advance on a timer, which
+        // made the page jump up and down as cards of different heights cycled
+        // through the row. The slider now moves only on explicit user action
+        // (arrows, dots, swipe).
         if (autoplayInterval) clearInterval(autoplayInterval);
-        autoplayInterval = setInterval(function() {
-            var maxIndex = Math.max(0, totalCards() - cardsPerView);
-            goToSlide(currentIndex >= maxIndex ? 0 : currentIndex + 1);
-        }, 5000);
+        autoplayInterval = null;
     }
 
     function resetAutoplay() {
         clearInterval(autoplayInterval);
-        startAutoplay();
     }
 
     // Initialise
