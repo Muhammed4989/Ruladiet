@@ -79,7 +79,9 @@ for (const loc of locations) {
 
 const config = JSON.parse(fs.readFileSync(path.join(root, 'vercel.json'), 'utf8'));
 for (const source of ['/courses/كورس-رحلة-التغيير', '/courses/كورس-رحلة-التغيير/', '/category/صحة', '/category/صحة/']) {
-  const rule = config.redirects.find(rule => rule.source === source);
+  // Vercel matches the encoded HTTP pathname, not the decoded Arabic slug.
+  const wirePath = new URL(source, origin).pathname;
+  const rule = config.redirects.find(rule => rule.source === wirePath);
   check(!!rule && rule.permanent === true, 'Missing permanent legacy redirect ' + source);
   if (rule) check(fs.existsSync(path.join(root, fileForUrl(new URL(rule.destination, origin)))), 'Missing redirect destination ' + rule.destination);
 }
