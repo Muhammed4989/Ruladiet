@@ -1,0 +1,205 @@
+[
+  {
+    "key": "weight",
+    "tool": "built-in image_gen",
+    "cover": "images/blog/weight-1280.webp",
+    "responsive": [
+      "images/blog/weight-400.webp",
+      "images/blog/weight-800.webp",
+      "images/blog/weight-1280.webp"
+    ],
+    "visual": "images/blog/visual-weight.svg"
+  },
+  {
+    "key": "sleep",
+    "prompt": "Use case: photorealistic-natural. Asset: unique 16:9 landscape blog cover for an Arabic nutrition clinic. A serene unoccupied bedroom at dusk, folded ivory linen duvet, sage green pillows, a small wooden bedside table with a simple analog alarm clock and a closed book, soft warm bedside lamp balanced with dim blue window light. Theme: sleep habits and weight management. Wide composition focused on calm bedtime routine, absolutely no person in the bed. Premium natural editorial photography, realistic texture, warm ivory and sage palette with deep green accents, clear subject and clean thoughtful composition, not a collage. No text, no logos, no watermark, no human bodies, no hands, no people.",
+    "tool": "built-in image_gen",
+    "cover": "images/blog/sleep-1280.webp",
+    "responsive": [
+      "images/blog/sleep-400.webp",
+      "images/blog/sleep-800.webp",
+      "images/blog/sleep-1280.webp"
+    ],
+    "visual": "images/blog/visual-sleep.svg"
+  },
+  {
+    "key": "water",
+    "prompt": "Use case: photorealistic-natural. Asset: unique 16:9 landscape blog cover for an Arabic nutrition clinic. Close editorial still life of a clear glass water carafe and a drinking glass with fresh water on a warm stone desk, gently reflected sunlight, a small leafy plant and cucumber slices off to the side. Theme: everyday hydration. Fresh water is the clear hero, not a detox or weight loss product. Premium natural editorial photography, realistic texture, warm ivory and sage palette with deep green accents, clear subject and clean thoughtful composition, not a collage. No text, no logos, no watermark, no human bodies, no hands, no people.",
+    "tool": "built-in image_gen",
+    "cover": "images/blog/water-1280.webp",
+    "responsive": [
+      "images/blog/water-400.webp",
+      "images/blog/water-800.webp",
+      "images/blog/water-1280.webp"
+    ],
+    "visual": "images/blog/visual-water.svg"
+  },
+  {
+    "key": "emotional",
+    "prompt": "Use case: photorealistic-natural. Asset: unique 16:9 landscape blog cover for an Arabic nutrition clinic. Quiet mindful pause at an oak kitchen table: an open blank cream journal and pen, a cup of herbal tea, a small ceramic plate with a few squares of chocolate and a pear, soft home window light, gentle green background. Theme: emotional eating, reflecting on hunger and feelings without judgment. No diet scales, no morality symbols, no people. Premium natural editorial photography, realistic texture, warm ivory and sage palette with deep green accents, clear subject and clean thoughtful composition, not a collage. No text, no logos, no watermark, no human bodies, no hands, no people.",
+    "tool": "built-in image_gen",
+    "cover": "images/blog/emotional-1280.webp",
+    "responsive": [
+      "images/blog/emotional-400.webp",
+      "images/blog/emotional-800.webp",
+      "images/blog/emotional-1280.webp"
+    ],
+    "visual": "images/blog/visual-emotional.svg"
+  },
+  {
+    "key": "lunchbox",
+    "prompt": "Use case: photorealistic-natural. Asset: unique 16:9 landscape blog cover for an Arabic nutrition clinic. Overhead editorial photograph of one practical school lunchbox with separate compartments holding a small wholemeal cheese sandwich, cucumber sticks, carrot sticks and apple slices, next to a plain reusable water bottle and a folded forest-green napkin on a light kitchen surface. Cheerful school-day mood, appropriate realistic portions. No logos or people. Premium natural editorial photography, realistic texture, warm ivory and sage palette with deep green accents, clear subject and clean thoughtful composition, not a collage. No text, no logos, no watermark, no human bodies, no hands, no people.",
+    "tool": "built-in image_gen",
+    "cover": "images/blog/lunchbox-1280.webp",
+    "responsive": [
+      "images/blog/lunchbox-400.webp",
+      "images/blog/lunchbox-800.webp",
+      "images/blog/lunchbox-1280.webp"
+    ],
+    "visual": "images/blog/visual-lunchbox.svg"
+  },
+  {
+    "key": "fasting",
+    "prompt": "Use case: photorealistic-natural. Asset: unique wide 16:9 cover for an Arabic nutrition article. A simple round analog clock on a light oak dining table beside a modest breakfast of plain yogurt, berries, boiled egg and wholegrain toast. Focus on the clock and thoughtful meal timing. Soft morning window light, uncluttered home scene. No digits or words beyond ordinary small analog clock markings. Premium natural editorial photography, warm ivory, sage and deep forest green palette, realistic objects, clear uncluttered composition. No text overlays, no logos, no watermark, no collage. No people, body parts or hands.",
+    "tool": "built-in image_gen",
+    "cover": "images/blog/fasting-1280.webp",
+    "responsive": [
+      "images/blog/fasting-400.webp",
+      "images/blog/fasting-800.webp",
+      "images/blog/fasting-1280.webp"
+    ],
+    "visual": "images/blog/visual-fasting.svg"
+  },
+  {
+    "key": "thyroid",
+    "prompt": "Use case: photorealistic-natural. Asset: unique wide 16:9 cover for an Arabic nutrition article. Conceptual medical editorial still life: a small smooth terracotta butterfly-shaped sculpture evoking the thyroid gland placed next to a folded stethoscope and a closed sage green medical notebook on an ivory clinic desk. A glass of water and blurred plant in the background. This is a conceptual object scene, not a human anatomical rendering, no treatment product or pills. Premium natural editorial photography, warm ivory, sage and deep forest green palette, realistic objects, clear uncluttered composition. No text overlays, no logos, no watermark, no collage. No people, body parts or hands.",
+    "tool": "built-in image_gen",
+    "cover": "images/blog/thyroid-1280.webp",
+    "responsive": [
+      "images/blog/thyroid-400.webp",
+      "images/blog/thyroid-800.webp",
+      "images/blog/thyroid-1280.webp"
+    ],
+    "visual": "images/blog/visual-thyroid.svg"
+  },
+  {
+    "key": "insulin",
+    "prompt": "Use case: photorealistic-natural. Asset: unique wide 16:9 cover for an Arabic nutrition article. An unbranded compact blood glucose meter with its screen dark and one unused test strip on a clean ivory clinic desk, next to a green medical notebook and an apple softly out of focus. Professional reassuring medical editorial photograph. No blood, no needles, no result values, no drug names. Premium natural editorial photography, warm ivory, sage and deep forest green palette, realistic objects, clear uncluttered composition. No text overlays, no logos, no watermark, no collage. No people, body parts or hands.",
+    "tool": "built-in image_gen",
+    "cover": "images/blog/insulin-1280.webp",
+    "responsive": [
+      "images/blog/insulin-400.webp",
+      "images/blog/insulin-800.webp",
+      "images/blog/insulin-1280.webp"
+    ],
+    "visual": "images/blog/visual-insulin.svg"
+  },
+  {
+    "key": "carbs",
+    "prompt": "Use case: photorealistic-natural. Asset: unique wide 16:9 cover for an Arabic nutrition article. Overhead editorial still life of separate small handmade ceramic bowls holding uncooked oats, dried lentils, brown rice and chickpeas, with wholegrain bread slices and fresh vegetables on warm ivory linen. The grains and legumes are the hero. Rich natural textures, clear distinct ingredients, thoughtful nutrition composition. Premium natural editorial photography, warm ivory, sage and deep forest green palette, realistic objects, clear uncluttered composition. No text overlays, no logos, no watermark, no collage. No people, body parts or hands.",
+    "tool": "built-in image_gen",
+    "cover": "images/blog/carbs-1280.webp",
+    "responsive": [
+      "images/blog/carbs-400.webp",
+      "images/blog/carbs-800.webp",
+      "images/blog/carbs-1280.webp"
+    ],
+    "visual": "images/blog/visual-carbs.svg"
+  },
+  {
+    "key": "pcos",
+    "prompt": "Use case: photorealistic-natural. Asset: unique wide 16:9 blog cover for Arabic Rula Diet nutrition clinic. A welcoming nutrition planning still life for women's PCOS health: a small ceramic bowl of Greek yogurt with berries and walnuts, wholegrain bread, leafy vegetables, a closed sage appointment journal and a sprig of olive on warm stone. Carefully styled yet believable everyday nourishment, gentle lavender accent in the background. No anatomy or body imagery. Premium natural editorial photography, tactile realism, warm ivory and forest green palette, authentic details, spacious pleasing composition, not a collage. No people or hands, no text overlays, no logos, no watermark.",
+    "tool": "built-in image_gen",
+    "cover": "images/blog/pcos-1280.webp",
+    "responsive": [
+      "images/blog/pcos-400.webp",
+      "images/blog/pcos-800.webp",
+      "images/blog/pcos-1280.webp"
+    ],
+    "visual": "images/blog/visual-pcos.svg"
+  },
+  {
+    "key": "calories",
+    "prompt": "Use case: photorealistic-natural. Asset: unique wide 16:9 blog cover for Arabic Rula Diet nutrition clinic. A realistic tidy home-office lunch setup: a glass meal-prep container with lentil salad and roasted vegetables, a small pot of plain yogurt, water bottle, closed laptop and small grocery list notebook with blank pages on a desk. Theme: practical food choices at home and work. The lunchbox is the hero, not a dining plate. Premium natural editorial photography, tactile realism, warm ivory and forest green palette, authentic details, spacious pleasing composition, not a collage. No people or hands, no text overlays, no logos, no watermark.",
+    "tool": "built-in image_gen",
+    "cover": "images/blog/calories-1280.webp",
+    "responsive": [
+      "images/blog/calories-400.webp",
+      "images/blog/calories-800.webp",
+      "images/blog/calories-1280.webp"
+    ],
+    "visual": "images/blog/visual-calories.svg"
+  },
+  {
+    "key": "habits",
+    "prompt": "Use case: photorealistic-natural. Asset: unique wide 16:9 blog cover for Arabic Rula Diet nutrition clinic. A beautifully simple weekly planning ritual: open unmarked paper planner, dark green pen, three small blank note cards, fresh apple and comfortable walking shoes neatly resting beside an oak bench, warm early morning light. Theme: achievable New Year health habits and small repeated steps. No written numbers or text. Premium natural editorial photography, tactile realism, warm ivory and forest green palette, authentic details, spacious pleasing composition, not a collage. No people or hands, no text overlays, no logos, no watermark.",
+    "tool": "built-in image_gen",
+    "cover": "images/blog/habits-1280.webp",
+    "responsive": [
+      "images/blog/habits-400.webp",
+      "images/blog/habits-800.webp",
+      "images/blog/habits-1280.webp"
+    ],
+    "visual": "images/blog/visual-habits.svg"
+  },
+  {
+    "key": "ramadan",
+    "prompt": "Use case: photorealistic-natural. Asset: unique wide 16:9 blog cover for Arabic Rula Diet nutrition clinic. An intimate Ramadan iftar still life with a small brass lantern, three dates in a ceramic dish, a glass of water, a modest bowl of lentil soup and a folded sage napkin on an ivory table at dusk. Warm gentle lantern glow, refined Middle Eastern home atmosphere, quiet and welcoming, no sweets banquet. Premium natural editorial photography, tactile realism, warm ivory and forest green palette, authentic details, spacious pleasing composition, not a collage. No people or hands, no text overlays, no logos, no watermark.",
+    "tool": "built-in image_gen",
+    "cover": "images/blog/ramadan-1280.webp",
+    "responsive": [
+      "images/blog/ramadan-400.webp",
+      "images/blog/ramadan-800.webp",
+      "images/blog/ramadan-1280.webp"
+    ],
+    "visual": "images/blog/visual-ramadan.svg"
+  },
+  {
+    "key": "injections",
+    "prompt": "Create a polished photorealistic editorial cover photograph for Arabic nutrition website Rula Diet. Landscape 16:9. Warm ivory, forest green and sage accents, soft natural light, premium calm realistic still-life. Absolutely NO people, faces, hands, body parts, text, letters, logos, watermarks, collage or graphic overlays. A clean clinic consultation desk, TWO distinct generic capped injection pens with no needle exposed, stethoscope and a plain green medical folder, small plant softly out of focus. Clearly conceptual generic medical equipment, not a branded product. Eye-level close view with generous space.",
+    "tool": "built-in image_gen",
+    "cover": "images/blog/injections-1280.webp",
+    "responsive": [
+      "images/blog/injections-400.webp",
+      "images/blog/injections-800.webp",
+      "images/blog/injections-1280.webp"
+    ],
+    "visual": "images/blog/visual-injections.svg"
+  },
+  {
+    "key": "mounjaro",
+    "prompt": "Create a polished photorealistic editorial cover photograph for Arabic nutrition website Rula Diet. Landscape 16:9. Warm ivory, forest green and sage accents, soft natural light, premium calm realistic still-life. Absolutely NO people, faces, hands, body parts, text, letters, logos, watermarks, collage or graphic overlays. ONE plain unbranded capped injection pen in a small open case on a pale stone table beside a completely blank weekly planner with seven empty boxes, a ceramic glass of water and olive branch. Overhead composition, conceptual medication follow-up, no actual brand packaging.",
+    "tool": "built-in image_gen",
+    "cover": "images/blog/mounjaro-1280.webp",
+    "responsive": [
+      "images/blog/mounjaro-400.webp",
+      "images/blog/mounjaro-800.webp",
+      "images/blog/mounjaro-1280.webp"
+    ],
+    "visual": "images/blog/visual-mounjaro.svg"
+  },
+  {
+    "key": "mounjaro-diet",
+    "prompt": "Create a polished photorealistic editorial cover photograph for Arabic nutrition website Rula Diet. Landscape 16:9. Warm ivory, forest green and sage accents, soft natural light, premium calm realistic still-life. Absolutely NO people, faces, hands, body parts, text, letters, logos, watermarks, collage or graphic overlays. Small gentle meal portions on a round pale wood breakfast table: a small bowl of simple vegetable soup, plain yogurt, a boiled egg cut in half and tender cooked courgette with a little bread. A sage napkin, cozy natural kitchen light. Food tolerability and nourishment, realistic appetizing food.",
+    "tool": "built-in image_gen",
+    "cover": "images/blog/mounjaro-diet-1280.webp",
+    "responsive": [
+      "images/blog/mounjaro-diet-400.webp",
+      "images/blog/mounjaro-diet-800.webp",
+      "images/blog/mounjaro-diet-1280.webp"
+    ],
+    "visual": "images/blog/visual-mounjaro-diet.svg"
+  },
+  {
+    "key": "injection-diet",
+    "prompt": "Create a polished photorealistic editorial cover photograph for Arabic nutrition website Rula Diet. Landscape 16:9. Warm ivory, forest green and sage accents, soft natural light, premium calm realistic still-life. Absolutely NO people, faces, hands, body parts, text, letters, logos, watermarks, collage or graphic overlays. Organizing balanced meals for the week: three separate small glass meal-prep containers with different foods, grilled chicken and vegetables, lentil salad, and brown rice with fish, beside a plain green shopping notebook and reusable water bottle. Diagonal composition on ivory kitchen counter, highly realistic food, no medications.",
+    "tool": "built-in image_gen",
+    "cover": "images/blog/injection-diet-1280.webp",
+    "responsive": [
+      "images/blog/injection-diet-400.webp",
+      "images/blog/injection-diet-800.webp",
+      "images/blog/injection-diet-1280.webp"
+    ],
+    "visual": "images/blog/visual-injection-diet.svg"
+  }
+]

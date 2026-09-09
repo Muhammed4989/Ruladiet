@@ -133,3 +133,29 @@ check afterwards; its known null-byte warning is not a new regression.
 - Verify JSON-LD still parses after touching any `<script type="application/ld+json">`
   block. There are 56 of them across the site.
 - Do not add `localStorage`/`sessionStorage` — nothing here needs it.
+
+## Blog editorial maintenance (2026-09-09)
+
+- Edit article bodies in `content/blog/<key>.html`, with the slug/key mapping,
+  titles, related reading, sources and primary CTA in `scripts/blog-catalog.js`.
+  Run `node scripts/enrich-blog.js` to update the 17 public HTML pages, homepage
+  and blog cards, social previews, structured data and sitemap. Update the
+  explicit editorial date only when content is actually revised.
+- Every article has its own modest cover (no people in the new covers) in
+  `images/blog/<key>-1280.webp`, plus 400/800 responsive copies. Provenance and
+  original generation prompts are in `content/blog/image-provenance.json`.
+  `node scripts/prepare-blog-images.js` refreshes smaller copies from masters;
+  an optional source directory supplies `<key>.png` to regenerate all sizes.
+- Educational SVG diagrams are maintained by `scripts/blog-visuals.js`.
+  Keep Arabic labels legible at mobile widths; do not replace them with reused
+  generic stock photos. Author photos and course artwork are separate assets.
+- Re-run blog maintenance after general image/SEO scripts, then run
+  `node scripts/check-blog.js` and `node scripts/check-site.js`. The maintenance
+  script is idempotent and preserves publication dates and existing URLs.
+- Keep article navigation, contextual links, the primary CTA and related
+  reading in static HTML. `js/blog-post.js` only enhances sharing and menus;
+  do not restore the old widget that appended every course to every article.
+- Medical content must use primary sources. Do not restore unsupported claims
+  about guaranteed weight loss, water burning fat, mandatory fasting, automatic
+  medication dose escalation, or a single PCOS diet. Do not invent clinical
+  reviews, experiences, success rates or patient numbers.
