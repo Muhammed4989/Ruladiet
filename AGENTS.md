@@ -75,6 +75,7 @@ node update-address.js             # re-applies the new address (idempotent)
 node fix-address-dir.js            # re-applies dir="ltr"      (idempotent)
 node scripts/maintain-seo.js        # root-relative links and SEO maintenance
 node scripts/optimize-images.js    # reapply responsive logo and card images
+node scripts/enhance-brand-navigation.js # restore clear, linked logos and same-window free-course registration
 node scripts/check-site.js         # links, sitemap, scripts and JSON-LD checks
 ```
 

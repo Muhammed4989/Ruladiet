@@ -1,0 +1,8 @@
+/* Shared logo treatment. Reapply markup with scripts/enhance-brand-navigation.js. */
+.header .logo{display:inline-flex;align-items:center;gap:8px;flex-shrink:0;color:#2d5240;text-decoration:none}
+.header .logo img{display:block;width:81px;height:64px;object-fit:contain;filter:brightness(.52) contrast(1.12)}
+.header .logo::after{content:"رولا دايت";font-family:Tajawal,sans-serif;font-size:17px;font-weight:800;white-space:nowrap}
+.footer .footer-logo{display:inline-block;max-width:100%;border-radius:8px}
+.footer .footer-logo img{display:block;width:180px;height:auto;object-fit:contain;filter:brightness(0) invert(1)}
+.header .logo:focus-visible,.footer .footer-logo:focus-visible{outline:3px solid #c8a97e;outline-offset:4px;border-radius:8px}
+@media(max-width:768px){.header .header-inner{gap:8px}.header .logo::after{font-size:16px}.header .nav-cta{padding-inline:14px}}
