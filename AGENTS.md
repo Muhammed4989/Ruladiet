@@ -108,6 +108,13 @@ check afterwards; its known null-byte warning is not a new regression.
   applies the shared logo to all pages and course thumbnails to the homepage and
   course listing. Keep `sizes` aligned with the CSS if those layouts change.
 
+- The homepage uses local Tajawal WOFF2 subsets, with their SIL OFL license and
+  upstream URLs in `fonts/tajawal/`. Two Arabic weights are preloaded; optional
+  font display prevents late swaps on slow connections. Homepage layout CSS is
+  loaded normally to avoid an initial partial layout. Run
+  `node scripts/stabilize-home-render.js` to reapply these head settings after
+  homepage regeneration. Other pages currently retain their existing font setup.
+
 - Readable legacy URL mappings live in `scripts/legacy-redirects.json`. Run
   `node scripts/build-redirects.js` after editing that map, then the site check.
   The script owns all redirect rules in `vercel.json` and preserves rewrites.
