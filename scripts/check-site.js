@@ -81,8 +81,10 @@ const config = JSON.parse(fs.readFileSync(path.join(root, 'vercel.json'), 'utf8'
 for (const source of ['/courses/كورس-رحلة-التغيير', '/courses/كورس-رحلة-التغيير/', '/category/صحة', '/category/صحة/']) {
   // Vercel matches the encoded HTTP pathname, not the decoded Arabic slug.
   const wirePath = new URL(source, origin).pathname;
-  const rule = config.redirects.find(rule => rule.source === wirePath);
+  const matches = (rule, pathname) => new RegExp('^' + rule.source.replace(':legacy(', '(?:') + '$').test(pathname);
+  const rule = config.redirects.find(rule => matches(rule, wirePath));
   check(!!rule && rule.permanent === true, 'Missing permanent legacy redirect ' + source);
+  if (rule) check(matches(rule, wirePath.toLowerCase()), 'Redirect must handle lowercase percent encoding ' + source);
   if (rule) check(fs.existsSync(path.join(root, fileForUrl(new URL(rule.destination, origin)))), 'Missing redirect destination ' + rule.destination);
 }
 console.log(JSON.stringify({ pages: files.length, schemas, internalLinks, sitemapUrls: locations.length, warnings, errors }, null, 2));
