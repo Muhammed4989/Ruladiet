@@ -29,6 +29,10 @@ function repairHtml(html, pageUrl) {
   return normalizePageLinks(html, pageUrl)
     .replaceAll('باهشى شهير', 'باشاك شهير')
     .replace(
+      /(<h4>ماجستير في التغذية والحميات<\/h4><div class="meta">)جامعة إسطنبول أيدن(<\/div>)/g,
+      '$1جامعة صباح الدين زعيم$2'
+    )
+    .replace(
       /<button\b[^>]*class="btn btn-primary nav-cta"[^>]*onclick='window\.location\.href='https:\/\/course\.ruladiet\.com\/login''[^>]*>تسجيل الدخول<\/button>/g,
       '<a href="https://course.ruladiet.com/login" class="btn btn-primary nav-cta">تسجيل الدخول</a>'
     );
@@ -43,7 +47,7 @@ for (const file of htmlFiles) {
   if (after !== before) {
     fs.writeFileSync(fullPath, after, 'utf8');
     changed.push(file);
-    if (before.includes('باهشى شهير')) addressChanged.add(origin + routes.get('/' + file));
+    if (before.includes('باهشى شهير') || before.includes('ماجستير في التغذية والحميات</h4><div class="meta">جامعة إسطنبول أيدن')) addressChanged.add(origin + routes.get('/' + file));
   }
 }
 

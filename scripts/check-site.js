@@ -27,6 +27,7 @@ for (const file of files) {
   check(!html.includes('\uFFFD'), file + ': invalid Unicode replacement character');
   check(!/Esenkent|Esenyurt|34510|باهشى شهير/.test(html), file + ': stale clinic location');
   check(!/onclick='window\.location\.href='https:\/\/course\.ruladiet\.com\/login''/.test(html), file + ': broken login handler');
+  if (file === 'رولا-علوش.html') check(html.includes('ماجستير في التغذية والحميات</h4><div class="meta">جامعة صباح الدين زعيم'), 'Biography must use the owner-confirmed master’s university');
   if (!['شكر-للشراء.html', 'course/شراء-المسار-الصحي.html'].includes(file)) {
     check(html.includes('<script src="/js/footer-map.js" defer></script>'), file + ': missing footer map');
     check((html.match(/<h1\b/gi) || []).length === 1, file + ': expected one H1');

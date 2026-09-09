@@ -101,6 +101,10 @@ check afterwards; its known null-byte warning is not a new regression.
 
 ## Conventions
 
+- The owner confirmed on 2026-09-09 that Rula's master's degree is from Sabahattin
+  Zaim University (جامعة صباح الدين زعيم). Do not attribute that degree to Istanbul
+  Aydin University; the food engineering bachelor's degree is a separate credential.
+
 - Arabic filenames and Arabic UI copy throughout — preserve encoding (UTF-8, no BOM).
 - Site-wide edits go through a **script committed to the repo**, so they can be re-run
   after a rebuild. Do not hand-edit 30 files.
