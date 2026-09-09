@@ -76,6 +76,7 @@ node fix-address-dir.js            # re-applies dir="ltr"      (idempotent)
 node scripts/maintain-seo.js        # root-relative links and SEO maintenance
 node scripts/optimize-images.js    # reapply responsive logo and card images
 node scripts/enhance-brand-navigation.js # restore clear, linked logos and same-window free-course registration
+node scripts/sync-course-enrollments.js # align course card counts with the detail pages
 node scripts/check-site.js         # links, sitemap, scripts and JSON-LD checks
 ```
 
@@ -128,6 +129,13 @@ check afterwards; its known null-byte warning is not a new regression.
   Aydin University; the food engineering bachelor's degree is a separate credential.
 
 - Arabic filenames and Arabic UI copy throughout — preserve encoding (UTF-8, no BOM).
+- Team names and roles confirmed by the owner are maintained with
+  `node scripts/update-team.js`. Use "اختصاصية تغذية" for both ياسمين رسلان
+  and منة, without "علاجية". Administrative/marketing roles are not clinical roles.
+- Course card enrollment counts are copied from the "ملتحق" label on course
+  detail pages by `node scripts/sync-course-enrollments.js`. If a detail page
+  has no count, the script preserves the existing card value and reports it;
+  obtain a confirmed number before adding or changing that enrollment claim.
 - Site-wide edits go through a **script committed to the repo**, so they can be re-run
   after a rebuild. Do not hand-edit 30 files.
 - Verify JSON-LD still parses after touching any `<script type="application/ld+json">`
