@@ -56,7 +56,7 @@ async function main() {
       if (name === 'rulamain.webp' && file !== 'index.html') return tag;
       const options = assets[name];
       const inHeader = before.lastIndexOf('<header', offset) > before.lastIndexOf('</header>', offset);
-      const sizes = isLogo ? (inHeader ? '76px' : '180px') : name === 'rulamain.webp' ? '200px' : cardSizes;
+      const sizes = isLogo ? (inHeader ? '81px' : '180px') : name === 'rulamain.webp' ? '200px' : cardSizes;
       tag = setAttr(tag, 'src', url(name, options.fallback));
       tag = setAttr(tag, 'srcset', options.widths.map(width => `${url(name, width)} ${width}w`).join(', '));
       return setAttr(tag, 'sizes', sizes);
