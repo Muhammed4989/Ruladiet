@@ -1,0 +1,78 @@
+[
+  {
+    "source": "/courses/كورس-رحلة-التغيير",
+    "destination": "/course/رحلة-التغيير"
+  },
+  {
+    "source": "/category/صحة",
+    "destination": "/المدونة"
+  },
+  {
+    "source": "/courses/كورس-تكيس-المبايض",
+    "destination": "/course/تكيس-المبايض"
+  },
+  {
+    "source": "/courses/كورس-التعافي-من-الشهية-الانفعالية",
+    "destination": "/course/الأكل-العاطفي"
+  },
+  {
+    "source": "/courses/المسار-الصحي-الكورس-كاملاً-بدون-متابع-2",
+    "destination": "/course/المسار-الصحي"
+  },
+  {
+    "source": "/product/كورس-تكيس-المبايض",
+    "destination": "/course/تكيس-المبايض"
+  },
+  {
+    "source": "/product/كورس-التعافي-من-الشهية-الانفعالية",
+    "destination": "/course/الأكل-العاطفي"
+  },
+  {
+    "source": "/product/المسار-الصحي-الكورس-كاملاً-بدون-متابع",
+    "destination": "/course/المسار-الصحي"
+  },
+  {
+    "source": "/appointment",
+    "destination": "/احجز-موعد"
+  },
+  {
+    "source": "/contact-us-2",
+    "destination": "/احجز-موعد"
+  },
+  {
+    "source": "/about-us-3",
+    "destination": "/الفريق"
+  },
+  {
+    "source": "/team",
+    "destination": "/الفريق"
+  },
+  {
+    "source": "/privacy-policy",
+    "destination": "/الخصوصية"
+  },
+  {
+    "source": "/terms-of-service",
+    "destination": "/الشروط"
+  },
+  {
+    "source": "/refund_returns",
+    "destination": "/الإسترجاع"
+  },
+  {
+    "source": "/رمضان-بلا-سكر-إليك-تجربتي-وكيف-تأثرت-ب",
+    "destination": "/blog/رمضان-بلا-سكر"
+  },
+  {
+    "source": "/المهمة-المستحيلة-للأمهات",
+    "destination": "/blog/المهمة-المستحيلة-للأمهات"
+  },
+  {
+    "source": "/المهمة-الممكنة-للعام-الجديد",
+    "destination": "/blog/المهمة-الممكنة-للعام-الجديد"
+  },
+  {
+    "source": "/المدونة/",
+    "destination": "/المدونة"
+  }
+]

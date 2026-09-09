@@ -101,6 +101,13 @@ check afterwards; its known null-byte warning is not a new regression.
 
 ## Conventions
 
+- Readable legacy URL mappings live in `scripts/legacy-redirects.json`. Run
+  `node scripts/build-redirects.js` after editing that map, then the site check.
+  The script owns all redirect rules in `vercel.json` and preserves rewrites.
+  Arabic literal paths must match both uppercase and lowercase percent encoding.
+  Map old pages to equivalent current content; do not blanket-redirect old
+  lessons, WordPress demo content or unknown paths to the homepage.
+
 - The owner confirmed on 2026-09-09 that Rula's master's degree is from Sabahattin
   Zaim University (جامعة صباح الدين زعيم). Do not attribute that degree to Istanbul
   Aydin University; the food engineering bachelor's degree is a separate credential.

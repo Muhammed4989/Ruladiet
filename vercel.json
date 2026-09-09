@@ -1,18 +1,225 @@
 {
   "redirects": [
-    { "source": "/courses/:legacy(%[dD]9%83%[dD]9%88%[dD]8%[bB]1%[dD]8%[bB]3-%[dD]8%[bB]1%[dD]8%[aA][dD]%[dD]9%84%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]9%8[aA]%[dD]9%8[aA]%[dD]8%[bB]1)", "destination": "/course/%D8%B1%D8%AD%D9%84%D8%A9-%D8%A7%D9%84%D8%AA%D8%BA%D9%8A%D9%8A%D8%B1", "permanent": true },
-    { "source": "/courses/:legacy(%[dD]9%83%[dD]9%88%[dD]8%[bB]1%[dD]8%[bB]3-%[dD]8%[bB]1%[dD]8%[aA][dD]%[dD]9%84%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]9%8[aA]%[dD]9%8[aA]%[dD]8%[bB]1)/", "destination": "/course/%D8%B1%D8%AD%D9%84%D8%A9-%D8%A7%D9%84%D8%AA%D8%BA%D9%8A%D9%8A%D8%B1", "permanent": true },
-    { "source": "/category/:legacy(%[dD]8%[bB]5%[dD]8%[aA][dD]%[dD]8%[aA]9)", "destination": "/%D8%A7%D9%84%D9%85%D8%AF%D9%88%D9%86%D8%A9", "permanent": true },
-    { "source": "/category/:legacy(%[dD]8%[bB]5%[dD]8%[aA][dD]%[dD]8%[aA]9)/", "destination": "/%D8%A7%D9%84%D9%85%D8%AF%D9%88%D9%86%D8%A9", "permanent": true },
-    { "source": "/course/:slug.html", "destination": "/course/:slug", "permanent": true },
-    { "source": "/blog/:slug.html", "destination": "/blog/:slug", "permanent": true }
+    {
+      "source": "/courses/:legacy2(%[dD]9%83%[dD]9%88%[dD]8%[bB]1%[dD]8%[bB]3-%[dD]8%[bB]1%[dD]8%[aA][dD]%[dD]9%84%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]9%8[aA]%[dD]9%8[aA]%[dD]8%[bB]1)",
+      "destination": "/course/%D8%B1%D8%AD%D9%84%D8%A9-%D8%A7%D9%84%D8%AA%D8%BA%D9%8A%D9%8A%D8%B1",
+      "permanent": true
+    },
+    {
+      "source": "/courses/:legacy2(%[dD]9%83%[dD]9%88%[dD]8%[bB]1%[dD]8%[bB]3-%[dD]8%[bB]1%[dD]8%[aA][dD]%[dD]9%84%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]9%8[aA]%[dD]9%8[aA]%[dD]8%[bB]1)/",
+      "destination": "/course/%D8%B1%D8%AD%D9%84%D8%A9-%D8%A7%D9%84%D8%AA%D8%BA%D9%8A%D9%8A%D8%B1",
+      "permanent": true
+    },
+    {
+      "source": "/category/:legacy2(%[dD]8%[bB]5%[dD]8%[aA][dD]%[dD]8%[aA]9)",
+      "destination": "/%D8%A7%D9%84%D9%85%D8%AF%D9%88%D9%86%D8%A9",
+      "permanent": true
+    },
+    {
+      "source": "/category/:legacy2(%[dD]8%[bB]5%[dD]8%[aA][dD]%[dD]8%[aA]9)/",
+      "destination": "/%D8%A7%D9%84%D9%85%D8%AF%D9%88%D9%86%D8%A9",
+      "permanent": true
+    },
+    {
+      "source": "/courses/:legacy2(%[dD]9%83%[dD]9%88%[dD]8%[bB]1%[dD]8%[bB]3-%[dD]8%[aA][aA]%[dD]9%83%[dD]9%8[aA]%[dD]8%[bB]3-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[aA]8%[dD]8%[aA]7%[dD]9%8[aA]%[dD]8%[bB]6)",
+      "destination": "/course/%D8%AA%D9%83%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D9%8A%D8%B6",
+      "permanent": true
+    },
+    {
+      "source": "/courses/:legacy2(%[dD]9%83%[dD]9%88%[dD]8%[bB]1%[dD]8%[bB]3-%[dD]8%[aA][aA]%[dD]9%83%[dD]9%8[aA]%[dD]8%[bB]3-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[aA]8%[dD]8%[aA]7%[dD]9%8[aA]%[dD]8%[bB]6)/",
+      "destination": "/course/%D8%AA%D9%83%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D9%8A%D8%B6",
+      "permanent": true
+    },
+    {
+      "source": "/courses/:legacy2(%[dD]9%83%[dD]9%88%[dD]8%[bB]1%[dD]8%[bB]3-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB]9%[dD]8%[aA]7%[dD]9%81%[dD]9%8[aA]-%[dD]9%85%[dD]9%86-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]4%[dD]9%87%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]7%[dD]9%86%[dD]9%81%[dD]8%[bB]9%[dD]8%[aA]7%[dD]9%84%[dD]9%8[aA]%[dD]8%[aA]9)",
+      "destination": "/course/%D8%A7%D9%84%D8%A3%D9%83%D9%84-%D8%A7%D9%84%D8%B9%D8%A7%D8%B7%D9%81%D9%8A",
+      "permanent": true
+    },
+    {
+      "source": "/courses/:legacy2(%[dD]9%83%[dD]9%88%[dD]8%[bB]1%[dD]8%[bB]3-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB]9%[dD]8%[aA]7%[dD]9%81%[dD]9%8[aA]-%[dD]9%85%[dD]9%86-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]4%[dD]9%87%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]7%[dD]9%86%[dD]9%81%[dD]8%[bB]9%[dD]8%[aA]7%[dD]9%84%[dD]9%8[aA]%[dD]8%[aA]9)/",
+      "destination": "/course/%D8%A7%D9%84%D8%A3%D9%83%D9%84-%D8%A7%D9%84%D8%B9%D8%A7%D8%B7%D9%81%D9%8A",
+      "permanent": true
+    },
+    {
+      "source": "/courses/:legacy2(%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]1-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]5%[dD]8%[aA][dD]%[dD]9%8[aA]-%[dD]8%[aA]7%[dD]9%84%[dD]9%83%[dD]9%88%[dD]8%[bB]1%[dD]8%[bB]3-%[dD]9%83%[dD]8%[aA]7%[dD]9%85%[dD]9%84%[dD]8%[aA]7%[dD]9%8[bB]-%[dD]8%[aA]8%[dD]8%[aA][fF]%[dD]9%88%[dD]9%86-%[dD]9%85%[dD]8%[aA][aA]%[dD]8%[aA]7%[dD]8%[aA]8%[dD]8%[bB]9-2)",
+      "destination": "/course/%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D8%B1-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A",
+      "permanent": true
+    },
+    {
+      "source": "/courses/:legacy2(%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]1-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]5%[dD]8%[aA][dD]%[dD]9%8[aA]-%[dD]8%[aA]7%[dD]9%84%[dD]9%83%[dD]9%88%[dD]8%[bB]1%[dD]8%[bB]3-%[dD]9%83%[dD]8%[aA]7%[dD]9%85%[dD]9%84%[dD]8%[aA]7%[dD]9%8[bB]-%[dD]8%[aA]8%[dD]8%[aA][fF]%[dD]9%88%[dD]9%86-%[dD]9%85%[dD]8%[aA][aA]%[dD]8%[aA]7%[dD]8%[aA]8%[dD]8%[bB]9-2)/",
+      "destination": "/course/%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D8%B1-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A",
+      "permanent": true
+    },
+    {
+      "source": "/product/:legacy2(%[dD]9%83%[dD]9%88%[dD]8%[bB]1%[dD]8%[bB]3-%[dD]8%[aA][aA]%[dD]9%83%[dD]9%8[aA]%[dD]8%[bB]3-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[aA]8%[dD]8%[aA]7%[dD]9%8[aA]%[dD]8%[bB]6)",
+      "destination": "/course/%D8%AA%D9%83%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D9%8A%D8%B6",
+      "permanent": true
+    },
+    {
+      "source": "/product/:legacy2(%[dD]9%83%[dD]9%88%[dD]8%[bB]1%[dD]8%[bB]3-%[dD]8%[aA][aA]%[dD]9%83%[dD]9%8[aA]%[dD]8%[bB]3-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[aA]8%[dD]8%[aA]7%[dD]9%8[aA]%[dD]8%[bB]6)/",
+      "destination": "/course/%D8%AA%D9%83%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D9%8A%D8%B6",
+      "permanent": true
+    },
+    {
+      "source": "/product/:legacy2(%[dD]9%83%[dD]9%88%[dD]8%[bB]1%[dD]8%[bB]3-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB]9%[dD]8%[aA]7%[dD]9%81%[dD]9%8[aA]-%[dD]9%85%[dD]9%86-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]4%[dD]9%87%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]7%[dD]9%86%[dD]9%81%[dD]8%[bB]9%[dD]8%[aA]7%[dD]9%84%[dD]9%8[aA]%[dD]8%[aA]9)",
+      "destination": "/course/%D8%A7%D9%84%D8%A3%D9%83%D9%84-%D8%A7%D9%84%D8%B9%D8%A7%D8%B7%D9%81%D9%8A",
+      "permanent": true
+    },
+    {
+      "source": "/product/:legacy2(%[dD]9%83%[dD]9%88%[dD]8%[bB]1%[dD]8%[bB]3-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB]9%[dD]8%[aA]7%[dD]9%81%[dD]9%8[aA]-%[dD]9%85%[dD]9%86-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]4%[dD]9%87%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]7%[dD]9%86%[dD]9%81%[dD]8%[bB]9%[dD]8%[aA]7%[dD]9%84%[dD]9%8[aA]%[dD]8%[aA]9)/",
+      "destination": "/course/%D8%A7%D9%84%D8%A3%D9%83%D9%84-%D8%A7%D9%84%D8%B9%D8%A7%D8%B7%D9%81%D9%8A",
+      "permanent": true
+    },
+    {
+      "source": "/product/:legacy2(%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]1-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]5%[dD]8%[aA][dD]%[dD]9%8[aA]-%[dD]8%[aA]7%[dD]9%84%[dD]9%83%[dD]9%88%[dD]8%[bB]1%[dD]8%[bB]3-%[dD]9%83%[dD]8%[aA]7%[dD]9%85%[dD]9%84%[dD]8%[aA]7%[dD]9%8[bB]-%[dD]8%[aA]8%[dD]8%[aA][fF]%[dD]9%88%[dD]9%86-%[dD]9%85%[dD]8%[aA][aA]%[dD]8%[aA]7%[dD]8%[aA]8%[dD]8%[bB]9)",
+      "destination": "/course/%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D8%B1-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A",
+      "permanent": true
+    },
+    {
+      "source": "/product/:legacy2(%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]1-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]5%[dD]8%[aA][dD]%[dD]9%8[aA]-%[dD]8%[aA]7%[dD]9%84%[dD]9%83%[dD]9%88%[dD]8%[bB]1%[dD]8%[bB]3-%[dD]9%83%[dD]8%[aA]7%[dD]9%85%[dD]9%84%[dD]8%[aA]7%[dD]9%8[bB]-%[dD]8%[aA]8%[dD]8%[aA][fF]%[dD]9%88%[dD]9%86-%[dD]9%85%[dD]8%[aA][aA]%[dD]8%[aA]7%[dD]8%[aA]8%[dD]8%[bB]9)/",
+      "destination": "/course/%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D8%B1-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A",
+      "permanent": true
+    },
+    {
+      "source": "/appointment",
+      "destination": "/%D8%A7%D8%AD%D8%AC%D8%B2-%D9%85%D9%88%D8%B9%D8%AF",
+      "permanent": true
+    },
+    {
+      "source": "/appointment/",
+      "destination": "/%D8%A7%D8%AD%D8%AC%D8%B2-%D9%85%D9%88%D8%B9%D8%AF",
+      "permanent": true
+    },
+    {
+      "source": "/contact-us-2",
+      "destination": "/%D8%A7%D8%AD%D8%AC%D8%B2-%D9%85%D9%88%D8%B9%D8%AF",
+      "permanent": true
+    },
+    {
+      "source": "/contact-us-2/",
+      "destination": "/%D8%A7%D8%AD%D8%AC%D8%B2-%D9%85%D9%88%D8%B9%D8%AF",
+      "permanent": true
+    },
+    {
+      "source": "/about-us-3",
+      "destination": "/%D8%A7%D9%84%D9%81%D8%B1%D9%8A%D9%82",
+      "permanent": true
+    },
+    {
+      "source": "/about-us-3/",
+      "destination": "/%D8%A7%D9%84%D9%81%D8%B1%D9%8A%D9%82",
+      "permanent": true
+    },
+    {
+      "source": "/team",
+      "destination": "/%D8%A7%D9%84%D9%81%D8%B1%D9%8A%D9%82",
+      "permanent": true
+    },
+    {
+      "source": "/team/",
+      "destination": "/%D8%A7%D9%84%D9%81%D8%B1%D9%8A%D9%82",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy",
+      "destination": "/%D8%A7%D9%84%D8%AE%D8%B5%D9%88%D8%B5%D9%8A%D8%A9",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy/",
+      "destination": "/%D8%A7%D9%84%D8%AE%D8%B5%D9%88%D8%B5%D9%8A%D8%A9",
+      "permanent": true
+    },
+    {
+      "source": "/terms-of-service",
+      "destination": "/%D8%A7%D9%84%D8%B4%D8%B1%D9%88%D8%B7",
+      "permanent": true
+    },
+    {
+      "source": "/terms-of-service/",
+      "destination": "/%D8%A7%D9%84%D8%B4%D8%B1%D9%88%D8%B7",
+      "permanent": true
+    },
+    {
+      "source": "/refund_returns",
+      "destination": "/%D8%A7%D9%84%D8%A5%D8%B3%D8%AA%D8%B1%D8%AC%D8%A7%D8%B9",
+      "permanent": true
+    },
+    {
+      "source": "/refund_returns/",
+      "destination": "/%D8%A7%D9%84%D8%A5%D8%B3%D8%AA%D8%B1%D8%AC%D8%A7%D8%B9",
+      "permanent": true
+    },
+    {
+      "source": "/:legacy1(%[dD]8%[bB]1%[dD]9%85%[dD]8%[bB]6%[dD]8%[aA]7%[dD]9%86-%[dD]8%[aA]8%[dD]9%84%[dD]8%[aA]7-%[dD]8%[bB]3%[dD]9%83%[dD]8%[bB]1-%[dD]8%[aA]5%[dD]9%84%[dD]9%8[aA]%[dD]9%83-%[dD]8%[aA][aA]%[dD]8%[aA][cC]%[dD]8%[bB]1%[dD]8%[aA]8%[dD]8%[aA][aA]%[dD]9%8[aA]-%[dD]9%88%[dD]9%83%[dD]9%8[aA]%[dD]9%81-%[dD]8%[aA][aA]%[dD]8%[aA]3%[dD]8%[aA][bB]%[dD]8%[bB]1%[dD]8%[aA][aA]-%[dD]8%[aA]8)",
+      "destination": "/blog/%D8%B1%D9%85%D8%B6%D8%A7%D9%86-%D8%A8%D9%84%D8%A7-%D8%B3%D9%83%D8%B1",
+      "permanent": true
+    },
+    {
+      "source": "/:legacy1(%[dD]8%[bB]1%[dD]9%85%[dD]8%[bB]6%[dD]8%[aA]7%[dD]9%86-%[dD]8%[aA]8%[dD]9%84%[dD]8%[aA]7-%[dD]8%[bB]3%[dD]9%83%[dD]8%[bB]1-%[dD]8%[aA]5%[dD]9%84%[dD]9%8[aA]%[dD]9%83-%[dD]8%[aA][aA]%[dD]8%[aA][cC]%[dD]8%[bB]1%[dD]8%[aA]8%[dD]8%[aA][aA]%[dD]9%8[aA]-%[dD]9%88%[dD]9%83%[dD]9%8[aA]%[dD]9%81-%[dD]8%[aA][aA]%[dD]8%[aA]3%[dD]8%[aA][bB]%[dD]8%[bB]1%[dD]8%[aA][aA]-%[dD]8%[aA]8)/",
+      "destination": "/blog/%D8%B1%D9%85%D8%B6%D8%A7%D9%86-%D8%A8%D9%84%D8%A7-%D8%B3%D9%83%D8%B1",
+      "permanent": true
+    },
+    {
+      "source": "/:legacy1(%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%87%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[bB]3%[dD]8%[aA][aA]%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]9%84%[dD]8%[aA]9-%[dD]9%84%[dD]9%84%[dD]8%[aA]3%[dD]9%85%[dD]9%87%[dD]8%[aA]7%[dD]8%[aA][aA])",
+      "destination": "/blog/%D8%A7%D9%84%D9%85%D9%87%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%AD%D9%8A%D9%84%D8%A9-%D9%84%D9%84%D8%A3%D9%85%D9%87%D8%A7%D8%AA",
+      "permanent": true
+    },
+    {
+      "source": "/:legacy1(%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%87%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[bB]3%[dD]8%[aA][aA]%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]9%84%[dD]8%[aA]9-%[dD]9%84%[dD]9%84%[dD]8%[aA]3%[dD]9%85%[dD]9%87%[dD]8%[aA]7%[dD]8%[aA][aA])/",
+      "destination": "/blog/%D8%A7%D9%84%D9%85%D9%87%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%AD%D9%8A%D9%84%D8%A9-%D9%84%D9%84%D8%A3%D9%85%D9%87%D8%A7%D8%AA",
+      "permanent": true
+    },
+    {
+      "source": "/:legacy1(%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%87%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%85%[dD]9%83%[dD]9%86%[dD]8%[aA]9-%[dD]9%84%[dD]9%84%[dD]8%[bB]9%[dD]8%[aA]7%[dD]9%85-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][cC]%[dD]8%[aA][fF]%[dD]9%8[aA]%[dD]8%[aA][fF])",
+      "destination": "/blog/%D8%A7%D9%84%D9%85%D9%87%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D9%85%D9%83%D9%86%D8%A9-%D9%84%D9%84%D8%B9%D8%A7%D9%85-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF",
+      "permanent": true
+    },
+    {
+      "source": "/:legacy1(%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%87%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%85%[dD]9%83%[dD]9%86%[dD]8%[aA]9-%[dD]9%84%[dD]9%84%[dD]8%[bB]9%[dD]8%[aA]7%[dD]9%85-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][cC]%[dD]8%[aA][fF]%[dD]9%8[aA]%[dD]8%[aA][fF])/",
+      "destination": "/blog/%D8%A7%D9%84%D9%85%D9%87%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D9%85%D9%83%D9%86%D8%A9-%D9%84%D9%84%D8%B9%D8%A7%D9%85-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF",
+      "permanent": true
+    },
+    {
+      "source": "/:legacy1(%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[aA][fF]%[dD]9%88%[dD]9%86%[dD]8%[aA]9)/",
+      "destination": "/%D8%A7%D9%84%D9%85%D8%AF%D9%88%D9%86%D8%A9",
+      "permanent": true
+    },
+    {
+      "source": "/course/:slug.html",
+      "destination": "/course/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:slug.html",
+      "destination": "/blog/:slug",
+      "permanent": true
+    }
   ],
   "rewrites": [
-    { "source": "/course/:path*", "destination": "/course/:path*.html" },
-    { "source": "/blog/:path*", "destination": "/blog/:path*.html" },
-    { "source": "/js/:path*", "destination": "/js/:path*" },
-    { "source": "/css/:path*", "destination": "/css/:path*" },
-    { "source": "/images/:path*", "destination": "/images/:path*" },
-    { "source": "/([^/]+)", "destination": "/$1.html" }
+    {
+      "source": "/course/:path*",
+      "destination": "/course/:path*.html"
+    },
+    {
+      "source": "/blog/:path*",
+      "destination": "/blog/:path*.html"
+    },
+    {
+      "source": "/js/:path*",
+      "destination": "/js/:path*"
+    },
+    {
+      "source": "/css/:path*",
+      "destination": "/css/:path*"
+    },
+    {
+      "source": "/images/:path*",
+      "destination": "/images/:path*"
+    },
+    {
+      "source": "/([^/]+)",
+      "destination": "/$1.html"
+    }
   ]
 }
