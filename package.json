@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "optimize:images": "node scripts/optimize-images.js",
     "maintain:seo": "node scripts/maintain-seo.js",
     "build:redirects": "node scripts/build-redirects.js",
     "check:site": "node scripts/check-site.js"
