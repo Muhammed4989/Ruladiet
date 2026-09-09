@@ -25,3 +25,5 @@ add-footer-map.js
 update-address.js
 *.bak-dir
 fix-address-dir.js
+scripts
+AGENTS.md

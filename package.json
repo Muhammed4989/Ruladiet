@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "maintain:seo": "node scripts/maintain-seo.js",
+    "check:site": "node scripts/check-site.js"
+  },
   "dependencies": {
     "html-minifier": "^4.0.0",
     "sharp": "^0.34.5"
