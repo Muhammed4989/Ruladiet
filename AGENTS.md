@@ -136,6 +136,8 @@ check afterwards; its known null-byte warning is not a new regression.
   detail pages by `node scripts/sync-course-enrollments.js`. If a detail page
   has no count, the script preserves the existing card value and reports it;
   obtain a confirmed number before adding or changing that enrollment claim.
+  The owner confirmed المسار الصحي has "400 وأكثر" on 2026-09-09; preserve
+  that lower-bound wording rather than presenting 400 as an exact count.
 - Site-wide edits go through a **script committed to the repo**, so they can be re-run
   after a rebuild. Do not hand-edit 30 files.
 - Verify JSON-LD still parses after touching any `<script type="application/ld+json">`
