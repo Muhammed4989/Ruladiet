@@ -1,4 +1,12 @@
 {
+  "redirects": [
+    { "source": "/courses/كورس-رحلة-التغيير", "destination": "/course/رحلة-التغيير", "permanent": true },
+    { "source": "/courses/كورس-رحلة-التغيير/", "destination": "/course/رحلة-التغيير", "permanent": true },
+    { "source": "/category/صحة", "destination": "/المدونة", "permanent": true },
+    { "source": "/category/صحة/", "destination": "/المدونة", "permanent": true },
+    { "source": "/course/:slug.html", "destination": "/course/:slug", "permanent": true },
+    { "source": "/blog/:slug.html", "destination": "/blog/:slug", "permanent": true }
+  ],
   "rewrites": [
     { "source": "/course/:path*", "destination": "/course/:path*.html" },
     { "source": "/blog/:path*", "destination": "/blog/:path*.html" },

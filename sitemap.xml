@@ -14,12 +14,6 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://ruladiet.com/404</loc>
-    <lastmod>2026-06-10</lastmod>
-    <priority>0.1</priority>
-    <changefreq>yearly</changefreq>
-  </url>
-  <url>
     <loc>https://ruladiet.com/الدورات</loc>
     <lastmod>2026-06-10</lastmod>
     <priority>0.8</priority>
@@ -33,13 +27,13 @@
   </url>
   <url>
     <loc>https://ruladiet.com/احجز-موعد</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://ruladiet.com/رولا-علوش</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>

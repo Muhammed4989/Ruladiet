@@ -422,14 +422,14 @@ img{max-width:100%;height:auto;display:block}
       <button type="button" class="btn btn-primary nav-cta" onclick="window.location.href='https://wa.me/905300222468?text=${encodedWhatsapp}'">اشترِ الآن</button>
       <nav class="nav" id="nav" aria-label="القائمة الرئيسية">
         <ul class="nav-list">
-          <li><a href="../" class="nav-link">الرئيسية</a></li>
-          <li><a href="../%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D8%A7%D8%AA" class="nav-link active">دوراتنا</a></li>
-          <li><a href="../%D8%A7%D9%84%D9%81%D8%B1%D9%8A%D9%82" class="nav-link">من نحن</a></li>
-          <li><a href="../%D8%A7%D8%AD%D8%AC%D8%B2-%D9%85%D9%88%D8%B9%D8%AF" class="nav-link">احجز موعد</a></li>
-          <li><a href="../%D8%A7%D9%84%D9%85%D8%AF%D9%88%D9%86%D8%A9" class="nav-link">المدونة</a></li>
+          <li><a href="/" class="nav-link">الرئيسية</a></li>
+          <li><a href="/الدورات" class="nav-link active">دوراتنا</a></li>
+          <li><a href="/الفريق" class="nav-link">من نحن</a></li>
+          <li><a href="/احجز-موعد" class="nav-link">احجز موعد</a></li>
+          <li><a href="/المدونة" class="nav-link">المدونة</a></li>
         </ul>
       </nav>
-      <a href="../" class="logo" aria-label="رولا دايت - الصفحة الرئيسية">
+      <a href="/" class="logo" aria-label="رولا دايت - الصفحة الرئيسية">
         <img src="/images/RULA-DIET-LOGO.png" alt="شعار رولا دايت" width="180" height="60">
       </a>
       <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة" aria-expanded="false">
@@ -518,7 +518,7 @@ ${infoCardsHTML}
           ${priceDisplay}
           <div class="sidebar-cta">
             <a href="https://wa.me/905300222468?text=${encodedWhatsapp}" class="btn-accent" target="_blank" rel="noopener">اشترِ الآن - ${c.price}</a>
-            <a href="../%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D8%A7%D8%AA" class="btn-outline-dark">جميع الدورات</a>
+            <a href="/الدورات" class="btn-outline-dark">جميع الدورات</a>
           </div>
           <div class="sidebar-divider"></div>
           <div class="sidebar-includes">
@@ -566,18 +566,18 @@ ${includesHTML}
         <div class="footer-col-new">
           <h4>روابط</h4>
           <ul>
-            <li><a href="../">الرئيسية</a></li>
-            <li><a href="../%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D8%A7%D8%AA">الدورات</a></li>
-            <li><a href="../%D8%A7%D9%84%D9%85%D8%AF%D9%88%D9%86%D8%A9">المدونة</a></li>
-            <li><a href="../%D8%A7%D9%84%D9%81%D8%B1%D9%8A%D9%82">الفريق</a></li>
+            <li><a href="/">الرئيسية</a></li>
+            <li><a href="/الدورات">الدورات</a></li>
+            <li><a href="/المدونة">المدونة</a></li>
+            <li><a href="/الفريق">الفريق</a></li>
           </ul>
         </div>
         <div class="footer-col-new">
           <h4>سياسات</h4>
           <ul>
-            <li><a href="../%D8%A7%D9%84%D8%AE%D8%B5%D9%88%D8%B5%D9%8A%D8%A9">الخصوصية</a></li>
-            <li><a href="../%D8%A7%D9%84%D8%B4%D8%B1%D9%88%D8%B7">الشروط</a></li>
-            <li><a href="../%D8%A7%D9%84%D8%A5%D8%B3%D8%AA%D8%B1%D8%AC%D8%A7%D8%B9">الإسترجاع</a></li>
+            <li><a href="/الخصوصية">الخصوصية</a></li>
+            <li><a href="/الشروط">الشروط</a></li>
+            <li><a href="/الإسترجاع">الإسترجاع</a></li>
           </ul>
         </div>
         <div class="footer-col-new">

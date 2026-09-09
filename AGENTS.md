@@ -73,10 +73,16 @@ node build-course-pages-v2.js      # if you regenerate course pages
 node add-footer-map.js             # re-adds the script tag   (idempotent)
 node update-address.js             # re-applies the new address (idempotent)
 node fix-address-dir.js            # re-applies dir="ltr"      (idempotent)
+node scripts/maintain-seo.js        # root-relative links and SEO maintenance
+node scripts/check-site.js         # links, sitemap, scripts and JSON-LD checks
 ```
 
 All three are idempotent and safe to re-run at any time. Each writes a `.bak-*` copy
 beside every file it changes; those patterns are gitignored and vercelignored.
+
+The SEO maintenance script is also idempotent. It writes only changed files, does not
+regenerate course content, and uses Git history for review and rollback. Run the site
+check afterwards; its known null-byte warning is not a new regression.
 
 ## Known issues
 
