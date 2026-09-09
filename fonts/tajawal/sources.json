@@ -1,0 +1,46 @@
+{
+  "downloaded": "2026-09-09",
+  "stylesheet": "https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;600;700;800&display=optional",
+  "sources": [
+    {
+      "file": "tajawal-400-arabic.woff2",
+      "url": "https://fonts.gstatic.com/s/tajawal/v12/Iura6YBj_oCad4k1nzSBC45I.woff2",
+      "bytes": 8932
+    },
+    {
+      "file": "tajawal-400-latin.woff2",
+      "url": "https://fonts.gstatic.com/s/tajawal/v12/Iura6YBj_oCad4k1nzGBCw.woff2",
+      "bytes": 10256
+    },
+    {
+      "file": "tajawal-500-arabic.woff2",
+      "url": "https://fonts.gstatic.com/s/tajawal/v12/Iurf6YBj_oCad4k1l8KiHrRpiYlJ.woff2",
+      "bytes": 8940
+    },
+    {
+      "file": "tajawal-500-latin.woff2",
+      "url": "https://fonts.gstatic.com/s/tajawal/v12/Iurf6YBj_oCad4k1l8KiHrFpiQ.woff2",
+      "bytes": 9900
+    },
+    {
+      "file": "tajawal-700-arabic.woff2",
+      "url": "https://fonts.gstatic.com/s/tajawal/v12/Iurf6YBj_oCad4k1l4qkHrRpiYlJ.woff2",
+      "bytes": 9024
+    },
+    {
+      "file": "tajawal-700-latin.woff2",
+      "url": "https://fonts.gstatic.com/s/tajawal/v12/Iurf6YBj_oCad4k1l4qkHrFpiQ.woff2",
+      "bytes": 9996
+    },
+    {
+      "file": "tajawal-800-arabic.woff2",
+      "url": "https://fonts.gstatic.com/s/tajawal/v12/Iurf6YBj_oCad4k1l5anHrRpiYlJ.woff2",
+      "bytes": 9448
+    },
+    {
+      "file": "tajawal-800-latin.woff2",
+      "url": "https://fonts.gstatic.com/s/tajawal/v12/Iurf6YBj_oCad4k1l5anHrFpiQ.woff2",
+      "bytes": 10584
+    }
+  ]
+}
