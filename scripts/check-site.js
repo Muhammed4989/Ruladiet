@@ -78,14 +78,24 @@ for (const loc of locations) {
 }
 
 const config = JSON.parse(fs.readFileSync(path.join(root, 'vercel.json'), 'utf8'));
-for (const source of ['/courses/كورس-رحلة-التغيير', '/courses/كورس-رحلة-التغيير/', '/category/صحة', '/category/صحة/']) {
-  // Vercel matches the encoded HTTP pathname, not the decoded Arabic slug.
-  const wirePath = new URL(source, origin).pathname;
-  const matches = (rule, pathname) => new RegExp('^' + rule.source.replace(':legacy(', '(?:') + '$').test(pathname);
-  const rule = config.redirects.find(rule => matches(rule, wirePath));
-  check(!!rule && rule.permanent === true, 'Missing permanent legacy redirect ' + source);
-  if (rule) check(matches(rule, wirePath.toLowerCase()), 'Redirect must handle lowercase percent encoding ' + source);
-  if (rule) check(fs.existsSync(path.join(root, fileForUrl(new URL(rule.destination, origin)))), 'Missing redirect destination ' + rule.destination);
+const mappings = require('./legacy-redirects.json');
+const matches = (rule, pathname) => new RegExp('^' + rule.source.replace(/:legacy\d*\(/g, '(?:') + '$').test(pathname);
+check(new Set(config.redirects.map(rule => rule.source)).size === config.redirects.length, 'Duplicate redirect sources');
+for (const { source, destination } of mappings) {
+  const variants = source.endsWith('/') ? [source] : [source, source + '/'];
+  for (const variant of variants) {
+    const wirePath = new URL(variant, origin).pathname;
+    for (const encoded of [wirePath, wirePath.toLowerCase(), wirePath.replace(/%D8/g, '%d8')]) {
+      const rule = config.redirects.find(rule => matches(rule, encoded));
+      check(!!rule && rule.permanent === true, 'Missing permanent legacy redirect ' + encoded);
+      if (rule) check(decodeURI(rule.destination) === destination, 'Wrong redirect destination for ' + encoded);
+    }
+  }
+  check(fs.existsSync(path.join(root, fileForUrl(new URL(destination, origin)))), 'Missing redirect destination ' + destination);
+  check(!config.redirects.some(rule => matches(rule, new URL(destination, origin).pathname)), 'Redirect chain or loop for ' + destination);
+}
+for (const route of ['/portfolio/a-lacus-bibendum-pulvinar/', '/product-category/furniture/', '/courses/كورس-تكيس-المبايض/lessons/8-تشخيص-تكيس-المبايض/']) {
+  check(!config.redirects.some(rule => matches(rule, new URL(route, origin).pathname)), 'Unrelated page must not be redirected: ' + route);
 }
 console.log(JSON.stringify({ pages: files.length, schemas, internalLinks, sitemapUrls: locations.length, warnings, errors }, null, 2));
 assert.equal(errors.length, 0, 'Site checks failed');
