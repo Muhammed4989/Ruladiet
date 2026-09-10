@@ -4,8 +4,31 @@
   "path": "/author/rulaalloush",
   "updated": "2026-09-10",
   "publications": [
-    {"name": "الجزيرة نت", "url": "https://www.aljazeera.net/author/رولا-علوش", "description": "مقالات منشورة باسم رولا علوش في موضوعات الصحة، والعلاقة بالطعام، والعادات اليومية.", "verified": "2026-09-10"},
-    {"name": "عربي بوست", "url": "https://arabicpost.net/author/rula-alloush/", "description": "كتابات في التوعية الغذائية والحياة اليومية، يمكن الاطلاع عليها في صفحة الكاتبة لدى الناشر.", "verified": "2026-09-10"}
+    {
+      "name": "الجزيرة نت",
+      "url": "https://www.aljazeera.net/author/رولا-علوش",
+      "description": "مقالات منشورة باسم رولا علوش في موضوعات الصحة، والعلاقة بالطعام، والعادات اليومية.",
+      "verified": "2026-09-10",
+      "articles": [
+        {"title": "فلسفة رمضان الصحية.. رسائل رمضان إلينا", "url": "https://www.aljazeera.net/blogs/2024/2/27/فلسفة-رمضان-الصحية-رسائل-رمضان-إلينا", "published": "2024-02-27"},
+        {"title": "الحلقة الذهبية.. كيف يشكل الجهاز الهضمي فرصة لمزاج جيد؟", "url": "https://www.aljazeera.net/blogs/2024/1/29/الحلقة-الذهبية-كيف-يشكل-الجهاز-الهضمي", "published": "2024-01-29"},
+        {"title": "\"تأليل الإنسان\" أم خدمته في المجال الصحي التكنولوجي؟", "url": "https://www.aljazeera.net/blogs/2024/1/23/تأليل-الإنسان-أم-خدمته-في-المجال", "published": "2024-01-23"},
+        {"title": "المهمة الممكنة للعام الجديد!", "url": "https://www.aljazeera.net/blogs/2023/12/31/المهمة-الممكنة-للعام-الجديد", "published": "2023-12-31"},
+        {"title": "الأكل العاطفي والوجبات المريحة في الأزمات", "url": "https://www.aljazeera.net/blogs/2023/11/10/الأكل-العاطفي-والوجبات-المريحة-في", "published": "2023-11-10"}
+      ]
+    },
+    {
+      "name": "عربي بوست",
+      "url": "https://arabicpost.net/author/rula-alloush/",
+      "description": "كتابات في التوعية الغذائية والحياة اليومية وتجارب شخصية منشورة باسم رولا علوش.",
+      "verified": "2026-09-10",
+      "articles": [
+        {"title": "أفكار خفيفة وحيل سريعة.. كيف يمكنك استغلال رمضان في خسارة وزنك الزائد؟", "url": "https://arabicpost.net/opinions/2022/04/13/خسارة-الوزن-الزائد-في-رمضان/", "published": "2022-04-13"},
+        {"title": "أنجبته من قلبي.. بعد بحث دام سنتين قصتي في تبنّي طفل وكيف أزلت الحرج الشرعي؟", "url": "https://arabicpost.net/opinions/2021/11/09/قصتي-في-تبني-طفل/", "published": "2021-11-09"},
+        {"title": "رمضان بلا سكر.. إليك تجربتي وكيف تأثرت بشرتي وصحتي", "url": "https://arabicpost.net/opinions/personal/2020/05/18/رمضان-بلا-سكر-إليك-تجربتي-وكيف-تأثرت-ب/", "published": "2020-05-18"},
+        {"title": "احذر كوميديا السِّمنة.. إليك 12 نصيحة غذائية في حجرك المنزلي", "url": "https://arabicpost.net/opinions/2020/04/15/عادات-غذائية-الحجر-الصحي/", "published": "2020-04-15"}
+      ]
+    }
   ],
   "sameAs": ["https://www.aljazeera.net/author/رولا-علوش", "https://arabicpost.net/author/rula-alloush/", "https://www.instagram.com/rulaalloush/"],
   "verificationNote": "The owner requested AJ+ and magazines; searches on 2026-09-10 did not establish an attributable primary author/article link for those publications. Do not add an employment relationship or publication claim without evidence. Master's university was explicitly confirmed by the owner as Sabahattin Zaim."
