@@ -186,6 +186,21 @@
       "permanent": true
     },
     {
+      "source": "/auther/rulaalloush",
+      "destination": "/author/rulaalloush",
+      "permanent": true
+    },
+    {
+      "source": "/auther/rulaalloush/",
+      "destination": "/author/rulaalloush",
+      "permanent": true
+    },
+    {
+      "source": "/author/rulaalloush/",
+      "destination": "/author/rulaalloush",
+      "permanent": true
+    },
+    {
       "source": "/course/:slug.html",
       "destination": "/course/:slug",
       "permanent": true
@@ -194,9 +209,18 @@
       "source": "/blog/:slug.html",
       "destination": "/blog/:slug",
       "permanent": true
+    },
+    {
+      "source": "/author/:slug.html",
+      "destination": "/author/:slug",
+      "permanent": true
     }
   ],
   "rewrites": [
+    {
+      "source": "/author/:path*",
+      "destination": "/author/:path*.html"
+    },
     {
       "source": "/course/:path*",
       "destination": "/course/:path*.html"

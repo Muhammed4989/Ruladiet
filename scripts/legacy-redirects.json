@@ -74,5 +74,13 @@
   {
     "source": "/المدونة/",
     "destination": "/المدونة"
+  },
+  {
+    "source": "/auther/rulaalloush",
+    "destination": "/author/rulaalloush"
+  },
+  {
+    "source": "/author/rulaalloush/",
+    "destination": "/author/rulaalloush"
   }
 ]

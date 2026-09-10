@@ -1,0 +1,12 @@
+{
+  "name": "رولا علوش",
+  "role": "اختصاصية تغذية وكاتبة في التوعية الغذائية",
+  "path": "/author/rulaalloush",
+  "updated": "2026-09-10",
+  "publications": [
+    {"name": "الجزيرة نت", "url": "https://www.aljazeera.net/author/رولا-علوش", "description": "مقالات منشورة باسم رولا علوش في موضوعات الصحة، والعلاقة بالطعام، والعادات اليومية.", "verified": "2026-09-10"},
+    {"name": "عربي بوست", "url": "https://arabicpost.net/author/rula-alloush/", "description": "كتابات في التوعية الغذائية والحياة اليومية، يمكن الاطلاع عليها في صفحة الكاتبة لدى الناشر.", "verified": "2026-09-10"}
+  ],
+  "sameAs": ["https://www.aljazeera.net/author/رولا-علوش", "https://arabicpost.net/author/rula-alloush/", "https://www.instagram.com/rulaalloush/"],
+  "verificationNote": "The owner requested AJ+ and magazines; searches on 2026-09-10 did not establish an attributable primary author/article link for those publications. Do not add an employment relationship or publication claim without evidence. Master's university was explicitly confirmed by the owner as Sabahattin Zaim."
+}

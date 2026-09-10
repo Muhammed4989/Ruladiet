@@ -5,7 +5,7 @@ const assert = require('node:assert/strict');
 
 const root = path.resolve(__dirname, '..');
 const origin = 'https://ruladiet.com';
-const files = ['', 'blog', 'course'].flatMap(dir => fs.readdirSync(path.join(root, dir))
+const files = ['', 'blog', 'course', 'author'].flatMap(dir => fs.readdirSync(path.join(root, dir))
   .filter(name => name.endsWith('.html')).map(name => path.posix.join(dir, name)));
 const errors = [];
 const warnings = [];
