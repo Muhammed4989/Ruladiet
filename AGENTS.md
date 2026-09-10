@@ -153,6 +153,21 @@ check afterwards; its known null-byte warning is not a new regression.
   block. There are 56 of them across the site.
 - Do not add `localStorage`/`sessionStorage` — nothing here needs it.
 
+## Campaign source handoff (2026-09-10)
+
+- `js/campaign-source.js` carries only the approved campaign's four fixed UTM
+  values from the PCOS landing page to its exact Systeme.io checkout. It does
+  not forward arbitrary parameters, click IDs or contact information, persist
+  a visitor identity, or send events to Meta. Organic links remain unchanged.
+- `scripts/sync-pcos-course.js` restores its script tag after regeneration.
+  Run `node scripts/check-campaign-source.js` and the site check after changes.
+- Systeme.io's Store UTM parameters setting was enabled for supported opt-in
+  forms. Its documentation explicitly excludes purchase attribution; do not
+  present these tags as verified purchases, CPA or ROAS.
+- Do not blanket-install an advertising pixel or upload condition-specific
+  registration/purchase events on health course pages. Meta Business Tools
+  Terms section 1(h) prohibits health-based data, including indirect signals.
+
 ## Blog editorial maintenance (2026-09-09)
 
 - Edit article bodies in `content/blog/<key>.html`, with the slug/key mapping,
