@@ -36,6 +36,8 @@ update('course/تكيس-المبايض.html', html => {
   if (!html.includes('class="pcos-learning-note"')) html = html.replace(/(<p class="section-desc">[\s\S]*?<\/p>)/, '$1' + nl + '        ' + note);
   if (!html.includes('class="pcos-price-note"')) html = html.replace('<div class="price-label">دورة متخصصة</div>', '<div class="price-label">دورة متخصصة</div>' + nl + '            <p class="pcos-price-note" style="font-size:.82rem;color:var(--text-light);margin-top:8px">السعر بالدولار الأمريكي. تظهر أي ضرائب واجبة في صفحة الدفع.</p>');
   html = html.replace('<meta property="og:image" content="https://ruladiet.com/images/ruladiet1.webp">', '<meta property="og:image" content="https://ruladiet.com/images/responsive/course-pcos-1200.webp">');
+  html = html.replace(/<button\b[^>]*class="btn btn-primary nav-cta"[^>]*>اشترِ الآن<\/button>/, '<a href="https://course.ruladiet.com/25bf7823" class="btn btn-primary nav-cta">اشترِ الآن</a>');
+  if (!html.includes('src="/js/campaign-source.js"')) html = html.replace('</body>', '<script src="/js/campaign-source.js" defer></script></body>');
   return html;
 });
 for (const file of ['index.html', 'الدورات.html']) update(file, html => html.replace(/<a\b[^>]*href="\/course\/تكيس-المبايض"[^>]*>[\s\S]*?<\/a>/g, card => card.replace(/<span class="course-duration">[^<]*<\/span>/, `<span class="course-duration">${count} درساً مسجّلاً</span>`).replace('وكيف تحسّن صحتك وخصوبتك.', 'وموضوعات التغذية والوزن والحمل.')));
