@@ -142,6 +142,11 @@ check afterwards; its known null-byte warning is not a new regression.
   a paid waiting list: USD 247, with sessions starting later. Maintain its price,
   waiting-list copy and Offer schema with `node scripts/update-emotional-waitlist.js`
   after regenerating pages. Do not describe payment as immediate course access.
+- PCOS course 636274 was checked in Systeme.io on 2026-09-10: 33 lessons in
+  five modules, with a separate public introductory preview. Run
+  `node scripts/sync-pcos-course.js` after regenerating pages. Its verified
+  curriculum is in `content/pcos-course.json`; do not restore conflicting
+  duration claims or unverified extras/certificates.
 - Site-wide edits go through a **script committed to the repo**, so they can be re-run
   after a rebuild. Do not hand-edit 30 files.
 - Verify JSON-LD still parses after touching any `<script type="application/ld+json">`
