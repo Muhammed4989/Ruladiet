@@ -1,0 +1,32 @@
+[
+  {
+    "key": "nutrition-evidence",
+    "slug": "المعلومات-الغذائية-الموثوقة",
+    "title": "كيف تميّزين المعلومات الغذائية الموثوقة؟ دليل عملي",
+    "summary": "دليل عملي لتمييز المعلومات الغذائية الموثوقة: افحصي الكاتب والمصادر، افهمي حدود الدراسات، واختاري ما يناسب حالتك قبل تغيير طعامك.",
+    "category": "الصحة والتغذية",
+    "published": "2026-09-10",
+    "updated": "2026-09-10",
+    "workflow": "daily",
+    "coverAlt": "عدسة مكبرة فوق رسوم بحثية توضيحية بجانب دفتر وتفاح وجوز لتقييم المعلومات الغذائية",
+    "coverCaption": "صورة توضيحية؛ الأوراق والرسوم في الصورة لا تمثّل دراسة منشورة أو نتائج طبية.",
+    "steps": ["حدّدي الادعاء", "افتحي المصدر الأصلي", "ناقشي ملاءمته لحالتك"],
+    "icon": "check",
+    "secondVisual": {
+      "title": "أسئلة قبل تطبيق النصيحة",
+      "steps": ["ما الفائدة وحدودها؟", "هل توجد بدائل؟", "هل تناسب ظروفي؟"],
+      "alt": "ثلاثة أسئلة قبل تطبيق نصيحة غذائية: ما فائدتها وحدودها، ما بدائلها، وهل تناسب الظروف الشخصية",
+      "caption": "قائمة أسئلة تعليمية لتنظيم النقاش مع المختص، وليست اختباراً تشخيصياً."
+    },
+    "related": ["مقاومة-الأنسولين", "الصيام-المتقطع-الاخطاء-الشائعة", "خسارة-الوزن"],
+    "cta": {"href": "/احجز-موعد", "label": "ناقشي أسئلتك في استشارة تغذية", "note": "حضّري الروابط التي حيّرتك وأسئلتك وأسماء الأدوية والمكملات، وتعرّفي على خيارات الحجز مع فريق رولا دايت."},
+    "sources": [
+      {"name": "MedlinePlus: تقييم المعلومات الصحية", "url": "https://medlineplus.gov/evaluatinghealthinformation.html"},
+      {"name": "NCCIH: أسئلة لفهم الأخبار الصحية", "url": "https://www.nccih.nih.gov/health/know-science/facts-health-news-stories/checklist-for-understanding-health-news-stories"},
+      {"name": "Cochrane: ما المراجعات المنهجية؟", "url": "https://www.cochrane.org/evidence/what-are-systematic-reviews"},
+      {"name": "MedlinePlus: ما المعلومات الصحية التي يمكن الوثوق بها؟", "url": "https://medlineplus.gov/ency/patientinstructions/000869.htm"},
+      {"name": "FDA: الاحتيال في المنتجات الصحية", "url": "https://www.fda.gov/consumers/health-fraud-scams"},
+      {"name": "NIH ODS: ما ينبغي معرفته عن المكملات الغذائية", "url": "https://ods.od.nih.gov/factsheets/WYNTK-Consumer/"}
+    ]
+  }
+]

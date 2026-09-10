@@ -21,6 +21,7 @@ const redirects = mappings.flatMap(({ source, destination }) => {
 config.redirects = [...redirects,
   { source: '/course/:slug.html', destination: '/course/:slug', permanent: true },
   { source: '/blog/:slug.html', destination: '/blog/:slug', permanent: true },
+  { source: '/author/:slug.html', destination: '/author/:slug', permanent: true },
 ];
 const before = fs.readFileSync(configPath, 'utf8');
 const after = JSON.stringify(config, null, 2) + '\n';

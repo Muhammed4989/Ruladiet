@@ -169,3 +169,23 @@ check afterwards; its known null-byte warning is not a new regression.
   about guaranteed weight loss, water burning fat, mandatory fasting, automatic
   medication dose escalation, or a single PCOS diet. Do not invent clinical
   reviews, experiences, success rates or patient numbers.
+
+## Daily articles and author profile (2026-09-10)
+
+- The owner authorized daily publication at 09:00 Europe/Istanbul. Read
+  `content/editorial-policy.md` and `content/editorial-plan.json` for the full
+  workflow. New metadata belongs in `content/daily-posts.json` and is appended
+  to the catalog automatically; never overwrite the legacy catalog or dates.
+- Every daily article needs at least 1000 original body words, a unique modest
+  cover, two meaningful inline images with descriptive Arabic alt, sources,
+  internal links and one primary CTA. `check-blog.js` enforces the core limits.
+- Render with `node scripts/enrich-blog.js` and `node scripts/build-author.js`,
+  then run the blog and site checks. The author archive, blog index, latest-three
+  homepage cards and sitemap must include the new article. Only change an
+  article's explicit update date when its content is substantively revised.
+- Rula's author profile is `/author/rulaalloush`; `/auther/rulaalloush` redirects
+  there. Keep the CV at `/رولا-علوش`. Both resolve to Person ID
+  `https://ruladiet.com/author/rulaalloush#person`, also used in BlogPosting.
+- Verified publisher profiles and bio evidence live in `content/author-rula.json`.
+  Do not claim an AJ+ or magazine relationship without a primary author/article
+  URL. Do not claim Rula personally reviewed a generated article unless she did.

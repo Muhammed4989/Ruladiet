@@ -2,7 +2,7 @@ const fs=require('node:fs');
 const path=require('node:path');
 const crypto=require('node:crypto');
 const assert=require('node:assert/strict');
-const {root,elementRange}=require('./blog-html');
+const {root,elementRange,text}=require('./blog-html');
 const posts=require('./blog-catalog');
 const hashes=new Set();let contextualLinks=0,totalBytes=0;
 for(const p of posts){
@@ -23,7 +23,22 @@ for(const p of posts){
  for(const link of html.matchAll(/href="#([^"]+)"/g))assert(ids.includes(link[1]),p.key+' broken fragment '+link[1]);
  const schema=[...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(m=>JSON.parse(m[1])).find(x=>x['@type']==='BlogPosting');
  assert.equal(schema.image,'https://ruladiet.com/images/blog/'+p.key+'-1280.webp');
- assert.equal(schema.headline,p.title);assert.equal(schema.dateModified,'2026-09-09');
+ assert.equal(schema.headline,p.title);assert.equal(schema.dateModified,p.updated||'2026-09-09');
+ assert.equal(schema.author.name,'رولا علوش');
+ assert.equal(schema.author.url,'https://ruladiet.com/author/rulaalloush');
+ assert.equal(schema.author['@id'],'https://ruladiet.com/author/rulaalloush#person');
+ assert.equal(decodeURI(schema.url),'https://ruladiet.com/blog/'+p.slug);
+ assert.equal(schema.wordCount,text(source).split(/\s+/).length,p.key+' body word count mismatch');
+ if(p.workflow==='daily'){
+  assert(schema.wordCount>=1000,p.key+' must have at least 1000 original body words');
+  assert.equal(schema.datePublished,p.published);
+  assert(p.updated>=p.published,p.key+' update precedes publication');
+  const bodyImages=[...body.matchAll(/<img\b[^>]*>/g)];
+  assert(bodyImages.length>=2&&bodyImages.length<=3,p.key+' requires two or three inline images');
+  for(const img of bodyImages)assert(/alt="[^\"]{10,}"/.test(img[0]),p.key+' missing descriptive inline alt');
+  assert(p.coverAlt&&p.coverAlt.length>=10,p.key+' missing descriptive cover alt');
+  assert(p.sources.length>=3,p.key+' needs documented sources');
+ }
  assert(html.includes('content="'+schema.image+'"'),p.key+' social preview mismatch');
  for(const img of html.matchAll(/<img\b[^>]*\bsrc="(\/[^"]+)"[^>]*>/g))assert(fs.existsSync(path.join(root,img[1])),p.key+' missing image '+img[1]);
  for(const width of [400,800,1280])totalBytes+=fs.statSync(path.join(root,'images/blog',p.key+'-'+width+'.webp')).size;

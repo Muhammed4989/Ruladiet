@@ -1,0 +1,27 @@
+# Rula Diet daily publishing policy
+
+The owner authorized one original Arabic article each day, published automatically, on 2026-09-10. The daily heartbeat is scheduled for 09:00 Europe/Istanbul in the current Codex task. The configured automation ID is `automation`. Do not create duplicate automations.
+
+## Required content
+
+- At least **1000 words in the original body** in `content/blog/<key>.html`, excluding site navigation, references, related articles, author biography and template text. Aim for 1200–1600 useful words; do not pad or rewrite existing articles to meet a quota.
+- First prioritize credibility and foundational nutrition literacy, then expand related topic clusters. Read `content/editorial-plan.json`, the complete catalog and existing search intent before choosing a topic. Write one article per local calendar day, checking the production site and master to avoid duplicates. If today's article is already live, skip a second publication.
+- Visible byline **بقلم رولا علوش**, linking to `/author/rulaalloush`. `BlogPosting.author` uses the shared Person ID `https://ruladiet.com/author/rulaalloush#person`. Ghostwriting under this byline is authorized by the owner. Never invent a personal anecdote, patient case, clinical review by Rula, patient number, guaranteed outcome, or publication relationship.
+- Use primary sources checked during that run: official health guidance and peer-reviewed research. Explain uncertainty and who a finding applies to. Link claims near their supporting sources. Do not copy source articles or exceed quotation/summarization limits. Show general educational context without inventing personalized treatment, doses or diagnoses.
+- Include a unique, modest cover and **two helpful images in the article body**, each with descriptive Arabic alt text. Prefer a cover photo generated with the built-in image tool plus original educational SVGs. No undressed people or exposed clothing. Store all deployed assets in `images/blog`, optimized in responsive sizes, and document their provenance in `content/blog/image-provenance.json`. Original generated masters can also be kept in the parent workspace `assets/blog-editorial/source`.
+- Add at least 2–3 natural internal links, related reading and one primary CTA relevant to the article. Consultations and courses have equal business priority across the series. Do not add sales tracking; the owner uses Systeme.io.
+- Use the actual publication date and only revise the update date when the article is substantively revised. Do not bump all legacy dates on every daily run. Existing legacy articles retain their earlier publication dates and 2026-09-09 editorial update.
+
+## Repeatable implementation
+
+1. Read `AGENTS.md`. Fetch current `origin/master` and start a fresh branch. Preserve other work. Worktree: `C:\Users\moham\Claude\Projects\Rula\site-work`; GitHub: `Muhammed4989/Ruladiet`; Vercel production branch: `master`.
+2. Write the body in `content/blog/<key>.html`. Append the full metadata record to `content/daily-posts.json`: unique key/slug, title, summary, category, `published`, `updated`, `workflow: daily`, coverAlt, three diagram steps and supported icon, secondVisual (title, steps, alt, caption), sources, related slugs, CTA. Use 3 short steps per diagram so Arabic labels fit.
+3. Create `<key>-400.webp`, `<key>-800.webp`, `<key>-1280.webp` at a 16:9 ratio. Do not run the original multi-cover import against a folder lacking all legacy files. The renderer generates two diagram SVGs for daily articles.
+4. Run `node scripts/enrich-blog.js`, then `node scripts/build-author.js`. The renderer adds the new article to the blog index, the latest-three homepage cards, the author archive and the sitemap. It links every article to the shared author profile.
+5. Run `node scripts/check-blog.js`, `node scripts/check-site.js`, and `git diff --check`. Verify idempotence after changing the generator. Review sources, dates, article identity and images. Preview on Vercel and inspect the visible page, including layout at mobile width when design changes warrant it.
+6. Open a PR, review the diff and exact-head Vercel checks, then merge and verify production. Publication is already authorized; ask only when indispensable factual information or an actual permission barrier blocks work. Never call a draft published. If deployment fails, preserve the draft and record the specific issue for the next run.
+7. Update the plan with the publication date and slug. Report the live article link when publication succeeds, or an actionable blocker. Keep unchanged/non-actionable runs quiet.
+
+## Author evidence
+
+`content/author-rula.json` contains the verified publisher links (Al Jazeera Net and ArabicPost). AJ+ and unspecified magazines were requested but have not yet been substantiated by a primary author or article link; do not silently add them. The owner confirmed the master's degree is from Sabahattin Zaim. Use **اختصاصية**, not أخصائية, in site-authored copy. Do not imply employment by a publisher merely because an author profile exists.
