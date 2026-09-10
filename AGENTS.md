@@ -138,6 +138,10 @@ check afterwards; its known null-byte warning is not a new regression.
   obtain a confirmed number before adding or changing that enrollment claim.
   The owner confirmed المسار الصحي has "400 وأكثر" on 2026-09-09; preserve
   that lower-bound wording rather than presenting 400 as an exact count.
+- The owner confirmed on 2026-09-10 that the emotional-eating live program has
+  a paid waiting list: USD 247, with sessions starting later. Maintain its price,
+  waiting-list copy and Offer schema with `node scripts/update-emotional-waitlist.js`
+  after regenerating pages. Do not describe payment as immediate course access.
 - Site-wide edits go through a **script committed to the repo**, so they can be re-run
   after a rebuild. Do not hand-edit 30 files.
 - Verify JSON-LD still parses after touching any `<script type="application/ld+json">`
