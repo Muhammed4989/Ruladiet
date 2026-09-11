@@ -196,6 +196,11 @@ check afterwards; its known null-byte warning is not a new regression.
 
 ## Daily articles and author profile (2026-09-10)
 
+- On 2026-09-12 the owner prioritized keywords likely to lead to bookings or
+  course enrollments. Follow the decision-stage briefs in the editorial plan,
+  with equal consultation/course priority and PCOS first among course briefs.
+  Preserve source quality, verify keyword intent, and avoid competing with the
+  existing offer pages. General nutrition topics are now supporting backlog.
 - The owner authorized daily publication at 09:00 Europe/Istanbul. Read
   `content/editorial-policy.md` and `content/editorial-plan.json` for the full
   workflow. New metadata belongs in `content/daily-posts.json` and is appended
