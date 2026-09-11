@@ -28,5 +28,38 @@
       {"name": "FDA: الاحتيال في المنتجات الصحية", "url": "https://www.fda.gov/consumers/health-fraud-scams"},
       {"name": "NIH ODS: ما ينبغي معرفته عن المكملات الغذائية", "url": "https://ods.od.nih.gov/factsheets/WYNTK-Consumer/"}
     ]
+  },
+  {
+    "key": "food-labels",
+    "slug": "قراءة-البطاقة-الغذائية",
+    "title": "قراءة البطاقة الغذائية: دليل الحصص والسكر والملح",
+    "summary": "تعلّمي قراءة البطاقة الغذائية ومقارنة الحصص والمكونات والسكر والملح، مع أمثلة عملية وتوضيح اختلاف النسبة اليومية بين أمريكا وكندا.",
+    "category": "الصحة والتغذية",
+    "published": "2026-09-12",
+    "updated": "2026-09-12",
+    "workflow": "daily",
+    "coverAlt": "عبوتا شوفان ببطاقات غذائية توضيحية وعدسة مكبرة بجانب وعاء شوفان ولبن",
+    "coverCaption": "صورة توضيحية؛ العبوات والملصقات لا تمثل منتجات تجارية أو قيماً غذائية حقيقية.",
+    "visualHeading": "مثال حساب الحصة",
+    "steps": ["الحصة المكتوبة: 30 غ", "الكمية المأكولة: 60 غ", "القيم الغذائية × 2"],
+    "icon": "box",
+    "secondVisual": {
+      "title": "قبل اختيار المنتج",
+      "steps": ["وحّدي كمية المقارنة", "راجعي السكر والملح", "اختاري حسب احتياجك"],
+      "alt": "خطوات مقارنة المنتجات الغذائية: توحيد كمية المقارنة ومراجعة السكر والملح والاختيار حسب الاحتياج",
+      "caption": "قارني منتجات متشابهة على أساس كمية موحدة، ثم راعي الحصة التي تتناولينها فعلاً."
+    },
+    "related": ["المعلومات-الغذائية-الموثوقة", "رمضان-بلا-سكر", "تخفيف-السعرات-الحرارية-في-المنزل-والعمل"],
+    "cta": {"href": "/course/المسار-الصحي", "label": "تعرّفي على كورس المسار الصحي", "note": "للتوسع في أساسيات التغذية وتنظيم العادات، اطّلعي على محاور كورس المسار الصحي وتفاصيله لتقرري إن كان يناسب أهدافك."},
+    "sources": [
+      {"name": "FDA: حجم الحصة على البطاقة الغذائية", "url": "https://www.fda.gov/food/nutrition-facts-label/serving-size-nutrition-facts-label"},
+      {"name": "FDA: فهم البطاقة الغذائية والنسبة اليومية", "url": "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label"},
+      {"name": "وزارة الصحة الكندية: الجدول الغذائي والنسبة اليومية", "url": "https://www.canada.ca/en/health-canada/services/food-nutrition/nutrition-labelling/nutrition-facts-tables.html"},
+      {"name": "وزارة الصحة الكندية: قائمة المكونات", "url": "https://www.canada.ca/en/health-canada/services/food-nutrition/nutrition-labelling/ingredient-list.html"},
+      {"name": "FDA: السكر الكلي والسكر المضاف", "url": "https://www.fda.gov/food/nutrition-facts-label/added-sugars-nutrition-facts-label"},
+      {"name": "NHS: قراءة ملصقات الأغذية", "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/how-to-read-food-labels/"},
+      {"name": "NHS: الملح في الغذاء", "url": "https://www.nhs.uk/live-well/eat-well/food-types/salt-in-your-diet/"},
+      {"name": "FDA: قراءة الملصق عند الحساسية الغذائية", "url": "https://www.fda.gov/consumers/consumer-updates/have-food-allergies-read-label"}
+    ]
   }
 ]
