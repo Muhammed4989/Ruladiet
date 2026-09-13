@@ -61,5 +61,70 @@
       {"name": "NHS: الملح في الغذاء", "url": "https://www.nhs.uk/live-well/eat-well/food-types/salt-in-your-diet/"},
       {"name": "FDA: قراءة الملصق عند الحساسية الغذائية", "url": "https://www.fda.gov/consumers/consumer-updates/have-food-allergies-read-label"}
     ]
+  },
+  {
+    "key": "pcos-support",
+    "slug": "كورس-تكيس-المبايض-أم-استشارة",
+    "title": "كورس تكيس المبايض أم استشارة تغذية: كيف تختارين؟",
+    "summary": "الكورس يقدّم تعلّماً عاماً، والاستشارة تخصّص التغذية لاحتياجاتك. قارني الخيارين وتعرّفي على تفاصيل كورس تكيس المبايض وأسئلة ما قبل التسجيل.",
+    "category": "الصحة والتغذية",
+    "published": "2026-09-13",
+    "updated": "2026-09-13",
+    "workflow": "daily",
+    "coverAlt": "حاسوب يعرض درساً توضيحياً ودفتر ملاحظات أمام مقعدين فارغين يرمزان إلى التعلّم والاستشارة",
+    "coverCaption": "صورة توضيحية مولّدة؛ لا تمثل واجهة الكورس الفعلية أو عيادة رولا.",
+    "visualHeading": "اختاري نوع الدعم",
+    "steps": [
+      "فهم عام: كورس",
+      "تغذية فردية: استشارة",
+      "تشخيص وعلاج: طبيب"
+    ],
+    "icon": "check",
+    "secondVisual": {
+      "title": "قبل التسجيل",
+      "steps": [
+        "راجعي المنهج",
+        "تحققي من التكلفة",
+        "وضّحي شروط الوصول"
+      ],
+      "alt": "أسئلة الاختيار قبل التسجيل: مراجعة المنهج والتحقق من التكلفة وتوضيح شروط الوصول إلى الكورس",
+      "caption": "تأكدي من أن تفاصيل العرض تجيب عن احتياجاتك قبل اتخاذ قرار الاشتراك."
+    },
+    "related": [
+      "نظام-غذائي-لتكيس-المبايض",
+      "مقاومة-الأنسولين",
+      "المعلومات-الغذائية-الموثوقة"
+    ],
+    "cta": {
+      "href": "/course/تكيس-المبايض",
+      "label": "شاهدي مقدمة كورس تكيس المبايض وتفاصيله",
+      "note": "راجعي المقدمة والمنهج والسعر لتقرري إن كان المحتوى التثقيفي يناسب أسئلتك. الكورس مسجّل باللغة العربية، ولا يستبدل التقييم أو العلاج الفردي."
+    },
+    "sources": [
+      {
+        "name": "منظمة الصحة العالمية: متلازمة تكيس المبايض",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/polycystic-ovary-syndrome"
+      },
+      {
+        "name": "جامعة موناش: الدليل الدولي وتحديث التسمية إلى PMOS",
+        "url": "https://www.monash.edu/medicine/mchri/pcos/guideline"
+      },
+      {
+        "name": "ASRM: توصيات الدليل الدولي 2023، القرار المشترك والتغذية الفردية",
+        "url": "https://www.asrm.org/practice-guidance/practice-committee-documents/recommendations-from-the-2023-international-evidence-based-guideline-for-the-assessment-and-management-of-polyendocrine-metabolic-ovarian-syndrome-2023/"
+      },
+      {
+        "name": "NHS: الأعراض وطلب التقييم الطبي",
+        "url": "https://www.nhs.uk/conditions/polyendocrine-metabolic-ovarian-syndrome-pmos/"
+      },
+      {
+        "name": "FDA: الادعاءات الصحية غير المثبتة",
+        "url": "https://www.fda.gov/consumers/health-fraud-scams"
+      },
+      {
+        "name": "MedlinePlus: التحضير للزيارة الطبية",
+        "url": "https://www.medlineplus.gov/ency/patientinstructions/000860.htm"
+      }
+    ]
   }
 ]
