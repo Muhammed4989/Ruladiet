@@ -13,6 +13,7 @@
    var collapsed=intro.classList.toggle('is-collapsed');
    button.setAttribute('aria-expanded',String(!collapsed));
    button.textContent=collapsed?'قراءة المزيد':'عرض أقل';
+   if(collapsed&&intro.getBoundingClientRect().top<80)intro.scrollIntoView({block:'start',behavior:'instant'});
   });
  });
 })();

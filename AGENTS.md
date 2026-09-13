@@ -187,6 +187,15 @@ check afterwards; its known null-byte warning is not a new regression.
 - Archive introductions live in `content/blog-category-intros.json`. Render all
   text in the initial HTML, show two lines with a read-more button, and keep the
   full text readable without JavaScript. Do not fetch text only after a click.
+  The manifest now points to original Markdown guides in `content/category-intros/`.
+  The owner requires at least 500 body words in EVERY category and topic, excluding
+  headings, description and navigation; at least three contextual internal links
+  and two primary external references. References must be public-health agencies,
+  official research/academic sources, not commercial competitors. Maintain the
+  verified sources in `content/category-guide-sources.json`. Use post:/topic:/
+  category:/ref: link keys so the renderer emits correct permanent URLs. Keep
+  the first paragraph link-free; collapsed later blocks must not be keyboard
+  focusable. Run `scripts/check-category-guides.js` and the navigation/site checks.
 
 - Edit article bodies in `content/blog/<key>.html`, with the slug/key mapping,
   titles, related reading, sources and primary CTA in `scripts/blog-catalog.js`.

@@ -13,6 +13,12 @@
 .blog-archive .blog-header p{font-size:18px;line-height:1.9;color:#52664e}
 .archive-intro{text-align:right;max-width:850px;margin:0 auto;scroll-margin-top:100px}.archive-intro-copy{font-size:18px;line-height:1.9}.archive-intro-copy p{margin:0}.archive-intro-copy p+p{margin-top:12px}.archive-intro.is-collapsed .archive-intro-copy{max-height:3.8em;overflow:hidden;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;line-clamp:2}.archive-intro-toggle{display:inline-block;min-height:44px;margin-top:10px;border:1px solid #b9cbb0;border-radius:24px;padding:8px 20px;font:700 15px Tajawal,sans-serif;line-height:1.6;color:#2d5240;background:#fff;cursor:pointer}.archive-intro-toggle[hidden]{display:none}.archive-intro-toggle:hover{background:#edf3e9}.archive-intro-toggle:focus-visible{outline:3px solid #76916a;outline-offset:4px}
 .archive-shortcuts{display:flex;justify-content:center;flex-wrap:wrap;gap:12px;margin:22px 0 0}.archive-shortcuts a{display:inline-block;padding:9px 18px;border:1px solid #b9cbb0;border-radius:24px;font-size:15px;color:#2d5240;background:#fff}.archive-shortcuts a:hover{background:#edf3e9}#أحدث-المقالات,#blog-categories-title{scroll-margin-top:100px}
+.archive-intro-copy h2{font-size:23px;line-height:1.6;color:#213e31;margin:28px 0 12px}
+.archive-intro-copy a{color:#234d37;text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:1px;overflow-wrap:anywhere}
+.archive-intro-copy a:hover{color:#142b1e;text-decoration-thickness:2px}
+.archive-intro-copy a:focus-visible{outline:3px solid #76916a;outline-offset:3px;border-radius:2px}
+.archive-intro.is-collapsed .archive-intro-copy>:not(:first-child){display:none}
+@media(max-width:600px){.archive-intro-copy h2{font-size:21px;margin-top:24px}}
 .blog-archive .blog-page{padding-top:32px}
 .taxonomy-section{margin:0 0 48px}
 .taxonomy-section>h2{font-size:26px;margin:0 0 20px;color:#213e31}
