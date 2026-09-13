@@ -4,9 +4,10 @@ const crypto=require('node:crypto');
 const assert=require('node:assert/strict');
 const {root,elementRange,text}=require('./blog-html');
 const posts=require('./blog-catalog');
+const {postPath,postFile}=require('./blog-taxonomy');
 const hashes=new Set();let contextualLinks=0,totalBytes=0;
 for(const p of posts){
- const html=fs.readFileSync(path.join(root,'blog',p.slug+'.html'),'utf8');
+ const html=fs.readFileSync(path.join(root,postFile(p)),'utf8');
  const source=fs.readFileSync(path.join(root,'content/blog',p.key+'.html'),'utf8');
  const r=elementRange(html,'post-content'),body=html.slice(r.contentStart,r.contentEnd);
  const hash=crypto.createHash('sha256').update(fs.readFileSync(path.join(root,'images/blog',p.key+'-1280.webp'))).digest('hex');
@@ -27,7 +28,7 @@ for(const p of posts){
  assert.equal(schema.author.name,'رولا علوش');
  assert.equal(schema.author.url,'https://ruladiet.com/author/rulaalloush');
  assert.equal(schema.author['@id'],'https://ruladiet.com/author/rulaalloush#person');
- assert.equal(decodeURI(schema.url),'https://ruladiet.com/blog/'+p.slug);
+ assert.equal(decodeURI(schema.url),'https://ruladiet.com'+postPath(p));
  assert.equal(schema.wordCount,text(source).split(/\s+/).length,p.key+' body word count mismatch');
  if(p.workflow==='daily'){
   assert(schema.wordCount>=1000,p.key+' must have at least 1000 original body words');
@@ -46,7 +47,7 @@ for(const p of posts){
 for(const file of ['index.html','المدونة.html']){
  const html=fs.readFileSync(path.join(root,file),'utf8');
  for(const card of html.matchAll(/<article class="blog-(?:item|card)">[\s\S]*?<\/article>/g)){
-  const slug=decodeURIComponent(card[0].match(/href="\/blog\/([^"]+)"/)[1]);const p=posts.find(x=>x.slug===slug);
+  const slug=decodeURIComponent(card[0].match(/href="\/blog\/([^"]+)"/)[1]);const p=posts.find(x=>postPath(x)==='/blog/'+slug);
   assert(card[0].includes('/images/blog/'+p.key+'-400.webp'),file+' card mismatch');
   assert(!/<a\b[^>]*>\s*<a\b/.test(card[0]),file+' nested card anchor');
  }

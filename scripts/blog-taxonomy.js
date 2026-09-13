@@ -13,6 +13,11 @@ for (const category of categories) {
 }
 function categoryPath(category) { return '/blog/category/' + category.slug; }
 function topicPath(category, topic) { return categoryPath(category) + '/' + topic.slug; }
+function postPath(post) {
+  const {category,topic}=post.taxonomy||postTaxonomy(post.key).taxonomy;
+  return topicPath(category,topic)+'/'+post.slug;
+}
+function postFile(post) { return postPath(post).slice(1)+'.html'; }
 function postTaxonomy(key) {
   const id = data.articleTopics[key];
   for (const category of categories) {
@@ -26,7 +31,7 @@ function trail(category, topic, post) {
   const items = [...baseCrumbs];
   if (category) items.push({name:category.name, path:categoryPath(category)});
   if (topic) items.push({name:topic.name, path:topicPath(category,topic)});
-  if (post) items.push({name:post.title, path:'/blog/'+post.slug});
+  if (post) items.push({name:post.title, path:postPath(post)});
   return items;
 }
 function breadcrumb(items) {
@@ -35,4 +40,4 @@ function breadcrumb(items) {
 function breadcrumbSchema(items) {
   return {'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:items.map((item,i)=>({'@type':'ListItem',position:i+1,name:item.name,item:origin+encodeURI(item.path)}))};
 }
-module.exports = {categories, categoryPath, topicPath, postTaxonomy, trail, breadcrumb, breadcrumbSchema};
+module.exports = {categories, categoryPath, topicPath, postPath, postFile, postTaxonomy, trail, breadcrumb, breadcrumbSchema};

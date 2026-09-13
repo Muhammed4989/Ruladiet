@@ -3,7 +3,8 @@ const fs = require('node:fs');
 const {root,elementRange,text,write} = require('./blog-html');
 const posts = require('./blog-catalog');
 const {descriptions,diagram,escape:e} = require('./blog-visuals');
-const {trail,breadcrumb,breadcrumbSchema,topicPath} = require('./blog-taxonomy');
+const {trail,breadcrumb,breadcrumbSchema,topicPath,postPath,postFile} = require('./blog-taxonomy');
+const {rewriteBlogLinks}=require('./blog-links');
 const {addHeadingAnchors} = require('./blog-headings');
 const origin = 'https://ruladiet.com';
 const authorPath = '/author/rulaalloush';
@@ -21,17 +22,19 @@ function meta(h,key,value,property=false) {
 }
 function replaceElement(h,cls,value,tag='div'){const r=elementRange(h,cls,tag);return h.slice(0,r.start)+value+h.slice(r.end);}
 function related(p) {
- return `<section class="article-related" aria-label="مقالات ذات صلة"><h2>اقرئي أيضاً</h2><div class="article-related-grid">${p.related.map(slug=>{const q=posts.find(x=>x.slug===slug);if(!q)throw Error(slug);return `<a class="article-related-card" href="/blog/${q.slug}">${image(q)}<h3>${e(q.title)}</h3><span>قراءة المقال ←</span></a>`;}).join('')}</div></section>`;
+ return `<section class="article-related" aria-label="مقالات ذات صلة"><h2>اقرئي أيضاً</h2><div class="article-related-grid">${p.related.map(slug=>{const q=posts.find(x=>x.slug===slug);if(!q)throw Error(slug);return `<a class="article-related-card" href="${postPath(q)}">${image(q)}<h3>${e(q.title)}</h3><span>قراءة المقال ←</span></a>`;}).join('')}</div></section>`;
 }
 for(const p of posts){
- const file='blog/'+p.slug+'.html';
+ const file=postFile(p);
  // Existing article supplies the shared shell; all identity fields are replaced below.
- let html=fs.readFileSync(fs.existsSync(root+'/'+file)?root+'/'+file:root+'/blog/شرب-الماء-لخسارة-الوزن.html','utf8');
+ const candidates=[file,'blog/'+p.slug+'.html',postFile(posts.find(q=>q.key==='water')),'blog/شرب-الماء-لخسارة-الوزن.html'];
+ let html=fs.readFileSync(root+'/'+candidates.find(f=>fs.existsSync(root+'/'+f)),'utf8');
+ html=html.replace(/((?:href|src)=")(?:\.\.\/)(css|js|images|fonts)\//g,'$1/$2/');
  const originalSchema=[...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(m=>JSON.parse(m[1])).find(x=>x['@type']==='BlogPosting');
  const published=p.published || originalSchema.datePublished;
  const updated=p.updated || '2026-09-09';
- const url=origin+'/blog/'+encodeURIComponent(p.slug);
- let body=fs.readFileSync(root+'/content/blog/'+p.key+'.html','utf8').trim();
+ const url=origin+encodeURI(postPath(p));
+ let body=rewriteBlogLinks(fs.readFileSync(root+'/content/blog/'+p.key+'.html','utf8').trim());
  const wordCount=text(body).split(/\s+/).length;
  if(p.workflow==='daily' && wordCount<1000)throw Error(p.key+': daily article must contain at least 1000 body words');
  for(const link of body.matchAll(/<a href="(https:[^"]+)"[^>]*>([\s\S]*?)<\/a>/g)) if(!p.sources.some(s=>s.url===link[1])) p.sources.push({url:link[1],name:text(link[2])});
@@ -72,23 +75,25 @@ for(const p of posts){
  if(!html.includes('href="/css/blog-taxonomy.css"'))html=html.replace('</head>','<link rel="stylesheet" href="/css/blog-taxonomy.css"></head>');
  // Render the base layout and local fonts immediately; avoid a font/layout flash.
  html=html.replace(/<link\b[^>]*href="https:\/\/fonts\.googleapis\.com\/css2\?[^>]*>/g,'').replace(/<link rel="preconnect" href="https:\/\/fonts\.google(?:apis|static)\.com"[^>]*>/g,'');
- html=html.replace(/(<link rel="stylesheet" href="\.\.\/css\/(?:style|pages)\.css") media="print" onload='this.media="all"'>/g,'$1>');
+ html=html.replace(/(<link rel="stylesheet" href="(?:\.\.\/|\/)css\/(?:style|pages)\.css") media="print" onload='this.media="all"'>/g,'$1>');
  write(file,html);write('images/blog/visual-'+p.key+'.svg',diagram(p));
 }
 {
  const file='index.html';
  let html=fs.readFileSync(root+'/'+file,'utf8');
  const latest=posts.map(p=>{
-  const article=fs.readFileSync(root+'/blog/'+p.slug+'.html','utf8');
+  const article=fs.readFileSync(root+'/'+postFile(p),'utf8');
   const schema=[...article.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(m=>JSON.parse(m[1])).find(s=>s['@type']==='BlogPosting');
   return {...p,published:schema.datePublished};
  }).sort((a,b)=>b.published.localeCompare(a.published)).slice(0,3);
- const cards=latest.map(p=>`<article class="blog-card"><a href="/blog/${p.slug}" class="blog-link"><div class="blog-image">${image(p)}</div><div class="blog-body"><div class="blog-meta"><span class="blog-date">${dateLabel(p.published)}</span><span class="blog-category">${e(p.category)}</span></div><h3 class="blog-title">${e(p.title)}</h3><p class="blog-excerpt">${e(p.summary)}</p><span class="blog-read-more">متابعة القراءة</span></div></a></article>`).join('');
+ const cards=latest.map(p=>`<article class="blog-card"><a href="${postPath(p)}" class="blog-link"><div class="blog-image">${image(p)}</div><div class="blog-body"><div class="blog-meta"><span class="blog-date">${dateLabel(p.published)}</span><span class="blog-category">${e(p.category)}</span></div><h3 class="blog-title">${e(p.title)}</h3><p class="blog-excerpt">${e(p.summary)}</p><span class="blog-read-more">متابعة القراءة</span></div></a></article>`).join('');
  const grid=elementRange(html,'blog-grid');
  html=html.slice(0,grid.contentStart)+cards+html.slice(grid.contentEnd);
  write(file,html);
 }
 let map=fs.readFileSync(root+'/sitemap.xml','utf8');
-for(const p of posts){const loc=origin+'/blog/'+encodeURIComponent(p.slug);const updated=p.updated||'2026-09-09';let found=false;map=map.replace(/<url>[\s\S]*?<\/url>/g,entry=>{const old=entry.match(/<loc>([^<]+)/)?.[1];if(!old||decodeURI(old)!==decodeURI(loc))return entry;found=true;return /<lastmod>/.test(entry)?entry.replace(/<lastmod>[^<]*<\/lastmod>/,`<lastmod>${updated}</lastmod>`):entry.replace('</url>',`<lastmod>${updated}</lastmod></url>`);});if(!found)map=map.replace('</urlset>',`<url><loc>${loc}</loc><lastmod>${updated}</lastmod></url>\n</urlset>`);}write('sitemap.xml',map);
+for(const p of posts){const loc=origin+encodeURI(postPath(p));const updated=p.updated||'2026-09-09';let found=false;map=map.replace(/<url>[\s\S]*?<\/url>/g,entry=>{const old=entry.match(/<loc>([^<]+)/)?.[1];if(!old||![origin+'/blog/'+p.slug,decodeURI(loc)].includes(decodeURI(old)))return entry;found=true;entry=entry.replace(/<loc>[^<]*<\/loc>/,'<loc>'+loc+'</loc>');return /<lastmod>/.test(entry)?entry.replace(/<lastmod>[^<]*<\/lastmod>/,`<lastmod>${updated}</lastmod>`):entry.replace('</url>',`<lastmod>${updated}</lastmod></url>`);});if(!found)map=map.replace('</urlset>',`<url><loc>${loc}</loc><lastmod>${updated}</lastmod></url>\n</urlset>`);}write('sitemap.xml',map);
 console.log(`Enriched ${posts.length} articles, author links, unique images, CTAs and per-article dates.`);
+require('./migrate-blog-urls')();
 require('./build-blog-archives')();
+require('./build-redirects');
