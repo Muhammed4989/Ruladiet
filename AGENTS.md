@@ -170,6 +170,16 @@ check afterwards; its known null-byte warning is not a new regression.
 
 ## Blog editorial maintenance (2026-09-09)
 
+- The owner approved a permanent two-level taxonomy on 2026-09-13. Read
+  `content/blog-taxonomy.md`; assign every article key to one existing topic in
+  `content/blog-taxonomy.json`. Pregnancy, breastfeeding, infants and children
+  belong under family nutrition. Never restore the old free-form filters.
+  `enrich-blog.js` also builds all archives and their sitemap entries; empty
+  topics remain noindex until populated. Run `scripts/check-blog-navigation.js`.
+- Breadcrumb links and BreadcrumbList must agree on Home / Blog / Category /
+  Topic / Article. Keep current article URLs. TOC links use descriptive Arabic
+  heading IDs with numbered legacy aliases. Preserve both through rebuilds.
+
 - Edit article bodies in `content/blog/<key>.html`, with the slug/key mapping,
   titles, related reading, sources and primary CTA in `scripts/blog-catalog.js`.
   Run `node scripts/enrich-blog.js` to update the 17 public HTML pages, homepage

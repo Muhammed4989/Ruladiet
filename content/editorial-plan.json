@@ -2,6 +2,8 @@
   "timezone": "Europe/Istanbul",
   "schedule": "Daily at 09:00",
   "minimumBodyWords": 1000,
+  "taxonomy": "content/blog-taxonomy.json",
+  "taxonomyRule": "كل مقالة ضمن تصنيف عام وفرعي واحد؛ أضف مفتاحها إلى articleTopics قبل النشر. تغذية الحوامل والمرضعات والرضع والأطفال ضمن تغذية الأسرة.",
   "author": "/author/rulaalloush",
   "strategyUpdated": "2026-09-12",
   "strategy": {
