@@ -184,6 +184,9 @@ check afterwards; its known null-byte warning is not a new regression.
   rebuilds. Run `scripts/check-blog-url-migration.js`. A future path change needs
   an explicit redirect from the previous hierarchical URL. TOC links keep their
   descriptive Arabic heading IDs and numbered legacy aliases.
+- Archive introductions live in `content/blog-category-intros.json`. Render all
+  text in the initial HTML, show two lines with a read-more button, and keep the
+  full text readable without JavaScript. Do not fetch text only after a click.
 
 - Edit article bodies in `content/blog/<key>.html`, with the slug/key mapping,
   titles, related reading, sources and primary CTA in `scripts/blog-catalog.js`.

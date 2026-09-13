@@ -12,6 +12,8 @@ The six roots are إدارة الوزن، صحة المرأة والتغذية،
 
 ## Publishing and growth
 
+Each category and topic has a unique introduction in `content/blog-category-intros.json`. The complete text is emitted in the initial HTML. The blog index script progressively collapses it to two lines with an accessible read-more button; without JavaScript the full text remains visible. Never fetch the introduction only after a click, hide the article list, or add text solely for crawlers. New categories/topics require an introduction before rendering.
+
 Assign each article key exactly once in `articleTopics`, using an existing topic ID. The catalog resolves its visible category label from this source. Remove or ignore the former free-form category field in daily metadata. The renderer fails when an article has no valid assignment. Keep URLs and IDs stable; edit descriptions and display names when needed without changing paths.
 
 All 25 topics have usable landing pages and links. Thirteen currently have no dedicated articles: they say قيد الإعداد, offer a return to their parent and show available family/category reading. These pages use `noindex, follow` and are omitted from the sitemap. They become indexable automatically when their first article is published. Do not write filler to populate them or add them to the sitemap while empty.

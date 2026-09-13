@@ -3,6 +3,7 @@ const {root,write}=require('./blog-html');
 const {descriptions,escape:e}=require('./blog-visuals');
 const {categories,categoryPath,topicPath,postPath,postFile,trail,breadcrumb,breadcrumbSchema}=require('./blog-taxonomy');
 const origin='https://ruladiet.com';
+const intros=require('../content/blog-category-intros.json');
 const jsonScript=data=>'<script type="application/ld+json">'+JSON.stringify(data).replace(/</g,'\\u003c')+'</script>';
 function buildArchives(){
  const posts=require('./blog-catalog').map(p=>{
@@ -37,7 +38,14 @@ function buildArchives(){
   const related=page.posts.length?[]:categoryPosts(category).slice(0,3);
   const listing=page.posts.length?`<h2 class="archive-list-title">${category?'مقالات '+e(page.title):'أحدث المقالات'} <span>${countLabel(page.posts.length)}</span></h2><div class="blog-list">${page.posts.map(card).join('')}</div>`:`<section class="taxonomy-empty"><h2>مقالات هذا القسم قيد الإعداد</h2><p>نحضّر محتوى متخصصاً في ${e(topic.name)}. إلى حين نشره، يمكنك تصفّح مقالات ${e(category.name)} المتاحة.</p><a href="${categoryPath(category)}">تصفّحي ${e(category.name)} ←</a></section>${related.length?'<h2 class="archive-list-title">من مقالات '+e(category.name)+'</h2><div class="blog-list">'+related.map(card).join('')+'</div>':''}`;
   const shortcuts=category?'':'<nav class="archive-shortcuts" aria-label="انتقال سريع"><a href="#blog-categories-title">تصفّح التصنيفات</a><a href="#أحدث-المقالات">أحدث المقالات ↓</a></nav>';
-  const main=`<main class="blog-archive"><section class="page-hero"><div class="container">${breadcrumb(crumbs)}<div class="blog-header"><h1>${e(page.title)}</h1><p>${e(page.description)}</p>${shortcuts}</div></div></section><div class="blog-page"><div class="container">${intro}<div class="blog-layout"><div class="blog-main"${category?'':' id="أحدث-المقالات"'}>${listing}</div>${sidebar(category,topic)}</div></div></div></main>`;
+  let introduction=`<p>${e(page.description)}</p>`;
+  if(category){
+   const paragraphs=topic?intros.topics[topic.id]:intros.categories[category.id];
+   if(!paragraphs?.length)throw Error('Write a unique category introduction for '+page.path);
+   const copy=[page.description+' '+paragraphs[0],...paragraphs.slice(1)];
+   introduction=`<section class="archive-intro" data-archive-intro aria-label="عن ${e(page.title)}"><div class="archive-intro-copy" id="archive-intro-copy">${copy.map(p=>'<p>'+e(p)+'</p>').join('')}</div><button class="archive-intro-toggle" type="button" aria-expanded="true" aria-controls="archive-intro-copy" hidden>قراءة المزيد</button></section>`;
+  }
+  const main=`<main class="blog-archive"><section class="page-hero"><div class="container">${breadcrumb(crumbs)}<div class="blog-header"><h1>${e(page.title)}</h1>${introduction}${shortcuts}</div></div></section><div class="blog-page"><div class="container">${intro}<div class="blog-layout"><div class="blog-main"${category?'':' id="أحدث-المقالات"'}>${listing}</div>${sidebar(category,topic)}</div></div></div></main>`;
   let html=shell.replace(/<main\b[^>]*>[\s\S]*?<\/main>/,main);
   html=html.replace(/<title>[\s\S]*?<\/title>/,`<title>${e(page.title)} | رولا دايت</title>`).replace(/<link rel="canonical" href="[^"]*">/,`<link rel="canonical" href="${origin+encodeURI(page.path)}">`);
   const metas={'description':page.description,'robots':page.posts.length?'index, follow':'noindex, follow','og:title':page.title+' | رولا دايت','og:description':page.description,'og:url':origin+encodeURI(page.path)};
