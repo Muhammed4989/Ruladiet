@@ -152,32 +152,32 @@
     },
     {
       "source": "/:legacy1(%[dD]8%[bB]1%[dD]9%85%[dD]8%[bB]6%[dD]8%[aA]7%[dD]9%86-%[dD]8%[aA]8%[dD]9%84%[dD]8%[aA]7-%[dD]8%[bB]3%[dD]9%83%[dD]8%[bB]1-%[dD]8%[aA]5%[dD]9%84%[dD]9%8[aA]%[dD]9%83-%[dD]8%[aA][aA]%[dD]8%[aA][cC]%[dD]8%[bB]1%[dD]8%[aA]8%[dD]8%[aA][aA]%[dD]9%8[aA]-%[dD]9%88%[dD]9%83%[dD]9%8[aA]%[dD]9%81-%[dD]8%[aA][aA]%[dD]8%[aA]3%[dD]8%[aA][bB]%[dD]8%[bB]1%[dD]8%[aA][aA]-%[dD]8%[aA]8)",
-      "destination": "/blog/%D8%B1%D9%85%D8%B6%D8%A7%D9%86-%D8%A8%D9%84%D8%A7-%D8%B3%D9%83%D8%B1",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85%D9%8A%D8%A9/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%81%D9%8A-%D8%B1%D9%85%D8%B6%D8%A7%D9%86/%D8%B1%D9%85%D8%B6%D8%A7%D9%86-%D8%A8%D9%84%D8%A7-%D8%B3%D9%83%D8%B1",
       "permanent": true
     },
     {
       "source": "/:legacy1(%[dD]8%[bB]1%[dD]9%85%[dD]8%[bB]6%[dD]8%[aA]7%[dD]9%86-%[dD]8%[aA]8%[dD]9%84%[dD]8%[aA]7-%[dD]8%[bB]3%[dD]9%83%[dD]8%[bB]1-%[dD]8%[aA]5%[dD]9%84%[dD]9%8[aA]%[dD]9%83-%[dD]8%[aA][aA]%[dD]8%[aA][cC]%[dD]8%[bB]1%[dD]8%[aA]8%[dD]8%[aA][aA]%[dD]9%8[aA]-%[dD]9%88%[dD]9%83%[dD]9%8[aA]%[dD]9%81-%[dD]8%[aA][aA]%[dD]8%[aA]3%[dD]8%[aA][bB]%[dD]8%[bB]1%[dD]8%[aA][aA]-%[dD]8%[aA]8)/",
-      "destination": "/blog/%D8%B1%D9%85%D8%B6%D8%A7%D9%86-%D8%A8%D9%84%D8%A7-%D8%B3%D9%83%D8%B1",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85%D9%8A%D8%A9/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%81%D9%8A-%D8%B1%D9%85%D8%B6%D8%A7%D9%86/%D8%B1%D9%85%D8%B6%D8%A7%D9%86-%D8%A8%D9%84%D8%A7-%D8%B3%D9%83%D8%B1",
       "permanent": true
     },
     {
       "source": "/:legacy1(%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%87%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[bB]3%[dD]8%[aA][aA]%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]9%84%[dD]8%[aA]9-%[dD]9%84%[dD]9%84%[dD]8%[aA]3%[dD]9%85%[dD]9%87%[dD]8%[aA]7%[dD]8%[aA][aA])",
-      "destination": "/blog/%D8%A7%D9%84%D9%85%D9%87%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%AD%D9%8A%D9%84%D8%A9-%D9%84%D9%84%D8%A3%D9%85%D9%87%D8%A7%D8%AA",
+      "destination": "/blog/category/%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D8%B3%D8%B1%D8%A9/%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D8%B7%D9%81%D8%A7%D9%84/%D8%A7%D9%84%D9%85%D9%87%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%AD%D9%8A%D9%84%D8%A9-%D9%84%D9%84%D8%A3%D9%85%D9%87%D8%A7%D8%AA",
       "permanent": true
     },
     {
       "source": "/:legacy1(%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%87%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[bB]3%[dD]8%[aA][aA]%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]9%84%[dD]8%[aA]9-%[dD]9%84%[dD]9%84%[dD]8%[aA]3%[dD]9%85%[dD]9%87%[dD]8%[aA]7%[dD]8%[aA][aA])/",
-      "destination": "/blog/%D8%A7%D9%84%D9%85%D9%87%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%AD%D9%8A%D9%84%D8%A9-%D9%84%D9%84%D8%A3%D9%85%D9%87%D8%A7%D8%AA",
+      "destination": "/blog/category/%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D8%B3%D8%B1%D8%A9/%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D8%B7%D9%81%D8%A7%D9%84/%D8%A7%D9%84%D9%85%D9%87%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%AD%D9%8A%D9%84%D8%A9-%D9%84%D9%84%D8%A3%D9%85%D9%87%D8%A7%D8%AA",
       "permanent": true
     },
     {
       "source": "/:legacy1(%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%87%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%85%[dD]9%83%[dD]9%86%[dD]8%[aA]9-%[dD]9%84%[dD]9%84%[dD]8%[bB]9%[dD]8%[aA]7%[dD]9%85-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][cC]%[dD]8%[aA][fF]%[dD]9%8[aA]%[dD]8%[aA][fF])",
-      "destination": "/blog/%D8%A7%D9%84%D9%85%D9%87%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D9%85%D9%83%D9%86%D8%A9-%D9%84%D9%84%D8%B9%D8%A7%D9%85-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%B3%D9%84%D9%88%D9%83-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A/%D8%A8%D9%86%D8%A7%D8%A1-%D8%A7%D9%84%D8%B9%D8%A7%D8%AF%D8%A7%D8%AA/%D8%A7%D9%84%D9%85%D9%87%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D9%85%D9%83%D9%86%D8%A9-%D9%84%D9%84%D8%B9%D8%A7%D9%85-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF",
       "permanent": true
     },
     {
       "source": "/:legacy1(%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%87%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%85%[dD]9%83%[dD]9%86%[dD]8%[aA]9-%[dD]9%84%[dD]9%84%[dD]8%[bB]9%[dD]8%[aA]7%[dD]9%85-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][cC]%[dD]8%[aA][fF]%[dD]9%8[aA]%[dD]8%[aA][fF])/",
-      "destination": "/blog/%D8%A7%D9%84%D9%85%D9%87%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D9%85%D9%83%D9%86%D8%A9-%D9%84%D9%84%D8%B9%D8%A7%D9%85-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%B3%D9%84%D9%88%D9%83-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A/%D8%A8%D9%86%D8%A7%D8%A1-%D8%A7%D9%84%D8%B9%D8%A7%D8%AF%D8%A7%D8%AA/%D8%A7%D9%84%D9%85%D9%87%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D9%85%D9%83%D9%86%D8%A9-%D9%84%D9%84%D8%B9%D8%A7%D9%85-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF",
       "permanent": true
     },
     {
@@ -198,6 +198,706 @@
     {
       "source": "/author/rulaalloush/",
       "destination": "/author/rulaalloush",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA][eE]%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA][eE]%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA][eE]%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86\\.html)",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA][eE]%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86\\.html)/",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]3%[dD]9%83%[dD]9%84-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]9%[dD]8%[aA]7%[dD]8%[bB]7%[dD]9%81%[dD]9%8[aA])",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%B3%D9%84%D9%88%D9%83-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A/%D8%A7%D9%84%D8%A3%D9%83%D9%84-%D8%A7%D9%84%D8%B9%D8%A7%D8%B7%D9%81%D9%8A/%D8%A7%D9%84%D8%A3%D9%83%D9%84-%D8%A7%D9%84%D8%B9%D8%A7%D8%B7%D9%81%D9%8A",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]3%[dD]9%83%[dD]9%84-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]9%[dD]8%[aA]7%[dD]8%[bB]7%[dD]9%81%[dD]9%8[aA])/",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%B3%D9%84%D9%88%D9%83-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A/%D8%A7%D9%84%D8%A3%D9%83%D9%84-%D8%A7%D9%84%D8%B9%D8%A7%D8%B7%D9%81%D9%8A/%D8%A7%D9%84%D8%A3%D9%83%D9%84-%D8%A7%D9%84%D8%B9%D8%A7%D8%B7%D9%81%D9%8A",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]3%[dD]9%83%[dD]9%84-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]9%[dD]8%[aA]7%[dD]8%[bB]7%[dD]9%81%[dD]9%8[aA]\\.html)",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%B3%D9%84%D9%88%D9%83-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A/%D8%A7%D9%84%D8%A3%D9%83%D9%84-%D8%A7%D9%84%D8%B9%D8%A7%D8%B7%D9%81%D9%8A/%D8%A7%D9%84%D8%A3%D9%83%D9%84-%D8%A7%D9%84%D8%B9%D8%A7%D8%B7%D9%81%D9%8A",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]3%[dD]9%83%[dD]9%84-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]9%[dD]8%[aA]7%[dD]8%[bB]7%[dD]9%81%[dD]9%8[aA]\\.html)/",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%B3%D9%84%D9%88%D9%83-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A/%D8%A7%D9%84%D8%A3%D9%83%D9%84-%D8%A7%D9%84%D8%B9%D8%A7%D8%B7%D9%81%D9%8A/%D8%A7%D9%84%D8%A3%D9%83%D9%84-%D8%A7%D9%84%D8%B9%D8%A7%D8%B7%D9%81%D9%8A",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]9%85%[dD]9%82%[dD]8%[aA]7%[dD]9%88%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]3%[dD]9%86%[dD]8%[bB]3%[dD]9%88%[dD]9%84%[dD]9%8[aA]%[dD]9%86)",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AD%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%A9/%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D9%88%D9%84%D9%8A%D9%86/%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%A3%D9%86%D8%B3%D9%88%D9%84%D9%8A%D9%86",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]9%85%[dD]9%82%[dD]8%[aA]7%[dD]9%88%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]3%[dD]9%86%[dD]8%[bB]3%[dD]9%88%[dD]9%84%[dD]9%8[aA]%[dD]9%86)/",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AD%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%A9/%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D9%88%D9%84%D9%8A%D9%86/%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%A3%D9%86%D8%B3%D9%88%D9%84%D9%8A%D9%86",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]9%85%[dD]9%82%[dD]8%[aA]7%[dD]9%88%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]3%[dD]9%86%[dD]8%[bB]3%[dD]9%88%[dD]9%84%[dD]9%8[aA]%[dD]9%86\\.html)",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AD%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%A9/%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D9%88%D9%84%D9%8A%D9%86/%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%A3%D9%86%D8%B3%D9%88%D9%84%D9%8A%D9%86",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]9%85%[dD]9%82%[dD]8%[aA]7%[dD]9%88%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]3%[dD]9%86%[dD]8%[bB]3%[dD]9%88%[dD]9%84%[dD]9%8[aA]%[dD]9%86\\.html)/",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AD%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%A9/%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D9%88%D9%84%D9%8A%D9%86/%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%A3%D9%86%D8%B3%D9%88%D9%84%D9%8A%D9%86",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]9%85%[dD]9%82%[dD]8%[aA]7%[dD]9%88%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]7%[dD]9%86%[dD]8%[bB]3%[dD]9%88%[dD]9%84%[dD]9%8[aA]%[dD]9%86-%[dD]9%88%[dD]8%[aA]7%[dD]9%84%[dD]9%83%[dD]8%[bB]1%[dD]8%[aA]8%[dD]9%88%[dD]9%87%[dD]9%8[aA]%[dD]8%[aA][fF]%[dD]8%[bB]1%[dD]8%[aA]7%[dD]8%[aA][aA])",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AD%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%A9/%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D9%88%D9%84%D9%8A%D9%86/%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%A7%D9%86%D8%B3%D9%88%D9%84%D9%8A%D9%86-%D9%88%D8%A7%D9%84%D9%83%D8%B1%D8%A8%D9%88%D9%87%D9%8A%D8%AF%D8%B1%D8%A7%D8%AA",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]9%85%[dD]9%82%[dD]8%[aA]7%[dD]9%88%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]7%[dD]9%86%[dD]8%[bB]3%[dD]9%88%[dD]9%84%[dD]9%8[aA]%[dD]9%86-%[dD]9%88%[dD]8%[aA]7%[dD]9%84%[dD]9%83%[dD]8%[bB]1%[dD]8%[aA]8%[dD]9%88%[dD]9%87%[dD]9%8[aA]%[dD]8%[aA][fF]%[dD]8%[bB]1%[dD]8%[aA]7%[dD]8%[aA][aA])/",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AD%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%A9/%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D9%88%D9%84%D9%8A%D9%86/%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%A7%D9%86%D8%B3%D9%88%D9%84%D9%8A%D9%86-%D9%88%D8%A7%D9%84%D9%83%D8%B1%D8%A8%D9%88%D9%87%D9%8A%D8%AF%D8%B1%D8%A7%D8%AA",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]9%85%[dD]9%82%[dD]8%[aA]7%[dD]9%88%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]7%[dD]9%86%[dD]8%[bB]3%[dD]9%88%[dD]9%84%[dD]9%8[aA]%[dD]9%86-%[dD]9%88%[dD]8%[aA]7%[dD]9%84%[dD]9%83%[dD]8%[bB]1%[dD]8%[aA]8%[dD]9%88%[dD]9%87%[dD]9%8[aA]%[dD]8%[aA][fF]%[dD]8%[bB]1%[dD]8%[aA]7%[dD]8%[aA][aA]\\.html)",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AD%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%A9/%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D9%88%D9%84%D9%8A%D9%86/%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%A7%D9%86%D8%B3%D9%88%D9%84%D9%8A%D9%86-%D9%88%D8%A7%D9%84%D9%83%D8%B1%D8%A8%D9%88%D9%87%D9%8A%D8%AF%D8%B1%D8%A7%D8%AA",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]9%85%[dD]9%82%[dD]8%[aA]7%[dD]9%88%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]7%[dD]9%86%[dD]8%[bB]3%[dD]9%88%[dD]9%84%[dD]9%8[aA]%[dD]9%86-%[dD]9%88%[dD]8%[aA]7%[dD]9%84%[dD]9%83%[dD]8%[bB]1%[dD]8%[aA]8%[dD]9%88%[dD]9%87%[dD]9%8[aA]%[dD]8%[aA][fF]%[dD]8%[bB]1%[dD]8%[aA]7%[dD]8%[aA][aA]\\.html)/",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AD%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%A9/%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D9%88%D9%84%D9%8A%D9%86/%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%A7%D9%86%D8%B3%D9%88%D9%84%D9%8A%D9%86-%D9%88%D8%A7%D9%84%D9%83%D8%B1%D8%A8%D9%88%D9%87%D9%8A%D8%AF%D8%B1%D8%A7%D8%AA",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]9%86%[dD]8%[bB]8%[dD]8%[aA]7%[dD]9%85-%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]8%[aA]7%[dD]8%[aA]6%[dD]9%8[aA]-%[dD]9%84%[dD]8%[aA][aA]%[dD]9%83%[dD]9%8[aA]%[dD]8%[bB]3-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[aA]8%[dD]8%[aA]7%[dD]9%8[aA]%[dD]8%[bB]6)",
+      "destination": "/blog/category/%D8%B5%D8%AD%D8%A9-%D8%A7%D9%84%D9%85%D8%B1%D8%A3%D8%A9/%D8%AA%D9%83%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D9%8A%D8%B6/%D9%86%D8%B8%D8%A7%D9%85-%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A-%D9%84%D8%AA%D9%83%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D9%8A%D8%B6",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]9%86%[dD]8%[bB]8%[dD]8%[aA]7%[dD]9%85-%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]8%[aA]7%[dD]8%[aA]6%[dD]9%8[aA]-%[dD]9%84%[dD]8%[aA][aA]%[dD]9%83%[dD]9%8[aA]%[dD]8%[bB]3-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[aA]8%[dD]8%[aA]7%[dD]9%8[aA]%[dD]8%[bB]6)/",
+      "destination": "/blog/category/%D8%B5%D8%AD%D8%A9-%D8%A7%D9%84%D9%85%D8%B1%D8%A3%D8%A9/%D8%AA%D9%83%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D9%8A%D8%B6/%D9%86%D8%B8%D8%A7%D9%85-%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A-%D9%84%D8%AA%D9%83%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D9%8A%D8%B6",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]9%86%[dD]8%[bB]8%[dD]8%[aA]7%[dD]9%85-%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]8%[aA]7%[dD]8%[aA]6%[dD]9%8[aA]-%[dD]9%84%[dD]8%[aA][aA]%[dD]9%83%[dD]9%8[aA]%[dD]8%[bB]3-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[aA]8%[dD]8%[aA]7%[dD]9%8[aA]%[dD]8%[bB]6\\.html)",
+      "destination": "/blog/category/%D8%B5%D8%AD%D8%A9-%D8%A7%D9%84%D9%85%D8%B1%D8%A3%D8%A9/%D8%AA%D9%83%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D9%8A%D8%B6/%D9%86%D8%B8%D8%A7%D9%85-%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A-%D9%84%D8%AA%D9%83%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D9%8A%D8%B6",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]9%86%[dD]8%[bB]8%[dD]8%[aA]7%[dD]9%85-%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]8%[aA]7%[dD]8%[aA]6%[dD]9%8[aA]-%[dD]9%84%[dD]8%[aA][aA]%[dD]9%83%[dD]9%8[aA]%[dD]8%[bB]3-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[aA]8%[dD]8%[aA]7%[dD]9%8[aA]%[dD]8%[bB]6\\.html)/",
+      "destination": "/blog/category/%D8%B5%D8%AD%D8%A9-%D8%A7%D9%84%D9%85%D8%B1%D8%A3%D8%A9/%D8%AA%D9%83%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D9%8A%D8%B6/%D9%86%D8%B8%D8%A7%D9%85-%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A-%D9%84%D8%AA%D9%83%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D9%8A%D8%B6",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB][aA]%[dD]8%[aA][fF]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][fF]%[dD]8%[bB]1%[dD]9%82%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%88%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AD%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%A9/%D8%A7%D9%84%D8%BA%D8%AF%D8%A9-%D8%A7%D9%84%D8%AF%D8%B1%D9%82%D9%8A%D8%A9/%D8%A7%D9%84%D8%BA%D8%AF%D8%A9-%D8%A7%D9%84%D8%AF%D8%B1%D9%82%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D9%88%D8%B2%D9%86",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB][aA]%[dD]8%[aA][fF]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][fF]%[dD]8%[bB]1%[dD]9%82%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%88%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AD%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%A9/%D8%A7%D9%84%D8%BA%D8%AF%D8%A9-%D8%A7%D9%84%D8%AF%D8%B1%D9%82%D9%8A%D8%A9/%D8%A7%D9%84%D8%BA%D8%AF%D8%A9-%D8%A7%D9%84%D8%AF%D8%B1%D9%82%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D9%88%D8%B2%D9%86",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB][aA]%[dD]8%[aA][fF]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][fF]%[dD]8%[bB]1%[dD]9%82%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%88%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86\\.html)",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AD%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%A9/%D8%A7%D9%84%D8%BA%D8%AF%D8%A9-%D8%A7%D9%84%D8%AF%D8%B1%D9%82%D9%8A%D8%A9/%D8%A7%D9%84%D8%BA%D8%AF%D8%A9-%D8%A7%D9%84%D8%AF%D8%B1%D9%82%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D9%88%D8%B2%D9%86",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB][aA]%[dD]8%[aA][fF]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][fF]%[dD]8%[bB]1%[dD]9%82%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%88%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86\\.html)/",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AD%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%A9/%D8%A7%D9%84%D8%BA%D8%AF%D8%A9-%D8%A7%D9%84%D8%AF%D8%B1%D9%82%D9%8A%D8%A9/%D8%A7%D9%84%D8%BA%D8%AF%D8%A9-%D8%A7%D9%84%D8%AF%D8%B1%D9%82%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D9%88%D8%B2%D9%86",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA]7%[dD]9%84%[dD]9%86%[dD]9%88%[dD]9%85-%[dD]9%88%[dD]8%[aA][eE]%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%A7%D9%84%D9%86%D9%88%D9%85-%D9%88%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA]7%[dD]9%84%[dD]9%86%[dD]9%88%[dD]9%85-%[dD]9%88%[dD]8%[aA][eE]%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%A7%D9%84%D9%86%D9%88%D9%85-%D9%88%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA]7%[dD]9%84%[dD]9%86%[dD]9%88%[dD]9%85-%[dD]9%88%[dD]8%[aA][eE]%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86\\.html)",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%A7%D9%84%D9%86%D9%88%D9%85-%D9%88%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA]7%[dD]9%84%[dD]9%86%[dD]9%88%[dD]9%85-%[dD]9%88%[dD]8%[aA][eE]%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86\\.html)/",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%A7%D9%84%D9%86%D9%88%D9%85-%D9%88%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[bB]4%[dD]8%[bB]1%[dD]8%[aA]8-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[aA]7%[dD]8%[aA]1-%[dD]9%84%[dD]8%[aA][eE]%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%B4%D8%B1%D8%A8-%D8%A7%D9%84%D9%85%D8%A7%D8%A1-%D9%84%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[bB]4%[dD]8%[bB]1%[dD]8%[aA]8-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[aA]7%[dD]8%[aA]1-%[dD]9%84%[dD]8%[aA][eE]%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%B4%D8%B1%D8%A8-%D8%A7%D9%84%D9%85%D8%A7%D8%A1-%D9%84%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[bB]4%[dD]8%[bB]1%[dD]8%[aA]8-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[aA]7%[dD]8%[aA]1-%[dD]9%84%[dD]8%[aA][eE]%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86\\.html)",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%B4%D8%B1%D8%A8-%D8%A7%D9%84%D9%85%D8%A7%D8%A1-%D9%84%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[bB]4%[dD]8%[bB]1%[dD]8%[aA]8-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[aA]7%[dD]8%[aA]1-%[dD]9%84%[dD]8%[aA][eE]%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86\\.html)/",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%B4%D8%B1%D8%A8-%D8%A7%D9%84%D9%85%D8%A7%D8%A1-%D9%84%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]5%[dD]9%8[aA]%[dD]8%[aA]7%[dD]9%85-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[aA][aA]%[dD]9%82%[dD]8%[bB]7%[dD]8%[bB]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]7%[dD]8%[aA][eE]%[dD]8%[bB]7%[dD]8%[aA]7%[dD]8%[aA]1-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]4%[dD]8%[aA]7%[dD]8%[aA]6%[dD]8%[bB]9%[dD]8%[aA]9)",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%A7%D9%84%D8%AD%D9%85%D9%8A%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D8%B5%D9%8A%D8%A7%D9%85/%D8%A7%D9%84%D8%B5%D9%8A%D8%A7%D9%85-%D8%A7%D9%84%D9%85%D8%AA%D9%82%D8%B7%D8%B9-%D8%A7%D9%84%D8%A7%D8%AE%D8%B7%D8%A7%D8%A1-%D8%A7%D9%84%D8%B4%D8%A7%D8%A6%D8%B9%D8%A9",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]5%[dD]9%8[aA]%[dD]8%[aA]7%[dD]9%85-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[aA][aA]%[dD]9%82%[dD]8%[bB]7%[dD]8%[bB]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]7%[dD]8%[aA][eE]%[dD]8%[bB]7%[dD]8%[aA]7%[dD]8%[aA]1-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]4%[dD]8%[aA]7%[dD]8%[aA]6%[dD]8%[bB]9%[dD]8%[aA]9)/",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%A7%D9%84%D8%AD%D9%85%D9%8A%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D8%B5%D9%8A%D8%A7%D9%85/%D8%A7%D9%84%D8%B5%D9%8A%D8%A7%D9%85-%D8%A7%D9%84%D9%85%D8%AA%D9%82%D8%B7%D8%B9-%D8%A7%D9%84%D8%A7%D8%AE%D8%B7%D8%A7%D8%A1-%D8%A7%D9%84%D8%B4%D8%A7%D8%A6%D8%B9%D8%A9",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]5%[dD]9%8[aA]%[dD]8%[aA]7%[dD]9%85-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[aA][aA]%[dD]9%82%[dD]8%[bB]7%[dD]8%[bB]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]7%[dD]8%[aA][eE]%[dD]8%[bB]7%[dD]8%[aA]7%[dD]8%[aA]1-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]4%[dD]8%[aA]7%[dD]8%[aA]6%[dD]8%[bB]9%[dD]8%[aA]9\\.html)",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%A7%D9%84%D8%AD%D9%85%D9%8A%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D8%B5%D9%8A%D8%A7%D9%85/%D8%A7%D9%84%D8%B5%D9%8A%D8%A7%D9%85-%D8%A7%D9%84%D9%85%D8%AA%D9%82%D8%B7%D8%B9-%D8%A7%D9%84%D8%A7%D8%AE%D8%B7%D8%A7%D8%A1-%D8%A7%D9%84%D8%B4%D8%A7%D8%A6%D8%B9%D8%A9",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]5%[dD]9%8[aA]%[dD]8%[aA]7%[dD]9%85-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[aA][aA]%[dD]9%82%[dD]8%[bB]7%[dD]8%[bB]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]7%[dD]8%[aA][eE]%[dD]8%[bB]7%[dD]8%[aA]7%[dD]8%[aA]1-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]4%[dD]8%[aA]7%[dD]8%[aA]6%[dD]8%[bB]9%[dD]8%[aA]9\\.html)/",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%A7%D9%84%D8%AD%D9%85%D9%8A%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D8%B5%D9%8A%D8%A7%D9%85/%D8%A7%D9%84%D8%B5%D9%8A%D8%A7%D9%85-%D8%A7%D9%84%D9%85%D8%AA%D9%82%D8%B7%D8%B9-%D8%A7%D9%84%D8%A7%D8%AE%D8%B7%D8%A7%D8%A1-%D8%A7%D9%84%D8%B4%D8%A7%D8%A6%D8%B9%D8%A9",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA][aA]%[dD]8%[aA][eE]%[dD]9%81%[dD]9%8[aA]%[dD]9%81-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]3%[dD]8%[bB]9%[dD]8%[bB]1%[dD]8%[aA]7%[dD]8%[aA][aA]-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][dD]%[dD]8%[bB]1%[dD]8%[aA]7%[dD]8%[bB]1%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%81%[dD]9%8[aA]-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%86%[dD]8%[bB]2%[dD]9%84-%[dD]9%88%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]9%[dD]9%85%[dD]9%84)",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%AA%D8%AE%D9%81%D9%8A%D9%81-%D8%A7%D9%84%D8%B3%D8%B9%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%AD%D8%B1%D8%A7%D8%B1%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%86%D8%B2%D9%84-%D9%88%D8%A7%D9%84%D8%B9%D9%85%D9%84",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA][aA]%[dD]8%[aA][eE]%[dD]9%81%[dD]9%8[aA]%[dD]9%81-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]3%[dD]8%[bB]9%[dD]8%[bB]1%[dD]8%[aA]7%[dD]8%[aA][aA]-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][dD]%[dD]8%[bB]1%[dD]8%[aA]7%[dD]8%[bB]1%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%81%[dD]9%8[aA]-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%86%[dD]8%[bB]2%[dD]9%84-%[dD]9%88%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]9%[dD]9%85%[dD]9%84)/",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%AA%D8%AE%D9%81%D9%8A%D9%81-%D8%A7%D9%84%D8%B3%D8%B9%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%AD%D8%B1%D8%A7%D8%B1%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%86%D8%B2%D9%84-%D9%88%D8%A7%D9%84%D8%B9%D9%85%D9%84",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA][aA]%[dD]8%[aA][eE]%[dD]9%81%[dD]9%8[aA]%[dD]9%81-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]3%[dD]8%[bB]9%[dD]8%[bB]1%[dD]8%[aA]7%[dD]8%[aA][aA]-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][dD]%[dD]8%[bB]1%[dD]8%[aA]7%[dD]8%[bB]1%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%81%[dD]9%8[aA]-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%86%[dD]8%[bB]2%[dD]9%84-%[dD]9%88%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]9%[dD]9%85%[dD]9%84\\.html)",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%AA%D8%AE%D9%81%D9%8A%D9%81-%D8%A7%D9%84%D8%B3%D8%B9%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%AD%D8%B1%D8%A7%D8%B1%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%86%D8%B2%D9%84-%D9%88%D8%A7%D9%84%D8%B9%D9%85%D9%84",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA][aA]%[dD]8%[aA][eE]%[dD]9%81%[dD]9%8[aA]%[dD]9%81-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]3%[dD]8%[bB]9%[dD]8%[bB]1%[dD]8%[aA]7%[dD]8%[aA][aA]-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][dD]%[dD]8%[bB]1%[dD]8%[aA]7%[dD]8%[bB]1%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%81%[dD]9%8[aA]-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%86%[dD]8%[bB]2%[dD]9%84-%[dD]9%88%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]9%[dD]9%85%[dD]9%84\\.html)/",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%AA%D8%AE%D9%81%D9%8A%D9%81-%D8%A7%D9%84%D8%B3%D8%B9%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%AD%D8%B1%D8%A7%D8%B1%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%86%D8%B2%D9%84-%D9%88%D8%A7%D9%84%D8%B9%D9%85%D9%84",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%87%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[bB]3%[dD]8%[aA][aA]%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]9%84%[dD]8%[aA]9-%[dD]9%84%[dD]9%84%[dD]8%[aA]3%[dD]9%85%[dD]9%87%[dD]8%[aA]7%[dD]8%[aA][aA])",
+      "destination": "/blog/category/%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D8%B3%D8%B1%D8%A9/%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D8%B7%D9%81%D8%A7%D9%84/%D8%A7%D9%84%D9%85%D9%87%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%AD%D9%8A%D9%84%D8%A9-%D9%84%D9%84%D8%A3%D9%85%D9%87%D8%A7%D8%AA",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%87%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[bB]3%[dD]8%[aA][aA]%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]9%84%[dD]8%[aA]9-%[dD]9%84%[dD]9%84%[dD]8%[aA]3%[dD]9%85%[dD]9%87%[dD]8%[aA]7%[dD]8%[aA][aA])/",
+      "destination": "/blog/category/%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D8%B3%D8%B1%D8%A9/%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D8%B7%D9%81%D8%A7%D9%84/%D8%A7%D9%84%D9%85%D9%87%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%AD%D9%8A%D9%84%D8%A9-%D9%84%D9%84%D8%A3%D9%85%D9%87%D8%A7%D8%AA",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%87%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[bB]3%[dD]8%[aA][aA]%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]9%84%[dD]8%[aA]9-%[dD]9%84%[dD]9%84%[dD]8%[aA]3%[dD]9%85%[dD]9%87%[dD]8%[aA]7%[dD]8%[aA][aA]\\.html)",
+      "destination": "/blog/category/%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D8%B3%D8%B1%D8%A9/%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D8%B7%D9%81%D8%A7%D9%84/%D8%A7%D9%84%D9%85%D9%87%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%AD%D9%8A%D9%84%D8%A9-%D9%84%D9%84%D8%A3%D9%85%D9%87%D8%A7%D8%AA",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%87%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[bB]3%[dD]8%[aA][aA]%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]9%84%[dD]8%[aA]9-%[dD]9%84%[dD]9%84%[dD]8%[aA]3%[dD]9%85%[dD]9%87%[dD]8%[aA]7%[dD]8%[aA][aA]\\.html)/",
+      "destination": "/blog/category/%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D8%B3%D8%B1%D8%A9/%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D8%B7%D9%81%D8%A7%D9%84/%D8%A7%D9%84%D9%85%D9%87%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%AD%D9%8A%D9%84%D8%A9-%D9%84%D9%84%D8%A3%D9%85%D9%87%D8%A7%D8%AA",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%87%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%85%[dD]9%83%[dD]9%86%[dD]8%[aA]9-%[dD]9%84%[dD]9%84%[dD]8%[bB]9%[dD]8%[aA]7%[dD]9%85-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][cC]%[dD]8%[aA][fF]%[dD]9%8[aA]%[dD]8%[aA][fF])",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%B3%D9%84%D9%88%D9%83-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A/%D8%A8%D9%86%D8%A7%D8%A1-%D8%A7%D9%84%D8%B9%D8%A7%D8%AF%D8%A7%D8%AA/%D8%A7%D9%84%D9%85%D9%87%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D9%85%D9%83%D9%86%D8%A9-%D9%84%D9%84%D8%B9%D8%A7%D9%85-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%87%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%85%[dD]9%83%[dD]9%86%[dD]8%[aA]9-%[dD]9%84%[dD]9%84%[dD]8%[bB]9%[dD]8%[aA]7%[dD]9%85-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][cC]%[dD]8%[aA][fF]%[dD]9%8[aA]%[dD]8%[aA][fF])/",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%B3%D9%84%D9%88%D9%83-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A/%D8%A8%D9%86%D8%A7%D8%A1-%D8%A7%D9%84%D8%B9%D8%A7%D8%AF%D8%A7%D8%AA/%D8%A7%D9%84%D9%85%D9%87%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D9%85%D9%83%D9%86%D8%A9-%D9%84%D9%84%D8%B9%D8%A7%D9%85-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%87%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%85%[dD]9%83%[dD]9%86%[dD]8%[aA]9-%[dD]9%84%[dD]9%84%[dD]8%[bB]9%[dD]8%[aA]7%[dD]9%85-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][cC]%[dD]8%[aA][fF]%[dD]9%8[aA]%[dD]8%[aA][fF]\\.html)",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%B3%D9%84%D9%88%D9%83-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A/%D8%A8%D9%86%D8%A7%D8%A1-%D8%A7%D9%84%D8%B9%D8%A7%D8%AF%D8%A7%D8%AA/%D8%A7%D9%84%D9%85%D9%87%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D9%85%D9%83%D9%86%D8%A9-%D9%84%D9%84%D8%B9%D8%A7%D9%85-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%87%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%85%[dD]9%83%[dD]9%86%[dD]8%[aA]9-%[dD]9%84%[dD]9%84%[dD]8%[bB]9%[dD]8%[aA]7%[dD]9%85-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][cC]%[dD]8%[aA][fF]%[dD]9%8[aA]%[dD]8%[aA][fF]\\.html)/",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%B3%D9%84%D9%88%D9%83-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A/%D8%A8%D9%86%D8%A7%D8%A1-%D8%A7%D9%84%D8%B9%D8%A7%D8%AF%D8%A7%D8%AA/%D8%A7%D9%84%D9%85%D9%87%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D9%85%D9%83%D9%86%D8%A9-%D9%84%D9%84%D8%B9%D8%A7%D9%85-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[bB]1%[dD]9%85%[dD]8%[bB]6%[dD]8%[aA]7%[dD]9%86-%[dD]8%[aA]8%[dD]9%84%[dD]8%[aA]7-%[dD]8%[bB]3%[dD]9%83%[dD]8%[bB]1)",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85%D9%8A%D8%A9/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%81%D9%8A-%D8%B1%D9%85%D8%B6%D8%A7%D9%86/%D8%B1%D9%85%D8%B6%D8%A7%D9%86-%D8%A8%D9%84%D8%A7-%D8%B3%D9%83%D8%B1",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[bB]1%[dD]9%85%[dD]8%[bB]6%[dD]8%[aA]7%[dD]9%86-%[dD]8%[aA]8%[dD]9%84%[dD]8%[aA]7-%[dD]8%[bB]3%[dD]9%83%[dD]8%[bB]1)/",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85%D9%8A%D8%A9/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%81%D9%8A-%D8%B1%D9%85%D8%B6%D8%A7%D9%86/%D8%B1%D9%85%D8%B6%D8%A7%D9%86-%D8%A8%D9%84%D8%A7-%D8%B3%D9%83%D8%B1",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[bB]1%[dD]9%85%[dD]8%[bB]6%[dD]8%[aA]7%[dD]9%86-%[dD]8%[aA]8%[dD]9%84%[dD]8%[aA]7-%[dD]8%[bB]3%[dD]9%83%[dD]8%[bB]1\\.html)",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85%D9%8A%D8%A9/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%81%D9%8A-%D8%B1%D9%85%D8%B6%D8%A7%D9%86/%D8%B1%D9%85%D8%B6%D8%A7%D9%86-%D8%A8%D9%84%D8%A7-%D8%B3%D9%83%D8%B1",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[bB]1%[dD]9%85%[dD]8%[bB]6%[dD]8%[aA]7%[dD]9%86-%[dD]8%[aA]8%[dD]9%84%[dD]8%[aA]7-%[dD]8%[bB]3%[dD]9%83%[dD]8%[bB]1\\.html)/",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85%D9%8A%D8%A9/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%81%D9%8A-%D8%B1%D9%85%D8%B6%D8%A7%D9%86/%D8%B1%D9%85%D8%B6%D8%A7%D9%86-%D8%A8%D9%84%D8%A7-%D8%B3%D9%83%D8%B1",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA]7%[dD]8%[aA]8%[dD]8%[bB]1-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]9%86%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]9%81-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][dD]%[dD]8%[aA][fF]%[dD]9%8[aA]%[dD]8%[aA][bB]%[dD]8%[aA]9)",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%85%D8%B9-%D8%A3%D8%AF%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D9%86%D8%AD%D9%8A%D9%81/%D8%A7%D8%A8%D8%B1-%D8%A7%D9%84%D8%AA%D9%86%D8%AD%D9%8A%D9%81-%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D8%AB%D8%A9",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA]7%[dD]8%[aA]8%[dD]8%[bB]1-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]9%86%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]9%81-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][dD]%[dD]8%[aA][fF]%[dD]9%8[aA]%[dD]8%[aA][bB]%[dD]8%[aA]9)/",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%85%D8%B9-%D8%A3%D8%AF%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D9%86%D8%AD%D9%8A%D9%81/%D8%A7%D8%A8%D8%B1-%D8%A7%D9%84%D8%AA%D9%86%D8%AD%D9%8A%D9%81-%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D8%AB%D8%A9",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA]7%[dD]8%[aA]8%[dD]8%[bB]1-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]9%86%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]9%81-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][dD]%[dD]8%[aA][fF]%[dD]9%8[aA]%[dD]8%[aA][bB]%[dD]8%[aA]9\\.html)",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%85%D8%B9-%D8%A3%D8%AF%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D9%86%D8%AD%D9%8A%D9%81/%D8%A7%D8%A8%D8%B1-%D8%A7%D9%84%D8%AA%D9%86%D8%AD%D9%8A%D9%81-%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D8%AB%D8%A9",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA]7%[dD]8%[aA]8%[dD]8%[bB]1-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]9%86%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]9%81-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][dD]%[dD]8%[aA][fF]%[dD]9%8[aA]%[dD]8%[aA][bB]%[dD]8%[aA]9\\.html)/",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%85%D8%B9-%D8%A3%D8%AF%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D9%86%D8%AD%D9%8A%D9%81/%D8%A7%D8%A8%D8%B1-%D8%A7%D9%84%D8%AA%D9%86%D8%AD%D9%8A%D9%81-%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D8%AB%D8%A9",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]9%85%[dD]9%88%[dD]9%86%[dD]8%[aA][cC]%[dD]8%[aA]7%[dD]8%[bB]1%[dD]9%88)",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%85%D8%B9-%D8%A3%D8%AF%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D9%86%D8%AD%D9%8A%D9%81/%D9%85%D9%88%D9%86%D8%AC%D8%A7%D8%B1%D9%88",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]9%85%[dD]9%88%[dD]9%86%[dD]8%[aA][cC]%[dD]8%[aA]7%[dD]8%[bB]1%[dD]9%88)/",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%85%D8%B9-%D8%A3%D8%AF%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D9%86%D8%AD%D9%8A%D9%81/%D9%85%D9%88%D9%86%D8%AC%D8%A7%D8%B1%D9%88",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]9%85%[dD]9%88%[dD]9%86%[dD]8%[aA][cC]%[dD]8%[aA]7%[dD]8%[bB]1%[dD]9%88\\.html)",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%85%D8%B9-%D8%A3%D8%AF%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D9%86%D8%AD%D9%8A%D9%81/%D9%85%D9%88%D9%86%D8%AC%D8%A7%D8%B1%D9%88",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]9%85%[dD]9%88%[dD]9%86%[dD]8%[aA][cC]%[dD]8%[aA]7%[dD]8%[bB]1%[dD]9%88\\.html)/",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%85%D8%B9-%D8%A3%D8%AF%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D9%86%D8%AD%D9%8A%D9%81/%D9%85%D9%88%D9%86%D8%AC%D8%A7%D8%B1%D9%88",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]9%86%[dD]8%[bB]8%[dD]8%[aA]7%[dD]9%85-%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]8%[aA]7%[dD]8%[aA]6%[dD]9%8[aA]-%[dD]9%85%[dD]8%[bB]9-%[dD]9%85%[dD]9%88%[dD]9%86%[dD]8%[aA][cC]%[dD]8%[aA]7%[dD]8%[bB]1%[dD]9%88)",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%85%D8%B9-%D8%A3%D8%AF%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D9%86%D8%AD%D9%8A%D9%81/%D9%86%D8%B8%D8%A7%D9%85-%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A-%D9%85%D8%B9-%D9%85%D9%88%D9%86%D8%AC%D8%A7%D8%B1%D9%88",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]9%86%[dD]8%[bB]8%[dD]8%[aA]7%[dD]9%85-%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]8%[aA]7%[dD]8%[aA]6%[dD]9%8[aA]-%[dD]9%85%[dD]8%[bB]9-%[dD]9%85%[dD]9%88%[dD]9%86%[dD]8%[aA][cC]%[dD]8%[aA]7%[dD]8%[bB]1%[dD]9%88)/",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%85%D8%B9-%D8%A3%D8%AF%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D9%86%D8%AD%D9%8A%D9%81/%D9%86%D8%B8%D8%A7%D9%85-%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A-%D9%85%D8%B9-%D9%85%D9%88%D9%86%D8%AC%D8%A7%D8%B1%D9%88",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]9%86%[dD]8%[bB]8%[dD]8%[aA]7%[dD]9%85-%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]8%[aA]7%[dD]8%[aA]6%[dD]9%8[aA]-%[dD]9%85%[dD]8%[bB]9-%[dD]9%85%[dD]9%88%[dD]9%86%[dD]8%[aA][cC]%[dD]8%[aA]7%[dD]8%[bB]1%[dD]9%88\\.html)",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%85%D8%B9-%D8%A3%D8%AF%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D9%86%D8%AD%D9%8A%D9%81/%D9%86%D8%B8%D8%A7%D9%85-%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A-%D9%85%D8%B9-%D9%85%D9%88%D9%86%D8%AC%D8%A7%D8%B1%D9%88",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]9%86%[dD]8%[bB]8%[dD]8%[aA]7%[dD]9%85-%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]8%[aA]7%[dD]8%[aA]6%[dD]9%8[aA]-%[dD]9%85%[dD]8%[bB]9-%[dD]9%85%[dD]9%88%[dD]9%86%[dD]8%[aA][cC]%[dD]8%[aA]7%[dD]8%[bB]1%[dD]9%88\\.html)/",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%85%D8%B9-%D8%A3%D8%AF%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D9%86%D8%AD%D9%8A%D9%81/%D9%86%D8%B8%D8%A7%D9%85-%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A-%D9%85%D8%B9-%D9%85%D9%88%D9%86%D8%AC%D8%A7%D8%B1%D9%88",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]3%[dD]9%86%[dD]8%[bB]8%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]8%[aA]7%[dD]8%[aA]6%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%85%[dD]8%[bB]9-%[dD]8%[aA]7%[dD]8%[aA]8%[dD]8%[bB]1-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]9%86%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]9%81)",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%85%D8%B9-%D8%A3%D8%AF%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D9%86%D8%AD%D9%8A%D9%81/%D8%A7%D9%84%D8%A3%D9%86%D8%B8%D9%85%D8%A9-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A%D8%A9-%D9%85%D8%B9-%D8%A7%D8%A8%D8%B1-%D8%A7%D9%84%D8%AA%D9%86%D8%AD%D9%8A%D9%81",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]3%[dD]9%86%[dD]8%[bB]8%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]8%[aA]7%[dD]8%[aA]6%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%85%[dD]8%[bB]9-%[dD]8%[aA]7%[dD]8%[aA]8%[dD]8%[bB]1-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]9%86%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]9%81)/",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%85%D8%B9-%D8%A3%D8%AF%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D9%86%D8%AD%D9%8A%D9%81/%D8%A7%D9%84%D8%A3%D9%86%D8%B8%D9%85%D8%A9-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A%D8%A9-%D9%85%D8%B9-%D8%A7%D8%A8%D8%B1-%D8%A7%D9%84%D8%AA%D9%86%D8%AD%D9%8A%D9%81",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]3%[dD]9%86%[dD]8%[bB]8%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]8%[aA]7%[dD]8%[aA]6%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%85%[dD]8%[bB]9-%[dD]8%[aA]7%[dD]8%[aA]8%[dD]8%[bB]1-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]9%86%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]9%81\\.html)",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%85%D8%B9-%D8%A3%D8%AF%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D9%86%D8%AD%D9%8A%D9%81/%D8%A7%D9%84%D8%A3%D9%86%D8%B8%D9%85%D8%A9-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A%D8%A9-%D9%85%D8%B9-%D8%A7%D8%A8%D8%B1-%D8%A7%D9%84%D8%AA%D9%86%D8%AD%D9%8A%D9%81",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]3%[dD]9%86%[dD]8%[bB]8%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]8%[aA]7%[dD]8%[aA]6%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%85%[dD]8%[bB]9-%[dD]8%[aA]7%[dD]8%[aA]8%[dD]8%[bB]1-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]9%86%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]9%81\\.html)/",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%85%D8%B9-%D8%A3%D8%AF%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D9%86%D8%AD%D9%8A%D9%81/%D8%A7%D9%84%D8%A3%D9%86%D8%B8%D9%85%D8%A9-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A%D8%A9-%D9%85%D8%B9-%D8%A7%D8%A8%D8%B1-%D8%A7%D9%84%D8%AA%D9%86%D8%AD%D9%8A%D9%81",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[bB]9%[dD]9%84%[dD]9%88%[dD]9%85%[dD]8%[aA]7%[dD]8%[aA][aA]-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]8%[aA]7%[dD]8%[aA]6%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%88%[dD]8%[aA][bB]%[dD]9%88%[dD]9%82%[dD]8%[aA]9)",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85%D9%8A%D8%A9/%D8%A3%D8%B3%D8%A7%D8%B3%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9/%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D9%88%D8%AB%D9%88%D9%82%D8%A9",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[bB]9%[dD]9%84%[dD]9%88%[dD]9%85%[dD]8%[aA]7%[dD]8%[aA][aA]-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]8%[aA]7%[dD]8%[aA]6%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%88%[dD]8%[aA][bB]%[dD]9%88%[dD]9%82%[dD]8%[aA]9)/",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85%D9%8A%D8%A9/%D8%A3%D8%B3%D8%A7%D8%B3%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9/%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D9%88%D8%AB%D9%88%D9%82%D8%A9",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[bB]9%[dD]9%84%[dD]9%88%[dD]9%85%[dD]8%[aA]7%[dD]8%[aA][aA]-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]8%[aA]7%[dD]8%[aA]6%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%88%[dD]8%[aA][bB]%[dD]9%88%[dD]9%82%[dD]8%[aA]9\\.html)",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85%D9%8A%D8%A9/%D8%A3%D8%B3%D8%A7%D8%B3%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9/%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D9%88%D8%AB%D9%88%D9%82%D8%A9",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[bB]9%[dD]9%84%[dD]9%88%[dD]9%85%[dD]8%[aA]7%[dD]8%[aA][aA]-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]8%[aA]7%[dD]8%[aA]6%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%88%[dD]8%[aA][bB]%[dD]9%88%[dD]9%82%[dD]8%[aA]9\\.html)/",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85%D9%8A%D8%A9/%D8%A3%D8%B3%D8%A7%D8%B3%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9/%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D9%88%D8%AB%D9%88%D9%82%D8%A9",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]9%82%[dD]8%[bB]1%[dD]8%[aA]7%[dD]8%[aA]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]8%[dD]8%[bB]7%[dD]8%[aA]7%[dD]9%82%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]8%[aA]7%[dD]8%[aA]6%[dD]9%8[aA]%[dD]8%[aA]9)",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85%D9%8A%D8%A9/%D8%A7%D9%84%D9%85%D9%84%D8%B5%D9%82%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D8%AA%D8%B3%D9%88%D9%82/%D9%82%D8%B1%D8%A7%D8%A1%D8%A9-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D9%82%D8%A9-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A%D8%A9",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]9%82%[dD]8%[bB]1%[dD]8%[aA]7%[dD]8%[aA]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]8%[dD]8%[bB]7%[dD]8%[aA]7%[dD]9%82%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]8%[aA]7%[dD]8%[aA]6%[dD]9%8[aA]%[dD]8%[aA]9)/",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85%D9%8A%D8%A9/%D8%A7%D9%84%D9%85%D9%84%D8%B5%D9%82%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D8%AA%D8%B3%D9%88%D9%82/%D9%82%D8%B1%D8%A7%D8%A1%D8%A9-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D9%82%D8%A9-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A%D8%A9",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]9%82%[dD]8%[bB]1%[dD]8%[aA]7%[dD]8%[aA]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]8%[dD]8%[bB]7%[dD]8%[aA]7%[dD]9%82%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]8%[aA]7%[dD]8%[aA]6%[dD]9%8[aA]%[dD]8%[aA]9\\.html)",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85%D9%8A%D8%A9/%D8%A7%D9%84%D9%85%D9%84%D8%B5%D9%82%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D8%AA%D8%B3%D9%88%D9%82/%D9%82%D8%B1%D8%A7%D8%A1%D8%A9-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D9%82%D8%A9-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A%D8%A9",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]9%82%[dD]8%[bB]1%[dD]8%[aA]7%[dD]8%[aA]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]8%[dD]8%[bB]7%[dD]8%[aA]7%[dD]9%82%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]8%[aA]7%[dD]8%[aA]6%[dD]9%8[aA]%[dD]8%[aA]9\\.html)/",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85%D9%8A%D8%A9/%D8%A7%D9%84%D9%85%D9%84%D8%B5%D9%82%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D8%AA%D8%B3%D9%88%D9%82/%D9%82%D8%B1%D8%A7%D8%A1%D8%A9-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D9%82%D8%A9-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A%D8%A9",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]9%83%[dD]9%88%[dD]8%[bB]1%[dD]8%[bB]3-%[dD]8%[aA][aA]%[dD]9%83%[dD]9%8[aA]%[dD]8%[bB]3-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[aA]8%[dD]8%[aA]7%[dD]9%8[aA]%[dD]8%[bB]6-%[dD]8%[aA]3%[dD]9%85-%[dD]8%[aA]7%[dD]8%[bB]3%[dD]8%[aA][aA]%[dD]8%[bB]4%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9)",
+      "destination": "/blog/category/%D8%B5%D8%AD%D8%A9-%D8%A7%D9%84%D9%85%D8%B1%D8%A3%D8%A9/%D8%AA%D9%83%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D9%8A%D8%B6/%D9%83%D9%88%D8%B1%D8%B3-%D8%AA%D9%83%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D9%8A%D8%B6-%D8%A3%D9%85-%D8%A7%D8%B3%D8%AA%D8%B4%D8%A7%D8%B1%D8%A9",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]9%83%[dD]9%88%[dD]8%[bB]1%[dD]8%[bB]3-%[dD]8%[aA][aA]%[dD]9%83%[dD]9%8[aA]%[dD]8%[bB]3-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[aA]8%[dD]8%[aA]7%[dD]9%8[aA]%[dD]8%[bB]6-%[dD]8%[aA]3%[dD]9%85-%[dD]8%[aA]7%[dD]8%[bB]3%[dD]8%[aA][aA]%[dD]8%[bB]4%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9)/",
+      "destination": "/blog/category/%D8%B5%D8%AD%D8%A9-%D8%A7%D9%84%D9%85%D8%B1%D8%A3%D8%A9/%D8%AA%D9%83%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D9%8A%D8%B6/%D9%83%D9%88%D8%B1%D8%B3-%D8%AA%D9%83%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D9%8A%D8%B6-%D8%A3%D9%85-%D8%A7%D8%B3%D8%AA%D8%B4%D8%A7%D8%B1%D8%A9",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]9%83%[dD]9%88%[dD]8%[bB]1%[dD]8%[bB]3-%[dD]8%[aA][aA]%[dD]9%83%[dD]9%8[aA]%[dD]8%[bB]3-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[aA]8%[dD]8%[aA]7%[dD]9%8[aA]%[dD]8%[bB]6-%[dD]8%[aA]3%[dD]9%85-%[dD]8%[aA]7%[dD]8%[bB]3%[dD]8%[aA][aA]%[dD]8%[bB]4%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9\\.html)",
+      "destination": "/blog/category/%D8%B5%D8%AD%D8%A9-%D8%A7%D9%84%D9%85%D8%B1%D8%A3%D8%A9/%D8%AA%D9%83%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D9%8A%D8%B6/%D9%83%D9%88%D8%B1%D8%B3-%D8%AA%D9%83%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D9%8A%D8%B6-%D8%A3%D9%85-%D8%A7%D8%B3%D8%AA%D8%B4%D8%A7%D8%B1%D8%A9",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:legacy2(%[dD]9%83%[dD]9%88%[dD]8%[bB]1%[dD]8%[bB]3-%[dD]8%[aA][aA]%[dD]9%83%[dD]9%8[aA]%[dD]8%[bB]3-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[aA]8%[dD]8%[aA]7%[dD]9%8[aA]%[dD]8%[bB]6-%[dD]8%[aA]3%[dD]9%85-%[dD]8%[aA]7%[dD]8%[bB]3%[dD]8%[aA][aA]%[dD]8%[bB]4%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9\\.html)/",
+      "destination": "/blog/category/%D8%B5%D8%AD%D8%A9-%D8%A7%D9%84%D9%85%D8%B1%D8%A3%D8%A9/%D8%AA%D9%83%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D9%8A%D8%B6/%D9%83%D9%88%D8%B1%D8%B3-%D8%AA%D9%83%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D9%8A%D8%B6-%D8%A3%D9%85-%D8%A7%D8%B3%D8%AA%D8%B4%D8%A7%D8%B1%D8%A9",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]5%[dD]8%[aA][fF]%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/:legacy4(%[dD]8%[aA][eE]%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/:legacy5(%[dD]8%[aA][eE]%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]5%[dD]8%[aA][fF]%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/:legacy4(%[dD]8%[aA][eE]%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/:legacy5(%[dD]8%[aA][eE]%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86\\.html)",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]5%[dD]8%[aA][fF]%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/:legacy4(%[dD]8%[aA][eE]%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/:legacy5(%[dD]8%[aA][eE]%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86\\.html)/",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]3%[dD]9%84%[dD]9%88%[dD]9%83-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]8%[aA]7%[dD]8%[aA]6%[dD]9%8[aA])/:legacy4(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]3%[dD]9%83%[dD]9%84-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]9%[dD]8%[aA]7%[dD]8%[bB]7%[dD]9%81%[dD]9%8[aA])/:legacy5(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]3%[dD]9%83%[dD]9%84-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]9%[dD]8%[aA]7%[dD]8%[bB]7%[dD]9%81%[dD]9%8[aA])/",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%B3%D9%84%D9%88%D9%83-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A/%D8%A7%D9%84%D8%A3%D9%83%D9%84-%D8%A7%D9%84%D8%B9%D8%A7%D8%B7%D9%81%D9%8A/%D8%A7%D9%84%D8%A3%D9%83%D9%84-%D8%A7%D9%84%D8%B9%D8%A7%D8%B7%D9%81%D9%8A",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]3%[dD]9%84%[dD]9%88%[dD]9%83-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]8%[aA]7%[dD]8%[aA]6%[dD]9%8[aA])/:legacy4(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]3%[dD]9%83%[dD]9%84-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]9%[dD]8%[aA]7%[dD]8%[bB]7%[dD]9%81%[dD]9%8[aA])/:legacy5(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]3%[dD]9%83%[dD]9%84-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]9%[dD]8%[aA]7%[dD]8%[bB]7%[dD]9%81%[dD]9%8[aA]\\.html)",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%B3%D9%84%D9%88%D9%83-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A/%D8%A7%D9%84%D8%A3%D9%83%D9%84-%D8%A7%D9%84%D8%B9%D8%A7%D8%B7%D9%81%D9%8A/%D8%A7%D9%84%D8%A3%D9%83%D9%84-%D8%A7%D9%84%D8%B9%D8%A7%D8%B7%D9%81%D9%8A",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]3%[dD]9%84%[dD]9%88%[dD]9%83-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]8%[aA]7%[dD]8%[aA]6%[dD]9%8[aA])/:legacy4(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]3%[dD]9%83%[dD]9%84-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]9%[dD]8%[aA]7%[dD]8%[bB]7%[dD]9%81%[dD]9%8[aA])/:legacy5(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]3%[dD]9%83%[dD]9%84-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]9%[dD]8%[aA]7%[dD]8%[bB]7%[dD]9%81%[dD]9%8[aA]\\.html)/",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%B3%D9%84%D9%88%D9%83-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A/%D8%A7%D9%84%D8%A3%D9%83%D9%84-%D8%A7%D9%84%D8%B9%D8%A7%D8%B7%D9%81%D9%8A/%D8%A7%D9%84%D8%A3%D9%83%D9%84-%D8%A7%D9%84%D8%B9%D8%A7%D8%B7%D9%81%D9%8A",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%88%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][dD]%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]7%[dD]8%[aA][aA]-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]5%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]8%[aA]9)/:legacy4(%[dD]9%85%[dD]9%82%[dD]8%[aA]7%[dD]9%88%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]5%[dD]9%86%[dD]8%[bB]3%[dD]9%88%[dD]9%84%[dD]9%8[aA]%[dD]9%86)/:legacy5(%[dD]9%85%[dD]9%82%[dD]8%[aA]7%[dD]9%88%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]3%[dD]9%86%[dD]8%[bB]3%[dD]9%88%[dD]9%84%[dD]9%8[aA]%[dD]9%86)/",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AD%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%A9/%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D9%88%D9%84%D9%8A%D9%86/%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%A3%D9%86%D8%B3%D9%88%D9%84%D9%8A%D9%86",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%88%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][dD]%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]7%[dD]8%[aA][aA]-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]5%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]8%[aA]9)/:legacy4(%[dD]9%85%[dD]9%82%[dD]8%[aA]7%[dD]9%88%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]5%[dD]9%86%[dD]8%[bB]3%[dD]9%88%[dD]9%84%[dD]9%8[aA]%[dD]9%86)/:legacy5(%[dD]9%85%[dD]9%82%[dD]8%[aA]7%[dD]9%88%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]3%[dD]9%86%[dD]8%[bB]3%[dD]9%88%[dD]9%84%[dD]9%8[aA]%[dD]9%86\\.html)",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AD%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%A9/%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D9%88%D9%84%D9%8A%D9%86/%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%A3%D9%86%D8%B3%D9%88%D9%84%D9%8A%D9%86",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%88%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][dD]%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]7%[dD]8%[aA][aA]-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]5%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]8%[aA]9)/:legacy4(%[dD]9%85%[dD]9%82%[dD]8%[aA]7%[dD]9%88%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]5%[dD]9%86%[dD]8%[bB]3%[dD]9%88%[dD]9%84%[dD]9%8[aA]%[dD]9%86)/:legacy5(%[dD]9%85%[dD]9%82%[dD]8%[aA]7%[dD]9%88%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]3%[dD]9%86%[dD]8%[bB]3%[dD]9%88%[dD]9%84%[dD]9%8[aA]%[dD]9%86\\.html)/",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AD%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%A9/%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D9%88%D9%84%D9%8A%D9%86/%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%A3%D9%86%D8%B3%D9%88%D9%84%D9%8A%D9%86",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%88%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][dD]%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]7%[dD]8%[aA][aA]-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]5%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]8%[aA]9)/:legacy4(%[dD]9%85%[dD]9%82%[dD]8%[aA]7%[dD]9%88%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]5%[dD]9%86%[dD]8%[bB]3%[dD]9%88%[dD]9%84%[dD]9%8[aA]%[dD]9%86)/:legacy5(%[dD]9%85%[dD]9%82%[dD]8%[aA]7%[dD]9%88%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]7%[dD]9%86%[dD]8%[bB]3%[dD]9%88%[dD]9%84%[dD]9%8[aA]%[dD]9%86-%[dD]9%88%[dD]8%[aA]7%[dD]9%84%[dD]9%83%[dD]8%[bB]1%[dD]8%[aA]8%[dD]9%88%[dD]9%87%[dD]9%8[aA]%[dD]8%[aA][fF]%[dD]8%[bB]1%[dD]8%[aA]7%[dD]8%[aA][aA])/",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AD%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%A9/%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D9%88%D9%84%D9%8A%D9%86/%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%A7%D9%86%D8%B3%D9%88%D9%84%D9%8A%D9%86-%D9%88%D8%A7%D9%84%D9%83%D8%B1%D8%A8%D9%88%D9%87%D9%8A%D8%AF%D8%B1%D8%A7%D8%AA",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%88%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][dD]%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]7%[dD]8%[aA][aA]-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]5%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]8%[aA]9)/:legacy4(%[dD]9%85%[dD]9%82%[dD]8%[aA]7%[dD]9%88%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]5%[dD]9%86%[dD]8%[bB]3%[dD]9%88%[dD]9%84%[dD]9%8[aA]%[dD]9%86)/:legacy5(%[dD]9%85%[dD]9%82%[dD]8%[aA]7%[dD]9%88%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]7%[dD]9%86%[dD]8%[bB]3%[dD]9%88%[dD]9%84%[dD]9%8[aA]%[dD]9%86-%[dD]9%88%[dD]8%[aA]7%[dD]9%84%[dD]9%83%[dD]8%[bB]1%[dD]8%[aA]8%[dD]9%88%[dD]9%87%[dD]9%8[aA]%[dD]8%[aA][fF]%[dD]8%[bB]1%[dD]8%[aA]7%[dD]8%[aA][aA]\\.html)",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AD%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%A9/%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D9%88%D9%84%D9%8A%D9%86/%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%A7%D9%86%D8%B3%D9%88%D9%84%D9%8A%D9%86-%D9%88%D8%A7%D9%84%D9%83%D8%B1%D8%A8%D9%88%D9%87%D9%8A%D8%AF%D8%B1%D8%A7%D8%AA",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%88%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][dD]%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]7%[dD]8%[aA][aA]-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]5%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]8%[aA]9)/:legacy4(%[dD]9%85%[dD]9%82%[dD]8%[aA]7%[dD]9%88%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]5%[dD]9%86%[dD]8%[bB]3%[dD]9%88%[dD]9%84%[dD]9%8[aA]%[dD]9%86)/:legacy5(%[dD]9%85%[dD]9%82%[dD]8%[aA]7%[dD]9%88%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]7%[dD]9%86%[dD]8%[bB]3%[dD]9%88%[dD]9%84%[dD]9%8[aA]%[dD]9%86-%[dD]9%88%[dD]8%[aA]7%[dD]9%84%[dD]9%83%[dD]8%[bB]1%[dD]8%[aA]8%[dD]9%88%[dD]9%87%[dD]9%8[aA]%[dD]8%[aA][fF]%[dD]8%[bB]1%[dD]8%[aA]7%[dD]8%[aA][aA]\\.html)/",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AD%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%A9/%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D9%88%D9%84%D9%8A%D9%86/%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%A9-%D8%A7%D9%84%D8%A7%D9%86%D8%B3%D9%88%D9%84%D9%8A%D9%86-%D9%88%D8%A7%D9%84%D9%83%D8%B1%D8%A8%D9%88%D9%87%D9%8A%D8%AF%D8%B1%D8%A7%D8%AA",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[bB]5%[dD]8%[aA][dD]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[bB]1%[dD]8%[aA]3%[dD]8%[aA]9)/:legacy4(%[dD]8%[aA][aA]%[dD]9%83%[dD]9%8[aA]%[dD]8%[bB]3-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[aA]8%[dD]8%[aA]7%[dD]9%8[aA]%[dD]8%[bB]6)/:legacy5(%[dD]9%86%[dD]8%[bB]8%[dD]8%[aA]7%[dD]9%85-%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]8%[aA]7%[dD]8%[aA]6%[dD]9%8[aA]-%[dD]9%84%[dD]8%[aA][aA]%[dD]9%83%[dD]9%8[aA]%[dD]8%[bB]3-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[aA]8%[dD]8%[aA]7%[dD]9%8[aA]%[dD]8%[bB]6)/",
+      "destination": "/blog/category/%D8%B5%D8%AD%D8%A9-%D8%A7%D9%84%D9%85%D8%B1%D8%A3%D8%A9/%D8%AA%D9%83%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D9%8A%D8%B6/%D9%86%D8%B8%D8%A7%D9%85-%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A-%D9%84%D8%AA%D9%83%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D9%8A%D8%B6",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[bB]5%[dD]8%[aA][dD]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[bB]1%[dD]8%[aA]3%[dD]8%[aA]9)/:legacy4(%[dD]8%[aA][aA]%[dD]9%83%[dD]9%8[aA]%[dD]8%[bB]3-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[aA]8%[dD]8%[aA]7%[dD]9%8[aA]%[dD]8%[bB]6)/:legacy5(%[dD]9%86%[dD]8%[bB]8%[dD]8%[aA]7%[dD]9%85-%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]8%[aA]7%[dD]8%[aA]6%[dD]9%8[aA]-%[dD]9%84%[dD]8%[aA][aA]%[dD]9%83%[dD]9%8[aA]%[dD]8%[bB]3-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[aA]8%[dD]8%[aA]7%[dD]9%8[aA]%[dD]8%[bB]6\\.html)",
+      "destination": "/blog/category/%D8%B5%D8%AD%D8%A9-%D8%A7%D9%84%D9%85%D8%B1%D8%A3%D8%A9/%D8%AA%D9%83%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D9%8A%D8%B6/%D9%86%D8%B8%D8%A7%D9%85-%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A-%D9%84%D8%AA%D9%83%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D9%8A%D8%B6",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[bB]5%[dD]8%[aA][dD]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[bB]1%[dD]8%[aA]3%[dD]8%[aA]9)/:legacy4(%[dD]8%[aA][aA]%[dD]9%83%[dD]9%8[aA]%[dD]8%[bB]3-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[aA]8%[dD]8%[aA]7%[dD]9%8[aA]%[dD]8%[bB]6)/:legacy5(%[dD]9%86%[dD]8%[bB]8%[dD]8%[aA]7%[dD]9%85-%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]8%[aA]7%[dD]8%[aA]6%[dD]9%8[aA]-%[dD]9%84%[dD]8%[aA][aA]%[dD]9%83%[dD]9%8[aA]%[dD]8%[bB]3-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[aA]8%[dD]8%[aA]7%[dD]9%8[aA]%[dD]8%[bB]6\\.html)/",
+      "destination": "/blog/category/%D8%B5%D8%AD%D8%A9-%D8%A7%D9%84%D9%85%D8%B1%D8%A3%D8%A9/%D8%AA%D9%83%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D9%8A%D8%B6/%D9%86%D8%B8%D8%A7%D9%85-%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A-%D9%84%D8%AA%D9%83%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D9%8A%D8%B6",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%88%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][dD]%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]7%[dD]8%[aA][aA]-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]5%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]8%[aA]9)/:legacy4(%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB][aA]%[dD]8%[aA][fF]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][fF]%[dD]8%[bB]1%[dD]9%82%[dD]9%8[aA]%[dD]8%[aA]9)/:legacy5(%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB][aA]%[dD]8%[aA][fF]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][fF]%[dD]8%[bB]1%[dD]9%82%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%88%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AD%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%A9/%D8%A7%D9%84%D8%BA%D8%AF%D8%A9-%D8%A7%D9%84%D8%AF%D8%B1%D9%82%D9%8A%D8%A9/%D8%A7%D9%84%D8%BA%D8%AF%D8%A9-%D8%A7%D9%84%D8%AF%D8%B1%D9%82%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D9%88%D8%B2%D9%86",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%88%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][dD]%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]7%[dD]8%[aA][aA]-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]5%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]8%[aA]9)/:legacy4(%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB][aA]%[dD]8%[aA][fF]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][fF]%[dD]8%[bB]1%[dD]9%82%[dD]9%8[aA]%[dD]8%[aA]9)/:legacy5(%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB][aA]%[dD]8%[aA][fF]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][fF]%[dD]8%[bB]1%[dD]9%82%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%88%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86\\.html)",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AD%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%A9/%D8%A7%D9%84%D8%BA%D8%AF%D8%A9-%D8%A7%D9%84%D8%AF%D8%B1%D9%82%D9%8A%D8%A9/%D8%A7%D9%84%D8%BA%D8%AF%D8%A9-%D8%A7%D9%84%D8%AF%D8%B1%D9%82%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D9%88%D8%B2%D9%86",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%88%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][dD]%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]7%[dD]8%[aA][aA]-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]5%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]8%[aA]9)/:legacy4(%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB][aA]%[dD]8%[aA][fF]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][fF]%[dD]8%[bB]1%[dD]9%82%[dD]9%8[aA]%[dD]8%[aA]9)/:legacy5(%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB][aA]%[dD]8%[aA][fF]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][fF]%[dD]8%[bB]1%[dD]9%82%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%88%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86\\.html)/",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AD%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%A9/%D8%A7%D9%84%D8%BA%D8%AF%D8%A9-%D8%A7%D9%84%D8%AF%D8%B1%D9%82%D9%8A%D8%A9/%D8%A7%D9%84%D8%BA%D8%AF%D8%A9-%D8%A7%D9%84%D8%AF%D8%B1%D9%82%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D9%88%D8%B2%D9%86",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]5%[dD]8%[aA][fF]%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/:legacy4(%[dD]8%[aA][eE]%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/:legacy5(%[dD]8%[aA]7%[dD]9%84%[dD]9%86%[dD]9%88%[dD]9%85-%[dD]9%88%[dD]8%[aA][eE]%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%A7%D9%84%D9%86%D9%88%D9%85-%D9%88%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]5%[dD]8%[aA][fF]%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/:legacy4(%[dD]8%[aA][eE]%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/:legacy5(%[dD]8%[aA]7%[dD]9%84%[dD]9%86%[dD]9%88%[dD]9%85-%[dD]9%88%[dD]8%[aA][eE]%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86\\.html)",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%A7%D9%84%D9%86%D9%88%D9%85-%D9%88%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]5%[dD]8%[aA][fF]%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/:legacy4(%[dD]8%[aA][eE]%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/:legacy5(%[dD]8%[aA]7%[dD]9%84%[dD]9%86%[dD]9%88%[dD]9%85-%[dD]9%88%[dD]8%[aA][eE]%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86\\.html)/",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%A7%D9%84%D9%86%D9%88%D9%85-%D9%88%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]5%[dD]8%[aA][fF]%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/:legacy4(%[dD]8%[aA][eE]%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/:legacy5(%[dD]8%[bB]4%[dD]8%[bB]1%[dD]8%[aA]8-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[aA]7%[dD]8%[aA]1-%[dD]9%84%[dD]8%[aA][eE]%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%B4%D8%B1%D8%A8-%D8%A7%D9%84%D9%85%D8%A7%D8%A1-%D9%84%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]5%[dD]8%[aA][fF]%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/:legacy4(%[dD]8%[aA][eE]%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/:legacy5(%[dD]8%[bB]4%[dD]8%[bB]1%[dD]8%[aA]8-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[aA]7%[dD]8%[aA]1-%[dD]9%84%[dD]8%[aA][eE]%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86\\.html)",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%B4%D8%B1%D8%A8-%D8%A7%D9%84%D9%85%D8%A7%D8%A1-%D9%84%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]5%[dD]8%[aA][fF]%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/:legacy4(%[dD]8%[aA][eE]%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/:legacy5(%[dD]8%[bB]4%[dD]8%[bB]1%[dD]8%[aA]8-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[aA]7%[dD]8%[aA]1-%[dD]9%84%[dD]8%[aA][eE]%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86\\.html)/",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%B4%D8%B1%D8%A8-%D8%A7%D9%84%D9%85%D8%A7%D8%A1-%D9%84%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]5%[dD]8%[aA][fF]%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/:legacy4(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][dD]%[dD]9%85%[dD]9%8[aA]%[dD]8%[aA]7%[dD]8%[aA][aA]-%[dD]9%88%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]5%[dD]9%8[aA]%[dD]8%[aA]7%[dD]9%85)/:legacy5(%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]5%[dD]9%8[aA]%[dD]8%[aA]7%[dD]9%85-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[aA][aA]%[dD]9%82%[dD]8%[bB]7%[dD]8%[bB]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]7%[dD]8%[aA][eE]%[dD]8%[bB]7%[dD]8%[aA]7%[dD]8%[aA]1-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]4%[dD]8%[aA]7%[dD]8%[aA]6%[dD]8%[bB]9%[dD]8%[aA]9)/",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%A7%D9%84%D8%AD%D9%85%D9%8A%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D8%B5%D9%8A%D8%A7%D9%85/%D8%A7%D9%84%D8%B5%D9%8A%D8%A7%D9%85-%D8%A7%D9%84%D9%85%D8%AA%D9%82%D8%B7%D8%B9-%D8%A7%D9%84%D8%A7%D8%AE%D8%B7%D8%A7%D8%A1-%D8%A7%D9%84%D8%B4%D8%A7%D8%A6%D8%B9%D8%A9",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]5%[dD]8%[aA][fF]%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/:legacy4(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][dD]%[dD]9%85%[dD]9%8[aA]%[dD]8%[aA]7%[dD]8%[aA][aA]-%[dD]9%88%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]5%[dD]9%8[aA]%[dD]8%[aA]7%[dD]9%85)/:legacy5(%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]5%[dD]9%8[aA]%[dD]8%[aA]7%[dD]9%85-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[aA][aA]%[dD]9%82%[dD]8%[bB]7%[dD]8%[bB]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]7%[dD]8%[aA][eE]%[dD]8%[bB]7%[dD]8%[aA]7%[dD]8%[aA]1-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]4%[dD]8%[aA]7%[dD]8%[aA]6%[dD]8%[bB]9%[dD]8%[aA]9\\.html)",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%A7%D9%84%D8%AD%D9%85%D9%8A%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D8%B5%D9%8A%D8%A7%D9%85/%D8%A7%D9%84%D8%B5%D9%8A%D8%A7%D9%85-%D8%A7%D9%84%D9%85%D8%AA%D9%82%D8%B7%D8%B9-%D8%A7%D9%84%D8%A7%D8%AE%D8%B7%D8%A7%D8%A1-%D8%A7%D9%84%D8%B4%D8%A7%D8%A6%D8%B9%D8%A9",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]5%[dD]8%[aA][fF]%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/:legacy4(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][dD]%[dD]9%85%[dD]9%8[aA]%[dD]8%[aA]7%[dD]8%[aA][aA]-%[dD]9%88%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]5%[dD]9%8[aA]%[dD]8%[aA]7%[dD]9%85)/:legacy5(%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]5%[dD]9%8[aA]%[dD]8%[aA]7%[dD]9%85-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[aA][aA]%[dD]9%82%[dD]8%[bB]7%[dD]8%[bB]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]7%[dD]8%[aA][eE]%[dD]8%[bB]7%[dD]8%[aA]7%[dD]8%[aA]1-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]4%[dD]8%[aA]7%[dD]8%[aA]6%[dD]8%[bB]9%[dD]8%[aA]9\\.html)/",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%A7%D9%84%D8%AD%D9%85%D9%8A%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D8%B5%D9%8A%D8%A7%D9%85/%D8%A7%D9%84%D8%B5%D9%8A%D8%A7%D9%85-%D8%A7%D9%84%D9%85%D8%AA%D9%82%D8%B7%D8%B9-%D8%A7%D9%84%D8%A7%D8%AE%D8%B7%D8%A7%D8%A1-%D8%A7%D9%84%D8%B4%D8%A7%D8%A6%D8%B9%D8%A9",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]5%[dD]8%[aA][fF]%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/:legacy4(%[dD]8%[aA][eE]%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/:legacy5(%[dD]8%[aA][aA]%[dD]8%[aA][eE]%[dD]9%81%[dD]9%8[aA]%[dD]9%81-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]3%[dD]8%[bB]9%[dD]8%[bB]1%[dD]8%[aA]7%[dD]8%[aA][aA]-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][dD]%[dD]8%[bB]1%[dD]8%[aA]7%[dD]8%[bB]1%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%81%[dD]9%8[aA]-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%86%[dD]8%[bB]2%[dD]9%84-%[dD]9%88%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]9%[dD]9%85%[dD]9%84)/",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%AA%D8%AE%D9%81%D9%8A%D9%81-%D8%A7%D9%84%D8%B3%D8%B9%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%AD%D8%B1%D8%A7%D8%B1%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%86%D8%B2%D9%84-%D9%88%D8%A7%D9%84%D8%B9%D9%85%D9%84",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]5%[dD]8%[aA][fF]%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/:legacy4(%[dD]8%[aA][eE]%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/:legacy5(%[dD]8%[aA][aA]%[dD]8%[aA][eE]%[dD]9%81%[dD]9%8[aA]%[dD]9%81-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]3%[dD]8%[bB]9%[dD]8%[bB]1%[dD]8%[aA]7%[dD]8%[aA][aA]-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][dD]%[dD]8%[bB]1%[dD]8%[aA]7%[dD]8%[bB]1%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%81%[dD]9%8[aA]-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%86%[dD]8%[bB]2%[dD]9%84-%[dD]9%88%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]9%[dD]9%85%[dD]9%84\\.html)",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%AA%D8%AE%D9%81%D9%8A%D9%81-%D8%A7%D9%84%D8%B3%D8%B9%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%AD%D8%B1%D8%A7%D8%B1%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%86%D8%B2%D9%84-%D9%88%D8%A7%D9%84%D8%B9%D9%85%D9%84",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]5%[dD]8%[aA][fF]%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/:legacy4(%[dD]8%[aA][eE]%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/:legacy5(%[dD]8%[aA][aA]%[dD]8%[aA][eE]%[dD]9%81%[dD]9%8[aA]%[dD]9%81-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]3%[dD]8%[bB]9%[dD]8%[bB]1%[dD]8%[aA]7%[dD]8%[aA][aA]-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][dD]%[dD]8%[bB]1%[dD]8%[aA]7%[dD]8%[bB]1%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%81%[dD]9%8[aA]-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%86%[dD]8%[bB]2%[dD]9%84-%[dD]9%88%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]9%[dD]9%85%[dD]9%84\\.html)/",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%AE%D8%B3%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%AA%D8%AE%D9%81%D9%8A%D9%81-%D8%A7%D9%84%D8%B3%D8%B9%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%AD%D8%B1%D8%A7%D8%B1%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%86%D8%B2%D9%84-%D9%88%D8%A7%D9%84%D8%B9%D9%85%D9%84",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]3%[dD]8%[bB]3%[dD]8%[bB]1%[dD]8%[aA]9)/:legacy4(%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]3%[dD]8%[bB]7%[dD]9%81%[dD]8%[aA]7%[dD]9%84)/:legacy5(%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%87%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[bB]3%[dD]8%[aA][aA]%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]9%84%[dD]8%[aA]9-%[dD]9%84%[dD]9%84%[dD]8%[aA]3%[dD]9%85%[dD]9%87%[dD]8%[aA]7%[dD]8%[aA][aA])/",
+      "destination": "/blog/category/%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D8%B3%D8%B1%D8%A9/%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D8%B7%D9%81%D8%A7%D9%84/%D8%A7%D9%84%D9%85%D9%87%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%AD%D9%8A%D9%84%D8%A9-%D9%84%D9%84%D8%A3%D9%85%D9%87%D8%A7%D8%AA",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]3%[dD]8%[bB]3%[dD]8%[bB]1%[dD]8%[aA]9)/:legacy4(%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]3%[dD]8%[bB]7%[dD]9%81%[dD]8%[aA]7%[dD]9%84)/:legacy5(%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%87%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[bB]3%[dD]8%[aA][aA]%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]9%84%[dD]8%[aA]9-%[dD]9%84%[dD]9%84%[dD]8%[aA]3%[dD]9%85%[dD]9%87%[dD]8%[aA]7%[dD]8%[aA][aA]\\.html)",
+      "destination": "/blog/category/%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D8%B3%D8%B1%D8%A9/%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D8%B7%D9%81%D8%A7%D9%84/%D8%A7%D9%84%D9%85%D9%87%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%AD%D9%8A%D9%84%D8%A9-%D9%84%D9%84%D8%A3%D9%85%D9%87%D8%A7%D8%AA",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]3%[dD]8%[bB]3%[dD]8%[bB]1%[dD]8%[aA]9)/:legacy4(%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]3%[dD]8%[bB]7%[dD]9%81%[dD]8%[aA]7%[dD]9%84)/:legacy5(%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%87%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[bB]3%[dD]8%[aA][aA]%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]9%84%[dD]8%[aA]9-%[dD]9%84%[dD]9%84%[dD]8%[aA]3%[dD]9%85%[dD]9%87%[dD]8%[aA]7%[dD]8%[aA][aA]\\.html)/",
+      "destination": "/blog/category/%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D8%B3%D8%B1%D8%A9/%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D8%B7%D9%81%D8%A7%D9%84/%D8%A7%D9%84%D9%85%D9%87%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%AD%D9%8A%D9%84%D8%A9-%D9%84%D9%84%D8%A3%D9%85%D9%87%D8%A7%D8%AA",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]3%[dD]9%84%[dD]9%88%[dD]9%83-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]8%[aA]7%[dD]8%[aA]6%[dD]9%8[aA])/:legacy4(%[dD]8%[aA]8%[dD]9%86%[dD]8%[aA]7%[dD]8%[aA]1-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]9%[dD]8%[aA]7%[dD]8%[aA][fF]%[dD]8%[aA]7%[dD]8%[aA][aA])/:legacy5(%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%87%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%85%[dD]9%83%[dD]9%86%[dD]8%[aA]9-%[dD]9%84%[dD]9%84%[dD]8%[bB]9%[dD]8%[aA]7%[dD]9%85-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][cC]%[dD]8%[aA][fF]%[dD]9%8[aA]%[dD]8%[aA][fF])/",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%B3%D9%84%D9%88%D9%83-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A/%D8%A8%D9%86%D8%A7%D8%A1-%D8%A7%D9%84%D8%B9%D8%A7%D8%AF%D8%A7%D8%AA/%D8%A7%D9%84%D9%85%D9%87%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D9%85%D9%83%D9%86%D8%A9-%D9%84%D9%84%D8%B9%D8%A7%D9%85-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]3%[dD]9%84%[dD]9%88%[dD]9%83-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]8%[aA]7%[dD]8%[aA]6%[dD]9%8[aA])/:legacy4(%[dD]8%[aA]8%[dD]9%86%[dD]8%[aA]7%[dD]8%[aA]1-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]9%[dD]8%[aA]7%[dD]8%[aA][fF]%[dD]8%[aA]7%[dD]8%[aA][aA])/:legacy5(%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%87%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%85%[dD]9%83%[dD]9%86%[dD]8%[aA]9-%[dD]9%84%[dD]9%84%[dD]8%[bB]9%[dD]8%[aA]7%[dD]9%85-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][cC]%[dD]8%[aA][fF]%[dD]9%8[aA]%[dD]8%[aA][fF]\\.html)",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%B3%D9%84%D9%88%D9%83-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A/%D8%A8%D9%86%D8%A7%D8%A1-%D8%A7%D9%84%D8%B9%D8%A7%D8%AF%D8%A7%D8%AA/%D8%A7%D9%84%D9%85%D9%87%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D9%85%D9%83%D9%86%D8%A9-%D9%84%D9%84%D8%B9%D8%A7%D9%85-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]3%[dD]9%84%[dD]9%88%[dD]9%83-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]8%[aA]7%[dD]8%[aA]6%[dD]9%8[aA])/:legacy4(%[dD]8%[aA]8%[dD]9%86%[dD]8%[aA]7%[dD]8%[aA]1-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]9%[dD]8%[aA]7%[dD]8%[aA][fF]%[dD]8%[aA]7%[dD]8%[aA][aA])/:legacy5(%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%87%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%85%[dD]9%83%[dD]9%86%[dD]8%[aA]9-%[dD]9%84%[dD]9%84%[dD]8%[bB]9%[dD]8%[aA]7%[dD]9%85-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][cC]%[dD]8%[aA][fF]%[dD]9%8[aA]%[dD]8%[aA][fF]\\.html)/",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%B3%D9%84%D9%88%D9%83-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A/%D8%A8%D9%86%D8%A7%D8%A1-%D8%A7%D9%84%D8%B9%D8%A7%D8%AF%D8%A7%D8%AA/%D8%A7%D9%84%D9%85%D9%87%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D9%85%D9%83%D9%86%D8%A9-%D9%84%D9%84%D8%B9%D8%A7%D9%85-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%8[aA]%[dD]9%88%[dD]9%85%[dD]9%8[aA]%[dD]8%[aA]9)/:legacy4(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%81%[dD]9%8[aA]-%[dD]8%[bB]1%[dD]9%85%[dD]8%[bB]6%[dD]8%[aA]7%[dD]9%86)/:legacy5(%[dD]8%[bB]1%[dD]9%85%[dD]8%[bB]6%[dD]8%[aA]7%[dD]9%86-%[dD]8%[aA]8%[dD]9%84%[dD]8%[aA]7-%[dD]8%[bB]3%[dD]9%83%[dD]8%[bB]1)/",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85%D9%8A%D8%A9/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%81%D9%8A-%D8%B1%D9%85%D8%B6%D8%A7%D9%86/%D8%B1%D9%85%D8%B6%D8%A7%D9%86-%D8%A8%D9%84%D8%A7-%D8%B3%D9%83%D8%B1",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%8[aA]%[dD]9%88%[dD]9%85%[dD]9%8[aA]%[dD]8%[aA]9)/:legacy4(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%81%[dD]9%8[aA]-%[dD]8%[bB]1%[dD]9%85%[dD]8%[bB]6%[dD]8%[aA]7%[dD]9%86)/:legacy5(%[dD]8%[bB]1%[dD]9%85%[dD]8%[bB]6%[dD]8%[aA]7%[dD]9%86-%[dD]8%[aA]8%[dD]9%84%[dD]8%[aA]7-%[dD]8%[bB]3%[dD]9%83%[dD]8%[bB]1\\.html)",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85%D9%8A%D8%A9/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%81%D9%8A-%D8%B1%D9%85%D8%B6%D8%A7%D9%86/%D8%B1%D9%85%D8%B6%D8%A7%D9%86-%D8%A8%D9%84%D8%A7-%D8%B3%D9%83%D8%B1",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%8[aA]%[dD]9%88%[dD]9%85%[dD]9%8[aA]%[dD]8%[aA]9)/:legacy4(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%81%[dD]9%8[aA]-%[dD]8%[bB]1%[dD]9%85%[dD]8%[bB]6%[dD]8%[aA]7%[dD]9%86)/:legacy5(%[dD]8%[bB]1%[dD]9%85%[dD]8%[bB]6%[dD]8%[aA]7%[dD]9%86-%[dD]8%[aA]8%[dD]9%84%[dD]8%[aA]7-%[dD]8%[bB]3%[dD]9%83%[dD]8%[bB]1\\.html)/",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85%D9%8A%D8%A9/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%81%D9%8A-%D8%B1%D9%85%D8%B6%D8%A7%D9%86/%D8%B1%D9%85%D8%B6%D8%A7%D9%86-%D8%A8%D9%84%D8%A7-%D8%B3%D9%83%D8%B1",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]5%[dD]8%[aA][fF]%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/:legacy4(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%85%[dD]8%[bB]9-%[dD]8%[aA]3%[dD]8%[aA][fF]%[dD]9%88%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]9%86%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]9%81)/:legacy5(%[dD]8%[aA]7%[dD]8%[aA]8%[dD]8%[bB]1-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]9%86%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]9%81-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][dD]%[dD]8%[aA][fF]%[dD]9%8[aA]%[dD]8%[aA][bB]%[dD]8%[aA]9)/",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%85%D8%B9-%D8%A3%D8%AF%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D9%86%D8%AD%D9%8A%D9%81/%D8%A7%D8%A8%D8%B1-%D8%A7%D9%84%D8%AA%D9%86%D8%AD%D9%8A%D9%81-%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D8%AB%D8%A9",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]5%[dD]8%[aA][fF]%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/:legacy4(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%85%[dD]8%[bB]9-%[dD]8%[aA]3%[dD]8%[aA][fF]%[dD]9%88%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]9%86%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]9%81)/:legacy5(%[dD]8%[aA]7%[dD]8%[aA]8%[dD]8%[bB]1-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]9%86%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]9%81-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][dD]%[dD]8%[aA][fF]%[dD]9%8[aA]%[dD]8%[aA][bB]%[dD]8%[aA]9\\.html)",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%85%D8%B9-%D8%A3%D8%AF%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D9%86%D8%AD%D9%8A%D9%81/%D8%A7%D8%A8%D8%B1-%D8%A7%D9%84%D8%AA%D9%86%D8%AD%D9%8A%D9%81-%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D8%AB%D8%A9",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]5%[dD]8%[aA][fF]%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/:legacy4(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%85%[dD]8%[bB]9-%[dD]8%[aA]3%[dD]8%[aA][fF]%[dD]9%88%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]9%86%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]9%81)/:legacy5(%[dD]8%[aA]7%[dD]8%[aA]8%[dD]8%[bB]1-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]9%86%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]9%81-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][dD]%[dD]8%[aA][fF]%[dD]9%8[aA]%[dD]8%[aA][bB]%[dD]8%[aA]9\\.html)/",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%85%D8%B9-%D8%A3%D8%AF%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D9%86%D8%AD%D9%8A%D9%81/%D8%A7%D8%A8%D8%B1-%D8%A7%D9%84%D8%AA%D9%86%D8%AD%D9%8A%D9%81-%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D8%AB%D8%A9",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]5%[dD]8%[aA][fF]%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/:legacy4(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%85%[dD]8%[bB]9-%[dD]8%[aA]3%[dD]8%[aA][fF]%[dD]9%88%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]9%86%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]9%81)/:legacy5(%[dD]9%85%[dD]9%88%[dD]9%86%[dD]8%[aA][cC]%[dD]8%[aA]7%[dD]8%[bB]1%[dD]9%88)/",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%85%D8%B9-%D8%A3%D8%AF%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D9%86%D8%AD%D9%8A%D9%81/%D9%85%D9%88%D9%86%D8%AC%D8%A7%D8%B1%D9%88",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]5%[dD]8%[aA][fF]%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/:legacy4(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%85%[dD]8%[bB]9-%[dD]8%[aA]3%[dD]8%[aA][fF]%[dD]9%88%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]9%86%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]9%81)/:legacy5(%[dD]9%85%[dD]9%88%[dD]9%86%[dD]8%[aA][cC]%[dD]8%[aA]7%[dD]8%[bB]1%[dD]9%88\\.html)",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%85%D8%B9-%D8%A3%D8%AF%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D9%86%D8%AD%D9%8A%D9%81/%D9%85%D9%88%D9%86%D8%AC%D8%A7%D8%B1%D9%88",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]5%[dD]8%[aA][fF]%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/:legacy4(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%85%[dD]8%[bB]9-%[dD]8%[aA]3%[dD]8%[aA][fF]%[dD]9%88%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]9%86%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]9%81)/:legacy5(%[dD]9%85%[dD]9%88%[dD]9%86%[dD]8%[aA][cC]%[dD]8%[aA]7%[dD]8%[bB]1%[dD]9%88\\.html)/",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%85%D8%B9-%D8%A3%D8%AF%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D9%86%D8%AD%D9%8A%D9%81/%D9%85%D9%88%D9%86%D8%AC%D8%A7%D8%B1%D9%88",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]5%[dD]8%[aA][fF]%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/:legacy4(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%85%[dD]8%[bB]9-%[dD]8%[aA]3%[dD]8%[aA][fF]%[dD]9%88%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]9%86%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]9%81)/:legacy5(%[dD]9%86%[dD]8%[bB]8%[dD]8%[aA]7%[dD]9%85-%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]8%[aA]7%[dD]8%[aA]6%[dD]9%8[aA]-%[dD]9%85%[dD]8%[bB]9-%[dD]9%85%[dD]9%88%[dD]9%86%[dD]8%[aA][cC]%[dD]8%[aA]7%[dD]8%[bB]1%[dD]9%88)/",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%85%D8%B9-%D8%A3%D8%AF%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D9%86%D8%AD%D9%8A%D9%81/%D9%86%D8%B8%D8%A7%D9%85-%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A-%D9%85%D8%B9-%D9%85%D9%88%D9%86%D8%AC%D8%A7%D8%B1%D9%88",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]5%[dD]8%[aA][fF]%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/:legacy4(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%85%[dD]8%[bB]9-%[dD]8%[aA]3%[dD]8%[aA][fF]%[dD]9%88%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]9%86%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]9%81)/:legacy5(%[dD]9%86%[dD]8%[bB]8%[dD]8%[aA]7%[dD]9%85-%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]8%[aA]7%[dD]8%[aA]6%[dD]9%8[aA]-%[dD]9%85%[dD]8%[bB]9-%[dD]9%85%[dD]9%88%[dD]9%86%[dD]8%[aA][cC]%[dD]8%[aA]7%[dD]8%[bB]1%[dD]9%88\\.html)",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%85%D8%B9-%D8%A3%D8%AF%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D9%86%D8%AD%D9%8A%D9%81/%D9%86%D8%B8%D8%A7%D9%85-%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A-%D9%85%D8%B9-%D9%85%D9%88%D9%86%D8%AC%D8%A7%D8%B1%D9%88",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]5%[dD]8%[aA][fF]%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/:legacy4(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%85%[dD]8%[bB]9-%[dD]8%[aA]3%[dD]8%[aA][fF]%[dD]9%88%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]9%86%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]9%81)/:legacy5(%[dD]9%86%[dD]8%[bB]8%[dD]8%[aA]7%[dD]9%85-%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]8%[aA]7%[dD]8%[aA]6%[dD]9%8[aA]-%[dD]9%85%[dD]8%[bB]9-%[dD]9%85%[dD]9%88%[dD]9%86%[dD]8%[aA][cC]%[dD]8%[aA]7%[dD]8%[bB]1%[dD]9%88\\.html)/",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%85%D8%B9-%D8%A3%D8%AF%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D9%86%D8%AD%D9%8A%D9%81/%D9%86%D8%B8%D8%A7%D9%85-%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A-%D9%85%D8%B9-%D9%85%D9%88%D9%86%D8%AC%D8%A7%D8%B1%D9%88",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]5%[dD]8%[aA][fF]%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/:legacy4(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%85%[dD]8%[bB]9-%[dD]8%[aA]3%[dD]8%[aA][fF]%[dD]9%88%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]9%86%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]9%81)/:legacy5(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]3%[dD]9%86%[dD]8%[bB]8%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]8%[aA]7%[dD]8%[aA]6%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%85%[dD]8%[bB]9-%[dD]8%[aA]7%[dD]8%[aA]8%[dD]8%[bB]1-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]9%86%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]9%81)/",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%85%D8%B9-%D8%A3%D8%AF%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D9%86%D8%AD%D9%8A%D9%81/%D8%A7%D9%84%D8%A3%D9%86%D8%B8%D9%85%D8%A9-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A%D8%A9-%D9%85%D8%B9-%D8%A7%D8%A8%D8%B1-%D8%A7%D9%84%D8%AA%D9%86%D8%AD%D9%8A%D9%81",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]5%[dD]8%[aA][fF]%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/:legacy4(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%85%[dD]8%[bB]9-%[dD]8%[aA]3%[dD]8%[aA][fF]%[dD]9%88%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]9%86%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]9%81)/:legacy5(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]3%[dD]9%86%[dD]8%[bB]8%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]8%[aA]7%[dD]8%[aA]6%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%85%[dD]8%[bB]9-%[dD]8%[aA]7%[dD]8%[aA]8%[dD]8%[bB]1-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]9%86%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]9%81\\.html)",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%85%D8%B9-%D8%A3%D8%AF%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D9%86%D8%AD%D9%8A%D9%81/%D8%A7%D9%84%D8%A3%D9%86%D8%B8%D9%85%D8%A9-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A%D8%A9-%D9%85%D8%B9-%D8%A7%D8%A8%D8%B1-%D8%A7%D9%84%D8%AA%D9%86%D8%AD%D9%8A%D9%81",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]5%[dD]8%[aA][fF]%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/:legacy4(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%85%[dD]8%[bB]9-%[dD]8%[aA]3%[dD]8%[aA][fF]%[dD]9%88%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]9%86%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]9%81)/:legacy5(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]3%[dD]9%86%[dD]8%[bB]8%[dD]9%85%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]8%[aA]7%[dD]8%[aA]6%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%85%[dD]8%[bB]9-%[dD]8%[aA]7%[dD]8%[aA]8%[dD]8%[bB]1-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]9%86%[dD]8%[aA][dD]%[dD]9%8[aA]%[dD]9%81\\.html)/",
+      "destination": "/blog/category/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D9%85%D8%B9-%D8%A3%D8%AF%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D9%86%D8%AD%D9%8A%D9%81/%D8%A7%D9%84%D8%A3%D9%86%D8%B8%D9%85%D8%A9-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A%D8%A9-%D9%85%D8%B9-%D8%A7%D8%A8%D8%B1-%D8%A7%D9%84%D8%AA%D9%86%D8%AD%D9%8A%D9%81",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%8[aA]%[dD]9%88%[dD]9%85%[dD]9%8[aA]%[dD]8%[aA]9)/:legacy4(%[dD]8%[aA]3%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]3%[dD]9%8[aA]%[dD]8%[aA]7%[dD]8%[aA][aA]-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]9%8[aA]%[dD]8%[aA]9)/:legacy5(%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[bB]9%[dD]9%84%[dD]9%88%[dD]9%85%[dD]8%[aA]7%[dD]8%[aA][aA]-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]8%[aA]7%[dD]8%[aA]6%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%88%[dD]8%[aA][bB]%[dD]9%88%[dD]9%82%[dD]8%[aA]9)/",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85%D9%8A%D8%A9/%D8%A3%D8%B3%D8%A7%D8%B3%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9/%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D9%88%D8%AB%D9%88%D9%82%D8%A9",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%8[aA]%[dD]9%88%[dD]9%85%[dD]9%8[aA]%[dD]8%[aA]9)/:legacy4(%[dD]8%[aA]3%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]3%[dD]9%8[aA]%[dD]8%[aA]7%[dD]8%[aA][aA]-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]9%8[aA]%[dD]8%[aA]9)/:legacy5(%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[bB]9%[dD]9%84%[dD]9%88%[dD]9%85%[dD]8%[aA]7%[dD]8%[aA][aA]-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]8%[aA]7%[dD]8%[aA]6%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%88%[dD]8%[aA][bB]%[dD]9%88%[dD]9%82%[dD]8%[aA]9\\.html)",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85%D9%8A%D8%A9/%D8%A3%D8%B3%D8%A7%D8%B3%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9/%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D9%88%D8%AB%D9%88%D9%82%D8%A9",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%8[aA]%[dD]9%88%[dD]9%85%[dD]9%8[aA]%[dD]8%[aA]9)/:legacy4(%[dD]8%[aA]3%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]3%[dD]9%8[aA]%[dD]8%[aA]7%[dD]8%[aA][aA]-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]9%8[aA]%[dD]8%[aA]9)/:legacy5(%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[bB]9%[dD]9%84%[dD]9%88%[dD]9%85%[dD]8%[aA]7%[dD]8%[aA][aA]-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]8%[aA]7%[dD]8%[aA]6%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%88%[dD]8%[aA][bB]%[dD]9%88%[dD]9%82%[dD]8%[aA]9\\.html)/",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85%D9%8A%D8%A9/%D8%A3%D8%B3%D8%A7%D8%B3%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9/%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D9%88%D8%AB%D9%88%D9%82%D8%A9",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%8[aA]%[dD]9%88%[dD]9%85%[dD]9%8[aA]%[dD]8%[aA]9)/:legacy4(%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%84%[dD]8%[bB]5%[dD]9%82%[dD]8%[aA]7%[dD]8%[aA][aA]-%[dD]9%88%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB]3%[dD]9%88%[dD]9%82)/:legacy5(%[dD]9%82%[dD]8%[bB]1%[dD]8%[aA]7%[dD]8%[aA]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]8%[dD]8%[bB]7%[dD]8%[aA]7%[dD]9%82%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]8%[aA]7%[dD]8%[aA]6%[dD]9%8[aA]%[dD]8%[aA]9)/",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85%D9%8A%D8%A9/%D8%A7%D9%84%D9%85%D9%84%D8%B5%D9%82%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D8%AA%D8%B3%D9%88%D9%82/%D9%82%D8%B1%D8%A7%D8%A1%D8%A9-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D9%82%D8%A9-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A%D8%A9",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%8[aA]%[dD]9%88%[dD]9%85%[dD]9%8[aA]%[dD]8%[aA]9)/:legacy4(%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%84%[dD]8%[bB]5%[dD]9%82%[dD]8%[aA]7%[dD]8%[aA][aA]-%[dD]9%88%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB]3%[dD]9%88%[dD]9%82)/:legacy5(%[dD]9%82%[dD]8%[bB]1%[dD]8%[aA]7%[dD]8%[aA]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]8%[dD]8%[bB]7%[dD]8%[aA]7%[dD]9%82%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]8%[aA]7%[dD]8%[aA]6%[dD]9%8[aA]%[dD]8%[aA]9\\.html)",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85%D9%8A%D8%A9/%D8%A7%D9%84%D9%85%D9%84%D8%B5%D9%82%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D8%AA%D8%B3%D9%88%D9%82/%D9%82%D8%B1%D8%A7%D8%A1%D8%A9-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D9%82%D8%A9-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A%D8%A9",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%8[aA]%[dD]9%88%[dD]9%85%[dD]9%8[aA]%[dD]8%[aA]9)/:legacy4(%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]9%84%[dD]8%[bB]5%[dD]9%82%[dD]8%[aA]7%[dD]8%[aA][aA]-%[dD]9%88%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB]3%[dD]9%88%[dD]9%82)/:legacy5(%[dD]9%82%[dD]8%[bB]1%[dD]8%[aA]7%[dD]8%[aA]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA]8%[dD]8%[bB]7%[dD]8%[aA]7%[dD]9%82%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB][aA]%[dD]8%[bB]0%[dD]8%[aA]7%[dD]8%[aA]6%[dD]9%8[aA]%[dD]8%[aA]9\\.html)/",
+      "destination": "/blog/category/%D8%A7%D9%84%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D9%88%D9%85%D9%8A%D8%A9/%D8%A7%D9%84%D9%85%D9%84%D8%B5%D9%82%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D8%AA%D8%B3%D9%88%D9%82/%D9%82%D8%B1%D8%A7%D8%A1%D8%A9-%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D9%82%D8%A9-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A%D8%A9",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[bB]5%[dD]8%[aA][dD]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[bB]1%[dD]8%[aA]3%[dD]8%[aA]9)/:legacy4(%[dD]8%[aA][aA]%[dD]9%83%[dD]9%8[aA]%[dD]8%[bB]3-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[aA]8%[dD]8%[aA]7%[dD]9%8[aA]%[dD]8%[bB]6)/:legacy5(%[dD]9%83%[dD]9%88%[dD]8%[bB]1%[dD]8%[bB]3-%[dD]8%[aA][aA]%[dD]9%83%[dD]9%8[aA]%[dD]8%[bB]3-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[aA]8%[dD]8%[aA]7%[dD]9%8[aA]%[dD]8%[bB]6-%[dD]8%[aA]3%[dD]9%85-%[dD]8%[aA]7%[dD]8%[bB]3%[dD]8%[aA][aA]%[dD]8%[bB]4%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9)/",
+      "destination": "/blog/category/%D8%B5%D8%AD%D8%A9-%D8%A7%D9%84%D9%85%D8%B1%D8%A3%D8%A9/%D8%AA%D9%83%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D9%8A%D8%B6/%D9%83%D9%88%D8%B1%D8%B3-%D8%AA%D9%83%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D9%8A%D8%B6-%D8%A3%D9%85-%D8%A7%D8%B3%D8%AA%D8%B4%D8%A7%D8%B1%D8%A9",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[bB]5%[dD]8%[aA][dD]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[bB]1%[dD]8%[aA]3%[dD]8%[aA]9)/:legacy4(%[dD]8%[aA][aA]%[dD]9%83%[dD]9%8[aA]%[dD]8%[bB]3-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[aA]8%[dD]8%[aA]7%[dD]9%8[aA]%[dD]8%[bB]6)/:legacy5(%[dD]9%83%[dD]9%88%[dD]8%[bB]1%[dD]8%[bB]3-%[dD]8%[aA][aA]%[dD]9%83%[dD]9%8[aA]%[dD]8%[bB]3-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[aA]8%[dD]8%[aA]7%[dD]9%8[aA]%[dD]8%[bB]6-%[dD]8%[aA]3%[dD]9%85-%[dD]8%[aA]7%[dD]8%[bB]3%[dD]8%[aA][aA]%[dD]8%[bB]4%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9\\.html)",
+      "destination": "/blog/category/%D8%B5%D8%AD%D8%A9-%D8%A7%D9%84%D9%85%D8%B1%D8%A3%D8%A9/%D8%AA%D9%83%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D9%8A%D8%B6/%D9%83%D9%88%D8%B1%D8%B3-%D8%AA%D9%83%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D9%8A%D8%B6-%D8%A3%D9%85-%D8%A7%D8%B3%D8%AA%D8%B4%D8%A7%D8%B1%D8%A9",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[bB]5%[dD]8%[aA][dD]%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[bB]1%[dD]8%[aA]3%[dD]8%[aA]9)/:legacy4(%[dD]8%[aA][aA]%[dD]9%83%[dD]9%8[aA]%[dD]8%[bB]3-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[aA]8%[dD]8%[aA]7%[dD]9%8[aA]%[dD]8%[bB]6)/:legacy5(%[dD]9%83%[dD]9%88%[dD]8%[bB]1%[dD]8%[bB]3-%[dD]8%[aA][aA]%[dD]9%83%[dD]9%8[aA]%[dD]8%[bB]3-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[aA]8%[dD]8%[aA]7%[dD]9%8[aA]%[dD]8%[bB]6-%[dD]8%[aA]3%[dD]9%85-%[dD]8%[aA]7%[dD]8%[bB]3%[dD]8%[aA][aA]%[dD]8%[bB]4%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9\\.html)/",
+      "destination": "/blog/category/%D8%B5%D8%AD%D8%A9-%D8%A7%D9%84%D9%85%D8%B1%D8%A3%D8%A9/%D8%AA%D9%83%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D9%8A%D8%B6/%D9%83%D9%88%D8%B1%D8%B3-%D8%AA%D9%83%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D9%8A%D8%B6-%D8%A3%D9%85-%D8%A7%D8%B3%D8%AA%D8%B4%D8%A7%D8%B1%D8%A9",
       "permanent": true
     },
     {

@@ -2,7 +2,7 @@ const fs=require('node:fs');
 const assert=require('node:assert/strict');
 const {root,text}=require('./blog-html');
 const {headingSlug,addHeadingAnchors}=require('./blog-headings');
-const {categories,categoryPath,topicPath}=require('./blog-taxonomy');
+const {categories,categoryPath,topicPath,postPath}=require('./blog-taxonomy');
 const posts=require('./blog-catalog');
 const {articleTopics}=require('../content/blog-taxonomy.json');
 const schemas=html=>[...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(m=>JSON.parse(m[1]));
@@ -30,9 +30,9 @@ const base=[['الرئيسية','/'],['المدونة','/المدونة']];
 checkCrumbs(read('/المدونة'),base);
 let headingCount=0,archiveCount=0;
 for(const p of posts){
- const html=read('/blog/'+p.slug),source=fs.readFileSync(root+'/content/blog/'+p.key+'.html','utf8');
+ const html=read(postPath(p)),source=fs.readFileSync(root+'/content/blog/'+p.key+'.html','utf8');
  const {category,topic}=p.taxonomy;
- checkCrumbs(html,[...base,[category.name,categoryPath(category)],[topic.name,topicPath(category,topic)],[p.title,'/blog/'+p.slug]]);
+ checkCrumbs(html,[...base,[category.name,categoryPath(category)],[topic.name,topicPath(category,topic)],[p.title,postPath(p)]]);
  assert.deepEqual(schemas(html).find(s=>s['@type']==='BlogPosting').articleSection,[category.name,topic.name]);
  const sourceHeadings=[...source.matchAll(/<(h[23])(?:\s[^>]*)?>([\s\S]*?)<\/\1>/g)];
  const rendered=[...html.matchAll(/<(h[23])\b[^>]*id="([^"]+)"[^>]*>([\s\S]*?)<\/\1>/g)].filter(h=>!['article-sources-title','next-step-title'].includes(h[2]));
@@ -57,11 +57,11 @@ for(const category of categories){
   checkCrumbs(html,[...base,[category.name,categoryPath(category)],...(topic?[[topic.name,route]]:[])]);
   const items=schemas(html).find(s=>s['@type']==='CollectionPage').mainEntity;
   assert.equal(items.numberOfItems,expected.length);
-  assert.deepEqual(items.itemListElement.map(i=>decodeURI(new URL(i.url).pathname)).sort(),expected.map(p=>'/blog/'+p.slug).sort());
+  assert.deepEqual(items.itemListElement.map(i=>decodeURI(new URL(i.url).pathname)).sort(),expected.map(postPath).sort());
   assert.equal(html.includes('content="noindex, follow"'),!expected.length,route+' indexing rule');
   assert.equal(sitemap.includes('<loc>https://ruladiet.com'+route+'</loc>'),!!expected.length,route+' sitemap rule');
   assert(!html.includes('href="#cat='),'Legacy filter remains');
-  for(const p of expected)assert(html.includes('href="/blog/'+p.slug+'"'),route+' missing member');
+  for(const p of expected)assert(html.includes('href="'+postPath(p)+'"'),route+' missing member');
   const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);assert.equal(ids.length,new Set(ids).size,route+' duplicate IDs');
   archiveCount++;
  }

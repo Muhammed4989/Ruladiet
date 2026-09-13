@@ -4,7 +4,9 @@ Approved and implemented on 2026-09-13. The complete names, descriptions, paths 
 
 ## Navigation
 
-Home → Blog → Category → Topic → Article. Every ancestor is a real static link, with an equivalent BreadcrumbList. Article URLs remain `/blog/<existing-slug>`; moving an article between topics does not change its URL. Category pages use `/blog/category/<category-slug>` and topics append `/<topic-slug>`.
+Home → Blog → Category → Topic → Article. Every ancestor is a real static link, with an equivalent BreadcrumbList. On 2026-09-13 the owner additionally requested that article URLs follow the breadcrumb hierarchy. Category pages use `/blog/category/<category-slug>`, topics append `/<topic-slug>`, and articles append `/<article-slug>`. Always use `postPath(post)` and `postFile(post)` from `scripts/blog-taxonomy.js` instead of constructing `/blog/<slug>`.
+
+Old flat article URLs and their `.html` forms permanently redirect to their exact new URLs. Prior WordPress redirects point directly to the new destination, without a redirect chain. `scripts/migrate-blog-urls.js`, called by enrichment, migrates links and sources, records the flat URL redirects and removes old article files only after their replacements exist. `build-redirects.js` handles Arabic encoding case variants and canonical URL normalization. Published hierarchical paths are permanent: a later classification or slug change requires an explicit redirect from the previous hierarchical URL, not silently changing the assignment.
 
 The six roots are إدارة الوزن، صحة المرأة والتغذية، التغذية والحالات الصحية، السلوك الغذائي والعلاقة مع الطعام، التغذية اليومية، تغذية الأسرة. As requested by the owner, تغذية الحوامل، تغذية المرضعات، تغذية الرضع and تغذية الأطفال are children of تغذية الأسرة. School lunches belong to children; do not add a fourth navigation level. PCOS belongs to women's health; insulin resistance belongs to health conditions. Use contextual links to connect overlapping topics, rather than duplicating articles across categories.
 
@@ -20,7 +22,7 @@ Grow content according to the commercial and editorial priorities in `editorial-
 
 1. Update content and the assignment in `blog-taxonomy.json`.
 2. Run `node scripts/enrich-blog.js` (also builds all archives) and `node scripts/build-author.js`.
-3. Run `node scripts/check-blog.js`, `node scripts/check-blog-navigation.js`, `node scripts/check-site.js` and `git diff --check`.
+3. Run `node scripts/check-blog.js`, `node scripts/check-blog-navigation.js`, `node scripts/check-blog-url-migration.js`, `node scripts/check-site.js` and `git diff --check`.
 4. Check generator idempotence and preview the index, parent, topic and an article at desktop and mobile sizes when navigation/layout changes.
 5. Verify the deployed URLs, canonical, index/noindex state, sitemap and breadcrumb links after publication.
 
