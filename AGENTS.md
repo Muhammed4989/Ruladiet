@@ -170,6 +170,18 @@ check afterwards; its known null-byte warning is not a new regression.
 
 ## Blog editorial maintenance (2026-09-09)
 
+- Search discovery (2026-09-13): after publishing substantive additions or edits,
+  run `node scripts/submit-indexnow.js <canonical URLs>` to validate the live pages,
+  then add `--submit` to notify IndexNow. Use the full `--all --submit` batch only
+  for a site migration or initial onboarding, not for unchanged daily content.
+  The public verification TXT file is identified in `content/search-indexing.json`;
+  preserve it on deploy. HTTP 200 means received, not indexed; 202 means pending
+  key validation. Google submission is separate via the sitemap/Search Console.
+  Keep `robots.txt` crawlable, and retain noindex on checkout/thank-you/error pages
+  and unpopulated blog topics. Never replace historical lastmod dates with the run
+  date; omit an unknown date. Run `scripts/maintain-seo.js` and site checks when
+  updating sitemap policy or transaction-page metadata.
+
 - The owner approved a permanent two-level taxonomy on 2026-09-13. Read
   `content/blog-taxonomy.md`; assign every article key to one existing topic in
   `content/blog-taxonomy.json`. Pregnancy, breastfeeding, infants and children

@@ -26,6 +26,12 @@ function normalizePageLinks(html, pageUrl) {
 }
 
 function repairHtml(html, pageUrl) {
+  // This legacy checkout is a transaction step, not a search landing page.
+  if (decodeURI(pageUrl) === origin + '/course/شراء-المسار-الصحي') {
+    html = html.replace(/<meta\b[^>]*name=["']robots["'][^>]*>/gi, '')
+      .replace(/<link\b[^>]*rel=["']canonical["'][^>]*>/gi, '')
+      .replace('</head>', '<meta name="robots" content="noindex, follow"><link rel="canonical" href="' + encodeURI(pageUrl) + '"></head>');
+  }
   return normalizePageLinks(html, pageUrl)
     .replaceAll('باهشى شهير', 'باشاك شهير')
     .replace(
@@ -63,11 +69,17 @@ if (generatorAfter !== generatorBefore) {
 const sitemapPath = path.join(root, 'sitemap.xml');
 const sitemapBefore = fs.readFileSync(sitemapPath, 'utf8');
 const today = new Date().toISOString().slice(0, 10);
-const sitemapAfter = sitemapBefore.replace(/\s*<url>\s*<loc>([^<]+)<\/loc>[\s\S]*?<\/url>/g, (block, loc) => {
+let sitemapAfter = sitemapBefore.replace(/\s*<url>\s*<loc>([^<]+)<\/loc>[\s\S]*?<\/url>/g, (block, loc) => {
   if (loc === origin + '/404') return '';
   if (addressChanged.has(loc)) return block.replace(/<lastmod>[^<]+<\/lastmod>/, '<lastmod>' + today + '</lastmod>');
-  return block;
+  // June 10 was a template date, not the last substantive revision of these
+  // subsequently updated pages. Omit unknown dates rather than invent freshness.
+  return block.replace(/\s*<lastmod>2026-06-10<\/lastmod>/g, '');
 });
+const refundUrl = origin + '/الإسترجاع';
+if (![...sitemapAfter.matchAll(/<loc>([^<]+)<\/loc>/g)].some(m => decodeURI(m[1]) === refundUrl)) {
+  sitemapAfter = sitemapAfter.replace('</urlset>', '<url><loc>' + encodeURI(refundUrl) + '</loc></url>\n</urlset>');
+}
 if (sitemapAfter !== sitemapBefore) {
   fs.writeFileSync(sitemapPath, sitemapAfter, 'utf8');
   changed.push('sitemap.xml');

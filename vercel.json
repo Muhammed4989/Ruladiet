@@ -1,6 +1,26 @@
 {
   "redirects": [
     {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/index.html/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/index",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/index/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
       "source": "/courses/:legacy2(%[dD]9%83%[dD]9%88%[dD]8%[bB]1%[dD]8%[bB]3-%[dD]8%[bB]1%[dD]8%[aA][dD]%[dD]9%84%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]9%8[aA]%[dD]9%8[aA]%[dD]8%[bB]1)",
       "destination": "/course/%D8%B1%D8%AD%D9%84%D8%A9-%D8%A7%D9%84%D8%AA%D8%BA%D9%8A%D9%8A%D8%B1",
       "permanent": true

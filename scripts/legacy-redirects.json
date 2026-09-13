@@ -1,5 +1,13 @@
 [
   {
+    "source": "/index.html",
+    "destination": "/"
+  },
+  {
+    "source": "/index",
+    "destination": "/"
+  },
+  {
     "source": "/courses/كورس-رحلة-التغيير",
     "destination": "/course/رحلة-التغيير"
   },
