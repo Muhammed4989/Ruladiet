@@ -30,6 +30,13 @@ for (const file of files) {
   const pageUrl = origin + (file === 'index.html' ? '/' : '/' + file.replace(/\.html$/, ''));
   check(!html.startsWith('\uFEFF'), file + ': unexpected UTF-8 BOM');
   check(!html.includes('\uFFFD'), file + ': invalid Unicode replacement character');
+  if (file === 'index.html') {
+    const head = html.slice(0, html.indexOf('</head>'));
+    const layoutLinks = [...head.matchAll(/<link\b[^>]*href=["']\/css\/home-layout\.css["'][^>]*>/g)];
+    check(layoutLinks.length === 1 && layoutLinks[0].index > head.lastIndexOf('</style>'),
+      'Homepage must load home-layout.css once, after legacy critical styles; run scripts/stabilize-home-render.js');
+    check(fs.existsSync(path.join(root, 'css/home-layout.css')), 'Missing homepage responsive layout stylesheet');
+  }
   check(!/Esenkent|Esenyurt|34510|باهشى شهير/.test(html), file + ': stale clinic location');
   check(!/onclick='window\.location\.href='https:\/\/course\.ruladiet\.com\/login''/.test(html), file + ': broken login handler');
   if (file === 'رولا-علوش.html') check(html.includes('ماجستير في التغذية والحميات</h4><div class="meta">جامعة صباح الدين زعيم'), 'Biography must use the owner-confirmed master’s university');
