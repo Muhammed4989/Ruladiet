@@ -69,4 +69,5 @@ for(const category of categories){
 const family=categories.find(c=>c.id==='family');
 for(const id of ['pregnancy','breastfeeding','infants','children'])assert(family.topics.some(t=>t.id===id),'Family missing '+id);
 assert(!read('/المدونة').includes('href="#cat='));
+assert(read('/المدونة').includes('href="#أحدث-المقالات"')&&read('/المدونة').includes('id="أحدث-المقالات"'),'Missing shortcut to latest articles');
 console.log(JSON.stringify({articles:posts.length,namedHeadings:headingCount,archives:archiveCount,breadcrumbsChecked:posts.length+archiveCount+1,errors:0},null,2));
