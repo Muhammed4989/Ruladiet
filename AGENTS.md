@@ -214,9 +214,13 @@ check afterwards; its known null-byte warning is not a new regression.
   Run `node scripts/enrich-blog.js` to update the 17 public HTML pages, homepage
   and blog cards, social previews, structured data and sitemap. Update the
   explicit editorial date only when content is actually revised.
-- Every article has its own modest cover (no people in the new covers) in
+- Every article has its own modest cover in
   `images/blog/<key>-1280.webp`, plus 400/800 responsive copies. Provenance and
   original generation prompts are in `content/blog/image-provenance.json`.
+  On 2026-09-13 the owner explicitly requested varied natural human scenes,
+  including quiet reflection, walking, motherhood and family interactions,
+  rather than food-only covers. Use modest opaque clothing; fictional generated
+  people must not be presented as Rula, patients or testimonials.
   `node scripts/prepare-blog-images.js` refreshes smaller copies from masters;
   an optional source directory supplies `<key>.png` to regenerate all sizes.
 - Educational SVG diagrams are maintained by `scripts/blog-visuals.js`.

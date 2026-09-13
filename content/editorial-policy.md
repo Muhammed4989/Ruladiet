@@ -2,6 +2,8 @@
 
 The owner authorized one original Arabic article each day, published automatically, on 2026-09-10. The daily heartbeat is scheduled for 09:00 Europe/Istanbul in the current Codex task. The configured automation ID is `automation`. Do not create duplicate automations.
 
+On 2026-09-13 the owner additionally requested completing all 13 unpopulated existing topics as one batch. This explicit request authorizes the coverage batch in `editorial-plan.json` in addition to that day's article; it does not change the daily schedule. The owner also requested varied natural human imagery, including quiet reflection, walking and family scenes. Use modest opaque clothing and fictional models, with accurate illustrative captions; do not restrict new covers to food or imply patient outcomes.
+
 ## Required content
 
 - The permanent blog hierarchy is in `content/blog-taxonomy.json`: one general category, one topic, then the article. Add the new article key to `articleTopics` with one existing topic ID before rendering. Do not invent broad labels in daily metadata or assign an article to multiple archives. Pregnancy, breastfeeding, infants and children belong to family nutrition. Follow the taxonomy guide in `content/blog-taxonomy.md`.
