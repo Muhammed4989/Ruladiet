@@ -3,7 +3,7 @@ const {root,write}=require('./blog-html');
 const {descriptions,escape:e}=require('./blog-visuals');
 const {categories,categoryPath,topicPath,postPath,postFile,trail,breadcrumb,breadcrumbSchema}=require('./blog-taxonomy');
 const origin='https://ruladiet.com';
-const intros=require('../content/blog-category-intros.json');
+const {introduction:archiveIntroduction}=require('./archive-introductions');
 const jsonScript=data=>'<script type="application/ld+json">'+JSON.stringify(data).replace(/</g,'\\u003c')+'</script>';
 function buildArchives(){
  const posts=require('./blog-catalog').map(p=>{
@@ -40,10 +40,8 @@ function buildArchives(){
   const shortcuts=category?'':'<nav class="archive-shortcuts" aria-label="انتقال سريع"><a href="#blog-categories-title">تصفّح التصنيفات</a><a href="#أحدث-المقالات">أحدث المقالات ↓</a></nav>';
   let introduction=`<p>${e(page.description)}</p>`;
   if(category){
-   const paragraphs=topic?intros.topics[topic.id]:intros.categories[category.id];
-   if(!paragraphs?.length)throw Error('Write a unique category introduction for '+page.path);
-   const copy=[page.description+' '+paragraphs[0],...paragraphs.slice(1)];
-   introduction=`<section class="archive-intro" data-archive-intro aria-label="عن ${e(page.title)}"><div class="archive-intro-copy" id="archive-intro-copy">${copy.map(p=>'<p>'+e(p)+'</p>').join('')}</div><button class="archive-intro-toggle" type="button" aria-expanded="true" aria-controls="archive-intro-copy" hidden>قراءة المزيد</button></section>`;
+   const guide=archiveIntroduction(category,topic);
+   introduction=`<section class="archive-intro" data-archive-intro aria-label="عن ${e(page.title)}"><div class="archive-intro-copy" id="archive-intro-copy">${guide.html}</div><button class="archive-intro-toggle" type="button" aria-expanded="true" aria-controls="archive-intro-copy" hidden>قراءة المزيد</button></section>`;
   }
   const main=`<main class="blog-archive"><section class="page-hero"><div class="container">${breadcrumb(crumbs)}<div class="blog-header"><h1>${e(page.title)}</h1>${introduction}${shortcuts}</div></div></section><div class="blog-page"><div class="container">${intro}<div class="blog-layout"><div class="blog-main"${category?'':' id="أحدث-المقالات"'}>${listing}</div>${sidebar(category,topic)}</div></div></div></main>`;
   let html=shell.replace(/<main\b[^>]*>[\s\S]*?<\/main>/,main);
