@@ -1,0 +1,23 @@
+{
+  "timezone": "Europe/Istanbul",
+  "dailyTarget": 1,
+  "effectiveFrom": "2026-09-14",
+  "profile": {
+    "name": "اختصاصية التغذية رولا علوش- عيادة تغذية / Rula Diet clinic",
+    "website": "https://ruladiet.com/",
+    "placeId": "ChIJPxfeU-unyhQRyIYSaHZkkoA",
+    "address": "Kayabaşı, Adnan Menderes Bulvarı, Emlak Konut Kuzey Yakası A2 Blok No:3, 34494 Başakşehir/İstanbul",
+    "managementEntry": "https://business.google.com/locations"
+  },
+  "access": {
+    "lastChecked": "2026-09-13",
+    "status": "awaiting_owner_account_selection",
+    "note": "Management access is not yet verified. The owner was asked to select the Google account that manages Rula Diet in the open Business Profile tab. Continue website publication while access is unresolved."
+  },
+  "entryFields": [
+    "date", "articleKey", "canonicalUrl", "text", "imagePath", "button",
+    "status", "preparedAt", "submittedAt", "checkedAt", "postId", "postUrl", "blocker"
+  ],
+  "allowedStatuses": ["draft", "submitting", "live", "pending", "not_approved", "blocked"],
+  "posts": []
+}

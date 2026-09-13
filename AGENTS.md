@@ -244,10 +244,20 @@ check afterwards; its known null-byte warning is not a new regression.
   with equal consultation/course priority and PCOS first among course briefs.
   Preserve source quality, verify keyword intent, and avoid competing with the
   existing offer pages. General nutrition topics are now supporting backlog.
-- The owner authorized daily publication at 09:00 Europe/Istanbul. Read
+- On 2026-09-13 the owner increased the daily target to four website articles
+  and one Google Business Profile update, starting with the 2026-09-14 run.
+  The existing heartbeat `automation` starts the daily batch at 09:00
+  Europe/Istanbul. This replaces the previous one-article-per-day limit.
+  Check production and today's records; complete only missing articles up to
+  four and never duplicate a submitted/pending Google update. Read
   `content/editorial-policy.md` and `content/editorial-plan.json` for the full
   workflow. New metadata belongs in `content/daily-posts.json` and is appended
   to the catalog automatically; never overwrite the legacy catalog or dates.
+- Google updates use `content/google-business-posts.json` and the profile
+  identity in this file. Verify the clinic and management access before posting;
+  Search Console access alone is insufficient. Save a draft and report a login
+  blocker without interrupting website publication. The owner authorized both
+  recurring publication actions; do not request approval for every item.
 - Every daily article needs at least 1000 original body words, a unique modest
   cover, two meaningful inline images with descriptive Arabic alt, sources,
   internal links and one primary CTA. `check-blog.js` enforces the core limits.
