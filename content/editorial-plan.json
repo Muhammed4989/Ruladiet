@@ -183,14 +183,14 @@
     {
       "topic": "الجوع والشبع وتنظيم الوجبات",
       "intent": "ملاحظة إشارات الجسم دون اختبارات تشخيصية أو قواعد صارمة",
-      "status": "ready-for-publication",
+      "status": "published",
       "slug": "فهم-الجوع-والشبع",
       "date": "2026-09-13"
     },
     {
       "topic": "التغذية وصحة القلب",
       "intent": "دليل غذائي تأسيسي يستند إلى إرشادات حديثة",
-      "status": "ready-for-publication",
+      "status": "published",
       "slug": "خفض-الكوليسترول-بالغذاء",
       "date": "2026-09-13"
     },
@@ -204,7 +204,7 @@
     "date": "2026-09-13",
     "authorization": "طلب المالك تغطية كل التصنيفات المتبقية وإزالة قيد الإعداد بمحتوى فعلي؛ هذه دفعة استثنائية لا تغير وتيرة النشر اليومية.",
     "searchEvidence": "بحث استكشافي في 13 سبتمبر أظهر نية معلوماتية وعملية حول تثبيت الوزن وتنظيم وجبات السكري، وتداخلاً معلوماتياً واستشارياً في تغذية الحامل. لا يثبت حجم طلب أو ترتيباً أو مبيعات. اختيار الدفعة مبني على تغطية التصنيفات القائمة بأجوبة مستقلة، مع مصادر طبية أولية فقط.",
-    "status": "ready-for-publication",
+    "status": "published",
     "articles": [
       {
         "key": "weight-maintenance",
@@ -214,7 +214,7 @@
         "categoryTopic": "weight-maintenance",
         "targetPage": "/course/المسار-الصحي",
         "avoidOverlap": "مقال تأسيسي مستقل في تصنيف كان خالياً؛ لا يعيد كتابة صفحة العرض أو مقالات الخسارة والتكيس ومقاومة الإنسولين الموجودة.",
-        "status": "ready-for-publication",
+        "status": "published",
         "date": "2026-09-13",
         "slug": "تثبيت-الوزن-بعد-الرجيم",
         "bodyWordsExcludingHeadings": 1046,
@@ -232,7 +232,7 @@
         "categoryTopic": "menstrual-cycle",
         "targetPage": "/احجز-موعد",
         "avoidOverlap": "مقال تأسيسي مستقل في تصنيف كان خالياً؛ لا يعيد كتابة صفحة العرض أو مقالات الخسارة والتكيس ومقاومة الإنسولين الموجودة.",
-        "status": "ready-for-publication",
+        "status": "published",
         "date": "2026-09-13",
         "slug": "التغذية-أثناء-الدورة-الشهرية",
         "bodyWordsExcludingHeadings": 1053,
@@ -250,7 +250,7 @@
         "categoryTopic": "menopause",
         "targetPage": "/احجز-موعد",
         "avoidOverlap": "مقال تأسيسي مستقل في تصنيف كان خالياً؛ لا يعيد كتابة صفحة العرض أو مقالات الخسارة والتكيس ومقاومة الإنسولين الموجودة.",
-        "status": "ready-for-publication",
+        "status": "published",
         "date": "2026-09-13",
         "slug": "تغذية-انقطاع-الطمث",
         "bodyWordsExcludingHeadings": 1029,
@@ -268,7 +268,7 @@
         "categoryTopic": "diabetes",
         "targetPage": "/احجز-موعد",
         "avoidOverlap": "مقال تأسيسي مستقل في تصنيف كان خالياً؛ لا يعيد كتابة صفحة العرض أو مقالات الخسارة والتكيس ومقاومة الإنسولين الموجودة.",
-        "status": "ready-for-publication",
+        "status": "published",
         "date": "2026-09-13",
         "slug": "تنظيم-الوجبات-مع-السكري",
         "bodyWordsExcludingHeadings": 1029,
@@ -286,7 +286,7 @@
         "categoryTopic": "heart-health",
         "targetPage": "/احجز-موعد",
         "avoidOverlap": "مقال تأسيسي مستقل في تصنيف كان خالياً؛ لا يعيد كتابة صفحة العرض أو مقالات الخسارة والتكيس ومقاومة الإنسولين الموجودة.",
-        "status": "ready-for-publication",
+        "status": "published",
         "date": "2026-09-13",
         "slug": "خفض-الكوليسترول-بالغذاء",
         "bodyWordsExcludingHeadings": 1036,
@@ -304,7 +304,7 @@
         "categoryTopic": "hunger-fullness",
         "targetPage": "/course/المسار-الصحي",
         "avoidOverlap": "مقال تأسيسي مستقل في تصنيف كان خالياً؛ لا يعيد كتابة صفحة العرض أو مقالات الخسارة والتكيس ومقاومة الإنسولين الموجودة.",
-        "status": "ready-for-publication",
+        "status": "published",
         "date": "2026-09-13",
         "slug": "فهم-الجوع-والشبع",
         "bodyWordsExcludingHeadings": 1023,
@@ -322,7 +322,7 @@
         "categoryTopic": "food-restriction",
         "targetPage": "/احجز-موعد",
         "avoidOverlap": "مقال تأسيسي مستقل في تصنيف كان خالياً؛ لا يعيد كتابة صفحة العرض أو مقالات الخسارة والتكيس ومقاومة الإنسولين الموجودة.",
-        "status": "ready-for-publication",
+        "status": "published",
         "date": "2026-09-13",
         "slug": "الخروج-من-الحرمان-الغذائي",
         "bodyWordsExcludingHeadings": 1032,
@@ -340,7 +340,7 @@
         "categoryTopic": "meals-recipes",
         "targetPage": "/course/المسار-الصحي",
         "avoidOverlap": "مقال تأسيسي مستقل في تصنيف كان خالياً؛ لا يعيد كتابة صفحة العرض أو مقالات الخسارة والتكيس ومقاومة الإنسولين الموجودة.",
-        "status": "ready-for-publication",
+        "status": "published",
         "date": "2026-09-13",
         "slug": "تجهيز-وجبات-صحية-للأسبوع",
         "bodyWordsExcludingHeadings": 1030,
@@ -358,7 +358,7 @@
         "categoryTopic": "pregnancy",
         "targetPage": "/احجز-موعد",
         "avoidOverlap": "مقال تأسيسي مستقل في تصنيف كان خالياً؛ لا يعيد كتابة صفحة العرض أو مقالات الخسارة والتكيس ومقاومة الإنسولين الموجودة.",
-        "status": "ready-for-publication",
+        "status": "published",
         "date": "2026-09-13",
         "slug": "غذاء-الحامل-وتنظيم-الوجبات",
         "bodyWordsExcludingHeadings": 1060,
@@ -377,7 +377,7 @@
         "categoryTopic": "breastfeeding",
         "targetPage": "/احجز-موعد",
         "avoidOverlap": "مقال تأسيسي مستقل في تصنيف كان خالياً؛ لا يعيد كتابة صفحة العرض أو مقالات الخسارة والتكيس ومقاومة الإنسولين الموجودة.",
-        "status": "ready-for-publication",
+        "status": "published",
         "date": "2026-09-13",
         "slug": "تغذية-المرضع-ووجباتها",
         "bodyWordsExcludingHeadings": 1037,
@@ -395,7 +395,7 @@
         "categoryTopic": "infants",
         "targetPage": "/احجز-موعد",
         "avoidOverlap": "مقال تأسيسي مستقل في تصنيف كان خالياً؛ لا يعيد كتابة صفحة العرض أو مقالات الخسارة والتكيس ومقاومة الإنسولين الموجودة.",
-        "status": "ready-for-publication",
+        "status": "published",
         "date": "2026-09-13",
         "slug": "بدء-الطعام-التكميلي-للرضيع",
         "bodyWordsExcludingHeadings": 1065,
@@ -415,7 +415,7 @@
         "categoryTopic": "teens",
         "targetPage": "/احجز-موعد",
         "avoidOverlap": "مقال تأسيسي مستقل في تصنيف كان خالياً؛ لا يعيد كتابة صفحة العرض أو مقالات الخسارة والتكيس ومقاومة الإنسولين الموجودة.",
-        "status": "ready-for-publication",
+        "status": "published",
         "date": "2026-09-13",
         "slug": "تغذية-المراهقين-للمدرسة-والنمو",
         "bodyWordsExcludingHeadings": 1057,
@@ -433,7 +433,7 @@
         "categoryTopic": "older-adults",
         "targetPage": "/احجز-موعد",
         "avoidOverlap": "مقال تأسيسي مستقل في تصنيف كان خالياً؛ لا يعيد كتابة صفحة العرض أو مقالات الخسارة والتكيس ومقاومة الإنسولين الموجودة.",
-        "status": "ready-for-publication",
+        "status": "published",
         "date": "2026-09-13",
         "slug": "تغذية-كبار-السن-وضعف-الشهية",
         "bodyWordsExcludingHeadings": 1056,
@@ -443,6 +443,14 @@
           "https://www.nhs.uk/symptoms/unintentional-weight-loss/"
         ]
       }
-    ]
+    ],
+    "productionCommit": "e40f7b97330c081d236bc167b07aa1d35b43978a",
+    "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/23",
+    "verifiedAt": "2026-09-13T20:02:39.060Z",
+    "indexNow": {
+      "submittedAt": "2026-09-13T20:03:57.291Z",
+      "status": 200,
+      "changedUrls": 35
+    }
   }
 }
