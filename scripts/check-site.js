@@ -5,8 +5,13 @@ const assert = require('node:assert/strict');
 
 const root = path.resolve(__dirname, '..');
 const origin = 'https://ruladiet.com';
-const files = ['', 'blog', 'course', 'author'].flatMap(dir => fs.readdirSync(path.join(root, dir))
-  .filter(name => name.endsWith('.html')).map(name => path.posix.join(dir, name)));
+function htmlFiles(dir, recursive) {
+  return fs.readdirSync(path.join(root, dir), {withFileTypes:true}).flatMap(entry => {
+    const file=path.posix.join(dir,entry.name);
+    return entry.isDirectory() ? (recursive?htmlFiles(file,true):[]) : entry.name.endsWith('.html')?[file]:[];
+  });
+}
+const files = htmlFiles('',false).concat(...['blog','course','author'].map(dir=>htmlFiles(dir,dir==='blog')));
 const errors = [];
 const warnings = [];
 let schemas = 0;
