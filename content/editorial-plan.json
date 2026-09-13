@@ -11,22 +11,68 @@
     "priority": "مقالات تساعد على الاختيار واتخاذ القرار، ثم محتوى معرفي يدعمها",
     "businessBalance": "أولوية متساوية للاستشارات والكورسات المدفوعة عبر السلسلة، مع تقديم التكيس ضمن الكورسات",
     "keywordEvidence": "الكلمات التالية مرشحات تحريرية وليست بيانات حجم بحث أو ضمان مبيعات. تُراجع نتائج البحث الحالية وبيانات Search Console المتاحة قبل اختيار كل مقالة.",
-    "preDraftChecks": ["تحديد نية البحث والقرار الذي تساعد عليه المقالة", "فحص التداخل مع كامل فهرس المقالات وصفحات العروض", "اختيار صفحة عرض موجودة لدعوة رئيسية واحدة", "توثيق مصدر المعلومات الحالية عن السعر والمحتوى وطريقة الحصول على الخدمة"],
+    "preDraftChecks": [
+      "تحديد نية البحث والقرار الذي تساعد عليه المقالة",
+      "فحص التداخل مع كامل فهرس المقالات وصفحات العروض",
+      "اختيار صفحة عرض موجودة لدعوة رئيسية واحدة",
+      "توثيق مصدر المعلومات الحالية عن السعر والمحتوى وطريقة الحصول على الخدمة"
+    ],
     "transactionalOwners": [
-      {"page": "/احجز-موعد", "queries": ["حجز استشارة تغذية", "استشارة تغذية أونلاين", "اختصاصية تغذية في إسطنبول"]},
-      {"page": "/course/تكيس-المبايض", "queries": ["كورس تكيس المبايض بالعربي", "كورس التعافي من تكيس المبايض رولا علوش"]},
-      {"page": "/course/المسار-الصحي", "queries": ["كورس المسار الصحي", "الاشتراك في كورس المسار الصحي"]},
-      {"page": "/course/الأكل-العاطفي", "queries": ["برنامج الأكل العاطفي رولا علوش", "التسجيل في برنامج الأكل العاطفي"]}
+      {
+        "page": "/احجز-موعد",
+        "queries": [
+          "حجز استشارة تغذية",
+          "استشارة تغذية أونلاين",
+          "اختصاصية تغذية في إسطنبول"
+        ]
+      },
+      {
+        "page": "/course/تكيس-المبايض",
+        "queries": [
+          "كورس تكيس المبايض بالعربي",
+          "كورس التعافي من تكيس المبايض رولا علوش"
+        ]
+      },
+      {
+        "page": "/course/المسار-الصحي",
+        "queries": [
+          "كورس المسار الصحي",
+          "الاشتراك في كورس المسار الصحي"
+        ]
+      },
+      {
+        "page": "/course/الأكل-العاطفي",
+        "queries": [
+          "برنامج الأكل العاطفي رولا علوش",
+          "التسجيل في برنامج الأكل العاطفي"
+        ]
+      }
     ],
     "researchNote": "أُجري بحث استكشافي في 12 سبتمبر 2026. ظهرت صفحات مقدمي استشارات عند البحث عن الاستشارات الأونلاين؛ لم يثبت حجم طلب على كورسات التكيس أو الكلمات المحلية. لا يُستنتج ترتيب ثابت من هذه العينة. توفر الاستشارة الأونلاين مثبت بصفحة الحجز الحالية في المستودع؛ ومحتوى كورس التكيس موثق في content/pcos-course.json."
   },
   "topics": [
-    {"topic": "تمييز المعلومات الغذائية الموثوقة", "intent": "تقييم مصادر النصائح والأبحاث قبل تطبيقها", "status": "published", "date": "2026-09-10", "slug": "المعلومات-الغذائية-الموثوقة"},
-    {"topic": "قراءة البطاقة الغذائية", "intent": "تفسير الحصة والمكونات والسكر والملح مع أمثلة عملية", "status": "published", "date": "2026-09-12", "slug": "قراءة-البطاقة-الغذائية", "note": "أُعدّت في 11 سبتمبر وتأخر إكمال النشر بسبب الاتصال؛ أُثبت تاريخ النشر الفعلي بتوقيت إسطنبول دون تأريخ رجعي."},
+    {
+      "topic": "تمييز المعلومات الغذائية الموثوقة",
+      "intent": "تقييم مصادر النصائح والأبحاث قبل تطبيقها",
+      "status": "published",
+      "date": "2026-09-10",
+      "slug": "المعلومات-الغذائية-الموثوقة"
+    },
+    {
+      "topic": "قراءة البطاقة الغذائية",
+      "intent": "تفسير الحصة والمكونات والسكر والملح مع أمثلة عملية",
+      "status": "published",
+      "date": "2026-09-12",
+      "slug": "قراءة-البطاقة-الغذائية",
+      "note": "أُعدّت في 11 سبتمبر وتأخر إكمال النشر بسبب الاتصال؛ أُثبت تاريخ النشر الفعلي بتوقيت إسطنبول دون تأريخ رجعي."
+    },
     {
       "topic": "كورس تكيس المبايض أم استشارة فردية: كيف تختارين الدعم المناسب؟",
       "primaryKeyword": "كورس تكيس المبايض أم استشارة تغذية",
-      "supportingKeywords": ["هل يناسبني كورس تكيس المبايض", "اختيار كورس تكيس المبايض بالعربي"],
+      "supportingKeywords": [
+        "هل يناسبني كورس تكيس المبايض",
+        "اختيار كورس تكيس المبايض بالعربي"
+      ],
       "intent": "مقارنة خيارات قبل الاشتراك وفهم الفرق بين التثقيف والمتابعة الفردية",
       "businessGoal": "course",
       "targetPage": "/course/تكيس-المبايض",
@@ -40,7 +86,11 @@
     {
       "topic": "قبل حجز استشارة تغذية أونلاين: أسئلة الاختيار والتحضير",
       "primaryKeyword": "كيف أختار استشارة تغذية أونلاين",
-      "supportingKeywords": ["ماذا أسأل اختصاصية التغذية", "التحضير لاستشارة التغذية", "استشارة تغذية بالعربي"],
+      "supportingKeywords": [
+        "ماذا أسأل اختصاصية التغذية",
+        "التحضير لاستشارة التغذية",
+        "استشارة تغذية بالعربي"
+      ],
       "intent": "اختيار مقدمة خدمة مناسبة وفهم الخطوة التالية للحجز",
       "businessGoal": "consultation",
       "targetPage": "/احجز-موعد",
@@ -52,7 +102,10 @@
     {
       "topic": "كيف تختارين كورس تغذية لبناء عادات تستمر؟",
       "primaryKeyword": "كيف أختار كورس تغذية صحية",
-      "supportingKeywords": ["كورس تغذية لبناء عادات صحية", "كورس تغذية للمبتدئين بالعربي"],
+      "supportingKeywords": [
+        "كورس تغذية لبناء عادات صحية",
+        "كورس تغذية للمبتدئين بالعربي"
+      ],
       "intent": "مقارنة قيمة المحتوى وطريقة التعلم قبل دفع ثمن كورس",
       "businessGoal": "course",
       "targetPage": "/course/المسار-الصحي",
@@ -64,7 +117,10 @@
     {
       "topic": "خطة غذائية شخصية أم جدول جاهز: متى تفيدك الاستشارة؟",
       "primaryKeyword": "خطة غذائية شخصية أم جدول جاهز",
-      "supportingKeywords": ["متى أحتاج اختصاصية تغذية", "نظام غذائي مخصص لاحتياجاتي"],
+      "supportingKeywords": [
+        "متى أحتاج اختصاصية تغذية",
+        "نظام غذائي مخصص لاحتياجاتي"
+      ],
       "intent": "تقييم الحاجة إلى خدمة فردية قبل طلب الحجز",
       "businessGoal": "consultation",
       "targetPage": "/احجز-موعد",
@@ -76,7 +132,10 @@
     {
       "topic": "اختيار برنامج للأكل العاطفي: ما الذي تسألين عنه قبل التسجيل؟",
       "primaryKeyword": "كيف أختار برنامج للأكل العاطفي",
-      "supportingKeywords": ["برنامج الأكل العاطفي أونلاين", "التسجيل في برنامج الأكل العاطفي"],
+      "supportingKeywords": [
+        "برنامج الأكل العاطفي أونلاين",
+        "التسجيل في برنامج الأكل العاطفي"
+      ],
       "intent": "تقييم ملاءمة برنامج جماعي وفهم شروط التسجيل والدفع",
       "businessGoal": "course",
       "targetPage": "/course/الأكل-العاطفي",
@@ -89,7 +148,10 @@
     {
       "topic": "اختيار اختصاصية تغذية في إسطنبول: معايير وأسئلة قبل الحجز",
       "primaryKeyword": "كيف أختار اختصاصية تغذية في إسطنبول",
-      "supportingKeywords": ["اختصاصية تغذية تتحدث العربية في إسطنبول", "استشارة تغذية باشاك شهير"],
+      "supportingKeywords": [
+        "اختصاصية تغذية تتحدث العربية في إسطنبول",
+        "استشارة تغذية باشاك شهير"
+      ],
       "intent": "اختيار استشارة حضورية مناسبة من حيث الخدمة واللغة والموقع",
       "businessGoal": "consultation",
       "targetPage": "/احجز-موعد",
@@ -98,12 +160,289 @@
       "priority": 6,
       "status": "planned"
     },
-    {"topic": "بناء وجبة متوازنة من أطعمة البيت", "intent": "أمثلة مرنة بحسب الأطعمة المتاحة مع توضيح أن الحصص فردية", "status": "backlog"},
-    {"topic": "الألياف الغذائية", "intent": "فهم مصادر الألياف وإدخالها بالتدريج وحدود النصيحة العامة", "status": "backlog"},
-    {"topic": "البروتين في الطعام اليومي", "intent": "تنويع المصادر وتجنب فرض احتياج واحد على الجميع", "status": "backlog"},
-    {"topic": "تقييم ادعاءات المكملات الغذائية", "intent": "أسئلة الحاجة والدليل والسلامة قبل الشراء", "status": "backlog"},
-    {"topic": "الجوع والشبع وتنظيم الوجبات", "intent": "ملاحظة إشارات الجسم دون اختبارات تشخيصية أو قواعد صارمة", "status": "backlog"},
-    {"topic": "التغذية وصحة القلب", "intent": "دليل غذائي تأسيسي يستند إلى إرشادات حديثة", "status": "backlog"},
-    {"topic": "الأكل الصحي ضمن ميزانية", "intent": "بدائل متاحة وتخطيط مرن للتسوق دون أطعمة باهظة إلزامية", "status": "backlog"}
-  ]
+    {
+      "topic": "بناء وجبة متوازنة من أطعمة البيت",
+      "intent": "أمثلة مرنة بحسب الأطعمة المتاحة مع توضيح أن الحصص فردية",
+      "status": "backlog"
+    },
+    {
+      "topic": "الألياف الغذائية",
+      "intent": "فهم مصادر الألياف وإدخالها بالتدريج وحدود النصيحة العامة",
+      "status": "backlog"
+    },
+    {
+      "topic": "البروتين في الطعام اليومي",
+      "intent": "تنويع المصادر وتجنب فرض احتياج واحد على الجميع",
+      "status": "backlog"
+    },
+    {
+      "topic": "تقييم ادعاءات المكملات الغذائية",
+      "intent": "أسئلة الحاجة والدليل والسلامة قبل الشراء",
+      "status": "backlog"
+    },
+    {
+      "topic": "الجوع والشبع وتنظيم الوجبات",
+      "intent": "ملاحظة إشارات الجسم دون اختبارات تشخيصية أو قواعد صارمة",
+      "status": "ready-for-publication",
+      "slug": "فهم-الجوع-والشبع",
+      "date": "2026-09-13"
+    },
+    {
+      "topic": "التغذية وصحة القلب",
+      "intent": "دليل غذائي تأسيسي يستند إلى إرشادات حديثة",
+      "status": "ready-for-publication",
+      "slug": "خفض-الكوليسترول-بالغذاء",
+      "date": "2026-09-13"
+    },
+    {
+      "topic": "الأكل الصحي ضمن ميزانية",
+      "intent": "بدائل متاحة وتخطيط مرن للتسوق دون أطعمة باهظة إلزامية",
+      "status": "backlog"
+    }
+  ],
+  "coverageBatch": {
+    "date": "2026-09-13",
+    "authorization": "طلب المالك تغطية كل التصنيفات المتبقية وإزالة قيد الإعداد بمحتوى فعلي؛ هذه دفعة استثنائية لا تغير وتيرة النشر اليومية.",
+    "searchEvidence": "بحث استكشافي في 13 سبتمبر أظهر نية معلوماتية وعملية حول تثبيت الوزن وتنظيم وجبات السكري، وتداخلاً معلوماتياً واستشارياً في تغذية الحامل. لا يثبت حجم طلب أو ترتيباً أو مبيعات. اختيار الدفعة مبني على تغطية التصنيفات القائمة بأجوبة مستقلة، مع مصادر طبية أولية فقط.",
+    "status": "ready-for-publication",
+    "articles": [
+      {
+        "key": "weight-maintenance",
+        "topic": "تثبيت الوزن بعد الرجيم: خطة عادات مرنة",
+        "primaryKeyword": "تثبيت الوزن بعد الرجيم",
+        "intent": "خطوات عملية للمحافظة على الوزن بعد الرجيم: تنظيم الوجبات والحركة والمناسبات، ومتى تفيد المتابعة الفردية.",
+        "categoryTopic": "weight-maintenance",
+        "targetPage": "/course/المسار-الصحي",
+        "avoidOverlap": "مقال تأسيسي مستقل في تصنيف كان خالياً؛ لا يعيد كتابة صفحة العرض أو مقالات الخسارة والتكيس ومقاومة الإنسولين الموجودة.",
+        "status": "ready-for-publication",
+        "date": "2026-09-13",
+        "slug": "تثبيت-الوزن-بعد-الرجيم",
+        "bodyWordsExcludingHeadings": 1046,
+        "sources": [
+          "https://www.niddk.nih.gov/health-information/weight-management/choosing-a-safe-successful-weight-loss-program",
+          "https://www.niddk.nih.gov/health-information/weight-management/adult-overweight-obesity/factors-affecting-weight-health",
+          "https://www.niddk.nih.gov/health-information/diet-nutrition/changing-habits-better-health"
+        ]
+      },
+      {
+        "key": "cycle-nutrition",
+        "topic": "التغذية أثناء الدورة الشهرية: الشهية والحديد والتعب",
+        "primaryKeyword": "التغذية أثناء الدورة الشهرية",
+        "intent": "تنظيم الطعام أثناء الدورة الشهرية، والتعامل مع تغير الشهية، ومصادر الحديد، والأعراض التي تستحق تقييماً طبياً.",
+        "categoryTopic": "menstrual-cycle",
+        "targetPage": "/احجز-موعد",
+        "avoidOverlap": "مقال تأسيسي مستقل في تصنيف كان خالياً؛ لا يعيد كتابة صفحة العرض أو مقالات الخسارة والتكيس ومقاومة الإنسولين الموجودة.",
+        "status": "ready-for-publication",
+        "date": "2026-09-13",
+        "slug": "التغذية-أثناء-الدورة-الشهرية",
+        "bodyWordsExcludingHeadings": 1053,
+        "sources": [
+          "https://www.nhs.uk/conditions/pre-menstrual-syndrome/",
+          "https://www.nhs.uk/conditions/vitamins-and-minerals/iron/",
+          "https://ods.od.nih.gov/factsheets/Iron-Consumer/"
+        ]
+      },
+      {
+        "key": "menopause-nutrition",
+        "topic": "تغذية انقطاع الطمث: العظام والعضلات والوجبات",
+        "primaryKeyword": "تغذية انقطاع الطمث",
+        "intent": "دليل عملي لتنويع البروتين والكالسيوم وتنظيم الوجبات في مرحلة انقطاع الطمث، مع توضيح دور الغذاء وحدود المكملات.",
+        "categoryTopic": "menopause",
+        "targetPage": "/احجز-موعد",
+        "avoidOverlap": "مقال تأسيسي مستقل في تصنيف كان خالياً؛ لا يعيد كتابة صفحة العرض أو مقالات الخسارة والتكيس ومقاومة الإنسولين الموجودة.",
+        "status": "ready-for-publication",
+        "date": "2026-09-13",
+        "slug": "تغذية-انقطاع-الطمث",
+        "bodyWordsExcludingHeadings": 1029,
+        "sources": [
+          "https://www.who.int/news-room/fact-sheets/detail/menopause",
+          "https://ods.od.nih.gov/factsheets/Calcium-Consumer/",
+          "https://www.nhs.uk/conditions/menopause-and-perimenopause/things-you-can-do/"
+        ]
+      },
+      {
+        "key": "diabetes-meals",
+        "topic": "تنظيم الوجبات مع السكري من النوع الثاني",
+        "primaryKeyword": "تنظيم الوجبات مع السكري من النوع الثاني",
+        "intent": "فهم طريقة الطبق والكربوهيدرات ومواعيد الوجبات مع السكري، والتحضير لاستشارة تراعي الدواء والروتين الفردي.",
+        "categoryTopic": "diabetes",
+        "targetPage": "/احجز-موعد",
+        "avoidOverlap": "مقال تأسيسي مستقل في تصنيف كان خالياً؛ لا يعيد كتابة صفحة العرض أو مقالات الخسارة والتكيس ومقاومة الإنسولين الموجودة.",
+        "status": "ready-for-publication",
+        "date": "2026-09-13",
+        "slug": "تنظيم-الوجبات-مع-السكري",
+        "bodyWordsExcludingHeadings": 1029,
+        "sources": [
+          "https://www.niddk.nih.gov/health-information/diabetes/overview/managing-diabetes",
+          "https://www.cdc.gov/diabetes/healthy-eating/diabetes-meal-planning.html",
+          "https://www.cdc.gov/diabetes/about/low-blood-sugar-hypoglycemia.html"
+        ]
+      },
+      {
+        "key": "heart-nutrition",
+        "topic": "خفض الكوليسترول بالغذاء: بدائل عملية ومتابعة",
+        "primaryKeyword": "خفض الكوليسترول بالغذاء",
+        "intent": "بدائل للدهون المشبعة وأفكار لإدخال الألياف وقراءة العبوات، مع فهم دور الغذاء والدواء في متابعة الكوليسترول.",
+        "categoryTopic": "heart-health",
+        "targetPage": "/احجز-موعد",
+        "avoidOverlap": "مقال تأسيسي مستقل في تصنيف كان خالياً؛ لا يعيد كتابة صفحة العرض أو مقالات الخسارة والتكيس ومقاومة الإنسولين الموجودة.",
+        "status": "ready-for-publication",
+        "date": "2026-09-13",
+        "slug": "خفض-الكوليسترول-بالغذاء",
+        "bodyWordsExcludingHeadings": 1036,
+        "sources": [
+          "https://www.nhlbi.nih.gov/health/blood-cholesterol/treatment",
+          "https://www.nhlbi.nih.gov/health/TLC-Therapeutic-Lifestyle-Changes-Lower-Cholesterol",
+          "https://www.nhlbi.nih.gov/health/heart-healthy-living"
+        ]
+      },
+      {
+        "key": "hunger-fullness",
+        "topic": "فهم الجوع والشبع: تنظيم الأكل دون قواعد صارمة",
+        "primaryKeyword": "فهم الجوع والشبع",
+        "intent": "كيف تلاحظين الجوع والشبع وتنظمين فرص الطعام، ومتى لا تكفي الإشارات وحدها وتحتاجين دعماً فردياً.",
+        "categoryTopic": "hunger-fullness",
+        "targetPage": "/course/المسار-الصحي",
+        "avoidOverlap": "مقال تأسيسي مستقل في تصنيف كان خالياً؛ لا يعيد كتابة صفحة العرض أو مقالات الخسارة والتكيس ومقاومة الإنسولين الموجودة.",
+        "status": "ready-for-publication",
+        "date": "2026-09-13",
+        "slug": "فهم-الجوع-والشبع",
+        "bodyWordsExcludingHeadings": 1023,
+        "sources": [
+          "https://www.canada.ca/en/health-canada/services/food-guide/explore/healthy-eating-recommendations/be-mindful-eating-habits/hunger-cues.html",
+          "https://medlineplus.gov/ency/patientinstructions/000808.htm",
+          "https://www.nimh.nih.gov/health/topics/eating-disorders"
+        ]
+      },
+      {
+        "key": "food-flexibility",
+        "topic": "الخروج من الحرمان الغذائي وقواعد الطعام الصارمة",
+        "primaryKeyword": "الخروج من الحرمان الغذائي وقواعد الطعام الصارمة",
+        "intent": "راجعي قواعد الطعام المرهقة وميزيها عن التعليمات الطبية، مع خطوات للمرونة وعلامات تستحق تقييماً متخصصاً.",
+        "categoryTopic": "food-restriction",
+        "targetPage": "/احجز-موعد",
+        "avoidOverlap": "مقال تأسيسي مستقل في تصنيف كان خالياً؛ لا يعيد كتابة صفحة العرض أو مقالات الخسارة والتكيس ومقاومة الإنسولين الموجودة.",
+        "status": "ready-for-publication",
+        "date": "2026-09-13",
+        "slug": "الخروج-من-الحرمان-الغذائي",
+        "bodyWordsExcludingHeadings": 1032,
+        "sources": [
+          "https://www.nhs.uk/mental-health/conditions/binge-eating/treatment/",
+          "https://www.nimh.nih.gov/health/topics/eating-disorders",
+          "https://medlineplus.gov/eatingdisorders.html"
+        ]
+      },
+      {
+        "key": "weekly-meals",
+        "topic": "تجهيز وجبات صحية للأسبوع: وصفات وحفظ آمن",
+        "primaryKeyword": "تجهيز وجبات صحية للأسبوع",
+        "intent": "خطة مرنة لتحضير وجبات الأسبوع، مع ثلاث أفكار وصفات وقواعد التبريد والتجميد لتقليل العبء والهدر.",
+        "categoryTopic": "meals-recipes",
+        "targetPage": "/course/المسار-الصحي",
+        "avoidOverlap": "مقال تأسيسي مستقل في تصنيف كان خالياً؛ لا يعيد كتابة صفحة العرض أو مقالات الخسارة والتكيس ومقاومة الإنسولين الموجودة.",
+        "status": "ready-for-publication",
+        "date": "2026-09-13",
+        "slug": "تجهيز-وجبات-صحية-للأسبوع",
+        "bodyWordsExcludingHeadings": 1030,
+        "sources": [
+          "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/the-eatwell-guide/",
+          "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+          "https://www.cdc.gov/food-safety/prevention/index.html"
+        ]
+      },
+      {
+        "key": "pregnancy-nutrition",
+        "topic": "غذاء الحامل: تنظيم الوجبات والغثيان والسلامة",
+        "primaryKeyword": "غذاء الحامل",
+        "intent": "أفكار مرنة لغذاء الحامل مع تغير الشهية، وسلامة الطعام والمكملات، وأسئلة مهمة للتحضير للمتابعة الغذائية.",
+        "categoryTopic": "pregnancy",
+        "targetPage": "/احجز-موعد",
+        "avoidOverlap": "مقال تأسيسي مستقل في تصنيف كان خالياً؛ لا يعيد كتابة صفحة العرض أو مقالات الخسارة والتكيس ومقاومة الإنسولين الموجودة.",
+        "status": "ready-for-publication",
+        "date": "2026-09-13",
+        "slug": "غذاء-الحامل-وتنظيم-الوجبات",
+        "bodyWordsExcludingHeadings": 1060,
+        "sources": [
+          "https://www.nhs.uk/pregnancy/keeping-well/have-a-healthy-diet/",
+          "https://www.nhs.uk/pregnancy/common-symptoms/vomiting-and-morning-sickness/",
+          "https://www.nhs.uk/pregnancy/keeping-well/pregnancy-vitamins-and-supplements/",
+          "https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/"
+        ]
+      },
+      {
+        "key": "breastfeeding-nutrition",
+        "topic": "تغذية المرضع: وجبات عملية دون قوائم منع طويلة",
+        "primaryKeyword": "تغذية المرضع",
+        "intent": "تنظيم وجبات الأم المرضع والسوائل والمكملات، وتوضيح الفرق بين تغذية الأم وتقييم كفاية رضاعة الطفل.",
+        "categoryTopic": "breastfeeding",
+        "targetPage": "/احجز-موعد",
+        "avoidOverlap": "مقال تأسيسي مستقل في تصنيف كان خالياً؛ لا يعيد كتابة صفحة العرض أو مقالات الخسارة والتكيس ومقاومة الإنسولين الموجودة.",
+        "status": "ready-for-publication",
+        "date": "2026-09-13",
+        "slug": "تغذية-المرضع-ووجباتها",
+        "bodyWordsExcludingHeadings": 1037,
+        "sources": [
+          "https://www.cdc.gov/breastfeeding-special-circumstances/hcp/diet-micronutrients/maternal-diet.html",
+          "https://www.nhs.uk/baby/breastfeeding-and-bottle-feeding/breastfeeding-and-lifestyle/diet/",
+          "https://www.fda.gov/food/consumers/advice-about-eating-fish"
+        ]
+      },
+      {
+        "key": "infant-foods",
+        "topic": "بدء الطعام التكميلي للرضيع: الجاهزية والسلامة",
+        "primaryKeyword": "بدء الطعام التكميلي للرضيع",
+        "intent": "دليل بدء الطعام قرب ستة أشهر: علامات الاستعداد والحديد والقوام والحساسية والاختناق، بالتعاون مع طبيب الطفل.",
+        "categoryTopic": "infants",
+        "targetPage": "/احجز-موعد",
+        "avoidOverlap": "مقال تأسيسي مستقل في تصنيف كان خالياً؛ لا يعيد كتابة صفحة العرض أو مقالات الخسارة والتكيس ومقاومة الإنسولين الموجودة.",
+        "status": "ready-for-publication",
+        "date": "2026-09-13",
+        "slug": "بدء-الطعام-التكميلي-للرضيع",
+        "bodyWordsExcludingHeadings": 1065,
+        "sources": [
+          "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/when-what-and-how-to-introduce-solid-foods.html",
+          "https://www.cdc.gov/infant-toddler-nutrition/vitamins-minerals/iron.html",
+          "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/choking-hazards.html",
+          "https://www.nhs.uk/baby/weaning-and-feeding/food-allergies-in-babies-and-young-children/",
+          "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/foods-and-drinks-to-avoid-or-limit.html"
+        ]
+      },
+      {
+        "key": "teen-nutrition",
+        "topic": "تغذية المراهقين للمدرسة والنمو دون حميات قاسية",
+        "primaryKeyword": "تغذية المراهقين للمدرسة والنمو دون حميات قاسية",
+        "intent": "تنظيم الفطور وغداء المدرسة والطعام حول النشاط والنوم، مع احترام المراهق وتجنب ضغط الوزن والحميات القاسية.",
+        "categoryTopic": "teens",
+        "targetPage": "/احجز-موعد",
+        "avoidOverlap": "مقال تأسيسي مستقل في تصنيف كان خالياً؛ لا يعيد كتابة صفحة العرض أو مقالات الخسارة والتكيس ومقاومة الإنسولين الموجودة.",
+        "status": "ready-for-publication",
+        "date": "2026-09-13",
+        "slug": "تغذية-المراهقين-للمدرسة-والنمو",
+        "bodyWordsExcludingHeadings": 1057,
+        "sources": [
+          "https://www.niddk.nih.gov/health-information/weight-management/take-charge-health-guide-teenagers",
+          "https://derbyshireteenhealth.nhs.uk/healthylifestyle/healthy-eating-young-people",
+          "https://www.cdc.gov/physical-activity-education/staying-healthy/sleep.html"
+        ]
+      },
+      {
+        "key": "older-nutrition",
+        "topic": "تغذية كبار السن وضعف الشهية: وجبات ودعم مناسب",
+        "primaryKeyword": "تغذية كبار السن وضعف الشهية",
+        "intent": "خطوات لتسهيل وجبات كبار السن وفهم ضعف الشهية والمضغ والبلع، ومتى يحتاج فقدان الوزن إلى تقييم طبي.",
+        "categoryTopic": "older-adults",
+        "targetPage": "/احجز-موعد",
+        "avoidOverlap": "مقال تأسيسي مستقل في تصنيف كان خالياً؛ لا يعيد كتابة صفحة العرض أو مقالات الخسارة والتكيس ومقاومة الإنسولين الموجودة.",
+        "status": "ready-for-publication",
+        "date": "2026-09-13",
+        "slug": "تغذية-كبار-السن-وضعف-الشهية",
+        "bodyWordsExcludingHeadings": 1056,
+        "sources": [
+          "https://www.niddk.nih.gov/health-information/weight-management/healthy-eating-physical-activity-for-life/health-tips-for-older-adults",
+          "https://www.nhs.uk/symptoms/swallowing-problems-dysphagia/",
+          "https://www.nhs.uk/symptoms/unintentional-weight-loss/"
+        ]
+      }
+    ]
+  }
 }

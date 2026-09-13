@@ -252,5 +252,201 @@
       "images/blog/visual-pcos-support-questions.svg"
     ],
     "visualProvenance": "Original educational SVG diagrams rendered by scripts/blog-visuals.js, explaining support roles and enrollment questions. Not a diagnostic tool."
+  },
+  {
+    "key": "weight-maintenance",
+    "prompt": "Use case: photorealistic-natural. Asset: unique 16:9 landscape editorial cover for Arabic Rula Diet nutrition blog. A fully clothed adult Middle Eastern woman in a loose long-sleeved sage tunic, full-length trousers and simple modest headscarf taking a relaxed walk on a leafy park path, medium-wide side view, natural candid expression, healthy routine without exercise performance or weight comparisons. Soft natural daylight, warm ivory and sage palette, premium natural editorial photography, realistic anatomy and hands, environmental medium-wide composition, modest clothing covering shoulders chest arms and legs. No text, letters, logos, watermarks, sexualization, diagnostic claims or identifiable real people. Fictional models.",
+    "tool": "built-in image_gen",
+    "cover": "images/blog/weight-maintenance-1280.webp",
+    "responsive": [
+      "images/blog/weight-maintenance-400.webp",
+      "images/blog/weight-maintenance-800.webp",
+      "images/blog/weight-maintenance-1280.webp"
+    ],
+    "visual": "images/blog/visual-weight-maintenance.svg",
+    "secondVisual": "images/blog/visual-weight-maintenance-questions.svg",
+    "generated": "2026-09-13",
+    "people": "fictional modestly dressed models"
+  },
+  {
+    "key": "cycle-nutrition",
+    "prompt": "Use case: photorealistic-natural. Asset: unique 16:9 landscape editorial cover for Arabic Rula Diet nutrition blog. A fully clothed adult Middle Eastern woman in loose opaque long sleeves and full-length trousers sitting quietly beside a softly lit window, holding an open blank journal on her lap, thoughtful relaxed expression. A comforting throw blanket nearby. No food, no pain gestures, no medical props. Soft natural daylight, warm ivory and sage palette, premium natural editorial photography, realistic anatomy and hands, environmental medium-wide composition, modest clothing covering shoulders chest arms and legs. No text, letters, logos, watermarks, sexualization, diagnostic claims or identifiable real people. Fictional models.",
+    "tool": "built-in image_gen",
+    "cover": "images/blog/cycle-nutrition-1280.webp",
+    "responsive": [
+      "images/blog/cycle-nutrition-400.webp",
+      "images/blog/cycle-nutrition-800.webp",
+      "images/blog/cycle-nutrition-1280.webp"
+    ],
+    "visual": "images/blog/visual-cycle-nutrition.svg",
+    "secondVisual": "images/blog/visual-cycle-nutrition-questions.svg",
+    "generated": "2026-09-13",
+    "people": "fictional modestly dressed models"
+  },
+  {
+    "key": "menopause-nutrition",
+    "prompt": "Use case: photorealistic-natural. Asset: unique 16:9 landscape editorial cover for Arabic Rula Diet nutrition blog. A dignified fully clothed Middle Eastern woman in her mid fifties in a loose long-sleeved blouse and full-length trousers, enjoying a peaceful garden walk beside greenery, candid natural portrait with realistic skin and age, calm confident expression. No food, no before-after. Soft natural daylight, warm ivory and sage palette, premium natural editorial photography, realistic anatomy and hands, environmental medium-wide composition, modest clothing covering shoulders chest arms and legs. No text, letters, logos, watermarks, sexualization, diagnostic claims or identifiable real people. Fictional models.",
+    "tool": "built-in image_gen",
+    "cover": "images/blog/menopause-nutrition-1280.webp",
+    "responsive": [
+      "images/blog/menopause-nutrition-400.webp",
+      "images/blog/menopause-nutrition-800.webp",
+      "images/blog/menopause-nutrition-1280.webp"
+    ],
+    "visual": "images/blog/visual-menopause-nutrition.svg",
+    "secondVisual": "images/blog/visual-menopause-nutrition-questions.svg",
+    "generated": "2026-09-13",
+    "people": "fictional modestly dressed models"
+  },
+  {
+    "key": "diabetes-meals",
+    "prompt": "Use case: photorealistic-natural. Asset: unique 16:9 landscape editorial cover for the Arabic Rula Diet nutrition blog. A white dinner plate with realistic cooked vegetables, a modest serving of brown rice and grilled chicken, next to an open unbranded food notebook and glass of water. Comfortable home setting, no glucose meter, no numbers or medical displays. Premium yet believable natural editorial food photography, soft daylight, warm ivory and sage-green palette matching the existing website, clear subject at small thumbnail size, realistic textures, balanced composition. One coherent scene, not a collage. No text, no letters, no logos, no watermark, no people, no hands, no exposed bodies. Do not depict diagnostic results or promises.",
+    "tool": "built-in image_gen",
+    "cover": "images/blog/diabetes-meals-1280.webp",
+    "responsive": [
+      "images/blog/diabetes-meals-400.webp",
+      "images/blog/diabetes-meals-800.webp",
+      "images/blog/diabetes-meals-1280.webp"
+    ],
+    "visual": "images/blog/visual-diabetes-meals.svg",
+    "secondVisual": "images/blog/visual-diabetes-meals-questions.svg",
+    "generated": "2026-09-13",
+    "people": "none"
+  },
+  {
+    "key": "heart-nutrition",
+    "prompt": "Use case: photorealistic-natural. Asset: unique 16:9 landscape editorial cover for the Arabic Rula Diet nutrition blog. An overhead close still life of oats, cooked beans, walnuts, olive oil in a plain glass carafe and a plate of baked fish with greens. Food substitutions supporting heart health, natural real portions, no heart-shaped food. Premium yet believable natural editorial food photography, soft daylight, warm ivory and sage-green palette matching the existing website, clear subject at small thumbnail size, realistic textures, balanced composition. One coherent scene, not a collage. No text, no letters, no logos, no watermark, no people, no hands, no exposed bodies. Do not depict diagnostic results or promises.",
+    "tool": "built-in image_gen",
+    "cover": "images/blog/heart-nutrition-1280.webp",
+    "responsive": [
+      "images/blog/heart-nutrition-400.webp",
+      "images/blog/heart-nutrition-800.webp",
+      "images/blog/heart-nutrition-1280.webp"
+    ],
+    "visual": "images/blog/visual-heart-nutrition.svg",
+    "secondVisual": "images/blog/visual-heart-nutrition-questions.svg",
+    "generated": "2026-09-13",
+    "people": "none"
+  },
+  {
+    "key": "hunger-fullness",
+    "prompt": "Use case: photorealistic-natural. Asset: unique 16:9 landscape editorial cover for Arabic Rula Diet nutrition blog. A fully clothed adult woman with Middle Eastern features and a modest long-sleeved linen outfit sitting at a window looking thoughtfully toward a quiet garden, one neutral ceramic mug on the windowsill, calm natural pause, realistic candid editorial photography. No plate, no food, no weight or body measuring. Soft natural daylight, warm ivory and sage palette, premium natural editorial photography, realistic anatomy and hands, environmental medium-wide composition, modest clothing covering shoulders chest arms and legs. No text, letters, logos, watermarks, sexualization, diagnostic claims or identifiable real people. Fictional models.",
+    "tool": "built-in image_gen",
+    "cover": "images/blog/hunger-fullness-1280.webp",
+    "responsive": [
+      "images/blog/hunger-fullness-400.webp",
+      "images/blog/hunger-fullness-800.webp",
+      "images/blog/hunger-fullness-1280.webp"
+    ],
+    "visual": "images/blog/visual-hunger-fullness.svg",
+    "secondVisual": "images/blog/visual-hunger-fullness-questions.svg",
+    "generated": "2026-09-13",
+    "people": "fictional modestly dressed models"
+  },
+  {
+    "key": "food-flexibility",
+    "prompt": "Use case: photorealistic-natural. Asset: unique 16:9 landscape editorial cover for Arabic Rula Diet nutrition blog. A fully clothed adult woman with Middle Eastern features in a loose opaque long-sleeved outfit and full-length trousers sitting comfortably on a sage sofa, reading a blank cream notebook and gently smiling with a reflective expression, warm lived-in home. No food, no scale, no mirror. Soft natural daylight, warm ivory and sage palette, premium natural editorial photography, realistic anatomy and hands, environmental medium-wide composition, modest clothing covering shoulders chest arms and legs. No text, letters, logos, watermarks, sexualization, diagnostic claims or identifiable real people. Fictional models.",
+    "tool": "built-in image_gen",
+    "cover": "images/blog/food-flexibility-1280.webp",
+    "responsive": [
+      "images/blog/food-flexibility-400.webp",
+      "images/blog/food-flexibility-800.webp",
+      "images/blog/food-flexibility-1280.webp"
+    ],
+    "visual": "images/blog/visual-food-flexibility.svg",
+    "secondVisual": "images/blog/visual-food-flexibility-questions.svg",
+    "generated": "2026-09-13",
+    "people": "fictional modestly dressed models"
+  },
+  {
+    "key": "weekly-meals",
+    "prompt": "Use case: photorealistic-natural. Asset: unique 16:9 landscape editorial cover for the Arabic Rula Diet nutrition blog. Three clearly separate glass food-preparation containers filled with varied cooked vegetables, rice, lentils and chicken, with lids and a small chopping board nearby. Practical home meal preparation, not an overwhelming identical container grid. Premium yet believable natural editorial food photography, soft daylight, warm ivory and sage-green palette matching the existing website, clear subject at small thumbnail size, realistic textures, balanced composition. One coherent scene, not a collage. No text, no letters, no logos, no watermark, no people, no hands, no exposed bodies. Do not depict diagnostic results or promises.",
+    "tool": "built-in image_gen",
+    "cover": "images/blog/weekly-meals-1280.webp",
+    "responsive": [
+      "images/blog/weekly-meals-400.webp",
+      "images/blog/weekly-meals-800.webp",
+      "images/blog/weekly-meals-1280.webp"
+    ],
+    "visual": "images/blog/visual-weekly-meals.svg",
+    "secondVisual": "images/blog/visual-weekly-meals-questions.svg",
+    "generated": "2026-09-13",
+    "people": "none"
+  },
+  {
+    "key": "pregnancy-nutrition",
+    "prompt": "Use case: photorealistic-natural. Asset: unique 16:9 landscape editorial cover for Arabic Rula Diet nutrition blog. A visibly pregnant adult Middle Eastern woman wearing a loose opaque full-length long-sleeved dress and simple modest headscarf, seated comfortably by a bright window reading a blank journal, natural three-quarter view, calm warm candid moment. Pregnancy visible only through fully covered silhouette, no exposed skin or tight garments, no food. Soft natural daylight, warm ivory and sage palette, premium natural editorial photography, realistic anatomy and hands, environmental medium-wide composition, modest clothing covering shoulders chest arms and legs. No text, letters, logos, watermarks, sexualization, diagnostic claims or identifiable real people. Fictional models.",
+    "tool": "built-in image_gen",
+    "cover": "images/blog/pregnancy-nutrition-1280.webp",
+    "responsive": [
+      "images/blog/pregnancy-nutrition-400.webp",
+      "images/blog/pregnancy-nutrition-800.webp",
+      "images/blog/pregnancy-nutrition-1280.webp"
+    ],
+    "visual": "images/blog/visual-pregnancy-nutrition.svg",
+    "secondVisual": "images/blog/visual-pregnancy-nutrition-questions.svg",
+    "generated": "2026-09-13",
+    "people": "fictional modestly dressed models"
+  },
+  {
+    "key": "breastfeeding-nutrition",
+    "prompt": "Use case: photorealistic-natural. Asset: unique 16:9 landscape editorial cover for Arabic Rula Diet nutrition blog. A fully clothed adult Middle Eastern mother in a loose opaque full-length long-sleeved outfit holding her fully clothed sleeping infant upright against her shoulder beside a window, gentle candid everyday bonding moment, baby in a complete pale onesie, mother chest fully covered, no feeding scene, no exposed body, no food. Soft natural daylight, warm ivory and sage palette, premium natural editorial photography, realistic anatomy and hands, environmental medium-wide composition, modest clothing covering shoulders chest arms and legs. No text, letters, logos, watermarks, sexualization, diagnostic claims or identifiable real people. Fictional models.",
+    "tool": "built-in image_gen",
+    "cover": "images/blog/breastfeeding-nutrition-1280.webp",
+    "responsive": [
+      "images/blog/breastfeeding-nutrition-400.webp",
+      "images/blog/breastfeeding-nutrition-800.webp",
+      "images/blog/breastfeeding-nutrition-1280.webp"
+    ],
+    "visual": "images/blog/visual-breastfeeding-nutrition.svg",
+    "secondVisual": "images/blog/visual-breastfeeding-nutrition-questions.svg",
+    "generated": "2026-09-13",
+    "people": "fictional modestly dressed models"
+  },
+  {
+    "key": "infant-foods",
+    "prompt": "Use case: photorealistic-natural. Asset: unique 16:9 landscape editorial cover for the Arabic Rula Diet nutrition blog. A small silicone baby bowl containing thick smooth lentil puree beside soft mashed cooked vegetables and a short baby spoon, with an empty high chair softly blurred in the background. Safe first complementary foods, no whole nuts, whole grapes, honey or hard raw chunks. Premium yet believable natural editorial food photography, soft daylight, warm ivory and sage-green palette matching the existing website, clear subject at small thumbnail size, realistic textures, balanced composition. One coherent scene, not a collage. No text, no letters, no logos, no watermark, no people, no hands, no exposed bodies. Do not depict diagnostic results or promises.",
+    "tool": "built-in image_gen",
+    "cover": "images/blog/infant-foods-1280.webp",
+    "responsive": [
+      "images/blog/infant-foods-400.webp",
+      "images/blog/infant-foods-800.webp",
+      "images/blog/infant-foods-1280.webp"
+    ],
+    "visual": "images/blog/visual-infant-foods.svg",
+    "secondVisual": "images/blog/visual-infant-foods-questions.svg",
+    "generated": "2026-09-13",
+    "people": "none"
+  },
+  {
+    "key": "teen-nutrition",
+    "prompt": "Photorealistic 16:9 editorial cover: a school backpack, closed books, a wholegrain sandwich, apple and plain yogurt on a tidy study desk. Natural daylight, warm ivory and sage tones, no people, no text, no logos, no body or weight references.",
+    "tool": "built-in image_gen",
+    "cover": "images/blog/teen-nutrition-1280.webp",
+    "responsive": [
+      "images/blog/teen-nutrition-400.webp",
+      "images/blog/teen-nutrition-800.webp",
+      "images/blog/teen-nutrition-1280.webp"
+    ],
+    "visual": "images/blog/visual-teen-nutrition.svg",
+    "secondVisual": "images/blog/visual-teen-nutrition-questions.svg",
+    "generated": "2026-09-13",
+    "people": "none",
+    "promptRecord": "Summary of original generation brief"
+  },
+  {
+    "key": "older-nutrition",
+    "prompt": "Use case: photorealistic-natural. Asset: unique 16:9 landscape editorial cover for Arabic Rula Diet nutrition blog. An older Middle Eastern woman in her early seventies wearing a loose long-sleeved blouse, full-length trousers and simple headscarf seated beside a younger fully clothed adult daughter in a leafy courtyard, candid attentive conversation and natural warm expressions, dignified realistic aging. No medical equipment, no pills, no food. Soft natural daylight, warm ivory and sage palette, premium natural editorial photography, realistic anatomy and hands, environmental medium-wide composition, modest clothing covering shoulders chest arms and legs. No text, letters, logos, watermarks, sexualization, diagnostic claims or identifiable real people. Fictional models.",
+    "tool": "built-in image_gen",
+    "cover": "images/blog/older-nutrition-1280.webp",
+    "responsive": [
+      "images/blog/older-nutrition-400.webp",
+      "images/blog/older-nutrition-800.webp",
+      "images/blog/older-nutrition-1280.webp"
+    ],
+    "visual": "images/blog/visual-older-nutrition.svg",
+    "secondVisual": "images/blog/visual-older-nutrition-questions.svg",
+    "generated": "2026-09-13",
+    "people": "fictional modestly dressed models"
   }
 ]

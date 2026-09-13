@@ -9,23 +9,57 @@
     "workflow": "daily",
     "coverAlt": "عدسة مكبرة فوق رسوم بحثية توضيحية بجانب دفتر وتفاح وجوز لتقييم المعلومات الغذائية",
     "coverCaption": "صورة توضيحية؛ الأوراق والرسوم في الصورة لا تمثّل دراسة منشورة أو نتائج طبية.",
-    "steps": ["حدّدي الادعاء", "افتحي المصدر الأصلي", "ناقشي ملاءمته لحالتك"],
+    "steps": [
+      "حدّدي الادعاء",
+      "افتحي المصدر الأصلي",
+      "ناقشي ملاءمته لحالتك"
+    ],
     "icon": "check",
     "secondVisual": {
       "title": "أسئلة قبل تطبيق النصيحة",
-      "steps": ["ما الفائدة وحدودها؟", "هل توجد بدائل؟", "هل تناسب ظروفي؟"],
+      "steps": [
+        "ما الفائدة وحدودها؟",
+        "هل توجد بدائل؟",
+        "هل تناسب ظروفي؟"
+      ],
       "alt": "ثلاثة أسئلة قبل تطبيق نصيحة غذائية: ما فائدتها وحدودها، ما بدائلها، وهل تناسب الظروف الشخصية",
       "caption": "قائمة أسئلة تعليمية لتنظيم النقاش مع المختص، وليست اختباراً تشخيصياً."
     },
-    "related": ["مقاومة-الأنسولين", "الصيام-المتقطع-الاخطاء-الشائعة", "خسارة-الوزن"],
-    "cta": {"href": "/احجز-موعد", "label": "ناقشي أسئلتك في استشارة تغذية", "note": "حضّري الروابط التي حيّرتك وأسئلتك وأسماء الأدوية والمكملات، وتعرّفي على خيارات الحجز مع فريق رولا دايت."},
+    "related": [
+      "مقاومة-الأنسولين",
+      "الصيام-المتقطع-الاخطاء-الشائعة",
+      "خسارة-الوزن"
+    ],
+    "cta": {
+      "href": "/احجز-موعد",
+      "label": "ناقشي أسئلتك في استشارة تغذية",
+      "note": "حضّري الروابط التي حيّرتك وأسئلتك وأسماء الأدوية والمكملات، وتعرّفي على خيارات الحجز مع فريق رولا دايت."
+    },
     "sources": [
-      {"name": "MedlinePlus: تقييم المعلومات الصحية", "url": "https://medlineplus.gov/evaluatinghealthinformation.html"},
-      {"name": "NCCIH: أسئلة لفهم الأخبار الصحية", "url": "https://www.nccih.nih.gov/health/know-science/facts-health-news-stories/checklist-for-understanding-health-news-stories"},
-      {"name": "Cochrane: ما المراجعات المنهجية؟", "url": "https://www.cochrane.org/evidence/what-are-systematic-reviews"},
-      {"name": "MedlinePlus: ما المعلومات الصحية التي يمكن الوثوق بها؟", "url": "https://medlineplus.gov/ency/patientinstructions/000869.htm"},
-      {"name": "FDA: الاحتيال في المنتجات الصحية", "url": "https://www.fda.gov/consumers/health-fraud-scams"},
-      {"name": "NIH ODS: ما ينبغي معرفته عن المكملات الغذائية", "url": "https://ods.od.nih.gov/factsheets/WYNTK-Consumer/"}
+      {
+        "name": "MedlinePlus: تقييم المعلومات الصحية",
+        "url": "https://medlineplus.gov/evaluatinghealthinformation.html"
+      },
+      {
+        "name": "NCCIH: أسئلة لفهم الأخبار الصحية",
+        "url": "https://www.nccih.nih.gov/health/know-science/facts-health-news-stories/checklist-for-understanding-health-news-stories"
+      },
+      {
+        "name": "Cochrane: ما المراجعات المنهجية؟",
+        "url": "https://www.cochrane.org/evidence/what-are-systematic-reviews"
+      },
+      {
+        "name": "MedlinePlus: ما المعلومات الصحية التي يمكن الوثوق بها؟",
+        "url": "https://medlineplus.gov/ency/patientinstructions/000869.htm"
+      },
+      {
+        "name": "FDA: الاحتيال في المنتجات الصحية",
+        "url": "https://www.fda.gov/consumers/health-fraud-scams"
+      },
+      {
+        "name": "NIH ODS: ما ينبغي معرفته عن المكملات الغذائية",
+        "url": "https://ods.od.nih.gov/factsheets/WYNTK-Consumer/"
+      }
     ]
   },
   {
@@ -39,25 +73,65 @@
     "coverAlt": "عبوتا شوفان ببطاقات غذائية توضيحية وعدسة مكبرة بجانب وعاء شوفان ولبن",
     "coverCaption": "صورة توضيحية؛ العبوات والملصقات لا تمثل منتجات تجارية أو قيماً غذائية حقيقية.",
     "visualHeading": "مثال حساب الحصة",
-    "steps": ["الحصة المكتوبة: 30 غ", "الكمية المأكولة: 60 غ", "القيم الغذائية × 2"],
+    "steps": [
+      "الحصة المكتوبة: 30 غ",
+      "الكمية المأكولة: 60 غ",
+      "القيم الغذائية × 2"
+    ],
     "icon": "box",
     "secondVisual": {
       "title": "قبل اختيار المنتج",
-      "steps": ["وحّدي كمية المقارنة", "راجعي السكر والملح", "اختاري حسب احتياجك"],
+      "steps": [
+        "وحّدي كمية المقارنة",
+        "راجعي السكر والملح",
+        "اختاري حسب احتياجك"
+      ],
       "alt": "خطوات مقارنة المنتجات الغذائية: توحيد كمية المقارنة ومراجعة السكر والملح والاختيار حسب الاحتياج",
       "caption": "قارني منتجات متشابهة على أساس كمية موحدة، ثم راعي الحصة التي تتناولينها فعلاً."
     },
-    "related": ["المعلومات-الغذائية-الموثوقة", "رمضان-بلا-سكر", "تخفيف-السعرات-الحرارية-في-المنزل-والعمل"],
-    "cta": {"href": "/course/المسار-الصحي", "label": "تعرّفي على كورس المسار الصحي", "note": "للتوسع في أساسيات التغذية وتنظيم العادات، اطّلعي على محاور كورس المسار الصحي وتفاصيله لتقرري إن كان يناسب أهدافك."},
+    "related": [
+      "المعلومات-الغذائية-الموثوقة",
+      "رمضان-بلا-سكر",
+      "تخفيف-السعرات-الحرارية-في-المنزل-والعمل"
+    ],
+    "cta": {
+      "href": "/course/المسار-الصحي",
+      "label": "تعرّفي على كورس المسار الصحي",
+      "note": "للتوسع في أساسيات التغذية وتنظيم العادات، اطّلعي على محاور كورس المسار الصحي وتفاصيله لتقرري إن كان يناسب أهدافك."
+    },
     "sources": [
-      {"name": "FDA: حجم الحصة على البطاقة الغذائية", "url": "https://www.fda.gov/food/nutrition-facts-label/serving-size-nutrition-facts-label"},
-      {"name": "FDA: فهم البطاقة الغذائية والنسبة اليومية", "url": "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label"},
-      {"name": "وزارة الصحة الكندية: الجدول الغذائي والنسبة اليومية", "url": "https://www.canada.ca/en/health-canada/services/food-nutrition/nutrition-labelling/nutrition-facts-tables.html"},
-      {"name": "وزارة الصحة الكندية: قائمة المكونات", "url": "https://www.canada.ca/en/health-canada/services/food-nutrition/nutrition-labelling/ingredient-list.html"},
-      {"name": "FDA: السكر الكلي والسكر المضاف", "url": "https://www.fda.gov/food/nutrition-facts-label/added-sugars-nutrition-facts-label"},
-      {"name": "NHS: قراءة ملصقات الأغذية", "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/how-to-read-food-labels/"},
-      {"name": "NHS: الملح في الغذاء", "url": "https://www.nhs.uk/live-well/eat-well/food-types/salt-in-your-diet/"},
-      {"name": "FDA: قراءة الملصق عند الحساسية الغذائية", "url": "https://www.fda.gov/consumers/consumer-updates/have-food-allergies-read-label"}
+      {
+        "name": "FDA: حجم الحصة على البطاقة الغذائية",
+        "url": "https://www.fda.gov/food/nutrition-facts-label/serving-size-nutrition-facts-label"
+      },
+      {
+        "name": "FDA: فهم البطاقة الغذائية والنسبة اليومية",
+        "url": "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label"
+      },
+      {
+        "name": "وزارة الصحة الكندية: الجدول الغذائي والنسبة اليومية",
+        "url": "https://www.canada.ca/en/health-canada/services/food-nutrition/nutrition-labelling/nutrition-facts-tables.html"
+      },
+      {
+        "name": "وزارة الصحة الكندية: قائمة المكونات",
+        "url": "https://www.canada.ca/en/health-canada/services/food-nutrition/nutrition-labelling/ingredient-list.html"
+      },
+      {
+        "name": "FDA: السكر الكلي والسكر المضاف",
+        "url": "https://www.fda.gov/food/nutrition-facts-label/added-sugars-nutrition-facts-label"
+      },
+      {
+        "name": "NHS: قراءة ملصقات الأغذية",
+        "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/how-to-read-food-labels/"
+      },
+      {
+        "name": "NHS: الملح في الغذاء",
+        "url": "https://www.nhs.uk/live-well/eat-well/food-types/salt-in-your-diet/"
+      },
+      {
+        "name": "FDA: قراءة الملصق عند الحساسية الغذائية",
+        "url": "https://www.fda.gov/consumers/consumer-updates/have-food-allergies-read-label"
+      }
     ]
   },
   {
@@ -121,6 +195,707 @@
       {
         "name": "MedlinePlus: التحضير للزيارة الطبية",
         "url": "https://www.medlineplus.gov/ency/patientinstructions/000860.htm"
+      }
+    ]
+  },
+  {
+    "key": "weight-maintenance",
+    "slug": "تثبيت-الوزن-بعد-الرجيم",
+    "title": "تثبيت الوزن بعد الرجيم: خطة عادات مرنة",
+    "summary": "خطوات عملية للمحافظة على الوزن بعد الرجيم: تنظيم الوجبات والحركة والمناسبات، ومتى تفيد المتابعة الفردية.",
+    "published": "2026-09-13",
+    "updated": "2026-09-13",
+    "workflow": "daily",
+    "publicationBatch": "complete-existing-topics-2026-09-13",
+    "coverAlt": "امرأة بملابس محتشمة تمشي بهدوء في حديقة خضراء ضمن روتين يومي",
+    "coverCaption": "صورة توضيحية مولّدة لشخصيات افتراضية؛ لا تمثل رولا أو مراجعين أو نتيجة علاج.",
+    "visualHeading": "خطوات عملية",
+    "steps": [
+      "راجعي ما نجح",
+      "جهزي بدائل",
+      "تابعي بمرونة"
+    ],
+    "icon": "check",
+    "secondVisual": {
+      "title": "للتخطيط والمتابعة",
+      "steps": [
+        "الوجبات المتاحة",
+        "الحركة المناسبة",
+        "موعد المراجعة"
+      ],
+      "alt": "نقاط تساعد على التخطيط والمتابعة: الوجبات المتاحة، الحركة المناسبة، موعد المراجعة",
+      "caption": "نقاط لتنظيم الأسئلة والخطوات، وليست أداة تشخيص أو بديلاً عن خطة فردية."
+    },
+    "related": [
+      "خسارة-الوزن",
+      "المهمة-الممكنة-للعام-الجديد",
+      "الخروج-من-الحرمان-الغذائي"
+    ],
+    "cta": {
+      "href": "/course/المسار-الصحي",
+      "label": "تعرّفي على كورس المسار الصحي",
+      "note": "راجعي محاور الكورس وتفاصيل الوصول والتكلفة قبل الاشتراك. محتوى تعليمي عام لتطوير فهم التغذية والعادات، وليس خطة علاج فردية."
+    },
+    "sources": [
+      {
+        "url": "https://www.niddk.nih.gov/health-information/weight-management/choosing-a-safe-successful-weight-loss-program",
+        "name": "المعهد الأمريكي للسكري وأمراض الجهاز الهضمي والكلى"
+      },
+      {
+        "url": "https://www.niddk.nih.gov/health-information/weight-management/adult-overweight-obesity/factors-affecting-weight-health",
+        "name": "NIDDK العوامل المؤثرة في الوزن والصحة"
+      },
+      {
+        "url": "https://www.niddk.nih.gov/health-information/diet-nutrition/changing-habits-better-health",
+        "name": "تغيير العادات من NIDDK"
+      }
+    ]
+  },
+  {
+    "key": "cycle-nutrition",
+    "slug": "التغذية-أثناء-الدورة-الشهرية",
+    "title": "التغذية أثناء الدورة الشهرية: الشهية والحديد والتعب",
+    "summary": "تنظيم الطعام أثناء الدورة الشهرية، والتعامل مع تغير الشهية، ومصادر الحديد، والأعراض التي تستحق تقييماً طبياً.",
+    "published": "2026-09-13",
+    "updated": "2026-09-13",
+    "workflow": "daily",
+    "publicationBatch": "complete-existing-topics-2026-09-13",
+    "coverAlt": "امرأة تجلس قرب نافذة مع دفتر على حجرها في لحظة هادئة للتأمل",
+    "coverCaption": "صورة توضيحية مولّدة لشخصيات افتراضية؛ لا تمثل رولا أو مراجعين أو نتيجة علاج.",
+    "visualHeading": "خطوات عملية",
+    "steps": [
+      "لاحظي الأعراض",
+      "جهزي وجبات",
+      "راجعي عند الحاجة"
+    ],
+    "icon": "check",
+    "secondVisual": {
+      "title": "للتخطيط والمتابعة",
+      "steps": [
+        "طبيعة النزف",
+        "تغير الشهية",
+        "الأدوية والمكملات"
+      ],
+      "alt": "نقاط تساعد على التخطيط والمتابعة: طبيعة النزف، تغير الشهية، الأدوية والمكملات",
+      "caption": "نقاط لتنظيم الأسئلة والخطوات، وليست أداة تشخيص أو بديلاً عن خطة فردية."
+    },
+    "related": [
+      "فهم-الجوع-والشبع",
+      "المعلومات-الغذائية-الموثوقة",
+      "الخروج-من-الحرمان-الغذائي"
+    ],
+    "cta": {
+      "href": "/احجز-موعد",
+      "label": "ناقشي احتياجاتك مع فريق رولا دايت",
+      "note": "اطّلعي على خيارات الحجز، واسألي عن ملاءمة الاستشارة لحالتك وما تحتاجين إلى تحضيره. وجود أعراض أو علاج طبي قد يستدعي تنسيقاً مع الطبيب."
+    },
+    "sources": [
+      {
+        "url": "https://www.nhs.uk/conditions/pre-menstrual-syndrome/",
+        "name": "خدمة الصحة البريطانية في شرح متلازمة ما قبل الحيض"
+      },
+      {
+        "url": "https://www.nhs.uk/conditions/vitamins-and-minerals/iron/",
+        "name": "إرشادات NHS عن الحديد"
+      },
+      {
+        "url": "https://ods.od.nih.gov/factsheets/Iron-Consumer/",
+        "name": "نشرة الحديد من المعاهد الوطنية للصحة"
+      }
+    ]
+  },
+  {
+    "key": "menopause-nutrition",
+    "slug": "تغذية-انقطاع-الطمث",
+    "title": "تغذية انقطاع الطمث: العظام والعضلات والوجبات",
+    "summary": "دليل عملي لتنويع البروتين والكالسيوم وتنظيم الوجبات في مرحلة انقطاع الطمث، مع توضيح دور الغذاء وحدود المكملات.",
+    "published": "2026-09-13",
+    "updated": "2026-09-13",
+    "workflow": "daily",
+    "publicationBatch": "complete-existing-topics-2026-09-13",
+    "coverAlt": "امرأة في منتصف العمر تتمشى بملابس محتشمة على ممر حديقة مضاء بالشمس",
+    "coverCaption": "صورة توضيحية مولّدة لشخصيات افتراضية؛ لا تمثل رولا أو مراجعين أو نتيجة علاج.",
+    "visualHeading": "خطوات عملية",
+    "steps": [
+      "نوعي البروتين",
+      "راجعي الكالسيوم",
+      "اختاري حركة"
+    ],
+    "icon": "check",
+    "secondVisual": {
+      "title": "للتخطيط والمتابعة",
+      "steps": [
+        "الأعراض والأدوية",
+        "مصادر الطعام",
+        "احتياج المتابعة"
+      ],
+      "alt": "نقاط تساعد على التخطيط والمتابعة: الأعراض والأدوية، مصادر الطعام، احتياج المتابعة",
+      "caption": "نقاط لتنظيم الأسئلة والخطوات، وليست أداة تشخيص أو بديلاً عن خطة فردية."
+    },
+    "related": [
+      "خفض-الكوليسترول-بالغذاء",
+      "تثبيت-الوزن-بعد-الرجيم",
+      "قراءة-البطاقة-الغذائية"
+    ],
+    "cta": {
+      "href": "/احجز-موعد",
+      "label": "ناقشي احتياجاتك مع فريق رولا دايت",
+      "note": "اطّلعي على خيارات الحجز، واسألي عن ملاءمة الاستشارة لحالتك وما تحتاجين إلى تحضيره. وجود أعراض أو علاج طبي قد يستدعي تنسيقاً مع الطبيب."
+    },
+    "sources": [
+      {
+        "url": "https://www.who.int/news-room/fact-sheets/detail/menopause",
+        "name": "منظمة الصحة العالمية عن انقطاع الطمث"
+      },
+      {
+        "url": "https://ods.od.nih.gov/factsheets/Calcium-Consumer/",
+        "name": "نشرة الكالسيوم من المعاهد الوطنية للصحة"
+      },
+      {
+        "url": "https://www.nhs.uk/conditions/menopause-and-perimenopause/things-you-can-do/",
+        "name": "إرشادات NHS لمرحلة انقطاع الطمث"
+      }
+    ]
+  },
+  {
+    "key": "diabetes-meals",
+    "slug": "تنظيم-الوجبات-مع-السكري",
+    "title": "تنظيم الوجبات مع السكري من النوع الثاني",
+    "summary": "فهم طريقة الطبق والكربوهيدرات ومواعيد الوجبات مع السكري، والتحضير لاستشارة تراعي الدواء والروتين الفردي.",
+    "published": "2026-09-13",
+    "updated": "2026-09-13",
+    "workflow": "daily",
+    "publicationBatch": "complete-existing-topics-2026-09-13",
+    "coverAlt": "طبق خضار وأرز ودجاج بجانب ماء ودفتر لتنظيم الوجبات",
+    "coverCaption": "صورة توضيحية مولّدة؛ لا تحدد حصصاً علاجية أو قواماً مناسباً لكل شخص.",
+    "visualHeading": "خطوات عملية",
+    "steps": [
+      "افهمي المكونات",
+      "راجعي التوقيت",
+      "نسقي مع العلاج"
+    ],
+    "icon": "check",
+    "secondVisual": {
+      "title": "للتخطيط والمتابعة",
+      "steps": [
+        "قائمة الأدوية",
+        "جدول يوم واقعي",
+        "أسئلة المتابعة"
+      ],
+      "alt": "نقاط تساعد على التخطيط والمتابعة: قائمة الأدوية، جدول يوم واقعي، أسئلة المتابعة",
+      "caption": "نقاط لتنظيم الأسئلة والخطوات، وليست أداة تشخيص أو بديلاً عن خطة فردية."
+    },
+    "related": [
+      "مقاومة-الأنسولين",
+      "قراءة-البطاقة-الغذائية",
+      "تجهيز-وجبات-صحية-للأسبوع"
+    ],
+    "cta": {
+      "href": "/احجز-موعد",
+      "label": "ناقشي احتياجاتك مع فريق رولا دايت",
+      "note": "اطّلعي على خيارات الحجز، واسألي عن ملاءمة الاستشارة لحالتك وما تحتاجين إلى تحضيره. وجود أعراض أو علاج طبي قد يستدعي تنسيقاً مع الطبيب."
+    },
+    "sources": [
+      {
+        "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/managing-diabetes",
+        "name": "إرشادات NIDDK لإدارة السكري"
+      },
+      {
+        "url": "https://www.cdc.gov/diabetes/healthy-eating/diabetes-meal-planning.html",
+        "name": "مراكز مكافحة الأمراض الأمريكية طريقة الطبق"
+      },
+      {
+        "url": "https://www.cdc.gov/diabetes/about/low-blood-sugar-hypoglycemia.html",
+        "name": "إرشادات CDC عن هبوط السكر"
+      }
+    ]
+  },
+  {
+    "key": "heart-nutrition",
+    "slug": "خفض-الكوليسترول-بالغذاء",
+    "title": "خفض الكوليسترول بالغذاء: بدائل عملية ومتابعة",
+    "summary": "بدائل للدهون المشبعة وأفكار لإدخال الألياف وقراءة العبوات، مع فهم دور الغذاء والدواء في متابعة الكوليسترول.",
+    "published": "2026-09-13",
+    "updated": "2026-09-13",
+    "workflow": "daily",
+    "publicationBatch": "complete-existing-topics-2026-09-13",
+    "coverAlt": "سمك مطهو وخضار وشوفان وبقول وجوز وزيت زيتون على مائدة",
+    "coverCaption": "صورة توضيحية مولّدة؛ لا تحدد حصصاً علاجية أو قواماً مناسباً لكل شخص.",
+    "visualHeading": "خطوات عملية",
+    "steps": [
+      "بدلي نوع الدهون",
+      "أضيفي مصادر ألياف",
+      "راجعي النتائج"
+    ],
+    "icon": "check",
+    "secondVisual": {
+      "title": "للتخطيط والمتابعة",
+      "steps": [
+        "تحليل الدهون",
+        "الأدوية الحالية",
+        "أطباقك المعتادة"
+      ],
+      "alt": "نقاط تساعد على التخطيط والمتابعة: تحليل الدهون، الأدوية الحالية، أطباقك المعتادة",
+      "caption": "نقاط لتنظيم الأسئلة والخطوات، وليست أداة تشخيص أو بديلاً عن خطة فردية."
+    },
+    "related": [
+      "قراءة-البطاقة-الغذائية",
+      "تجهيز-وجبات-صحية-للأسبوع",
+      "تغذية-انقطاع-الطمث"
+    ],
+    "cta": {
+      "href": "/احجز-موعد",
+      "label": "ناقشي احتياجاتك مع فريق رولا دايت",
+      "note": "اطّلعي على خيارات الحجز، واسألي عن ملاءمة الاستشارة لحالتك وما تحتاجين إلى تحضيره. وجود أعراض أو علاج طبي قد يستدعي تنسيقاً مع الطبيب."
+    },
+    "sources": [
+      {
+        "url": "https://www.nhlbi.nih.gov/health/blood-cholesterol/treatment",
+        "name": "المعهد الأمريكي للقلب والرئة والدم"
+      },
+      {
+        "url": "https://www.nhlbi.nih.gov/health/TLC-Therapeutic-Lifestyle-Changes-Lower-Cholesterol",
+        "name": "برنامج التغييرات العلاجية لنمط الحياة من NHLBI"
+      },
+      {
+        "url": "https://www.nhlbi.nih.gov/health/heart-healthy-living",
+        "name": "إرشادات الحياة الداعمة لصحة القلب"
+      }
+    ]
+  },
+  {
+    "key": "hunger-fullness",
+    "slug": "فهم-الجوع-والشبع",
+    "title": "فهم الجوع والشبع: تنظيم الأكل دون قواعد صارمة",
+    "summary": "كيف تلاحظين الجوع والشبع وتنظمين فرص الطعام، ومتى لا تكفي الإشارات وحدها وتحتاجين دعماً فردياً.",
+    "published": "2026-09-13",
+    "updated": "2026-09-13",
+    "workflow": "daily",
+    "publicationBatch": "complete-existing-topics-2026-09-13",
+    "coverAlt": "امرأة بملابس محتشمة تنظر بهدوء من نافذة تطل على أشجار",
+    "coverCaption": "صورة توضيحية مولّدة لشخصيات افتراضية؛ لا تمثل رولا أو مراجعين أو نتيجة علاج.",
+    "visualHeading": "خطوات عملية",
+    "steps": [
+      "لاحظي الإشارات",
+      "وفري وقتاً للطعام",
+      "راعي ظروفك"
+    ],
+    "icon": "check",
+    "secondVisual": {
+      "title": "للتخطيط والمتابعة",
+      "steps": [
+        "متى أكلت؟",
+        "هل الطعام متاح؟",
+        "هل أحتاج دعماً؟"
+      ],
+      "alt": "نقاط تساعد على التخطيط والمتابعة: متى أكلت؟، هل الطعام متاح؟، هل أحتاج دعماً؟",
+      "caption": "نقاط لتنظيم الأسئلة والخطوات، وليست أداة تشخيص أو بديلاً عن خطة فردية."
+    },
+    "related": [
+      "الأكل-العاطفي",
+      "الخروج-من-الحرمان-الغذائي",
+      "المهمة-الممكنة-للعام-الجديد"
+    ],
+    "cta": {
+      "href": "/course/المسار-الصحي",
+      "label": "تعرّفي على كورس المسار الصحي",
+      "note": "راجعي محاور الكورس وتفاصيل الوصول والتكلفة قبل الاشتراك. محتوى تعليمي عام لتطوير فهم التغذية والعادات، وليس خطة علاج فردية."
+    },
+    "sources": [
+      {
+        "url": "https://www.canada.ca/en/health-canada/services/food-guide/explore/healthy-eating-recommendations/be-mindful-eating-habits/hunger-cues.html",
+        "name": "وزارة الصحة الكندية إشارات الجوع والشبع"
+      },
+      {
+        "url": "https://medlineplus.gov/ency/patientinstructions/000808.htm",
+        "name": "MedlinePlus معلومات عن الأكل العاطفي"
+      },
+      {
+        "url": "https://www.nimh.nih.gov/health/topics/eating-disorders",
+        "name": "المعاهد الوطنية للصحة النفسية"
+      }
+    ]
+  },
+  {
+    "key": "food-flexibility",
+    "slug": "الخروج-من-الحرمان-الغذائي",
+    "title": "الخروج من الحرمان الغذائي وقواعد الطعام الصارمة",
+    "summary": "راجعي قواعد الطعام المرهقة وميزيها عن التعليمات الطبية، مع خطوات للمرونة وعلامات تستحق تقييماً متخصصاً.",
+    "published": "2026-09-13",
+    "updated": "2026-09-13",
+    "workflow": "daily",
+    "publicationBatch": "complete-existing-topics-2026-09-13",
+    "coverAlt": "امرأة تجلس على أريكة مع دفتر وتبتسم في أجواء منزلية هادئة",
+    "coverCaption": "صورة توضيحية مولّدة لشخصيات افتراضية؛ لا تمثل رولا أو مراجعين أو نتيجة علاج.",
+    "visualHeading": "خطوات عملية",
+    "steps": [
+      "افهمي سبب القاعدة",
+      "وفري وجبات كافية",
+      "اطلبي دعماً مناسباً"
+    ],
+    "icon": "check",
+    "secondVisual": {
+      "title": "للتخطيط والمتابعة",
+      "steps": [
+        "ما أثر القاعدة؟",
+        "هل لها سبب طبي؟",
+        "ما الدعم المناسب؟"
+      ],
+      "alt": "نقاط تساعد على التخطيط والمتابعة: ما أثر القاعدة؟، هل لها سبب طبي؟، ما الدعم المناسب؟",
+      "caption": "نقاط لتنظيم الأسئلة والخطوات، وليست أداة تشخيص أو بديلاً عن خطة فردية."
+    },
+    "related": [
+      "فهم-الجوع-والشبع",
+      "الأكل-العاطفي",
+      "المعلومات-الغذائية-الموثوقة"
+    ],
+    "cta": {
+      "href": "/احجز-موعد",
+      "label": "ناقشي احتياجاتك مع فريق رولا دايت",
+      "note": "اطّلعي على خيارات الحجز، واسألي عن ملاءمة الاستشارة لحالتك وما تحتاجين إلى تحضيره. وجود أعراض أو علاج طبي قد يستدعي تنسيقاً مع الطبيب."
+    },
+    "sources": [
+      {
+        "url": "https://www.nhs.uk/mental-health/conditions/binge-eating/treatment/",
+        "name": "إرشادات NHS لعلاج اضطراب نهم الطعام"
+      },
+      {
+        "url": "https://www.nimh.nih.gov/health/topics/eating-disorders",
+        "name": "المعاهد الوطنية للصحة النفسية"
+      },
+      {
+        "url": "https://medlineplus.gov/eatingdisorders.html",
+        "name": "مكتبة الطب الوطنية معلومات عن اضطرابات الأكل"
+      }
+    ]
+  },
+  {
+    "key": "weekly-meals",
+    "slug": "تجهيز-وجبات-صحية-للأسبوع",
+    "title": "تجهيز وجبات صحية للأسبوع: وصفات وحفظ آمن",
+    "summary": "خطة مرنة لتحضير وجبات الأسبوع، مع ثلاث أفكار وصفات وقواعد التبريد والتجميد لتقليل العبء والهدر.",
+    "published": "2026-09-13",
+    "updated": "2026-09-13",
+    "workflow": "daily",
+    "publicationBatch": "complete-existing-topics-2026-09-13",
+    "coverAlt": "ثلاث عبوات زجاجية لوجبات متنوعة من الحبوب والخضار والبقول والدجاج",
+    "coverCaption": "صورة توضيحية مولّدة؛ لا تحدد حصصاً علاجية أو قواماً مناسباً لكل شخص.",
+    "visualHeading": "خطوات عملية",
+    "steps": [
+      "حددي الوجبات",
+      "حضري مكونات",
+      "احفظي بأمان"
+    ],
+    "icon": "check",
+    "secondVisual": {
+      "title": "للتخطيط والمتابعة",
+      "steps": [
+        "ما سيؤكل قريباً",
+        "ما سيجمد مبكراً",
+        "تاريخ على العبوة"
+      ],
+      "alt": "نقاط تساعد على التخطيط والمتابعة: ما سيؤكل قريباً، ما سيجمد مبكراً، تاريخ على العبوة",
+      "caption": "نقاط لتنظيم الأسئلة والخطوات، وليست أداة تشخيص أو بديلاً عن خطة فردية."
+    },
+    "related": [
+      "قراءة-البطاقة-الغذائية",
+      "المهمة-المستحيلة-للأمهات",
+      "تثبيت-الوزن-بعد-الرجيم"
+    ],
+    "cta": {
+      "href": "/course/المسار-الصحي",
+      "label": "تعرّفي على كورس المسار الصحي",
+      "note": "راجعي محاور الكورس وتفاصيل الوصول والتكلفة قبل الاشتراك. محتوى تعليمي عام لتطوير فهم التغذية والعادات، وليس خطة علاج فردية."
+    },
+    "sources": [
+      {
+        "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/the-eatwell-guide/",
+        "name": "دليل الغذاء المتوازن من NHS"
+      },
+      {
+        "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+        "name": "وزارة الزراعة الأمريكية عن سلامة البقايا"
+      },
+      {
+        "url": "https://www.cdc.gov/food-safety/prevention/index.html",
+        "name": "CDC الوقاية من التسمم الغذائي"
+      }
+    ]
+  },
+  {
+    "key": "pregnancy-nutrition",
+    "slug": "غذاء-الحامل-وتنظيم-الوجبات",
+    "title": "غذاء الحامل: تنظيم الوجبات والغثيان والسلامة",
+    "summary": "أفكار مرنة لغذاء الحامل مع تغير الشهية، وسلامة الطعام والمكملات، وأسئلة مهمة للتحضير للمتابعة الغذائية.",
+    "published": "2026-09-13",
+    "updated": "2026-09-13",
+    "workflow": "daily",
+    "publicationBatch": "complete-existing-topics-2026-09-13",
+    "coverAlt": "امرأة حامل بفستان طويل محتشم تقرأ دفتراً قرب نافذة مضاءة",
+    "coverCaption": "صورة توضيحية مولّدة لشخصيات افتراضية؛ لا تمثل رولا أو مراجعين أو نتيجة علاج.",
+    "visualHeading": "خطوات عملية",
+    "steps": [
+      "نوعي الطعام",
+      "راجعي السلامة",
+      "نسقي المكملات"
+    ],
+    "icon": "check",
+    "secondVisual": {
+      "title": "للتخطيط والمتابعة",
+      "steps": [
+        "مرحلة الحمل",
+        "الأعراض والوجبات",
+        "قائمة المكملات"
+      ],
+      "alt": "نقاط تساعد على التخطيط والمتابعة: مرحلة الحمل، الأعراض والوجبات، قائمة المكملات",
+      "caption": "نقاط لتنظيم الأسئلة والخطوات، وليست أداة تشخيص أو بديلاً عن خطة فردية."
+    },
+    "related": [
+      "تغذية-المرضع-ووجباتها",
+      "تجهيز-وجبات-صحية-للأسبوع",
+      "المعلومات-الغذائية-الموثوقة"
+    ],
+    "cta": {
+      "href": "/احجز-موعد",
+      "label": "اسألي الفريق عن الاستشارة المناسبة",
+      "note": "قبل الحجز، وضّحي العمر أو مرحلة الحمل والرضاعة والحالة الصحية للتأكد من ملاءمة الخدمة والخبرة المطلوبة، وتنسيق المتابعة مع الطبيب عند الحاجة."
+    },
+    "sources": [
+      {
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/have-a-healthy-diet/",
+        "name": "إرشادات NHS للغذاء أثناء الحمل"
+      },
+      {
+        "url": "https://www.nhs.uk/pregnancy/common-symptoms/vomiting-and-morning-sickness/",
+        "name": "NHS في إرشادات غثيان الحمل"
+      },
+      {
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/pregnancy-vitamins-and-supplements/",
+        "name": "إرشادات مكملات الحمل"
+      },
+      {
+        "url": "https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/",
+        "name": "قائمة الأطعمة التي تحتاج تجنباً أو حذراً أثناء الحمل"
+      }
+    ]
+  },
+  {
+    "key": "breastfeeding-nutrition",
+    "slug": "تغذية-المرضع-ووجباتها",
+    "title": "تغذية المرضع: وجبات عملية دون قوائم منع طويلة",
+    "summary": "تنظيم وجبات الأم المرضع والسوائل والمكملات، وتوضيح الفرق بين تغذية الأم وتقييم كفاية رضاعة الطفل.",
+    "published": "2026-09-13",
+    "updated": "2026-09-13",
+    "workflow": "daily",
+    "publicationBatch": "complete-existing-topics-2026-09-13",
+    "coverAlt": "أم بملابس طويلة محتشمة تحمل رضيعها المكسو بالكامل قرب نافذة",
+    "coverCaption": "صورة توضيحية مولّدة لشخصيات افتراضية؛ لا تمثل رولا أو مراجعين أو نتيجة علاج.",
+    "visualHeading": "خطوات عملية",
+    "steps": [
+      "وفري الطعام",
+      "اطلبي مساعدة",
+      "راجعي الاحتياجات"
+    ],
+    "icon": "check",
+    "secondVisual": {
+      "title": "للتخطيط والمتابعة",
+      "steps": [
+        "وجبات الأم",
+        "متابعة الرضاعة",
+        "نمو الطفل"
+      ],
+      "alt": "نقاط تساعد على التخطيط والمتابعة: وجبات الأم، متابعة الرضاعة، نمو الطفل",
+      "caption": "نقاط لتنظيم الأسئلة والخطوات، وليست أداة تشخيص أو بديلاً عن خطة فردية."
+    },
+    "related": [
+      "غذاء-الحامل-وتنظيم-الوجبات",
+      "بدء-الطعام-التكميلي-للرضيع",
+      "تجهيز-وجبات-صحية-للأسبوع"
+    ],
+    "cta": {
+      "href": "/احجز-موعد",
+      "label": "اسألي الفريق عن الاستشارة المناسبة",
+      "note": "قبل الحجز، وضّحي العمر أو مرحلة الحمل والرضاعة والحالة الصحية للتأكد من ملاءمة الخدمة والخبرة المطلوبة، وتنسيق المتابعة مع الطبيب عند الحاجة."
+    },
+    "sources": [
+      {
+        "url": "https://www.cdc.gov/breastfeeding-special-circumstances/hcp/diet-micronutrients/maternal-diet.html",
+        "name": "إرشادات CDC لتغذية الأم المرضع"
+      },
+      {
+        "url": "https://www.nhs.uk/baby/breastfeeding-and-bottle-feeding/breastfeeding-and-lifestyle/diet/",
+        "name": "NHS في دليل الرضاعة والغذاء"
+      },
+      {
+        "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish",
+        "name": "FDA ووكالة حماية البيئة دليلاً لاختيار الأسماك"
+      }
+    ]
+  },
+  {
+    "key": "infant-foods",
+    "slug": "بدء-الطعام-التكميلي-للرضيع",
+    "title": "بدء الطعام التكميلي للرضيع: الجاهزية والسلامة",
+    "summary": "دليل بدء الطعام قرب ستة أشهر: علامات الاستعداد والحديد والقوام والحساسية والاختناق، بالتعاون مع طبيب الطفل.",
+    "published": "2026-09-13",
+    "updated": "2026-09-13",
+    "workflow": "daily",
+    "publicationBatch": "complete-existing-topics-2026-09-13",
+    "coverAlt": "أوعية صغيرة لطعام مهروس وملعقة رضيع أمام كرسي إطعام فارغ",
+    "coverCaption": "صورة توضيحية مولّدة؛ لا تحدد حصصاً علاجية أو قواماً مناسباً لكل شخص.",
+    "visualHeading": "خطوات عملية",
+    "steps": [
+      "تحققي من الجاهزية",
+      "اختاري قواماً آمناً",
+      "راقبي باستمرار"
+    ],
+    "icon": "check",
+    "secondVisual": {
+      "title": "للتخطيط والمتابعة",
+      "steps": [
+        "الحديد والمكملات",
+        "إدخال مسببات الحساسية",
+        "النمو والبلع"
+      ],
+      "alt": "نقاط تساعد على التخطيط والمتابعة: الحديد والمكملات، إدخال مسببات الحساسية، النمو والبلع",
+      "caption": "نقاط لتنظيم الأسئلة والخطوات، وليست أداة تشخيص أو بديلاً عن خطة فردية."
+    },
+    "related": [
+      "تغذية-المرضع-ووجباتها",
+      "المهمة-المستحيلة-للأمهات",
+      "المعلومات-الغذائية-الموثوقة"
+    ],
+    "cta": {
+      "href": "/احجز-موعد",
+      "label": "اسألي الفريق عن الاستشارة المناسبة",
+      "note": "قبل الحجز، وضّحي العمر أو مرحلة الحمل والرضاعة والحالة الصحية للتأكد من ملاءمة الخدمة والخبرة المطلوبة، وتنسيق المتابعة مع الطبيب عند الحاجة."
+    },
+    "sources": [
+      {
+        "url": "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/when-what-and-how-to-introduce-solid-foods.html",
+        "name": "CDC إرشادات بدء الطعام"
+      },
+      {
+        "url": "https://www.cdc.gov/infant-toddler-nutrition/vitamins-minerals/iron.html",
+        "name": "إرشادات CDC عن الحديد للرضع"
+      },
+      {
+        "url": "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/choking-hazards.html",
+        "name": "CDC من مخاطر الاختناق"
+      },
+      {
+        "url": "https://www.nhs.uk/baby/weaning-and-feeding/food-allergies-in-babies-and-young-children/",
+        "name": "NHS إدخال الأطعمة المحتمل أن تسبب حساسية"
+      },
+      {
+        "url": "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/foods-and-drinks-to-avoid-or-limit.html",
+        "name": "CDC الأطعمة والمشروبات التي ينبغي تجنبها أو تقليلها"
+      }
+    ]
+  },
+  {
+    "key": "teen-nutrition",
+    "slug": "تغذية-المراهقين-للمدرسة-والنمو",
+    "title": "تغذية المراهقين للمدرسة والنمو دون حميات قاسية",
+    "summary": "تنظيم الفطور وغداء المدرسة والطعام حول النشاط والنوم، مع احترام المراهق وتجنب ضغط الوزن والحميات القاسية.",
+    "published": "2026-09-13",
+    "updated": "2026-09-13",
+    "workflow": "daily",
+    "publicationBatch": "complete-existing-topics-2026-09-13",
+    "coverAlt": "حقيبة وكتب مدرسية بجانب سندويش وتفاحة ولبن على مكتب",
+    "coverCaption": "صورة توضيحية مولّدة؛ لا تحدد حصصاً علاجية أو قواماً مناسباً لكل شخص.",
+    "visualHeading": "خطوات عملية",
+    "steps": [
+      "اسمعوا للمراهق",
+      "وفروا الوجبات",
+      "ادعموا الاستقلال"
+    ],
+    "icon": "check",
+    "secondVisual": {
+      "title": "للتخطيط والمتابعة",
+      "steps": [
+        "جدول المدرسة",
+        "الطعام المتاح",
+        "النوم والنشاط"
+      ],
+      "alt": "نقاط تساعد على التخطيط والمتابعة: جدول المدرسة، الطعام المتاح، النوم والنشاط",
+      "caption": "نقاط لتنظيم الأسئلة والخطوات، وليست أداة تشخيص أو بديلاً عن خطة فردية."
+    },
+    "related": [
+      "المهمة-المستحيلة-للأمهات",
+      "تجهيز-وجبات-صحية-للأسبوع",
+      "المعلومات-الغذائية-الموثوقة"
+    ],
+    "cta": {
+      "href": "/احجز-موعد",
+      "label": "اسألي الفريق عن الاستشارة المناسبة",
+      "note": "قبل الحجز، وضّحي العمر أو مرحلة الحمل والرضاعة والحالة الصحية للتأكد من ملاءمة الخدمة والخبرة المطلوبة، وتنسيق المتابعة مع الطبيب عند الحاجة."
+    },
+    "sources": [
+      {
+        "url": "https://www.niddk.nih.gov/health-information/weight-management/take-charge-health-guide-teenagers",
+        "name": "دليل NIDDK للمراهقين"
+      },
+      {
+        "url": "https://derbyshireteenhealth.nhs.uk/healthylifestyle/healthy-eating-young-people",
+        "name": "خدمة صحة المراهقين التابعة لـNHS"
+      },
+      {
+        "url": "https://www.cdc.gov/physical-activity-education/staying-healthy/sleep.html",
+        "name": "CDC إلى احتياج المراهقين من عمر 13 إلى 18 عاماً عادة إلى ثماني إلى عشر ساعات نوم"
+      }
+    ]
+  },
+  {
+    "key": "older-nutrition",
+    "slug": "تغذية-كبار-السن-وضعف-الشهية",
+    "title": "تغذية كبار السن وضعف الشهية: وجبات ودعم مناسب",
+    "summary": "خطوات لتسهيل وجبات كبار السن وفهم ضعف الشهية والمضغ والبلع، ومتى يحتاج فقدان الوزن إلى تقييم طبي.",
+    "published": "2026-09-13",
+    "updated": "2026-09-13",
+    "workflow": "daily",
+    "publicationBatch": "complete-existing-topics-2026-09-13",
+    "coverAlt": "امرأة مسنة وامرأة بالغة تجلسان بملابس محتشمة في حديقة وتتحدثان بهدوء",
+    "coverCaption": "صورة توضيحية مولّدة لشخصيات افتراضية؛ لا تمثل رولا أو مراجعين أو نتيجة علاج.",
+    "visualHeading": "خطوات عملية",
+    "steps": [
+      "افهموا العائق",
+      "سهلوا الوجبة",
+      "تابعوا التغير"
+    ],
+    "icon": "check",
+    "secondVisual": {
+      "title": "للتخطيط والمتابعة",
+      "steps": [
+        "الأدوية والشهية",
+        "المضغ والبلع",
+        "تغير الوزن"
+      ],
+      "alt": "نقاط تساعد على التخطيط والمتابعة: الأدوية والشهية، المضغ والبلع، تغير الوزن",
+      "caption": "نقاط لتنظيم الأسئلة والخطوات، وليست أداة تشخيص أو بديلاً عن خطة فردية."
+    },
+    "related": [
+      "تجهيز-وجبات-صحية-للأسبوع",
+      "خفض-الكوليسترول-بالغذاء",
+      "المعلومات-الغذائية-الموثوقة"
+    ],
+    "cta": {
+      "href": "/احجز-موعد",
+      "label": "اسألي الفريق عن الاستشارة المناسبة",
+      "note": "قبل الحجز، وضّحي العمر أو مرحلة الحمل والرضاعة والحالة الصحية للتأكد من ملاءمة الخدمة والخبرة المطلوبة، وتنسيق المتابعة مع الطبيب عند الحاجة."
+    },
+    "sources": [
+      {
+        "url": "https://www.niddk.nih.gov/health-information/weight-management/healthy-eating-physical-activity-for-life/health-tips-for-older-adults",
+        "name": "إرشادات NIDDK لكبار السن"
+      },
+      {
+        "url": "https://www.nhs.uk/symptoms/swallowing-problems-dysphagia/",
+        "name": "NHS علامات صعوبة البلع"
+      },
+      {
+        "url": "https://www.nhs.uk/symptoms/unintentional-weight-loss/",
+        "name": "NHS بشأن فقدان الوزن غير المقصود"
       }
     ]
   }

@@ -18,7 +18,7 @@ Owner update, 2026-09-13: each introduction must contain at least 500 original b
 
 Assign each article key exactly once in `articleTopics`, using an existing topic ID. The catalog resolves its visible category label from this source. Remove or ignore the former free-form category field in daily metadata. The renderer fails when an article has no valid assignment. Keep URLs and IDs stable; edit descriptions and display names when needed without changing paths.
 
-All 25 topics have usable landing pages and links. Thirteen currently have no dedicated articles: they say قيد الإعداد, offer a return to their parent and show available family/category reading. These pages use `noindex, follow` and are omitted from the sitemap. They become indexable automatically when their first article is published. Do not write filler to populate them or add them to the sitemap while empty.
+All 25 topics now have dedicated articles: the owner requested a 13-article coverage batch on 2026-09-13 to fill the remaining gaps. Each new body contains at least 1000 words excluding headings, a unique cover, two educational diagrams and primary references. All populated topics are indexable and included in the sitemap. If a new topic is created in future, keep it `noindex, follow` and out of the sitemap until it has substantive articles; never add filler merely to populate it.
 
 Grow content according to the commercial and editorial priorities in `editorial-plan.json`: equal consultation and course priority, with PCOS first among courses. No annual taxonomy changes are needed. Review coverage periodically; add a new topic only if it has a distinct purpose and a sustainable set of planned articles. No dates or promotional campaign names in category names.
 
