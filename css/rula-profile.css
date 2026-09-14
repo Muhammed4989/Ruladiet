@@ -1,6 +1,7 @@
 .rula-home-about{max-width:960px;margin:0 auto;background:#fff;border:1px solid #e0e7dd;border-radius:24px;padding:40px;color:#243e31}
 .about-section#about{padding:72px 0;background:#f7f9f4}
-.rula-home-about>.section-badge,.rula-home-about>.section-title{display:block;text-align:center}
+.rula-home-about>.section-badge{display:table;margin:0 auto 14px}
+.rula-home-about>.section-title{text-align:center}
 .rula-home-intro{display:grid;grid-template-columns:220px minmax(0,1fr);gap:36px;align-items:center;margin-top:28px}
 .rula-home-intro>img{display:block;width:100%;height:auto;border-radius:18px}
 .rula-home-intro h3{font-size:1.3rem;line-height:1.6;margin:0 0 14px}

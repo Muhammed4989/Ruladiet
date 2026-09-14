@@ -35,7 +35,7 @@ function syncProfilePages() {
     .replace(/<p class="title">[\s\S]*?<\/p>/, '<p class="title">اختصاصية تغذية عربية ومؤسسة عيادة رولا دايت في إسطنبول</p>')
     .replace(/\+7 سنوات خبرة/g, `في إسطنبول منذ ${proof.practiceStart.year}`)
     .replace(/\+(?:140|142)K متابع|نحو 142 ألف متابع/g, `نحو ${proof.instagram.arabicCount} متابع`)
-    .replace(/\+4000 عميل/g, `${proof.google.rating} / 5 على Google`)
+    .replace(/\+4000 عميل|4\.9 \/ 5 على Google/g, `<bdi>${proof.google.rating} / 5</bdi> على Google`)
     .replace('بكالوريوس تغذية وحميات علاجية', 'بكالوريوس التغذية والحميات');
   const aboutBio = /<h2>(?:نبذة عني|من هي رولا علوش؟)<\/h2>[\s\S]*?(?=<h2>المؤهلات العلمية<\/h2>)/;
   if (!aboutBio.test(bio)) throw new Error('CV introduction missing');
