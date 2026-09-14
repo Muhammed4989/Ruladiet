@@ -233,6 +233,10 @@
     "breastfeeding-nutrition": "breastfeeding",
     "infant-foods": "infants",
     "teen-nutrition": "teens",
-    "older-nutrition": "older-adults"
+    "older-nutrition": "older-adults",
+    "online-consultation": "nutrition-basics",
+    "nutrition-course-choice": "nutrition-basics",
+    "personal-meal-plan": "diets-fasting",
+    "emotional-program-choice": "emotional-eating"
   }
 }
