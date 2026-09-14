@@ -104,7 +104,11 @@
       "decisionHelp": "أسئلة المؤهلات ونطاق الخدمة والتواصل والتوقعات، مع قائمة تحضير عملية والتحقق من المتاح لدى رولا",
       "avoidOverlap": "صفحة الحجز تملك طلب الاستشارة المباشر؛ هذا المقال دليل اختيار وتحضير، بلا اختلاق سعر أو خدمات مشمولة",
       "priority": 2,
-      "status": "planned"
+      "status": "prepared",
+      "date": "2026-09-14",
+      "slug": "اختيار-استشارة-تغذية-أونلاين",
+      "articleKey": "online-consultation",
+      "keywordCheckedAt": "2026-09-14"
     },
     {
       "topic": "كيف تختارين كورس تغذية لبناء عادات تستمر؟",
@@ -119,7 +123,11 @@
       "decisionHelp": "تقييم المنهج والمؤهلات والوقت والتطبيق العملي والتكلفة، مع شرح متوازن لمحتوى المسار الصحي الموثق",
       "avoidOverlap": "لا تكرر مقال العادات الصحية أو صفحة المسار الصحي؛ ركز على اختيار كورس تثقيفي لا تأهيل مهني",
       "priority": 3,
-      "status": "planned"
+      "status": "prepared",
+      "date": "2026-09-14",
+      "slug": "اختيار-كورس-تغذية-صحية",
+      "articleKey": "nutrition-course-choice",
+      "keywordCheckedAt": "2026-09-14"
     },
     {
       "topic": "خطة غذائية شخصية أم جدول جاهز: متى تفيدك الاستشارة؟",
@@ -134,7 +142,11 @@
       "decisionHelp": "شرح ما يجعل التقييم فردياً وحدود الجداول العامة وكيف تناقش أهدافك، دون تقديم حمية علاجية جاهزة",
       "avoidOverlap": "لا تعِد مقال خسارة الوزن أو دليل اختيار الاستشارة الأونلاين؛ القرار هنا حول الحاجة للتخصيص",
       "priority": 4,
-      "status": "planned"
+      "status": "prepared",
+      "date": "2026-09-14",
+      "slug": "خطة-غذائية-شخصية-أم-جدول-جاهز",
+      "articleKey": "personal-meal-plan",
+      "keywordCheckedAt": "2026-09-14"
     },
     {
       "topic": "اختيار برنامج للأكل العاطفي: ما الذي تسألين عنه قبل التسجيل؟",
@@ -150,7 +162,11 @@
       "offerGuardrail": "العرض المؤكد: 247 دولاراً لقائمة انتظار مدفوعة. تحقق من الحالة والسعر قبل النشر ولا تعد بوصول فوري أو موعد غير معلن.",
       "avoidOverlap": "لا تكرر مقال فهم محفزات الأكل العاطفي؛ صفحة العرض تملك التسجيل المباشر",
       "priority": 5,
-      "status": "planned"
+      "status": "prepared",
+      "date": "2026-09-14",
+      "slug": "اختيار-برنامج-للأكل-العاطفي",
+      "articleKey": "emotional-program-choice",
+      "keywordCheckedAt": "2026-09-14"
     },
     {
       "topic": "اختيار اختصاصية تغذية في إسطنبول: معايير وأسئلة قبل الحجز",
@@ -459,5 +475,38 @@
       "status": 200,
       "changedUrls": 35
     }
-  }
+  },
+  "dailyRuns": [
+    {
+      "date": "2026-09-14",
+      "status": "prepared",
+      "articles": [
+        {
+          "key": "online-consultation",
+          "words": 1068,
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/اختيار-استشارة-تغذية-أونلاين"
+        },
+        {
+          "key": "nutrition-course-choice",
+          "words": 1126,
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/اختيار-كورس-تغذية-صحية"
+        },
+        {
+          "key": "personal-meal-plan",
+          "words": 1138,
+          "canonicalUrl": "https://ruladiet.com/blog/category/إدارة-الوزن/الحميات-والصيام/خطة-غذائية-شخصية-أم-جدول-جاهز"
+        },
+        {
+          "key": "emotional-program-choice",
+          "words": 1130,
+          "canonicalUrl": "https://ruladiet.com/blog/category/السلوك-الغذائي/الأكل-العاطفي/اختيار-برنامج-للأكل-العاطفي"
+        }
+      ],
+      "businessBalance": {
+        "consultation": 2,
+        "course": 2
+      },
+      "research": "content/editorial-research/2026-09-14.json"
+    }
+  ]
 }

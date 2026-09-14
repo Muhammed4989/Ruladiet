@@ -10,14 +10,51 @@
     "managementEntry": "https://business.google.com/locations"
   },
   "access": {
-    "lastChecked": "2026-09-13",
+    "lastChecked": "2026-09-14",
     "status": "awaiting_owner_account_selection",
     "note": "Management access is not yet verified. The owner was asked to select the Google account that manages Rula Diet in the open Business Profile tab. Continue website publication while access is unresolved."
   },
   "entryFields": [
-    "date", "articleKey", "canonicalUrl", "text", "imagePath", "button",
-    "status", "preparedAt", "submittedAt", "checkedAt", "postId", "postUrl", "blocker"
+    "date",
+    "articleKey",
+    "canonicalUrl",
+    "text",
+    "imagePath",
+    "button",
+    "status",
+    "preparedAt",
+    "submittedAt",
+    "checkedAt",
+    "postId",
+    "postUrl",
+    "blocker"
   ],
-  "allowedStatuses": ["draft", "submitting", "live", "pending", "not_approved", "blocked"],
-  "posts": []
+  "allowedStatuses": [
+    "draft",
+    "submitting",
+    "live",
+    "pending",
+    "not_approved",
+    "blocked"
+  ],
+  "posts": [
+    {
+      "date": "2026-09-14",
+      "articleKey": "online-consultation",
+      "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/اختيار-استشارة-تغذية-أونلاين",
+      "text": "قبل حجز استشارة تغذية أونلاين، حددي السؤال الذي تريدين مناقشته، ثم تأكدي مما يشمله الموعد وكيفية المتابعة والتكلفة. وضوح التفاصيل يساعدك على اختيار خدمة تناسب احتياجك ووقتك.\n\nفي مقال اليوم على رولا دايت، جمعنا أسئلة عملية عن المؤهلات ونطاق الخدمة، وتحضير المعلومات والأسئلة، واختبار الاتصال والحفاظ على الخصوصية. ستجدين أيضاً الفرق بين التعلّم العام ومناقشة احتياجاتك بصورة فردية.\n\nاكتبي هدفك والمواقف التي تصعّب تنظيم وجباتك، وجهّزي قائمة قصيرة بالأسئلة التي تهمك. اقرئي الدليل كاملاً عبر زر «معرفة المزيد»، واستفسري عن ملاءمة الخدمة وتفاصيل الموعد قبل تأكيد الحجز.",
+      "imagePath": "images/blog/online-consultation-1280.webp",
+      "button": {
+        "type": "LEARN_MORE",
+        "url": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/اختيار-استشارة-تغذية-أونلاين"
+      },
+      "status": "blocked",
+      "preparedAt": "2026-09-14T09:11:49.681Z",
+      "submittedAt": null,
+      "checkedAt": "2026-09-14T09:11:49.702Z",
+      "postId": null,
+      "postUrl": null,
+      "blocker": "Awaiting owner selection/confirmation of the Google account managing the specified Rula Diet clinic. Prior account-switch approval rejection remains unresolved; no post submitted."
+    }
+  ]
 }

@@ -448,5 +448,65 @@
     "secondVisual": "images/blog/visual-older-nutrition-questions.svg",
     "generated": "2026-09-13",
     "people": "fictional modestly dressed models"
+  },
+  {
+    "key": "online-consultation",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-14",
+    "prompt": "Use case: photorealistic-natural. Asset type: 16:9 editorial cover photo for an Arabic article about preparing for an online nutrition consultation. A fictional adult Arab woman in her thirties, wearing a loose opaque long-sleeved sage blouse, seated at a tidy desk beside a window, listening thoughtfully with small earphones while looking at an open laptop seen mostly from behind. A pen and a simple blank notebook nearby. Natural realistic skin and hands, warm daylight, beige and muted green interior, candid and calm, generous balanced wide composition. No visible screen interface, readable text, logos, watermarks, medical equipment or claims. This is a fictional illustrative scene, not a real clinician or patient.",
+    "cover": "images/blog/online-consultation-1280.webp",
+    "responsive": [
+      "images/blog/online-consultation-400.webp",
+      "images/blog/online-consultation-800.webp",
+      "images/blog/online-consultation-1280.webp"
+    ],
+    "visual": "images/blog/visual-online-consultation.svg",
+    "secondVisual": "images/blog/visual-online-consultation-questions.svg",
+    "note": "Fictional illustrative people; not Rula, patients or testimonials."
+  },
+  {
+    "key": "nutrition-course-choice",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-14",
+    "prompt": "Use case: photorealistic-natural. Asset type: wide 16:9 editorial photograph about thoughtfully choosing an educational nutrition course. A fictional adult woman in her forties wearing a loose full-sleeved cream cardigan and opaque high-neck blue blouse, sitting comfortably in a quiet home reading corner, comparing notes in a plain notebook beside an open laptop and a small stack of unbranded reference books. Side view, natural relaxed thoughtful expression, soft afternoon window light, wood textures and a leafy houseplant, realistic anatomy and documentary photography. Screen faces away or softly out of focus. No text, no logos, no watermark, no food spread. No implication of a real course interface, patient or Rula Alloush.",
+    "cover": "images/blog/nutrition-course-choice-1280.webp",
+    "responsive": [
+      "images/blog/nutrition-course-choice-400.webp",
+      "images/blog/nutrition-course-choice-800.webp",
+      "images/blog/nutrition-course-choice-1280.webp"
+    ],
+    "visual": "images/blog/visual-nutrition-course-choice.svg",
+    "secondVisual": "images/blog/visual-nutrition-course-choice-questions.svg",
+    "note": "Fictional illustrative people; not Rula, patients or testimonials."
+  },
+  {
+    "key": "personal-meal-plan",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-14",
+    "prompt": "Use case: photorealistic-natural. Asset type: unique 16:9 nutrition blog editorial cover about adapting a meal plan to everyday household needs. A fictional adult couple wearing modest loose long-sleeved everyday clothing, sitting together at a bright kitchen table and discussing a plain notebook and blank small planning cards. On the side are a simple shared home-cooked meal, a serving bowl of vegetables and bread, not a styled food advertisement. Focus on attentive human collaboration and realistic hands, daylight, calm ivory and pale olive palette, candid wide camera framing. No readable writing, brand names, medical objects, scales, weight-loss before/after comparisons or watermarks.",
+    "cover": "images/blog/personal-meal-plan-1280.webp",
+    "responsive": [
+      "images/blog/personal-meal-plan-400.webp",
+      "images/blog/personal-meal-plan-800.webp",
+      "images/blog/personal-meal-plan-1280.webp"
+    ],
+    "visual": "images/blog/visual-personal-meal-plan.svg",
+    "secondVisual": "images/blog/visual-personal-meal-plan-questions.svg",
+    "note": "Fictional illustrative people; not Rula, patients or testimonials."
+  },
+  {
+    "key": "emotional-program-choice",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-14",
+    "prompt": "Use case: photorealistic-natural. Asset type: wide 16:9 cover photograph for an Arabic article about choosing appropriate support for emotional eating. A fictional adult woman in her thirties sitting on a quiet garden bench, wearing a loose opaque long-sleeved warm beige blouse and a long dark skirt, holding a closed plain journal in her lap, looking gently toward sunlit leaves with a thoughtful neutral expression. Natural human scene, not dramatic sadness or a treatment testimonial. Soft morning light, leafy garden, real skin texture, respectful candid framing, wide balanced composition. No food, text, logos, watermark, medical symbols or transformations. Not a depiction of Rula or a real patient.",
+    "cover": "images/blog/emotional-program-choice-1280.webp",
+    "responsive": [
+      "images/blog/emotional-program-choice-400.webp",
+      "images/blog/emotional-program-choice-800.webp",
+      "images/blog/emotional-program-choice-1280.webp"
+    ],
+    "visual": "images/blog/visual-emotional-program-choice.svg",
+    "secondVisual": "images/blog/visual-emotional-program-choice-questions.svg",
+    "note": "Fictional illustrative people; not Rula, patients or testimonials."
   }
 ]
