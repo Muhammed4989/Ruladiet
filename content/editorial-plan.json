@@ -104,11 +104,13 @@
       "decisionHelp": "أسئلة المؤهلات ونطاق الخدمة والتواصل والتوقعات، مع قائمة تحضير عملية والتحقق من المتاح لدى رولا",
       "avoidOverlap": "صفحة الحجز تملك طلب الاستشارة المباشر؛ هذا المقال دليل اختيار وتحضير، بلا اختلاق سعر أو خدمات مشمولة",
       "priority": 2,
-      "status": "prepared",
+      "status": "published",
       "date": "2026-09-14",
       "slug": "اختيار-استشارة-تغذية-أونلاين",
       "articleKey": "online-consultation",
-      "keywordCheckedAt": "2026-09-14"
+      "keywordCheckedAt": "2026-09-14",
+      "bodyWordsExcludingHeadings": 1068,
+      "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/اختيار-استشارة-تغذية-أونلاين"
     },
     {
       "topic": "كيف تختارين كورس تغذية لبناء عادات تستمر؟",
@@ -123,11 +125,13 @@
       "decisionHelp": "تقييم المنهج والمؤهلات والوقت والتطبيق العملي والتكلفة، مع شرح متوازن لمحتوى المسار الصحي الموثق",
       "avoidOverlap": "لا تكرر مقال العادات الصحية أو صفحة المسار الصحي؛ ركز على اختيار كورس تثقيفي لا تأهيل مهني",
       "priority": 3,
-      "status": "prepared",
+      "status": "published",
       "date": "2026-09-14",
       "slug": "اختيار-كورس-تغذية-صحية",
       "articleKey": "nutrition-course-choice",
-      "keywordCheckedAt": "2026-09-14"
+      "keywordCheckedAt": "2026-09-14",
+      "bodyWordsExcludingHeadings": 1126,
+      "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/اختيار-كورس-تغذية-صحية"
     },
     {
       "topic": "خطة غذائية شخصية أم جدول جاهز: متى تفيدك الاستشارة؟",
@@ -142,11 +146,13 @@
       "decisionHelp": "شرح ما يجعل التقييم فردياً وحدود الجداول العامة وكيف تناقش أهدافك، دون تقديم حمية علاجية جاهزة",
       "avoidOverlap": "لا تعِد مقال خسارة الوزن أو دليل اختيار الاستشارة الأونلاين؛ القرار هنا حول الحاجة للتخصيص",
       "priority": 4,
-      "status": "prepared",
+      "status": "published",
       "date": "2026-09-14",
       "slug": "خطة-غذائية-شخصية-أم-جدول-جاهز",
       "articleKey": "personal-meal-plan",
-      "keywordCheckedAt": "2026-09-14"
+      "keywordCheckedAt": "2026-09-14",
+      "bodyWordsExcludingHeadings": 1138,
+      "canonicalUrl": "https://ruladiet.com/blog/category/إدارة-الوزن/الحميات-والصيام/خطة-غذائية-شخصية-أم-جدول-جاهز"
     },
     {
       "topic": "اختيار برنامج للأكل العاطفي: ما الذي تسألين عنه قبل التسجيل؟",
@@ -162,11 +168,13 @@
       "offerGuardrail": "العرض المؤكد: 247 دولاراً لقائمة انتظار مدفوعة. تحقق من الحالة والسعر قبل النشر ولا تعد بوصول فوري أو موعد غير معلن.",
       "avoidOverlap": "لا تكرر مقال فهم محفزات الأكل العاطفي؛ صفحة العرض تملك التسجيل المباشر",
       "priority": 5,
-      "status": "prepared",
+      "status": "published",
       "date": "2026-09-14",
       "slug": "اختيار-برنامج-للأكل-العاطفي",
       "articleKey": "emotional-program-choice",
-      "keywordCheckedAt": "2026-09-14"
+      "keywordCheckedAt": "2026-09-14",
+      "bodyWordsExcludingHeadings": 1130,
+      "canonicalUrl": "https://ruladiet.com/blog/category/السلوك-الغذائي/الأكل-العاطفي/اختيار-برنامج-للأكل-العاطفي"
     },
     {
       "topic": "اختيار اختصاصية تغذية في إسطنبول: معايير وأسئلة قبل الحجز",
@@ -479,34 +487,49 @@
   "dailyRuns": [
     {
       "date": "2026-09-14",
-      "status": "prepared",
+      "status": "website_published_google_blocked",
       "articles": [
         {
           "key": "online-consultation",
           "words": 1068,
-          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/اختيار-استشارة-تغذية-أونلاين"
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/اختيار-استشارة-تغذية-أونلاين",
+          "status": "published"
         },
         {
           "key": "nutrition-course-choice",
           "words": 1126,
-          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/اختيار-كورس-تغذية-صحية"
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/اختيار-كورس-تغذية-صحية",
+          "status": "published"
         },
         {
           "key": "personal-meal-plan",
           "words": 1138,
-          "canonicalUrl": "https://ruladiet.com/blog/category/إدارة-الوزن/الحميات-والصيام/خطة-غذائية-شخصية-أم-جدول-جاهز"
+          "canonicalUrl": "https://ruladiet.com/blog/category/إدارة-الوزن/الحميات-والصيام/خطة-غذائية-شخصية-أم-جدول-جاهز",
+          "status": "published"
         },
         {
           "key": "emotional-program-choice",
           "words": 1130,
-          "canonicalUrl": "https://ruladiet.com/blog/category/السلوك-الغذائي/الأكل-العاطفي/اختيار-برنامج-للأكل-العاطفي"
+          "canonicalUrl": "https://ruladiet.com/blog/category/السلوك-الغذائي/الأكل-العاطفي/اختيار-برنامج-للأكل-العاطفي",
+          "status": "published"
         }
       ],
       "businessBalance": {
         "consultation": 2,
         "course": 2
       },
-      "research": "content/editorial-research/2026-09-14.json"
+      "research": "content/editorial-research/2026-09-14.json",
+      "websiteStatus": "published",
+      "productionCommit": "75d4c01d5b001967ebe8a15967364fec407cf6ff",
+      "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/26",
+      "verifiedAt": "2026-09-14T09:28:48.653Z",
+      "indexNow": {
+        "submittedAt": "2026-09-14T09:31:06.622Z",
+        "status": 200,
+        "changedUrls": 13
+      },
+      "googleStatus": "blocked",
+      "googleBlocker": "Awaiting owner account selection; complete draft saved and no submission made."
     }
   ]
 }
