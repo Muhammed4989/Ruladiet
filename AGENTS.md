@@ -271,3 +271,13 @@ check afterwards; its known null-byte warning is not a new regression.
 - Verified publisher profiles and bio evidence live in `content/author-rula.json`.
   Do not claim an AJ+ or magazine relationship without a primary author/article
   URL. Do not claim Rula personally reviewed a generated article unless she did.
+- The owner confirmed on 2026-09-14 that Rula started working in Istanbul in
+  2018. This proves a start date, not historical precedence over all Arab
+  practitioners. Keep the requested "first" claim pending supporting evidence.
+  Use her actual title, اختصاصية تغذية, and no unverified doctor credential.
+  Local positioning should present Rula's evidence and services without comparing
+  her with other providers or claiming an objective best ranking. Public Google
+  and Instagram metrics must retain their source links, observed date and rounding.
+- `scripts/build-author.js` calls `scripts/rula-profile.js` to maintain the homepage
+  about section, CV and evidence cards from the author JSON. Re-run it after
+  regenerating those pages; `css/rula-profile.css` styles the shared components.

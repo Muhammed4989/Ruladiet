@@ -51,3 +51,9 @@ The separate 13-article coverage batch of 2026-09-13 is already published; do no
 ## Author evidence
 
 `content/author-rula.json` contains the verified publisher links (Al Jazeera Net and ArabicPost). AJ+ and unspecified magazines were requested but have not yet been substantiated by a primary author or article link; do not silently add them. The owner confirmed the master's degree is from Sabahattin Zaim. Use **اختصاصية**, not أخصائية, in site-authored copy. Do not imply employment by a publisher merely because an author profile exists.
+
+On 2026-09-14 the owner requested stronger local positioning without comparisons to other practitioners. The owner confirmed Rula began working in Istanbul in **2018**. Use that date; it does not establish the separate claim that she was the first Arab nutrition specialist in the city. Keep that claim pending evidence in `content/author-rula.json`. Do not call her a doctor without a verified supporting credential.
+
+The next local consultation brief (priority 6, planned for 2026-09-15) addresses searches such as **أفضل عيادة تغذية في إسطنبول** and **أفضل دكتورة تغذية في إسطنبول**. Address the reader's need and accurately name Rula's role; do not assert an objective best ranking, list competitors, repeat keywords unnaturally, or split equivalent phrases into duplicate articles. Link naturally to the biography, author publications, team and booking page. Recheck current public Google reviews and Instagram followers at publication and date each observation. They describe feedback and audience size, not guaranteed outcomes or superiority.
+
+`node scripts/build-author.js` also calls `scripts/rula-profile.js` to synchronize the homepage introduction, CV and shared public-evidence cards from `content/author-rula.json`. Preserve this synchronization after rebuilding author/profile pages. Do not bump `updated` or article dates on routine daily rebuilds unless the underlying biography/evidence actually changes.
