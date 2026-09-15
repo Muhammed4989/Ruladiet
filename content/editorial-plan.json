@@ -194,7 +194,7 @@
       "decisionHelp": "عرض المؤهلات وبداية العمل في 2018 والتقييمات الحالية وموقع العيادة واللغة وطريقة التواصل والزيارة. أجب عن أسئلة القارئ العملية دون ترتيب العيادات أو ذكر المنافسين.",
       "avoidOverlap": "مقالة محلية واحدة لها هدف مستقل عن دليل اختيار الاستشارة أونلاين؛ لا تكرر السيرة الذاتية ولا تنشئ مقالة منفصلة لكل مرادف أو حي. صفحة الحجز تبقى وجهة الطلب المباشر.",
       "priority": 6,
-      "status": "prepared",
+      "status": "published",
       "plannedFor": "2026-09-15",
       "positioningRequestedAt": "2026-09-14",
       "keywordEvidence": "مرشحات طلبها المالك. لم يثبت حجم بحث أو ترتيب؛ افحص النية والبيانات المتاحة قبل الكتابة. استخدم عبارة الأفضل كسؤال بحث، لا كجائزة أو ادعاء تفوق.",
@@ -283,7 +283,7 @@
       "intent": "تمييز تشخيصين وفهم المصطلح قبل المتابعة أو اختيار التعليم المناسب",
       "businessGoal": "course",
       "avoidOverlap": "لا يعيد النظام الغذائي للتكيس ولا مقال المفاضلة بين الكورس والاستشارة؛ يوضح المصطلحات وحدود التشخيص",
-      "status": "prepared",
+      "status": "published",
       "date": "2026-09-15",
       "slug": "الفرق-بين-كيس-المبيض-وتكيس-المبايض",
       "articleKey": "pcos-cyst-difference",
@@ -302,7 +302,7 @@
       "intent": "تحضير الأسئلة والمعلومات قبل الموعد والتنسيق مع الطبيب",
       "businessGoal": "consultation",
       "avoidOverlap": "مرحلة ما قبل الحمل والتحضير للخدمة، لا إعادة دليل غذاء الحامل أو حمية جاهزة",
-      "status": "prepared",
+      "status": "published",
       "date": "2026-09-15",
       "slug": "التحضير-لاستشارة-تغذية-قبل-الحمل",
       "articleKey": "preconception-consultation",
@@ -321,7 +321,7 @@
       "intent": "مقارنة تجربة الدراسة والمواعيد والوصول والتفاعل قبل التسجيل",
       "businessGoal": "course",
       "avoidOverlap": "يفصل القيود اللوجستية للصيغتين بدلاً من تكرار دليل اختيار المنهج والمؤهلات العام",
-      "status": "prepared",
+      "status": "published",
       "date": "2026-09-15",
       "slug": "كورس-تغذية-مسجل-أم-مباشر",
       "articleKey": "recorded-live-course",
@@ -633,34 +633,49 @@
     },
     {
       "date": "2026-09-15",
-      "status": "prepared",
+      "status": "website_published_google_blocked",
       "articles": [
         {
           "key": "istanbul-clinic-guide",
           "words": 1051,
-          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/أفضل-عيادة-تغذية-في-إسطنبول"
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/أفضل-عيادة-تغذية-في-إسطنبول",
+          "status": "published"
         },
         {
           "key": "pcos-cyst-difference",
           "words": 1029,
-          "canonicalUrl": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/الفرق-بين-كيس-المبيض-وتكيس-المبايض"
+          "canonicalUrl": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/الفرق-بين-كيس-المبيض-وتكيس-المبايض",
+          "status": "published"
         },
         {
           "key": "preconception-consultation",
           "words": 1055,
-          "canonicalUrl": "https://ruladiet.com/blog/category/تغذية-الأسرة/تغذية-الحوامل/التحضير-لاستشارة-تغذية-قبل-الحمل"
+          "canonicalUrl": "https://ruladiet.com/blog/category/تغذية-الأسرة/تغذية-الحوامل/التحضير-لاستشارة-تغذية-قبل-الحمل",
+          "status": "published"
         },
         {
           "key": "recorded-live-course",
           "words": 1127,
-          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/كورس-تغذية-مسجل-أم-مباشر"
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/كورس-تغذية-مسجل-أم-مباشر",
+          "status": "published"
         }
       ],
       "businessBalance": {
         "consultation": 2,
         "course": 2
       },
-      "research": "content/editorial-research/2026-09-15.json"
+      "research": "content/editorial-research/2026-09-15.json",
+      "websiteStatus": "published",
+      "productionCommit": "462ab031be272b2140a020e4b841a679ba68f957",
+      "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/29",
+      "verifiedAt": "2026-09-15T09:35:39.045Z",
+      "indexNow": {
+        "submittedAt": "2026-09-15T09:36:12.507Z",
+        "status": 200,
+        "changedUrls": 13
+      },
+      "googleStatus": "blocked",
+      "googleBlocker": "Google Business Profile requests reauthentication; owner account/profile identity must be verified before posting. Draft saved; no submission."
     }
   ]
 }

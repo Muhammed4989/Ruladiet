@@ -10,9 +10,9 @@
     "managementEntry": "https://business.google.com/locations"
   },
   "access": {
-    "lastChecked": "2026-09-14",
-    "status": "awaiting_owner_account_selection",
-    "note": "Management access is not yet verified. The owner was asked to select the Google account that manages Rula Diet in the open Business Profile tab. Continue website publication while access is unresolved."
+    "lastChecked": "2026-09-15",
+    "status": "reauthentication_and_owner_account_selection_required",
+    "note": "Opening https://business.google.com/locations reached Google Verify it is you. No account switch, identity change or post attempted. Existing owner login/account-selection request remains pending."
   },
   "entryFields": [
     "date",
@@ -67,12 +67,14 @@
         "type": "LEARN_MORE",
         "url": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/أفضل-عيادة-تغذية-في-إسطنبول"
       },
-      "status": "draft",
+      "status": "blocked",
       "preparedAt": "2026-09-15T09:25:20.708Z",
       "submittedAt": null,
-      "checkedAt": null,
+      "checkedAt": "2026-09-15T09:37:55.889Z",
       "postId": null,
-      "postUrl": null
+      "postUrl": null,
+      "sourceArticleVerifiedAt": "2026-09-15T09:35:39.045Z",
+      "blocker": "Google requests reauthentication to continue to Business Profile; clinic-management access and owning account remain unverified. Complete draft saved, no submission."
     }
   ]
 }
