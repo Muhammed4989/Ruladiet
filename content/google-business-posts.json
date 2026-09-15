@@ -7,12 +7,15 @@
     "website": "https://ruladiet.com/",
     "placeId": "ChIJPxfeU-unyhQRyIYSaHZkkoA",
     "address": "Kayabaşı, Adnan Menderes Bulvarı, Emlak Konut Kuzey Yakası A2 Blok No:3, 34494 Başakşehir/İstanbul",
-    "managementEntry": "https://business.google.com/locations"
+    "managementEntry": "https://business.google.com/u/1/locations?pli=1",
+    "googleBusinessId": "15771110234456492391",
+    "fid": "9264577843169494728"
   },
   "access": {
     "lastChecked": "2026-09-15",
-    "status": "reauthentication_and_owner_account_selection_required",
-    "note": "Opening https://business.google.com/locations reached Google Verify it is you. No account switch, identity change or post attempted. Existing owner login/account-selection request remains pending."
+    "verifiedAt": "2026-09-15T10:08:27.624Z",
+    "status": "verified_management_access",
+    "note": "Owner selected the managing Google account and confirmed login. Rula Diet name, Başakşehir address, ruladiet.com website, matching hexadecimal CID and You manage this Business Profile were visible. Posts and Booking controls opened successfully. Reverify identity if account order changes."
   },
   "entryFields": [
     "date",
@@ -59,6 +62,28 @@
     },
     {
       "date": "2026-09-15",
+      "articleKey": "insulin",
+      "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-والحالات-الصحية/مقاومة-الإنسولين/مقاومة-الانسولين-والكربوهيدرات",
+      "text": "مقاومة الإنسولين: النشويات ليست عدوّك — الترتيب هو المهم مع مقاومة الإنسولين، ما تأكلينه يهم، لكن متى ومع ماذا يهم بالقدر نفسه. نفس الطبق يرفع السكر بشكل مختلف حسب ترتيب اللقمات. شرحنا الفرق بين النشويات الجيدة والسيئة، والترتيب الصحيح للوجبة، وحصة الكربوهيدرات اليومية.",
+      "button": {
+        "type": "LEARN_MORE",
+        "url": "https://ruladiet.com/blog/مقاومة-الانسولين-والكربوهيدرات"
+      },
+      "status": "live",
+      "source": "observed_existing_post",
+      "publishedDate": "2026-09-15",
+      "publishedLabel": "Published 3 hours ago",
+      "checkedAt": "2026-09-15T10:08:27.624Z",
+      "submittedAt": null,
+      "postId": null,
+      "postUrl": null,
+      "blocker": null,
+      "note": "Visible in the public profile and management All posts. Already published before this login follow-up; not created or edited by this run. The legacy Learn more URL resolves to the canonical article with HTTP 200."
+    }
+  ],
+  "draftQueue": [
+    {
+      "date": "2026-09-15",
       "articleKey": "istanbul-clinic-guide",
       "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/أفضل-عيادة-تغذية-في-إسطنبول",
       "text": "تخططين لزيارة عيادة تغذية في إسطنبول؟ يساعدك وضوح التفاصيل قبل الموعد على الوصول مستعدة بأسئلتك، ومعرفة ما تتوقعينه من الاستشارة.\n\nفي دليل رولا دايت الجديد، تعرّفي على مؤهلات اختصاصية التغذية رولا علوش، التي بدأت عملها في إسطنبول عام 2018، وموقع العيادة في باشاك شهير. ستجدين أيضاً روابط التقييمات مع تاريخ رصدها، وأسئلة عملية عن مدة الموعد والتكلفة وما تشمله المتابعة.\n\nحضّري وصفاً بسيطاً ليومك المعتاد، واختاري ثلاثة أسئلة تهمك، وتأكدي من تفاصيل الخدمة قبل تأكيد الحجز. اقرئي الدليل عبر زر «معرفة المزيد». الصورة مشهد توضيحي مولّد لشخصية خيالية، وليست صورة رولا أو إحدى المراجعات.",
@@ -67,14 +92,44 @@
         "type": "LEARN_MORE",
         "url": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/أفضل-عيادة-تغذية-في-إسطنبول"
       },
-      "status": "blocked",
+      "status": "draft",
       "preparedAt": "2026-09-15T09:25:20.708Z",
       "submittedAt": null,
       "checkedAt": "2026-09-15T09:37:55.889Z",
       "postId": null,
       "postUrl": null,
       "sourceArticleVerifiedAt": "2026-09-15T09:35:39.045Z",
-      "blocker": "Google requests reauthentication to continue to Business Profile; clinic-management access and owning account remain unverified. Complete draft saved, no submission."
+      "blocker": null,
+      "id": "2026-09-15-istanbul-clinic-guide",
+      "deferredAt": "2026-09-15T10:08:27.624Z",
+      "deferReason": "Existing insulin-resistance post already published today. Preserve one Google post per day; no duplicate added.",
+      "scheduledFor": null
     }
-  ]
+  ],
+  "observedScheduledPosts": [
+    {
+      "scheduledDate": "2026-09-22",
+      "title": "وزنك ثابت؟ قبل أن تلومي الغدة الدرقية",
+      "status": "scheduled",
+      "observedAt": "2026-09-15T10:08:27.624Z",
+      "source": "existing_google_schedule",
+      "requiresUiRecheck": true
+    },
+    {
+      "scheduledDate": "2026-09-29",
+      "title": "تستخدمين إبر التنحيف؟ الغذاء هو ما يحدد النتيجة",
+      "status": "scheduled",
+      "observedAt": "2026-09-15T10:08:27.624Z",
+      "source": "existing_google_schedule",
+      "requiresUiRecheck": true
+    }
+  ],
+  "bookingLink": {
+    "url": "https://ruladiet.com/احجز-موعد",
+    "savedAt": "2026-09-15T10:08:27.624Z",
+    "status": "saved_public_propagation_pending",
+    "savedValueVerified": true,
+    "destinationHttpStatus": 200,
+    "note": "Replaced malformed concatenated URL; reopened Booking editor and verified the correctly percent-encoded value persisted. Search result still showed the old URL at the immediate public recheck. Check propagation at the next routine profile visit; do not resave repeatedly."
+  }
 }

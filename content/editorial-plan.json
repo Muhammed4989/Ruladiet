@@ -633,7 +633,7 @@
     },
     {
       "date": "2026-09-15",
-      "status": "website_published_google_blocked",
+      "status": "website_published_google_existing_live",
       "articles": [
         {
           "key": "istanbul-clinic-guide",
@@ -674,8 +674,10 @@
         "status": 200,
         "changedUrls": 13
       },
-      "googleStatus": "blocked",
-      "googleBlocker": "Google Business Profile requests reauthentication; owner account/profile identity must be verified before posting. Draft saved; no submission."
+      "googleStatus": "live",
+      "googleBlocker": null,
+      "googleCheckedAt": "2026-09-15T10:08:27.624Z",
+      "googleNote": "Observed pre-existing insulin-resistance update published today; daily Google target already met. No extra post submitted. Clinic-guide draft retained in the Google ledger draftQueue."
     }
   ]
 }
