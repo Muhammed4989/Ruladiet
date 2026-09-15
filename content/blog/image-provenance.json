@@ -508,5 +508,65 @@
     "visual": "images/blog/visual-emotional-program-choice.svg",
     "secondVisual": "images/blog/visual-emotional-program-choice-questions.svg",
     "note": "Fictional illustrative people; not Rula, patients or testimonials."
+  },
+  {
+    "key": "istanbul-clinic-guide",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-15",
+    "prompt": "Use case: photorealistic-natural. Create one wide 16:9 editorial photograph for an Arabic nutrition blog article about planning a visit to a nutrition clinic in Istanbul. A fictional adult Arab woman in a loose opaque sage long-sleeved tunic and a neatly wrapped beige hijab, sitting on a quiet leafy Istanbul neighborhood bench, holding a closed appointment notebook and glancing thoughtfully toward an ordinary urban street. Authentic natural daylight, gentle warm stone and green colors, calm candid moment, realistic facial texture, sophisticated editorial photo. No identifiable real clinic, no logos, no text, no doctor coat, no body transformation, no food, no medical procedures. Fully modest clothing covering chest arms and legs. This is a fictional illustrative model, not Rula or a patient. Landscape composition with safe center crop for 16:9 blog cards.",
+    "cover": "images/blog/istanbul-clinic-guide-1280.webp",
+    "responsive": [
+      "images/blog/istanbul-clinic-guide-400.webp",
+      "images/blog/istanbul-clinic-guide-800.webp",
+      "images/blog/istanbul-clinic-guide-1280.webp"
+    ],
+    "visual": "images/blog/visual-istanbul-clinic-guide.svg",
+    "secondVisual": "images/blog/visual-istanbul-clinic-guide-questions.svg",
+    "note": "Fictional illustrative people; not Rula, patients or testimonials."
+  },
+  {
+    "key": "pcos-cyst-difference",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-15",
+    "prompt": "Use case: photorealistic-natural. Create one wide 16:9 editorial photograph for an Arabic women's health education article about clarifying ovarian cyst terminology before a doctor's appointment. A fictional adult woman wearing a loose opaque navy long-sleeved top and a soft gray hijab sits in a bright quiet home by a window, thoughtfully organizing a plain closed document folder and an unmarked notebook on a light wood desk. Soft morning light, natural skin, serene thoughtful expression, olive plant in soft background, uncluttered composition, subtle teal and cream colors. No text on documents, no medical scans or anatomy, no hospital, no worried pain pose, no doctor, no food, no logo. Fully modest coverage. Not a real patient or Rula. Wide photographic composition, polished but candid.",
+    "cover": "images/blog/pcos-cyst-difference-1280.webp",
+    "responsive": [
+      "images/blog/pcos-cyst-difference-400.webp",
+      "images/blog/pcos-cyst-difference-800.webp",
+      "images/blog/pcos-cyst-difference-1280.webp"
+    ],
+    "visual": "images/blog/visual-pcos-cyst-difference.svg",
+    "secondVisual": "images/blog/visual-pcos-cyst-difference-questions.svg",
+    "note": "Fictional illustrative people; not Rula, patients or testimonials."
+  },
+  {
+    "key": "preconception-consultation",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-15",
+    "prompt": "Use case: photorealistic-natural. Create one wide 16:9 lifestyle editorial photograph for an Arabic article about preparing nutrition questions before pregnancy. A fictional modestly dressed adult couple taking a calm walk in a sunlit green park, woman in a loose long opaque cream coat, long trousers and dusty rose hijab, man in a casual long-sleeved shirt and trousers. They are talking gently, with the woman carrying a small closed notebook. Ordinary body proportions, candid natural scene, quiet optimism, soft morning light, visible nature and spacious paths. The woman is not visibly pregnant; no baby, no medical props, no food, no touch indicating fertility outcome, no text or logo. Models are illustrative and do not depict Rula or clinic clients. Landscape 16:9 with uncluttered center-safe composition.",
+    "cover": "images/blog/preconception-consultation-1280.webp",
+    "responsive": [
+      "images/blog/preconception-consultation-400.webp",
+      "images/blog/preconception-consultation-800.webp",
+      "images/blog/preconception-consultation-1280.webp"
+    ],
+    "visual": "images/blog/visual-preconception-consultation.svg",
+    "secondVisual": "images/blog/visual-preconception-consultation-questions.svg",
+    "note": "Fictional illustrative people; not Rula, patients or testimonials."
+  },
+  {
+    "key": "recorded-live-course",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-15",
+    "prompt": "Use case: photorealistic-natural. Create one wide 16:9 editorial photograph about choosing between recorded and live online nutrition learning. A fictional adult Arab woman wearing a loose opaque terracotta long-sleeved sweater and beige hijab learning at a calm home desk, seen at a three-quarter angle with face partly visible. One laptop with a softly blurred abstract video player interface with no readable text or recognizable instructor, paper weekly planner with only blank boxes and a pen, cup of water, plant. Warm afternoon light, authentic lived-in desk, thoughtful focused expression, practical calm mood, natural texture. No logos, no readable text, no medical uniform, no nutritional outcome claims, no food plate. Modest clothing fully covering body and arms. Not Rula or a testimonial. Wide landscape 16:9 photograph.",
+    "cover": "images/blog/recorded-live-course-1280.webp",
+    "responsive": [
+      "images/blog/recorded-live-course-400.webp",
+      "images/blog/recorded-live-course-800.webp",
+      "images/blog/recorded-live-course-1280.webp"
+    ],
+    "visual": "images/blog/visual-recorded-live-course.svg",
+    "secondVisual": "images/blog/visual-recorded-live-course-questions.svg",
+    "note": "Fictional illustrative people; not Rula, patients or testimonials."
   }
 ]
