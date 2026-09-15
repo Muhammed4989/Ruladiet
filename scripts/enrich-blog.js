@@ -97,3 +97,4 @@ console.log(`Enriched ${posts.length} articles, author links, unique images, CTA
 require('./migrate-blog-urls')();
 require('./build-blog-archives')();
 require('./build-redirects');
+require('./sync-service-reading')();

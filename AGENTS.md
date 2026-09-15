@@ -239,6 +239,13 @@ check afterwards; its known null-byte warning is not a new regression.
 
 ## Daily articles and author profile (2026-09-10)
 
+- Curated offer-to-article links live in `content/service-reading.json`. Run
+  `node scripts/sync-service-reading.js` after regenerating course or booking
+  pages; `enrich-blog.js` also runs it. Keep two or three relevant readings per
+  offer, derive permanent paths from the catalog, and preserve the main offer CTA.
+  Change the manifest date only when the reading selection or copy changes.
+  See the recurring content review rules in `content/editorial-policy.md`.
+
 - On 2026-09-12 the owner prioritized keywords likely to lead to bookings or
   course enrollments. Follow the decision-stage briefs in the editorial plan,
   with equal consultation/course priority and PCOS first among course briefs.

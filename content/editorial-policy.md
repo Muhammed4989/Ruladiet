@@ -28,6 +28,37 @@ The separate 13-article coverage batch of 2026-09-13 is already published; do no
 - The PCOS course is educational; use `content/pcos-course.json` for the verified curriculum and never promise a cure, pregnancy or individualized care. The emotional-eating offer is a **USD 247 paid waiting list**, with sessions starting later, not immediate access; recheck before writing its brief. Course prices and terms must match the current landing and checkout pages.
 - Optimize for relevant course interest and qualified booking inquiries, rather than page views alone. Use available aggregate search performance to refine the plan without claiming it proves sales. Do not add sales tracking or send health-related identifiers/events to advertising platforms.
 
+## Ongoing content review — adopted 2026-09-15
+
+- Maintain the current permanent taxonomy and published URLs. Add a topic only
+  for a distinct audience need and enough useful original material. Do not import
+  real-estate filters, location permutations or mass landing-page templates.
+- During the first daily run of each calendar month, review existing content
+  before expanding the backlog. Record findings and actions in the editorial plan.
+  First review due: 2026-10-01. This runs within the existing daily workflow;
+  do not create a duplicate automation or claim a clinical review took place.
+- Use KEEP, UPDATE, MERGE, REDIRECT or NOINDEX only with a recorded reason.
+  Prioritize changed medical guidance, stale offer details, broken references,
+  overlapping reader intent, weak incoming links and available Search Console
+  evidence. Do not invent performance data when access is unavailable.
+- Fix errors as soon as found; do not wait for the monthly review. Verify health
+  claims with current primary sources. Distinguish this editorial fact-check from
+  actual review by a qualified professional, and name a reviewer only if they
+  really reviewed the content. A byline is not evidence of clinical review.
+- Improve an existing article when it already answers the same question. Keep
+  actual publication dates; change modified dates only for substantive edits.
+  Merges and path changes require relevant direct permanent redirects and updated
+  links, canonical and sitemap. Do not delete useful pages just for low traffic.
+- The owner's minimum word counts remain editorial requirements, not a Google
+  ranking promise. Add useful explanations rather than padding. Prioritize depth,
+  originality, supported claims and the reader's next appropriate step.
+- Maintain links both ways between content and relevant courses/consultations.
+  Use `content/service-reading.json` for two or three curated readings per offer;
+  avoid linking every article to every service. The renderer validates targets
+  and restores this section during blog maintenance.
+- Keep a single source for content relationships and validate the deployed HTML,
+  not just local output. Verify keyboard/mobile layout when presentation changes.
+
 ## Repeatable implementation
 
 1. Read `AGENTS.md`. Fetch current `origin/master` and start a fresh branch. Preserve other work. Worktree: `C:\Users\moham\Claude\Projects\Rula\site-work`; GitHub: `Muhammed4989/Ruladiet`; Vercel production branch: `master`.

@@ -679,5 +679,26 @@
       "googleCheckedAt": "2026-09-15T10:08:27.624Z",
       "googleNote": "Observed pre-existing insulin-resistance update published today; daily Google target already met. No extra post submitted. Clinic-guide draft retained in the Google ledger draftQueue."
     }
-  ]
+  ],
+  "contentMaintenance": {
+    "adoptedAt": "2026-09-15",
+    "cadence": "First existing daily run of each calendar month",
+    "nextReviewDue": "2026-10-01",
+    "lastCompletedReview": null,
+    "decisions": [
+      "KEEP",
+      "UPDATE",
+      "MERGE",
+      "REDIRECT",
+      "NOINDEX"
+    ],
+    "reviewCriteria": [
+      "Changed primary health guidance and stale offers",
+      "Overlapping search intent and substantive originality",
+      "Broken references, incoming links and relevant offer links",
+      "Available aggregate Search Console evidence; no invented metrics"
+    ],
+    "serviceReadingManifest": "content/service-reading.json",
+    "reviews": []
+  }
 }
