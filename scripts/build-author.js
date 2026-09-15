@@ -37,7 +37,8 @@ bio=bio.replace(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g,(al
 if(!bio.includes('id="author-writing-link"'))bio=bio.replace('</main>',`<div id="author-writing-link" class="container" style="padding:0 24px 40px"><a class="btn btn-primary" href="${profile.path}">صفحة رولا الكاتبة ومقالاتها المنشورة ←</a></div></main>`);
 write('رولا-علوش.html',bio);
 let sitemap=fs.readFileSync(root+'/sitemap.xml','utf8');
-const entry=`<url><loc>${url}</loc><lastmod>${profile.updated}</lastmod></url>`;
+const archiveUpdated=[profile.updated,...sorted.map(p=>p.updated||p.published)].sort().at(-1);
+const entry=`<url><loc>${url}</loc><lastmod>${archiveUpdated}</lastmod></url>`;
 if(sitemap.includes('<loc>'+url+'</loc>'))sitemap=sitemap.replace(/<url>[\s\S]*?<\/url>/g,s=>s.includes('<loc>'+url+'</loc>')?entry:s);else sitemap=sitemap.replace('</urlset>',entry+'\n</urlset>');
 write('sitemap.xml',sitemap);
 console.log(`Built author profile and ${posts.length} article links.`);

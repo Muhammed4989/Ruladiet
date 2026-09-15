@@ -194,7 +194,7 @@
       "decisionHelp": "عرض المؤهلات وبداية العمل في 2018 والتقييمات الحالية وموقع العيادة واللغة وطريقة التواصل والزيارة. أجب عن أسئلة القارئ العملية دون ترتيب العيادات أو ذكر المنافسين.",
       "avoidOverlap": "مقالة محلية واحدة لها هدف مستقل عن دليل اختيار الاستشارة أونلاين؛ لا تكرر السيرة الذاتية ولا تنشئ مقالة منفصلة لكل مرادف أو حي. صفحة الحجز تبقى وجهة الطلب المباشر.",
       "priority": 6,
-      "status": "planned",
+      "status": "prepared",
       "plannedFor": "2026-09-15",
       "positioningRequestedAt": "2026-09-14",
       "keywordEvidence": "مرشحات طلبها المالك. لم يثبت حجم بحث أو ترتيب؛ افحص النية والبيانات المتاحة قبل الكتابة. استخدم عبارة الأفضل كسؤال بحث، لا كجائزة أو ادعاء تفوق.",
@@ -226,7 +226,13 @@
       "evidenceFile": "content/author-rula.json",
       "minimumBodyWords": 1000,
       "images": "صورة رئيسية خاصة مناسبة للمقال وصورتان توضيحيتان داخله مع alt عربي دقيق؛ لا تقدّم النموذج المصوّر بوصفه رولا أو إحدى المراجعات.",
-      "externalReferences": "روابط Google Maps وإنستغرام الرسمية للمقاييس، وصفحات الناشرين للمقالات؛ أي ادعاء صحي إلى مصدر صحي رسمي، لا منافسين."
+      "externalReferences": "روابط Google Maps وإنستغرام الرسمية للمقاييس، وصفحات الناشرين للمقالات؛ أي ادعاء صحي إلى مصدر صحي رسمي، لا منافسين.",
+      "date": "2026-09-15",
+      "slug": "أفضل-عيادة-تغذية-في-إسطنبول",
+      "articleKey": "istanbul-clinic-guide",
+      "keywordCheckedAt": "2026-09-15",
+      "bodyWordsExcludingHeadings": 1060,
+      "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/أفضل-عيادة-تغذية-في-إسطنبول"
     },
     {
       "topic": "بناء وجبة متوازنة من أطعمة البيت",
@@ -266,6 +272,63 @@
       "topic": "الأكل الصحي ضمن ميزانية",
       "intent": "بدائل متاحة وتخطيط مرن للتسوق دون أطعمة باهظة إلزامية",
       "status": "backlog"
+    },
+    {
+      "topic": "الفرق بين كيس المبيض وتكيس المبايض والاسم الجديد PMOS",
+      "primaryKeyword": "الفرق بين كيس المبيض وتكيس المبايض",
+      "supportingKeywords": [
+        "هل كيس المبيض هو التكيس",
+        "الاسم الجديد لتكيس المبايض PMOS"
+      ],
+      "intent": "تمييز تشخيصين وفهم المصطلح قبل المتابعة أو اختيار التعليم المناسب",
+      "businessGoal": "course",
+      "avoidOverlap": "لا يعيد النظام الغذائي للتكيس ولا مقال المفاضلة بين الكورس والاستشارة؛ يوضح المصطلحات وحدود التشخيص",
+      "status": "prepared",
+      "date": "2026-09-15",
+      "slug": "الفرق-بين-كيس-المبيض-وتكيس-المبايض",
+      "articleKey": "pcos-cyst-difference",
+      "keywordCheckedAt": "2026-09-15",
+      "targetPage": "/course/تكيس-المبايض",
+      "bodyWordsExcludingHeadings": 1029,
+      "canonicalUrl": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/الفرق-بين-كيس-المبيض-وتكيس-المبايض"
+    },
+    {
+      "topic": "التحضير لاستشارة تغذية قبل الحمل: أسئلة ومعلومات مهمة",
+      "primaryKeyword": "التحضير لاستشارة تغذية قبل الحمل",
+      "supportingKeywords": [
+        "أسئلة تغذية قبل الحمل",
+        "معلومات قبل استشارة التغذية للحمل"
+      ],
+      "intent": "تحضير الأسئلة والمعلومات قبل الموعد والتنسيق مع الطبيب",
+      "businessGoal": "consultation",
+      "avoidOverlap": "مرحلة ما قبل الحمل والتحضير للخدمة، لا إعادة دليل غذاء الحامل أو حمية جاهزة",
+      "status": "prepared",
+      "date": "2026-09-15",
+      "slug": "التحضير-لاستشارة-تغذية-قبل-الحمل",
+      "articleKey": "preconception-consultation",
+      "keywordCheckedAt": "2026-09-15",
+      "targetPage": "/احجز-موعد",
+      "bodyWordsExcludingHeadings": 1055,
+      "canonicalUrl": "https://ruladiet.com/blog/category/تغذية-الأسرة/تغذية-الحوامل/التحضير-لاستشارة-تغذية-قبل-الحمل"
+    },
+    {
+      "topic": "كورس تغذية مسجّل أم مباشر: أي صيغة تناسب وقتك؟",
+      "primaryKeyword": "كورس تغذية مسجل أم مباشر",
+      "supportingKeywords": [
+        "التعلم المسجل والمباشر",
+        "اختيار صيغة كورس تغذية"
+      ],
+      "intent": "مقارنة تجربة الدراسة والمواعيد والوصول والتفاعل قبل التسجيل",
+      "businessGoal": "course",
+      "avoidOverlap": "يفصل القيود اللوجستية للصيغتين بدلاً من تكرار دليل اختيار المنهج والمؤهلات العام",
+      "status": "prepared",
+      "date": "2026-09-15",
+      "slug": "كورس-تغذية-مسجل-أم-مباشر",
+      "articleKey": "recorded-live-course",
+      "keywordCheckedAt": "2026-09-15",
+      "targetPage": "/course/المسار-الصحي",
+      "bodyWordsExcludingHeadings": 1127,
+      "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/كورس-تغذية-مسجل-أم-مباشر"
     }
   ],
   "coverageBatch": {
@@ -567,6 +630,37 @@
       },
       "googleStatus": "blocked",
       "googleBlocker": "Awaiting owner account selection; complete draft saved and no submission made."
+    },
+    {
+      "date": "2026-09-15",
+      "status": "prepared",
+      "articles": [
+        {
+          "key": "istanbul-clinic-guide",
+          "words": 1060,
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/أفضل-عيادة-تغذية-في-إسطنبول"
+        },
+        {
+          "key": "pcos-cyst-difference",
+          "words": 1029,
+          "canonicalUrl": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/الفرق-بين-كيس-المبيض-وتكيس-المبايض"
+        },
+        {
+          "key": "preconception-consultation",
+          "words": 1055,
+          "canonicalUrl": "https://ruladiet.com/blog/category/تغذية-الأسرة/تغذية-الحوامل/التحضير-لاستشارة-تغذية-قبل-الحمل"
+        },
+        {
+          "key": "recorded-live-course",
+          "words": 1127,
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/كورس-تغذية-مسجل-أم-مباشر"
+        }
+      ],
+      "businessBalance": {
+        "consultation": 2,
+        "course": 2
+      },
+      "research": "content/editorial-research/2026-09-15.json"
     }
   ]
 }

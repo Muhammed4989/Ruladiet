@@ -1,0 +1,140 @@
+{
+  "date": "2026-09-15",
+  "status": "researched",
+  "method": "Reviewed all 37 published articles and current production, sampled current search results and read primary guidance. No Search Console metrics or search-volume estimates available.",
+  "serpObservation": "Cyst-versus-PCOS and preconception preparation produced relevant informational intent. Local best-clinic and live-versus-recorded nutrition-course samples were weak; these remain owner-requested/local and practical decision-support hypotheses, not established demand or ranking claims.",
+  "publicEvidence": "2018 confirmed by owner. Google 4.9/162 and Instagram about 142K are explicitly dated 2026-09-14. Sep15 Maps access attempt rejected because automatic approval reviewer was at capacity; no fresh observation claimed.",
+  "offerChecks": {
+    "checkedAt": "2026-09-15",
+    "booking": "Public 200; in-person and online, no unverified consultation fee or preconception package",
+    "pcos": "Public 200; 33 recorded lessons, 5 modules, USD247; source content/pcos-course.json",
+    "healthyPath": "Public 200; recorded format and published curriculum only; no unsupported access/certificate extras",
+    "emotional": "Previously owner-confirmed paid waiting list, later start; no price/access promise added in this format guide"
+  },
+  "medicalUpdate": {
+    "announcement": "2026-05-13",
+    "claim": "Monash announced PCOS naming transition to PMOS; NHS now uses PMOS. Preserve current course title and explain both terms.",
+    "primarySource": "https://www.monash.edu/news/articles/polyendocrine-metabolic-ovarian-syndrome-new-name-to-improve-diagnosis-and-care-of-condition-affecting-170-million-women-worldwide",
+    "corroboration": "https://www.nhs.uk/conditions/polyendocrine-metabolic-ovarian-syndrome-pmos/"
+  },
+  "briefs": [
+    {
+      "key": "istanbul-clinic-guide",
+      "primaryKeyword": "أفضل عيادة تغذية في إسطنبول",
+      "supportingKeywords": [
+        "أفضل دكتورة تغذية في إسطنبول",
+        "اختصاصية تغذية عربية في إسطنبول",
+        "عيادة تغذية باشاك شهير"
+      ],
+      "intent": "فهم زيارة عيادة رولا دايت المحلية والتحضير لها دون مقارنة مقدمي الخدمات",
+      "businessGoal": "consultation",
+      "avoidOverlap": "الزيارة الحضورية والموقع والتقييمات والمؤهلات؛ المقال السابق يركز على اختيار الاستشارة الأونلاين",
+      "targetPage": "/احجز-موعد",
+      "sources": [
+        {
+          "name": "Google Maps: بطاقة عيادة رولا دايت — أرقام رُصدت في 14 سبتمبر 2026",
+          "url": "https://www.google.com/maps/search/?api=1&query=Rula%20Diet%20clinic&query_place_id=ChIJPxfeU-unyhQRyIYSaHZkkoA"
+        },
+        {
+          "name": "حساب رولا الرسمي على إنستغرام — عدد تقريبي رُصد في 14 سبتمبر 2026",
+          "url": "https://www.instagram.com/rulaalloush/"
+        },
+        {
+          "name": "الجزيرة نت: صفحة الكاتبة رولا علوش",
+          "url": "https://www.aljazeera.net/author/رولا-علوش"
+        },
+        {
+          "name": "عربي بوست: صفحة الكاتبة رولا علوش",
+          "url": "https://arabicpost.net/author/rula-alloush/"
+        }
+      ]
+    },
+    {
+      "key": "pcos-cyst-difference",
+      "primaryKeyword": "الفرق بين كيس المبيض وتكيس المبايض",
+      "supportingKeywords": [
+        "هل كيس المبيض هو التكيس",
+        "الاسم الجديد لتكيس المبايض PMOS"
+      ],
+      "intent": "تمييز تشخيصين وفهم المصطلح قبل المتابعة أو اختيار التعليم المناسب",
+      "businessGoal": "course",
+      "avoidOverlap": "لا يعيد النظام الغذائي للتكيس ولا مقال المفاضلة بين الكورس والاستشارة؛ يوضح المصطلحات وحدود التشخيص",
+      "targetPage": "/course/تكيس-المبايض",
+      "sources": [
+        {
+          "name": "NHS: أكياس المبيض وأعراضها ومتابعتها",
+          "url": "https://www.nhs.uk/conditions/ovarian-cyst/"
+        },
+        {
+          "name": "منظمة الصحة العالمية: متلازمة تكيس المبايض",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/polycystic-ovary-syndrome"
+        },
+        {
+          "name": "جامعة موناش: إعلان التسمية الجديدة PMOS، مايو 2026",
+          "url": "https://www.monash.edu/news/articles/polyendocrine-metabolic-ovarian-syndrome-new-name-to-improve-diagnosis-and-care-of-condition-affecting-170-million-women-worldwide"
+        },
+        {
+          "name": "NHS: المتلازمة بالاسم الجديد PMOS",
+          "url": "https://www.nhs.uk/conditions/polyendocrine-metabolic-ovarian-syndrome-pmos/"
+        }
+      ]
+    },
+    {
+      "key": "preconception-consultation",
+      "primaryKeyword": "التحضير لاستشارة تغذية قبل الحمل",
+      "supportingKeywords": [
+        "أسئلة تغذية قبل الحمل",
+        "معلومات قبل استشارة التغذية للحمل"
+      ],
+      "intent": "تحضير الأسئلة والمعلومات قبل الموعد والتنسيق مع الطبيب",
+      "businessGoal": "consultation",
+      "avoidOverlap": "مرحلة ما قبل الحمل والتحضير للخدمة، لا إعادة دليل غذاء الحامل أو حمية جاهزة",
+      "targetPage": "/احجز-موعد",
+      "sources": [
+        {
+          "name": "CDC: التخطيط للحمل والتوصيات العامة لحمض الفوليك",
+          "url": "https://www.cdc.gov/pregnancy/about/index.html"
+        },
+        {
+          "name": "NHS: الاستعداد للحمل ومناقشة الأدوية والحالات الصحية",
+          "url": "https://www.nhs.uk/pregnancy/trying-for-a-baby/trying-to-get-pregnant/"
+        },
+        {
+          "name": "مكتب صحة المرأة الأمريكي: صحة ما قبل الحمل",
+          "url": "https://womenshealth.gov/pregnancy/you-get-pregnant/preconception-health"
+        }
+      ]
+    },
+    {
+      "key": "recorded-live-course",
+      "primaryKeyword": "كورس تغذية مسجل أم مباشر",
+      "supportingKeywords": [
+        "التعلم المسجل والمباشر",
+        "اختيار صيغة كورس تغذية"
+      ],
+      "intent": "مقارنة تجربة الدراسة والمواعيد والوصول والتفاعل قبل التسجيل",
+      "businessGoal": "course",
+      "avoidOverlap": "يفصل القيود اللوجستية للصيغتين بدلاً من تكرار دليل اختيار المنهج والمؤهلات العام",
+      "targetPage": "/course/المسار-الصحي",
+      "sources": [
+        {
+          "name": "CDC: معايير جودة التدريب والتفاعل وسهولة الاستخدام",
+          "url": "https://www.cdc.gov/training-development/php/qts/index.html"
+        },
+        {
+          "name": "CDC: مؤشرات جودة التدريب وتواريخ المراجعة",
+          "url": "https://www.cdc.gov/training-development/php/qts/indicating-training-quality-to-learners.html"
+        },
+        {
+          "name": "NIDDK: التخطيط لتغيير العادات والتعامل مع العوائق",
+          "url": "https://www.niddk.nih.gov/health-information/diet-nutrition/changing-habits-better-health"
+        }
+      ]
+    }
+  ],
+  "googlePolicyChecked": "2026-09-15",
+  "googlePolicySources": [
+    "https://support.google.com/business/answer/7342169?hl=en",
+    "https://support.google.com/business/answer/7400114?hl=en"
+  ]
+}
