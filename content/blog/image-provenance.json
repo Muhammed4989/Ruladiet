@@ -568,5 +568,69 @@
     "visual": "images/blog/visual-recorded-live-course.svg",
     "secondVisual": "images/blog/visual-recorded-live-course-questions.svg",
     "note": "Fictional illustrative people; not Rula, patients or testimonials."
+  },
+  {
+    "key": "consultation-labs",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-16",
+    "prompt": "Photorealistic 16:9 calm still life of closed laboratory document folder, glasses, pen and notebook on a naturally lit home desk; sage accents; no readable personal information, text or logos.",
+    "sourceMaster": "../marketing/2026-09-16/consultation-labs.png",
+    "cover": "images/blog/consultation-labs-1280.webp",
+    "responsive": [
+      "images/blog/consultation-labs-400.webp",
+      "images/blog/consultation-labs-800.webp",
+      "images/blog/consultation-labs-1280.webp"
+    ],
+    "visual": "images/blog/visual-consultation-labs.svg",
+    "secondVisual": "images/blog/visual-consultation-labs-questions.svg",
+    "note": "Original generated illustration for this project. Fictional people, no real patient or outcome. Educational SVG diagrams generated locally."
+  },
+  {
+    "key": "pcos-supplements",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-16",
+    "prompt": "Photorealistic 16:9 fictional modest Middle Eastern woman with hijab and opaque long sleeves inspecting a plain supplement bottle and writing questions at a softly lit home desk; no logos, text or medical claims.",
+    "sourceMaster": "../marketing/2026-09-16/pcos-supplements.png",
+    "cover": "images/blog/pcos-supplements-1280.webp",
+    "responsive": [
+      "images/blog/pcos-supplements-400.webp",
+      "images/blog/pcos-supplements-800.webp",
+      "images/blog/pcos-supplements-1280.webp"
+    ],
+    "visual": "images/blog/visual-pcos-supplements.svg",
+    "secondVisual": "images/blog/visual-pcos-supplements-questions.svg",
+    "note": "Original generated illustration for this project. Fictional people, no real patient or outcome. Educational SVG diagrams generated locally."
+  },
+  {
+    "key": "food-diary",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-16",
+    "prompt": "Natural 16:9 editorial photo of a fictional modest hijabi adult woman writing a daily notebook at a softly lit home kitchen table after a meal; opaque long sleeves; no calorie app, scales, logos or text.",
+    "sourceMaster": "../marketing/2026-09-16/food-diary.png",
+    "cover": "images/blog/food-diary-1280.webp",
+    "responsive": [
+      "images/blog/food-diary-400.webp",
+      "images/blog/food-diary-800.webp",
+      "images/blog/food-diary-1280.webp"
+    ],
+    "visual": "images/blog/visual-food-diary.svg",
+    "secondVisual": "images/blog/visual-food-diary-questions.svg",
+    "note": "Original generated illustration for this project. Fictional people, no real patient or outcome. Educational SVG diagrams generated locally."
+  },
+  {
+    "key": "pcos-normal-weight",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-16",
+    "prompt": "Natural 16:9 editorial photograph of a fictional modest adult Middle Eastern hijabi woman wearing loose opaque long sleeves and trousers walking calmly in a leafy park; soft morning light; no text, scales, body comparison or medical symbols.",
+    "sourceMaster": "../marketing/2026-09-16/pcos-normal-weight.png",
+    "cover": "images/blog/pcos-normal-weight-1280.webp",
+    "responsive": [
+      "images/blog/pcos-normal-weight-400.webp",
+      "images/blog/pcos-normal-weight-800.webp",
+      "images/blog/pcos-normal-weight-1280.webp"
+    ],
+    "visual": "images/blog/visual-pcos-normal-weight.svg",
+    "secondVisual": "images/blog/visual-pcos-normal-weight-questions.svg",
+    "note": "Original generated illustration for this project. Fictional people, no real patient or outcome. Educational SVG diagrams generated locally."
   }
 ]
