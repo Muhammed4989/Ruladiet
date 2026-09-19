@@ -79,6 +79,25 @@
       "postUrl": null,
       "blocker": null,
       "note": "Visible in the public profile and management All posts. Already published before this login follow-up; not created or edited by this run. The legacy Learn more URL resolves to the canonical article with HTTP 200."
+    },
+    {
+      "date": "2026-09-19",
+      "articleKey": "food-diary",
+      "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/مذكرات-الطعام-قبل-استشارة-التغذية",
+      "text": "مذكرات الطعام ليست امتحاناً في الالتزام. قد تساعدك ملاحظات بسيطة عن وقت الوجبة وظروف يومك على شرح ما تحتاجينه في استشارة التغذية.\n\nاكتبي ما حدث فعلاً، دون وصف الطعام بأنه جيد أو سيئ، وأضيفي ظرفاً مهماً مثل اجتماع طويل أو عدم توفر استراحة. لا يلزم عد السعرات أو شراء تطبيق؛ اسألي الفريق أولاً عن طريقة التحضير المناسبة لك.\n\nفي دليل رولا دايت نشرح كيف تجهزين سجلاً عملياً وأسئلة للموعد، ومتى تناقشين بديلاً إذا زاد التدوين قلقك. اقرئي المقال عبر زر معرفة المزيد. الصورة توضيحية لشخصية خيالية وليست مريضة أو نتيجة علاج.",
+      "imagePath": "images/blog/food-diary-1280.webp",
+      "button": {
+        "type": "LEARN_MORE",
+        "url": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/مذكرات-الطعام-قبل-استشارة-التغذية"
+      },
+      "status": "draft",
+      "preparedAt": "2026-09-16T08:05:14.279Z",
+      "submittedAt": null,
+      "checkedAt": null,
+      "postId": null,
+      "postUrl": null,
+      "blocker": "Awaiting website publication and same-day profile check",
+      "preparedDate": "2026-09-16"
     }
   ],
   "draftQueue": [

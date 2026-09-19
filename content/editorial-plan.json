@@ -329,6 +329,78 @@
       "targetPage": "/course/المسار-الصحي",
       "bodyWordsExcludingHeadings": 1127,
       "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/كورس-تغذية-مسجل-أم-مباشر"
+    },
+    {
+      "topic": "هل تحتاجين تحاليل قبل استشارة التغذية؟ دليل التحضير",
+      "articleKey": "consultation-labs",
+      "primaryKeyword": "تحاليل قبل استشارة التغذية",
+      "supportingKeywords": [
+        "هل أحتاج تحاليل قبل الرجيم",
+        "تجهيز نتائج التحاليل للاستشارة"
+      ],
+      "intent": "الاستعداد للموعد وفهم متى يستفسر القارئ عن الفحوص بدلاً من شراء باقة تلقائياً",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": "دليل الاستشارة الأونلاين يشرح اختيار الخدمة؛ هذه المقالة تتناول ملف النتائج وحدود التفسير والتحضير للفحص فقط.",
+      "decisionHelp": "الاستعداد للموعد وفهم متى يستفسر القارئ عن الفحوص بدلاً من شراء باقة تلقائياً",
+      "status": "draft",
+      "plannedFor": "2026-09-16",
+      "bodyWordsExcludingHeadings": 1023,
+      "keywordCheckedAt": "2026-09-16"
+    },
+    {
+      "topic": "مكملات تكيس المبايض والإينوزيتول: أسئلة قبل الشراء",
+      "articleKey": "pcos-supplements",
+      "primaryKeyword": "مكملات تكيس المبايض",
+      "supportingKeywords": [
+        "الإينوزيتول لتكيس المبايض",
+        "أسئلة قبل شراء مكملات التكيس"
+      ],
+      "intent": "تقييم ادعاءات المكملات وفهم الدليل والحدود قبل اتخاذ قرار أو اختيار تثقيف منظم",
+      "businessGoal": "course",
+      "targetPage": "/course/تكيس-المبايض",
+      "avoidOverlap": "لا يعيد قائمة الوجبات ولا مقارنة الكورس بالاستشارة؛ يشرح قرار المكمل وحدود الأدلة دون بيع مكملات.",
+      "decisionHelp": "تقييم ادعاءات المكملات وفهم الدليل والحدود قبل اتخاذ قرار أو اختيار تثقيف منظم",
+      "status": "draft",
+      "plannedFor": "2026-09-16",
+      "bodyWordsExcludingHeadings": 1028,
+      "keywordCheckedAt": "2026-09-16"
+    },
+    {
+      "topic": "مذكرات الطعام قبل استشارة التغذية: سجّل بسيط دون لوم",
+      "articleKey": "food-diary",
+      "primaryKeyword": "مذكرات الطعام قبل استشارة التغذية",
+      "supportingKeywords": [
+        "كيف أكتب سجل الطعام",
+        "تسجيل الوجبات لاختصاصية التغذية"
+      ],
+      "intent": "إعداد معلومات مفيدة للموعد مع احترام الخصوصية وتجنب تسجيل قهري أو استنتاج تشخيص",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": "الدليل العام يذكر التحضير بإيجاز؛ المقال الحالي يشرح أداة محددة مع نموذج محايد وحدودها، لا يعيد اختيار الخدمة.",
+      "decisionHelp": "إعداد معلومات مفيدة للموعد مع احترام الخصوصية وتجنب تسجيل قهري أو استنتاج تشخيص",
+      "status": "draft",
+      "plannedFor": "2026-09-16",
+      "bodyWordsExcludingHeadings": 1025,
+      "keywordCheckedAt": "2026-09-16"
+    },
+    {
+      "topic": "تكيس المبايض مع وزن طبيعي: أهداف تتجاوز خسارة الوزن",
+      "articleKey": "pcos-normal-weight",
+      "primaryKeyword": "تكيس المبايض مع وزن طبيعي",
+      "supportingKeywords": [
+        "تكيس المبايض دون زيادة وزن",
+        "هل أحتاج رجيم مع التكيس"
+      ],
+      "intent": "فهم ملاءمة التثقيف والتغذية عندما لا يكون إنقاص الوزن هدفاً، وصياغة أسئلة للمتابعة",
+      "businessGoal": "course",
+      "targetPage": "/course/تكيس-المبايض",
+      "avoidOverlap": "لا يعيد النظام الغذائي العام أو تشخيص الكيس؛ يركز على احتياج قارئة لا تسعى لخسارة الوزن واختيار أهداف ومحتوى مناسبين.",
+      "decisionHelp": "فهم ملاءمة التثقيف والتغذية عندما لا يكون إنقاص الوزن هدفاً، وصياغة أسئلة للمتابعة",
+      "status": "draft",
+      "plannedFor": "2026-09-16",
+      "bodyWordsExcludingHeadings": 1048,
+      "keywordCheckedAt": "2026-09-16"
     }
   ],
   "coverageBatch": {
@@ -678,6 +750,66 @@
       "googleBlocker": null,
       "googleCheckedAt": "2026-09-15T10:08:27.624Z",
       "googleNote": "Observed pre-existing insulin-resistance update published today; daily Google target already met. No extra post submitted. Clinic-guide draft retained in the Google ledger draftQueue."
+    },
+    {
+      "date": "2026-09-19",
+      "status": "prepared",
+      "websiteStatus": "not_published",
+      "articles": [
+        {
+          "key": "consultation-labs",
+          "words": 1023,
+          "status": "draft",
+          "plannedDate": "2026-09-19",
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/تحاليل-قبل-استشارة-التغذية"
+        },
+        {
+          "key": "pcos-supplements",
+          "words": 1028,
+          "status": "draft",
+          "plannedDate": "2026-09-19",
+          "canonicalUrl": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/مكملات-تكيس-المبايض-قبل-الشراء"
+        },
+        {
+          "key": "food-diary",
+          "words": 1025,
+          "status": "draft",
+          "plannedDate": "2026-09-19",
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/مذكرات-الطعام-قبل-استشارة-التغذية"
+        },
+        {
+          "key": "pcos-normal-weight",
+          "words": 1048,
+          "status": "draft",
+          "plannedDate": "2026-09-19",
+          "canonicalUrl": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/تكيس-المبايض-مع-وزن-طبيعي"
+        }
+      ],
+      "businessBalance": {
+        "consultation": 2,
+        "course": 2
+      },
+      "research": "content/editorial-research/2026-09-16.json",
+      "blocker": null,
+      "publicationDateNote": "Resumed original four drafts; intended actual publication 2026-09-19, no catch-up batch.",
+      "validation": {
+        "checkedAt": "2026-09-16T08:07:45.564Z",
+        "checkBlog": "pass: 45 articles, 45 unique covers",
+        "checkSite": "pass: 93 pages, 177 schemas, 3819 links; existing 588 null-byte warning unchanged",
+        "navigation": "pass: 77 breadcrumbs",
+        "migration": "pass: 945 redirects",
+        "categoryGuides": "pass: 31 guides, minimum 552 body words",
+        "diffCheck": "pass",
+        "coverVisualInspection": "All four covers inspected; modest fictional models/still life and no text artifacts.",
+        "browserPreview": "blocked: browser request-header policy failed to load twice",
+        "production": "Not published; current production sitemap returned HTTP200 with no Sep16 entries."
+      },
+      "preparedDate": "2026-09-16"
     }
-  ]
+  ],
+  "advertisingManagement": {
+    "status": "owner_managed",
+    "effectiveDate": "2026-09-19",
+    "note": "Owner requested agent stop advertising work; continue articles and publication only. Do not alter campaigns."
+  }
 }
