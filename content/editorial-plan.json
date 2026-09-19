@@ -343,10 +343,12 @@
       "targetPage": "/احجز-موعد",
       "avoidOverlap": "دليل الاستشارة الأونلاين يشرح اختيار الخدمة؛ هذه المقالة تتناول ملف النتائج وحدود التفسير والتحضير للفحص فقط.",
       "decisionHelp": "الاستعداد للموعد وفهم متى يستفسر القارئ عن الفحوص بدلاً من شراء باقة تلقائياً",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-09-16",
       "bodyWordsExcludingHeadings": 1023,
-      "keywordCheckedAt": "2026-09-16"
+      "keywordCheckedAt": "2026-09-16",
+      "publishedDate": "2026-09-19",
+      "plannedDate": "2026-09-19"
     },
     {
       "topic": "مكملات تكيس المبايض والإينوزيتول: أسئلة قبل الشراء",
@@ -361,10 +363,12 @@
       "targetPage": "/course/تكيس-المبايض",
       "avoidOverlap": "لا يعيد قائمة الوجبات ولا مقارنة الكورس بالاستشارة؛ يشرح قرار المكمل وحدود الأدلة دون بيع مكملات.",
       "decisionHelp": "تقييم ادعاءات المكملات وفهم الدليل والحدود قبل اتخاذ قرار أو اختيار تثقيف منظم",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-09-16",
       "bodyWordsExcludingHeadings": 1028,
-      "keywordCheckedAt": "2026-09-16"
+      "keywordCheckedAt": "2026-09-16",
+      "publishedDate": "2026-09-19",
+      "plannedDate": "2026-09-19"
     },
     {
       "topic": "مذكرات الطعام قبل استشارة التغذية: سجّل بسيط دون لوم",
@@ -379,10 +383,12 @@
       "targetPage": "/احجز-موعد",
       "avoidOverlap": "الدليل العام يذكر التحضير بإيجاز؛ المقال الحالي يشرح أداة محددة مع نموذج محايد وحدودها، لا يعيد اختيار الخدمة.",
       "decisionHelp": "إعداد معلومات مفيدة للموعد مع احترام الخصوصية وتجنب تسجيل قهري أو استنتاج تشخيص",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-09-16",
       "bodyWordsExcludingHeadings": 1025,
-      "keywordCheckedAt": "2026-09-16"
+      "keywordCheckedAt": "2026-09-16",
+      "publishedDate": "2026-09-19",
+      "plannedDate": "2026-09-19"
     },
     {
       "topic": "تكيس المبايض مع وزن طبيعي: أهداف تتجاوز خسارة الوزن",
@@ -397,10 +403,12 @@
       "targetPage": "/course/تكيس-المبايض",
       "avoidOverlap": "لا يعيد النظام الغذائي العام أو تشخيص الكيس؛ يركز على احتياج قارئة لا تسعى لخسارة الوزن واختيار أهداف ومحتوى مناسبين.",
       "decisionHelp": "فهم ملاءمة التثقيف والتغذية عندما لا يكون إنقاص الوزن هدفاً، وصياغة أسئلة للمتابعة",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-09-16",
       "bodyWordsExcludingHeadings": 1048,
-      "keywordCheckedAt": "2026-09-16"
+      "keywordCheckedAt": "2026-09-16",
+      "publishedDate": "2026-09-19",
+      "plannedDate": "2026-09-19"
     }
   ],
   "coverageBatch": {
@@ -753,36 +761,40 @@
     },
     {
       "date": "2026-09-19",
-      "status": "prepared",
-      "websiteStatus": "not_published",
+      "status": "published",
+      "websiteStatus": "published",
       "articles": [
         {
           "key": "consultation-labs",
           "words": 1023,
-          "status": "draft",
+          "status": "published",
           "plannedDate": "2026-09-19",
-          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/تحاليل-قبل-استشارة-التغذية"
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/تحاليل-قبل-استشارة-التغذية",
+          "publishedDate": "2026-09-19"
         },
         {
           "key": "pcos-supplements",
           "words": 1028,
-          "status": "draft",
+          "status": "published",
           "plannedDate": "2026-09-19",
-          "canonicalUrl": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/مكملات-تكيس-المبايض-قبل-الشراء"
+          "canonicalUrl": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/مكملات-تكيس-المبايض-قبل-الشراء",
+          "publishedDate": "2026-09-19"
         },
         {
           "key": "food-diary",
           "words": 1025,
-          "status": "draft",
+          "status": "published",
           "plannedDate": "2026-09-19",
-          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/مذكرات-الطعام-قبل-استشارة-التغذية"
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/مذكرات-الطعام-قبل-استشارة-التغذية",
+          "publishedDate": "2026-09-19"
         },
         {
           "key": "pcos-normal-weight",
           "words": 1048,
-          "status": "draft",
+          "status": "published",
           "plannedDate": "2026-09-19",
-          "canonicalUrl": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/تكيس-المبايض-مع-وزن-طبيعي"
+          "canonicalUrl": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/تكيس-المبايض-مع-وزن-طبيعي",
+          "publishedDate": "2026-09-19"
         }
       ],
       "businessBalance": {
@@ -791,9 +803,9 @@
       },
       "research": "content/editorial-research/2026-09-16.json",
       "blocker": null,
-      "publicationDateNote": "Resumed original four drafts; intended actual publication 2026-09-19, no catch-up batch.",
+      "publicationDateNote": "Original four drafts prepared Sep16 and published Sep19; no catch-up batch.",
       "validation": {
-        "checkedAt": "2026-09-16T08:07:45.564Z",
+        "checkedAt": "2026-09-19T10:56:53.846Z",
         "checkBlog": "pass: 45 articles, 45 unique covers",
         "checkSite": "pass: 93 pages, 177 schemas, 3819 links; existing 588 null-byte warning unchanged",
         "navigation": "pass: 77 breadcrumbs",
@@ -801,10 +813,21 @@
         "categoryGuides": "pass: 31 guides, minimum 552 body words",
         "diffCheck": "pass",
         "coverVisualInspection": "All four covers inspected; modest fictional models/still life and no text artifacts.",
-        "browserPreview": "blocked: browser request-header policy failed to load twice",
-        "production": "Not published; current production sitemap returned HTTP200 with no Sep16 entries."
+        "browserPreview": "All four exact-head previews visually checked; descriptive Arabic TOC anchor verified. Mobile viewport override did not take effect; no mobile verification claimed.",
+        "production": "All four production pages HTTP200, Sep19 dates, HTML equals local after CRLF normalization; six responsive image assets per article HTTP200 and byte matched."
       },
-      "preparedDate": "2026-09-16"
+      "preparedDate": "2026-09-16",
+      "productionCommit": "bec8de3958a98f1fe5b2cf063a9c244b8f0e2f72",
+      "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/33",
+      "verifiedAt": "2026-09-19T10:56:53.846Z",
+      "indexNow": {
+        "submittedAt": "2026-09-19T10:56:59.701Z",
+        "status": 200,
+        "changedUrls": 11
+      },
+      "googleStatus": "live",
+      "googleBlocker": null,
+      "googleCheckedAt": "2026-09-19T11:05:33.503Z"
     }
   ],
   "advertisingManagement": {
