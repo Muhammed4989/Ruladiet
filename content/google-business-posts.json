@@ -90,14 +90,17 @@
         "type": "LEARN_MORE",
         "url": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/مذكرات-الطعام-قبل-استشارة-التغذية"
       },
-      "status": "draft",
+      "status": "live",
       "preparedAt": "2026-09-16T08:05:14.279Z",
-      "submittedAt": null,
-      "checkedAt": null,
-      "postId": null,
+      "submittedAt": "2026-09-19T11:04:06.3377892Z",
+      "checkedAt": "2026-09-19T11:05:33.503Z",
+      "postId": "1212841159771102130",
       "postUrl": null,
-      "blocker": "Awaiting website publication and same-day profile check",
-      "preparedDate": "2026-09-16"
+      "blocker": null,
+      "preparedDate": "2026-09-16",
+      "sourceArticleVerifiedAt": "2026-09-19T10:56:53.846Z",
+      "verification": "Correct Rula Diet clinic profile showed Published 34 seconds ago; Learn more button and uploaded image visible. No same-day post existed before submission.",
+      "uploadedImageFormat": "JPEG converted from the article WebP; Google rejected WebP before submission."
     }
   ],
   "draftQueue": [
