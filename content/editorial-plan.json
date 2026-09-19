@@ -752,36 +752,36 @@
       "googleNote": "Observed pre-existing insulin-resistance update published today; daily Google target already met. No extra post submitted. Clinic-guide draft retained in the Google ledger draftQueue."
     },
     {
-      "date": "2026-09-16",
-      "status": "drafts_browser_unavailable",
+      "date": "2026-09-19",
+      "status": "prepared",
       "websiteStatus": "not_published",
       "articles": [
         {
           "key": "consultation-labs",
           "words": 1023,
           "status": "draft",
-          "plannedDate": "2026-09-16",
+          "plannedDate": "2026-09-19",
           "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/تحاليل-قبل-استشارة-التغذية"
         },
         {
           "key": "pcos-supplements",
           "words": 1028,
           "status": "draft",
-          "plannedDate": "2026-09-16",
+          "plannedDate": "2026-09-19",
           "canonicalUrl": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/مكملات-تكيس-المبايض-قبل-الشراء"
         },
         {
           "key": "food-diary",
           "words": 1025,
           "status": "draft",
-          "plannedDate": "2026-09-16",
+          "plannedDate": "2026-09-19",
           "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/مذكرات-الطعام-قبل-استشارة-التغذية"
         },
         {
           "key": "pcos-normal-weight",
           "words": 1048,
           "status": "draft",
-          "plannedDate": "2026-09-16",
+          "plannedDate": "2026-09-19",
           "canonicalUrl": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/تكيس-المبايض-مع-وزن-طبيعي"
         }
       ],
@@ -790,8 +790,8 @@
         "course": 2
       },
       "research": "content/editorial-research/2026-09-16.json",
-      "blocker": "Browser inventory failed twice: unable to load browser request-header policy. Preview visual review and Google profile verification unavailable; no publication attempted.",
-      "publicationDateNote": "Metadata dates are draft targets only; replace with actual local publication date before merging if publication occurs later.",
+      "blocker": null,
+      "publicationDateNote": "Resumed original four drafts; intended actual publication 2026-09-19, no catch-up batch.",
       "validation": {
         "checkedAt": "2026-09-16T08:07:45.564Z",
         "checkBlog": "pass: 45 articles, 45 unique covers",
@@ -803,7 +803,13 @@
         "coverVisualInspection": "All four covers inspected; modest fictional models/still life and no text artifacts.",
         "browserPreview": "blocked: browser request-header policy failed to load twice",
         "production": "Not published; current production sitemap returned HTTP200 with no Sep16 entries."
-      }
+      },
+      "preparedDate": "2026-09-16"
     }
-  ]
+  ],
+  "advertisingManagement": {
+    "status": "owner_managed",
+    "effectiveDate": "2026-09-19",
+    "note": "Owner requested agent stop advertising work; continue articles and publication only. Do not alter campaigns."
+  }
 }
