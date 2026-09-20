@@ -976,5 +976,17 @@
     "status": "owner_managed",
     "effectiveDate": "2026-09-19",
     "note": "Owner requested agent stop advertising work; continue articles and publication only. Do not alter campaigns."
+  },
+  "visualDirection": {
+    "updated": "2026-09-20",
+    "effectiveFrom": "Next articles after the Sep20 published batch",
+    "policy": "content/editorial-policy.md#article-art-direction-owner-request-2026-09-20",
+    "references": [
+      "images/course-pcos.webp",
+      "images/course-massar.webp",
+      "images/course-rehla.webp",
+      "images/course1.webp"
+    ],
+    "approach": "Mix course-inspired watercolor illustrations with natural photography; warm cream, blush, sage and olive; unique topic-specific compositions, modest clothing and fictional people. Roughly two illustrated covers per four-article batch when appropriate. Keep internal diagrams useful and legible."
   }
 }

@@ -58,3 +58,15 @@ On 2026-09-14 the owner requested stronger local positioning without comparisons
 The next local consultation brief (priority 6, planned for 2026-09-15) addresses searches such as **أفضل عيادة تغذية في إسطنبول** and **أفضل دكتورة تغذية في إسطنبول**. Address the reader's need and accurately name Rula's role; do not assert an objective best ranking, list competitors, repeat keywords unnaturally, or split equivalent phrases into duplicate articles. Link naturally to the biography, author publications, team and booking page. Recheck current public Google reviews and Instagram followers at publication and date each observation. They describe feedback and audience size, not guaranteed outcomes or superiority.
 
 `node scripts/build-author.js` also calls `scripts/rula-profile.js` to synchronize the homepage introduction, CV and shared public-evidence cards from `content/author-rula.json`. Preserve this synchronization after rebuilding author/profile pages. Do not bump `updated` or article dates on routine daily rebuilds unless the underlying biography/evidence actually changes.
+
+## Article art direction (owner request, 2026-09-20)
+
+Apply to future articles after the Sep20 batch. The owner requested that some article designs draw inspiration from the existing course artwork. Visually reviewed references: `images/course-pcos.webp`, `images/course-massar.webp`, `images/course-rehla.webp`, and `images/course1.webp`.
+
+- Mix soft watercolor/editorial illustrations inspired by these covers with natural photographs. Do not make every article use the same style or reuse the course image as its cover.
+- Shared cues: warm cream/beige paper textures, muted blush and peach, sage/olive greens, gentle golden daylight, botanical accents, calm human scenes and spacious compositions. Use paths, reflection, family or learning motifs when relevant to the actual topic.
+- For a normal four-article batch, aim for roughly two illustrated covers and two natural/photo covers when suitable; this is art direction, not a quota that overrides relevance. Vary subjects and compositions rather than repeating a woman holding a cup.
+- Preserve the existing modest-clothing requirement: opaque, loose clothing; no revealing necklines or exposed bodies. Course references guide palette and technique, not exact clothing or poses. Generated people remain fictional, never Rula or patients.
+- Generate new unique covers with the built-in image tool; when useful supply the inspected course files as style references and explicitly request a new composition. Inspect anatomy and content before publishing.
+- Keep the two internal educational diagrams useful, legible and factually accurate. Their colors and subtle framing may echo the course palette; medical diagrams must not become decorative pseudo-anatomy.
+- Preserve responsive 16:9 assets, Arabic descriptive alt text and provenance. Avoid baked-in headlines by default; titles remain accessible HTML. Do not change published Sep20 or older images solely for this preference.
