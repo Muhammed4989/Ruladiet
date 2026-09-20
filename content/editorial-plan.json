@@ -409,6 +409,78 @@
       "keywordCheckedAt": "2026-09-16",
       "publishedDate": "2026-09-19",
       "plannedDate": "2026-09-19"
+    },
+    {
+      "topic": "الرياضة مع تكيس المبايض: كيف تختارين حركة تناسبك؟",
+      "articleKey": "pcos-movement",
+      "primaryKeyword": "الرياضة مع تكيس المبايض",
+      "supportingKeywords": [
+        "المشي وتكيس المبايض",
+        "اختيار تمارين للتكيس"
+      ],
+      "intent": "اختيار نشاط وخدمة مناسبة دون البحث عن تمرين سحري",
+      "businessGoal": "course",
+      "targetPage": "/course/تكيس-المبايض",
+      "avoidOverlap": "مقال التكيس العام يركز على الغذاء، ومقال الوزن الطبيعي على الأهداف؛ هذا المقال يختص بقرار النشاط والبرنامج والعوائق.",
+      "decisionHelp": "اختيار نشاط وخدمة مناسبة دون البحث عن تمرين سحري",
+      "status": "draft",
+      "plannedFor": "2026-09-20",
+      "bodyWordsExcludingHeadings": 1042,
+      "keywordCheckedAt": "2026-09-20"
+    },
+    {
+      "topic": "تكيس المبايض والغلوتين والألبان: هل يلزم المنع؟",
+      "articleKey": "pcos-food-exclusions",
+      "primaryKeyword": "تكيس المبايض والغلوتين والألبان",
+      "supportingKeywords": [
+        "هل الحليب ممنوع للتكيس",
+        "حمية خالية من الغلوتين للتكيس"
+      ],
+      "intent": "تقييم قرار الاستبعاد قبل شراء برنامج أو بدائل خاصة",
+      "businessGoal": "course",
+      "targetPage": "/course/تكيس-المبايض",
+      "avoidOverlap": "لا يعيد جدول وجبات التكيس أو المكملات؛ يعالج حصراً سبب الاستبعاد والتشخيص والبدائل وأسئلة البرامج.",
+      "decisionHelp": "تقييم قرار الاستبعاد قبل شراء برنامج أو بدائل خاصة",
+      "status": "draft",
+      "plannedFor": "2026-09-20",
+      "bodyWordsExcludingHeadings": 1009,
+      "keywordCheckedAt": "2026-09-20"
+    },
+    {
+      "topic": "الطفل الانتقائي في الأكل: متى وكيف تستعدين للاستشارة؟",
+      "articleKey": "selective-eating-consultation",
+      "primaryKeyword": "استشارة تغذية للطفل الانتقائي",
+      "supportingKeywords": [
+        "طفلي انتقائي في الأكل",
+        "متى أراجع اختصاصية تغذية للأطفال"
+      ],
+      "intent": "تحديد جهة الدعم والتحضير للموعد دون تشخيص منزلي",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": "اللانش بوكس مقال أفكار وجبات؛ هذا المقال عن التقييم والانتقائية وسلامة البلع والتحضير للموعد.",
+      "decisionHelp": "تحديد جهة الدعم والتحضير للموعد دون تشخيص منزلي",
+      "status": "draft",
+      "plannedFor": "2026-09-20",
+      "bodyWordsExcludingHeadings": 1052,
+      "keywordCheckedAt": "2026-09-20"
+    },
+    {
+      "topic": "استشارة تغذية للنباتيين: أسئلة وتحضير لخطة تناسبك",
+      "articleKey": "vegan-consultation",
+      "primaryKeyword": "استشارة تغذية للنباتيين",
+      "supportingKeywords": [
+        "تخطيط النظام النباتي",
+        "مكملات النباتيين قبل الاستشارة"
+      ],
+      "intent": "التحضير لخطة نباتية شخصية وتقييم احتياج المتابعة",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": "الخطة الشخصية العامة تشرح الاختيار؛ هذه نية خاصة بتركيب الغذاء النباتي ومراجعة مصادر العناصر والبدائل.",
+      "decisionHelp": "التحضير لخطة نباتية شخصية وتقييم احتياج المتابعة",
+      "status": "draft",
+      "plannedFor": "2026-09-20",
+      "bodyWordsExcludingHeadings": 1068,
+      "keywordCheckedAt": "2026-09-20"
     }
   ],
   "coverageBatch": {
@@ -828,6 +900,43 @@
       "googleStatus": "live",
       "googleBlocker": null,
       "googleCheckedAt": "2026-09-19T11:05:33.503Z"
+    },
+    {
+      "date": "2026-09-20",
+      "status": "prepared",
+      "websiteStatus": "not_published",
+      "articles": [
+        {
+          "key": "pcos-movement",
+          "words": 1042,
+          "status": "draft",
+          "plannedDate": "2026-09-20"
+        },
+        {
+          "key": "pcos-food-exclusions",
+          "words": 1009,
+          "status": "draft",
+          "plannedDate": "2026-09-20"
+        },
+        {
+          "key": "selective-eating-consultation",
+          "words": 1052,
+          "status": "draft",
+          "plannedDate": "2026-09-20"
+        },
+        {
+          "key": "vegan-consultation",
+          "words": 1068,
+          "status": "draft",
+          "plannedDate": "2026-09-20"
+        }
+      ],
+      "businessBalance": {
+        "consultation": 2,
+        "course": 2
+      },
+      "research": "content/editorial-research/2026-09-20.json",
+      "blocker": null
     }
   ],
   "advertisingManagement": {

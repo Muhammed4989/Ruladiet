@@ -632,5 +632,70 @@
     "visual": "images/blog/visual-pcos-normal-weight.svg",
     "secondVisual": "images/blog/visual-pcos-normal-weight-questions.svg",
     "note": "Original generated illustration for this project. Fictional people, no real patient or outcome. Educational SVG diagrams generated locally."
+  },
+  {
+    "key": "pcos-movement",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-20",
+    "prompt": "Fictional modest Arab adult woman walking in a green park, calm morning, 16:9 editorial photo, opaque long sleeves and hijab, no text or outcome claim.",
+    "sourceMaster": "../marketing/2026-09-20/pcos-movement.png",
+    "cover": "images/blog/pcos-movement-1280.webp",
+    "responsive": [
+      "images/blog/pcos-movement-400.webp",
+      "images/blog/pcos-movement-800.webp",
+      "images/blog/pcos-movement-1280.webp"
+    ],
+    "visual": "images/blog/visual-pcos-movement.svg",
+    "secondVisual": "images/blog/visual-pcos-movement-questions.svg",
+    "note": "Original generated project image; fictional people, no real patients. Two original educational SVG diagrams."
+  },
+  {
+    "key": "pcos-food-exclusions",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-20",
+    "prompt": "16:9 calm natural still life of milk, wholegrain bread and blank notebook on sage cream kitchen table; no text, logos or medical claims.",
+    "sourceMaster": "../marketing/2026-09-20/pcos-food-exclusions.png",
+    "cover": "images/blog/pcos-food-exclusions-1280.webp",
+    "responsive": [
+      "images/blog/pcos-food-exclusions-400.webp",
+      "images/blog/pcos-food-exclusions-800.webp",
+      "images/blog/pcos-food-exclusions-1280.webp"
+    ],
+    "visual": "images/blog/visual-pcos-food-exclusions.svg",
+    "secondVisual": "images/blog/visual-pcos-food-exclusions-questions.svg",
+    "note": "Original generated project image; fictional people, no real patients. Two original educational SVG diagrams."
+  },
+  {
+    "key": "selective-eating-consultation",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-20",
+    "prompt": "Fictional modest hijabi mother and fully clothed child in a calm home dining conversation, no feeding pressure, soft natural light, no text or testimonial.",
+    "sourceMaster": "../marketing/2026-09-20/selective-eating-consultation.png",
+    "cover": "images/blog/selective-eating-consultation-1280.webp",
+    "responsive": [
+      "images/blog/selective-eating-consultation-400.webp",
+      "images/blog/selective-eating-consultation-800.webp",
+      "images/blog/selective-eating-consultation-1280.webp"
+    ],
+    "visual": "images/blog/visual-selective-eating-consultation.svg",
+    "secondVisual": "images/blog/visual-selective-eating-consultation-questions.svg",
+    "note": "Original generated project image; fictional people, no real patients. Two original educational SVG diagrams."
+  },
+  {
+    "key": "vegan-consultation",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-20",
+    "prompt": "Fictional modest hijabi adult comparing plain plant-based cartons in a bright kitchen with notebook, human planning moment, 16:9 no logos or health promises.",
+    "sourceMaster": "../marketing/2026-09-20/vegan-consultation-fixed.png",
+    "cover": "images/blog/vegan-consultation-1280.webp",
+    "responsive": [
+      "images/blog/vegan-consultation-400.webp",
+      "images/blog/vegan-consultation-800.webp",
+      "images/blog/vegan-consultation-1280.webp"
+    ],
+    "visual": "images/blog/visual-vegan-consultation.svg",
+    "secondVisual": "images/blog/visual-vegan-consultation-questions.svg",
+    "note": "Original generated project image; fictional people, no real patients. Two original educational SVG diagrams.",
+    "editNote": "Built-in imagegen removed an extra generated hand; final two-hand anatomy visually verified."
   }
 ]

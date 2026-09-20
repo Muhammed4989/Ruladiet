@@ -1,0 +1,108 @@
+{
+  "date": "2026-09-20",
+  "reviewedArticleCount": 45,
+  "method": "Fetched origin/master, clean worktree. Live sitemap and both offer pages HTTP200 with zero Sep20 date entries. Full catalog reviewed for intent overlap. Primary-source searches checked current official guidance; Arabic demand remains a hypothesis without Search Console query data. No volume or ranking claims.",
+  "sources": [
+    {
+      "name": "جامعة موناش: التوصيات الدولية لتكيس المبايض",
+      "url": "https://www.monash.edu/__data/assets/pdf_file/0003/3379521/Evidence-Based-Guidelines-2023.pdf"
+    },
+    {
+      "name": "منظمة الصحة العالمية: النشاط البدني",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+    },
+    {
+      "name": "NIDDK: تغيير العادات",
+      "url": "https://www.niddk.nih.gov/health-information/diet-nutrition/changing-habits-better-health"
+    },
+    {
+      "name": "NIDDK: تشخيص الداء البطني",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/diagnosis"
+    },
+    {
+      "name": "NIDDK: عدم تحمل اللاكتوز",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/lactose-intolerance/definition-facts"
+    },
+    {
+      "name": "NHS: التغذية النباتية الكاملة",
+      "url": "https://www.nhs.uk/live-well/eat-well/how-to-eat-a-balanced-diet/the-vegan-diet/"
+    },
+    {
+      "name": "NHS: انتقائية الأكل لدى الصغار",
+      "url": "https://www.nhs.uk/baby/weaning-and-feeding/fussy-eaters/"
+    },
+    {
+      "name": "NHS: صعوبة البلع",
+      "url": "https://www.nhs.uk/symptoms/swallowing-problems-dysphagia/"
+    },
+    {
+      "name": "NHS: سوء التغذية ومشكلات النمو",
+      "url": "https://www.nhs.uk/conditions/malnutrition/"
+    },
+    {
+      "name": "NHS County Durham: تغذية الطفل الانتقائي",
+      "url": "https://www.cddft.nhs.uk/services/nutrition-dietetics/children/selective-eaters"
+    },
+    {
+      "name": "NIH: فيتامين باثني عشر",
+      "url": "https://ods.od.nih.gov/factsheets/VitaminB12-Consumer/"
+    },
+    {
+      "name": "NIH: الحديد",
+      "url": "https://ods.od.nih.gov/factsheets/Iron-Consumer/"
+    }
+  ],
+  "briefs": [
+    {
+      "key": "pcos-movement",
+      "primaryKeyword": "الرياضة مع تكيس المبايض",
+      "supporting": [
+        "المشي وتكيس المبايض",
+        "اختيار تمارين للتكيس"
+      ],
+      "intent": "اختيار نشاط وخدمة مناسبة دون البحث عن تمرين سحري",
+      "overlap": "مقال التكيس العام يركز على الغذاء، ومقال الوزن الطبيعي على الأهداف؛ هذا المقال يختص بقرار النشاط والبرنامج والعوائق.",
+      "goal": "course"
+    },
+    {
+      "key": "pcos-food-exclusions",
+      "primaryKeyword": "تكيس المبايض والغلوتين والألبان",
+      "supporting": [
+        "هل الحليب ممنوع للتكيس",
+        "حمية خالية من الغلوتين للتكيس"
+      ],
+      "intent": "تقييم قرار الاستبعاد قبل شراء برنامج أو بدائل خاصة",
+      "overlap": "لا يعيد جدول وجبات التكيس أو المكملات؛ يعالج حصراً سبب الاستبعاد والتشخيص والبدائل وأسئلة البرامج.",
+      "goal": "course"
+    },
+    {
+      "key": "selective-eating-consultation",
+      "primaryKeyword": "استشارة تغذية للطفل الانتقائي",
+      "supporting": [
+        "طفلي انتقائي في الأكل",
+        "متى أراجع اختصاصية تغذية للأطفال"
+      ],
+      "intent": "تحديد جهة الدعم والتحضير للموعد دون تشخيص منزلي",
+      "overlap": "اللانش بوكس مقال أفكار وجبات؛ هذا المقال عن التقييم والانتقائية وسلامة البلع والتحضير للموعد.",
+      "goal": "consultation"
+    },
+    {
+      "key": "vegan-consultation",
+      "primaryKeyword": "استشارة تغذية للنباتيين",
+      "supporting": [
+        "تخطيط النظام النباتي",
+        "مكملات النباتيين قبل الاستشارة"
+      ],
+      "intent": "التحضير لخطة نباتية شخصية وتقييم احتياج المتابعة",
+      "overlap": "الخطة الشخصية العامة تشرح الاختيار؛ هذه نية خاصة بتركيب الغذاء النباتي ومراجعة مصادر العناصر والبدائل.",
+      "goal": "consultation"
+    }
+  ],
+  "offerScope": "PCOS live page and source curriculum read: educational, not exercise prescription or allergy diagnosis. Booking live; no prices or pediatric specialist credentials invented. Ask service suitability.",
+  "googlePolicyChecked": "2026-09-20",
+  "googlePolicySources": [
+    "https://support.google.com/business/answer/7342169?hl=en",
+    "https://support.google.com/business/answer/7400114?hl=en"
+  ],
+  "keywordCheck": "Arabic query samples showed exclusion-diet claims, selective-eating care intent and plant-based consultation offers. Used only to qualify intent, not as medical references or search-volume evidence. Primary guideline exercise recommendation 3.4.1 verified in official indexed PDF; direct PDF extraction unavailable."
+}
