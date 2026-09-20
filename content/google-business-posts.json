@@ -12,8 +12,8 @@
     "fid": "9264577843169494728"
   },
   "access": {
-    "lastChecked": "2026-09-15",
-    "verifiedAt": "2026-09-15T10:08:27.624Z",
+    "lastChecked": "2026-09-20",
+    "verifiedAt": "2026-09-20T06:53:31.558Z",
     "status": "verified_management_access",
     "note": "Owner selected the managing Google account and confirmed login. Rula Diet name, Başakşehir address, ruladiet.com website, matching hexadecimal CID and You manage this Business Profile were visible. Posts and Booking controls opened successfully. Reverify identity if account order changes."
   },
@@ -112,13 +112,17 @@
         "type": "LEARN_MORE",
         "url": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/الرياضة-مع-تكيس-المبايض"
       },
-      "status": "draft",
+      "status": "live",
       "preparedAt": "2026-09-20T06:42:58.704Z",
-      "submittedAt": null,
-      "checkedAt": null,
-      "postId": null,
+      "submittedAt": "2026-09-20T06:51:09.722Z",
+      "checkedAt": "2026-09-20T06:53:31.558Z",
+      "postId": "7975720168125690281",
       "postUrl": null,
-      "blocker": "Awaiting verified article publication and same-day Google UI check"
+      "blocker": null,
+      "sourceArticleVerifiedAt": "2026-09-20T06:47:57.945Z",
+      "duplicateCheck": "Correct managed Rula Diet profile; most recent post yesterday, only future scheduled Sep22 and Sep29. No Sep20 post.",
+      "verification": "Correct managed Rula Diet profile showed Published 47 seconds ago with image and Learn more button. Submitted once.",
+      "uploadedImageFormat": "JPEG"
     }
   ],
   "draftQueue": [
