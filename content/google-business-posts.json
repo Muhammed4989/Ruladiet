@@ -101,6 +101,24 @@
       "sourceArticleVerifiedAt": "2026-09-19T10:56:53.846Z",
       "verification": "Correct Rula Diet clinic profile showed Published 34 seconds ago; Learn more button and uploaded image visible. No same-day post existed before submission.",
       "uploadedImageFormat": "JPEG converted from the article WebP; Google rejected WebP before submission."
+    },
+    {
+      "date": "2026-09-20",
+      "articleKey": "pcos-movement",
+      "canonicalUrl": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/الرياضة-مع-تكيس-المبايض",
+      "text": "اختيار حركة تناسب يومك يبدأ بسؤال بسيط: ما النشاط الذي تستطيعين تكراره ضمن وقتك وظروفك؟\n\nقبل شراء اشتراك رياضي، قارني وقت الانتقال والمكان والتكلفة وطريقة شرح التمارين. اكتبي عائقاً متوقعاً وخياراً بديلاً لليوم المزدحم، بدلاً من الاعتماد على جدول مثالي يصعب تطبيقه.\n\nفي مقال رولا دايت الجديد عن الرياضة مع تكيس المبايض، نرتب أسئلة اختيار النشاط وحدود البرامج العامة، ونوضح الفرق بين فهم الحالة والحاجة إلى تقييم فردي. لا يوجد تمرين واحد يناسب الجميع، والكورس التثقيفي لا يستبدل التقييم الطبي أو برنامجاً شخصياً. اقرئي الدليل عبر زر معرفة المزيد. الصورة توضيحية لشخصيات خيالية، وليست لمريضات أو نتائج علاج.",
+      "imagePath": "images/blog/pcos-movement-1280.webp",
+      "button": {
+        "type": "LEARN_MORE",
+        "url": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/الرياضة-مع-تكيس-المبايض"
+      },
+      "status": "draft",
+      "preparedAt": "2026-09-20T06:42:58.704Z",
+      "submittedAt": null,
+      "checkedAt": null,
+      "postId": null,
+      "postUrl": null,
+      "blocker": "Awaiting verified article publication and same-day Google UI check"
     }
   ],
   "draftQueue": [

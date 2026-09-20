@@ -245,6 +245,10 @@
     "consultation-labs": "nutrition-basics",
     "pcos-supplements": "pcos",
     "food-diary": "nutrition-basics",
-    "pcos-normal-weight": "pcos"
+    "pcos-normal-weight": "pcos",
+    "pcos-movement": "pcos",
+    "pcos-food-exclusions": "pcos",
+    "selective-eating-consultation": "children",
+    "vegan-consultation": "nutrition-basics"
   }
 }
