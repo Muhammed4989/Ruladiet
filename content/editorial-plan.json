@@ -975,7 +975,9 @@
   "advertisingManagement": {
     "status": "owner_managed",
     "effectiveDate": "2026-09-19",
-    "note": "Owner requested agent stop advertising work; continue articles and publication only. Do not alter campaigns."
+    "note": "Owner explicitly instructed: never open Meta again. Do not open, navigate to, inspect, or interact with Meta, Facebook, Instagram, Ads Manager or Business Suite, including existing tabs. Ambient browser context is not authorization. Advertising remains owner-managed. Continue website articles and Google Business publication only.",
+    "accessProhibited": true,
+    "updated": "2026-09-21"
   },
   "visualDirection": {
     "updated": "2026-09-20",

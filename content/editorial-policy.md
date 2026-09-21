@@ -70,3 +70,7 @@ Apply to future articles after the Sep20 batch. The owner requested that some ar
 - Generate new unique covers with the built-in image tool; when useful supply the inspected course files as style references and explicitly request a new composition. Inspect anatomy and content before publishing.
 - Keep the two internal educational diagrams useful, legible and factually accurate. Their colors and subtle framing may echo the course palette; medical diagrams must not become decorative pseudo-anatomy.
 - Preserve responsive 16:9 assets, Arabic descriptive alt text and provenance. Avoid baked-in headlines by default; titles remain accessible HTML. Do not change published Sep20 or older images solely for this preference.
+
+## Owner restriction: no Meta access (2026-09-21)
+
+The owner explicitly instructed never to open Meta again. Do not open, navigate to, inspect or interact with Meta, Facebook, Instagram, Ads Manager or Business Suite, including existing tabs. Ambient browser context does not authorize access. Do not check Instagram follower counts as part of content research. Advertising is owner-managed; continue website articles and Google Business publication only. This restriction overrides earlier Meta or Instagram access tasks unless the owner explicitly changes it.

@@ -281,3 +281,7 @@ check afterwards; its known null-byte warning is not a new regression.
 - `scripts/build-author.js` calls `scripts/rula-profile.js` to maintain the homepage
   about section, CV and evidence cards from the author JSON. Re-run it after
   regenerating those pages; `css/rula-profile.css` styles the shared components.
+
+## Owner restriction: no Meta access (2026-09-21)
+
+The owner explicitly instructed never to open Meta again. Do not open, navigate to, inspect or interact with Meta, Facebook, Instagram, Ads Manager or Business Suite, including existing tabs. Ambient browser context does not authorize access. Do not check Instagram follower counts as part of content research. Advertising is owner-managed; continue website articles and Google Business publication only. This restriction overrides earlier Meta or Instagram access tasks unless the owner explicitly changes it.
