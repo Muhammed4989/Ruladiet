@@ -499,10 +499,11 @@
       "targetPage": "/course/تكيس-المبايض",
       "avoidOverlap": "مقال التكيس أم استشارة يقارن شكل الخدمة؛ الجديد يركز على صورة الجسم والضيق النفسي وحدود دور الكورس، ولا يعيد غذاء التكيس.",
       "decisionHelp": "تحديد نوع الدعم وحدود التثقيف قبل الاشتراك",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-09-21",
       "bodyWordsExcludingHeadings": 1018,
-      "keywordCheckedAt": "2026-09-21"
+      "keywordCheckedAt": "2026-09-21",
+      "publishedDate": "2026-09-21"
     },
     {
       "topic": "التغذية الصحية بميزانية محدودة: مهارات قبل الشراء",
@@ -517,10 +518,11 @@
       "targetPage": "/course/المسار-الصحي",
       "avoidOverlap": "تجهيز الوجبات يركز على التحضير؛ الملصقات على المعلومات الغذائية؛ الجديد يركز على تكلفة الاستخدام والعبوات وكلفة تطبيق التعلم.",
       "decisionHelp": "تقييم مهارات الشراء والتكلفة الفعلية قبل اختيار محتوى تعليمي",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-09-21",
       "bodyWordsExcludingHeadings": 1059,
-      "keywordCheckedAt": "2026-09-21"
+      "keywordCheckedAt": "2026-09-21",
+      "publishedDate": "2026-09-21"
     },
     {
       "topic": "استشارة تغذية للقولون العصبي: التحضير وأسئلة الفودماب",
@@ -535,10 +537,11 @@
       "targetPage": "/احجز-موعد",
       "avoidOverlap": "لا يوجد مقال متخصص بالقولون؛ مذكرات الطعام أداة عامة، والجديد عن التشخيص ومراحل الفودماب والقيود الهضمية.",
       "decisionHelp": "التحضير لمتابعة غذائية بعد التقييم الطبي وفحص حدود خدمة الفودماب",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-09-21",
       "bodyWordsExcludingHeadings": 1041,
-      "keywordCheckedAt": "2026-09-21"
+      "keywordCheckedAt": "2026-09-21",
+      "publishedDate": "2026-09-21"
     },
     {
       "topic": "استشارة تغذية لسكري الحمل: ماذا تحضرين وتسألين؟",
@@ -553,10 +556,11 @@
       "targetPage": "/احجز-موعد",
       "avoidOverlap": "تغذية الحمل العامة لا تغطي قرار متابعة سكري الحمل والسجلات؛ مقال السكري2 مختلف في الفئة والاحتياجات.",
       "decisionHelp": "الاستعداد لاستشارة تنسق مع فريق الحمل دون تغيير الدواء أو الحصص ذاتياً",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-09-21",
       "bodyWordsExcludingHeadings": 1017,
-      "keywordCheckedAt": "2026-09-21"
+      "keywordCheckedAt": "2026-09-21",
+      "publishedDate": "2026-09-21"
     }
   ],
   "coverageBatch": {
@@ -1045,32 +1049,40 @@
     },
     {
       "date": "2026-09-21",
-      "status": "prepared",
-      "websiteStatus": "not_published",
+      "status": "published",
+      "websiteStatus": "published",
       "articles": [
         {
           "key": "pcos-emotional-support",
           "words": 1018,
-          "status": "draft",
-          "plannedDate": "2026-09-21"
+          "status": "published",
+          "plannedDate": "2026-09-21",
+          "canonicalUrl": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/الدعم-النفسي-مع-تكيس-المبايض",
+          "publishedDate": "2026-09-21"
         },
         {
           "key": "budget-nutrition-learning",
           "words": 1059,
-          "status": "draft",
-          "plannedDate": "2026-09-21"
+          "status": "published",
+          "plannedDate": "2026-09-21",
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/الملصقات-والتسوق/التغذية-الصحية-بميزانية-محدودة",
+          "publishedDate": "2026-09-21"
         },
         {
           "key": "ibs-consultation",
           "words": 1041,
-          "status": "draft",
-          "plannedDate": "2026-09-21"
+          "status": "published",
+          "plannedDate": "2026-09-21",
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/استشارة-تغذية-للقولون-العصبي",
+          "publishedDate": "2026-09-21"
         },
         {
           "key": "gestational-diabetes-consultation",
           "words": 1017,
-          "status": "draft",
-          "plannedDate": "2026-09-21"
+          "status": "published",
+          "plannedDate": "2026-09-21",
+          "canonicalUrl": "https://ruladiet.com/blog/category/تغذية-الأسرة/تغذية-الحوامل/استشارة-تغذية-لسكري-الحمل",
+          "publishedDate": "2026-09-21"
         }
       ],
       "businessBalance": {
@@ -1078,7 +1090,29 @@
         "course": 2
       },
       "research": "content/editorial-research/2026-09-21.json",
-      "blocker": null
+      "blocker": null,
+      "productionCommit": "06e398457425f6695dbb0972feb10fdf3507c28c",
+      "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/39",
+      "verifiedAt": "2026-09-21T07:54:38.933Z",
+      "indexNow": {
+        "submittedAt": "2026-09-21T07:54:42.516Z",
+        "status": 200,
+        "changedUrls": 14
+      },
+      "validation": {
+        "checkBlog": "53 articles,53 covers,0 errors",
+        "checkSite": "101 pages,193 schemas,4132 links,98 sitemap URLs,0 errors; existing588NUL warning unchanged",
+        "navigation": "409 headings,85 breadcrumbs,0 errors",
+        "migration": "1113 redirect variants,1202 assets,0 errors",
+        "categoryGuides": "31 guides,min552 body words,0 errors",
+        "diffCheck": "pass",
+        "browserPreview": "Four previews visually reviewed, final grammar revision preview reloaded and exact-head Vercel passed; descriptive Arabic TOC link tested. No layout changes or mobile verification claimed.",
+        "production": "All four live HTML equal local after CRLF normalization; Sep21 dates; six referenced assets per page HTTP200 and byte matched."
+      },
+      "googleStatus": "live",
+      "googleCheckedAt": "2026-09-21T08:07:34.174Z",
+      "googlePostId": "7621719336271311959",
+      "googleBlocker": null
     }
   ],
   "advertisingManagement": {
