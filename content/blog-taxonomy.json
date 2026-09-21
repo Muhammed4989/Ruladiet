@@ -249,6 +249,10 @@
     "pcos-movement": "pcos",
     "pcos-food-exclusions": "pcos",
     "selective-eating-consultation": "children",
-    "vegan-consultation": "nutrition-basics"
+    "vegan-consultation": "nutrition-basics",
+    "pcos-emotional-support": "pcos",
+    "budget-nutrition-learning": "labels-shopping",
+    "ibs-consultation": "nutrition-basics",
+    "gestational-diabetes-consultation": "pregnancy"
   }
 }

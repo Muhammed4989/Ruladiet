@@ -1,0 +1,124 @@
+{
+  "date": "2026-09-21",
+  "reviewedArticleCount": 49,
+  "method": "Fetched origin/master 62bafbd; clean worktree; live sitemap HTTP200 and no Sep21 dates. Full 49-article catalog and briefs reviewed for overlap. Current primary medical sources and Arabic search results checked; no Search Console query dataset used, no volume or ranking claims. Query opportunities remain editorial hypotheses.",
+  "sources": [
+    {
+      "name": "منظمة الصحة العالمية: تكيس المبايض",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/polycystic-ovary-syndrome",
+      "checked": "2026-09-21"
+    },
+    {
+      "name": "NIMH: اضطرابات الأكل",
+      "url": "https://www.nimh.nih.gov/health/publications/eating-disorders",
+      "checked": "2026-09-21"
+    },
+    {
+      "name": "NIMH: الاكتئاب",
+      "url": "https://www.nimh.nih.gov/health/publications/depression",
+      "checked": "2026-09-21"
+    },
+    {
+      "name": "الحكومة الكندية: التغذية ضمن الميزانية",
+      "url": "https://www.canada.ca/en/health-canada/services/food-guide/eating-support/meal-planning-grocery-shopping/healthy-eating-budget.html",
+      "checked": "2026-09-21"
+    },
+    {
+      "name": "NHS: دليل الغذاء المتوازن",
+      "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/the-eatwell-guide/",
+      "checked": "2026-09-21"
+    },
+    {
+      "name": "FoodSafety.gov: خطوات سلامة الغذاء",
+      "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety",
+      "checked": "2026-09-21"
+    },
+    {
+      "name": "NIDDK: تشخيص القولون العصبي",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/irritable-bowel-syndrome/diagnosis",
+      "checked": "2026-09-21"
+    },
+    {
+      "name": "NIDDK: التغذية والقولون العصبي",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/irritable-bowel-syndrome/eating-diet-nutrition",
+      "checked": "2026-09-21"
+    },
+    {
+      "name": "جامعة موناش: مراحل الفودماب",
+      "url": "https://www.monashfodmap.com/blog/3-phases-low-fodmap-diet/",
+      "checked": "2026-09-21"
+    },
+    {
+      "name": "NIDDK: تشخيص الداء البطني",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/diagnosis",
+      "checked": "2026-09-21"
+    },
+    {
+      "name": "NHS: علاج سكري الحمل",
+      "url": "https://www.nhs.uk/conditions/gestational-diabetes/treatment/",
+      "checked": "2026-09-21"
+    },
+    {
+      "name": "NIDDK: سكري الحمل",
+      "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/gestational",
+      "checked": "2026-09-21"
+    },
+    {
+      "name": "NHS: سلامة الأطعمة في الحمل",
+      "url": "https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/",
+      "checked": "2026-09-21"
+    }
+  ],
+  "briefs": [
+    {
+      "key": "pcos-emotional-support",
+      "primaryKeyword": "الدعم النفسي مع تكيس المبايض",
+      "supporting": [
+        "تكيس المبايض وصورة الجسم",
+        "حدود كورس التكيس"
+      ],
+      "intent": "تحديد نوع الدعم وحدود التثقيف قبل الاشتراك",
+      "overlap": "مقال التكيس أم استشارة يقارن شكل الخدمة؛ الجديد يركز على صورة الجسم والضيق النفسي وحدود دور الكورس، ولا يعيد غذاء التكيس.",
+      "goal": "course"
+    },
+    {
+      "key": "budget-nutrition-learning",
+      "primaryKeyword": "التغذية الصحية بميزانية محدودة",
+      "supporting": [
+        "التسوق الصحي بميزانية",
+        "تكلفة تطبيق برنامج غذائي"
+      ],
+      "intent": "تقييم مهارات الشراء والتكلفة الفعلية قبل اختيار محتوى تعليمي",
+      "overlap": "تجهيز الوجبات يركز على التحضير؛ الملصقات على المعلومات الغذائية؛ الجديد يركز على تكلفة الاستخدام والعبوات وكلفة تطبيق التعلم.",
+      "goal": "course"
+    },
+    {
+      "key": "ibs-consultation",
+      "primaryKeyword": "استشارة تغذية للقولون العصبي",
+      "supporting": [
+        "التحضير لحمية الفودماب",
+        "إعادة إدخال الأطعمة والقولون العصبي"
+      ],
+      "intent": "التحضير لمتابعة غذائية بعد التقييم الطبي وفحص حدود خدمة الفودماب",
+      "overlap": "لا يوجد مقال متخصص بالقولون؛ مذكرات الطعام أداة عامة، والجديد عن التشخيص ومراحل الفودماب والقيود الهضمية.",
+      "goal": "consultation"
+    },
+    {
+      "key": "gestational-diabetes-consultation",
+      "primaryKeyword": "استشارة تغذية لسكري الحمل",
+      "supporting": [
+        "التحضير لموعد سكري الحمل",
+        "أسئلة الوجبات وقياس السكر للحامل"
+      ],
+      "intent": "الاستعداد لاستشارة تنسق مع فريق الحمل دون تغيير الدواء أو الحصص ذاتياً",
+      "overlap": "تغذية الحمل العامة لا تغطي قرار متابعة سكري الحمل والسجلات؛ مقال السكري2 مختلف في الفئة والاحتياجات.",
+      "goal": "consultation"
+    }
+  ],
+  "offerScope": "Live PCOS, Healthy Path and booking pages HTTP200 read. PCOS curriculum matches source JSON: 33 recorded lessons, five modules. Healthy Path publicly lists shopping and label-reading topics. No prices, certificates or individual treatment invented in these articles. Consultation availability/appropriateness to be confirmed with clinic. No Meta access.",
+  "googlePolicyChecked": "2026-09-21",
+  "googlePolicySources": [
+    "https://support.google.com/business/answer/7342169?hl=en",
+    "https://support.google.com/business/answer/7400114?hl=en"
+  ]
+}

@@ -485,6 +485,78 @@
       "bodyWordsExcludingHeadings": 1068,
       "keywordCheckedAt": "2026-09-20",
       "publishedDate": "2026-09-20"
+    },
+    {
+      "topic": "الدعم النفسي مع تكيس المبايض: كيف تختارين المساندة؟",
+      "articleKey": "pcos-emotional-support",
+      "primaryKeyword": "الدعم النفسي مع تكيس المبايض",
+      "supportingKeywords": [
+        "تكيس المبايض وصورة الجسم",
+        "حدود كورس التكيس"
+      ],
+      "intent": "تحديد نوع الدعم وحدود التثقيف قبل الاشتراك",
+      "businessGoal": "course",
+      "targetPage": "/course/تكيس-المبايض",
+      "avoidOverlap": "مقال التكيس أم استشارة يقارن شكل الخدمة؛ الجديد يركز على صورة الجسم والضيق النفسي وحدود دور الكورس، ولا يعيد غذاء التكيس.",
+      "decisionHelp": "تحديد نوع الدعم وحدود التثقيف قبل الاشتراك",
+      "status": "draft",
+      "plannedFor": "2026-09-21",
+      "bodyWordsExcludingHeadings": 1018,
+      "keywordCheckedAt": "2026-09-21"
+    },
+    {
+      "topic": "التغذية الصحية بميزانية محدودة: مهارات قبل الشراء",
+      "articleKey": "budget-nutrition-learning",
+      "primaryKeyword": "التغذية الصحية بميزانية محدودة",
+      "supportingKeywords": [
+        "التسوق الصحي بميزانية",
+        "تكلفة تطبيق برنامج غذائي"
+      ],
+      "intent": "تقييم مهارات الشراء والتكلفة الفعلية قبل اختيار محتوى تعليمي",
+      "businessGoal": "course",
+      "targetPage": "/course/المسار-الصحي",
+      "avoidOverlap": "تجهيز الوجبات يركز على التحضير؛ الملصقات على المعلومات الغذائية؛ الجديد يركز على تكلفة الاستخدام والعبوات وكلفة تطبيق التعلم.",
+      "decisionHelp": "تقييم مهارات الشراء والتكلفة الفعلية قبل اختيار محتوى تعليمي",
+      "status": "draft",
+      "plannedFor": "2026-09-21",
+      "bodyWordsExcludingHeadings": 1059,
+      "keywordCheckedAt": "2026-09-21"
+    },
+    {
+      "topic": "استشارة تغذية للقولون العصبي: التحضير وأسئلة الفودماب",
+      "articleKey": "ibs-consultation",
+      "primaryKeyword": "استشارة تغذية للقولون العصبي",
+      "supportingKeywords": [
+        "التحضير لحمية الفودماب",
+        "إعادة إدخال الأطعمة والقولون العصبي"
+      ],
+      "intent": "التحضير لمتابعة غذائية بعد التقييم الطبي وفحص حدود خدمة الفودماب",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": "لا يوجد مقال متخصص بالقولون؛ مذكرات الطعام أداة عامة، والجديد عن التشخيص ومراحل الفودماب والقيود الهضمية.",
+      "decisionHelp": "التحضير لمتابعة غذائية بعد التقييم الطبي وفحص حدود خدمة الفودماب",
+      "status": "draft",
+      "plannedFor": "2026-09-21",
+      "bodyWordsExcludingHeadings": 1041,
+      "keywordCheckedAt": "2026-09-21"
+    },
+    {
+      "topic": "استشارة تغذية لسكري الحمل: ماذا تحضرين وتسألين؟",
+      "articleKey": "gestational-diabetes-consultation",
+      "primaryKeyword": "استشارة تغذية لسكري الحمل",
+      "supportingKeywords": [
+        "التحضير لموعد سكري الحمل",
+        "أسئلة الوجبات وقياس السكر للحامل"
+      ],
+      "intent": "الاستعداد لاستشارة تنسق مع فريق الحمل دون تغيير الدواء أو الحصص ذاتياً",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": "تغذية الحمل العامة لا تغطي قرار متابعة سكري الحمل والسجلات؛ مقال السكري2 مختلف في الفئة والاحتياجات.",
+      "decisionHelp": "الاستعداد لاستشارة تنسق مع فريق الحمل دون تغيير الدواء أو الحصص ذاتياً",
+      "status": "draft",
+      "plannedFor": "2026-09-21",
+      "bodyWordsExcludingHeadings": 1017,
+      "keywordCheckedAt": "2026-09-21"
     }
   ],
   "coverageBatch": {
@@ -970,6 +1042,43 @@
       "googleStatus": "live",
       "googleBlocker": null,
       "googleCheckedAt": "2026-09-20T06:53:31.558Z"
+    },
+    {
+      "date": "2026-09-21",
+      "status": "prepared",
+      "websiteStatus": "not_published",
+      "articles": [
+        {
+          "key": "pcos-emotional-support",
+          "words": 1018,
+          "status": "draft",
+          "plannedDate": "2026-09-21"
+        },
+        {
+          "key": "budget-nutrition-learning",
+          "words": 1059,
+          "status": "draft",
+          "plannedDate": "2026-09-21"
+        },
+        {
+          "key": "ibs-consultation",
+          "words": 1041,
+          "status": "draft",
+          "plannedDate": "2026-09-21"
+        },
+        {
+          "key": "gestational-diabetes-consultation",
+          "words": 1017,
+          "status": "draft",
+          "plannedDate": "2026-09-21"
+        }
+      ],
+      "businessBalance": {
+        "consultation": 2,
+        "course": 2
+      },
+      "research": "content/editorial-research/2026-09-21.json",
+      "blocker": null
     }
   ],
   "advertisingManagement": {
