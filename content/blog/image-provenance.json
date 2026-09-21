@@ -697,5 +697,69 @@
     "secondVisual": "images/blog/visual-vegan-consultation-questions.svg",
     "note": "Original generated project image; fictional people, no real patients. Two original educational SVG diagrams.",
     "editNote": "Built-in imagegen removed an extra generated hand; final two-hand anatomy visually verified."
+  },
+  {
+    "key": "pcos-emotional-support",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-21",
+    "prompt": "Create a unique 16:9 editorial watercolor cover for an Arabic article about emotional wellbeing and choosing support with PCOS. A fictional adult Arab woman wearing loose opaque full-length sage clothing with high neckline and a beige hijab, sitting quietly on a garden bench with a closed notebook, a supportive female friend at respectful distance beside her, soft blush flowers and olive foliage, warm cream textured paper and gentle golden light. Calm dignity, no sadness stereotypes, no medical symbolism, no weighing scale, no food, no text, no logo. Course-inspired delicate watercolor, airy professional composition. Not real patients.",
+    "sourceMaster": "../marketing/2026-09-21/pcos-emotional-support.png",
+    "cover": "images/blog/pcos-emotional-support-1280.webp",
+    "responsive": [
+      "images/blog/pcos-emotional-support-400.webp",
+      "images/blog/pcos-emotional-support-800.webp",
+      "images/blog/pcos-emotional-support-1280.webp"
+    ],
+    "visual": "images/blog/visual-pcos-emotional-support.svg",
+    "secondVisual": "images/blog/visual-pcos-emotional-support-questions.svg",
+    "note": "Original generated project cover, inspected. Two original educational SVGs. Fictional people, no real patients; two watercolor covers inspired by course palette, two natural photos."
+  },
+  {
+    "key": "budget-nutrition-learning",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-21",
+    "prompt": "Create a unique 16:9 watercolor editorial cover about eating well on a realistic budget. Overhead three-quarter composition of a wooden kitchen table: an open blank planning notebook, a simple shopping tote, a few lentil jars, seasonal produce, a pencil and reusable containers, no money or prices, no written text. Warm cream paper texture, muted sage olive and peach, subtle botanical edges, gentle golden daylight. Elegant spacious watercolor consistent with nutrition course artwork but distinct composition. No people or logos.",
+    "sourceMaster": "../marketing/2026-09-21/budget-nutrition-learning.png",
+    "cover": "images/blog/budget-nutrition-learning-1280.webp",
+    "responsive": [
+      "images/blog/budget-nutrition-learning-400.webp",
+      "images/blog/budget-nutrition-learning-800.webp",
+      "images/blog/budget-nutrition-learning-1280.webp"
+    ],
+    "visual": "images/blog/visual-budget-nutrition-learning.svg",
+    "secondVisual": "images/blog/visual-budget-nutrition-learning-questions.svg",
+    "note": "Original generated project cover, inspected. Two original educational SVGs. Fictional people, no real patients; two watercolor covers inspired by course palette, two natural photos."
+  },
+  {
+    "key": "ibs-consultation",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-21",
+    "prompt": "Create a unique 16:9 natural editorial photograph for an Arabic article preparing for a nutrition consultation with irritable bowel syndrome. Fictional adult Arab woman in a modest opaque loose long-sleeve high-neck cream outfit and sage hijab sitting at home beside a window, organizing a plain folder and blank notebook, calm thoughtful expression, hands natural, warm daylight, neutral home and small plant. No exposed body, no pain pose, no doctor or clinic, no labels/text/logos, no medical equipment, no implied patient outcome.",
+    "sourceMaster": "../marketing/2026-09-21/ibs-consultation.png",
+    "cover": "images/blog/ibs-consultation-1280.webp",
+    "responsive": [
+      "images/blog/ibs-consultation-400.webp",
+      "images/blog/ibs-consultation-800.webp",
+      "images/blog/ibs-consultation-1280.webp"
+    ],
+    "visual": "images/blog/visual-ibs-consultation.svg",
+    "secondVisual": "images/blog/visual-ibs-consultation-questions.svg",
+    "note": "Original generated project cover, inspected. Two original educational SVGs. Fictional people, no real patients; two watercolor covers inspired by course palette, two natural photos."
+  },
+  {
+    "key": "gestational-diabetes-consultation",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-21",
+    "prompt": "Create a unique 16:9 natural editorial photograph for an Arabic article about preparing for a gestational diabetes nutrition appointment. Fictional visibly pregnant adult Arab woman wearing an opaque loose full-length long-sleeve high-neck blue-gray dress and cream hijab, seated at a home table with her partner in modest long-sleeve clothing, reviewing a blank notebook together, natural thoughtful supportive mood. Warm daylight, quiet cream interior, no exposed belly, no white coats, no medical equipment, no text or logos. Not actual patients or a testimonial.",
+    "sourceMaster": "../marketing/2026-09-21/gestational-diabetes-consultation.png",
+    "cover": "images/blog/gestational-diabetes-consultation-1280.webp",
+    "responsive": [
+      "images/blog/gestational-diabetes-consultation-400.webp",
+      "images/blog/gestational-diabetes-consultation-800.webp",
+      "images/blog/gestational-diabetes-consultation-1280.webp"
+    ],
+    "visual": "images/blog/visual-gestational-diabetes-consultation.svg",
+    "secondVisual": "images/blog/visual-gestational-diabetes-consultation-questions.svg",
+    "note": "Original generated project cover, inspected. Two original educational SVGs. Fictional people, no real patients; two watercolor covers inspired by course palette, two natural photos."
   }
 ]
