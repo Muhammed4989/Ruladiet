@@ -12,8 +12,8 @@
     "fid": "9264577843169494728"
   },
   "access": {
-    "lastChecked": "2026-09-20",
-    "verifiedAt": "2026-09-20T06:53:31.558Z",
+    "lastChecked": "2026-09-21",
+    "verifiedAt": "2026-09-21T07:57:22.588Z",
     "status": "verified_management_access",
     "note": "Owner selected the managing Google account and confirmed login. Rula Diet name, Başakşehir address, ruladiet.com website, matching hexadecimal CID and You manage this Business Profile were visible. Posts and Booking controls opened successfully. Reverify identity if account order changes."
   },
@@ -115,14 +115,43 @@
       "status": "live",
       "preparedAt": "2026-09-20T06:42:58.704Z",
       "submittedAt": "2026-09-20T06:51:09.722Z",
-      "checkedAt": "2026-09-20T06:53:31.558Z",
+      "checkedAt": "2026-09-21T08:07:34.174Z",
       "postId": "7975720168125690281",
       "postUrl": null,
       "blocker": null,
       "sourceArticleVerifiedAt": "2026-09-20T06:47:57.945Z",
       "duplicateCheck": "Correct managed Rula Diet profile; most recent post yesterday, only future scheduled Sep22 and Sep29. No Sep20 post.",
-      "verification": "Correct managed Rula Diet profile showed Published 47 seconds ago with image and Learn more button. Submitted once.",
-      "uploadedImageFormat": "JPEG"
+      "verification": "Sep21 existing post link corrected and persisted exact canonical URL verified by reopening editor. Posts list subsequently showed Published yesterday; no duplicate created.",
+      "uploadedImageFormat": "JPEG",
+      "buttonCorrection": {
+        "checkedAt": "2026-09-21T08:02:31.040Z",
+        "status": "saved_verified",
+        "reason": "Duplicated concatenated URL found in public Learn more link; corrected and reopened editor to verify exact canonical value persisted.",
+        "url": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/الرياضة-مع-تكيس-المبايض"
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "articleKey": "budget-nutrition-learning",
+      "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/الملصقات-والتسوق/التغذية-الصحية-بميزانية-محدودة",
+      "text": "التغذية ضمن الميزانية تبدأ بما يمكنك استخدامه فعلاً، وليس بشراء كل منتج يحمل كلمة صحي.\n\nقبل زيارة المتجر، راجعي الموجود في البيت واختاري وجبتين معتادتين. اكتبي المكونات الناقصة وبديلاً متاحاً لكل منها. قارني سعر الوحدة، ثم اسألي: هل سأستخدم العبوة كاملة قبل أن تتلف؟ العبوة الأكبر ليست دائماً أوفر إذا انتهى جزء منها في المهملات.\n\nفي دليل رولا دايت الجديد نرتب أسئلة تكلفة الطعام والوقت والتخزين، وكيف تختارين محتوى تعليمياً يناسب احتياجاتك دون منتجات خاصة أو وعود بتوفير مبلغ محدد. اقرئي المقال عبر زر معرفة المزيد، وجربي خطوة بسيطة في قائمة التسوق القادمة. الرسم توضيحي مولد، وليس إعلاناً لمنتج.",
+      "imagePath": "images/blog/budget-nutrition-learning-1280.webp",
+      "button": {
+        "type": "LEARN_MORE",
+        "url": "https://ruladiet.com/blog/category/التغذية-اليومية/الملصقات-والتسوق/التغذية-الصحية-بميزانية-محدودة"
+      },
+      "status": "live",
+      "preparedAt": "2026-09-21T07:57:22.553Z",
+      "submittedAt": "2026-09-21T08:02:31.028Z",
+      "checkedAt": "2026-09-21T08:07:34.174Z",
+      "postId": "7621719336271311959",
+      "postUrl": null,
+      "blocker": null,
+      "sourceArticleVerifiedAt": "2026-09-21T07:54:38.933Z",
+      "duplicateCheck": "Correct clinic managed, name/address/website and CID match. Existing newest Sep20 post; no new Sep21 post; future scheduled Sep22/Sep29 preserved.",
+      "uploadedImageFormat": "JPEG",
+      "verification": "Correct clinic showed Published 50 seconds ago. Reopened editor without modification and verified stored Learn more URL exactly matches encoded canonical article URL. Uploaded image and full text visible.",
+      "editorInputNote": "Google editor needs real sequential keystroke to update bound form value; verify persisted URL after submission."
     }
   ],
   "draftQueue": [
