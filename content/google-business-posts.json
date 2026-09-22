@@ -12,8 +12,8 @@
     "fid": "9264577843169494728"
   },
   "access": {
-    "lastChecked": "2026-09-21",
-    "verifiedAt": "2026-09-21T07:57:22.588Z",
+    "lastChecked": "2026-09-22",
+    "verifiedAt": "2026-09-22T07:12:34.628Z",
     "status": "verified_management_access",
     "note": "Owner selected the managing Google account and confirmed login. Rula Diet name, Başakşehir address, ruladiet.com website, matching hexadecimal CID and You manage this Business Profile were visible. Posts and Booking controls opened successfully. Reverify identity if account order changes."
   },
@@ -184,9 +184,14 @@
       "scheduledDate": "2026-09-22",
       "title": "وزنك ثابت؟ قبل أن تلومي الغدة الدرقية",
       "status": "scheduled",
-      "observedAt": "2026-09-15T10:08:27.624Z",
+      "observedAt": "2026-09-22T07:12:34.628Z",
       "source": "existing_google_schedule",
-      "requiresUiRecheck": true
+      "requiresUiRecheck": true,
+      "postId": "1250544067686574753",
+      "scheduledTimeDisplayed": "10:00",
+      "timeZoneDisplayed": null,
+      "buttonUrl": "https://ruladiet.com/blog/%D8%A7%D9%84%D8%BA%D8%AF%D8%A9-%D8%A7%D9%84%D8%AF%D8%B1%D9%82%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D9%88%D8%B2%D9%86",
+      "note": "Read-only editor verification: date22/09/2026,time10:00; existing schedule preserved. No additional Sep22 post submitted."
     },
     {
       "scheduledDate": "2026-09-29",
@@ -200,9 +205,10 @@
   "bookingLink": {
     "url": "https://ruladiet.com/احجز-موعد",
     "savedAt": "2026-09-15T10:08:27.624Z",
-    "status": "saved_public_propagation_pending",
+    "status": "live_verified",
     "savedValueVerified": true,
     "destinationHttpStatus": 200,
-    "note": "Replaced malformed concatenated URL; reopened Booking editor and verified the correctly percent-encoded value persisted. Search result still showed the old URL at the immediate public recheck. Check propagation at the next routine profile visit; do not resave repeatedly."
+    "note": "Sep22 public Google profile appointment link now points to the correct single booking URL; no further edit made.",
+    "checkedAt": "2026-09-22T07:12:34.628Z"
   }
 }

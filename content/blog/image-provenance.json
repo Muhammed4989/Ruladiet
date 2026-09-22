@@ -761,5 +761,69 @@
     "visual": "images/blog/visual-gestational-diabetes-consultation.svg",
     "secondVisual": "images/blog/visual-gestational-diabetes-consultation-questions.svg",
     "note": "Original generated project cover, inspected. Two original educational SVGs. Fictional people, no real patients; two watercolor covers inspired by course palette, two natural photos."
+  },
+  {
+    "key": "pcos-sleep-assessment",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-22",
+    "prompt": "16:9 editorial watercolor, warm cream paper sage olive blush peach, modest woman with sleep notebook by bedroom morning window, fictional model, calm airy botanical course-inspired art, no text or logo.",
+    "sourceMaster": "../marketing/2026-09-22/pcos-sleep-assessment.png",
+    "cover": "images/blog/pcos-sleep-assessment-1280.webp",
+    "responsive": [
+      "images/blog/pcos-sleep-assessment-400.webp",
+      "images/blog/pcos-sleep-assessment-800.webp",
+      "images/blog/pcos-sleep-assessment-1280.webp"
+    ],
+    "visual": "images/blog/visual-pcos-sleep-assessment.svg",
+    "secondVisual": "images/blog/visual-pcos-sleep-assessment-questions.svg",
+    "note": "Original generated project cover, inspected. Two original educational SVGs. Fictional people, no real patients; two watercolor covers inspired by course palette, two natural photos."
+  },
+  {
+    "key": "course-application",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-22",
+    "prompt": "16:9 watercolor learning desk, blank notebook laptop abstract blocks three blank cards toward sunny kitchen, cream paper sage olive peach blush, no people no text no logos, original course-inspired art.",
+    "sourceMaster": "../marketing/2026-09-22/course-application.png",
+    "cover": "images/blog/course-application-1280.webp",
+    "responsive": [
+      "images/blog/course-application-400.webp",
+      "images/blog/course-application-800.webp",
+      "images/blog/course-application-1280.webp"
+    ],
+    "visual": "images/blog/visual-course-application.svg",
+    "secondVisual": "images/blog/visual-course-application-questions.svg",
+    "note": "Original generated project cover, inspected. Two original educational SVGs. Fictional people, no real patients; two watercolor covers inspired by course palette, two natural photos."
+  },
+  {
+    "key": "celiac-consultation",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-22",
+    "prompt": "16:9 realistic editorial photo, modest woman loose sage high-neck blouse cream headscarf reading unbranded packet by notebook home kitchen storage boxes, daylight, fictional model no patient testimonial no medical instruments.",
+    "sourceMaster": "../marketing/2026-09-22/celiac-consultation.png",
+    "cover": "images/blog/celiac-consultation-1280.webp",
+    "responsive": [
+      "images/blog/celiac-consultation-400.webp",
+      "images/blog/celiac-consultation-800.webp",
+      "images/blog/celiac-consultation-1280.webp"
+    ],
+    "visual": "images/blog/visual-celiac-consultation.svg",
+    "secondVisual": "images/blog/visual-celiac-consultation-questions.svg",
+    "note": "Original generated project cover, inspected. Two original educational SVGs. Fictional people, no real patients; two watercolor covers inspired by course palette, two natural photos."
+  },
+  {
+    "key": "iron-consultation",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-22",
+    "prompt": "16:9 realistic editorial photograph modest woman loose cream high neck tunic terracotta headscarf sorting document folder notebook dining table morning window, lentils pepper at distant edge, no pills no text fictional model.",
+    "sourceMaster": "../marketing/2026-09-22/iron-consultation.png",
+    "cover": "images/blog/iron-consultation-1280.webp",
+    "responsive": [
+      "images/blog/iron-consultation-400.webp",
+      "images/blog/iron-consultation-800.webp",
+      "images/blog/iron-consultation-1280.webp"
+    ],
+    "visual": "images/blog/visual-iron-consultation.svg",
+    "secondVisual": "images/blog/visual-iron-consultation-questions.svg",
+    "note": "Original generated project cover, inspected. Two original educational SVGs. Fictional people, no real patients; two watercolor covers inspired by course palette, two natural photos."
   }
 ]

@@ -253,6 +253,10 @@
     "pcos-emotional-support": "pcos",
     "budget-nutrition-learning": "labels-shopping",
     "ibs-consultation": "nutrition-basics",
-    "gestational-diabetes-consultation": "pregnancy"
+    "gestational-diabetes-consultation": "pregnancy",
+    "pcos-sleep-assessment": "pcos",
+    "course-application": "habits",
+    "celiac-consultation": "nutrition-basics",
+    "iron-consultation": "nutrition-basics"
   }
 }

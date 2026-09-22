@@ -561,6 +561,78 @@
       "bodyWordsExcludingHeadings": 1017,
       "keywordCheckedAt": "2026-09-21",
       "publishedDate": "2026-09-21"
+    },
+    {
+      "topic": "النوم مع تكيس المبايض: متى تحتاجين تقييماً؟",
+      "articleKey": "pcos-sleep-assessment",
+      "primaryKeyword": "النوم مع تكيس المبايض",
+      "supportingKeywords": [
+        "تكيس المبايض والشخير",
+        "تقييم النوم مع التكيس"
+      ],
+      "intent": "تمييز الحاجة إلى تقييم النوم عن تعلم معلومات عامة عن التكيس",
+      "businessGoal": "course",
+      "targetPage": "/course/تكيس-المبايض",
+      "avoidOverlap": "sleep يتناول الوزن والنوم عموماً؛ الجديد يختص بفرز أعراض النوم مع التكيس وحدود التثقيف، ولا يعيد الروتين أو الحمية.",
+      "decisionHelp": "تمييز الحاجة إلى تقييم النوم عن تعلم معلومات عامة عن التكيس",
+      "status": "draft",
+      "plannedFor": "2026-09-22",
+      "bodyWordsExcludingHeadings": 1083,
+      "keywordCheckedAt": "2026-09-22"
+    },
+    {
+      "topic": "تطبيق كورس التغذية: من مشاهدة الدرس إلى مهارة يومية",
+      "articleKey": "course-application",
+      "primaryKeyword": "تطبيق كورس التغذية",
+      "supportingKeywords": [
+        "الاستفادة من كورس التغذية",
+        "تنظيم تعلم التغذية"
+      ],
+      "intent": "تقييم وقت التطبيق وطريقة الاستفادة قبل الاشتراك وخلال التعلم",
+      "businessGoal": "course",
+      "targetPage": "/course/المسار-الصحي",
+      "avoidOverlap": "habits أهداف عامة؛ recorded-live صيغة الكورس؛ الجديد يركز على نقل التعلم واستيعاب الدرس وتقييم المهارة، لا يعيد مقارنة الدورات.",
+      "decisionHelp": "تقييم وقت التطبيق وطريقة الاستفادة قبل الاشتراك وخلال التعلم",
+      "status": "draft",
+      "plannedFor": "2026-09-22",
+      "bodyWordsExcludingHeadings": 1181,
+      "keywordCheckedAt": "2026-09-22"
+    },
+    {
+      "topic": "استشارة تغذية للسيلياك: التحضير بعد التشخيص",
+      "articleKey": "celiac-consultation",
+      "primaryKeyword": "استشارة تغذية للسيلياك",
+      "supportingKeywords": [
+        "التغذية بعد تشخيص السيلياك",
+        "تجنب انتقال الغلوتين"
+      ],
+      "intent": "التحضير لدعم غذائي متخصص بعد التشخيص وتأكيد ملاءمة الخدمة",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": "لا مقال سيلياك متخصص؛ IBS فودماب مختلف؛ food-exclusions عن عدم المنع التلقائي بالتكيس. الجديد عن الحمية المطلوبة بعد التشخيص.",
+      "decisionHelp": "التحضير لدعم غذائي متخصص بعد التشخيص وتأكيد ملاءمة الخدمة",
+      "status": "draft",
+      "plannedFor": "2026-09-22",
+      "bodyWordsExcludingHeadings": 1095,
+      "keywordCheckedAt": "2026-09-22"
+    },
+    {
+      "topic": "استشارة تغذية لنقص الحديد: التقارير وأسئلة الوجبات",
+      "articleKey": "iron-consultation",
+      "primaryKeyword": "استشارة تغذية لنقص الحديد",
+      "supportingKeywords": [
+        "التحضير لاستشارة نقص الحديد",
+        "الغذاء ومكمل الحديد"
+      ],
+      "intent": "تنظيم الجانب الغذائي بالتكامل مع علاج سبب نقص الحديد",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": "cycle-nutrition يتناول الدورة؛ consultation-labs تحضير عام؛ الجديد دعم نقص الحديد المثبت وتنسيق الوجبات وتعليمات الدواء دون تكرار تشخيص عام.",
+      "decisionHelp": "تنظيم الجانب الغذائي بالتكامل مع علاج سبب نقص الحديد",
+      "status": "draft",
+      "plannedFor": "2026-09-22",
+      "bodyWordsExcludingHeadings": 1112,
+      "keywordCheckedAt": "2026-09-22"
     }
   ],
   "coverageBatch": {
@@ -1113,6 +1185,43 @@
       "googleCheckedAt": "2026-09-21T08:07:34.174Z",
       "googlePostId": "7621719336271311959",
       "googleBlocker": null
+    },
+    {
+      "date": "2026-09-22",
+      "status": "prepared",
+      "websiteStatus": "not_published",
+      "articles": [
+        {
+          "key": "pcos-sleep-assessment",
+          "words": 1083,
+          "status": "draft",
+          "plannedDate": "2026-09-22"
+        },
+        {
+          "key": "course-application",
+          "words": 1181,
+          "status": "draft",
+          "plannedDate": "2026-09-22"
+        },
+        {
+          "key": "celiac-consultation",
+          "words": 1095,
+          "status": "draft",
+          "plannedDate": "2026-09-22"
+        },
+        {
+          "key": "iron-consultation",
+          "words": 1112,
+          "status": "draft",
+          "plannedDate": "2026-09-22"
+        }
+      ],
+      "businessBalance": {
+        "consultation": 2,
+        "course": 2
+      },
+      "research": "content/editorial-research/2026-09-22.json",
+      "blocker": null
     }
   ],
   "advertisingManagement": {
