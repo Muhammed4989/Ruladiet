@@ -575,10 +575,11 @@
       "targetPage": "/course/تكيس-المبايض",
       "avoidOverlap": "sleep يتناول الوزن والنوم عموماً؛ الجديد يختص بفرز أعراض النوم مع التكيس وحدود التثقيف، ولا يعيد الروتين أو الحمية.",
       "decisionHelp": "تمييز الحاجة إلى تقييم النوم عن تعلم معلومات عامة عن التكيس",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-09-22",
       "bodyWordsExcludingHeadings": 1083,
-      "keywordCheckedAt": "2026-09-22"
+      "keywordCheckedAt": "2026-09-22",
+      "publishedDate": "2026-09-22"
     },
     {
       "topic": "تطبيق كورس التغذية: من مشاهدة الدرس إلى مهارة يومية",
@@ -593,10 +594,11 @@
       "targetPage": "/course/المسار-الصحي",
       "avoidOverlap": "habits أهداف عامة؛ recorded-live صيغة الكورس؛ الجديد يركز على نقل التعلم واستيعاب الدرس وتقييم المهارة، لا يعيد مقارنة الدورات.",
       "decisionHelp": "تقييم وقت التطبيق وطريقة الاستفادة قبل الاشتراك وخلال التعلم",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-09-22",
       "bodyWordsExcludingHeadings": 1181,
-      "keywordCheckedAt": "2026-09-22"
+      "keywordCheckedAt": "2026-09-22",
+      "publishedDate": "2026-09-22"
     },
     {
       "topic": "استشارة تغذية للسيلياك: التحضير بعد التشخيص",
@@ -611,10 +613,11 @@
       "targetPage": "/احجز-موعد",
       "avoidOverlap": "لا مقال سيلياك متخصص؛ IBS فودماب مختلف؛ food-exclusions عن عدم المنع التلقائي بالتكيس. الجديد عن الحمية المطلوبة بعد التشخيص.",
       "decisionHelp": "التحضير لدعم غذائي متخصص بعد التشخيص وتأكيد ملاءمة الخدمة",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-09-22",
       "bodyWordsExcludingHeadings": 1095,
-      "keywordCheckedAt": "2026-09-22"
+      "keywordCheckedAt": "2026-09-22",
+      "publishedDate": "2026-09-22"
     },
     {
       "topic": "استشارة تغذية لنقص الحديد: التقارير وأسئلة الوجبات",
@@ -629,10 +632,11 @@
       "targetPage": "/احجز-موعد",
       "avoidOverlap": "cycle-nutrition يتناول الدورة؛ consultation-labs تحضير عام؛ الجديد دعم نقص الحديد المثبت وتنسيق الوجبات وتعليمات الدواء دون تكرار تشخيص عام.",
       "decisionHelp": "تنظيم الجانب الغذائي بالتكامل مع علاج سبب نقص الحديد",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-09-22",
       "bodyWordsExcludingHeadings": 1112,
-      "keywordCheckedAt": "2026-09-22"
+      "keywordCheckedAt": "2026-09-22",
+      "publishedDate": "2026-09-22"
     }
   ],
   "coverageBatch": {
@@ -1188,32 +1192,40 @@
     },
     {
       "date": "2026-09-22",
-      "status": "prepared",
-      "websiteStatus": "not_published",
+      "status": "completed",
+      "websiteStatus": "published",
       "articles": [
         {
           "key": "pcos-sleep-assessment",
           "words": 1083,
-          "status": "draft",
-          "plannedDate": "2026-09-22"
+          "status": "published",
+          "plannedDate": "2026-09-22",
+          "publishedDate": "2026-09-22",
+          "canonicalUrl": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/النوم-مع-تكيس-المبايض"
         },
         {
           "key": "course-application",
           "words": 1181,
-          "status": "draft",
-          "plannedDate": "2026-09-22"
+          "status": "published",
+          "plannedDate": "2026-09-22",
+          "publishedDate": "2026-09-22",
+          "canonicalUrl": "https://ruladiet.com/blog/category/السلوك-الغذائي/بناء-العادات/تطبيق-كورس-التغذية"
         },
         {
           "key": "celiac-consultation",
           "words": 1095,
-          "status": "draft",
-          "plannedDate": "2026-09-22"
+          "status": "published",
+          "plannedDate": "2026-09-22",
+          "publishedDate": "2026-09-22",
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/استشارة-تغذية-للسيلياك"
         },
         {
           "key": "iron-consultation",
           "words": 1112,
-          "status": "draft",
-          "plannedDate": "2026-09-22"
+          "status": "published",
+          "plannedDate": "2026-09-22",
+          "publishedDate": "2026-09-22",
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/استشارة-تغذية-لنقص-الحديد"
         }
       ],
       "businessBalance": {
@@ -1221,7 +1233,29 @@
         "course": 2
       },
       "research": "content/editorial-research/2026-09-22.json",
-      "blocker": null
+      "blocker": null,
+      "productionCommit": "c63d53cc3026fc2ae3ab9aa51a9ea442161b917c",
+      "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/41",
+      "verifiedAt": "2026-09-22T07:18:06.938Z",
+      "indexNow": {
+        "submittedAt": "2026-09-22T07:18:11.516Z",
+        "status": 200,
+        "changedUrls": 13
+      },
+      "validation": {
+        "checkBlog": "57 articles,57 covers,0 errors",
+        "checkSite": "105 pages,201 schemas,4290 links,102 sitemap URLs,0 errors; existing588NUL warning unchanged",
+        "navigation": "440 headings,89 breadcrumbs,0 errors",
+        "migration": "1197 redirect variants,1294 assets,0 errors",
+        "categoryGuides": "31 guides,min552 body words,0 errors",
+        "diffCheck": "pass",
+        "browserPreview": "Four previews visually reviewed. Descriptive Arabic TOC links tested. No layout changes or mobile verification claimed.",
+        "production": "Four live HTML pages equal local after CRLF normalization; Sep22 dates; six referenced assets per page HTTP200 and byte matched."
+      },
+      "googleStatus": "live",
+      "googleCheckedAt": "2026-09-22T07:19:23.446Z",
+      "googlePostId": "1250544067686574753",
+      "googleBlocker": null
     }
   ],
   "advertisingManagement": {
