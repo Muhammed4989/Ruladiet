@@ -152,6 +152,27 @@
       "uploadedImageFormat": "JPEG",
       "verification": "Correct clinic showed Published 50 seconds ago. Reopened editor without modification and verified stored Learn more URL exactly matches encoded canonical article URL. Uploaded image and full text visible.",
       "editorInputNote": "Google editor needs real sequential keystroke to update bound form value; verify persisted URL after submission."
+    },
+    {
+      "date": "2026-09-22",
+      "source": "existing_google_schedule",
+      "articleKey": "thyroid",
+      "text": "وزنك ثابت؟ قبل أن تلومي الغدة الدرقية\nالغدة سبب حقيقي لثبات الوزن عند البعض — ومجرد شمّاعة عند البعض الآخر. والفرق يُعرف بالتحاليل، لا بالتخمين. أعراض كسل الغدة وفرط نشاطها، التحاليل المطلوبة، ودور الغذاء الفعلي في إدارة الوزن مع مشاكل الغدة.",
+      "imagePath": null,
+      "imageSource": "Existing Google post image seen in editor; original local filename not verified",
+      "button": {
+        "type": "LEARN_MORE",
+        "url": "https://ruladiet.com/blog/%D8%A7%D9%84%D8%BA%D8%AF%D8%A9-%D8%A7%D9%84%D8%AF%D8%B1%D9%82%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D9%88%D8%B2%D9%86"
+      },
+      "status": "live",
+      "submittedAt": null,
+      "checkedAt": "2026-09-22T07:19:23.446Z",
+      "postId": "1250544067686574753",
+      "postUrl": null,
+      "blocker": null,
+      "verification": "Correct managed clinic identity verified. Public profile showed exact scheduled post text, Learn more and 16 mins ago on Sep22. Counted existing scheduled post for today; no duplicate submitted.",
+      "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-والحالات-الصحية/الغدة-الدرقية/الغدة-الدرقية-والوزن",
+      "destinationHttpStatus": 200
     }
   ],
   "draftQueue": [
@@ -183,15 +204,15 @@
     {
       "scheduledDate": "2026-09-22",
       "title": "وزنك ثابت؟ قبل أن تلومي الغدة الدرقية",
-      "status": "scheduled",
-      "observedAt": "2026-09-22T07:12:34.628Z",
+      "status": "live",
+      "observedAt": "2026-09-22T07:19:23.446Z",
       "source": "existing_google_schedule",
-      "requiresUiRecheck": true,
+      "requiresUiRecheck": false,
       "postId": "1250544067686574753",
       "scheduledTimeDisplayed": "10:00",
       "timeZoneDisplayed": null,
       "buttonUrl": "https://ruladiet.com/blog/%D8%A7%D9%84%D8%BA%D8%AF%D8%A9-%D8%A7%D9%84%D8%AF%D8%B1%D9%82%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D9%88%D8%B2%D9%86",
-      "note": "Read-only editor verification: date22/09/2026,time10:00; existing schedule preserved. No additional Sep22 post submitted."
+      "note": "Sep22 public Google profile showed existing scheduled post with Learn more and 16 mins ago. No new post submitted and no schedule edited."
     },
     {
       "scheduledDate": "2026-09-29",
