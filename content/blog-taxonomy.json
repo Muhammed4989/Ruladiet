@@ -257,6 +257,10 @@
     "pcos-sleep-assessment": "pcos",
     "course-application": "habits",
     "celiac-consultation": "nutrition-basics",
-    "iron-consultation": "nutrition-basics"
+    "iron-consultation": "nutrition-basics",
+    "pcos-cycle-log": "pcos",
+    "shift-work-meals": "meals-recipes",
+    "cholesterol-consultation": "heart-health",
+    "weight-gain-consultation": "nutrition-basics"
   }
 }

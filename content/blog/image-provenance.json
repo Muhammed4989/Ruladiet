@@ -825,5 +825,69 @@
     "visual": "images/blog/visual-iron-consultation.svg",
     "secondVisual": "images/blog/visual-iron-consultation-questions.svg",
     "note": "Original generated project cover, inspected. Two original educational SVGs. Fictional people, no real patients; two watercolor covers inspired by course palette, two natural photos."
+  },
+  {
+    "key": "pcos-cycle-log",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-23",
+    "prompt": "Create a unique 16:9 editorial watercolor cover for an Arabic nutrition article on keeping a menstrual-cycle log with PCOS. Calm fictional adult Arab woman in loose opaque sage long-sleeve high-neck blouse, seated at an airy cream desk thoughtfully marking a small paper calendar with a pen. No legible text, no typography or logos, no medical/anatomy symbols. Warm cream watercolor paper texture, muted blush and olive botanical edge accents, gentle morning light, spacious refined composition inspired by a gentle wellness course cover. Not a patient or real person. Natural hands.",
+    "sourceMaster": "../marketing/2026-09-23/pcos-cycle-log.png",
+    "cover": "images/blog/pcos-cycle-log-1280.webp",
+    "responsive": [
+      "images/blog/pcos-cycle-log-400.webp",
+      "images/blog/pcos-cycle-log-800.webp",
+      "images/blog/pcos-cycle-log-1280.webp"
+    ],
+    "visual": "images/blog/visual-pcos-cycle-log.svg",
+    "secondVisual": "images/blog/visual-pcos-cycle-log-questions.svg",
+    "note": "Original generated project cover, inspected. Two original educational SVGs. Fictional people, no real patients; two watercolor covers inspired by course palette, two natural photos."
+  },
+  {
+    "key": "shift-work-meals",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-23",
+    "prompt": "Create a 16:9 realistic editorial photograph for an Arabic article about organizing food during rotating work shifts. Fictional adult Arab woman in a modest loose opaque long-sleeve high-neck beige shirt and dark trousers, seated in a quiet clean workplace break room, opening an insulated lunch bag beside a water bottle and closed notebook. Window shows blue evening light, warm interior lamps, natural candid expression, ordinary portions, food secondary to thoughtful human scene. No uniforms, no medical setting, no brands, no readable text, no before/after or body focus. Professional gentle natural photography.",
+    "sourceMaster": "../marketing/2026-09-23/shift-work-meals.png",
+    "cover": "images/blog/shift-work-meals-1280.webp",
+    "responsive": [
+      "images/blog/shift-work-meals-400.webp",
+      "images/blog/shift-work-meals-800.webp",
+      "images/blog/shift-work-meals-1280.webp"
+    ],
+    "visual": "images/blog/visual-shift-work-meals.svg",
+    "secondVisual": "images/blog/visual-shift-work-meals-questions.svg",
+    "note": "Original generated project cover, inspected. Two original educational SVGs. Fictional people, no real patients; two watercolor covers inspired by course palette, two natural photos."
+  },
+  {
+    "key": "cholesterol-consultation",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-23",
+    "prompt": "Create a unique 16:9 soft watercolor editorial cover for Arabic nutrition article preparing for a cholesterol nutrition consultation. Still life on warm cream paper: a closed sage health-report folder with a simple abstract heart outline on cover, an open blank questions notebook and a pencil, small olive branch, soft sunshine across a wooden desk, blush and olive palette, subtle paper grain, tasteful calm composition, balanced focal objects. No people, no readable words, no fake graphs, no medical numbers, no pills, no brand. Inspired by refined watercolor wellness course art, but unique paperwork/decision composition.",
+    "sourceMaster": "../marketing/2026-09-23/cholesterol-consultation.png",
+    "cover": "images/blog/cholesterol-consultation-1280.webp",
+    "responsive": [
+      "images/blog/cholesterol-consultation-400.webp",
+      "images/blog/cholesterol-consultation-800.webp",
+      "images/blog/cholesterol-consultation-1280.webp"
+    ],
+    "visual": "images/blog/visual-cholesterol-consultation.svg",
+    "secondVisual": "images/blog/visual-cholesterol-consultation-questions.svg",
+    "note": "Original generated project cover, inspected. Two original educational SVGs. Fictional people, no real patients; two watercolor covers inspired by course palette, two natural photos."
+  },
+  {
+    "key": "weight-gain-consultation",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-23",
+    "prompt": "Create a 16:9 natural editorial photograph for Arabic nutrition article preparing a gradual weight-gain consultation. Fictional adult Arab woman in modest loose opaque dusty-rose long-sleeve high-neck tunic and cream headscarf, standing comfortably in a sunlit home kitchen placing a small yogurt bowl and bread on a table, natural relaxed thoughtful expression. No body emphasis, no scale, no thinness comparison, no clinic, no before/after. Gentle warm daylight, realistic hands and props, sage plants in background, calm human scene more prominent than food, no brands or text.",
+    "sourceMaster": "../marketing/2026-09-23/weight-gain-consultation.png",
+    "cover": "images/blog/weight-gain-consultation-1280.webp",
+    "responsive": [
+      "images/blog/weight-gain-consultation-400.webp",
+      "images/blog/weight-gain-consultation-800.webp",
+      "images/blog/weight-gain-consultation-1280.webp"
+    ],
+    "visual": "images/blog/visual-weight-gain-consultation.svg",
+    "secondVisual": "images/blog/visual-weight-gain-consultation-questions.svg",
+    "note": "Original generated project cover, inspected. Two original educational SVGs. Fictional people, no real patients; two watercolor covers inspired by course palette, two natural photos."
   }
 ]

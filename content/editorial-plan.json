@@ -637,6 +637,78 @@
       "bodyWordsExcludingHeadings": 1112,
       "keywordCheckedAt": "2026-09-22",
       "publishedDate": "2026-09-22"
+    },
+    {
+      "topic": "متابعة الدورة مع تكيس المبايض: سجل وأسئلة للطبيب",
+      "articleKey": "pcos-cycle-log",
+      "primaryKeyword": "متابعة الدورة مع تكيس المبايض",
+      "supportingKeywords": [
+        "سجل الدورة مع التكيس",
+        "تأخر الدورة والتكيس"
+      ],
+      "intent": "تنظيم ملاحظات الدورة وفهم حدود التعلم قبل اختيار دعم تثقيفي",
+      "businessGoal": "course",
+      "targetPage": "/course/تكيس-المبايض",
+      "avoidOverlap": "cycle-nutrition يشرح الطعام خلال الدورة؛ pcos-normal-weight يناقش أهدافاً خارج الوزن؛ الجديد أداة تسجيل وتواصل حول النزف وليس حمية أو تشخيصاً أو حساب إباضة.",
+      "decisionHelp": "تنظيم ملاحظات الدورة وفهم حدود التعلم قبل اختيار دعم تثقيفي",
+      "status": "draft",
+      "plannedFor": "2026-09-23",
+      "bodyWordsExcludingHeadings": 1029,
+      "keywordCheckedAt": "2026-09-23"
+    },
+    {
+      "topic": "التغذية مع المناوبات الليلية: تنظيم الوجبات بمرونة",
+      "articleKey": "shift-work-meals",
+      "primaryKeyword": "التغذية مع المناوبات الليلية",
+      "supportingKeywords": [
+        "وجبات العمل الليلي",
+        "تنظيم الطعام مع المناوبات"
+      ],
+      "intent": "تحديد المهارات اللوجستية والغذائية اللازمة للعمل المتبدل ومدى فائدة التعلم العام",
+      "businessGoal": "course",
+      "targetPage": "/course/المسار-الصحي",
+      "avoidOverlap": "weekly-meals يغطي التجهيز والحفظ المنزلي؛ الجديد يركز على التناوب والاستراحة ومكان العمل والبديل عند تغير الوردية، لا يعيد كورس الاختيار أو التطبيق.",
+      "decisionHelp": "تحديد المهارات اللوجستية والغذائية اللازمة للعمل المتبدل ومدى فائدة التعلم العام",
+      "status": "draft",
+      "plannedFor": "2026-09-23",
+      "bodyWordsExcludingHeadings": 1142,
+      "keywordCheckedAt": "2026-09-23"
+    },
+    {
+      "topic": "استشارة تغذية لارتفاع الكوليسترول: جهزي ملفك وأسئلتك",
+      "articleKey": "cholesterol-consultation",
+      "primaryKeyword": "استشارة تغذية لارتفاع الكوليسترول",
+      "supportingKeywords": [
+        "التحضير لاستشارة الكوليسترول",
+        "تقرير الدهون والتغذية"
+      ],
+      "intent": "تحضير ملف وشرح احتياجات التطبيق الغذائي والتنسيق مع الطبيب قبل الموعد",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": "heart-nutrition يملك شرح البدائل الغذائية وخفض الكوليسترول؛ الجديد لا يعيد الحمية، بل يركز على تنظيم التقرير والوحدات والأدوية وأسئلة نطاق الخدمة والمتابعة.",
+      "decisionHelp": "تحضير ملف وشرح احتياجات التطبيق الغذائي والتنسيق مع الطبيب قبل الموعد",
+      "status": "draft",
+      "plannedFor": "2026-09-23",
+      "bodyWordsExcludingHeadings": 1103,
+      "keywordCheckedAt": "2026-09-23"
+    },
+    {
+      "topic": "استشارة تغذية لزيادة الوزن: ما الذي تحضرينه وتسألينه؟",
+      "articleKey": "weight-gain-consultation",
+      "primaryKeyword": "استشارة تغذية لزيادة الوزن",
+      "supportingKeywords": [
+        "التحضير لاستشارة النحافة",
+        "ضعف الشهية وزيادة الوزن"
+      ],
+      "intent": "اختيار تسلسل التقييم الطبي والتحضير لخطة غذائية لزيادة الوزن تناسب العائق الفعلي",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": "older-nutrition يخص كبار السن؛ personal-meal-plan يقارن صيغ الخطط؛ الجديد مخصص للبالغات والسياق الزمني لانخفاض الوزن والشهية وحدود المكملات قبل الحجز.",
+      "decisionHelp": "اختيار تسلسل التقييم الطبي والتحضير لخطة غذائية لزيادة الوزن تناسب العائق الفعلي",
+      "status": "draft",
+      "plannedFor": "2026-09-23",
+      "bodyWordsExcludingHeadings": 1182,
+      "keywordCheckedAt": "2026-09-23"
     }
   ],
   "coverageBatch": {
@@ -1256,6 +1328,43 @@
       "googleCheckedAt": "2026-09-22T07:19:23.446Z",
       "googlePostId": "1250544067686574753",
       "googleBlocker": null
+    },
+    {
+      "date": "2026-09-23",
+      "status": "prepared",
+      "websiteStatus": "not_published",
+      "articles": [
+        {
+          "key": "pcos-cycle-log",
+          "words": 1029,
+          "status": "draft",
+          "plannedDate": "2026-09-23"
+        },
+        {
+          "key": "shift-work-meals",
+          "words": 1142,
+          "status": "draft",
+          "plannedDate": "2026-09-23"
+        },
+        {
+          "key": "cholesterol-consultation",
+          "words": 1103,
+          "status": "draft",
+          "plannedDate": "2026-09-23"
+        },
+        {
+          "key": "weight-gain-consultation",
+          "words": 1182,
+          "status": "draft",
+          "plannedDate": "2026-09-23"
+        }
+      ],
+      "businessBalance": {
+        "consultation": 2,
+        "course": 2
+      },
+      "research": "content/editorial-research/2026-09-23.json",
+      "blocker": null
     }
   ],
   "advertisingManagement": {
