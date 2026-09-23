@@ -651,10 +651,11 @@
       "targetPage": "/course/تكيس-المبايض",
       "avoidOverlap": "cycle-nutrition يشرح الطعام خلال الدورة؛ pcos-normal-weight يناقش أهدافاً خارج الوزن؛ الجديد أداة تسجيل وتواصل حول النزف وليس حمية أو تشخيصاً أو حساب إباضة.",
       "decisionHelp": "تنظيم ملاحظات الدورة وفهم حدود التعلم قبل اختيار دعم تثقيفي",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-09-23",
       "bodyWordsExcludingHeadings": 1029,
-      "keywordCheckedAt": "2026-09-23"
+      "keywordCheckedAt": "2026-09-23",
+      "publishedDate": "2026-09-23"
     },
     {
       "topic": "التغذية مع المناوبات الليلية: تنظيم الوجبات بمرونة",
@@ -669,10 +670,11 @@
       "targetPage": "/course/المسار-الصحي",
       "avoidOverlap": "weekly-meals يغطي التجهيز والحفظ المنزلي؛ الجديد يركز على التناوب والاستراحة ومكان العمل والبديل عند تغير الوردية، لا يعيد كورس الاختيار أو التطبيق.",
       "decisionHelp": "تحديد المهارات اللوجستية والغذائية اللازمة للعمل المتبدل ومدى فائدة التعلم العام",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-09-23",
       "bodyWordsExcludingHeadings": 1142,
-      "keywordCheckedAt": "2026-09-23"
+      "keywordCheckedAt": "2026-09-23",
+      "publishedDate": "2026-09-23"
     },
     {
       "topic": "استشارة تغذية لارتفاع الكوليسترول: جهزي ملفك وأسئلتك",
@@ -687,10 +689,11 @@
       "targetPage": "/احجز-موعد",
       "avoidOverlap": "heart-nutrition يملك شرح البدائل الغذائية وخفض الكوليسترول؛ الجديد لا يعيد الحمية، بل يركز على تنظيم التقرير والوحدات والأدوية وأسئلة نطاق الخدمة والمتابعة.",
       "decisionHelp": "تحضير ملف وشرح احتياجات التطبيق الغذائي والتنسيق مع الطبيب قبل الموعد",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-09-23",
       "bodyWordsExcludingHeadings": 1103,
-      "keywordCheckedAt": "2026-09-23"
+      "keywordCheckedAt": "2026-09-23",
+      "publishedDate": "2026-09-23"
     },
     {
       "topic": "استشارة تغذية لزيادة الوزن: ما الذي تحضرينه وتسألينه؟",
@@ -705,10 +708,11 @@
       "targetPage": "/احجز-موعد",
       "avoidOverlap": "older-nutrition يخص كبار السن؛ personal-meal-plan يقارن صيغ الخطط؛ الجديد مخصص للبالغات والسياق الزمني لانخفاض الوزن والشهية وحدود المكملات قبل الحجز.",
       "decisionHelp": "اختيار تسلسل التقييم الطبي والتحضير لخطة غذائية لزيادة الوزن تناسب العائق الفعلي",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-09-23",
       "bodyWordsExcludingHeadings": 1182,
-      "keywordCheckedAt": "2026-09-23"
+      "keywordCheckedAt": "2026-09-23",
+      "publishedDate": "2026-09-23"
     }
   ],
   "coverageBatch": {
@@ -1331,32 +1335,40 @@
     },
     {
       "date": "2026-09-23",
-      "status": "prepared",
-      "websiteStatus": "not_published",
+      "status": "completed",
+      "websiteStatus": "published",
       "articles": [
         {
           "key": "pcos-cycle-log",
           "words": 1029,
-          "status": "draft",
-          "plannedDate": "2026-09-23"
+          "status": "published",
+          "plannedDate": "2026-09-23",
+          "publishedDate": "2026-09-23",
+          "canonicalUrl": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/متابعة-الدورة-مع-تكيس-المبايض"
         },
         {
           "key": "shift-work-meals",
           "words": 1142,
-          "status": "draft",
-          "plannedDate": "2026-09-23"
+          "status": "published",
+          "plannedDate": "2026-09-23",
+          "publishedDate": "2026-09-23",
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/الوجبات-والوصفات/التغذية-مع-المناوبات-الليلية"
         },
         {
           "key": "cholesterol-consultation",
           "words": 1103,
-          "status": "draft",
-          "plannedDate": "2026-09-23"
+          "status": "published",
+          "plannedDate": "2026-09-23",
+          "publishedDate": "2026-09-23",
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-والحالات-الصحية/الكوليسترول-وصحة-القلب/استشارة-تغذية-لارتفاع-الكوليسترول"
         },
         {
           "key": "weight-gain-consultation",
           "words": 1182,
-          "status": "draft",
-          "plannedDate": "2026-09-23"
+          "status": "published",
+          "plannedDate": "2026-09-23",
+          "publishedDate": "2026-09-23",
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/استشارة-تغذية-لزيادة-الوزن"
         }
       ],
       "businessBalance": {
@@ -1364,7 +1376,29 @@
         "course": 2
       },
       "research": "content/editorial-research/2026-09-23.json",
-      "blocker": null
+      "blocker": null,
+      "productionCommit": "6cc17059dcf8643fe4aebab96de06694b19313f7",
+      "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/43",
+      "verifiedAt": "2026-09-23T06:44:45.804Z",
+      "indexNow": {
+        "submittedAt": "2026-09-23T06:44:57.841Z",
+        "status": 200,
+        "changedUrls": 14
+      },
+      "validation": {
+        "checkBlog": "61 articles,61 covers,178 contextual links,0 errors",
+        "checkSite": "109 pages,209 schemas,4446 links,106 sitemap URLs,0 errors; existing588NUL warning unchanged",
+        "navigation": "467 headings,93 breadcrumbs,31 archives,0 errors",
+        "migration": "1281 redirect variants,1386 assets,0 errors",
+        "categoryGuides": "31 guides,min552 body words,0 errors",
+        "diffCheck": "pass",
+        "browserPreview": "Four previews visually reviewed; PCOS Arabic TOC navigation verified. No mobile verification claimed.",
+        "production": "Four live HTML pages equal local after CRLF normalization; six referenced assets per page HTTP200 and byte matched."
+      },
+      "googleStatus": "pending",
+      "googleCheckedAt": "2026-09-23T10:42:34.125Z",
+      "googlePostId": "836217167795185088",
+      "googleBlocker": null
     }
   ],
   "advertisingManagement": {

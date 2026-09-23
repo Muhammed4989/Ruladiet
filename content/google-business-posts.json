@@ -12,8 +12,8 @@
     "fid": "9264577843169494728"
   },
   "access": {
-    "lastChecked": "2026-09-22",
-    "verifiedAt": "2026-09-22T07:12:34.628Z",
+    "lastChecked": "2026-09-23",
+    "verifiedAt": "2026-09-23T06:47:10.187Z",
     "status": "verified_management_access",
     "note": "Owner selected the managing Google account and confirmed login. Rula Diet name, Başakşehir address, ruladiet.com website, matching hexadecimal CID and You manage this Business Profile were visible. Posts and Booking controls opened successfully. Reverify identity if account order changes."
   },
@@ -173,6 +173,29 @@
       "verification": "Correct managed clinic identity verified. Public profile showed exact scheduled post text, Learn more and 16 mins ago on Sep22. Counted existing scheduled post for today; no duplicate submitted.",
       "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-والحالات-الصحية/الغدة-الدرقية/الغدة-الدرقية-والوزن",
       "destinationHttpStatus": 200
+    },
+    {
+      "date": "2026-09-23",
+      "articleKey": "cholesterol-consultation",
+      "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-والحالات-الصحية/الكوليسترول-وصحة-القلب/استشارة-تغذية-لارتفاع-الكوليسترول",
+      "text": "التحضير لاستشارة التغذية يبدأ بملف واضح، لا بقائمة طويلة من الأطعمة الممنوعة.\n\nعند مناقشة ارتفاع الكوليسترول، احتفظي بتقرير التحليل كاملاً مع تاريخه ووحدات القياس، وأضيفي تعليمات الطبيب وقائمة الأدوية الحالية. اختاري مثالاً من وجباتك المعتادة أو صورة بطاقة منتج تشترينه كثيراً، واكتبي ثلاثة أسئلة تريدين توضيحها.\n\nفي دليل رولا دايت الجديد نرتب خطوات التحضير، وكيف تناقشين بدائل تناسب مطبخك ووقتك، وما الذي تسألين عنه قبل تأكيد الموعد. تعديل الغذاء يدعم الخطة الطبية، ولا يعني إيقاف الدواء أو طلب تحاليل عشوائية. اقرئي المقال عبر زر معرفة المزيد. الصورة رسم توضيحي مولد، وليست تقريراً طبياً حقيقياً.",
+      "imagePath": "images/blog/cholesterol-consultation-1280.webp",
+      "button": {
+        "type": "LEARN_MORE",
+        "url": "https://ruladiet.com/blog/category/التغذية-والحالات-الصحية/الكوليسترول-وصحة-القلب/استشارة-تغذية-لارتفاع-الكوليسترول"
+      },
+      "status": "pending",
+      "preparedAt": "2026-09-23T06:47:10.090Z",
+      "submittedAt": "2026-09-23T06:58:33.826Z",
+      "checkedAt": "2026-09-23T10:42:34.125Z",
+      "postId": "836217167795185088",
+      "postUrl": null,
+      "blocker": null,
+      "sourceArticleVerifiedAt": "2026-09-23T06:44:45.804Z",
+      "duplicateCheck": "Sep23 correct clinic identity, address, website and management controls verified; existing latest Sep22 thyroid post23hours ago, future scheduledSep29. No Sep23 entry or post.",
+      "uploadedImageFormat": "JPEG",
+      "editorInputNote": "Google fill/paste changed visible textarea but not persisted state. Direct editor pressSequentially in12-character chunks persisted full text. Verify saved list, not just input value.",
+      "verification": "Existing post corrected in place. All598characters visible in saved posts list, image and Learn more present; status Pending. Correct canonical URL persisted in editor before final save. No duplicate created."
     }
   ],
   "draftQueue": [
