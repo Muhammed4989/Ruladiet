@@ -1,0 +1,140 @@
+{
+  "date": "2026-09-24",
+  "reviewedArticleCount": 61,
+  "method": "Fetched origin/master 4a02980; clean worktree; live sitemap HTTP200,106 URLs and no Sep24 dates. Full61-article catalog and briefs reviewed for overlap. Current primary medical sources and Arabic search results checked; no Search Console query dataset used, no volume or ranking claims. Query opportunities remain editorial hypotheses.",
+  "sources": [
+    {
+      "name": "NHS: الأعراض المشتركة للحالة المعروفة بتكيس المبايض",
+      "url": "https://www.nhs.uk/conditions/polyendocrine-metabolic-ovarian-syndrome-pmos/",
+      "checked": "2026-09-24"
+    },
+    {
+      "name": "NHS: تساقط الشعر وتقييم السبب",
+      "url": "https://www.nhs.uk/symptoms/hair-loss/",
+      "checked": "2026-09-24"
+    },
+    {
+      "name": "الأكاديمية الأمريكية للأمراض الجلدية: نصائح التعامل مع تساقط الشعر",
+      "url": "https://www.aad.org/public/diseases/hair-loss/treatment/tips",
+      "checked": "2026-09-24"
+    },
+    {
+      "name": "دليل الغذاء الكندي: الأكل خارج المنزل",
+      "url": "https://www.canada.ca/en/health-canada/services/food-guide/eating-support/healthy-eating-anywhere/while-eating-out.html",
+      "checked": "2026-09-24"
+    },
+    {
+      "name": "دليل الغذاء الكندي: الاختيار من قوائم المطاعم",
+      "url": "https://www.canada.ca/en/health-canada/services/food-guide/explore/healthy-eating-recommendations/limit-highly-processed/choosing-healthy-menu-options.html",
+      "checked": "2026-09-24"
+    },
+    {
+      "name": "FDA: معلومات التغذية في قوائم المطاعم",
+      "url": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/menu-labeling-requirements",
+      "checked": "2026-09-24"
+    },
+    {
+      "name": "FoodSafety.gov: سلامة بقايا المطاعم",
+      "url": "https://www.foodsafety.gov/blog/10-smart-tips-keep-your-restaurant-leftovers-safe",
+      "checked": "2026-09-24"
+    },
+    {
+      "name": "NHS: الحرقة والارتجاع ومتى تراجعين الطبيب",
+      "url": "https://www.nhs.uk/conditions/heartburn-and-acid-reflux/",
+      "checked": "2026-09-24"
+    },
+    {
+      "name": "NIDDK: الغذاء وتوقيت الوجبات مع الارتجاع",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults/eating-diet-nutrition",
+      "checked": "2026-09-24"
+    },
+    {
+      "name": "NIDDK: أعراض الارتجاع وعلامات التقييم",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults/symptoms-causes",
+      "checked": "2026-09-24"
+    },
+    {
+      "name": "NHS: أعراض النوبة القلبية وطلب الإسعاف",
+      "url": "https://www.nhs.uk/conditions/heart-attack/",
+      "checked": "2026-09-24"
+    },
+    {
+      "name": "منظمة الصحة العالمية: تقليل الصوديوم، تحديث مايو 2026",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/sodium-reduction",
+      "checked": "2026-09-24"
+    },
+    {
+      "name": "NHLBI: نمط DASH، تحديث فبراير 2026",
+      "url": "https://www.nhlbi.nih.gov/health/dash-eating-plan",
+      "checked": "2026-09-24"
+    },
+    {
+      "name": "منظمة الصحة العالمية: إرشادات بدائل الملح الأقل صوديوم 2025",
+      "url": "https://www.who.int/publications/i/item/9789240105591",
+      "checked": "2026-09-24"
+    },
+    {
+      "name": "FoodSafety.gov: التبريد وقاعدة الساعتين",
+      "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety",
+      "checked": "2026-09-24"
+    },
+    {
+      "name": "WHO launch: scope exclusions for lower sodium salt substitutes",
+      "url": "https://cdn.who.int/media/docs/default-source/nutrition-and-food-safety/events/2025/launch-of-lsss-guideline-presentation-2-road-to-finalization.pdf?sfvrsn=e08be11_3",
+      "checked": "2026-09-24"
+    }
+  ],
+  "briefs": [
+    {
+      "key": "pcos-hair-loss",
+      "primaryKeyword": "تكيس المبايض وتساقط الشعر",
+      "supporting": [
+        "التغذية وتساقط الشعر مع التكيس",
+        "فيتامينات الشعر والتكيس"
+      ],
+      "intent": "تمييز التقييم الطبي عن التعلم الغذائي قبل شراء حلول للشعر",
+      "overlap": "pcos-supplements يناقش الإينوزيتول ومكملات التكيس؛ الجديد يملك شكوى الشعر وتعدد أسبابها ونطاق كل جهة، ولا يعيد توصيات المكملات العامة.",
+      "goal": "course"
+    },
+    {
+      "key": "dining-out-skills",
+      "primaryKeyword": "الأكل الصحي خارج المنزل",
+      "supporting": [
+        "اختيار وجبة في المطعم",
+        "قراءة قائمة الطعام"
+      ],
+      "intent": "تعلم مهارات المقارنة والطلب في المطاعم وتقييم الحاجة لتعلم غذائي عام",
+      "overlap": "food-labels للعبوات، budget-nutrition-learning للتسوق، weekly-meals للتحضير؛ الجديد لقائمة المطعم والتفاوض على الطلب والمواقف الاجتماعية.",
+      "goal": "course"
+    },
+    {
+      "key": "reflux-nutrition",
+      "primaryKeyword": "التغذية مع ارتجاع المريء",
+      "supporting": [
+        "استشارة تغذية للارتجاع",
+        "محفزات ارتجاع المريء"
+      ],
+      "intent": "اختيار تعديل غذائي فردي للارتجاع بعد التقييم، وتحديد متى لا تكفي قائمة الطعام",
+      "overlap": "ibs-consultation خاص بالقولون والفودماب؛ food-diary أداة تدوين عامة؛ الجديد توقيت النوم والوجبات ومحفزات الارتجاع وحدود التجارب الغذائية.",
+      "goal": "consultation"
+    },
+    {
+      "key": "blood-pressure-nutrition",
+      "primaryKeyword": "التغذية لارتفاع ضغط الدم",
+      "supporting": [
+        "تقليل الملح مع الضغط",
+        "بدائل الملح والبوتاسيوم",
+        "نظام داش الغذائي"
+      ],
+      "intent": "تحويل نصيحة تقليل الملح إلى قرار شراء ووصفة قابلة للتطبيق مع مراعاة الأدوية والكلى",
+      "overlap": "heart-nutrition للكوليسترول والدهون؛ food-labels قراءة عامة؛ الجديد الصوديوم والوصفة المشتركة واستثناءات بدائل الملح مع الضغط.",
+      "goal": "consultation"
+    }
+  ],
+  "offerScope": "Live PCOS, Healthy Path and booking pages HTTP200 read. PCOS curriculum matches source JSON: 33 recorded lessons, five modules. Healthy Path publicly lists food groups, portions, label reading and habits. No restaurant-specific module claimed. No prices, certificates or individual treatment invented in these articles. Consultation availability/appropriateness to be confirmed with clinic. No Meta access.",
+  "googlePolicyChecked": "2026-09-24",
+  "googlePolicySources": [
+    "https://support.google.com/business/answer/7342169?hl=en",
+    "https://support.google.com/business/answer/7400114?hl=en"
+  ]
+}
