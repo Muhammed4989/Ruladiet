@@ -889,5 +889,69 @@
     "visual": "images/blog/visual-weight-gain-consultation.svg",
     "secondVisual": "images/blog/visual-weight-gain-consultation-questions.svg",
     "note": "Original generated project cover, inspected. Two original educational SVGs. Fictional people, no real patients; two watercolor covers inspired by course palette, two natural photos."
+  },
+  {
+    "key": "pcos-hair-loss",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-24",
+    "prompt": "Create a wide 16:9 editorial watercolor illustration for an Arabic nutrition article about hair thinning and PCOS, supporting thoughtful medical evaluation rather than beauty promises. A fictional adult woman in a loose opaque high-neck long-sleeved sage blouse sits sideways at a light wooden dressing table in a calm room, gently holding a simple wooden hairbrush; her dark hair looks ordinary, no bald patches or medical before-after. A small blank notebook on table, botanical background. Warm cream paper texture, muted blush and olive accents, soft golden light inspired by gentle nutrition course artwork. Tasteful spacious composition, no text, no logos, no supplements, no excessive loose hairs, no claim of regrowth.",
+    "sourceMaster": "../marketing/2026-09-24/pcos-hair-loss.png",
+    "cover": "images/blog/pcos-hair-loss-1280.webp",
+    "responsive": [
+      "images/blog/pcos-hair-loss-400.webp",
+      "images/blog/pcos-hair-loss-800.webp",
+      "images/blog/pcos-hair-loss-1280.webp"
+    ],
+    "visual": "images/blog/visual-pcos-hair-loss.svg",
+    "secondVisual": "images/blog/visual-pcos-hair-loss-questions.svg",
+    "note": "Original generated project cover, inspected. Two original educational SVGs. Fictional people, no real patients; two watercolor covers inspired by course palette, two natural photos."
+  },
+  {
+    "key": "dining-out-skills",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-24",
+    "prompt": "Create a wide 16:9 natural editorial photograph for an Arabic article about choosing meals when dining out. Two fictional adult Middle Eastern female friends in modest opaque loose long-sleeved high-neck clothing, one in muted rose and one in cream, sitting at a quiet sunlit cafe terrace, looking together at a single menu with indistinct unreadable markings. One simple meal and water glass, candid warm relaxed conversation, greenery and neutral stone background, natural realistic hands and faces. No brand, no legible text, no weight loss imagery, no exposed cleavage, no medical implication.",
+    "sourceMaster": "../marketing/2026-09-24/dining-out-skills.png",
+    "cover": "images/blog/dining-out-skills-1280.webp",
+    "responsive": [
+      "images/blog/dining-out-skills-400.webp",
+      "images/blog/dining-out-skills-800.webp",
+      "images/blog/dining-out-skills-1280.webp"
+    ],
+    "visual": "images/blog/visual-dining-out-skills.svg",
+    "secondVisual": "images/blog/visual-dining-out-skills-questions.svg",
+    "note": "Original generated project cover, inspected. Two original educational SVGs. Fictional people, no real patients; two watercolor covers inspired by course palette, two natural photos."
+  },
+  {
+    "key": "reflux-nutrition",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-24",
+    "prompt": "Create a wide 16:9 natural editorial lifestyle photo for an Arabic nutrition article about reflux symptoms and meal timing. A fictional adult Middle Eastern woman in loose opaque high-neck long-sleeved cream clothing taking a calm evening stroll along an ordinary garden path near home, upright comfortable posture, greenery softly blurred, warm late afternoon light, contemplative expression. Environmental wide shot, olive and peach palette, realistic anatomy. No food props, no hand clutching chest, no distress, no medical before-after, no text or logos.",
+    "sourceMaster": "../marketing/2026-09-24/reflux-nutrition.png",
+    "cover": "images/blog/reflux-nutrition-1280.webp",
+    "responsive": [
+      "images/blog/reflux-nutrition-400.webp",
+      "images/blog/reflux-nutrition-800.webp",
+      "images/blog/reflux-nutrition-1280.webp"
+    ],
+    "visual": "images/blog/visual-reflux-nutrition.svg",
+    "secondVisual": "images/blog/visual-reflux-nutrition-questions.svg",
+    "note": "Original generated project cover, inspected. Two original educational SVGs. Fictional people, no real patients; two watercolor covers inspired by course palette, two natural photos."
+  },
+  {
+    "key": "blood-pressure-nutrition",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-24",
+    "prompt": "Create a wide 16:9 watercolor editorial still life for an Arabic nutrition article about reducing salt with high blood pressure. A warm cream kitchen counter, three small bowls of herbs thyme and cumin and chopped parsley, a lemon half, a plain unbranded salt shaker positioned slightly farther back, and a blank folded recipe card. Botanical sage and olive, muted peach and blush, paper grain, softly painted details, elegant nutrition course illustration mood, realistic ordinary kitchen objects. No text, no health icons, no pills, no blood pressure measurements, no logos. Composition spacious and calm, not food advertising.",
+    "sourceMaster": "../marketing/2026-09-24/blood-pressure-nutrition.png",
+    "cover": "images/blog/blood-pressure-nutrition-1280.webp",
+    "responsive": [
+      "images/blog/blood-pressure-nutrition-400.webp",
+      "images/blog/blood-pressure-nutrition-800.webp",
+      "images/blog/blood-pressure-nutrition-1280.webp"
+    ],
+    "visual": "images/blog/visual-blood-pressure-nutrition.svg",
+    "secondVisual": "images/blog/visual-blood-pressure-nutrition-questions.svg",
+    "note": "Original generated project cover, inspected. Two original educational SVGs. Fictional people, no real patients; two watercolor covers inspired by course palette, two natural photos."
   }
 ]

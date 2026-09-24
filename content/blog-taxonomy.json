@@ -261,6 +261,10 @@
     "pcos-cycle-log": "pcos",
     "shift-work-meals": "meals-recipes",
     "cholesterol-consultation": "heart-health",
-    "weight-gain-consultation": "nutrition-basics"
+    "weight-gain-consultation": "nutrition-basics",
+    "pcos-hair-loss": "pcos",
+    "dining-out-skills": "meals-recipes",
+    "reflux-nutrition": "nutrition-basics",
+    "blood-pressure-nutrition": "heart-health"
   }
 }

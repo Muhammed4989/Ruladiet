@@ -713,6 +713,79 @@
       "bodyWordsExcludingHeadings": 1182,
       "keywordCheckedAt": "2026-09-23",
       "publishedDate": "2026-09-23"
+    },
+    {
+      "topic": "تكيس المبايض وتساقط الشعر: حدود التغذية وأسئلة التقييم",
+      "articleKey": "pcos-hair-loss",
+      "primaryKeyword": "تكيس المبايض وتساقط الشعر",
+      "supportingKeywords": [
+        "التغذية وتساقط الشعر مع التكيس",
+        "فيتامينات الشعر والتكيس"
+      ],
+      "intent": "تمييز التقييم الطبي عن التعلم الغذائي قبل شراء حلول للشعر",
+      "businessGoal": "course",
+      "targetPage": "/course/تكيس-المبايض",
+      "avoidOverlap": "pcos-supplements يناقش الإينوزيتول ومكملات التكيس؛ الجديد يملك شكوى الشعر وتعدد أسبابها ونطاق كل جهة، ولا يعيد توصيات المكملات العامة.",
+      "decisionHelp": "تمييز التقييم الطبي عن التعلم الغذائي قبل شراء حلول للشعر",
+      "status": "draft",
+      "plannedFor": "2026-09-24",
+      "bodyWordsExcludingHeadings": 1030,
+      "keywordCheckedAt": "2026-09-24"
+    },
+    {
+      "topic": "الأكل الصحي خارج المنزل: مهارات قراءة القائمة والطلب",
+      "articleKey": "dining-out-skills",
+      "primaryKeyword": "الأكل الصحي خارج المنزل",
+      "supportingKeywords": [
+        "اختيار وجبة في المطعم",
+        "قراءة قائمة الطعام"
+      ],
+      "intent": "تعلم مهارات المقارنة والطلب في المطاعم وتقييم الحاجة لتعلم غذائي عام",
+      "businessGoal": "course",
+      "targetPage": "/course/المسار-الصحي",
+      "avoidOverlap": "food-labels للعبوات، budget-nutrition-learning للتسوق، weekly-meals للتحضير؛ الجديد لقائمة المطعم والتفاوض على الطلب والمواقف الاجتماعية.",
+      "decisionHelp": "تعلم مهارات المقارنة والطلب في المطاعم وتقييم الحاجة لتعلم غذائي عام",
+      "status": "draft",
+      "plannedFor": "2026-09-24",
+      "bodyWordsExcludingHeadings": 1093,
+      "keywordCheckedAt": "2026-09-24"
+    },
+    {
+      "topic": "التغذية مع ارتجاع المريء: التوقيت والمحفزات دون منع شامل",
+      "articleKey": "reflux-nutrition",
+      "primaryKeyword": "التغذية مع ارتجاع المريء",
+      "supportingKeywords": [
+        "استشارة تغذية للارتجاع",
+        "محفزات ارتجاع المريء"
+      ],
+      "intent": "اختيار تعديل غذائي فردي للارتجاع بعد التقييم، وتحديد متى لا تكفي قائمة الطعام",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": "ibs-consultation خاص بالقولون والفودماب؛ food-diary أداة تدوين عامة؛ الجديد توقيت النوم والوجبات ومحفزات الارتجاع وحدود التجارب الغذائية.",
+      "decisionHelp": "اختيار تعديل غذائي فردي للارتجاع بعد التقييم، وتحديد متى لا تكفي قائمة الطعام",
+      "status": "draft",
+      "plannedFor": "2026-09-24",
+      "bodyWordsExcludingHeadings": 1094,
+      "keywordCheckedAt": "2026-09-24"
+    },
+    {
+      "topic": "التغذية لارتفاع ضغط الدم: تقليل الملح وخيارات تناسب البيت",
+      "articleKey": "blood-pressure-nutrition",
+      "primaryKeyword": "التغذية لارتفاع ضغط الدم",
+      "supportingKeywords": [
+        "تقليل الملح مع الضغط",
+        "بدائل الملح والبوتاسيوم",
+        "نظام داش الغذائي"
+      ],
+      "intent": "تحويل نصيحة تقليل الملح إلى قرار شراء ووصفة قابلة للتطبيق مع مراعاة الأدوية والكلى",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": "heart-nutrition للكوليسترول والدهون؛ food-labels قراءة عامة؛ الجديد الصوديوم والوصفة المشتركة واستثناءات بدائل الملح مع الضغط.",
+      "decisionHelp": "تحويل نصيحة تقليل الملح إلى قرار شراء ووصفة قابلة للتطبيق مع مراعاة الأدوية والكلى",
+      "status": "draft",
+      "plannedFor": "2026-09-24",
+      "bodyWordsExcludingHeadings": 1117,
+      "keywordCheckedAt": "2026-09-24"
     }
   ],
   "coverageBatch": {
@@ -1399,6 +1472,43 @@
       "googleCheckedAt": "2026-09-23T10:42:34.125Z",
       "googlePostId": "836217167795185088",
       "googleBlocker": null
+    },
+    {
+      "date": "2026-09-24",
+      "status": "prepared",
+      "websiteStatus": "not_published",
+      "articles": [
+        {
+          "key": "pcos-hair-loss",
+          "words": 1030,
+          "status": "draft",
+          "plannedDate": "2026-09-24"
+        },
+        {
+          "key": "dining-out-skills",
+          "words": 1093,
+          "status": "draft",
+          "plannedDate": "2026-09-24"
+        },
+        {
+          "key": "reflux-nutrition",
+          "words": 1094,
+          "status": "draft",
+          "plannedDate": "2026-09-24"
+        },
+        {
+          "key": "blood-pressure-nutrition",
+          "words": 1117,
+          "status": "draft",
+          "plannedDate": "2026-09-24"
+        }
+      ],
+      "businessBalance": {
+        "consultation": 2,
+        "course": 2
+      },
+      "research": "content/editorial-research/2026-09-24.json",
+      "blocker": null
     }
   ],
   "advertisingManagement": {
