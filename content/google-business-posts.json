@@ -12,8 +12,8 @@
     "fid": "9264577843169494728"
   },
   "access": {
-    "lastChecked": "2026-09-23",
-    "verifiedAt": "2026-09-23T06:47:10.187Z",
+    "lastChecked": "2026-09-24",
+    "verifiedAt": "2026-09-24T06:22:56.817Z",
     "status": "verified_management_access",
     "note": "Owner selected the managing Google account and confirmed login. Rula Diet name, Başakşehir address, ruladiet.com website, matching hexadecimal CID and You manage this Business Profile were visible. Posts and Booking controls opened successfully. Reverify identity if account order changes."
   },
@@ -184,10 +184,10 @@
         "type": "LEARN_MORE",
         "url": "https://ruladiet.com/blog/category/التغذية-والحالات-الصحية/الكوليسترول-وصحة-القلب/استشارة-تغذية-لارتفاع-الكوليسترول"
       },
-      "status": "pending",
+      "status": "live",
       "preparedAt": "2026-09-23T06:47:10.090Z",
       "submittedAt": "2026-09-23T06:58:33.826Z",
-      "checkedAt": "2026-09-23T10:42:34.125Z",
+      "checkedAt": "2026-09-24T06:22:56.817Z",
       "postId": "836217167795185088",
       "postUrl": null,
       "blocker": null,
@@ -195,7 +195,29 @@
       "duplicateCheck": "Sep23 correct clinic identity, address, website and management controls verified; existing latest Sep22 thyroid post23hours ago, future scheduledSep29. No Sep23 entry or post.",
       "uploadedImageFormat": "JPEG",
       "editorInputNote": "Google fill/paste changed visible textarea but not persisted state. Direct editor pressSequentially in12-character chunks persisted full text. Verify saved list, not just input value.",
-      "verification": "Existing post corrected in place. All598characters visible in saved posts list, image and Learn more present; status Pending. Correct canonical URL persisted in editor before final save. No duplicate created."
+      "verification": "Sep24 public clinic profile and managed posts list show full corrected text, image, Learn more; Published23hours ago."
+    },
+    {
+      "date": "2026-09-24",
+      "articleKey": "dining-out-skills",
+      "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/الوجبات-والوصفات/الأكل-الصحي-خارج-المنزل",
+      "text": "اختيار وجبة خارج المنزل يبدأ بفهم القائمة، لا بالبحث عن أصغر طبق.\n\nقبل الطلب، اسألي عما يأتي مع الوجبة: هل الصلصة والإضافات ضمنها؟ وما حجم الحصة المكتوب؟ اختاري تعديلاً واحداً يناسبك، مثل تقديم الصلصة جانباً، ولا تجعلي العرض الترويجي يحدد طلبك تلقائياً.\n\nفي مقال رولا دايت الجديد نشرح قراءة وصف الطبق والمعلومات الغذائية، والتعامل مع الوجبات المشتركة وحفظ المتبقي. هذه مهارات عامة؛ الحساسية والحالات الطبية تحتاج توجيهاً فردياً. اقرئي الدليل عبر زر معرفة المزيد، وجربي سؤالاً واضحاً في زيارتك القادمة. الصورة توضيحية لشخصيات خيالية، وليست لرولا أو مريضاتها.",
+      "imagePath": "images/blog/dining-out-skills-1280.webp",
+      "button": {
+        "type": "LEARN_MORE",
+        "url": "https://ruladiet.com/blog/category/التغذية-اليومية/الوجبات-والوصفات/الأكل-الصحي-خارج-المنزل"
+      },
+      "status": "live",
+      "preparedAt": "2026-09-24T06:22:56.817Z",
+      "submittedAt": "2026-09-24T06:27:12.389Z",
+      "checkedAt": "2026-09-24T06:32:18.140Z",
+      "postId": "7586626916842225341",
+      "postUrl": null,
+      "blocker": null,
+      "duplicateCheck": "Correct clinic management/address/website verified Sep24. Latest Sep23 cholesterol update now public,23hours ago. No Sep24 post; future scheduleSep29 remains.",
+      "submissionNote": "Text557characters verified; image uploaded; Learn more canonical URL entered with pressSequentially. Check UI after click before any retry.",
+      "verification": "Google managed list shows Published, full text, image and Learn more. Reopened saved editor; description equals prepared 557-character text and decoded button URL exactly matches published article.",
+      "uploadedImageFormat": "JPEG"
     }
   ],
   "draftQueue": [
