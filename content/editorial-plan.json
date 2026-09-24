@@ -727,10 +727,11 @@
       "targetPage": "/course/تكيس-المبايض",
       "avoidOverlap": "pcos-supplements يناقش الإينوزيتول ومكملات التكيس؛ الجديد يملك شكوى الشعر وتعدد أسبابها ونطاق كل جهة، ولا يعيد توصيات المكملات العامة.",
       "decisionHelp": "تمييز التقييم الطبي عن التعلم الغذائي قبل شراء حلول للشعر",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-09-24",
       "bodyWordsExcludingHeadings": 1030,
-      "keywordCheckedAt": "2026-09-24"
+      "keywordCheckedAt": "2026-09-24",
+      "publishedDate": "2026-09-24"
     },
     {
       "topic": "الأكل الصحي خارج المنزل: مهارات قراءة القائمة والطلب",
@@ -745,10 +746,11 @@
       "targetPage": "/course/المسار-الصحي",
       "avoidOverlap": "food-labels للعبوات، budget-nutrition-learning للتسوق، weekly-meals للتحضير؛ الجديد لقائمة المطعم والتفاوض على الطلب والمواقف الاجتماعية.",
       "decisionHelp": "تعلم مهارات المقارنة والطلب في المطاعم وتقييم الحاجة لتعلم غذائي عام",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-09-24",
       "bodyWordsExcludingHeadings": 1093,
-      "keywordCheckedAt": "2026-09-24"
+      "keywordCheckedAt": "2026-09-24",
+      "publishedDate": "2026-09-24"
     },
     {
       "topic": "التغذية مع ارتجاع المريء: التوقيت والمحفزات دون منع شامل",
@@ -763,10 +765,11 @@
       "targetPage": "/احجز-موعد",
       "avoidOverlap": "ibs-consultation خاص بالقولون والفودماب؛ food-diary أداة تدوين عامة؛ الجديد توقيت النوم والوجبات ومحفزات الارتجاع وحدود التجارب الغذائية.",
       "decisionHelp": "اختيار تعديل غذائي فردي للارتجاع بعد التقييم، وتحديد متى لا تكفي قائمة الطعام",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-09-24",
       "bodyWordsExcludingHeadings": 1094,
-      "keywordCheckedAt": "2026-09-24"
+      "keywordCheckedAt": "2026-09-24",
+      "publishedDate": "2026-09-24"
     },
     {
       "topic": "التغذية لارتفاع ضغط الدم: تقليل الملح وخيارات تناسب البيت",
@@ -782,10 +785,11 @@
       "targetPage": "/احجز-موعد",
       "avoidOverlap": "heart-nutrition للكوليسترول والدهون؛ food-labels قراءة عامة؛ الجديد الصوديوم والوصفة المشتركة واستثناءات بدائل الملح مع الضغط.",
       "decisionHelp": "تحويل نصيحة تقليل الملح إلى قرار شراء ووصفة قابلة للتطبيق مع مراعاة الأدوية والكلى",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-09-24",
       "bodyWordsExcludingHeadings": 1117,
-      "keywordCheckedAt": "2026-09-24"
+      "keywordCheckedAt": "2026-09-24",
+      "publishedDate": "2026-09-24"
     }
   ],
   "coverageBatch": {
@@ -1475,32 +1479,40 @@
     },
     {
       "date": "2026-09-24",
-      "status": "prepared",
-      "websiteStatus": "not_published",
+      "status": "completed",
+      "websiteStatus": "published",
       "articles": [
         {
           "key": "pcos-hair-loss",
           "words": 1030,
-          "status": "draft",
-          "plannedDate": "2026-09-24"
+          "status": "published",
+          "plannedDate": "2026-09-24",
+          "publishedDate": "2026-09-24",
+          "canonicalUrl": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/تكيس-المبايض-وتساقط-الشعر"
         },
         {
           "key": "dining-out-skills",
           "words": 1093,
-          "status": "draft",
-          "plannedDate": "2026-09-24"
+          "status": "published",
+          "plannedDate": "2026-09-24",
+          "publishedDate": "2026-09-24",
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/الوجبات-والوصفات/الأكل-الصحي-خارج-المنزل"
         },
         {
           "key": "reflux-nutrition",
           "words": 1094,
-          "status": "draft",
-          "plannedDate": "2026-09-24"
+          "status": "published",
+          "plannedDate": "2026-09-24",
+          "publishedDate": "2026-09-24",
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/التغذية-مع-ارتجاع-المريء"
         },
         {
           "key": "blood-pressure-nutrition",
           "words": 1117,
-          "status": "draft",
-          "plannedDate": "2026-09-24"
+          "status": "published",
+          "plannedDate": "2026-09-24",
+          "publishedDate": "2026-09-24",
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-والحالات-الصحية/الكوليسترول-وصحة-القلب/التغذية-لارتفاع-ضغط-الدم"
         }
       ],
       "businessBalance": {
@@ -1508,7 +1520,51 @@
         "course": 2
       },
       "research": "content/editorial-research/2026-09-24.json",
-      "blocker": null
+      "blocker": null,
+      "productionCommit": "482c86a5d7fa3f178be49f2f9cfb774b8bebd389",
+      "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/45",
+      "verifiedAt": "2026-09-24T06:22:01.447Z",
+      "productionVerification": [
+        {
+          "key": "pcos-hair-loss",
+          "url": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/تكيس-المبايض-وتساقط-الشعر",
+          "status": 200,
+          "assets": 6
+        },
+        {
+          "key": "dining-out-skills",
+          "url": "https://ruladiet.com/blog/category/التغذية-اليومية/الوجبات-والوصفات/الأكل-الصحي-خارج-المنزل",
+          "status": 200,
+          "assets": 6
+        },
+        {
+          "key": "reflux-nutrition",
+          "url": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/التغذية-مع-ارتجاع-المريء",
+          "status": 200,
+          "assets": 6
+        },
+        {
+          "key": "blood-pressure-nutrition",
+          "url": "https://ruladiet.com/blog/category/التغذية-والحالات-الصحية/الكوليسترول-وصحة-القلب/التغذية-لارتفاع-ضغط-الدم",
+          "status": 200,
+          "assets": 6
+        }
+      ],
+      "indexNow": {
+        "submittedAt": "2026-09-24T06:22:05.112Z",
+        "status": 200,
+        "submittedUrls": 14,
+        "receipt": "content/editorial-research/2026-09-24-indexnow.json"
+      },
+      "validation": {
+        "requiredChecks": "All five required check scripts and git diff --check passed.",
+        "production": "All four article HTML files and six assets per article returned HTTP 200 and matched local files.",
+        "preview": "All four Vercel previews visually reviewed. Arabic TOC href and heading targets statically verified; navigation check passed. No mobile verification."
+      },
+      "googleStatus": "live",
+      "googleCheckedAt": "2026-09-24T06:32:18.140Z",
+      "googlePostId": "7586626916842225341",
+      "googleBlocker": null
     }
   ],
   "advertisingManagement": {
