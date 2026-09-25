@@ -953,5 +953,69 @@
     "visual": "images/blog/visual-blood-pressure-nutrition.svg",
     "secondVisual": "images/blog/visual-blood-pressure-nutrition-questions.svg",
     "note": "Original generated project cover, inspected. Two original educational SVGs. Fictional people, no real patients; two watercolor covers inspired by course palette, two natural photos."
+  },
+  {
+    "key": "pcos-acne",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-25",
+    "prompt": "Watercolor 16:9 PCOS acne scene; fictional modest Arab woman at mirror; cream, blush and sage course-inspired palette; no text, logo, medical icons or testimonial.",
+    "sourceMaster": "../marketing/2026-09-25/pcos-acne.png",
+    "cover": "images/blog/pcos-acne-1280.webp",
+    "responsive": [
+      "images/blog/pcos-acne-400.webp",
+      "images/blog/pcos-acne-800.webp",
+      "images/blog/pcos-acne-1280.webp"
+    ],
+    "visual": "images/blog/visual-pcos-acne.svg",
+    "secondVisual": "images/blog/visual-pcos-acne-questions.svg",
+    "note": "Original generated project cover inspected. Two original educational SVGs. Fictional people; two watercolor covers inspired by course palette and two natural photos."
+  },
+  {
+    "key": "travel-meal-planning",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-25",
+    "prompt": "Watercolor 16:9 travel nutrition scene; fictional modest hijabi traveler on railway platform; cream, sage and golden course-inspired palette; no text, brands or logos.",
+    "sourceMaster": "../marketing/2026-09-25/travel-meal-planning.png",
+    "cover": "images/blog/travel-meal-planning-1280.webp",
+    "responsive": [
+      "images/blog/travel-meal-planning-400.webp",
+      "images/blog/travel-meal-planning-800.webp",
+      "images/blog/travel-meal-planning-1280.webp"
+    ],
+    "visual": "images/blog/visual-travel-meal-planning.svg",
+    "secondVisual": "images/blog/visual-travel-meal-planning-questions.svg",
+    "note": "Original generated project cover inspected. Two original educational SVGs. Fictional people; two watercolor covers inspired by course palette and two natural photos."
+  },
+  {
+    "key": "fatty-liver-consultation",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-25",
+    "prompt": "Photorealistic 16:9 home consultation preparation; fictional modest Middle Eastern woman organizing blank medical papers; navy, cream and wood; no readable data or logos.",
+    "sourceMaster": "../marketing/2026-09-25/fatty-liver-consultation.png",
+    "cover": "images/blog/fatty-liver-consultation-1280.webp",
+    "responsive": [
+      "images/blog/fatty-liver-consultation-400.webp",
+      "images/blog/fatty-liver-consultation-800.webp",
+      "images/blog/fatty-liver-consultation-1280.webp"
+    ],
+    "visual": "images/blog/visual-fatty-liver-consultation.svg",
+    "secondVisual": "images/blog/visual-fatty-liver-consultation-questions.svg",
+    "note": "Original generated project cover inspected. Two original educational SVGs. Fictional people; two watercolor covers inspired by course palette and two natural photos."
+  },
+  {
+    "key": "food-allergy-consultation",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-25",
+    "prompt": "Photorealistic 16:9 food allergy planning at home; fictional modest Arab mother and daughter reading an unbranded package; warm cream, sage and terracotta; no text or distress.",
+    "sourceMaster": "../marketing/2026-09-25/food-allergy-consultation.png",
+    "cover": "images/blog/food-allergy-consultation-1280.webp",
+    "responsive": [
+      "images/blog/food-allergy-consultation-400.webp",
+      "images/blog/food-allergy-consultation-800.webp",
+      "images/blog/food-allergy-consultation-1280.webp"
+    ],
+    "visual": "images/blog/visual-food-allergy-consultation.svg",
+    "secondVisual": "images/blog/visual-food-allergy-consultation-questions.svg",
+    "note": "Original generated project cover inspected. Two original educational SVGs. Fictional people; two watercolor covers inspired by course palette and two natural photos."
   }
 ]

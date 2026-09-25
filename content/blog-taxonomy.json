@@ -265,6 +265,10 @@
     "pcos-hair-loss": "pcos",
     "dining-out-skills": "meals-recipes",
     "reflux-nutrition": "nutrition-basics",
-    "blood-pressure-nutrition": "heart-health"
+    "blood-pressure-nutrition": "heart-health",
+    "pcos-acne": "pcos",
+    "travel-meal-planning": "meals-recipes",
+    "fatty-liver-consultation": "nutrition-basics",
+    "food-allergy-consultation": "nutrition-basics"
   }
 }

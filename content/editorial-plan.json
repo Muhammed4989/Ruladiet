@@ -790,6 +790,78 @@
       "bodyWordsExcludingHeadings": 1117,
       "keywordCheckedAt": "2026-09-24",
       "publishedDate": "2026-09-24"
+    },
+    {
+      "topic": "تكيس المبايض وحب الشباب: أين تدخل التغذية؟",
+      "articleKey": "pcos-acne",
+      "primaryKeyword": "تكيس المبايض وحب الشباب",
+      "supportingKeywords": [
+        "التغذية وحب الشباب مع التكيس",
+        "حمية تكيس المبايض للبشرة"
+      ],
+      "intent": "فهم حدود الغذاء واختيار التقييم الطبي أو التعلم المنظم دون شراء وعود للبشرة",
+      "businessGoal": "course",
+      "targetPage": "/course/تكيس-المبايض",
+      "avoidOverlap": "pcos-hair-loss يتناول الشعر، وpcos-food-exclusions يتناول المنع؛ الجديد يملك شكوى حب الشباب وتقسيم الأدوار بين الجلدية والتغذية والكورس.",
+      "decisionHelp": "فهم حدود الغذاء واختيار التقييم الطبي أو التعلم المنظم دون شراء وعود للبشرة",
+      "status": "draft",
+      "plannedFor": "2026-09-25",
+      "bodyWordsExcludingHeadings": 1051,
+      "keywordCheckedAt": "2026-09-25"
+    },
+    {
+      "topic": "تنظيم الأكل أثناء السفر: خطة مرنة وآمنة",
+      "articleKey": "travel-meal-planning",
+      "primaryKeyword": "تنظيم الأكل أثناء السفر",
+      "supportingKeywords": [
+        "وجبات صحية للسفر",
+        "التغذية في السفر"
+      ],
+      "intent": "تعلم مهارات غذائية قابلة للنقل وتقييم الحاجة إلى كورس عام منظم",
+      "businessGoal": "course",
+      "targetPage": "/course/المسار-الصحي",
+      "avoidOverlap": "dining-out-skills للمطاعم، والweekly-meals للتحضير المنزلي؛ الجديد لمسار السفر والتأخير والحفظ والعودة للروتين.",
+      "decisionHelp": "تعلم مهارات غذائية قابلة للنقل وتقييم الحاجة إلى كورس عام منظم",
+      "status": "draft",
+      "plannedFor": "2026-09-25",
+      "bodyWordsExcludingHeadings": 1032,
+      "keywordCheckedAt": "2026-09-25"
+    },
+    {
+      "topic": "استشارة تغذية للكبد الدهني: ماذا تحضرين وتسألين؟",
+      "articleKey": "fatty-liver-consultation",
+      "primaryKeyword": "استشارة تغذية للكبد الدهني",
+      "supportingKeywords": [
+        "نظام غذائي للكبد الدهني",
+        "التحضير لاستشارة MASLD"
+      ],
+      "intent": "التحضير لخدمة فردية بعد التشخيص وفهم حدودها مقابل المتابعة الطبية",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": "weight-gain-consultation وconsultation-labs عامان؛ الجديد لتشخيص MASLD وتقارير الكبد والتنسيق مع الطبيب.",
+      "decisionHelp": "التحضير لخدمة فردية بعد التشخيص وفهم حدودها مقابل المتابعة الطبية",
+      "status": "draft",
+      "plannedFor": "2026-09-25",
+      "bodyWordsExcludingHeadings": 1040,
+      "keywordCheckedAt": "2026-09-25"
+    },
+    {
+      "topic": "استشارة تغذية لحساسية الطعام: التحضير والبدائل الآمنة",
+      "articleKey": "food-allergy-consultation",
+      "primaryKeyword": "استشارة تغذية لحساسية الطعام",
+      "supportingKeywords": [
+        "بدائل حساسية الطعام",
+        "قراءة ملصقات مسببات الحساسية"
+      ],
+      "intent": "التحضير لاستشارة تطبيقية بعد التشخيص مع فصل السلامة الطبية عن تخطيط الوجبات",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": "food-labels عام للبطاقة، وceliac-consultation خاص بالسيلياك؛ الجديد للحساسية المناعية وخطة الطوارئ والتلامس المتبادل.",
+      "decisionHelp": "التحضير لاستشارة تطبيقية بعد التشخيص مع فصل السلامة الطبية عن تخطيط الوجبات",
+      "status": "draft",
+      "plannedFor": "2026-09-25",
+      "bodyWordsExcludingHeadings": 1033,
+      "keywordCheckedAt": "2026-09-25"
     }
   ],
   "coverageBatch": {
@@ -1565,6 +1637,43 @@
       "googleCheckedAt": "2026-09-24T06:32:18.140Z",
       "googlePostId": "7586626916842225341",
       "googleBlocker": null
+    },
+    {
+      "date": "2026-09-25",
+      "status": "prepared",
+      "websiteStatus": "not_published",
+      "articles": [
+        {
+          "key": "pcos-acne",
+          "words": 1051,
+          "status": "draft",
+          "plannedDate": "2026-09-25"
+        },
+        {
+          "key": "travel-meal-planning",
+          "words": 1032,
+          "status": "draft",
+          "plannedDate": "2026-09-25"
+        },
+        {
+          "key": "fatty-liver-consultation",
+          "words": 1040,
+          "status": "draft",
+          "plannedDate": "2026-09-25"
+        },
+        {
+          "key": "food-allergy-consultation",
+          "words": 1033,
+          "status": "draft",
+          "plannedDate": "2026-09-25"
+        }
+      ],
+      "businessBalance": {
+        "consultation": 2,
+        "course": 2
+      },
+      "research": "content/editorial-research/2026-09-25.json",
+      "blocker": null
     }
   ],
   "advertisingManagement": {

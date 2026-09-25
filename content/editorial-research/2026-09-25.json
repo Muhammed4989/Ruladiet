@@ -1,0 +1,119 @@
+{
+  "date": "2026-09-25",
+  "reviewedArticleCount": 65,
+  "method": "Fetched origin/master efc9ee9 with clean worktree. Reviewed the complete 65-article catalog and Sep25 production records; no Sep25 article or Google entry existed. Current official and peer-reviewed sources checked. No Search Console query dataset was available; no volume, ranking or sales claims made.",
+  "sources": [
+    {
+      "name": "إرشادات تكيس المبايض الدولية 2023",
+      "url": "https://www.monash.edu/medicine/mchri/pcos/guideline",
+      "checked": "2026-09-25"
+    },
+    {
+      "name": "إرشادات علاج حب الشباب من AAD",
+      "url": "https://www.aad.org/member/clinical-quality/guidelines/acne",
+      "checked": "2026-09-25"
+    },
+    {
+      "name": "AAD: الغذاء وحب الشباب",
+      "url": "https://www.aad.org/public/diseases/acne/causes/diet",
+      "checked": "2026-09-25"
+    },
+    {
+      "name": "CDC: الطعام والشراب أثناء السفر",
+      "url": "https://wwwnc.cdc.gov/travel/page/food-water-safety",
+      "checked": "2026-09-25"
+    },
+    {
+      "name": "CDC Yellow Book: احتياطات الطعام والماء",
+      "url": "https://cdc.gov/yellow-book/hcp/preparing-international-travelers/food-and-water-precautions-for-travelers.html",
+      "checked": "2026-09-25"
+    },
+    {
+      "name": "CDC: تبريد الطعام القابل للتلف خلال ساعتين",
+      "url": "https://www.cdc.gov/food-safety/communication-resources/refrigerate-within-2-hours.html",
+      "checked": "2026-09-25"
+    },
+    {
+      "name": "EASL-EASD-EASO: إرشادات MASLD 2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38869512/",
+      "checked": "2026-09-25"
+    },
+    {
+      "name": "NIDDK: الغذاء مع NAFLD وNASH",
+      "url": "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/eating-diet-nutrition",
+      "checked": "2026-09-25"
+    },
+    {
+      "name": "الإرشادات الكاملة لإدارة MASLD",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/PMC11299976",
+      "checked": "2026-09-25"
+    },
+    {
+      "name": "FDA: حساسية الطعام والملصقات",
+      "url": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/food-allergies",
+      "checked": "2026-09-25"
+    },
+    {
+      "name": "NIAID: إرشادات المرضى لحساسية الطعام",
+      "url": "https://www.niaid.nih.gov/sites/default/files/faguidelinespatient.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "name": "NIAID: الملخص التنفيذي لإرشادات الحساسية",
+      "url": "https://www.niaid.nih.gov/sites/default/files/faguidelinesexecsummary.pdf",
+      "checked": "2026-09-25"
+    }
+  ],
+  "briefs": [
+    {
+      "key": "pcos-acne",
+      "primaryKeyword": "تكيس المبايض وحب الشباب",
+      "supporting": [
+        "التغذية وحب الشباب مع التكيس",
+        "حمية تكيس المبايض للبشرة"
+      ],
+      "intent": "فهم حدود الغذاء واختيار التقييم الطبي أو التعلم المنظم دون شراء وعود للبشرة",
+      "overlap": "pcos-hair-loss يتناول الشعر، وpcos-food-exclusions يتناول المنع؛ الجديد يملك شكوى حب الشباب وتقسيم الأدوار بين الجلدية والتغذية والكورس.",
+      "goal": "course"
+    },
+    {
+      "key": "travel-meal-planning",
+      "primaryKeyword": "تنظيم الأكل أثناء السفر",
+      "supporting": [
+        "وجبات صحية للسفر",
+        "التغذية في السفر"
+      ],
+      "intent": "تعلم مهارات غذائية قابلة للنقل وتقييم الحاجة إلى كورس عام منظم",
+      "overlap": "dining-out-skills للمطاعم، والweekly-meals للتحضير المنزلي؛ الجديد لمسار السفر والتأخير والحفظ والعودة للروتين.",
+      "goal": "course"
+    },
+    {
+      "key": "fatty-liver-consultation",
+      "primaryKeyword": "استشارة تغذية للكبد الدهني",
+      "supporting": [
+        "نظام غذائي للكبد الدهني",
+        "التحضير لاستشارة MASLD"
+      ],
+      "intent": "التحضير لخدمة فردية بعد التشخيص وفهم حدودها مقابل المتابعة الطبية",
+      "overlap": "weight-gain-consultation وconsultation-labs عامان؛ الجديد لتشخيص MASLD وتقارير الكبد والتنسيق مع الطبيب.",
+      "goal": "consultation"
+    },
+    {
+      "key": "food-allergy-consultation",
+      "primaryKeyword": "استشارة تغذية لحساسية الطعام",
+      "supporting": [
+        "بدائل حساسية الطعام",
+        "قراءة ملصقات مسببات الحساسية"
+      ],
+      "intent": "التحضير لاستشارة تطبيقية بعد التشخيص مع فصل السلامة الطبية عن تخطيط الوجبات",
+      "overlap": "food-labels عام للبطاقة، وceliac-consultation خاص بالسيلياك؛ الجديد للحساسية المناعية وخطة الطوارئ والتلامس المتبادل.",
+      "goal": "consultation"
+    }
+  ],
+  "offerScope": "PCOS course curriculum verified against content/pcos-course.json: 33 lessons in five modules; educational only. Healthy Path used only for general learning CTA. Booking page owns direct booking intent; no consultation price or inclusion invented. No Meta access.",
+  "googlePolicyChecked": "2026-09-25",
+  "googlePolicySources": [
+    "https://support.google.com/business/answer/7342169?hl=en",
+    "https://support.google.com/business/answer/7400114?hl=en"
+  ]
+}
