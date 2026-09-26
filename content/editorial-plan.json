@@ -804,8 +804,9 @@
       "targetPage": "/course/تكيس-المبايض",
       "avoidOverlap": "pcos-hair-loss يتناول الشعر، وpcos-food-exclusions يتناول المنع؛ الجديد يملك شكوى حب الشباب وتقسيم الأدوار بين الجلدية والتغذية والكورس.",
       "decisionHelp": "فهم حدود الغذاء واختيار التقييم الطبي أو التعلم المنظم دون شراء وعود للبشرة",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-09-25",
+      "publishedDate": "2026-09-25",
       "bodyWordsExcludingHeadings": 1051,
       "keywordCheckedAt": "2026-09-25"
     },
@@ -822,8 +823,9 @@
       "targetPage": "/course/المسار-الصحي",
       "avoidOverlap": "dining-out-skills للمطاعم، والweekly-meals للتحضير المنزلي؛ الجديد لمسار السفر والتأخير والحفظ والعودة للروتين.",
       "decisionHelp": "تعلم مهارات غذائية قابلة للنقل وتقييم الحاجة إلى كورس عام منظم",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-09-25",
+      "publishedDate": "2026-09-25",
       "bodyWordsExcludingHeadings": 1032,
       "keywordCheckedAt": "2026-09-25"
     },
@@ -840,8 +842,9 @@
       "targetPage": "/احجز-موعد",
       "avoidOverlap": "weight-gain-consultation وconsultation-labs عامان؛ الجديد لتشخيص MASLD وتقارير الكبد والتنسيق مع الطبيب.",
       "decisionHelp": "التحضير لخدمة فردية بعد التشخيص وفهم حدودها مقابل المتابعة الطبية",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-09-25",
+      "publishedDate": "2026-09-25",
       "bodyWordsExcludingHeadings": 1040,
       "keywordCheckedAt": "2026-09-25"
     },
@@ -858,10 +861,83 @@
       "targetPage": "/احجز-موعد",
       "avoidOverlap": "food-labels عام للبطاقة، وceliac-consultation خاص بالسيلياك؛ الجديد للحساسية المناعية وخطة الطوارئ والتلامس المتبادل.",
       "decisionHelp": "التحضير لاستشارة تطبيقية بعد التشخيص مع فصل السلامة الطبية عن تخطيط الوجبات",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-09-25",
+      "publishedDate": "2026-09-25",
       "bodyWordsExcludingHeadings": 1033,
       "keywordCheckedAt": "2026-09-25"
+    },
+    {
+      "topic": "ماذا بعد تشخيص تكيس المبايض؟ خارطة الأسئلة والخطوات",
+      "articleKey": "pcos-after-diagnosis",
+      "primaryKeyword": "ماذا بعد تشخيص تكيس المبايض",
+      "supportingKeywords": [
+        "أول خطوات بعد تشخيص التكيس",
+        "أسئلة بعد تشخيص تكيس المبايض"
+      ],
+      "intent": "تنظيم الخطوات الأولى بعد التشخيص وتقييم ملاءمة التعلم المنظم مع الحفاظ على دور الطبيب",
+      "businessGoal": "course",
+      "targetPage": "/course/تكيس-المبايض",
+      "avoidOverlap": "pcos-support يقارن بين الكورس والاستشارة، وpcos-cycle-log يركز على سجل الدورة؛ الجديد يبني خارطة الأيام الأولى بعد التشخيص وتقسيم الأسئلة.",
+      "decisionHelp": "تنظيم الخطوات الأولى بعد التشخيص وتقييم ملاءمة التعلم المنظم مع الحفاظ على دور الطبيب",
+      "status": "draft",
+      "plannedFor": "2026-09-26",
+      "bodyWordsExcludingHeadings": 1044,
+      "keywordCheckedAt": "2026-09-26"
+    },
+    {
+      "topic": "كورس تغذية مجاني للمبتدئات: كيف تستفيدين منه؟",
+      "articleKey": "free-nutrition-course-start",
+      "primaryKeyword": "كورس تغذية مجاني للمبتدئات",
+      "supportingKeywords": [
+        "كورس تغذية مجاني",
+        "تعلم التغذية للمبتدئين"
+      ],
+      "intent": "تقييم نقطة بداية مجانية والاستفادة منها قبل قرار برنامج أعمق أو استشارة",
+      "businessGoal": "course",
+      "targetPage": "/course/رحلة-التغيير",
+      "avoidOverlap": "nutrition-course-choice يقارن معايير شراء الكورسات، وcourse-application يشرح التطبيق بعد التسجيل؛ الجديد يركز على أول تجربة مجانية وكيفية قياس ملاءمتها.",
+      "decisionHelp": "تقييم نقطة بداية مجانية والاستفادة منها قبل قرار برنامج أعمق أو استشارة",
+      "status": "draft",
+      "plannedFor": "2026-09-26",
+      "bodyWordsExcludingHeadings": 1006,
+      "keywordCheckedAt": "2026-09-26"
+    },
+    {
+      "topic": "استشارة تغذية للنقرس وارتفاع حمض اليوريك: ماذا تحضرين؟",
+      "articleKey": "gout-consultation",
+      "primaryKeyword": "استشارة تغذية للنقرس",
+      "supportingKeywords": [
+        "نظام غذائي لارتفاع حمض اليوريك",
+        "التحضير لاستشارة النقرس"
+      ],
+      "intent": "التحضير لخدمة غذائية بعد التقييم الطبي وفهم أن الغذاء يدعم العلاج ولا يستبدله",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": "kidney-stone content غير موجود، وfood-diary عام؛ الجديد يخص النقرس وحمض اليوريك وتقسيم الدور بين الروماتيزم والتغذية.",
+      "decisionHelp": "التحضير لخدمة غذائية بعد التقييم الطبي وفهم أن الغذاء يدعم العلاج ولا يستبدله",
+      "status": "draft",
+      "plannedFor": "2026-09-26",
+      "bodyWordsExcludingHeadings": 1012,
+      "keywordCheckedAt": "2026-09-26"
+    },
+    {
+      "topic": "استشارة تغذية للإمساك المزمن: التحضير والألياف بأمان",
+      "articleKey": "constipation-consultation",
+      "primaryKeyword": "استشارة تغذية للإمساك المزمن",
+      "supportingKeywords": [
+        "الألياف للإمساك",
+        "التحضير لاستشارة الإمساك"
+      ],
+      "intent": "التحضير لخدمة فردية مع فرز علامات الإنذار وتجنب زيادة الألياف أو المكملات عشوائياً",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": "ibs-consultation يركز على القولون العصبي وفودماب؛ الجديد للإمساك المزمن والسجل والأدوية والتدرج.",
+      "decisionHelp": "التحضير لخدمة فردية مع فرز علامات الإنذار وتجنب زيادة الألياف أو المكملات عشوائياً",
+      "status": "draft",
+      "plannedFor": "2026-09-26",
+      "bodyWordsExcludingHeadings": 1135,
+      "keywordCheckedAt": "2026-09-26"
     }
   ],
   "coverageBatch": {
@@ -1640,32 +1716,40 @@
     },
     {
       "date": "2026-09-25",
-      "status": "prepared",
-      "websiteStatus": "not_published",
+      "status": "published",
+      "websiteStatus": "published",
       "articles": [
         {
           "key": "pcos-acne",
           "words": 1051,
-          "status": "draft",
-          "plannedDate": "2026-09-25"
+          "status": "published",
+          "plannedDate": "2026-09-25",
+          "publishedDate": "2026-09-25",
+          "canonicalUrl": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/تكيس-المبايض-وحب-الشباب"
         },
         {
           "key": "travel-meal-planning",
           "words": 1032,
-          "status": "draft",
-          "plannedDate": "2026-09-25"
+          "status": "published",
+          "plannedDate": "2026-09-25",
+          "publishedDate": "2026-09-25",
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/الوجبات-والوصفات/تنظيم-الأكل-أثناء-السفر"
         },
         {
           "key": "fatty-liver-consultation",
           "words": 1040,
-          "status": "draft",
-          "plannedDate": "2026-09-25"
+          "status": "published",
+          "plannedDate": "2026-09-25",
+          "publishedDate": "2026-09-25",
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/استشارة-تغذية-للكبد-الدهني"
         },
         {
           "key": "food-allergy-consultation",
           "words": 1033,
-          "status": "draft",
-          "plannedDate": "2026-09-25"
+          "status": "published",
+          "plannedDate": "2026-09-25",
+          "publishedDate": "2026-09-25",
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/استشارة-تغذية-لحساسية-الطعام"
         }
       ],
       "businessBalance": {
@@ -1673,6 +1757,51 @@
         "course": 2
       },
       "research": "content/editorial-research/2026-09-25.json",
+      "blocker": null,
+      "productionCommit": "774ea8950773f0ae026d6f96ad827e319cc42bbf",
+      "productionVerifiedAt": "2026-09-25T11:47:29.064Z",
+      "productionVerification": "All four canonical production URLs returned HTTP 200 with matching title, publication date and cover image. Required blog, site, navigation, URL migration and category-guide checks passed before publication.",
+      "indexNow": {
+        "status": "attempted_unverified",
+        "attemptedAt": "2026-09-25T11:47:29.064Z",
+        "note": "Submission command completed without a captured response body. No blind retry was made because IndexNow submissions are not idempotency-verifiable and indexing is never guaranteed."
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "status": "prepared",
+      "websiteStatus": "not_published",
+      "articles": [
+        {
+          "key": "pcos-after-diagnosis",
+          "words": 1044,
+          "status": "draft",
+          "plannedDate": "2026-09-26"
+        },
+        {
+          "key": "free-nutrition-course-start",
+          "words": 1006,
+          "status": "draft",
+          "plannedDate": "2026-09-26"
+        },
+        {
+          "key": "gout-consultation",
+          "words": 1012,
+          "status": "draft",
+          "plannedDate": "2026-09-26"
+        },
+        {
+          "key": "constipation-consultation",
+          "words": 1135,
+          "status": "draft",
+          "plannedDate": "2026-09-26"
+        }
+      ],
+      "businessBalance": {
+        "consultation": 2,
+        "course": 2
+      },
+      "research": "content/editorial-research/2026-09-26.json",
       "blocker": null
     }
   ],
