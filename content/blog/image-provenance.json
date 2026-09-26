@@ -1017,5 +1017,69 @@
     "visual": "images/blog/visual-food-allergy-consultation.svg",
     "secondVisual": "images/blog/visual-food-allergy-consultation-questions.svg",
     "note": "Original generated project cover inspected. Two original educational SVGs. Fictional people; two watercolor covers inspired by course palette and two natural photos."
+  },
+  {
+    "key": "pcos-after-diagnosis",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-26",
+    "prompt": "Watercolor 16:9 PCOS after-diagnosis planning; fictional modest Arab woman with notebook, calendar and blank reports; course-inspired cream, blush, sage and olive; no text, logos or claims.",
+    "sourceMaster": "../marketing/2026-09-26/pcos-after-diagnosis.png",
+    "cover": "images/blog/pcos-after-diagnosis-1280.webp",
+    "responsive": [
+      "images/blog/pcos-after-diagnosis-400.webp",
+      "images/blog/pcos-after-diagnosis-800.webp",
+      "images/blog/pcos-after-diagnosis-1280.webp"
+    ],
+    "visual": "images/blog/visual-pcos-after-diagnosis.svg",
+    "secondVisual": "images/blog/visual-pcos-after-diagnosis-questions.svg",
+    "note": "Original generated project cover inspected. Two original educational SVGs. Fictional people; two watercolor covers inspired by course palette and two natural photos."
+  },
+  {
+    "key": "free-nutrition-course-start",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-26",
+    "prompt": "Watercolor 16:9 beginner nutrition learning; fictional modest Arab woman following generic laptop lesson and taking notes; warm course-inspired cream blush sage; no text or logos.",
+    "sourceMaster": "../marketing/2026-09-26/free-nutrition-course-start.png",
+    "cover": "images/blog/free-nutrition-course-start-1280.webp",
+    "responsive": [
+      "images/blog/free-nutrition-course-start-400.webp",
+      "images/blog/free-nutrition-course-start-800.webp",
+      "images/blog/free-nutrition-course-start-1280.webp"
+    ],
+    "visual": "images/blog/visual-free-nutrition-course-start.svg",
+    "secondVisual": "images/blog/visual-free-nutrition-course-start-questions.svg",
+    "note": "Original generated project cover inspected. Two original educational SVGs. Fictional people; two watercolor covers inspired by course palette and two natural photos."
+  },
+  {
+    "key": "gout-consultation",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-26",
+    "prompt": "Photorealistic 16:9 gout nutrition consultation preparation; fictional modest Middle Eastern woman with blank lab papers, water and notebook; warm daylight, cream sage; no text or logos.",
+    "sourceMaster": "../marketing/2026-09-26/gout-consultation.png",
+    "cover": "images/blog/gout-consultation-1280.webp",
+    "responsive": [
+      "images/blog/gout-consultation-400.webp",
+      "images/blog/gout-consultation-800.webp",
+      "images/blog/gout-consultation-1280.webp"
+    ],
+    "visual": "images/blog/visual-gout-consultation.svg",
+    "secondVisual": "images/blog/visual-gout-consultation-questions.svg",
+    "note": "Original generated project cover inspected. Two original educational SVGs. Fictional people; two watercolor covers inspired by course palette and two natural photos."
+  },
+  {
+    "key": "constipation-consultation",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-26",
+    "prompt": "Photorealistic 16:9 chronic constipation nutrition preparation; fictional modest Arab woman by window with notebook, water, oats and fruit; warm cream terracotta sage; no text or claims.",
+    "sourceMaster": "../marketing/2026-09-26/constipation-consultation.png",
+    "cover": "images/blog/constipation-consultation-1280.webp",
+    "responsive": [
+      "images/blog/constipation-consultation-400.webp",
+      "images/blog/constipation-consultation-800.webp",
+      "images/blog/constipation-consultation-1280.webp"
+    ],
+    "visual": "images/blog/visual-constipation-consultation.svg",
+    "secondVisual": "images/blog/visual-constipation-consultation-questions.svg",
+    "note": "Original generated project cover inspected. Two original educational SVGs. Fictional people; two watercolor covers inspired by course palette and two natural photos."
   }
 ]

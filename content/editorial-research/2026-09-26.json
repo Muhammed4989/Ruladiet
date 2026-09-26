@@ -1,0 +1,104 @@
+{
+  "date": "2026-09-26",
+  "reviewedArticleCount": 69,
+  "method": "Fetched origin/master 774ea89 and reviewed the complete 69-article catalog plus Sep25 records. Current primary sources checked. No Search Console query dataset was available; no volume, ranking or sales claims made.",
+  "sources": [
+    {
+      "name": "إرشادات تكيس المبايض الدولية 2023",
+      "url": "https://www.monash.edu/medicine/mchri/pcos/guideline",
+      "checked": "2026-09-26"
+    },
+    {
+      "name": "ملخص توصيات الإرشادات الدولية",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10477934/",
+      "checked": "2026-09-26"
+    },
+    {
+      "name": "منظمة الصحة العالمية: الغذاء الصحي",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "checked": "2026-09-26"
+    },
+    {
+      "name": "منظمة الصحة العالمية: مبادئ تغيير السلوك الصحي",
+      "url": "https://www.who.int/philippines/news/detail-global/22-09-2026-who-launches-new-e-learning-course-on-behavioural-sciences-for-better-health",
+      "checked": "2026-09-26"
+    },
+    {
+      "name": "إرشادات الكلية الأمريكية لأمراض الروماتيزم للنقرس",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/",
+      "checked": "2026-09-26"
+    },
+    {
+      "name": "NIDDK: التغذية مع حصوات حمض اليوريك",
+      "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/kidney-stones/eating-diet-nutrition",
+      "checked": "2026-09-26"
+    },
+    {
+      "name": "NIDDK: تعريف وتشخيص الإمساك",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/constipation",
+      "checked": "2026-09-26"
+    },
+    {
+      "name": "NIDDK: الغذاء والألياف للإمساك",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/constipation/eating-diet-nutrition",
+      "checked": "2026-09-26"
+    },
+    {
+      "name": "NIDDK: علاج الإمساك",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/constipation/treatment",
+      "checked": "2026-09-26"
+    }
+  ],
+  "briefs": [
+    {
+      "key": "pcos-after-diagnosis",
+      "primaryKeyword": "ماذا بعد تشخيص تكيس المبايض",
+      "supporting": [
+        "أول خطوات بعد تشخيص التكيس",
+        "أسئلة بعد تشخيص تكيس المبايض"
+      ],
+      "intent": "تنظيم الخطوات الأولى بعد التشخيص وتقييم ملاءمة التعلم المنظم مع الحفاظ على دور الطبيب",
+      "overlap": "pcos-support يقارن بين الكورس والاستشارة، وpcos-cycle-log يركز على سجل الدورة؛ الجديد يبني خارطة الأيام الأولى بعد التشخيص وتقسيم الأسئلة.",
+      "goal": "course"
+    },
+    {
+      "key": "free-nutrition-course-start",
+      "primaryKeyword": "كورس تغذية مجاني للمبتدئات",
+      "supporting": [
+        "كورس تغذية مجاني",
+        "تعلم التغذية للمبتدئين"
+      ],
+      "intent": "تقييم نقطة بداية مجانية والاستفادة منها قبل قرار برنامج أعمق أو استشارة",
+      "overlap": "nutrition-course-choice يقارن معايير شراء الكورسات، وcourse-application يشرح التطبيق بعد التسجيل؛ الجديد يركز على أول تجربة مجانية وكيفية قياس ملاءمتها.",
+      "goal": "course"
+    },
+    {
+      "key": "gout-consultation",
+      "primaryKeyword": "استشارة تغذية للنقرس",
+      "supporting": [
+        "نظام غذائي لارتفاع حمض اليوريك",
+        "التحضير لاستشارة النقرس"
+      ],
+      "intent": "التحضير لخدمة غذائية بعد التقييم الطبي وفهم أن الغذاء يدعم العلاج ولا يستبدله",
+      "overlap": "kidney-stone content غير موجود، وfood-diary عام؛ الجديد يخص النقرس وحمض اليوريك وتقسيم الدور بين الروماتيزم والتغذية.",
+      "goal": "consultation"
+    },
+    {
+      "key": "constipation-consultation",
+      "primaryKeyword": "استشارة تغذية للإمساك المزمن",
+      "supporting": [
+        "الألياف للإمساك",
+        "التحضير لاستشارة الإمساك"
+      ],
+      "intent": "التحضير لخدمة فردية مع فرز علامات الإنذار وتجنب زيادة الألياف أو المكملات عشوائياً",
+      "overlap": "ibs-consultation يركز على القولون العصبي وفودماب؛ الجديد للإمساك المزمن والسجل والأدوية والتدرج.",
+      "goal": "consultation"
+    }
+  ],
+  "offerScope": "PCOS course curriculum verified against content/pcos-course.json: 33 lessons in five modules; educational only. Free Journey course used as a general beginner CTA. Booking page owns direct booking intent; no consultation price or inclusion invented. No Meta access.",
+  "googlePolicyChecked": "2026-09-26",
+  "googlePolicySources": [
+    "https://support.google.com/business/answer/7342169?hl=en",
+    "https://support.google.com/business/answer/7400114?hl=en"
+  ]
+}

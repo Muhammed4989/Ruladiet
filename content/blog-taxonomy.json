@@ -269,6 +269,10 @@
     "pcos-acne": "pcos",
     "travel-meal-planning": "meals-recipes",
     "fatty-liver-consultation": "nutrition-basics",
-    "food-allergy-consultation": "nutrition-basics"
+    "food-allergy-consultation": "nutrition-basics",
+    "pcos-after-diagnosis": "pcos",
+    "free-nutrition-course-start": "habits",
+    "gout-consultation": "nutrition-basics",
+    "constipation-consultation": "nutrition-basics"
   }
 }

@@ -218,6 +218,48 @@
       "submissionNote": "Text557characters verified; image uploaded; Learn more canonical URL entered with pressSequentially. Check UI after click before any retry.",
       "verification": "Google managed list shows Published, full text, image and Learn more. Reopened saved editor; description equals prepared 557-character text and decoded button URL exactly matches published article.",
       "uploadedImageFormat": "JPEG"
+    },
+    {
+      "date": "2026-09-25",
+      "articleKey": "travel-meal-planning",
+      "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/الوجبات-والوصفات/تنظيم-الأكل-أثناء-السفر",
+      "text": "السفر لا يحتاج إلى حقيبة مليئة بوجبات مثالية؛ يحتاج إلى خطة صغيرة وآمنة.\n\nقبل الخروج، حددي أطول فجوة بلا وجبة، واحملي خياراً واحداً يتحمل مدة الطريق. احفظي الطعام القابل للتلف مبرداً، وابحثي في الطريق عن وجبة تناسب جوعك ووقت الوجبة التالية بدلاً من مطاردة طبق «مثالي».\n\nفي دليل رولا دايت الجديد نشرح اختيار الطعام في المطار أو القطار والفندق، والتعامل مع التأخير، والعودة إلى الروتين من دون صيام تعويضي أو لوم. هذه إرشادات عامة؛ الحساسية والحمل والحالات الطبية تحتاج خطة فردية. اقرئي المقال عبر زر معرفة المزيد. الصورة رسم توضيحي لشخصية خيالية وليست لرولا أو مريضاتها.",
+      "imagePath": "images/blog/travel-meal-planning-1280.webp",
+      "button": {
+        "type": "LEARN_MORE",
+        "url": "https://ruladiet.com/blog/category/التغذية-اليومية/الوجبات-والوصفات/تنظيم-الأكل-أثناء-السفر"
+      },
+      "status": "draft",
+      "preparedAt": "2026-09-25T11:47:29.064Z",
+      "submittedAt": null,
+      "checkedAt": null,
+      "postId": null,
+      "postUrl": null,
+      "blocker": "awaiting_action_time_confirmation_before_final_post_click",
+      "sourceArticleVerifiedAt": "2026-09-25T11:47:29.064Z",
+      "duplicateCheck": "Pending current managed-posts verification before submission.",
+      "uploadedImageFormat": "JPEG"
+    },
+    {
+      "date": "2026-09-26",
+      "articleKey": "pcos-after-diagnosis",
+      "canonicalUrl": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/ماذا-بعد-تشخيص-تكيس-المبايض",
+      "text": "بعد تشخيص تكيس المبايض، لا تبدئي بقائمة منع طويلة. ابدئي بتنظيم المعلومات.\n\nاحتفظي بالتقرير والتحاليل وتعليمات الطبيبة أو الطبيب، وسجلي الأعراض التي تهمك والأدوية أو المكملات المستخدمة. حددي سؤالاً واحداً لكل موعد، ثم وزعي الأدوار بوضوح: الطبيب للتشخيص والمتابعة الطبية، والاستشارة الغذائية لتخصيص الطعام والروتين، والكورس للتثقيف المنظم.\n\nفي دليل رولا دايت الجديد ستجدين خارطة عملية للأسئلة والخطوات، مع توضيح متى يفيد الكورس ومتى تحتاجين متابعة فردية. لا توجد وصفة واحدة تناسب الجميع، ولا يضمن الغذاء أو الكورس الشفاء. اقرئي المقال عبر زر معرفة المزيد. الصورة لشخصية خيالية مولدة، وليست لرولا أو مريضاتها.",
+      "imagePath": "images/blog/pcos-after-diagnosis-1280.webp",
+      "button": {
+        "type": "LEARN_MORE",
+        "url": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/ماذا-بعد-تشخيص-تكيس-المبايض"
+      },
+      "status": "draft",
+      "preparedAt": "2026-09-26T08:26:24.036Z",
+      "submittedAt": null,
+      "checkedAt": null,
+      "postId": null,
+      "postUrl": null,
+      "blocker": "awaiting_action_time_confirmation_before_final_post_click",
+      "sourceArticleVerifiedAt": null,
+      "duplicateCheck": "Not opened because the Sep25 editor remains prepared and final publication still awaits action-time confirmation.",
+      "uploadedImageFormat": "WEBP"
     }
   ],
   "draftQueue": [
