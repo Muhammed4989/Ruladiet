@@ -1769,32 +1769,40 @@
     },
     {
       "date": "2026-09-26",
-      "status": "prepared",
-      "websiteStatus": "not_published",
+      "status": "published",
+      "websiteStatus": "published",
       "articles": [
         {
           "key": "pcos-after-diagnosis",
           "words": 1044,
-          "status": "draft",
-          "plannedDate": "2026-09-26"
+          "status": "published",
+          "plannedDate": "2026-09-26",
+          "publishedDate": "2026-09-26",
+          "canonicalUrl": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/ماذا-بعد-تشخيص-تكيس-المبايض"
         },
         {
           "key": "free-nutrition-course-start",
           "words": 1006,
-          "status": "draft",
-          "plannedDate": "2026-09-26"
+          "status": "published",
+          "plannedDate": "2026-09-26",
+          "publishedDate": "2026-09-26",
+          "canonicalUrl": "https://ruladiet.com/blog/category/السلوك-الغذائي/بناء-العادات/كورس-تغذية-مجاني-للمبتدئات"
         },
         {
           "key": "gout-consultation",
           "words": 1012,
-          "status": "draft",
-          "plannedDate": "2026-09-26"
+          "status": "published",
+          "plannedDate": "2026-09-26",
+          "publishedDate": "2026-09-26",
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/استشارة-تغذية-للنقرس-وحمض-اليوريك"
         },
         {
           "key": "constipation-consultation",
           "words": 1135,
-          "status": "draft",
-          "plannedDate": "2026-09-26"
+          "status": "published",
+          "plannedDate": "2026-09-26",
+          "publishedDate": "2026-09-26",
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/استشارة-تغذية-للإمساك-المزمن"
         }
       ],
       "businessBalance": {
@@ -1802,7 +1810,27 @@
         "course": 2
       },
       "research": "content/editorial-research/2026-09-26.json",
-      "blocker": null
+      "blocker": null,
+      "productionCommit": "312ad959ae3e968a64c1d8658e795c810cd60e99",
+      "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/48",
+      "productionVerifiedAt": "2026-09-26T08:53:00.000Z",
+      "productionVerification": "All four canonical production URLs returned HTTP 200 with the expected title, publication date and cover image. Vercel preview passed and three representative pages were visually reviewed before merge.",
+      "validation": {
+        "checkBlog": "73 articles, 73 unique covers, 73 educational visuals, 227 contextual links, 0 errors",
+        "checkSite": "121 pages, 233 schemas, 4927 internal links, 118 sitemap URLs, 0 errors; known 588 NUL warning unchanged",
+        "navigation": "73 articles, 570 headings, 31 archives, 105 breadcrumbs, 0 errors",
+        "migration": "73 hierarchical articles, 1533 redirect variants, 1662 assets, 0 errors",
+        "categoryGuides": "31 guides, minimum 552 words, 0 errors",
+        "diffCheck": "pass"
+      },
+      "googleStatus": "draft",
+      "googleBlocker": "awaiting_action_time_confirmation_before_final_post_click",
+      "indexNow": {
+        "submittedAt": "2026-09-26T09:04:24.764Z",
+        "status": 200,
+        "submittedUrls": 4,
+        "receipt": "content/editorial-research/2026-09-26-indexnow.json"
+      }
     }
   ],
   "advertisingManagement": {
