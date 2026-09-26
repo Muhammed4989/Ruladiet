@@ -257,7 +257,7 @@
       "postId": null,
       "postUrl": null,
       "blocker": "awaiting_action_time_confirmation_before_final_post_click",
-      "sourceArticleVerifiedAt": null,
+      "sourceArticleVerifiedAt": "2026-09-26T08:53:00.000Z",
       "duplicateCheck": "Not opened because the Sep25 editor remains prepared and final publication still awaits action-time confirmation.",
       "uploadedImageFormat": "WEBP"
     }
