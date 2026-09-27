@@ -1081,5 +1081,69 @@
     "visual": "images/blog/visual-constipation-consultation.svg",
     "secondVisual": "images/blog/visual-constipation-consultation-questions.svg",
     "note": "Original generated project cover inspected. Two original educational SVGs. Fictional people; two watercolor covers inspired by course palette and two natural photos."
+  },
+  {
+    "key": "pcos-course-goals",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-27",
+    "prompt": "Watercolor fictional modest Arab woman choosing three learning goals; cream blush sage course-inspired palette; no text or claims.",
+    "sourceMaster": "Codex generated_images/exec-e788b0c1-a3a5-4844-b5e7-37da065b397f.png",
+    "cover": "images/blog/pcos-course-goals-1280.webp",
+    "responsive": [
+      "images/blog/pcos-course-goals-400.webp",
+      "images/blog/pcos-course-goals-800.webp",
+      "images/blog/pcos-course-goals-1280.webp"
+    ],
+    "visual": "images/blog/visual-pcos-course-goals.svg",
+    "secondVisual": "images/blog/visual-pcos-course-goals-questions.svg",
+    "note": "Original generated cover inspected. Two original educational SVGs. Fictional people; two course-inspired watercolor covers and two natural photographs."
+  },
+  {
+    "key": "healthy-path-after-diets",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-27",
+    "prompt": "Course-inspired watercolor fictional modest Arab woman leaving restrictive diet checklist for flexible habits; no text or claims.",
+    "sourceMaster": "Codex generated_images/exec-f05e9d38-19b2-4ff1-a3bf-b17d2c8c00b4.png",
+    "cover": "images/blog/healthy-path-after-diets-1280.webp",
+    "responsive": [
+      "images/blog/healthy-path-after-diets-400.webp",
+      "images/blog/healthy-path-after-diets-800.webp",
+      "images/blog/healthy-path-after-diets-1280.webp"
+    ],
+    "visual": "images/blog/visual-healthy-path-after-diets.svg",
+    "secondVisual": "images/blog/visual-healthy-path-after-diets-questions.svg",
+    "note": "Original generated cover inspected. Two original educational SVGs. Fictional people; two course-inspired watercolor covers and two natural photographs."
+  },
+  {
+    "key": "kidney-stones-consultation",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-27",
+    "prompt": "Natural editorial photo of fictional modest Arab woman preparing blank reports, water and notebook for kidney-stone nutrition consultation.",
+    "sourceMaster": "Codex generated_images/exec-1091bfa7-ec77-4e85-b104-04ef5d4c2992.png",
+    "cover": "images/blog/kidney-stones-consultation-1280.webp",
+    "responsive": [
+      "images/blog/kidney-stones-consultation-400.webp",
+      "images/blog/kidney-stones-consultation-800.webp",
+      "images/blog/kidney-stones-consultation-1280.webp"
+    ],
+    "visual": "images/blog/visual-kidney-stones-consultation.svg",
+    "secondVisual": "images/blog/visual-kidney-stones-consultation-questions.svg",
+    "note": "Original generated cover inspected. Two original educational SVGs. Fictional people; two course-inspired watercolor covers and two natural photographs."
+  },
+  {
+    "key": "bone-health-consultation",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-27",
+    "prompt": "Natural editorial photo of fictional modest middle-aged Arab woman walking near calcium-rich foods and blank notes; no claims.",
+    "sourceMaster": "Codex generated_images/exec-5b24ab96-e9a0-4315-bce2-a42efb3c2f16.png",
+    "cover": "images/blog/bone-health-consultation-1280.webp",
+    "responsive": [
+      "images/blog/bone-health-consultation-400.webp",
+      "images/blog/bone-health-consultation-800.webp",
+      "images/blog/bone-health-consultation-1280.webp"
+    ],
+    "visual": "images/blog/visual-bone-health-consultation.svg",
+    "secondVisual": "images/blog/visual-bone-health-consultation-questions.svg",
+    "note": "Original generated cover inspected. Two original educational SVGs. Fictional people; two course-inspired watercolor covers and two natural photographs."
   }
 ]

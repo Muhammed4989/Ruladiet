@@ -938,6 +938,78 @@
       "plannedFor": "2026-09-26",
       "bodyWordsExcludingHeadings": 1135,
       "keywordCheckedAt": "2026-09-26"
+    },
+    {
+      "topic": "كيف تختارين هدفك داخل كورس تكيس المبايض؟",
+      "articleKey": "pcos-course-goals",
+      "primaryKeyword": "كورس تكيس المبايض",
+      "supportingKeywords": [
+        "اختيار هدف كورس التكيس",
+        "كيف أستفيد من كورس تكيس المبايض"
+      ],
+      "intent": "مساعدة الباحثة القريبة من الاشتراك على اختيار هدف تعلم واقعي وفهم حدود الكورس.",
+      "businessGoal": "course",
+      "targetPage": "/course/تكيس-المبايض",
+      "avoidOverlap": "pcos-support يقارن الكورس بالاستشارة، وpcos-after-diagnosis يرتب الأيام الأولى؛ هذه الصفحة تركز على اختيار مسار التعلم داخل المنهج.",
+      "decisionHelp": "مساعدة الباحثة القريبة من الاشتراك على اختيار هدف تعلم واقعي وفهم حدود الكورس.",
+      "status": "draft",
+      "plannedFor": "2026-09-27",
+      "bodyWordsExcludingHeadings": 1069,
+      "keywordCheckedAt": "2026-09-27"
+    },
+    {
+      "topic": "كورس المسار الصحي بعد الحميات المتكررة: كيف تبدئين؟",
+      "articleKey": "healthy-path-after-diets",
+      "primaryKeyword": "كورس المسار الصحي",
+      "supportingKeywords": [
+        "كورس بعد الحميات المتكررة",
+        "تعلم العادات الغذائية الصحية"
+      ],
+      "intent": "مساعدة الباحثة في تقييم التعلم المنظم بعد تكرار الحميات والاستعداد لاستخدام الكورس بواقعية.",
+      "businessGoal": "course",
+      "targetPage": "/course/المسار-الصحي",
+      "avoidOverlap": "weight-maintenance يشرح الحفاظ على الوزن، وnutrition-course-choice يشرح معايير الشراء؛ هذه الصفحة تعالج بداية الكورس بعد خبرة الحميات المتكررة.",
+      "decisionHelp": "مساعدة الباحثة في تقييم التعلم المنظم بعد تكرار الحميات والاستعداد لاستخدام الكورس بواقعية.",
+      "status": "draft",
+      "plannedFor": "2026-09-27",
+      "bodyWordsExcludingHeadings": 1025,
+      "keywordCheckedAt": "2026-09-27"
+    },
+    {
+      "topic": "استشارة تغذية لحصوات الكلى: ماذا تحضرين؟",
+      "articleKey": "kidney-stones-consultation",
+      "primaryKeyword": "استشارة تغذية لحصوات الكلى",
+      "supportingKeywords": [
+        "نظام غذائي لحصوات الكلى",
+        "التحضير لاستشارة حصوات الكلى"
+      ],
+      "intent": "تحضير الباحثة لخدمة فردية بعد التشخيص وفهم ارتباط الغذاء بنوع الحصوة.",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": "gout-consultation يخص النقرس وحمض اليوريك؛ هذه الصفحة تركز على أنواع حصوات الكلى والتقارير والسوائل والكالسيوم.",
+      "decisionHelp": "تحضير الباحثة لخدمة فردية بعد التشخيص وفهم ارتباط الغذاء بنوع الحصوة.",
+      "status": "draft",
+      "plannedFor": "2026-09-27",
+      "bodyWordsExcludingHeadings": 1010,
+      "keywordCheckedAt": "2026-09-27"
+    },
+    {
+      "topic": "استشارة تغذية لصحة العظام بعد انقطاع الطمث: ماذا تحضرين؟",
+      "articleKey": "bone-health-consultation",
+      "primaryKeyword": "استشارة تغذية لصحة العظام بعد انقطاع الطمث",
+      "supportingKeywords": [
+        "تغذية هشاشة العظام",
+        "الكالسيوم وفيتامين د بعد انقطاع الطمث"
+      ],
+      "intent": "تحضير المرأة لخدمة غذائية داعمة بعد تقييم كثافة العظام مع إبقاء التشخيص والدواء لدى الطبيب.",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": "menopause-nutrition يقدم نظرة عامة للمرحلة؛ هذه الصفحة دليل قرار وتحضير لاستشارة صحة العظام.",
+      "decisionHelp": "تحضير المرأة لخدمة غذائية داعمة بعد تقييم كثافة العظام مع إبقاء التشخيص والدواء لدى الطبيب.",
+      "status": "draft",
+      "plannedFor": "2026-09-27",
+      "bodyWordsExcludingHeadings": 1041,
+      "keywordCheckedAt": "2026-09-27"
     }
   ],
   "coverageBatch": {
@@ -1831,6 +1903,43 @@
         "submittedUrls": 4,
         "receipt": "content/editorial-research/2026-09-26-indexnow.json"
       }
+    },
+    {
+      "date": "2026-09-27",
+      "status": "prepared",
+      "websiteStatus": "not_published",
+      "articles": [
+        {
+          "key": "pcos-course-goals",
+          "words": 1069,
+          "status": "draft",
+          "plannedDate": "2026-09-27"
+        },
+        {
+          "key": "healthy-path-after-diets",
+          "words": 1025,
+          "status": "draft",
+          "plannedDate": "2026-09-27"
+        },
+        {
+          "key": "kidney-stones-consultation",
+          "words": 1010,
+          "status": "draft",
+          "plannedDate": "2026-09-27"
+        },
+        {
+          "key": "bone-health-consultation",
+          "words": 1041,
+          "status": "draft",
+          "plannedDate": "2026-09-27"
+        }
+      ],
+      "businessBalance": {
+        "consultation": 2,
+        "course": 2
+      },
+      "research": "content/editorial-research/2026-09-27.json",
+      "blocker": null
     }
   ],
   "advertisingManagement": {
