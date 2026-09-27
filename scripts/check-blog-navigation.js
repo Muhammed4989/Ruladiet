@@ -54,6 +54,11 @@ for(const p of posts){
  assert(taxonomy.includes('href="'+categoryPath(category)+'"'),p.key+' missing category in article navigation');
  assert(taxonomy.includes('href="'+topicPath(category,topic)+'" aria-current="true"'),p.key+' missing current topic in article navigation');
  assert(taxonomy.includes('href="'+postPath(p)+'" aria-current="page"'),p.key+' missing current article in article navigation');
+ assert(taxonomy.includes('<details class="article-taxonomy-topic-details is-current" open><summary>'+topic.name+'</summary>'),p.key+' current topic must be expanded');
+ for(const other of categories.flatMap(c=>c.topics)){
+  const members=posts.filter(post=>post.taxonomy.topic.id===other.id);
+  assert.equal(taxonomy.includes('<summary>'+other.name+'</summary>'),!!members.length,p.key+' topic expansion rule '+other.id);
+ }
  headingCount+=rendered.length;
 }
 for(const category of categories){
@@ -74,6 +79,14 @@ for(const category of categories){
   assert.equal(sitemap.includes('<loc>https://ruladiet.com'+route+'</loc>'),!!expected.length,route+' sitemap rule');
   assert(!html.includes('href="#cat='),'Legacy filter remains');
   assert(!html.includes('class="taxonomy-section"'),route+' still shows redundant topic cards');
+  const sidebar=html.match(/<nav class="sidebar-widget taxonomy-nav"[\s\S]*?<\/nav>/)?.[0];
+  assert(sidebar,route+' missing taxonomy sidebar');
+  for(const other of categories.flatMap(c=>c.topics)){
+   const members=posts.filter(post=>post.taxonomy.topic.id===other.id);
+   assert.equal(sidebar.includes('<summary>'+other.name+' <span>'),!!members.length,route+' topic expansion rule '+other.id);
+   for(const member of members)assert(sidebar.includes('href="'+postPath(member)+'"'),route+' sidebar missing '+member.key);
+  }
+  if(topic&&expected.length)assert(sidebar.includes('<details class="taxonomy-topic" open><summary>'+topic.name),route+' current topic must be expanded');
   for(const p of expected)assert(html.includes('href="'+postPath(p)+'"'),route+' missing member');
   const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);assert.equal(ids.length,new Set(ids).size,route+' duplicate IDs');
   archiveCount++;

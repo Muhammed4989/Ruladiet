@@ -31,8 +31,9 @@ function taxonomyTree(currentPost) {
   const categoryOpen=category.id===currentCategory.id;
   return `<li><details${categoryOpen?' open':''}${categoryOpen?' class="is-current"':''}><summary><span>${e(category.name)}</span></summary><div class="article-taxonomy-category"><a class="article-taxonomy-all" href="${categoryPath(category)}">جميع مقالات ${e(category.name)}</a><ul>${category.topics.map(topic=>{
    const topicOpen=categoryOpen&&topic.id===currentTopic.id;
-   const topicPosts=topicOpen?posts.filter(post=>post.taxonomy.topic.id===topic.id):[];
-   return `<li${topicOpen?' class="is-current"':''}><a class="article-taxonomy-topic" href="${topicPath(category,topic)}"${topicOpen?' aria-current="true"':''}>${e(topic.name)}</a>${topicOpen?`<ul class="article-taxonomy-posts">${topicPosts.map(post=>`<li><a href="${postPath(post)}"${post.key===currentPost.key?' aria-current="page"':''}>${e(post.title)}</a></li>`).join('')}</ul>`:''}</li>`;
+   const topicPosts=posts.filter(post=>post.taxonomy.topic.id===topic.id);
+   const link=`<a class="article-taxonomy-topic-link" href="${topicPath(category,topic)}"${topicOpen?' aria-current="true"':''}>كل مقالات ${e(topic.name)}</a>`;
+   return topicPosts.length?`<li><details class="article-taxonomy-topic-details${topicOpen?' is-current':''}"${topicOpen?' open':''}><summary>${e(topic.name)}</summary>${link}<ul class="article-taxonomy-posts">${topicPosts.map(post=>`<li><a href="${postPath(post)}"${post.key===currentPost.key?' aria-current="page"':''}>${e(post.title)}</a></li>`).join('')}</ul></details></li>`:`<li><a class="article-taxonomy-topic" href="${topicPath(category,topic)}">${e(topic.name)}</a></li>`;
   }).join('')}</ul></div></details></li>`;
  }).join('')}</ul></nav>`;
 }
