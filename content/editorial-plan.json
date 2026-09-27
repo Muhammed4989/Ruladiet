@@ -1896,7 +1896,7 @@
         "diffCheck": "pass"
       },
       "googleStatus": "draft",
-      "googleBlocker": "awaiting_action_time_confirmation_before_final_post_click",
+      "googleBlocker": "google_reauthentication_required_before_duplicate_check_and_submission",
       "indexNow": {
         "submittedAt": "2026-09-26T09:04:24.764Z",
         "status": 200,

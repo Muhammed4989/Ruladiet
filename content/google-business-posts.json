@@ -277,9 +277,9 @@
       "checkedAt": null,
       "postId": null,
       "postUrl": null,
-      "blocker": "awaiting_action_time_confirmation_before_final_post_click",
+      "blocker": "google_reauthentication_required_before_duplicate_check_and_submission",
       "sourceArticleVerifiedAt": "2026-09-27T06:51:00.000Z",
-      "duplicateCheck": "Not opened because earlier prepared Google post editors remain unresolved and final publication requires action-time confirmation.",
+      "duplicateCheck": "Attempted 2026-09-27; Google redirected to Verify it’s you for info@property-gulf.com before the managed locations or posts list could be inspected. No submission attempted.",
       "uploadedImageFormat": "WEBP"
     }
   ],
