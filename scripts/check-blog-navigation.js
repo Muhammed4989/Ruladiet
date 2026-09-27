@@ -73,6 +73,7 @@ for(const category of categories){
   assert.equal(html.includes('content="noindex, follow"'),!expected.length,route+' indexing rule');
   assert.equal(sitemap.includes('<loc>https://ruladiet.com'+route+'</loc>'),!!expected.length,route+' sitemap rule');
   assert(!html.includes('href="#cat='),'Legacy filter remains');
+  assert(!html.includes('class="taxonomy-section"'),route+' still shows redundant topic cards');
   for(const p of expected)assert(html.includes('href="'+postPath(p)+'"'),route+' missing member');
   const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);assert.equal(ids.length,new Set(ids).size,route+' duplicate IDs');
   archiveCount++;
@@ -80,6 +81,8 @@ for(const category of categories){
 }
 const family=categories.find(c=>c.id==='family');
 for(const id of ['pregnancy','breastfeeding','infants','children'])assert(family.topics.some(t=>t.id===id),'Family missing '+id);
-assert(!read('/المدونة').includes('href="#cat='));
-assert(read('/المدونة').includes('href="#أحدث-المقالات"')&&read('/المدونة').includes('id="أحدث-المقالات"'),'Missing shortcut to latest articles');
+const index=read('/المدونة');
+assert(!index.includes('href="#cat='));
+assert(!index.includes('class="taxonomy-section"')&&!index.includes('class="archive-shortcuts"'),'Blog index still shows redundant category cards or shortcuts');
+assert(index.includes('أحدث المقالات')&&index.includes('aria-label="أقسام المدونة"'),'Latest articles and sidebar navigation must remain');
 console.log(JSON.stringify({articles:posts.length,namedHeadings:headingCount,archives:archiveCount,breadcrumbsChecked:posts.length+archiveCount+1,errors:0},null,2));
