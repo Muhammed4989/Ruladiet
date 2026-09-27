@@ -278,7 +278,7 @@
       "postId": null,
       "postUrl": null,
       "blocker": "awaiting_action_time_confirmation_before_final_post_click",
-      "sourceArticleVerifiedAt": null,
+      "sourceArticleVerifiedAt": "2026-09-27T06:51:00.000Z",
       "duplicateCheck": "Not opened because earlier prepared Google post editors remain unresolved and final publication requires action-time confirmation.",
       "uploadedImageFormat": "WEBP"
     }
