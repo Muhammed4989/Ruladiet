@@ -39,7 +39,8 @@ function taxonomyTree(currentPost) {
 for(const p of posts){
  const file=postFile(p);
  // Existing article supplies the shared shell; all identity fields are replaced below.
- const candidates=[file,'blog/'+p.slug+'.html',postFile(posts.find(q=>q.key==='water')),'blog/شرب-الماء-لخسارة-الوزن.html'];
+ const previousFile=file.replace(/^blog\//,'blog/category/');
+ const candidates=[file,previousFile,'blog/'+p.slug+'.html',postFile(posts.find(q=>q.key==='water')),'blog/category/إدارة-الوزن/خسارة-الوزن/شرب-الماء-لخسارة-الوزن.html','blog/شرب-الماء-لخسارة-الوزن.html'];
  let html=fs.readFileSync(root+'/'+candidates.find(f=>fs.existsSync(root+'/'+f)),'utf8');
  html=html.replace(/((?:href|src)=")(?:\.\.\/)(css|js|images|fonts)\//g,'$1/$2/');
  const originalSchema=[...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(m=>JSON.parse(m[1])).find(x=>x['@type']==='BlogPosting');
@@ -109,4 +110,5 @@ for(const p of posts){const loc=origin+encodeURI(postPath(p));const updated=p.up
 console.log(`Enriched ${posts.length} articles, author links, unique images, CTAs and per-article dates.`);
 require('./migrate-blog-urls')();
 require('./build-blog-archives')();
+require('./remove-old-blog-category')();
 require('./build-redirects');

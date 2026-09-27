@@ -3,7 +3,9 @@ const {postPath}=require('./blog-taxonomy');
 const origin='https://ruladiet.com';
 const routes=new Map(posts.map(p=>['/blog/'+p.slug,postPath(p)]));
 function canonicalBlogPath(route) {
-  return routes.get(decodeURI(route).replace(/\/$/,'').replace(/\.html$/,''))||route;
+  const clean=decodeURI(route).replace(/\/$/,'').replace(/\.html$/,'');
+  if(clean.startsWith('/blog/category/'))return '/blog/'+clean.slice('/blog/category/'.length);
+  return routes.get(clean)||route;
 }
 // Handles root-relative links, absolute links, JSON-LD URLs, query strings and
 // fragments without touching their labels or unrelated destinations.
