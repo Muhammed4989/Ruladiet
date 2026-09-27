@@ -22,12 +22,11 @@ const redirects = mappings.flatMap(({ source, destination }) => {
 });
 const canonicalVariants=posts.flatMap(p=>[postPath(p)+'/',postPath(p)+'.html',postPath(p)+'.html/'].map(source=>({source:sourcePattern(source),destination:encodeURI(postPath(p)),permanent:true})));
 const archivePaths=categories.flatMap(category=>[categoryPath(category),...category.topics.map(topic=>topicPath(category,topic))]);
-const previousHierarchy=[...archivePaths,...posts.map(postPath)].flatMap(destination=>{
-  const previous=destination.replace(/^\/blog\//,'/blog/category/');
-  return [previous,previous+'/',previous+'.html',previous+'.html/'].map(source=>({source:sourcePattern(source),destination:encodeURI(destination),permanent:true}));
-});
+// A single wildcard covers every previously published category/topic/article
+// path, keeping vercel.json small enough for deployment configuration limits.
+const previousHierarchy={source:'/blog/category/:path*',destination:'/blog/:path*',permanent:true};
 const canonicalArchives=archivePaths.flatMap(destination=>[destination+'/',destination+'.html',destination+'.html/'].map(source=>({source:sourcePattern(source),destination:encodeURI(destination),permanent:true})));
-config.redirects = [...redirects,...previousHierarchy,...canonicalVariants,...canonicalArchives,
+config.redirects = [...redirects,previousHierarchy,...canonicalVariants,...canonicalArchives,
   { source: '/course/:slug.html', destination: '/course/:slug', permanent: true },
   { source: '/blog/:slug.html', destination: '/blog/:slug', permanent: true },
   { source: '/author/:slug.html', destination: '/author/:slug', permanent: true },
