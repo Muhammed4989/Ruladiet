@@ -260,6 +260,27 @@
       "sourceArticleVerifiedAt": "2026-09-26T08:53:00.000Z",
       "duplicateCheck": "Not opened because the Sep25 editor remains prepared and final publication still awaits action-time confirmation.",
       "uploadedImageFormat": "WEBP"
+    },
+    {
+      "date": "2026-09-27",
+      "articleKey": "pcos-course-goals",
+      "canonicalUrl": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/اختيار-الهدف-داخل-كورس-تكيس-المبايض",
+      "text": "عند بدء كورس عن تكيس المبايض، لا تحاولي حل الدورة والوزن والبشرة والحمل في وقت واحد.\n\nاختاري سؤالاً واحداً للفترة الحالية، ثم شاهدي الوحدة الأقرب إليه واكتبي: معلومة توضحت، سؤال للطبيب، وخطوة يومية آمنة. قد يكون هدفك تسجيل الدورة، أو تنظيم وجبة في أيام العمل، أو تجهيز أسئلة موعد الخصوبة.\n\nفي دليل رولا دايت الجديد نشرح كيف تختارين هدف التعلم، ومتى يصبح السؤال أكبر من الكورس ويحتاج متابعة فردية. الكورس تثقيفي؛ لا يشخص الحالة ولا يقرر الدواء ولا يضمن الشفاء أو الحمل. اقرئي الدليل عبر زر معرفة المزيد. الصورة لشخصية خيالية مولدة وليست لرولا أو مريضاتها.",
+      "imagePath": "images/blog/pcos-course-goals-1280.webp",
+      "button": {
+        "type": "LEARN_MORE",
+        "url": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/اختيار-الهدف-داخل-كورس-تكيس-المبايض"
+      },
+      "status": "draft",
+      "preparedAt": "2026-09-27T06:30:47.348Z",
+      "submittedAt": null,
+      "checkedAt": null,
+      "postId": null,
+      "postUrl": null,
+      "blocker": "awaiting_action_time_confirmation_before_final_post_click",
+      "sourceArticleVerifiedAt": null,
+      "duplicateCheck": "Not opened because earlier prepared Google post editors remain unresolved and final publication requires action-time confirmation.",
+      "uploadedImageFormat": "WEBP"
     }
   ],
   "draftQueue": [

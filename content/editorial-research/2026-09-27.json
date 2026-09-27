@@ -1,0 +1,123 @@
+{
+  "date": "2026-09-27",
+  "reviewedArticleCount": 56,
+  "method": "Fetched current origin/master and reviewed the complete article catalog before choosing four distinct decision intents. Current primary sources were checked on 2026-09-27. No Search Console query export was available; no search-volume, ranking, sales or conversion claims were made.",
+  "sources": [
+    {
+      "name": "إرشادات تكيس المبايض الدولية 2023",
+      "url": "https://www.monash.edu/medicine/mchri/pcos/guideline",
+      "checked": "2026-09-27"
+    },
+    {
+      "name": "ملخص توصيات الإرشادات الدولية",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10477934/",
+      "checked": "2026-09-27"
+    },
+    {
+      "name": "PubMed: توصيات إرشادات تكيس المبايض",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37589624/",
+      "checked": "2026-09-27"
+    },
+    {
+      "name": "منظمة الصحة العالمية: الغذاء الصحي",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "checked": "2026-09-27"
+    },
+    {
+      "name": "NIDDK: تغيير العادات لصحة أفضل",
+      "url": "https://www.niddk.nih.gov/health-information/diet-nutrition/changing-habits-better-health",
+      "checked": "2026-09-27"
+    },
+    {
+      "name": "منظمة الصحة العالمية: العلوم السلوكية للصحة",
+      "url": "https://www.who.int/philippines/news/detail-global/22-09-2026-who-launches-new-e-learning-course-on-behavioural-sciences-for-better-health",
+      "checked": "2026-09-27"
+    },
+    {
+      "name": "NIDDK: الغذاء والوقاية من حصوات الكلى",
+      "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/kidney-stones/eating-diet-nutrition",
+      "checked": "2026-09-27"
+    },
+    {
+      "name": "NIDDK: حصوات الكلى والتشخيص والعلاج",
+      "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/kidney-stones",
+      "checked": "2026-09-27"
+    },
+    {
+      "name": "الجمعية الأمريكية للمسالك: الإدارة الطبية للحصوات",
+      "url": "https://www.auanet.org/documents/Guidelines/PDF/clinical-guidance/Medical-Management-of-Kidney-Stones.pdf",
+      "checked": "2026-09-27"
+    },
+    {
+      "name": "NIAMS: تشخيص وعلاج هشاشة العظام",
+      "url": "https://www.niams.nih.gov/health-topics/osteoporosis/diagnosis-treatment-and-steps-to-take",
+      "checked": "2026-09-27"
+    },
+    {
+      "name": "NIH ODS: الكالسيوم للمهنيين الصحيين",
+      "url": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/",
+      "checked": "2026-09-27"
+    },
+    {
+      "name": "NIH ODS: فيتامين د للمهنيين الصحيين",
+      "url": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/",
+      "checked": "2026-09-27"
+    }
+  ],
+  "briefs": [
+    {
+      "key": "pcos-course-goals",
+      "primaryKeyword": "كورس تكيس المبايض",
+      "supporting": [
+        "اختيار هدف كورس التكيس",
+        "كيف أستفيد من كورس تكيس المبايض"
+      ],
+      "intent": "مساعدة الباحثة القريبة من الاشتراك على اختيار هدف تعلم واقعي وفهم حدود الكورس.",
+      "overlap": "pcos-support يقارن الكورس بالاستشارة، وpcos-after-diagnosis يرتب الأيام الأولى؛ هذه الصفحة تركز على اختيار مسار التعلم داخل المنهج.",
+      "goal": "course",
+      "target": "/course/تكيس-المبايض"
+    },
+    {
+      "key": "healthy-path-after-diets",
+      "primaryKeyword": "كورس المسار الصحي",
+      "supporting": [
+        "كورس بعد الحميات المتكررة",
+        "تعلم العادات الغذائية الصحية"
+      ],
+      "intent": "مساعدة الباحثة في تقييم التعلم المنظم بعد تكرار الحميات والاستعداد لاستخدام الكورس بواقعية.",
+      "overlap": "weight-maintenance يشرح الحفاظ على الوزن، وnutrition-course-choice يشرح معايير الشراء؛ هذه الصفحة تعالج بداية الكورس بعد خبرة الحميات المتكررة.",
+      "goal": "course",
+      "target": "/course/المسار-الصحي"
+    },
+    {
+      "key": "kidney-stones-consultation",
+      "primaryKeyword": "استشارة تغذية لحصوات الكلى",
+      "supporting": [
+        "نظام غذائي لحصوات الكلى",
+        "التحضير لاستشارة حصوات الكلى"
+      ],
+      "intent": "تحضير الباحثة لخدمة فردية بعد التشخيص وفهم ارتباط الغذاء بنوع الحصوة.",
+      "overlap": "gout-consultation يخص النقرس وحمض اليوريك؛ هذه الصفحة تركز على أنواع حصوات الكلى والتقارير والسوائل والكالسيوم.",
+      "goal": "consultation",
+      "target": "/احجز-موعد"
+    },
+    {
+      "key": "bone-health-consultation",
+      "primaryKeyword": "استشارة تغذية لصحة العظام بعد انقطاع الطمث",
+      "supporting": [
+        "تغذية هشاشة العظام",
+        "الكالسيوم وفيتامين د بعد انقطاع الطمث"
+      ],
+      "intent": "تحضير المرأة لخدمة غذائية داعمة بعد تقييم كثافة العظام مع إبقاء التشخيص والدواء لدى الطبيب.",
+      "overlap": "menopause-nutrition يقدم نظرة عامة للمرحلة؛ هذه الصفحة دليل قرار وتحضير لاستشارة صحة العظام.",
+      "goal": "consultation",
+      "target": "/احجز-موعد"
+    }
+  ],
+  "offerScope": "PCOS course remains educational with 33 lessons in five units and no cure guarantee. The Healthy Path article does not invent price, duration or access terms. Consultation articles leave diagnosis, medication, urgent symptoms and exercise safety to the appropriate clinical team. No Meta access.",
+  "googlePolicyChecked": "2026-09-27",
+  "googlePolicySources": [
+    "https://support.google.com/business/answer/7342169?hl=en",
+    "https://support.google.com/business/answer/7400114?hl=en"
+  ]
+}
