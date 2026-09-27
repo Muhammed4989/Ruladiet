@@ -3,7 +3,7 @@ const path = require('node:path');
 const root = path.resolve(__dirname, '..');
 const mappings = require('./legacy-redirects.json');
 const posts=require('./blog-catalog');
-const {postPath}=require('./blog-taxonomy');
+const {categories,categoryPath,topicPath,postPath}=require('./blog-taxonomy');
 const configPath = path.join(root, 'vercel.json');
 const config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
 
@@ -21,7 +21,13 @@ const redirects = mappings.flatMap(({ source, destination }) => {
   return variants.map(variant => ({ source: sourcePattern(variant), destination: encodeURI(destination), permanent: true }));
 });
 const canonicalVariants=posts.flatMap(p=>[postPath(p)+'/',postPath(p)+'.html',postPath(p)+'.html/'].map(source=>({source:sourcePattern(source),destination:encodeURI(postPath(p)),permanent:true})));
-config.redirects = [...redirects,...canonicalVariants,
+const archivePaths=categories.flatMap(category=>[categoryPath(category),...category.topics.map(topic=>topicPath(category,topic))]);
+const previousHierarchy=[...archivePaths,...posts.map(postPath)].flatMap(destination=>{
+  const previous=destination.replace(/^\/blog\//,'/blog/category/');
+  return [previous,previous+'/',previous+'.html',previous+'.html/'].map(source=>({source:sourcePattern(source),destination:encodeURI(destination),permanent:true}));
+});
+const canonicalArchives=archivePaths.flatMap(destination=>[destination+'/',destination+'.html',destination+'.html/'].map(source=>({source:sourcePattern(source),destination:encodeURI(destination),permanent:true})));
+config.redirects = [...redirects,...previousHierarchy,...canonicalVariants,...canonicalArchives,
   { source: '/course/:slug.html', destination: '/course/:slug', permanent: true },
   { source: '/blog/:slug.html', destination: '/blog/:slug', permanent: true },
   { source: '/author/:slug.html', destination: '/author/:slug', permanent: true },

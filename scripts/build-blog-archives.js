@@ -53,7 +53,7 @@ function buildArchives(){
   write(page.path.slice(1)+'.html',html);
  }
  const archivePaths=new Set(pages.filter(p=>p.category).map(p=>origin+p.path));
- let sitemap=fs.readFileSync(root+'/sitemap.xml','utf8').replace(/<url>[\s\S]*?<\/url>\s*/g,entry=>archivePaths.has(decodeURI(entry.match(/<loc>([^<]+)/)?.[1]||''))?'':entry);
+ let sitemap=fs.readFileSync(root+'/sitemap.xml','utf8').replace(/<url>[\s\S]*?<\/url>\s*/g,entry=>{const loc=decodeURI(entry.match(/<loc>([^<]+)/)?.[1]||'');return archivePaths.has(loc)||loc.startsWith(origin+'/blog/category/')?'':entry;});
  const entries=pages.filter(p=>p.category&&p.posts.length).map(p=>'<url><loc>'+origin+encodeURI(p.path)+'</loc></url>').join('\n');
  sitemap=sitemap.replace('</urlset>',entries+'\n</urlset>');write('sitemap.xml',sitemap);
  console.log(`Built blog index, ${categories.length} category pages and ${pages.length-categories.length-1} topic pages; ${pages.filter(p=>p.category&&p.posts.length).length} populated archives in sitemap.`);

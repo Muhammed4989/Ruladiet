@@ -190,9 +190,12 @@ check afterwards; its known null-byte warning is not a new regression.
   topics remain noindex until populated. Run `scripts/check-blog-navigation.js`.
 - Breadcrumb links and BreadcrumbList must agree on Home / Blog / Category /
   Topic / Article. The owner subsequently requested URLs to match that hierarchy
-  on 2026-09-13: use `postPath(post)` and `postFile(post)` from blog-taxonomy.js.
+  on 2026-09-13, then shortened them on 2026-09-27 to
+  `/blog/<category>/<topic>/<article>`: use `postPath(post)` and `postFile(post)`
+  from blog-taxonomy.js.
   Articles now live below their topic URL. Old `/blog/<slug>` URLs permanently
-  redirect, including HTML variants; keep redirects and the new paths through
+  redirect, including HTML variants; the previous `/blog/category/...` hierarchy
+  also permanently redirects to the new paths. Keep both redirects through
   rebuilds. Run `scripts/check-blog-url-migration.js`. A future path change needs
   an explicit redirect from the previous hierarchical URL. TOC links keep their
   descriptive Arabic heading IDs and numbered legacy aliases.
