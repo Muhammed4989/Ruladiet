@@ -44,9 +44,16 @@ for(const p of posts){
   assert(html.includes('id="section-'+(i+1)+'"'),p.key+' legacy link lost');
   assert(h[2].startsWith(headingSlug(h[3])),p.key+' heading slug mismatch');
  });
- const toc=html.match(/<nav class="sidebar-widget sidebar-toc"[\s\S]*?<\/nav>/)[0];
+ const toc=html.match(/<nav class="sidebar-toc"[\s\S]*?<\/nav>/)?.[0];
+ assert(toc,p.key+' missing desktop table of contents');
  const targets=[...toc.matchAll(/href="#([^"]+)"/g)].map(m=>m[1]);
  assert.deepEqual(targets,rendered.filter(h=>h[1]==='h2').map(h=>h[2]));
+ const taxonomy=html.match(/<aside class="post-sidebar">[\s\S]*?<nav class="article-taxonomy"[\s\S]*?<nav class="sidebar-toc"/)?.[0];
+ assert(taxonomy,p.key+' missing hierarchical article navigation');
+ assert(taxonomy.includes('href="/المدونة"'),p.key+' missing blog root in article navigation');
+ assert(taxonomy.includes('href="'+categoryPath(category)+'"'),p.key+' missing category in article navigation');
+ assert(taxonomy.includes('href="'+topicPath(category,topic)+'" aria-current="true"'),p.key+' missing current topic in article navigation');
+ assert(taxonomy.includes('href="'+postPath(p)+'" aria-current="page"'),p.key+' missing current article in article navigation');
  headingCount+=rendered.length;
 }
 for(const category of categories){

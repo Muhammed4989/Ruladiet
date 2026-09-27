@@ -3,7 +3,7 @@ const fs = require('node:fs');
 const {root,elementRange,text,write} = require('./blog-html');
 const posts = require('./blog-catalog');
 const {descriptions,diagram,escape:e} = require('./blog-visuals');
-const {trail,breadcrumb,breadcrumbSchema,topicPath,postPath,postFile} = require('./blog-taxonomy');
+const {categories,categoryPath,trail,breadcrumb,breadcrumbSchema,topicPath,postPath,postFile} = require('./blog-taxonomy');
 const {rewriteBlogLinks}=require('./blog-links');
 const {addHeadingAnchors} = require('./blog-headings');
 const origin = 'https://ruladiet.com';
@@ -23,6 +23,18 @@ function meta(h,key,value,property=false) {
 function replaceElement(h,cls,value,tag='div'){const r=elementRange(h,cls,tag);return h.slice(0,r.start)+value+h.slice(r.end);}
 function related(p) {
  return `<section class="article-related" aria-label="مقالات ذات صلة"><h2>اقرئي أيضاً</h2><div class="article-related-grid">${p.related.map(slug=>{const q=posts.find(x=>x.slug===slug);if(!q)throw Error(slug);return `<a class="article-related-card" href="${postPath(q)}">${image(q)}<h3>${e(q.title)}</h3><span>قراءة المقال ←</span></a>`;}).join('')}</div></section>`;
+}
+function taxonomyTree(currentPost) {
+ const currentCategory=currentPost.taxonomy.category;
+ const currentTopic=currentPost.taxonomy.topic;
+ return `<nav class="article-taxonomy" aria-label="أقسام المدونة"><a class="article-taxonomy-root" href="/المدونة">المدونة</a><ul class="article-taxonomy-categories">${categories.map(category=>{
+  const categoryOpen=category.id===currentCategory.id;
+  return `<li><details${categoryOpen?' open':''}${categoryOpen?' class="is-current"':''}><summary><span>${e(category.name)}</span></summary><div class="article-taxonomy-category"><a class="article-taxonomy-all" href="${categoryPath(category)}">جميع مقالات ${e(category.name)}</a><ul>${category.topics.map(topic=>{
+   const topicOpen=categoryOpen&&topic.id===currentTopic.id;
+   const topicPosts=topicOpen?posts.filter(post=>post.taxonomy.topic.id===topic.id):[];
+   return `<li${topicOpen?' class="is-current"':''}><a class="article-taxonomy-topic" href="${topicPath(category,topic)}"${topicOpen?' aria-current="true"':''}>${e(topic.name)}</a>${topicOpen?`<ul class="article-taxonomy-posts">${topicPosts.map(post=>`<li><a href="${postPath(post)}"${post.key===currentPost.key?' aria-current="page"':''}>${e(post.title)}</a></li>`).join('')}</ul>`:''}</li>`;
+  }).join('')}</ul></div></details></li>`;
+ }).join('')}</ul></nav>`;
 }
 for(const p of posts){
  const file=postFile(p);
@@ -53,8 +65,9 @@ for(const p of posts){
  const cta=`<section class="article-next-step" aria-labelledby="next-step-title"><span>خطوتك التالية</span><h2 id="next-step-title">${e(p.cta.label)}</h2><p>${e(p.cta.note)}</p><a class="btn btn-primary" href="${p.cta.href}">${e(p.cta.label)} <span aria-hidden="true">←</span></a></section>`;
  const medical=['injections','mounjaro','insulin','thyroid'].includes(p.key);
  const hero=`<figure class="article-hero">${image(p,true)}${p.coverCaption?'<figcaption>'+e(p.coverCaption)+'</figcaption>':medical?'<figcaption>صورة توضيحية؛ لا تمثّل منتجاً طبياً بعينه أو نتيجة فحص.</figcaption>':''}</figure>`;
+ const taxonomy=taxonomyTree(p);
  const main=`<div class="post-main"><details class="article-mobile-toc"><summary>محتويات المقال</summary>${toc}</details>${hero}<div class="post-content"><div class="article-summary"><strong>الجواب المختصر</strong><p>${e(p.summary)}</p></div>${body}${cta}${sources}</div>${related(p)}</div>`;
- const aside=`<aside class="post-sidebar"><div class="sidebar-widget sidebar-author"><a href="${authorPath}" rel="author"><div class="sidebar-author-img"><img src="/images/rulamain.webp" alt="اختصاصية التغذية رولا علوش" width="130" height="130" loading="lazy"></div><h3>رولا علوش</h3></a><p>اختصاصية تغذية وكاتبة في التوعية الغذائية.</p><a href="${authorPath}">عن الكاتبة ومقالاتها المنشورة ←</a></div><nav class="sidebar-widget sidebar-toc" aria-label="محتويات المقال"><h2>في هذه المقالة</h2>${toc}</nav></aside>`;
+ const aside=`<aside class="post-sidebar"><div class="sidebar-widget sidebar-navigation">${taxonomy}<nav class="sidebar-toc" aria-label="محتويات المقال"><h2>في هذه المقالة</h2>${toc}</nav></div><div class="sidebar-widget sidebar-author"><a href="${authorPath}" rel="author"><div class="sidebar-author-img"><img src="/images/rulamain.webp" alt="اختصاصية التغذية رولا علوش" width="130" height="130" loading="lazy"></div><h3>رولا علوش</h3></a><p>اختصاصية تغذية وكاتبة في التوعية الغذائية.</p><a href="${authorPath}">عن الكاتبة ومقالاتها المنشورة ←</a></div></aside>`;
  html=replaceElement(html,'post-layout',`<div class="post-layout">${main}${aside}</div>`);
  html=html.replace(/<h1\b[^>]*>[\s\S]*?<\/h1>/,`<h1 class="post-title">${e(p.title)}</h1>`).replace(/<p class="post-subtitle">[\s\S]*?<\/p>/,'');
  html=html.replace(/<span class="post-updated">[\s\S]*?<\/span>/g,'');
