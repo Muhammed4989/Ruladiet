@@ -1145,5 +1145,69 @@
     "visual": "images/blog/visual-bone-health-consultation.svg",
     "secondVisual": "images/blog/visual-bone-health-consultation-questions.svg",
     "note": "Original generated cover inspected. Two original educational SVGs. Fictional people; two course-inspired watercolor covers and two natural photographs."
+  },
+  {
+    "key": "ckd-nutrition-consultation",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-28",
+    "prompt": "Natural editorial photograph of a fictional modest Arab woman in a sage blouse and cream headscarf preparing blank reports and a notebook at a calm home desk. Cream/sage palette, no diagnoses or text.",
+    "sourceMaster": "Codex generated_images/exec-a891913b-13dc-48ce-8e9b-2782e9557560.png",
+    "cover": "images/blog/ckd-nutrition-consultation-1280.webp",
+    "responsive": [
+      "images/blog/ckd-nutrition-consultation-400.webp",
+      "images/blog/ckd-nutrition-consultation-800.webp",
+      "images/blog/ckd-nutrition-consultation-1280.webp"
+    ],
+    "visual": "images/blog/visual-ckd-nutrition-consultation.svg",
+    "secondVisual": "images/blog/visual-ckd-nutrition-consultation-questions.svg",
+    "note": "Original generated cover inspected. Two original educational SVGs. Fictional modest people; two course-inspired watercolor illustrations and two natural photographs. Rights/provenance: original generated assets, no stock/third-party photography; no patient identity or outcome claim."
+  },
+  {
+    "key": "bariatric-followup-nutrition",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-28",
+    "prompt": "Natural editorial photograph of a fictional modest adult Arab woman in cream clothing and headscarf reviewing blank follow-up notes at home with a closed medicine organizer. No clinical scene, scars or outcomes.",
+    "sourceMaster": "Codex generated_images/exec-ac7df1be-0855-419f-8970-f2dab5e7b15c.png",
+    "cover": "images/blog/bariatric-followup-nutrition-1280.webp",
+    "responsive": [
+      "images/blog/bariatric-followup-nutrition-400.webp",
+      "images/blog/bariatric-followup-nutrition-800.webp",
+      "images/blog/bariatric-followup-nutrition-1280.webp"
+    ],
+    "visual": "images/blog/visual-bariatric-followup-nutrition.svg",
+    "secondVisual": "images/blog/visual-bariatric-followup-nutrition-questions.svg",
+    "note": "Original generated cover inspected. Two original educational SVGs. Fictional modest people; two course-inspired watercolor illustrations and two natural photographs. Rights/provenance: original generated assets, no stock/third-party photography; no patient identity or outcome claim."
+  },
+  {
+    "key": "adolescent-pcos-learning",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-28",
+    "prompt": "Course-inspired watercolor illustration, warm cream/blush/sage botanical framing, fictional modest teenage Arab girl and supportive mother in opaque clothes and headscarves, blank notebook, calm learning scene. No text, diagnosis or medical imagery.",
+    "sourceMaster": "Codex generated_images/exec-49b444ca-d32a-4dc0-9360-7ec4f17cfdbe.png",
+    "cover": "images/blog/adolescent-pcos-learning-1280.webp",
+    "responsive": [
+      "images/blog/adolescent-pcos-learning-400.webp",
+      "images/blog/adolescent-pcos-learning-800.webp",
+      "images/blog/adolescent-pcos-learning-1280.webp"
+    ],
+    "visual": "images/blog/visual-adolescent-pcos-learning.svg",
+    "secondVisual": "images/blog/visual-adolescent-pcos-learning-questions.svg",
+    "note": "Original generated cover inspected. Two original educational SVGs. Fictional modest people; two course-inspired watercolor illustrations and two natural photographs. Rights/provenance: original generated assets, no stock/third-party photography; no patient identity or outcome claim."
+  },
+  {
+    "key": "plant-protein-skills",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-28",
+    "prompt": "Course-inspired watercolor illustration cream/sage/olive/blush botanical framing. Fictional modest Arab woman in opaque olive long sleeves and headscarf arranging lentils chickpeas tofu nuts and a blank shopping notebook at home. No claims or text.",
+    "sourceMaster": "Codex generated_images/exec-7041ac93-5f57-43f9-b0c8-b6718c1b0e65.png",
+    "cover": "images/blog/plant-protein-skills-1280.webp",
+    "responsive": [
+      "images/blog/plant-protein-skills-400.webp",
+      "images/blog/plant-protein-skills-800.webp",
+      "images/blog/plant-protein-skills-1280.webp"
+    ],
+    "visual": "images/blog/visual-plant-protein-skills.svg",
+    "secondVisual": "images/blog/visual-plant-protein-skills-questions.svg",
+    "note": "Original generated cover inspected. Two original educational SVGs. Fictional modest people; two course-inspired watercolor illustrations and two natural photographs. Rights/provenance: original generated assets, no stock/third-party photography; no patient identity or outcome claim."
   }
 ]

@@ -3270,5 +3270,217 @@
     "workflow": "daily",
     "publicationBatch": "daily-2026-09-27",
     "icon": "check"
+  },
+  {
+    "key": "ckd-nutrition-consultation",
+    "slug": "استشارة-تغذية-لمرض-الكلى-المزمن",
+    "title": "استشارة تغذية لمرض الكلى المزمن: كيف تُخصّص الخطة؟",
+    "summary": "جهز تقاريرك وتعليمات طبيب الكلى وسجل طعامك، وافهم لماذا تختلف قيود البروتين والمعادن والسوائل قبل اختيار متابعة مناسبة.",
+    "coverAlt": "امرأة محجبة ترتب تقارير ودفتر أسئلة في منزل هادئ استعداداً لمناقشة التغذية",
+    "coverCaption": "صورة توضيحية مولدة لشخصيات خيالية؛ لا تمثل رولا أو مريضاتها أو نتائج علاج.",
+    "visualHeading": "ملف استشارة الكلى",
+    "steps": [
+      "ملخص الطبيب",
+      "تعليمات الغذاء",
+      "سجل المنتجات"
+    ],
+    "secondVisual": {
+      "title": "قبل تعديل الطعام",
+      "steps": [
+        "حددي المرحلة",
+        "راجعي التعليمات",
+        "اسألي الفريق"
+      ],
+      "alt": "قبل تعديل الطعام: حددي المرحلة، راجعي التعليمات، اسألي الفريق",
+      "caption": "مخطط تعليمي لترتيب الأسئلة، لا يمثل وصفة أو تقييماً فردياً."
+    },
+    "related": [
+      "استشارة-تغذية-لحصوات-الكلى",
+      "تحاليل-قبل-استشارة-التغذية",
+      "مذكرات-الطعام-قبل-استشارة-التغذية"
+    ],
+    "cta": {
+      "href": "/احجز-موعد",
+      "label": "اسأل عن ملاءمة الاستشارة لحالتك",
+      "note": "تأكد من توفر متابعة مناسبة لمرض الكلى والتنسيق مع الطبيب؛ قد تكون الإحالة إلى تغذية كلوية متخصصة أنسب."
+    },
+    "sources": [
+      {
+        "name": "NIDDK: الغذاء للبالغين مع مرض الكلى المزمن",
+        "url": "https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd/healthy-eating-adults-chronic-kidney-disease"
+      },
+      {
+        "name": "NIDDK: التغذية مع الفشل الكلوي",
+        "url": "https://www.niddk.nih.gov/health-information/kidney-disease/kidney-failure/eating-right"
+      },
+      {
+        "name": "NIDDK: إدارة المرض الكلوي والتغذية الفردية",
+        "url": "https://www.niddk.nih.gov/health-information/professionals/clinical-tools-patient-management/kidney-disease/identify-manage-patients/manage-ckd/slow-progression-reduce-complications"
+      }
+    ],
+    "published": "2026-09-28",
+    "updated": "2026-09-28",
+    "workflow": "daily",
+    "publicationBatch": "daily-2026-09-28",
+    "icon": "medical"
+  },
+  {
+    "key": "bariatric-followup-nutrition",
+    "slug": "التغذية-بعد-جراحة-السمنة-للمتابعة",
+    "title": "التغذية بعد جراحة السمنة: التحضير للمتابعة",
+    "summary": "رتب تقرير العملية ومراحل الطعام والمكملات وسجل التحمل، وحدد الأسئلة التي تحتاج الفريق الجراحي قبل حجز متابعة غذائية.",
+    "coverAlt": "امرأة محجبة تدوّن أسئلة متابعة بجوار علبة تنظيم أدوية مغلقة في مطبخ هادئ",
+    "coverCaption": "صورة توضيحية مولدة لشخصيات خيالية؛ لا تمثل رولا أو مريضاتها أو نتائج علاج.",
+    "visualHeading": "ملف متابعة الجراحة",
+    "steps": [
+      "نوع العملية",
+      "المرحلة الحالية",
+      "خطة المركز"
+    ],
+    "secondVisual": {
+      "title": "أسئلة المتابعة",
+      "steps": [
+        "قوام الطعام",
+        "المكملات الموصوفة",
+        "جهة التواصل"
+      ],
+      "alt": "أسئلة المتابعة: قوام الطعام، المكملات الموصوفة، جهة التواصل",
+      "caption": "مخطط تعليمي لترتيب الأسئلة، لا يمثل وصفة أو تقييماً فردياً."
+    },
+    "related": [
+      "تحاليل-قبل-استشارة-التغذية",
+      "مذكرات-الطعام-قبل-استشارة-التغذية",
+      "تثبيت-الوزن-بعد-الرجيم"
+    ],
+    "cta": {
+      "href": "/احجز-موعد",
+      "label": "استفسر عن متابعة مناسبة بعد الجراحة",
+      "note": "أكد نطاق الخدمة وخبرتها بنوع عمليتك؛ المتابعة الغذائية تكمل فريق الجراحة ولا تستبدله."
+    },
+    "sources": [
+      {
+        "name": "NIDDK: تعريف جراحات السمنة",
+        "url": "https://www.niddk.nih.gov/health-information/weight-management/bariatric-surgery/definition-facts"
+      },
+      {
+        "name": "ASMBS: الحياة بعد جراحة السمنة",
+        "url": "https://asmbs.org/patients/life-after-bariatric-surgery/"
+      },
+      {
+        "name": "NIDDK: الآثار الجانبية لجراحات السمنة",
+        "url": "https://www.niddk.nih.gov/health-information/weight-management/bariatric-surgery/side-effects"
+      }
+    ],
+    "published": "2026-09-28",
+    "updated": "2026-09-28",
+    "workflow": "daily",
+    "publicationBatch": "daily-2026-09-28",
+    "icon": "check"
+  },
+  {
+    "key": "adolescent-pcos-learning",
+    "slug": "تكيس-المبايض-عند-المراهقات-وحدود-التعلم",
+    "title": "تكيس المبايض عند المراهقات: التشخيص وحدود التعلّم العام",
+    "summary": "افهمي لماذا يختلف تشخيص المراهقات، وجهزي أسئلة الطبيب واحفظي خصوصية ابنتك، ثم راجعي ملاءمة التثقيف العام دون حمية أو تشخيص ذاتي.",
+    "coverAlt": "رسم مائي لمراهقة محجبة ووالدتها تراجعان دفتر أسئلة في جلسة منزلية هادئة",
+    "coverCaption": "صورة توضيحية مولدة لشخصيات خيالية؛ لا تمثل رولا أو مريضاتها أو نتائج علاج.",
+    "visualHeading": "قبل التعلم العام",
+    "steps": [
+      "تقييم طبي",
+      "أسئلة المراهقة",
+      "حدود المادة"
+    ],
+    "secondVisual": {
+      "title": "دعم الأسرة",
+      "steps": [
+        "احفظي الخصوصية",
+        "تجنبي لوم الجسم",
+        "راجعي الملاءمة"
+      ],
+      "alt": "دعم الأسرة: احفظي الخصوصية، تجنبي لوم الجسم، راجعي الملاءمة",
+      "caption": "مخطط تعليمي لترتيب الأسئلة، لا يمثل وصفة أو تقييماً فردياً."
+    },
+    "related": [
+      "تغذية-المراهقين-للمدرسة-والنمو",
+      "الفرق-بين-كيس-المبيض-وتكيس-المبايض",
+      "كورس-تكيس-المبايض-أم-استشارة"
+    ],
+    "cta": {
+      "href": "/course/تكيس-المبايض",
+      "label": "راجعي المنهج وحدود الكورس",
+      "note": "مادة تثقيفية عامة، وليست برنامجاً مثبتاً للمراهقات أو بديلاً عن تقييم الطبيب وخطة النمو الفردية."
+    },
+    "sources": [
+      {
+        "name": "ASRM: الإرشاد الدولي لتكيس المبايض ومعايير المراهقات",
+        "url": "https://www.asrm.org/practice-guidance/practice-committee-documents/recommendations-from-the-2023-international-evidence-based-guideline-for-the-assessment-and-management-of-polyendocrine-metabolic-ovarian-syndrome-2023/"
+      },
+      {
+        "name": "جامعة موناش: الإرشاد والاسم المحدث للمتلازمة",
+        "url": "https://www.monash.edu/medicine/mchri/pcos/guideline"
+      },
+      {
+        "name": "توصيات المراهقات المنشورة في BMC Medicine عام 2025",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40069730/"
+      }
+    ],
+    "published": "2026-09-28",
+    "updated": "2026-09-28",
+    "workflow": "daily",
+    "publicationBatch": "daily-2026-09-28",
+    "icon": "heart"
+  },
+  {
+    "key": "plant-protein-skills",
+    "slug": "تنويع-البروتين-النباتي-قبل-شراء-المساحيق",
+    "title": "تنويع البروتين النباتي: مهارات الوجبات قبل شراء المساحيق",
+    "summary": "اختاري مصادر تعرفين إعدادها، وقارني الحصص والمكونات والتكلفة، وحددي هل تحتاجين مهارة وجبات عامة أم استشارة فردية قبل شراء مكمل.",
+    "coverAlt": "رسم مائي لامرأة محجبة ترتب العدس والحمص والتوفو والمكسرات بجوار دفتر تخطيط وجبات",
+    "coverCaption": "صورة توضيحية مولدة لشخصيات خيالية؛ لا تمثل رولا أو مريضاتها أو نتائج علاج.",
+    "visualHeading": "مهارة الوجبة",
+    "steps": [
+      "مصدر متاح",
+      "وصفة مناسبة",
+      "تجربة قابلة للتكرار"
+    ],
+    "secondVisual": {
+      "title": "قبل شراء مسحوق",
+      "steps": [
+        "حددي الحاجة",
+        "اقرئي المكونات",
+        "راجعي الملاءمة"
+      ],
+      "alt": "قبل شراء مسحوق: حددي الحاجة، اقرئي المكونات، راجعي الملاءمة",
+      "caption": "مخطط تعليمي لترتيب الأسئلة، لا يمثل وصفة أو تقييماً فردياً."
+    },
+    "related": [
+      "استشارة-تغذية-للنباتيين",
+      "قراءة-البطاقة-الغذائية",
+      "تجهيز-وجبات-صحية-للأسبوع"
+    ],
+    "cta": {
+      "href": "/course/المسار-الصحي",
+      "label": "راجعي منهج المسار الصحي",
+      "note": "تعلم عام للغذاء والعادات؛ لا نفترض وجود دورة نباتية متخصصة أو حساب احتياج بروتين فردي."
+    },
+    "sources": [
+      {
+        "name": "NHS: النظام الغذائي النباتي",
+        "url": "https://www.nhs.uk/live-well/eat-well/how-to-eat-a-balanced-diet/the-vegetarian-diet/"
+      },
+      {
+        "name": "FDA: استخدام المكملات الغذائية",
+        "url": "https://www.fda.gov/food/dietary-supplements/information-consumers-using-dietary-supplements"
+      },
+      {
+        "name": "FDA: الحساسية الغذائية وقراءة الملصق",
+        "url": "https://www.fda.gov/food/buy-store-serve-safe-food/food-allergies-what-you-need-know"
+      }
+    ],
+    "published": "2026-09-28",
+    "updated": "2026-09-28",
+    "workflow": "daily",
+    "publicationBatch": "daily-2026-09-28",
+    "icon": "grain"
   }
 ]
