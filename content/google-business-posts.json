@@ -12,10 +12,10 @@
     "fid": "9264577843169494728"
   },
   "access": {
-    "lastChecked": "2026-09-24",
-    "verifiedAt": "2026-09-24T06:22:56.817Z",
+    "lastChecked": "2026-09-28",
+    "verifiedAt": "2026-09-28T06:35:34.732Z",
     "status": "verified_management_access",
-    "note": "Owner selected the managing Google account and confirmed login. Rula Diet name, Başakşehir address, ruladiet.com website, matching hexadecimal CID and You manage this Business Profile were visible. Posts and Booking controls opened successfully. Reverify identity if account order changes."
+    "note": "Matched clinic name, ruladiet.com website, Başakşehir address, CID 9264577843169494728 and management controls. Posts editor and all posts list opened successfully."
   },
   "entryFields": [
     "date",
@@ -281,6 +281,38 @@
       "sourceArticleVerifiedAt": "2026-09-27T06:51:00.000Z",
       "duplicateCheck": "Attempted 2026-09-27; Google redirected to Verify it’s you for info@property-gulf.com before the managed locations or posts list could be inspected. No submission attempted.",
       "uploadedImageFormat": "WEBP"
+    },
+    {
+      "date": "2026-09-28",
+      "articleKey": "plant-protein-skills",
+      "canonicalUrl": "https://ruladiet.com/blog/التغذية-اليومية/الوجبات-والوصفات/تنويع-البروتين-النباتي-قبل-شراء-المساحيق",
+      "text": "تنويع البروتين النباتي يبدأ من وجبة تستطيعين إعدادها، لا من شراء مسحوق جديد.\n\nاختاري مصدراً متاحاً تحبينه، مثل العدس أو الحمص، وجربي وصفة واحدة تناسب وقتك. قبل شراء منتج جاهز، قارني حجم الحصة والمكونات والتكلفة على الأساس نفسه؛ كلمة «نباتي» على الواجهة لا تكفي للحكم على ملاءمته.\n\nفي دليل رولا دايت الجديد نشرح خطوات التجربة والتسوق، وكيف تميزين بين تعلم مهارة عامة والحاجة إلى خطة فردية. عند وجود حساسية أو تعليمات طبية خاصة، راجعي الاختيارات مع فريقك قبل تغيير الطعام أو استخدام مكمل.\n\nاقرئي الدليل عبر زر «معرفة المزيد». الصورة رسم توضيحي مولد لشخصية خيالية، وليست صورة رولا أو إحدى المراجعات.",
+      "imagePath": "images/blog/plant-protein-skills-1280.webp",
+      "button": {
+        "type": "LEARN_MORE",
+        "url": "https://ruladiet.com/blog/التغذية-اليومية/الوجبات-والوصفات/تنويع-البروتين-النباتي-قبل-شراء-المساحيق"
+      },
+      "status": "pending",
+      "preparedAt": "2026-09-28T06:35:34.732Z",
+      "submittedAt": "2026-09-28T06:47:50.752Z",
+      "checkedAt": "2026-09-28T06:47:50.752Z",
+      "postId": "7689741418647803500",
+      "postUrl": null,
+      "blocker": null,
+      "sourceArticleVerifiedAt": "2026-09-28T06:30:09.117Z",
+      "duplicateCheck": "Verified the managed Your posts list: no September 28 post or matching text/link; only future scheduled post is September 29. Latest published travel update is from September 25.",
+      "uploadedImageFormat": "JPEG",
+      "policyCheckedAt": "2026-09-28T06:35:34.732Z",
+      "policySources": [
+        "https://support.google.com/business/answer/7342169?hl=en",
+        "https://support.google.com/business/answer/7400114?hl=en"
+      ],
+      "uploadImagePath": "../assets/blog-editorial/plant-protein-skills-google.jpg",
+      "uploadNote": "Google rejected WEBP; converted original cover to JPEG without changing composition.",
+      "submissionStartedAt": "2026-09-28T06:37:11.661Z",
+      "verification": "Full 596-character description, generated cover and previously saved Learn More canonical article URL verified in the existing post. Manager shows Pending after description correction; not claimed publicly live.",
+      "proofScreenshot": "../assets/blog-editorial/google-post-2026-09-28.png",
+      "uiNotes": "Google fill/type/paste updated visible values but did not persist the description. Corrected the same post using sequential keyboard events; no duplicate post created. WEBP converted to JPEG. One automatic review rejected a combined completion/save before complete input evidence; completed and verified 596 characters separately before successful save."
     }
   ],
   "draftQueue": [

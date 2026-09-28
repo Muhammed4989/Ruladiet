@@ -1027,10 +1027,12 @@
         "consultation-labs"
       ],
       "decisionHelp": "تحديد خدمة تغذية كلوية مناسبة وتجهيز التعليمات والتقارير؛ لا حمية حصوات أو تفسير تحاليل.",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-09-28",
       "bodyWordsExcludingHeadings": 1149,
-      "keywordCheckedAt": "2026-09-28"
+      "keywordCheckedAt": "2026-09-28",
+      "publishedDate": "2026-09-28",
+      "canonicalUrl": "https://ruladiet.com/blog/التغذية-اليومية/أساسيات-التغذية/استشارة-تغذية-لمرض-الكلى-المزمن"
     },
     {
       "articleKey": "bariatric-followup-nutrition",
@@ -1049,10 +1051,12 @@
         "consultation-labs"
       ],
       "decisionHelp": "اختيار متابعة ملائمة للعملية والتنسيق مع المركز، وليس جدولاً جراحياً أو بيع خدمة متخصصة غير مؤكدة.",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-09-28",
       "bodyWordsExcludingHeadings": 1115,
-      "keywordCheckedAt": "2026-09-28"
+      "keywordCheckedAt": "2026-09-28",
+      "publishedDate": "2026-09-28",
+      "canonicalUrl": "https://ruladiet.com/blog/إدارة-الوزن/خسارة-الوزن/التغذية-بعد-جراحة-السمنة-للمتابعة"
     },
     {
       "articleKey": "adolescent-pcos-learning",
@@ -1072,10 +1076,12 @@
         "pcos-course-goals"
       ],
       "decisionHelp": "التقييم أولاً؛ تحديد حدود مادة عامة لولي الأمر وعدم تقديم كورس البالغات كعلاج للمراهقة.",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-09-28",
       "bodyWordsExcludingHeadings": 1129,
-      "keywordCheckedAt": "2026-09-28"
+      "keywordCheckedAt": "2026-09-28",
+      "publishedDate": "2026-09-28",
+      "canonicalUrl": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/تكيس-المبايض-عند-المراهقات-وحدود-التعلم"
     },
     {
       "articleKey": "plant-protein-skills",
@@ -1094,10 +1100,12 @@
         "food-labels"
       ],
       "decisionHelp": "تعلم تركيب وجبات ومقارنة المنتجات قبل شراء مسحوق؛ لا مراجعة كفاية نظام نباتي كامل أو أهداف علاجية.",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-09-28",
       "bodyWordsExcludingHeadings": 1136,
-      "keywordCheckedAt": "2026-09-28"
+      "keywordCheckedAt": "2026-09-28",
+      "publishedDate": "2026-09-28",
+      "canonicalUrl": "https://ruladiet.com/blog/التغذية-اليومية/الوجبات-والوصفات/تنويع-البروتين-النباتي-قبل-شراء-المساحيق"
     }
   ],
   "coverageBatch": {
@@ -2059,32 +2067,40 @@
     },
     {
       "date": "2026-09-28",
-      "status": "draft",
+      "status": "published",
       "target": 4,
       "articles": [
         {
           "key": "ckd-nutrition-consultation",
           "words": 1149,
-          "status": "draft",
-          "plannedDate": "2026-09-28"
+          "status": "published",
+          "plannedDate": "2026-09-28",
+          "publishedDate": "2026-09-28",
+          "canonicalUrl": "https://ruladiet.com/blog/التغذية-اليومية/أساسيات-التغذية/استشارة-تغذية-لمرض-الكلى-المزمن"
         },
         {
           "key": "bariatric-followup-nutrition",
           "words": 1115,
-          "status": "draft",
-          "plannedDate": "2026-09-28"
+          "status": "published",
+          "plannedDate": "2026-09-28",
+          "publishedDate": "2026-09-28",
+          "canonicalUrl": "https://ruladiet.com/blog/إدارة-الوزن/خسارة-الوزن/التغذية-بعد-جراحة-السمنة-للمتابعة"
         },
         {
           "key": "adolescent-pcos-learning",
           "words": 1129,
-          "status": "draft",
-          "plannedDate": "2026-09-28"
+          "status": "published",
+          "plannedDate": "2026-09-28",
+          "publishedDate": "2026-09-28",
+          "canonicalUrl": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/تكيس-المبايض-عند-المراهقات-وحدود-التعلم"
         },
         {
           "key": "plant-protein-skills",
           "words": 1136,
-          "status": "draft",
-          "plannedDate": "2026-09-28"
+          "status": "published",
+          "plannedDate": "2026-09-28",
+          "publishedDate": "2026-09-28",
+          "canonicalUrl": "https://ruladiet.com/blog/التغذية-اليومية/الوجبات-والوصفات/تنويع-البروتين-النباتي-قبل-شراء-المساحيق"
         }
       ],
       "businessBalance": {
@@ -2092,7 +2108,28 @@
         "course": 2
       },
       "research": "content/editorial-research/2026-09-28.json",
-      "blocker": null
+      "blocker": null,
+      "productionCommit": "006a2d5c9d3b70f7122712a67791dc777ad1cada",
+      "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/58",
+      "productionVerifiedAt": "2026-09-28T06:30:09.117Z",
+      "productionVerification": "content/editorial-research/2026-09-28-production.json",
+      "googleStatus": "pending",
+      "googleBlocker": null,
+      "googlePostId": "7689741418647803500",
+      "validation": {
+        "checkBlog": "81 articles, 81 unique covers, 0 errors",
+        "checkSite": "129 pages, 249 schemas, 126 sitemap URLs, 0 errors; known pre-existing NUL warning unchanged",
+        "navigation": "81 articles, 654 headings, 31 archives, 113 breadcrumbs, 0 errors",
+        "migration": "1863 redirect variants, 1846 assets, 0 errors",
+        "categoryGuides": "31 guides, minimum 552 words, 0 errors",
+        "diffCheck": "pass"
+      },
+      "indexNow": {
+        "submittedAt": "2026-09-28T06:34:14.049Z",
+        "status": 200,
+        "submittedUrls": 4,
+        "receipt": "content/editorial-research/2026-09-28-indexnow.json"
+      }
     }
   ],
   "advertisingManagement": {

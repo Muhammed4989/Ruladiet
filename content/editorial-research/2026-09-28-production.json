@@ -1,0 +1,43 @@
+{
+  "verifiedAt": "2026-09-28T06:30:09.117Z",
+  "origin": "https://ruladiet.com",
+  "results": [
+    {
+      "key": "ckd-nutrition-consultation",
+      "title": "استشارة تغذية لمرض الكلى المزمن: كيف تُخصّص الخطة؟",
+      "url": "https://ruladiet.com/blog/التغذية-اليومية/أساسيات-التغذية/استشارة-تغذية-لمرض-الكلى-المزمن",
+      "publicationDate": "2026-09-28",
+      "status": 200,
+      "assets": 5,
+      "legacyRedirects": 2
+    },
+    {
+      "key": "bariatric-followup-nutrition",
+      "title": "التغذية بعد جراحة السمنة: التحضير للمتابعة",
+      "url": "https://ruladiet.com/blog/إدارة-الوزن/خسارة-الوزن/التغذية-بعد-جراحة-السمنة-للمتابعة",
+      "publicationDate": "2026-09-28",
+      "status": 200,
+      "assets": 5,
+      "legacyRedirects": 2
+    },
+    {
+      "key": "adolescent-pcos-learning",
+      "title": "تكيس المبايض عند المراهقات: التشخيص وحدود التعلّم العام",
+      "url": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/تكيس-المبايض-عند-المراهقات-وحدود-التعلم",
+      "publicationDate": "2026-09-28",
+      "status": 200,
+      "assets": 5,
+      "legacyRedirects": 2
+    },
+    {
+      "key": "plant-protein-skills",
+      "title": "تنويع البروتين النباتي: مهارات الوجبات قبل شراء المساحيق",
+      "url": "https://ruladiet.com/blog/التغذية-اليومية/الوجبات-والوصفات/تنويع-البروتين-النباتي-قبل-شراء-المساحيق",
+      "publicationDate": "2026-09-28",
+      "status": 200,
+      "assets": 5,
+      "legacyRedirects": 2
+    }
+  ],
+  "sitemapUrls": 126
+}
