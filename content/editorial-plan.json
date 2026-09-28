@@ -1010,6 +1010,94 @@
       "plannedFor": "2026-09-27",
       "bodyWordsExcludingHeadings": 1041,
       "keywordCheckedAt": "2026-09-27"
+    },
+    {
+      "articleKey": "ckd-nutrition-consultation",
+      "primaryKeyword": "استشارة تغذية لمرض الكلى المزمن",
+      "supportingKeywords": [
+        "غذاء مرض الكلى المزمن",
+        "البروتين والغسيل الكلوي",
+        "تحضير استشارة تغذية كلوية"
+      ],
+      "intent": "معلوماتي داعم لقرار ملاءمة الخدمة والتحضير، لا نية شراء مباشرة",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": [
+        "kidney-stones-consultation",
+        "consultation-labs"
+      ],
+      "decisionHelp": "تحديد خدمة تغذية كلوية مناسبة وتجهيز التعليمات والتقارير؛ لا حمية حصوات أو تفسير تحاليل.",
+      "status": "draft",
+      "plannedFor": "2026-09-28",
+      "bodyWordsExcludingHeadings": 1149,
+      "keywordCheckedAt": "2026-09-28"
+    },
+    {
+      "articleKey": "bariatric-followup-nutrition",
+      "primaryKeyword": "التغذية بعد جراحة السمنة",
+      "supportingKeywords": [
+        "متابعة التغذية بعد التكميم",
+        "استشارة تغذية بعد جراحة السمنة",
+        "مراحل الطعام بعد الجراحة"
+      ],
+      "intent": "معلوماتي داعم لقرار ملاءمة الخدمة والتحضير، لا نية شراء مباشرة",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": [
+        "weight-maintenance",
+        "injection-diet",
+        "consultation-labs"
+      ],
+      "decisionHelp": "اختيار متابعة ملائمة للعملية والتنسيق مع المركز، وليس جدولاً جراحياً أو بيع خدمة متخصصة غير مؤكدة.",
+      "status": "draft",
+      "plannedFor": "2026-09-28",
+      "bodyWordsExcludingHeadings": 1115,
+      "keywordCheckedAt": "2026-09-28"
+    },
+    {
+      "articleKey": "adolescent-pcos-learning",
+      "primaryKeyword": "تكيس المبايض عند المراهقات",
+      "supportingKeywords": [
+        "تشخيص تكيس المبايض للمراهقات",
+        "عدم انتظام الدورة في المراهقة",
+        "تثقيف الأسرة عن التكيس"
+      ],
+      "intent": "معلوماتي داعم لقرار ملاءمة الخدمة والتحضير، لا نية شراء مباشرة",
+      "businessGoal": "course",
+      "targetPage": "/course/تكيس-المبايض",
+      "avoidOverlap": [
+        "teen-nutrition",
+        "pcos-cyst-difference",
+        "pcos-support",
+        "pcos-course-goals"
+      ],
+      "decisionHelp": "التقييم أولاً؛ تحديد حدود مادة عامة لولي الأمر وعدم تقديم كورس البالغات كعلاج للمراهقة.",
+      "status": "draft",
+      "plannedFor": "2026-09-28",
+      "bodyWordsExcludingHeadings": 1129,
+      "keywordCheckedAt": "2026-09-28"
+    },
+    {
+      "articleKey": "plant-protein-skills",
+      "primaryKeyword": "تنويع البروتين النباتي",
+      "supportingKeywords": [
+        "مصادر البروتين النباتي للوجبات",
+        "مسحوق البروتين أم الطعام",
+        "تعلم تجهيز وجبات نباتية"
+      ],
+      "intent": "معلوماتي داعم لقرار ملاءمة الخدمة والتحضير، لا نية شراء مباشرة",
+      "businessGoal": "course",
+      "targetPage": "/course/المسار-الصحي",
+      "avoidOverlap": [
+        "vegan-consultation",
+        "weekly-meals",
+        "food-labels"
+      ],
+      "decisionHelp": "تعلم تركيب وجبات ومقارنة المنتجات قبل شراء مسحوق؛ لا مراجعة كفاية نظام نباتي كامل أو أهداف علاجية.",
+      "status": "draft",
+      "plannedFor": "2026-09-28",
+      "bodyWordsExcludingHeadings": 1136,
+      "keywordCheckedAt": "2026-09-28"
     }
   ],
   "coverageBatch": {
@@ -1968,6 +2056,43 @@
         "submittedUrls": 4,
         "receipt": "content/editorial-research/2026-09-27-indexnow.json"
       }
+    },
+    {
+      "date": "2026-09-28",
+      "status": "draft",
+      "target": 4,
+      "articles": [
+        {
+          "key": "ckd-nutrition-consultation",
+          "words": 1149,
+          "status": "draft",
+          "plannedDate": "2026-09-28"
+        },
+        {
+          "key": "bariatric-followup-nutrition",
+          "words": 1115,
+          "status": "draft",
+          "plannedDate": "2026-09-28"
+        },
+        {
+          "key": "adolescent-pcos-learning",
+          "words": 1129,
+          "status": "draft",
+          "plannedDate": "2026-09-28"
+        },
+        {
+          "key": "plant-protein-skills",
+          "words": 1136,
+          "status": "draft",
+          "plannedDate": "2026-09-28"
+        }
+      ],
+      "businessBalance": {
+        "consultation": 2,
+        "course": 2
+      },
+      "research": "content/editorial-research/2026-09-28.json",
+      "blocker": null
     }
   ],
   "advertisingManagement": {
