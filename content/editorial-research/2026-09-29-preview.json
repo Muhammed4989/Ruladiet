@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-29",
+  "origin": "https://ruladiet-site-1qm2zbo56-muhammeds-projects-1419b173.vercel.app",
+  "commit": "47b56ce1bb0ad135f84ad3116fd11c95e0652d14",
+  "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/60",
+  "deploymentStatus": "success",
+  "verification": "All four pages opened in the authenticated browser. Titles, author, inline image alt text and loaded responsive covers checked. PCOS watercolor and lactose photograph visually reviewed with breadcrumbs and nested left sidebar.",
+  "httpPreviewLimitation": "Unauthenticated command-line requests receive the Vercel protection redirect. No protection setting changed or bypassed.",
+  "oldBodiesAndDatesPreserved": 81,
+  "checksPassed": ["check-blog", "check-site", "check-blog-navigation", "check-blog-url-migration", "check-category-guides", "git diff --check"],
+  "articles": 85,
+  "uniqueCovers": 85,
+  "sitemapUrls": 130,
+  "redirectVariantsChecked": 1955,
+  "categoryGuides": 31
+}
