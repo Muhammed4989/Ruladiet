@@ -1,0 +1,83 @@
+{
+  "date": "2026-09-29",
+  "checkedAt": "2026-09-29T10:09:57.772Z",
+  "searchConsole": "No fresh query export available; no volume/rank claims made.",
+  "catalogReview": "All 81 published titles and topic assignments reviewed; none answer these four specific decisions.",
+  "searchReview": {
+    "lactose": "Arabic query surfaced specialist directories and medical explanations: suitability/preparation hypothesis, no search volume asserted.",
+    "swallowing": "Arabic results prioritize medical evaluation and coordinated care: narrowed to preparation within an existing swallowing plan, not prescriptive diet.",
+    "pcos": "Arabic query established fertility concern; official guideline and verified course module support distinguishing evaluation from education.",
+    "frozen": "Food-safety and cooking information intent; no verified commercial volume. Kept specific product selection as supporting learning content."
+  },
+  "offers": {
+    "verifiedAt": "2026-09-29T10:09:57.772Z",
+    "consultation": "HTTP 200 booking page; no specialty availability or price assumed.",
+    "pcos": "HTTP 200 course page and checked content/pcos-course.json: 33 lessons, five modules; educational not individual fertility treatment.",
+    "massar": "HTTP 200 current page; general nutrition course, no frozen-food specialist curriculum asserted."
+  },
+  "sources": [
+    {
+      "articleKey": "lactose-consultation",
+      "urls": [
+        "https://www.niddk.nih.gov/health-information/digestive-diseases/lactose-intolerance/diagnosis",
+        "https://www.niddk.nih.gov/health-information/digestive-diseases/lactose-intolerance/eating-diet-nutrition",
+        "https://www.niddk.nih.gov/health-information/digestive-diseases/lactose-intolerance/definition-facts"
+      ],
+      "checkedDuringRun": true
+    },
+    {
+      "articleKey": "swallowing-nutrition-coordination",
+      "urls": [
+        "https://www.nhs.uk/symptoms/swallowing-problems-dysphagia/",
+        "https://www.guysandstthomas.nhs.uk/health-information/dysphagia-or-swallowing-problems",
+        "https://www.cuh.nhs.uk/patient-information/dysphagia-swallowing-difficulties-adults/"
+      ],
+      "checkedDuringRun": true
+    },
+    {
+      "articleKey": "pcos-fertility-questions",
+      "urls": [
+        "https://www.asrm.org/practice-guidance/practice-committee-documents/recommendations-from-the-2023-international-evidence-based-guideline-for-the-assessment-and-management-of-polyendocrine-metabolic-ovarian-syndrome-2023/",
+        "https://www.monash.edu/medicine/mchri/pcos/guideline",
+        "https://www.nichd.nih.gov/health/topics/infertility/conditioninfo/diagnosed"
+      ],
+      "checkedDuringRun": true
+    },
+    {
+      "articleKey": "frozen-vegetable-skills",
+      "urls": [
+        "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely",
+        "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+        "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety"
+      ],
+      "checkedDuringRun": true
+    }
+  ],
+  "images": "Four built-in generated covers inspected; original responsive WebP and two renderer SVGs each.",
+  "bodyWordCounts": [
+    {
+      "key": "lactose-consultation",
+      "words": 1118,
+      "status": "draft",
+      "plannedDate": "2026-09-29"
+    },
+    {
+      "key": "swallowing-nutrition-coordination",
+      "words": 1104,
+      "status": "draft",
+      "plannedDate": "2026-09-29"
+    },
+    {
+      "key": "pcos-fertility-questions",
+      "words": 1128,
+      "status": "draft",
+      "plannedDate": "2026-09-29"
+    },
+    {
+      "key": "frozen-vegetable-skills",
+      "words": 1103,
+      "status": "draft",
+      "plannedDate": "2026-09-29"
+    }
+  ]
+}

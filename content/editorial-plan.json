@@ -1106,6 +1106,89 @@
       "keywordCheckedAt": "2026-09-28",
       "publishedDate": "2026-09-28",
       "canonicalUrl": "https://ruladiet.com/blog/التغذية-اليومية/الوجبات-والوصفات/تنويع-البروتين-النباتي-قبل-شراء-المساحيق"
+    },
+    {
+      "articleKey": "lactose-consultation",
+      "primaryKeyword": "بدائل الحليب لعدم تحمل اللاكتوز",
+      "supportingKeywords": [
+        "استشارة تغذية للاكتوز",
+        "اللاكتوز وحساسية الحليب"
+      ],
+      "intent": "معلوماتي داعم لملاءمة الخدمة والتعلم، لا صفحة بيع منافسة",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": [
+        "food-allergy-consultation",
+        "ibs-consultation",
+        "food-labels"
+      ],
+      "decisionHelp": "اختيار تقييم مناسب وتنظيم البدائل بعد وضوح التشخيص؛ لا خطة حساسية أو حمية فودماب.",
+      "status": "draft",
+      "plannedFor": "2026-09-29",
+      "bodyWordsExcludingHeadings": 1118,
+      "keywordCheckedAt": "2026-09-29"
+    },
+    {
+      "articleKey": "swallowing-nutrition-coordination",
+      "primaryKeyword": "التغذية مع صعوبة البلع",
+      "supportingKeywords": [
+        "استشارة تغذية عسر البلع",
+        "تقرير البلع للأسرة"
+      ],
+      "intent": "معلوماتي داعم لملاءمة الخدمة والتعلم، لا صفحة بيع منافسة",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": [
+        "older-nutrition",
+        "reflux-nutrition"
+      ],
+      "decisionHelp": "اختيار خدمة تعمل داخل تقرير بلع معتمد وتنسيق الفريق؛ لا قائمة طعام لين أو تشخيص.",
+      "status": "draft",
+      "plannedFor": "2026-09-29",
+      "bodyWordsExcludingHeadings": 1104,
+      "keywordCheckedAt": "2026-09-29"
+    },
+    {
+      "articleKey": "pcos-fertility-questions",
+      "primaryKeyword": "تكيس المبايض وتأخر الحمل",
+      "supportingKeywords": [
+        "أسئلة طبيب الخصوبة مع التكيس",
+        "كورس التكيس والتبويض"
+      ],
+      "intent": "معلوماتي داعم لملاءمة الخدمة والتعلم، لا صفحة بيع منافسة",
+      "businessGoal": "course",
+      "targetPage": "/course/تكيس-المبايض",
+      "avoidOverlap": [
+        "preconception-consultation",
+        "pcos-cycle-log",
+        "pcos-course-goals"
+      ],
+      "decisionHelp": "اختيار تقييم الخصوبة في وقته وفهم أن وحدة الحمل تعليم عام؛ ليس سجل الدورة أو التحضير الغذائي العام قبل الحمل.",
+      "status": "draft",
+      "plannedFor": "2026-09-29",
+      "bodyWordsExcludingHeadings": 1128,
+      "keywordCheckedAt": "2026-09-29"
+    },
+    {
+      "articleKey": "frozen-vegetable-skills",
+      "primaryKeyword": "الخضراوات المجمدة الصحية",
+      "supportingKeywords": [
+        "طهي الخضراوات المجمدة",
+        "شراء الخضراوات المجمدة"
+      ],
+      "intent": "معلوماتي داعم لملاءمة الخدمة والتعلم، لا صفحة بيع منافسة",
+      "businessGoal": "course",
+      "targetPage": "/course/المسار-الصحي",
+      "avoidOverlap": [
+        "weekly-meals",
+        "budget-nutrition-learning",
+        "food-labels"
+      ],
+      "decisionHelp": "تعلم اختيار منتج مجمد وتحضيره وفق عبوة محددة؛ لا إعادة خطة أسبوعية أو مقارنة عامة للميزانية.",
+      "status": "draft",
+      "plannedFor": "2026-09-29",
+      "bodyWordsExcludingHeadings": 1103,
+      "keywordCheckedAt": "2026-09-29"
     }
   ],
   "coverageBatch": {
@@ -2130,6 +2213,46 @@
         "submittedUrls": 4,
         "receipt": "content/editorial-research/2026-09-28-indexnow.json"
       }
+    },
+    {
+      "date": "2026-09-29",
+      "status": "draft",
+      "target": 4,
+      "articles": [
+        {
+          "key": "lactose-consultation",
+          "words": 1118,
+          "status": "draft",
+          "plannedDate": "2026-09-29"
+        },
+        {
+          "key": "swallowing-nutrition-coordination",
+          "words": 1104,
+          "status": "draft",
+          "plannedDate": "2026-09-29"
+        },
+        {
+          "key": "pcos-fertility-questions",
+          "words": 1128,
+          "status": "draft",
+          "plannedDate": "2026-09-29"
+        },
+        {
+          "key": "frozen-vegetable-skills",
+          "words": 1103,
+          "status": "draft",
+          "plannedDate": "2026-09-29"
+        }
+      ],
+      "businessBalance": {
+        "consultation": 2,
+        "course": 2
+      },
+      "research": "content/editorial-research/2026-09-29.json",
+      "blocker": null,
+      "googleStatus": "live_existing_scheduled",
+      "googlePostId": "5036888080999380717",
+      "googleNote": "Existing September 29 scheduled update verified Published 2 hours ago; counts for today, no additional post."
     }
   ],
   "advertisingManagement": {
