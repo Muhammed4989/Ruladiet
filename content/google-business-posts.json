@@ -12,8 +12,8 @@
     "fid": "9264577843169494728"
   },
   "access": {
-    "lastChecked": "2026-09-28",
-    "verifiedAt": "2026-09-28T06:35:34.732Z",
+    "lastChecked": "2026-09-29",
+    "verifiedAt": "2026-09-29T10:09:57.772Z",
     "status": "verified_management_access",
     "note": "Matched clinic name, ruladiet.com website, Başakşehir address, CID 9264577843169494728 and management controls. Posts editor and all posts list opened successfully."
   },
@@ -292,10 +292,10 @@
         "type": "LEARN_MORE",
         "url": "https://ruladiet.com/blog/التغذية-اليومية/الوجبات-والوصفات/تنويع-البروتين-النباتي-قبل-شراء-المساحيق"
       },
-      "status": "pending",
+      "status": "live",
       "preparedAt": "2026-09-28T06:35:34.732Z",
       "submittedAt": "2026-09-28T06:47:50.752Z",
-      "checkedAt": "2026-09-28T06:47:50.752Z",
+      "checkedAt": "2026-09-29T10:09:57.772Z",
       "postId": "7689741418647803500",
       "postUrl": null,
       "blocker": null,
@@ -310,9 +310,31 @@
       "uploadImagePath": "../assets/blog-editorial/plant-protein-skills-google.jpg",
       "uploadNote": "Google rejected WEBP; converted original cover to JPEG without changing composition.",
       "submissionStartedAt": "2026-09-28T06:37:11.661Z",
-      "verification": "Full 596-character description, generated cover and previously saved Learn More canonical article URL verified in the existing post. Manager shows Pending after description correction; not claimed publicly live.",
+      "verification": "Full matching description and Learn More link observed in correct managed clinic; Published yesterday.",
       "proofScreenshot": "../assets/blog-editorial/google-post-2026-09-28.png",
       "uiNotes": "Google fill/type/paste updated visible values but did not persist the description. Corrected the same post using sequential keyboard events; no duplicate post created. WEBP converted to JPEG. One automatic review rejected a combined completion/save before complete input evidence; completed and verified 596 characters separately before successful save."
+    },
+    {
+      "date": "2026-09-29",
+      "articleKey": "injection-diet",
+      "canonicalUrl": "https://ruladiet.com/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/الأنظمة-الغذائية-مع-ابر-التنحيف",
+      "text": "تستخدمين إبر التنحيف؟ الغذاء هو ما يحدد النتيجة الإبر تقلّل الشهية، لكنها لا تعلّمك كيف تأكلين. كثيرون يخسرون وزناً ثم يستعيدونه، وآخرون يفقدون كتلة عضلية لأن البروتين لم يكن كافياً. دليلنا عن الأنظمة الغذائية المناسبة أثناء استخدام الإبر: ماذا تأكلين، ماذا تتجنبين، وجدول يومي. المتابعة الغذائية في العيادة تتم مع اختصاصية تغذية.",
+      "imagePath": null,
+      "button": {
+        "type": "LEARN_MORE",
+        "url": "https://ruladiet.com/blog/الأنظمة-الغذائية-مع-ابر-التنحيف"
+      },
+      "status": "live",
+      "preparedAt": null,
+      "submittedAt": null,
+      "checkedAt": "2026-09-29T10:09:57.772Z",
+      "postId": "5036888080999380717",
+      "postUrl": null,
+      "blocker": null,
+      "source": "existing_previously_scheduled_post",
+      "duplicateCheck": "Managed clinic list showed Published 2 hours ago for the update previously scheduled September 29. Read existing post editor for ID and original button, without modifying or submitting.",
+      "verification": "Name, website, address and managing profile matched. Existing update counts toward daily limit, even though it links an earlier article. No new post submitted today.",
+      "proofScreenshot": "../assets/blog-editorial/google-existing-2026-09-29.png"
     }
   ],
   "draftQueue": [
