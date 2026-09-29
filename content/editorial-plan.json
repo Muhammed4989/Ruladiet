@@ -57,7 +57,21 @@
     ],
     "researchNote": "أُجري بحث استكشافي في 12 سبتمبر 2026. ظهرت صفحات مقدمي استشارات عند البحث عن الاستشارات الأونلاين؛ لم يثبت حجم طلب على كورسات التكيس أو الكلمات المحلية. لا يُستنتج ترتيب ثابت من هذه العينة. توفر الاستشارة الأونلاين مثبت بصفحة الحجز الحالية في المستودع؛ ومحتوى كورس التكيس موثق في content/pcos-course.json.",
     "profileEvidence": "content/author-rula.json",
-    "noProviderComparisons": true
+    "noProviderComparisons": true,
+    "weightMedicationOpportunity": {
+      "recorded": "2026-09-29",
+      "evidence": "Owner reports sustained visitors to mounjaro-diet; no Search Console traffic/query numbers independently verified in this run.",
+      "anchorArticle": "mounjaro-diet",
+      "principle": "دواء أو ظرف صحي + سؤال غذائي عملي + خطوة مناسبة للاستشارة. تحسين المقال القائم أولاً وربط الموضوعات المكملة به دون تكرار نية ماذا آكل.",
+      "targetPage": "/احجز-موعد",
+      "cadence": "أولوية لموضوع واحد مناسب ضمن حصة الاستشارات في الدفعات القادمة؛ المحافظة على توازن الاستشارات والكورسات. لا نشر إضافي لتعويض الأيام.",
+      "protected": [
+        "URL",
+        "headline",
+        "original publication date"
+      ],
+      "measurement": "Review Search Console queries/clicks/impressions for these pages when available; no sales tracking or health advertising events."
+    }
   },
   "topics": [
     {
@@ -1197,6 +1211,78 @@
       "keywordCheckedAt": "2026-09-29",
       "published": "2026-09-29",
       "url": "https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/اختيار-الخضراوات-المجمدة-للوجبات"
+    },
+    {
+      "articleKey": "medication-low-appetite-assessment",
+      "topic": "ضعف الشهية مع أدوية التنحيف: تقييم كفاية الغذاء قبل المتابعة",
+      "primaryKeyword": "ضعف الشهية مع إبر التنحيف",
+      "supportingKeywords": [
+        "قلة الأكل مع مونجارو",
+        "استشارة تغذية مع أدوية التنحيف"
+      ],
+      "decisionHelp": "معرفة ما يجمع للتقييم الغذائي ومتى تحتاج الأعراض إلى الطبيب، دون تكرار جدول وجبات مونجارو.",
+      "avoidOverlap": [
+        "mounjaro-diet",
+        "older-nutrition",
+        "injection-diet"
+      ],
+      "researchRequirement": "Verify current primary guidance on nutritional adequacy and medical warning signs before drafting; no diagnosis or drug changes.",
+      "status": "priority-backlog",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "intent": "معلوماتي داعم لاتخاذ قرار المتابعة الغذائية",
+      "keywordEvidence": "Owner-reported demand on anchor article; these related query hypotheses require current SERP/Search Console validation before publication.",
+      "priority": 1,
+      "topicId": "weight-medication",
+      "minimumWords": 1000
+    },
+    {
+      "articleKey": "weight-medication-transition",
+      "topic": "التغذية عند تغيير أو إيقاف أدوية التنحيف بإشراف الطبيب",
+      "primaryKeyword": "تثبيت الوزن بعد إيقاف إبر التنحيف",
+      "supportingKeywords": [
+        "عودة الشهية بعد أدوية التنحيف",
+        "متابعة التغذية بعد مونجارو"
+      ],
+      "decisionHelp": "التحضير لتغير الشهية بالتنسيق مع الطبيب واختيار متابعة الغذاء، دون تشجيع إيقاف الدواء أو إعادة مقال تثبيت الوزن العام.",
+      "avoidOverlap": [
+        "weight-maintenance",
+        "mounjaro",
+        "injection-diet"
+      ],
+      "researchRequirement": "Verify primary withdrawal trials and current guidance; no guaranteed prevention of regain or stopping instructions.",
+      "status": "priority-backlog",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "intent": "معلوماتي داعم لاتخاذ قرار المتابعة الغذائية",
+      "keywordEvidence": "Owner-reported demand on anchor article; these related query hypotheses require current SERP/Search Console validation before publication.",
+      "priority": 1,
+      "topicId": "weight-medication",
+      "minimumWords": 1000
+    },
+    {
+      "articleKey": "weight-medication-protein-review",
+      "topic": "البروتين أثناء أدوية التنحيف: الطعام أم المكمل؟",
+      "primaryKeyword": "البروتين مع إبر التنحيف",
+      "supportingKeywords": [
+        "مكمل بروتين مع مونجارو",
+        "الغذاء والعضلات أثناء أدوية التنحيف"
+      ],
+      "decisionHelp": "مراجعة مصادر الطعام والسياق الصحي والحاجة الفردية قبل شراء مسحوق؛ لا جرعة بروتين موحدة أو وعد بحفظ العضلات.",
+      "avoidOverlap": [
+        "mounjaro-diet",
+        "plant-protein-skills",
+        "ckd-nutrition-consultation"
+      ],
+      "researchRequirement": "Verify primary guidance on body composition and individualized nutrition; distinguish from plant-protein shopping article.",
+      "status": "priority-backlog",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "intent": "معلوماتي داعم لاتخاذ قرار المتابعة الغذائية",
+      "keywordEvidence": "Owner-reported demand on anchor article; these related query hypotheses require current SERP/Search Console validation before publication.",
+      "priority": 1,
+      "topicId": "weight-medication",
+      "minimumWords": 1000
     }
   ],
   "coverageBatch": {
