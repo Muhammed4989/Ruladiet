@@ -1123,10 +1123,12 @@
         "food-labels"
       ],
       "decisionHelp": "اختيار تقييم مناسب وتنظيم البدائل بعد وضوح التشخيص؛ لا خطة حساسية أو حمية فودماب.",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-09-29",
       "bodyWordsExcludingHeadings": 1118,
-      "keywordCheckedAt": "2026-09-29"
+      "keywordCheckedAt": "2026-09-29",
+      "published": "2026-09-29",
+      "url": "https://ruladiet.com/blog/التغذية-اليومية/أساسيات-التغذية/استشارة-تغذية-لعدم-تحمل-اللاكتوز"
     },
     {
       "articleKey": "swallowing-nutrition-coordination",
@@ -1143,10 +1145,12 @@
         "reflux-nutrition"
       ],
       "decisionHelp": "اختيار خدمة تعمل داخل تقرير بلع معتمد وتنسيق الفريق؛ لا قائمة طعام لين أو تشخيص.",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-09-29",
       "bodyWordsExcludingHeadings": 1104,
-      "keywordCheckedAt": "2026-09-29"
+      "keywordCheckedAt": "2026-09-29",
+      "published": "2026-09-29",
+      "url": "https://ruladiet.com/blog/تغذية-الأسرة/تغذية-كبار-السن/التغذية-مع-صعوبة-البلع-وتنسيق-الرعاية"
     },
     {
       "articleKey": "pcos-fertility-questions",
@@ -1164,10 +1168,12 @@
         "pcos-course-goals"
       ],
       "decisionHelp": "اختيار تقييم الخصوبة في وقته وفهم أن وحدة الحمل تعليم عام؛ ليس سجل الدورة أو التحضير الغذائي العام قبل الحمل.",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-09-29",
       "bodyWordsExcludingHeadings": 1128,
-      "keywordCheckedAt": "2026-09-29"
+      "keywordCheckedAt": "2026-09-29",
+      "published": "2026-09-29",
+      "url": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/تكيس-المبايض-وتأخر-الحمل-أسئلة-التقييم"
     },
     {
       "articleKey": "frozen-vegetable-skills",
@@ -1185,10 +1191,12 @@
         "food-labels"
       ],
       "decisionHelp": "تعلم اختيار منتج مجمد وتحضيره وفق عبوة محددة؛ لا إعادة خطة أسبوعية أو مقارنة عامة للميزانية.",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-09-29",
       "bodyWordsExcludingHeadings": 1103,
-      "keywordCheckedAt": "2026-09-29"
+      "keywordCheckedAt": "2026-09-29",
+      "published": "2026-09-29",
+      "url": "https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/اختيار-الخضراوات-المجمدة-للوجبات"
     }
   ],
   "coverageBatch": {
@@ -2196,7 +2204,7 @@
       "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/58",
       "productionVerifiedAt": "2026-09-28T06:30:09.117Z",
       "productionVerification": "content/editorial-research/2026-09-28-production.json",
-      "googleStatus": "pending",
+      "googleStatus": "live",
       "googleBlocker": null,
       "googlePostId": "7689741418647803500",
       "validation": {
@@ -2212,36 +2220,49 @@
         "status": 200,
         "submittedUrls": 4,
         "receipt": "content/editorial-research/2026-09-28-indexnow.json"
-      }
+      },
+      "googleVerifiedAt": "2026-09-29T10:22:36.235Z"
     },
     {
       "date": "2026-09-29",
-      "status": "draft",
+      "status": "published",
       "target": 4,
       "articles": [
         {
           "key": "lactose-consultation",
           "words": 1118,
-          "status": "draft",
-          "plannedDate": "2026-09-29"
+          "status": "published",
+          "plannedDate": "2026-09-29",
+          "url": "https://ruladiet.com/blog/التغذية-اليومية/أساسيات-التغذية/استشارة-تغذية-لعدم-تحمل-اللاكتوز",
+          "published": "2026-09-29",
+          "verifiedAt": "2026-09-29T10:21:32.912Z"
         },
         {
           "key": "swallowing-nutrition-coordination",
           "words": 1104,
-          "status": "draft",
-          "plannedDate": "2026-09-29"
+          "status": "published",
+          "plannedDate": "2026-09-29",
+          "url": "https://ruladiet.com/blog/تغذية-الأسرة/تغذية-كبار-السن/التغذية-مع-صعوبة-البلع-وتنسيق-الرعاية",
+          "published": "2026-09-29",
+          "verifiedAt": "2026-09-29T10:21:32.912Z"
         },
         {
           "key": "pcos-fertility-questions",
           "words": 1128,
-          "status": "draft",
-          "plannedDate": "2026-09-29"
+          "status": "published",
+          "plannedDate": "2026-09-29",
+          "url": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/تكيس-المبايض-وتأخر-الحمل-أسئلة-التقييم",
+          "published": "2026-09-29",
+          "verifiedAt": "2026-09-29T10:21:32.912Z"
         },
         {
           "key": "frozen-vegetable-skills",
           "words": 1103,
-          "status": "draft",
-          "plannedDate": "2026-09-29"
+          "status": "published",
+          "plannedDate": "2026-09-29",
+          "url": "https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/اختيار-الخضراوات-المجمدة-للوجبات",
+          "published": "2026-09-29",
+          "verifiedAt": "2026-09-29T10:21:32.912Z"
         }
       ],
       "businessBalance": {
@@ -2252,7 +2273,27 @@
       "blocker": null,
       "googleStatus": "live_existing_scheduled",
       "googlePostId": "5036888080999380717",
-      "googleNote": "Existing September 29 scheduled update verified Published 2 hours ago; counts for today, no additional post."
+      "googleNote": "Existing September 29 scheduled update verified Published 2 hours ago; counts for today, no additional post.",
+      "productionCommit": "dc75a82c8c0e3c1fb903e60f273132694edcf25f",
+      "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/60",
+      "productionVerifiedAt": "2026-09-29T10:21:32.912Z",
+      "productionVerification": "content/editorial-research/2026-09-29-production.json",
+      "previewVerification": "content/editorial-research/2026-09-29-preview.json",
+      "validation": {
+        "checkBlog": "85 unique covers, 0 errors",
+        "checkSite": "133 pages, 257 schemas, 130 sitemap URLs, 0 errors; pre-existing NUL warning unchanged",
+        "navigation": "686 named headings, 117 breadcrumbs, 0 errors",
+        "migration": "1955 redirect variants, 1938 assets, 0 errors",
+        "categoryGuides": "31 guides, minimum 552 words, 0 errors",
+        "diffCheck": "pass",
+        "oldArticleBodiesAndDates": "81 unchanged"
+      },
+      "indexNow": {
+        "submittedAt": "2026-09-29T10:22:36.059Z",
+        "status": 200,
+        "submittedUrls": 4,
+        "receipt": "content/editorial-research/2026-09-29-indexnow.json"
+      }
     }
   ],
   "advertisingManagement": {
