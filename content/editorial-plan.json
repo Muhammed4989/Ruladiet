@@ -2467,32 +2467,44 @@
     },
     {
       "date": "2026-09-30",
-      "status": "draft",
+      "status": "published",
       "target": 4,
       "articles": [
         {
           "key": "medication-appetite-review",
           "words": 1140,
-          "status": "draft",
-          "plannedDate": "2026-09-30"
+          "status": "published",
+          "plannedDate": "2026-09-30",
+          "published": "2026-09-30",
+          "url": "https://ruladiet.com/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/ضعف-الشهية-مع-أدوية-التنحيف-وتقييم-الغذاء",
+          "verifiedAt": "2026-09-30T06:46:33.339Z"
         },
         {
           "key": "after-gallbladder-consultation",
           "words": 1051,
-          "status": "draft",
-          "plannedDate": "2026-09-30"
+          "status": "published",
+          "plannedDate": "2026-09-30",
+          "published": "2026-09-30",
+          "url": "https://ruladiet.com/blog/التغذية-اليومية/أساسيات-التغذية/استشارة-تغذية-بعد-استئصال-المرارة",
+          "verifiedAt": "2026-09-30T06:46:33.339Z"
         },
         {
           "key": "pcos-insulin-test-context",
           "words": 1015,
-          "status": "draft",
-          "plannedDate": "2026-09-30"
+          "status": "published",
+          "plannedDate": "2026-09-30",
+          "published": "2026-09-30",
+          "url": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/تحليل-الإنسولين-مع-تكيس-المبايض",
+          "verifiedAt": "2026-09-30T06:46:33.339Z"
         },
         {
           "key": "whole-grain-shopping-skill",
           "words": 1036,
-          "status": "draft",
-          "plannedDate": "2026-09-30"
+          "status": "published",
+          "plannedDate": "2026-09-30",
+          "published": "2026-09-30",
+          "url": "https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/اختيار-الحبوب-الكاملة-من-الملصق",
+          "verifiedAt": "2026-09-30T06:46:33.339Z"
         }
       ],
       "businessBalance": {
@@ -2501,7 +2513,27 @@
       },
       "research": "content/editorial-research/2026-09-30.json",
       "blocker": null,
-      "googleStatus": "not_checked"
+      "googleStatus": "draft",
+      "productionCommit": "b00bbd1a27523e81e721ad72de3e41cec37edda7",
+      "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/63",
+      "productionVerifiedAt": "2026-09-30T06:46:33.339Z",
+      "productionVerification": "content/editorial-research/2026-09-30-production.json",
+      "previewVerification": "content/editorial-research/2026-09-30-preview.json",
+      "validation": {
+        "checkBlog": "89 unique covers, 0 errors",
+        "checkSite": "137 pages, 265 schemas, 134 sitemap URLs, 0 errors; pre-existing NUL warning unchanged",
+        "navigation": "717 named headings, 121 breadcrumbs, 0 errors",
+        "migration": "2047 redirect variants, 2030 local assets, 0 errors",
+        "categoryGuides": "31 guides, minimum 552 words, 0 errors",
+        "diffCheck": "pass",
+        "oldArticleBodiesAndDates": "85 unchanged"
+      },
+      "indexNow": {
+        "submittedAt": "2026-09-30T06:43:07.923Z",
+        "status": 200,
+        "submittedUrls": 4,
+        "receipt": "content/editorial-research/2026-09-30-indexnow.json"
+      }
     }
   ],
   "advertisingManagement": {
