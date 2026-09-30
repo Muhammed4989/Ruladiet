@@ -12,8 +12,8 @@
     "fid": "9264577843169494728"
   },
   "access": {
-    "lastChecked": "2026-09-29",
-    "verifiedAt": "2026-09-29T10:09:57.772Z",
+    "lastChecked": "2026-09-30",
+    "verifiedAt": "2026-09-30T06:46:33.339Z",
     "status": "verified_management_access",
     "note": "Matched clinic name, ruladiet.com website, Başakşehir address, CID 9264577843169494728 and management controls. Posts editor and all posts list opened successfully."
   },
@@ -335,6 +335,30 @@
       "duplicateCheck": "Managed clinic list showed Published 2 hours ago for the update previously scheduled September 29. Read existing post editor for ID and original button, without modifying or submitting.",
       "verification": "Name, website, address and managing profile matched. Existing update counts toward daily limit, even though it links an earlier article. No new post submitted today.",
       "proofScreenshot": "../assets/blog-editorial/google-existing-2026-09-29.png"
+    },
+    {
+      "date": "2026-09-30",
+      "articleKey": "whole-grain-shopping-skill",
+      "canonicalUrl": "https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/اختيار-الحبوب-الكاملة-من-الملصق",
+      "text": "هل تدل كلمة «أسمر» على أن الخبز مصنوع من حبوب كاملة؟ ليس دائماً. عند التسوق، ابدئي بقائمة المكونات وابحثي عن اسم الحبة الكاملة، ثم قارني حجم الحصة والقيمة الغذائية بين منتجين تستخدمينهما فعلاً. جربي عبوة صغيرة في وجبة مألوفة، واسألي نفسك إن كان الطعم والتحضير والسعر مناسبين للتكرار. لا حاجة إلى تبديل كل ما في المطبخ دفعة واحدة أو شراء منتج مرتفع الثمن لمجرد شعاره. في دليل رولا دايت الجديد نشرح خطوات قراءة الملصق، مع حالات تحتاج تخصيصاً مثل السيلياك أو التعليمات الطبية. يمكنك قراءة المقال كاملاً عبر زر «معرفة المزيد»، والاستفادة من المثال في زيارتك المقبلة للمتجر.",
+      "imagePath": "../assets/blog-editorial/whole-grain-shopping-skill-google.jpg",
+      "button": {
+        "type": "LEARN_MORE",
+        "url": "https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/اختيار-الحبوب-الكاملة-من-الملصق"
+      },
+      "status": "draft",
+      "preparedAt": "2026-09-30T06:46:33.339Z",
+      "submittedAt": null,
+      "checkedAt": null,
+      "postId": null,
+      "postUrl": null,
+      "blocker": null,
+      "sourcePolicy": [
+        "https://support.google.com/business/answer/7342169?hl=en",
+        "https://support.google.com/business/answer/7213077?hl=en"
+      ],
+      "wordCount": 98,
+      "duplicateCheck": "Correct managed clinic showed latest public owner update from Sep 29, 23 hours earlier; no Sep 30 update in local ledger."
     }
   ],
   "draftQueue": [

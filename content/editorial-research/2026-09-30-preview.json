@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-30",
+  "preview": "https://ruladiet-site-nwyfsv1uq-muhammeds-projects-1419b173.vercel.app",
+  "commit": "f3f71d7e0d21570fda161b9ec75cc13c30900dee",
+  "verifiedAt": "2026-09-30T06:46:33.339Z",
+  "articles": [
+    {
+      "key": "medication-appetite-review",
+      "path": "/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/ضعف-الشهية-مع-أدوية-التنحيف-وتقييم-الغذاء"
+    },
+    {
+      "key": "after-gallbladder-consultation",
+      "path": "/blog/التغذية-اليومية/أساسيات-التغذية/استشارة-تغذية-بعد-استئصال-المرارة"
+    },
+    {
+      "key": "pcos-insulin-test-context",
+      "path": "/blog/صحة-المرأة/تكيس-المبايض/تحليل-الإنسولين-مع-تكيس-المبايض"
+    },
+    {
+      "key": "whole-grain-shopping-skill",
+      "path": "/blog/التغذية-اليومية/الملصقات-والتسوق/اختيار-الحبوب-الكاملة-من-الملصق"
+    }
+  ],
+  "verification": "All four Vercel preview pages rendered with title, hero, two SVGs, alt, author, five-level breadcrumb, taxonomy navigation and relevant CTA. First article visually inspected in browser."
+}
