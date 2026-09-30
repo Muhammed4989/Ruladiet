@@ -2513,7 +2513,7 @@
       },
       "research": "content/editorial-research/2026-09-30.json",
       "blocker": null,
-      "googleStatus": "draft",
+      "googleStatus": "blocked_editor_access",
       "productionCommit": "b00bbd1a27523e81e721ad72de3e41cec37edda7",
       "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/63",
       "productionVerifiedAt": "2026-09-30T06:46:33.339Z",
@@ -2533,7 +2533,8 @@
         "status": 200,
         "submittedUrls": 4,
         "receipt": "content/editorial-research/2026-09-30-indexnow.json"
-      }
+      },
+      "googleNote": "Full draft saved; awaiting owner to open a controllable Google post editor tab. No submission attempted."
     }
   ],
   "advertisingManagement": {

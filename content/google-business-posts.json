@@ -346,19 +346,20 @@
         "type": "LEARN_MORE",
         "url": "https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/اختيار-الحبوب-الكاملة-من-الملصق"
       },
-      "status": "draft",
+      "status": "blocked",
       "preparedAt": "2026-09-30T06:46:33.339Z",
       "submittedAt": null,
-      "checkedAt": null,
+      "checkedAt": "2026-09-30T06:56:19.168Z",
       "postId": null,
       "postUrl": null,
-      "blocker": null,
+      "blocker": "The correct managed Rula Diet clinic was verified, but Posts/Add update did not open a controllable editor in the bound tab. Owner was asked once to open the post editor in Codex. Draft text, JPEG image and target URL are preserved; no submission attempted.",
       "sourcePolicy": [
         "https://support.google.com/business/answer/7342169?hl=en",
         "https://support.google.com/business/answer/7213077?hl=en"
       ],
       "wordCount": 98,
-      "duplicateCheck": "Correct managed clinic showed latest public owner update from Sep 29, 23 hours earlier; no Sep 30 update in local ledger."
+      "duplicateCheck": "Correct managed clinic showed latest public owner update from Sep 29, 23 hours earlier; no Sep 30 update in local ledger.",
+      "verification": "Latest visible owner update was Sep 29; no Sep 30 update observed in the authorized tab. Do not claim this draft is public."
     }
   ],
   "draftQueue": [
