@@ -344,22 +344,22 @@
       "imagePath": "../assets/blog-editorial/whole-grain-shopping-skill-google.jpg",
       "button": {
         "type": "LEARN_MORE",
-        "url": "https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/اختيار-الحبوب-الكاملة-من-الملصق"
+        "url": "https://ruladiet.com/blog/اختيار-الحبوب-الكاملة-من-الملصق"
       },
-      "status": "blocked",
+      "status": "pending",
       "preparedAt": "2026-09-30T06:46:33.339Z",
-      "submittedAt": null,
-      "checkedAt": "2026-09-30T06:56:19.168Z",
-      "postId": null,
+      "submittedAt": "2026-09-30T07:35:19Z",
+      "checkedAt": "2026-09-30T07:35:19Z",
+      "postId": "1013200483600098436",
       "postUrl": null,
-      "blocker": "The correct managed Rula Diet clinic was verified, but Posts/Add update did not open a controllable editor in the bound tab. Owner was asked once to open the post editor in Codex. Draft text, JPEG image and target URL are preserved; no submission attempted.",
+      "blocker": null,
       "sourcePolicy": [
         "https://support.google.com/business/answer/7342169?hl=en",
         "https://support.google.com/business/answer/7213077?hl=en"
       ],
       "wordCount": 98,
-      "duplicateCheck": "Correct managed clinic showed latest public owner update from Sep 29, 23 hours earlier; no Sep 30 update in local ledger.",
-      "verification": "Latest visible owner update was Sep 29; no Sep 30 update observed in the authorized tab. Do not claim this draft is public."
+      "duplicateCheck": "Correct managed clinic's complete All posts list showed no Sep 30 update; latest existing post was Sep 29, and the local ledger has no Sep 30 submission.",
+      "verification": "The correct managed clinic's All posts list shows the new image and Learn more card as Pending. The post ID was captured from the Google copy-post screen. No other profiles were selected; Skip was used. The short button URL was tested in a browser and redirects to the canonical article. Pending is not public approval."
     }
   ],
   "draftQueue": [
