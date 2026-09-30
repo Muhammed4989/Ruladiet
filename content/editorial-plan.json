@@ -2513,7 +2513,7 @@
       },
       "research": "content/editorial-research/2026-09-30.json",
       "blocker": null,
-      "googleStatus": "blocked_editor_access",
+      "googleStatus": "pending_review",
       "productionCommit": "b00bbd1a27523e81e721ad72de3e41cec37edda7",
       "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/63",
       "productionVerifiedAt": "2026-09-30T06:46:33.339Z",
@@ -2534,7 +2534,7 @@
         "submittedUrls": 4,
         "receipt": "content/editorial-research/2026-09-30-indexnow.json"
       },
-      "googleNote": "Full draft saved; awaiting owner to open a controllable Google post editor tab. No submission attempted."
+      "googleNote": "Sep 30 Update submitted to the verified Rula Diet clinic only, post ID 1013200483600098436. Admin All posts shows Pending; no public visibility claimed."
     }
   ],
   "advertisingManagement": {
