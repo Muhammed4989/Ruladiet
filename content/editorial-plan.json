@@ -1283,6 +1283,90 @@
       "priority": 1,
       "topicId": "weight-medication",
       "minimumWords": 1000
+    },
+    {
+      "articleKey": "medication-appetite-review",
+      "primaryKeyword": "ضعف الشهية مع أدوية التنحيف",
+      "supportingKeywords": [
+        "تغذية مع حقن التنحيف",
+        "متى أراجع الطبيب مع تيرزيباتيد"
+      ],
+      "intent": "معلوماتي داعم لملاءمة الخدمة والتعلم، لا صفحة بيع منافسة",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": [
+        "mounjaro-diet",
+        "injection-diet",
+        "weight-maintenance"
+      ],
+      "decisionHelp": "تمييز مراجعة كفاية الغذاء عن الأعراض التي تتطلب الطبيب، والتحضير لسؤال متابعة التغذية.",
+      "status": "draft",
+      "plannedFor": "2026-09-30",
+      "bodyWordsExcludingHeadings": 1140,
+      "keywordCheckedAt": "2026-09-30"
+    },
+    {
+      "articleKey": "after-gallbladder-consultation",
+      "primaryKeyword": "استشارة تغذية بعد استئصال المرارة",
+      "supportingKeywords": [
+        "الأكل بعد استئصال المرارة",
+        "إسهال بعد عملية المرارة"
+      ],
+      "intent": "معلوماتي داعم لملاءمة الخدمة والتعلم، لا صفحة بيع منافسة",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": [
+        "reflux-nutrition",
+        "food-diary",
+        "bariatric-followup-nutrition"
+      ],
+      "decisionHelp": "التمييز بين العودة التدريجية للغذاء والحاجة لتقييم أعراض بعد الجراحة، واختيار نطاق استشارة مناسب.",
+      "status": "draft",
+      "plannedFor": "2026-09-30",
+      "bodyWordsExcludingHeadings": 1051,
+      "keywordCheckedAt": "2026-09-30"
+    },
+    {
+      "articleKey": "pcos-insulin-test-context",
+      "primaryKeyword": "تحليل الإنسولين مع تكيس المبايض",
+      "supportingKeywords": [
+        "مقاومة الإنسولين والتكيس",
+        "فحوص السكر مع التكيس"
+      ],
+      "intent": "معلوماتي داعم لملاءمة الخدمة والتعلم، لا صفحة بيع منافسة",
+      "businessGoal": "course",
+      "targetPage": "/course/تكيس-المبايض",
+      "avoidOverlap": [
+        "pcos-supplements",
+        "pcos-normal-weight",
+        "pcos-course-goals"
+      ],
+      "decisionHelp": "فهم حدود تحليل الإنسولين، سؤال الطبيب عن فحوص السكر المناسبة، واختيار الكورس للتثقيف فقط.",
+      "status": "draft",
+      "plannedFor": "2026-09-30",
+      "bodyWordsExcludingHeadings": 1015,
+      "keywordCheckedAt": "2026-09-30"
+    },
+    {
+      "articleKey": "whole-grain-shopping-skill",
+      "primaryKeyword": "اختيار الحبوب الكاملة من الملصق",
+      "supportingKeywords": [
+        "الخبز الأسمر والحبوب الكاملة",
+        "قراءة مكونات الخبز"
+      ],
+      "intent": "معلوماتي داعم لملاءمة الخدمة والتعلم، لا صفحة بيع منافسة",
+      "businessGoal": "course",
+      "targetPage": "/course/المسار-الصحي",
+      "avoidOverlap": [
+        "food-labels",
+        "budget-nutrition-learning",
+        "frozen-vegetable-skills"
+      ],
+      "decisionHelp": "اختيار عبوة حبوب محددة وتجربتها ضمن وجبة؛ المقال القديم يشرح الملصق عموماً.",
+      "status": "draft",
+      "plannedFor": "2026-09-30",
+      "bodyWordsExcludingHeadings": 1036,
+      "keywordCheckedAt": "2026-09-30"
     }
   ],
   "coverageBatch": {
@@ -2380,6 +2464,44 @@
         "submittedUrls": 4,
         "receipt": "content/editorial-research/2026-09-29-indexnow.json"
       }
+    },
+    {
+      "date": "2026-09-30",
+      "status": "draft",
+      "target": 4,
+      "articles": [
+        {
+          "key": "medication-appetite-review",
+          "words": 1140,
+          "status": "draft",
+          "plannedDate": "2026-09-30"
+        },
+        {
+          "key": "after-gallbladder-consultation",
+          "words": 1051,
+          "status": "draft",
+          "plannedDate": "2026-09-30"
+        },
+        {
+          "key": "pcos-insulin-test-context",
+          "words": 1015,
+          "status": "draft",
+          "plannedDate": "2026-09-30"
+        },
+        {
+          "key": "whole-grain-shopping-skill",
+          "words": 1036,
+          "status": "draft",
+          "plannedDate": "2026-09-30"
+        }
+      ],
+      "businessBalance": {
+        "consultation": 2,
+        "course": 2
+      },
+      "research": "content/editorial-research/2026-09-30.json",
+      "blocker": null,
+      "googleStatus": "not_checked"
     }
   ],
   "advertisingManagement": {
