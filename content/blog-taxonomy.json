@@ -289,6 +289,10 @@
     "medication-appetite-review": "weight-medication",
     "after-gallbladder-consultation": "nutrition-basics",
     "pcos-insulin-test-context": "pcos",
-    "whole-grain-shopping-skill": "labels-shopping"
+    "whole-grain-shopping-skill": "labels-shopping",
+    "gastroparesis-consultation": "nutrition-basics",
+    "pcos-lipid-screening": "pcos",
+    "ulcerative-colitis-consultation": "nutrition-basics",
+    "sodium-label-shopping": "labels-shopping"
   }
 }
