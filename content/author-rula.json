@@ -2,7 +2,7 @@
   "name": "رولا علوش",
   "role": "اختصاصية تغذية وكاتبة في التوعية الغذائية",
   "path": "/author/rulaalloush",
-  "updated": "2026-09-14",
+  "updated": "2026-10-01",
   "publications": [
     {
       "name": "الجزيرة نت",
@@ -72,7 +72,7 @@
     "https://www.instagram.com/rulaalloush/"
   ],
   "verificationNote": "The owner requested AJ+ and magazines; searches on 2026-09-10 did not establish an attributable primary author/article link for those publications. Do not add an employment relationship or publication claim without evidence. Master's university was explicitly confirmed by the owner as Sabahattin Zaim.",
-  "introduction": "رولا علوش اختصاصية تغذية عربية ومهندسة غذائية، ومؤسسة عيادة رولا دايت في باشاك شهير، إسطنبول. بدأت عملها في إسطنبول عام 2018، وتجمع بين دراسة التغذية والحميات وعلوم الأغذية لتقديم توعية غذائية واستشارات تراعي احتياجات كل شخص.",
+  "introduction": "رولا علوش اختصاصية تغذية عربية ومهندسة غذائية، ومؤسسة عيادة رولا دايت في باشاك شهير، إسطنبول. وبحسب إفادة مالك العيادة، رولا دايت هي أول عيادة تغذية عربية مرخصة في إسطنبول. بدأت رولا عملها في المدينة عام 2018، وتجمع بين دراسة التغذية والحميات وعلوم الأغذية لتقديم توعية غذائية واستشارات تراعي احتياجات كل شخص.",
   "publicEvidence": {
     "checkedAt": "2026-09-14",
     "practiceStart": {
@@ -97,8 +97,13 @@
     }
   },
   "claimsPolicy": {
-    "updated": "2026-09-14",
-    "positioning": "Highlight Rula's credentials, Istanbul practice since 2018, verified public metrics, writing and services without comparisons to named competitors.",
+    "updated": "2026-10-01",
+    "positioning": "Highlight Rula's credentials, Istanbul practice since 2018, verified public metrics, writing and services without comparisons to named competitors. The owner's clinic-first/licensed claim is attributed as owner testimony, not independently verified.",
+    "ownerAttestation": {
+      "claim": "أول عيادة تغذية عربية مرخصة في إسطنبول",
+      "source": "Owner assertion in the current task on 2026-10-01; owner states personal familiarity with Istanbul since 2013.",
+      "scope": "Attributed statement only. No clinic licence number, issuing authority or dated comparative register was supplied or independently verified. Do not imply that the 2018 personal practice date proves clinic opening or historical precedence."
+    },
     "pending": [
       {
         "claim": "أول اختصاصية تغذية عربية في إسطنبول",
