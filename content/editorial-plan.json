@@ -2535,6 +2535,29 @@
         "receipt": "content/editorial-research/2026-09-30-indexnow.json"
       },
       "googleNote": "Sep 30 Update submitted to the verified Rula Diet clinic only, post ID 1013200483600098436. Admin All posts shows Pending; no public visibility claimed."
+    },
+    {
+      "date": "2026-10-01",
+      "status": "published",
+      "target": 4,
+      "articles": [
+        {"key":"gastroparesis-consultation","words":1084,"status":"published","plannedDate":"2026-10-01","published":"2026-10-01","url":"https://ruladiet.com/blog/التغذية-اليومية/أساسيات-التغذية/استشارة-تغذية-مع-بطء-إفراغ-المعدة"},
+        {"key":"pcos-lipid-screening","words":1065,"status":"published","plannedDate":"2026-10-01","published":"2026-10-01","url":"https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/فحص-دهون-الدم-مع-تكيس-المبايض"},
+        {"key":"ulcerative-colitis-consultation","words":1075,"status":"published","plannedDate":"2026-10-01","published":"2026-10-01","url":"https://ruladiet.com/blog/التغذية-اليومية/أساسيات-التغذية/استشارة-تغذية-مع-التهاب-القولون-التقرحي"},
+        {"key":"sodium-label-shopping","words":1098,"status":"published","plannedDate":"2026-10-01","published":"2026-10-01","url":"https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/قراءة-الصوديوم-على-الملصق-الغذائي"}
+      ],
+      "businessBalance": {"consultation":2,"course":2},
+      "research": "content/editorial-research/2026-10-01.json",
+      "blocker": null,
+      "googleStatus": "live",
+      "googlePostId": "8053478122328949988",
+      "productionCommit": "33fc27fd52b5f16bd1bc73b3ff3bb68acab14eef",
+      "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/68",
+      "productionVerification": "content/editorial-research/2026-10-01-production.json",
+      "previewVerification": "content/editorial-research/2026-10-01-preview.json",
+      "validation": {"checkBlog":"93 unique covers, 0 errors","checkSite":"141 pages, 273 schemas, 138 sitemap URLs, 0 errors; pre-existing NUL warning unchanged","navigation":"741 named headings, 125 breadcrumbs, 0 errors","migration":"2139 redirect variants, 0 errors","categoryGuides":"31 guides, minimum 552 words, 0 errors","diffCheck":"pass"},
+      "indexNow": {"submittedAt":"2026-10-01T06:26:36.922Z","status":200,"submittedUrls":4,"receipt":"content/editorial-research/2026-10-01-indexnow.json"},
+      "googleNote": "Oct 1 Update published on the verified Rula Diet clinic only, post ID 8053478122328949988. Admin All posts showed Published after submission."
     }
   ],
   "advertisingManagement": {

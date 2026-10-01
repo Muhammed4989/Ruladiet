@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-01",
+  "commit": "33fc27fd52b5f16bd1bc73b3ff3bb68acab14eef",
+  "verifiedOn": "2026-10-01",
+  "urls": [
+    "https://ruladiet.com/blog/التغذية-اليومية/أساسيات-التغذية/استشارة-تغذية-مع-بطء-إفراغ-المعدة",
+    "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/فحص-دهون-الدم-مع-تكيس-المبايض",
+    "https://ruladiet.com/blog/التغذية-اليومية/أساسيات-التغذية/استشارة-تغذية-مع-التهاب-القولون-التقرحي",
+    "https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/قراءة-الصوديوم-على-الملصق-الغذائي"
+  ],
+  "verification": "All four production pages rendered the correct title, Rula byline, publication date, self-canonical, and two in-body illustrations with Arabic alt text. IndexNow dry run found HTTP 200, canonical match, sitemap inclusion and no noindex for each new URL."
+}

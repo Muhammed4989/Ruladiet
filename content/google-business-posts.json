@@ -360,6 +360,19 @@
       "wordCount": 98,
       "duplicateCheck": "Correct managed clinic's complete All posts list showed no Sep 30 update; latest existing post was Sep 29, and the local ledger has no Sep 30 submission.",
       "verification": "The correct managed clinic's All posts list shows the new image and Learn more card as Pending. The post ID was captured from the Google copy-post screen. No other profiles were selected; Skip was used. The short button URL was tested in a browser and redirects to the canonical article. Pending is not public approval."
+    },
+    {
+      "date":"2026-10-01",
+      "articleKey":"sodium-label-shopping",
+      "canonicalUrl":"https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/قراءة-الصوديوم-على-الملصق-الغذائي",
+      "text":"حين تقارنين منتجين في المتجر، ابدئي بحجم الحصة المكتوب على الملصق قبل النظر إلى كمية الصوديوم. قد تعرض عبوة رقماً أصغر لمجرد أن حصتها أصغر. اختاري منتجين متشابهين، وحددي المقدار الذي تستخدمينه فعلاً، ثم قارني كمية الصوديوم أو نسبته اليومية على هذا الأساس. المذاق المالح أو كلمة «طبيعي» على الواجهة لا يكفيان للحكم. لا تحتاجين تحويل كل وجبة إلى حسابات؛ جربي المقارنة على صنف تشترينه باستمرار، وراجعي الطعم والتكلفة وإمكان تكرار الاختيار. إذا كانت لديك تعليمات طبية خاصة بالضغط أو الكلى، اتبعي خطة فريقك. اقرئي الدليل الكامل عبر زر «معرفة المزيد». الرسم توضيحي لمنتجات غير موسومة، وليس إعلاناً لعلامة تجارية.",
+      "imagePath":"../assets/blog-editorial/sodium-label-shopping-google.jpg",
+      "button":{"type":"LEARN_MORE","url":"https://ruladiet.com/blog/قراءة-الصوديوم-على-الملصق-الغذائي"},
+      "status":"live","preparedAt":"2026-10-01T06:29:00Z","submittedAt":null,"checkedAt":"2026-10-01T06:34:07Z","postId":"8053478122328949988","postUrl":null,"blocker":null,
+      "sourcePolicy":["https://support.google.com/business/answer/7342169?hl=en","https://support.google.com/business/answer/7400114?hl=en"],
+      "duplicateCheck":"Correct managed Rula Diet clinic verified by name, ruladiet.com, Başakşehir address and management controls. All posts list showed no October 1 post; latest visible update was published 22 hours ago. Local ledger has no October 1 entry before this draft.",
+      "wordCount":100,
+      "verification":"Submitted once on Oct 1 around 06:33 UTC; exact send timestamp was not recorded. Google displayed the Oct 1 image and Learn more card at the top of the correct managed Rula Diet clinic All posts list with Published 24 seconds ago at the 06:34:07 check. The post ID was captured from the copy-post screen. No other business was selected; Skip was used. The button URL redirects to the canonical article."
     }
   ],
   "draftQueue": [
