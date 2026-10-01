@@ -12,10 +12,10 @@
     "fid": "9264577843169494728"
   },
   "access": {
-    "lastChecked": "2026-09-15",
-    "verifiedAt": "2026-09-15T10:08:27.624Z",
+    "lastChecked": "2026-09-30",
+    "verifiedAt": "2026-09-30T06:46:33.339Z",
     "status": "verified_management_access",
-    "note": "Owner selected the managing Google account and confirmed login. Rula Diet name, Başakşehir address, ruladiet.com website, matching hexadecimal CID and You manage this Business Profile were visible. Posts and Booking controls opened successfully. Reverify identity if account order changes."
+    "note": "Matched clinic name, ruladiet.com website, Başakşehir address, CID 9264577843169494728 and management controls. Posts editor and all posts list opened successfully."
   },
   "entryFields": [
     "date",
@@ -79,6 +79,300 @@
       "postUrl": null,
       "blocker": null,
       "note": "Visible in the public profile and management All posts. Already published before this login follow-up; not created or edited by this run. The legacy Learn more URL resolves to the canonical article with HTTP 200."
+    },
+    {
+      "date": "2026-09-19",
+      "articleKey": "food-diary",
+      "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/مذكرات-الطعام-قبل-استشارة-التغذية",
+      "text": "مذكرات الطعام ليست امتحاناً في الالتزام. قد تساعدك ملاحظات بسيطة عن وقت الوجبة وظروف يومك على شرح ما تحتاجينه في استشارة التغذية.\n\nاكتبي ما حدث فعلاً، دون وصف الطعام بأنه جيد أو سيئ، وأضيفي ظرفاً مهماً مثل اجتماع طويل أو عدم توفر استراحة. لا يلزم عد السعرات أو شراء تطبيق؛ اسألي الفريق أولاً عن طريقة التحضير المناسبة لك.\n\nفي دليل رولا دايت نشرح كيف تجهزين سجلاً عملياً وأسئلة للموعد، ومتى تناقشين بديلاً إذا زاد التدوين قلقك. اقرئي المقال عبر زر معرفة المزيد. الصورة توضيحية لشخصية خيالية وليست مريضة أو نتيجة علاج.",
+      "imagePath": "images/blog/food-diary-1280.webp",
+      "button": {
+        "type": "LEARN_MORE",
+        "url": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/مذكرات-الطعام-قبل-استشارة-التغذية"
+      },
+      "status": "live",
+      "preparedAt": "2026-09-16T08:05:14.279Z",
+      "submittedAt": "2026-09-19T11:04:06.3377892Z",
+      "checkedAt": "2026-09-19T11:05:33.503Z",
+      "postId": "1212841159771102130",
+      "postUrl": null,
+      "blocker": null,
+      "preparedDate": "2026-09-16",
+      "sourceArticleVerifiedAt": "2026-09-19T10:56:53.846Z",
+      "verification": "Correct Rula Diet clinic profile showed Published 34 seconds ago; Learn more button and uploaded image visible. No same-day post existed before submission.",
+      "uploadedImageFormat": "JPEG converted from the article WebP; Google rejected WebP before submission."
+    },
+    {
+      "date": "2026-09-20",
+      "articleKey": "pcos-movement",
+      "canonicalUrl": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/الرياضة-مع-تكيس-المبايض",
+      "text": "اختيار حركة تناسب يومك يبدأ بسؤال بسيط: ما النشاط الذي تستطيعين تكراره ضمن وقتك وظروفك؟\n\nقبل شراء اشتراك رياضي، قارني وقت الانتقال والمكان والتكلفة وطريقة شرح التمارين. اكتبي عائقاً متوقعاً وخياراً بديلاً لليوم المزدحم، بدلاً من الاعتماد على جدول مثالي يصعب تطبيقه.\n\nفي مقال رولا دايت الجديد عن الرياضة مع تكيس المبايض، نرتب أسئلة اختيار النشاط وحدود البرامج العامة، ونوضح الفرق بين فهم الحالة والحاجة إلى تقييم فردي. لا يوجد تمرين واحد يناسب الجميع، والكورس التثقيفي لا يستبدل التقييم الطبي أو برنامجاً شخصياً. اقرئي الدليل عبر زر معرفة المزيد. الصورة توضيحية لشخصيات خيالية، وليست لمريضات أو نتائج علاج.",
+      "imagePath": "images/blog/pcos-movement-1280.webp",
+      "button": {
+        "type": "LEARN_MORE",
+        "url": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/الرياضة-مع-تكيس-المبايض"
+      },
+      "status": "live",
+      "preparedAt": "2026-09-20T06:42:58.704Z",
+      "submittedAt": "2026-09-20T06:51:09.722Z",
+      "checkedAt": "2026-09-21T08:07:34.174Z",
+      "postId": "7975720168125690281",
+      "postUrl": null,
+      "blocker": null,
+      "sourceArticleVerifiedAt": "2026-09-20T06:47:57.945Z",
+      "duplicateCheck": "Correct managed Rula Diet profile; most recent post yesterday, only future scheduled Sep22 and Sep29. No Sep20 post.",
+      "verification": "Sep21 existing post link corrected and persisted exact canonical URL verified by reopening editor. Posts list subsequently showed Published yesterday; no duplicate created.",
+      "uploadedImageFormat": "JPEG",
+      "buttonCorrection": {
+        "checkedAt": "2026-09-21T08:02:31.040Z",
+        "status": "saved_verified",
+        "reason": "Duplicated concatenated URL found in public Learn more link; corrected and reopened editor to verify exact canonical value persisted.",
+        "url": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/الرياضة-مع-تكيس-المبايض"
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "articleKey": "budget-nutrition-learning",
+      "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/الملصقات-والتسوق/التغذية-الصحية-بميزانية-محدودة",
+      "text": "التغذية ضمن الميزانية تبدأ بما يمكنك استخدامه فعلاً، وليس بشراء كل منتج يحمل كلمة صحي.\n\nقبل زيارة المتجر، راجعي الموجود في البيت واختاري وجبتين معتادتين. اكتبي المكونات الناقصة وبديلاً متاحاً لكل منها. قارني سعر الوحدة، ثم اسألي: هل سأستخدم العبوة كاملة قبل أن تتلف؟ العبوة الأكبر ليست دائماً أوفر إذا انتهى جزء منها في المهملات.\n\nفي دليل رولا دايت الجديد نرتب أسئلة تكلفة الطعام والوقت والتخزين، وكيف تختارين محتوى تعليمياً يناسب احتياجاتك دون منتجات خاصة أو وعود بتوفير مبلغ محدد. اقرئي المقال عبر زر معرفة المزيد، وجربي خطوة بسيطة في قائمة التسوق القادمة. الرسم توضيحي مولد، وليس إعلاناً لمنتج.",
+      "imagePath": "images/blog/budget-nutrition-learning-1280.webp",
+      "button": {
+        "type": "LEARN_MORE",
+        "url": "https://ruladiet.com/blog/category/التغذية-اليومية/الملصقات-والتسوق/التغذية-الصحية-بميزانية-محدودة"
+      },
+      "status": "live",
+      "preparedAt": "2026-09-21T07:57:22.553Z",
+      "submittedAt": "2026-09-21T08:02:31.028Z",
+      "checkedAt": "2026-09-21T08:07:34.174Z",
+      "postId": "7621719336271311959",
+      "postUrl": null,
+      "blocker": null,
+      "sourceArticleVerifiedAt": "2026-09-21T07:54:38.933Z",
+      "duplicateCheck": "Correct clinic managed, name/address/website and CID match. Existing newest Sep20 post; no new Sep21 post; future scheduled Sep22/Sep29 preserved.",
+      "uploadedImageFormat": "JPEG",
+      "verification": "Correct clinic showed Published 50 seconds ago. Reopened editor without modification and verified stored Learn more URL exactly matches encoded canonical article URL. Uploaded image and full text visible.",
+      "editorInputNote": "Google editor needs real sequential keystroke to update bound form value; verify persisted URL after submission."
+    },
+    {
+      "date": "2026-09-22",
+      "source": "existing_google_schedule",
+      "articleKey": "thyroid",
+      "text": "وزنك ثابت؟ قبل أن تلومي الغدة الدرقية\nالغدة سبب حقيقي لثبات الوزن عند البعض — ومجرد شمّاعة عند البعض الآخر. والفرق يُعرف بالتحاليل، لا بالتخمين. أعراض كسل الغدة وفرط نشاطها، التحاليل المطلوبة، ودور الغذاء الفعلي في إدارة الوزن مع مشاكل الغدة.",
+      "imagePath": null,
+      "imageSource": "Existing Google post image seen in editor; original local filename not verified",
+      "button": {
+        "type": "LEARN_MORE",
+        "url": "https://ruladiet.com/blog/%D8%A7%D9%84%D8%BA%D8%AF%D8%A9-%D8%A7%D9%84%D8%AF%D8%B1%D9%82%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D9%88%D8%B2%D9%86"
+      },
+      "status": "live",
+      "submittedAt": null,
+      "checkedAt": "2026-09-22T07:19:23.446Z",
+      "postId": "1250544067686574753",
+      "postUrl": null,
+      "blocker": null,
+      "verification": "Correct managed clinic identity verified. Public profile showed exact scheduled post text, Learn more and 16 mins ago on Sep22. Counted existing scheduled post for today; no duplicate submitted.",
+      "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-والحالات-الصحية/الغدة-الدرقية/الغدة-الدرقية-والوزن",
+      "destinationHttpStatus": 200
+    },
+    {
+      "date": "2026-09-23",
+      "articleKey": "cholesterol-consultation",
+      "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-والحالات-الصحية/الكوليسترول-وصحة-القلب/استشارة-تغذية-لارتفاع-الكوليسترول",
+      "text": "التحضير لاستشارة التغذية يبدأ بملف واضح، لا بقائمة طويلة من الأطعمة الممنوعة.\n\nعند مناقشة ارتفاع الكوليسترول، احتفظي بتقرير التحليل كاملاً مع تاريخه ووحدات القياس، وأضيفي تعليمات الطبيب وقائمة الأدوية الحالية. اختاري مثالاً من وجباتك المعتادة أو صورة بطاقة منتج تشترينه كثيراً، واكتبي ثلاثة أسئلة تريدين توضيحها.\n\nفي دليل رولا دايت الجديد نرتب خطوات التحضير، وكيف تناقشين بدائل تناسب مطبخك ووقتك، وما الذي تسألين عنه قبل تأكيد الموعد. تعديل الغذاء يدعم الخطة الطبية، ولا يعني إيقاف الدواء أو طلب تحاليل عشوائية. اقرئي المقال عبر زر معرفة المزيد. الصورة رسم توضيحي مولد، وليست تقريراً طبياً حقيقياً.",
+      "imagePath": "images/blog/cholesterol-consultation-1280.webp",
+      "button": {
+        "type": "LEARN_MORE",
+        "url": "https://ruladiet.com/blog/category/التغذية-والحالات-الصحية/الكوليسترول-وصحة-القلب/استشارة-تغذية-لارتفاع-الكوليسترول"
+      },
+      "status": "live",
+      "preparedAt": "2026-09-23T06:47:10.090Z",
+      "submittedAt": "2026-09-23T06:58:33.826Z",
+      "checkedAt": "2026-09-24T06:22:56.817Z",
+      "postId": "836217167795185088",
+      "postUrl": null,
+      "blocker": null,
+      "sourceArticleVerifiedAt": "2026-09-23T06:44:45.804Z",
+      "duplicateCheck": "Sep23 correct clinic identity, address, website and management controls verified; existing latest Sep22 thyroid post23hours ago, future scheduledSep29. No Sep23 entry or post.",
+      "uploadedImageFormat": "JPEG",
+      "editorInputNote": "Google fill/paste changed visible textarea but not persisted state. Direct editor pressSequentially in12-character chunks persisted full text. Verify saved list, not just input value.",
+      "verification": "Sep24 public clinic profile and managed posts list show full corrected text, image, Learn more; Published23hours ago."
+    },
+    {
+      "date": "2026-09-24",
+      "articleKey": "dining-out-skills",
+      "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/الوجبات-والوصفات/الأكل-الصحي-خارج-المنزل",
+      "text": "اختيار وجبة خارج المنزل يبدأ بفهم القائمة، لا بالبحث عن أصغر طبق.\n\nقبل الطلب، اسألي عما يأتي مع الوجبة: هل الصلصة والإضافات ضمنها؟ وما حجم الحصة المكتوب؟ اختاري تعديلاً واحداً يناسبك، مثل تقديم الصلصة جانباً، ولا تجعلي العرض الترويجي يحدد طلبك تلقائياً.\n\nفي مقال رولا دايت الجديد نشرح قراءة وصف الطبق والمعلومات الغذائية، والتعامل مع الوجبات المشتركة وحفظ المتبقي. هذه مهارات عامة؛ الحساسية والحالات الطبية تحتاج توجيهاً فردياً. اقرئي الدليل عبر زر معرفة المزيد، وجربي سؤالاً واضحاً في زيارتك القادمة. الصورة توضيحية لشخصيات خيالية، وليست لرولا أو مريضاتها.",
+      "imagePath": "images/blog/dining-out-skills-1280.webp",
+      "button": {
+        "type": "LEARN_MORE",
+        "url": "https://ruladiet.com/blog/category/التغذية-اليومية/الوجبات-والوصفات/الأكل-الصحي-خارج-المنزل"
+      },
+      "status": "live",
+      "preparedAt": "2026-09-24T06:22:56.817Z",
+      "submittedAt": "2026-09-24T06:27:12.389Z",
+      "checkedAt": "2026-09-24T06:32:18.140Z",
+      "postId": "7586626916842225341",
+      "postUrl": null,
+      "blocker": null,
+      "duplicateCheck": "Correct clinic management/address/website verified Sep24. Latest Sep23 cholesterol update now public,23hours ago. No Sep24 post; future scheduleSep29 remains.",
+      "submissionNote": "Text557characters verified; image uploaded; Learn more canonical URL entered with pressSequentially. Check UI after click before any retry.",
+      "verification": "Google managed list shows Published, full text, image and Learn more. Reopened saved editor; description equals prepared 557-character text and decoded button URL exactly matches published article.",
+      "uploadedImageFormat": "JPEG"
+    },
+    {
+      "date": "2026-09-25",
+      "articleKey": "travel-meal-planning",
+      "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/الوجبات-والوصفات/تنظيم-الأكل-أثناء-السفر",
+      "text": "السفر لا يحتاج إلى حقيبة مليئة بوجبات مثالية؛ يحتاج إلى خطة صغيرة وآمنة.\n\nقبل الخروج، حددي أطول فجوة بلا وجبة، واحملي خياراً واحداً يتحمل مدة الطريق. احفظي الطعام القابل للتلف مبرداً، وابحثي في الطريق عن وجبة تناسب جوعك ووقت الوجبة التالية بدلاً من مطاردة طبق «مثالي».\n\nفي دليل رولا دايت الجديد نشرح اختيار الطعام في المطار أو القطار والفندق، والتعامل مع التأخير، والعودة إلى الروتين من دون صيام تعويضي أو لوم. هذه إرشادات عامة؛ الحساسية والحمل والحالات الطبية تحتاج خطة فردية. اقرئي المقال عبر زر معرفة المزيد. الصورة رسم توضيحي لشخصية خيالية وليست لرولا أو مريضاتها.",
+      "imagePath": "images/blog/travel-meal-planning-1280.webp",
+      "button": {
+        "type": "LEARN_MORE",
+        "url": "https://ruladiet.com/blog/category/التغذية-اليومية/الوجبات-والوصفات/تنظيم-الأكل-أثناء-السفر"
+      },
+      "status": "draft",
+      "preparedAt": "2026-09-25T11:47:29.064Z",
+      "submittedAt": null,
+      "checkedAt": null,
+      "postId": null,
+      "postUrl": null,
+      "blocker": "awaiting_action_time_confirmation_before_final_post_click",
+      "sourceArticleVerifiedAt": "2026-09-25T11:47:29.064Z",
+      "duplicateCheck": "Pending current managed-posts verification before submission.",
+      "uploadedImageFormat": "JPEG"
+    },
+    {
+      "date": "2026-09-26",
+      "articleKey": "pcos-after-diagnosis",
+      "canonicalUrl": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/ماذا-بعد-تشخيص-تكيس-المبايض",
+      "text": "بعد تشخيص تكيس المبايض، لا تبدئي بقائمة منع طويلة. ابدئي بتنظيم المعلومات.\n\nاحتفظي بالتقرير والتحاليل وتعليمات الطبيبة أو الطبيب، وسجلي الأعراض التي تهمك والأدوية أو المكملات المستخدمة. حددي سؤالاً واحداً لكل موعد، ثم وزعي الأدوار بوضوح: الطبيب للتشخيص والمتابعة الطبية، والاستشارة الغذائية لتخصيص الطعام والروتين، والكورس للتثقيف المنظم.\n\nفي دليل رولا دايت الجديد ستجدين خارطة عملية للأسئلة والخطوات، مع توضيح متى يفيد الكورس ومتى تحتاجين متابعة فردية. لا توجد وصفة واحدة تناسب الجميع، ولا يضمن الغذاء أو الكورس الشفاء. اقرئي المقال عبر زر معرفة المزيد. الصورة لشخصية خيالية مولدة، وليست لرولا أو مريضاتها.",
+      "imagePath": "images/blog/pcos-after-diagnosis-1280.webp",
+      "button": {
+        "type": "LEARN_MORE",
+        "url": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/ماذا-بعد-تشخيص-تكيس-المبايض"
+      },
+      "status": "draft",
+      "preparedAt": "2026-09-26T08:26:24.036Z",
+      "submittedAt": null,
+      "checkedAt": null,
+      "postId": null,
+      "postUrl": null,
+      "blocker": "awaiting_action_time_confirmation_before_final_post_click",
+      "sourceArticleVerifiedAt": "2026-09-26T08:53:00.000Z",
+      "duplicateCheck": "Not opened because the Sep25 editor remains prepared and final publication still awaits action-time confirmation.",
+      "uploadedImageFormat": "WEBP"
+    },
+    {
+      "date": "2026-09-27",
+      "articleKey": "pcos-course-goals",
+      "canonicalUrl": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/اختيار-الهدف-داخل-كورس-تكيس-المبايض",
+      "text": "عند بدء كورس عن تكيس المبايض، لا تحاولي حل الدورة والوزن والبشرة والحمل في وقت واحد.\n\nاختاري سؤالاً واحداً للفترة الحالية، ثم شاهدي الوحدة الأقرب إليه واكتبي: معلومة توضحت، سؤال للطبيب، وخطوة يومية آمنة. قد يكون هدفك تسجيل الدورة، أو تنظيم وجبة في أيام العمل، أو تجهيز أسئلة موعد الخصوبة.\n\nفي دليل رولا دايت الجديد نشرح كيف تختارين هدف التعلم، ومتى يصبح السؤال أكبر من الكورس ويحتاج متابعة فردية. الكورس تثقيفي؛ لا يشخص الحالة ولا يقرر الدواء ولا يضمن الشفاء أو الحمل. اقرئي الدليل عبر زر معرفة المزيد. الصورة لشخصية خيالية مولدة وليست لرولا أو مريضاتها.",
+      "imagePath": "images/blog/pcos-course-goals-1280.webp",
+      "button": {
+        "type": "LEARN_MORE",
+        "url": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/اختيار-الهدف-داخل-كورس-تكيس-المبايض"
+      },
+      "status": "draft",
+      "preparedAt": "2026-09-27T06:30:47.348Z",
+      "submittedAt": null,
+      "checkedAt": null,
+      "postId": null,
+      "postUrl": null,
+      "blocker": "google_reauthentication_required_before_duplicate_check_and_submission",
+      "sourceArticleVerifiedAt": "2026-09-27T06:51:00.000Z",
+      "duplicateCheck": "Attempted 2026-09-27; Google redirected to Verify it’s you for info@property-gulf.com before the managed locations or posts list could be inspected. No submission attempted.",
+      "uploadedImageFormat": "WEBP"
+    },
+    {
+      "date": "2026-09-28",
+      "articleKey": "plant-protein-skills",
+      "canonicalUrl": "https://ruladiet.com/blog/التغذية-اليومية/الوجبات-والوصفات/تنويع-البروتين-النباتي-قبل-شراء-المساحيق",
+      "text": "تنويع البروتين النباتي يبدأ من وجبة تستطيعين إعدادها، لا من شراء مسحوق جديد.\n\nاختاري مصدراً متاحاً تحبينه، مثل العدس أو الحمص، وجربي وصفة واحدة تناسب وقتك. قبل شراء منتج جاهز، قارني حجم الحصة والمكونات والتكلفة على الأساس نفسه؛ كلمة «نباتي» على الواجهة لا تكفي للحكم على ملاءمته.\n\nفي دليل رولا دايت الجديد نشرح خطوات التجربة والتسوق، وكيف تميزين بين تعلم مهارة عامة والحاجة إلى خطة فردية. عند وجود حساسية أو تعليمات طبية خاصة، راجعي الاختيارات مع فريقك قبل تغيير الطعام أو استخدام مكمل.\n\nاقرئي الدليل عبر زر «معرفة المزيد». الصورة رسم توضيحي مولد لشخصية خيالية، وليست صورة رولا أو إحدى المراجعات.",
+      "imagePath": "images/blog/plant-protein-skills-1280.webp",
+      "button": {
+        "type": "LEARN_MORE",
+        "url": "https://ruladiet.com/blog/التغذية-اليومية/الوجبات-والوصفات/تنويع-البروتين-النباتي-قبل-شراء-المساحيق"
+      },
+      "status": "live",
+      "preparedAt": "2026-09-28T06:35:34.732Z",
+      "submittedAt": "2026-09-28T06:47:50.752Z",
+      "checkedAt": "2026-09-29T10:09:57.772Z",
+      "postId": "7689741418647803500",
+      "postUrl": null,
+      "blocker": null,
+      "sourceArticleVerifiedAt": "2026-09-28T06:30:09.117Z",
+      "duplicateCheck": "Verified the managed Your posts list: no September 28 post or matching text/link; only future scheduled post is September 29. Latest published travel update is from September 25.",
+      "uploadedImageFormat": "JPEG",
+      "policyCheckedAt": "2026-09-28T06:35:34.732Z",
+      "policySources": [
+        "https://support.google.com/business/answer/7342169?hl=en",
+        "https://support.google.com/business/answer/7400114?hl=en"
+      ],
+      "uploadImagePath": "../assets/blog-editorial/plant-protein-skills-google.jpg",
+      "uploadNote": "Google rejected WEBP; converted original cover to JPEG without changing composition.",
+      "submissionStartedAt": "2026-09-28T06:37:11.661Z",
+      "verification": "Full matching description and Learn More link observed in correct managed clinic; Published yesterday.",
+      "proofScreenshot": "../assets/blog-editorial/google-post-2026-09-28.png",
+      "uiNotes": "Google fill/type/paste updated visible values but did not persist the description. Corrected the same post using sequential keyboard events; no duplicate post created. WEBP converted to JPEG. One automatic review rejected a combined completion/save before complete input evidence; completed and verified 596 characters separately before successful save."
+    },
+    {
+      "date": "2026-09-29",
+      "articleKey": "injection-diet",
+      "canonicalUrl": "https://ruladiet.com/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/الأنظمة-الغذائية-مع-ابر-التنحيف",
+      "text": "تستخدمين إبر التنحيف؟ الغذاء هو ما يحدد النتيجة الإبر تقلّل الشهية، لكنها لا تعلّمك كيف تأكلين. كثيرون يخسرون وزناً ثم يستعيدونه، وآخرون يفقدون كتلة عضلية لأن البروتين لم يكن كافياً. دليلنا عن الأنظمة الغذائية المناسبة أثناء استخدام الإبر: ماذا تأكلين، ماذا تتجنبين، وجدول يومي. المتابعة الغذائية في العيادة تتم مع اختصاصية تغذية.",
+      "imagePath": null,
+      "button": {
+        "type": "LEARN_MORE",
+        "url": "https://ruladiet.com/blog/الأنظمة-الغذائية-مع-ابر-التنحيف"
+      },
+      "status": "live",
+      "preparedAt": null,
+      "submittedAt": null,
+      "checkedAt": "2026-09-29T10:09:57.772Z",
+      "postId": "5036888080999380717",
+      "postUrl": null,
+      "blocker": null,
+      "source": "existing_previously_scheduled_post",
+      "duplicateCheck": "Managed clinic list showed Published 2 hours ago for the update previously scheduled September 29. Read existing post editor for ID and original button, without modifying or submitting.",
+      "verification": "Name, website, address and managing profile matched. Existing update counts toward daily limit, even though it links an earlier article. No new post submitted today.",
+      "proofScreenshot": "../assets/blog-editorial/google-existing-2026-09-29.png"
+    },
+    {
+      "date": "2026-09-30",
+      "articleKey": "whole-grain-shopping-skill",
+      "canonicalUrl": "https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/اختيار-الحبوب-الكاملة-من-الملصق",
+      "text": "هل تدل كلمة «أسمر» على أن الخبز مصنوع من حبوب كاملة؟ ليس دائماً. عند التسوق، ابدئي بقائمة المكونات وابحثي عن اسم الحبة الكاملة، ثم قارني حجم الحصة والقيمة الغذائية بين منتجين تستخدمينهما فعلاً. جربي عبوة صغيرة في وجبة مألوفة، واسألي نفسك إن كان الطعم والتحضير والسعر مناسبين للتكرار. لا حاجة إلى تبديل كل ما في المطبخ دفعة واحدة أو شراء منتج مرتفع الثمن لمجرد شعاره. في دليل رولا دايت الجديد نشرح خطوات قراءة الملصق، مع حالات تحتاج تخصيصاً مثل السيلياك أو التعليمات الطبية. يمكنك قراءة المقال كاملاً عبر زر «معرفة المزيد»، والاستفادة من المثال في زيارتك المقبلة للمتجر.",
+      "imagePath": "../assets/blog-editorial/whole-grain-shopping-skill-google.jpg",
+      "button": {
+        "type": "LEARN_MORE",
+        "url": "https://ruladiet.com/blog/اختيار-الحبوب-الكاملة-من-الملصق"
+      },
+      "status": "pending",
+      "preparedAt": "2026-09-30T06:46:33.339Z",
+      "submittedAt": "2026-09-30T07:35:19Z",
+      "checkedAt": "2026-09-30T07:35:19Z",
+      "postId": "1013200483600098436",
+      "postUrl": null,
+      "blocker": null,
+      "sourcePolicy": [
+        "https://support.google.com/business/answer/7342169?hl=en",
+        "https://support.google.com/business/answer/7213077?hl=en"
+      ],
+      "wordCount": 98,
+      "duplicateCheck": "Correct managed clinic's complete All posts list showed no Sep 30 update; latest existing post was Sep 29, and the local ledger has no Sep 30 submission.",
+      "verification": "The correct managed clinic's All posts list shows the new image and Learn more card as Pending. The post ID was captured from the Google copy-post screen. No other profiles were selected; Skip was used. The short button URL was tested in a browser and redirects to the canonical article. Pending is not public approval."
+    },
+    {
+      "date":"2026-10-01",
+      "articleKey":"sodium-label-shopping",
+      "canonicalUrl":"https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/قراءة-الصوديوم-على-الملصق-الغذائي",
+      "text":"حين تقارنين منتجين في المتجر، ابدئي بحجم الحصة المكتوب على الملصق قبل النظر إلى كمية الصوديوم. قد تعرض عبوة رقماً أصغر لمجرد أن حصتها أصغر. اختاري منتجين متشابهين، وحددي المقدار الذي تستخدمينه فعلاً، ثم قارني كمية الصوديوم أو نسبته اليومية على هذا الأساس. المذاق المالح أو كلمة «طبيعي» على الواجهة لا يكفيان للحكم. لا تحتاجين تحويل كل وجبة إلى حسابات؛ جربي المقارنة على صنف تشترينه باستمرار، وراجعي الطعم والتكلفة وإمكان تكرار الاختيار. إذا كانت لديك تعليمات طبية خاصة بالضغط أو الكلى، اتبعي خطة فريقك. اقرئي الدليل الكامل عبر زر «معرفة المزيد». الرسم توضيحي لمنتجات غير موسومة، وليس إعلاناً لعلامة تجارية.",
+      "imagePath":"../assets/blog-editorial/sodium-label-shopping-google.jpg",
+      "button":{"type":"LEARN_MORE","url":"https://ruladiet.com/blog/قراءة-الصوديوم-على-الملصق-الغذائي"},
+      "status":"live","preparedAt":"2026-10-01T06:29:00Z","submittedAt":null,"checkedAt":"2026-10-01T06:34:07Z","postId":"8053478122328949988","postUrl":null,"blocker":null,
+      "sourcePolicy":["https://support.google.com/business/answer/7342169?hl=en","https://support.google.com/business/answer/7400114?hl=en"],
+      "duplicateCheck":"Correct managed Rula Diet clinic verified by name, ruladiet.com, Başakşehir address and management controls. All posts list showed no October 1 post; latest visible update was published 22 hours ago. Local ledger has no October 1 entry before this draft.",
+      "wordCount":100,
+      "verification":"Submitted once on Oct 1 around 06:33 UTC; exact send timestamp was not recorded. Google displayed the Oct 1 image and Learn more card at the top of the correct managed Rula Diet clinic All posts list with Published 24 seconds ago at the 06:34:07 check. The post ID was captured from the copy-post screen. No other business was selected; Skip was used. The button URL redirects to the canonical article."
     }
   ],
   "draftQueue": [
@@ -110,10 +404,15 @@
     {
       "scheduledDate": "2026-09-22",
       "title": "وزنك ثابت؟ قبل أن تلومي الغدة الدرقية",
-      "status": "scheduled",
-      "observedAt": "2026-09-15T10:08:27.624Z",
+      "status": "live",
+      "observedAt": "2026-09-22T07:19:23.446Z",
       "source": "existing_google_schedule",
-      "requiresUiRecheck": true
+      "requiresUiRecheck": false,
+      "postId": "1250544067686574753",
+      "scheduledTimeDisplayed": "10:00",
+      "timeZoneDisplayed": null,
+      "buttonUrl": "https://ruladiet.com/blog/%D8%A7%D9%84%D8%BA%D8%AF%D8%A9-%D8%A7%D9%84%D8%AF%D8%B1%D9%82%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D9%88%D8%B2%D9%86",
+      "note": "Sep22 public Google profile showed existing scheduled post with Learn more and 16 mins ago. No new post submitted and no schedule edited."
     },
     {
       "scheduledDate": "2026-09-29",
@@ -127,9 +426,10 @@
   "bookingLink": {
     "url": "https://ruladiet.com/احجز-موعد",
     "savedAt": "2026-09-15T10:08:27.624Z",
-    "status": "saved_public_propagation_pending",
+    "status": "live_verified",
     "savedValueVerified": true,
     "destinationHttpStatus": 200,
-    "note": "Replaced malformed concatenated URL; reopened Booking editor and verified the correctly percent-encoded value persisted. Search result still showed the old URL at the immediate public recheck. Check propagation at the next routine profile visit; do not resave repeatedly."
+    "note": "Sep22 public Google profile appointment link now points to the correct single booking URL; no further edit made.",
+    "checkedAt": "2026-09-22T07:12:34.628Z"
   }
 }

@@ -1,0 +1,13 @@
+{
+  "date":"2026-10-01",
+  "preview":"https://ruladiet-site-git-codex-dail-c3a3dc-muhammeds-projects-1419b173.vercel.app",
+  "commit":"9d836f3c6dbc1faa9b4c2be1156863281075f193",
+  "verifiedAt":"2026-10-01T06:22:00Z",
+  "articles":[
+    {"key":"gastroparesis-consultation","path":"/blog/التغذية-اليومية/أساسيات-التغذية/استشارة-تغذية-مع-بطء-إفراغ-المعدة"},
+    {"key":"pcos-lipid-screening","path":"/blog/صحة-المرأة/تكيس-المبايض/فحص-دهون-الدم-مع-تكيس-المبايض"},
+    {"key":"ulcerative-colitis-consultation","path":"/blog/التغذية-اليومية/أساسيات-التغذية/استشارة-تغذية-مع-التهاب-القولون-التقرحي"},
+    {"key":"sodium-label-shopping","path":"/blog/التغذية-اليومية/الملصقات-والتسوق/قراءة-الصوديوم-على-الملصق-الغذائي"}
+  ],
+  "verification":"All four preview URLs rendered their correct titles, byline, canonical, five-level breadcrumb and two in-body images with descriptive alt. PCOS page visually inspected: unique watercolor cover, right-to-left text and expanded topic navigation rendered correctly. Vercel check SUCCESS on the exact preview commit."
+}

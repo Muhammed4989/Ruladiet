@@ -1,0 +1,119 @@
+{
+  "date": "2026-09-23",
+  "reviewedArticleCount": 57,
+  "method": "Fetched origin/master 5b45a31; clean worktree; live sitemap HTTP200,102 URLs and no Sep23 dates. Full 57-article catalog and briefs reviewed for overlap. Current primary medical sources and Arabic search results checked; no Search Console query dataset used, no volume or ranking claims. Query opportunities remain editorial hypotheses.",
+  "sources": [
+    {
+      "name": "NHS: الحالة المعروفة سابقاً باسم PCOS",
+      "url": "https://www.nhs.uk/conditions/polyendocrine-metabolic-ovarian-syndrome-pmos/",
+      "checked": "2026-09-23"
+    },
+    {
+      "name": "NHS: الدورة الشهرية",
+      "url": "https://www.nhs.uk/conditions/periods/",
+      "checked": "2026-09-23"
+    },
+    {
+      "name": "NHS: غياب الدورة أو تأخرها",
+      "url": "https://www.nhs.uk/symptoms/missed-or-late-periods/",
+      "checked": "2026-09-23"
+    },
+    {
+      "name": "CDC NIOSH: الطعام في المناوبات الليلية",
+      "url": "https://www.cdc.gov/niosh/work-hour-training-for-nurses/longhours/mod9/08.html",
+      "checked": "2026-09-23"
+    },
+    {
+      "name": "CDC NIOSH: تهيئة النوم",
+      "url": "https://www.cdc.gov/niosh/bulletin/2020/sleep.html",
+      "checked": "2026-09-23"
+    },
+    {
+      "name": "FoodSafety.gov: خطوات سلامة الغذاء",
+      "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety",
+      "checked": "2026-09-23"
+    },
+    {
+      "name": "NHLBI: تقييم الكوليسترول وتحاليله",
+      "url": "https://www.nhlbi.nih.gov/health/blood-cholesterol/diagnosis",
+      "checked": "2026-09-23"
+    },
+    {
+      "name": "NHLBI: علاج ارتفاع الكوليسترول",
+      "url": "https://www.nhlbi.nih.gov/health/blood-cholesterol/treatment",
+      "checked": "2026-09-23"
+    },
+    {
+      "name": "FDA: قراءة البطاقة الغذائية",
+      "url": "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label",
+      "checked": "2026-09-23"
+    },
+    {
+      "name": "NHS: فقدان الوزن غير المقصود",
+      "url": "https://www.nhs.uk/symptoms/unintentional-weight-loss/",
+      "checked": "2026-09-23"
+    },
+    {
+      "name": "NHS: سوء التغذية",
+      "url": "https://www.nhs.uk/conditions/malnutrition/",
+      "checked": "2026-09-23"
+    },
+    {
+      "name": "NHS: زيادة الوزن بصورة صحية",
+      "url": "https://www.nhs.uk/live-well/healthy-weight/managing-your-weight/healthy-ways-to-gain-weight/",
+      "checked": "2026-09-23"
+    }
+  ],
+  "briefs": [
+    {
+      "key": "pcos-cycle-log",
+      "primaryKeyword": "متابعة الدورة مع تكيس المبايض",
+      "supporting": [
+        "سجل الدورة مع التكيس",
+        "تأخر الدورة والتكيس"
+      ],
+      "intent": "تنظيم ملاحظات الدورة وفهم حدود التعلم قبل اختيار دعم تثقيفي",
+      "overlap": "cycle-nutrition يشرح الطعام خلال الدورة؛ pcos-normal-weight يناقش أهدافاً خارج الوزن؛ الجديد أداة تسجيل وتواصل حول النزف وليس حمية أو تشخيصاً أو حساب إباضة.",
+      "goal": "course"
+    },
+    {
+      "key": "shift-work-meals",
+      "primaryKeyword": "التغذية مع المناوبات الليلية",
+      "supporting": [
+        "وجبات العمل الليلي",
+        "تنظيم الطعام مع المناوبات"
+      ],
+      "intent": "تحديد المهارات اللوجستية والغذائية اللازمة للعمل المتبدل ومدى فائدة التعلم العام",
+      "overlap": "weekly-meals يغطي التجهيز والحفظ المنزلي؛ الجديد يركز على التناوب والاستراحة ومكان العمل والبديل عند تغير الوردية، لا يعيد كورس الاختيار أو التطبيق.",
+      "goal": "course"
+    },
+    {
+      "key": "cholesterol-consultation",
+      "primaryKeyword": "استشارة تغذية لارتفاع الكوليسترول",
+      "supporting": [
+        "التحضير لاستشارة الكوليسترول",
+        "تقرير الدهون والتغذية"
+      ],
+      "intent": "تحضير ملف وشرح احتياجات التطبيق الغذائي والتنسيق مع الطبيب قبل الموعد",
+      "overlap": "heart-nutrition يملك شرح البدائل الغذائية وخفض الكوليسترول؛ الجديد لا يعيد الحمية، بل يركز على تنظيم التقرير والوحدات والأدوية وأسئلة نطاق الخدمة والمتابعة.",
+      "goal": "consultation"
+    },
+    {
+      "key": "weight-gain-consultation",
+      "primaryKeyword": "استشارة تغذية لزيادة الوزن",
+      "supporting": [
+        "التحضير لاستشارة النحافة",
+        "ضعف الشهية وزيادة الوزن"
+      ],
+      "intent": "اختيار تسلسل التقييم الطبي والتحضير لخطة غذائية لزيادة الوزن تناسب العائق الفعلي",
+      "overlap": "older-nutrition يخص كبار السن؛ personal-meal-plan يقارن صيغ الخطط؛ الجديد مخصص للبالغات والسياق الزمني لانخفاض الوزن والشهية وحدود المكملات قبل الحجز.",
+      "goal": "consultation"
+    }
+  ],
+  "offerScope": "Live PCOS, Healthy Path and booking pages HTTP200 read. PCOS curriculum matches source JSON: 33 recorded lessons, five modules. Healthy Path publicly lists shopping and label-reading topics. No prices, certificates or individual treatment invented in these articles. Consultation availability/appropriateness to be confirmed with clinic. No Meta access.",
+  "googlePolicyChecked": "2026-09-23",
+  "googlePolicySources": [
+    "https://support.google.com/business/answer/7342169?hl=en",
+    "https://support.google.com/business/answer/7400114?hl=en"
+  ]
+}

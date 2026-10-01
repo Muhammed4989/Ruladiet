@@ -11,7 +11,7 @@ for (const category of categories) {
     seen.add(key);
   }
 }
-function categoryPath(category) { return '/blog/category/' + category.slug; }
+function categoryPath(category) { return '/blog/' + category.slug; }
 function topicPath(category, topic) { return categoryPath(category) + '/' + topic.slug; }
 function postPath(post) {
   const {category,topic}=post.taxonomy||postTaxonomy(post.key).taxonomy;

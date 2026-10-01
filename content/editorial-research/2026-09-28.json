@@ -1,0 +1,203 @@
+{
+  "date": "2026-09-28",
+  "reviewedArticleCount": 77,
+  "productionBefore": {
+    "sitemapUrls": 122,
+    "todayDates": 0,
+    "commit": "2dcdb0a593c1eb85a03bf4b7bea1f3920a46e165"
+  },
+  "method": "Fetched origin/master, reviewed all 77 catalog entries and existing bodies/intent briefs. Current Arabic query searches and official sources checked during this run. Search Console export unavailable; no volume, difficulty, ranking or sales figures inferred.",
+  "queryChecks": [
+    {
+      "query": "استشارة تغذية مرض الكلى المزمن",
+      "finding": "Specific Arabic commercial phrase sparse; official CKD guidance supports a useful suitability/preparation intent, not evidence of demand volume."
+    },
+    {
+      "query": "التغذية بعد جراحة السمنة متابعة",
+      "finding": "Arabic results distinguish stage-specific followup from routine weight loss; article answers choosing/coordinating followup, not a surgical diet."
+    },
+    {
+      "query": "تكيس المبايض المراهقات التشخيص",
+      "finding": "Arabic results mix adolescent and adult advice; primary guideline supports separating diagnosis from general learning."
+    },
+    {
+      "query": "البروتين النباتي مسحوق وجبات",
+      "finding": "Product-focused Arabic results; article supports practical food skills and reviewing education rather than selling supplements."
+    }
+  ],
+  "sources": [
+    {
+      "name": "NIDDK: الغذاء للبالغين مع مرض الكلى المزمن",
+      "url": "https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd/healthy-eating-adults-chronic-kidney-disease",
+      "checked": "2026-09-28"
+    },
+    {
+      "name": "NIDDK: التغذية مع الفشل الكلوي",
+      "url": "https://www.niddk.nih.gov/health-information/kidney-disease/kidney-failure/eating-right",
+      "checked": "2026-09-28"
+    },
+    {
+      "name": "NIDDK: إدارة المرض الكلوي والتغذية الفردية",
+      "url": "https://www.niddk.nih.gov/health-information/professionals/clinical-tools-patient-management/kidney-disease/identify-manage-patients/manage-ckd/slow-progression-reduce-complications",
+      "checked": "2026-09-28"
+    },
+    {
+      "name": "NIDDK: تعريف جراحات السمنة",
+      "url": "https://www.niddk.nih.gov/health-information/weight-management/bariatric-surgery/definition-facts",
+      "checked": "2026-09-28"
+    },
+    {
+      "name": "ASMBS: الحياة بعد جراحة السمنة",
+      "url": "https://asmbs.org/patients/life-after-bariatric-surgery/",
+      "checked": "2026-09-28"
+    },
+    {
+      "name": "NIDDK: الآثار الجانبية لجراحات السمنة",
+      "url": "https://www.niddk.nih.gov/health-information/weight-management/bariatric-surgery/side-effects",
+      "checked": "2026-09-28"
+    },
+    {
+      "name": "ASRM: الإرشاد الدولي لتكيس المبايض ومعايير المراهقات",
+      "url": "https://www.asrm.org/practice-guidance/practice-committee-documents/recommendations-from-the-2023-international-evidence-based-guideline-for-the-assessment-and-management-of-polyendocrine-metabolic-ovarian-syndrome-2023/",
+      "checked": "2026-09-28"
+    },
+    {
+      "name": "جامعة موناش: الإرشاد والاسم المحدث للمتلازمة",
+      "url": "https://www.monash.edu/medicine/mchri/pcos/guideline",
+      "checked": "2026-09-28"
+    },
+    {
+      "name": "NHS: النظام الغذائي النباتي",
+      "url": "https://www.nhs.uk/live-well/eat-well/how-to-eat-a-balanced-diet/the-vegetarian-diet/",
+      "checked": "2026-09-28"
+    },
+    {
+      "name": "FDA: استخدام المكملات الغذائية",
+      "url": "https://www.fda.gov/food/dietary-supplements/information-consumers-using-dietary-supplements",
+      "checked": "2026-09-28"
+    },
+    {
+      "name": "FDA: الحساسية الغذائية وقراءة الملصق",
+      "url": "https://www.fda.gov/food/buy-store-serve-safe-food/food-allergies-what-you-need-know",
+      "checked": "2026-09-28"
+    },
+    {
+      "name": "توصيات المراهقات المنشورة في BMC Medicine عام 2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40069730/",
+      "checked": "2026-09-28"
+    }
+  ],
+  "offersVerified": {
+    "checked": "2026-09-28",
+    "method": "HTTP 200 production HTML inspected",
+    "pcos": {
+      "lessons": 33,
+      "chapters": 5,
+      "educational": true,
+      "adolescentSpecificProgramUnverified": true
+    },
+    "massar": {
+      "publicCurriculumInspected": true,
+      "plantSpecificProgramUnverified": true
+    },
+    "consultation": {
+      "inPerson": "Istanbul",
+      "online": true,
+      "renalAndBariatricSpecialistAvailabilityUnverified": true,
+      "pricingNotClaimed": true
+    }
+  },
+  "intents": [
+    {
+      "articleKey": "ckd-nutrition-consultation",
+      "primaryKeyword": "استشارة تغذية لمرض الكلى المزمن",
+      "supportingKeywords": [
+        "غذاء مرض الكلى المزمن",
+        "البروتين والغسيل الكلوي",
+        "تحضير استشارة تغذية كلوية"
+      ],
+      "intent": "معلوماتي داعم لقرار ملاءمة الخدمة والتحضير، لا نية شراء مباشرة",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": [
+        "kidney-stones-consultation",
+        "consultation-labs"
+      ],
+      "decisionHelp": "تحديد خدمة تغذية كلوية مناسبة وتجهيز التعليمات والتقارير؛ لا حمية حصوات أو تفسير تحاليل.",
+      "status": "draft",
+      "plannedFor": "2026-09-28",
+      "bodyWordsExcludingHeadings": 1149,
+      "keywordCheckedAt": "2026-09-28"
+    },
+    {
+      "articleKey": "bariatric-followup-nutrition",
+      "primaryKeyword": "التغذية بعد جراحة السمنة",
+      "supportingKeywords": [
+        "متابعة التغذية بعد التكميم",
+        "استشارة تغذية بعد جراحة السمنة",
+        "مراحل الطعام بعد الجراحة"
+      ],
+      "intent": "معلوماتي داعم لقرار ملاءمة الخدمة والتحضير، لا نية شراء مباشرة",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": [
+        "weight-maintenance",
+        "injection-diet",
+        "consultation-labs"
+      ],
+      "decisionHelp": "اختيار متابعة ملائمة للعملية والتنسيق مع المركز، وليس جدولاً جراحياً أو بيع خدمة متخصصة غير مؤكدة.",
+      "status": "draft",
+      "plannedFor": "2026-09-28",
+      "bodyWordsExcludingHeadings": 1115,
+      "keywordCheckedAt": "2026-09-28"
+    },
+    {
+      "articleKey": "adolescent-pcos-learning",
+      "primaryKeyword": "تكيس المبايض عند المراهقات",
+      "supportingKeywords": [
+        "تشخيص تكيس المبايض للمراهقات",
+        "عدم انتظام الدورة في المراهقة",
+        "تثقيف الأسرة عن التكيس"
+      ],
+      "intent": "معلوماتي داعم لقرار ملاءمة الخدمة والتحضير، لا نية شراء مباشرة",
+      "businessGoal": "course",
+      "targetPage": "/course/تكيس-المبايض",
+      "avoidOverlap": [
+        "teen-nutrition",
+        "pcos-cyst-difference",
+        "pcos-support",
+        "pcos-course-goals"
+      ],
+      "decisionHelp": "التقييم أولاً؛ تحديد حدود مادة عامة لولي الأمر وعدم تقديم كورس البالغات كعلاج للمراهقة.",
+      "status": "draft",
+      "plannedFor": "2026-09-28",
+      "bodyWordsExcludingHeadings": 1129,
+      "keywordCheckedAt": "2026-09-28"
+    },
+    {
+      "articleKey": "plant-protein-skills",
+      "primaryKeyword": "تنويع البروتين النباتي",
+      "supportingKeywords": [
+        "مصادر البروتين النباتي للوجبات",
+        "مسحوق البروتين أم الطعام",
+        "تعلم تجهيز وجبات نباتية"
+      ],
+      "intent": "معلوماتي داعم لقرار ملاءمة الخدمة والتحضير، لا نية شراء مباشرة",
+      "businessGoal": "course",
+      "targetPage": "/course/المسار-الصحي",
+      "avoidOverlap": [
+        "vegan-consultation",
+        "weekly-meals",
+        "food-labels"
+      ],
+      "decisionHelp": "تعلم تركيب وجبات ومقارنة المنتجات قبل شراء مسحوق؛ لا مراجعة كفاية نظام نباتي كامل أو أهداف علاجية.",
+      "status": "draft",
+      "plannedFor": "2026-09-28",
+      "bodyWordsExcludingHeadings": 1136,
+      "keywordCheckedAt": "2026-09-28"
+    }
+  ],
+  "sourceLimits": "Medical guidance is briefly paraphrased with contextual links. Most body content is original preparation, decision and implementation scaffolding. No quotations, personalized prescriptions, invented reviews or patient experiences.",
+  "visualInspection": "Four generated covers viewed; modest clothing, fictional people, no text/outcome claims. Bariatric food in cover is explicitly not a postoperative menu.",
+  "urlArchitecture": "Preserve owner-approved /blog/<category>/<topic>/<slug>, using postPath/postFile; stale heartbeat /category path must not be restored."
+}

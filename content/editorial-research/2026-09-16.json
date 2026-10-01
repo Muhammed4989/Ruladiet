@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-16",
+  "reviewedArticleCount": 41,
+  "productionCheck": {
+    "sitemapHttpStatus": 200,
+    "todayLastmodEntries": 0,
+    "bookingHttpStatus": 200,
+    "pcosHttpStatus": 200
+  },
+  "method": "Fetched origin/master; checked live sitemap and offers. Reviewed full catalog and online consultation body. Current Arabic query samples show supplement shopping claims and normal-weight PCOS informational intent. Food diary sample leaned toward apps; laboratory query weak. These are decision-support hypotheses, not search-volume data. Search Console unavailable due browser integration failure.",
+  "medicalEvidence": "Primary sources opened this run; guideline sections 3.1.5, 3.1.9, 3.3.1, 1.9.1 and 4.7 reviewed. No doses or personal diagnosis. Monash currently confirms PMOS naming change.",
+  "sources": [
+    {
+      "name": "الدليل الدولي لتكيس المبايض 2023: التوصيات المنشورة",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10505534/"
+    },
+    {
+      "name": "جامعة موناش: الدليل والاسم الجديد PMOS",
+      "url": "https://www.monash.edu/medicine/mchri/pcos/guideline"
+    },
+    {
+      "name": "NIH: معلومات عن المكملات وسلامتها",
+      "url": "https://ods.od.nih.gov/factsheets/WYNTK-Consumer/"
+    },
+    {
+      "name": "MedlinePlus: فهم نتائج التحاليل",
+      "url": "https://medlineplus.gov/lab-tests/how-to-understand-your-lab-results/"
+    },
+    {
+      "name": "MedlinePlus: التحضير للفحص المخبري",
+      "url": "https://medlineplus.gov/lab-tests/how-to-prepare-for-a-lab-test/"
+    },
+    {
+      "name": "NHS Leicester: مذكرات الطعام والنشاط",
+      "url": "https://www.lnds.nhs.uk/_PatientsandPublic-DietandLifestyleAdvice-FoodRecordDiaries.aspx"
+    },
+    {
+      "name": "NIDDK: تغيير العادات وتجاوز العوائق",
+      "url": "https://www.niddk.nih.gov/health-information/diet-nutrition/changing-habits-better-health"
+    },
+    {
+      "name": "NIMH: اضطرابات الأكل وطلب الدعم",
+      "url": "https://www.nimh.nih.gov/health/publications/eating-disorders"
+    }
+  ],
+  "briefs": [
+    {
+      "key": "consultation-labs",
+      "primaryKeyword": "تحاليل قبل استشارة التغذية",
+      "supportingKeywords": [
+        "هل أحتاج تحاليل قبل الرجيم",
+        "تجهيز نتائج التحاليل للاستشارة"
+      ],
+      "intent": "الاستعداد للموعد وفهم متى يستفسر القارئ عن الفحوص بدلاً من شراء باقة تلقائياً",
+      "avoidOverlap": "دليل الاستشارة الأونلاين يشرح اختيار الخدمة؛ هذه المقالة تتناول ملف النتائج وحدود التفسير والتحضير للفحص فقط.",
+      "businessGoal": "consultation",
+      "decisionHelp": "الاستعداد للموعد وفهم متى يستفسر القارئ عن الفحوص بدلاً من شراء باقة تلقائياً"
+    },
+    {
+      "key": "pcos-supplements",
+      "primaryKeyword": "مكملات تكيس المبايض",
+      "supportingKeywords": [
+        "الإينوزيتول لتكيس المبايض",
+        "أسئلة قبل شراء مكملات التكيس"
+      ],
+      "intent": "تقييم ادعاءات المكملات وفهم الدليل والحدود قبل اتخاذ قرار أو اختيار تثقيف منظم",
+      "avoidOverlap": "لا يعيد قائمة الوجبات ولا مقارنة الكورس بالاستشارة؛ يشرح قرار المكمل وحدود الأدلة دون بيع مكملات.",
+      "businessGoal": "course",
+      "decisionHelp": "تقييم ادعاءات المكملات وفهم الدليل والحدود قبل اتخاذ قرار أو اختيار تثقيف منظم"
+    },
+    {
+      "key": "food-diary",
+      "primaryKeyword": "مذكرات الطعام قبل استشارة التغذية",
+      "supportingKeywords": [
+        "كيف أكتب سجل الطعام",
+        "تسجيل الوجبات لاختصاصية التغذية"
+      ],
+      "intent": "إعداد معلومات مفيدة للموعد مع احترام الخصوصية وتجنب تسجيل قهري أو استنتاج تشخيص",
+      "avoidOverlap": "الدليل العام يذكر التحضير بإيجاز؛ المقال الحالي يشرح أداة محددة مع نموذج محايد وحدودها، لا يعيد اختيار الخدمة.",
+      "businessGoal": "consultation",
+      "decisionHelp": "إعداد معلومات مفيدة للموعد مع احترام الخصوصية وتجنب تسجيل قهري أو استنتاج تشخيص"
+    },
+    {
+      "key": "pcos-normal-weight",
+      "primaryKeyword": "تكيس المبايض مع وزن طبيعي",
+      "supportingKeywords": [
+        "تكيس المبايض دون زيادة وزن",
+        "هل أحتاج رجيم مع التكيس"
+      ],
+      "intent": "فهم ملاءمة التثقيف والتغذية عندما لا يكون إنقاص الوزن هدفاً، وصياغة أسئلة للمتابعة",
+      "avoidOverlap": "لا يعيد النظام الغذائي العام أو تشخيص الكيس؛ يركز على احتياج قارئة لا تسعى لخسارة الوزن واختيار أهداف ومحتوى مناسبين.",
+      "businessGoal": "course",
+      "decisionHelp": "فهم ملاءمة التثقيف والتغذية عندما لا يكون إنقاص الوزن هدفاً، وصياغة أسئلة للمتابعة"
+    }
+  ],
+  "googlePolicyChecked": "2026-09-16",
+  "googlePolicySources": [
+    "https://support.google.com/business/answer/7342169?hl=en",
+    "https://support.google.com/business/answer/7400114?hl=en"
+  ],
+  "offerScope": "PCOS public page and verified 33-lesson curriculum checked; no new price, duration or individualized access claims. Booking page live; no unverified consultation fee or lab package."
+}

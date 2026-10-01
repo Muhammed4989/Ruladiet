@@ -1,0 +1,74 @@
+{
+  "date": "2026-09-30",
+  "checkedAt": "2026-09-30T06:32:47.150Z",
+  "searchConsole": "No fresh query export was available; no search volume or ranking asserted.",
+  "catalogReview": "All existing catalog titles and offer pages reviewed; four distinct decisions selected. Medication article answers nutrition adequacy and escalation, not the existing Mounjaro meal list.",
+  "googlePrecheck": "Correct managed Rula Diet clinic profile verified by name and Başakşehir address. Public owner updates show latest from Sep 29 (23 hours ago); no Sep 30 update observed.",
+  "offers": {
+    "consultation": "Booking page /احجز-موعد; no price or condition-specific service guaranteed.",
+    "pcos": "Verified content/pcos-course.json: 33 lessons across five modules; course is educational.",
+    "massar": "Official /course/المسار-الصحي page; no specialist grain lesson asserted."
+  },
+  "sources": [
+    {
+      "articleKey": "medication-appetite-review",
+      "urls": [
+        "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/217806s002lbl.pdf",
+        "https://medlineplus.gov/druginfo/meds/a622044.html",
+        "https://www.myplate.gov/web/web/eat-healthy/protein-foods"
+      ]
+    },
+    {
+      "articleKey": "after-gallbladder-consultation",
+      "urls": [
+        "https://www.nhs.uk/tests-and-treatments/gallbladder-removal/recovery/",
+        "https://www.cuh.nhs.uk/patient-information/dietary-advice-for-patients-with-gallstones/",
+        "https://www.niddk.nih.gov/health-information/digestive-diseases/gallstones/treatment",
+        "https://www.nhs.uk/tests-and-treatments/gallbladder-removal/complications/"
+      ]
+    },
+    {
+      "articleKey": "pcos-insulin-test-context",
+      "urls": [
+        "https://integration.asrm.org/practice-guidance/practice-committee-documents/recommendations-from-the-2023-international-evidence-based-guideline-for-the-assessment-and-management-of-polycystic-ovary-syndrome/",
+        "https://www.monash.edu/medicine/mchri/pcos/guideline",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10505534/"
+      ]
+    },
+    {
+      "articleKey": "whole-grain-shopping-skill",
+      "urls": [
+        "https://www.myplate.gov/sites/default/files/2024-06/TipSheet-4-Make-Half-Your-Grains.pdf",
+        "https://www.myplate.gov/sites/default/files/cookbooks/MeetingYourMyPlateGoalsOnABudget_0.pdf",
+        "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label"
+      ]
+    }
+  ],
+  "images": "Four original built-in-generated covers visually inspected; responsive WebP and two original SVG diagrams per post.",
+  "articles": [
+    {
+      "key": "medication-appetite-review",
+      "words": 1140,
+      "status": "draft",
+      "plannedDate": "2026-09-30"
+    },
+    {
+      "key": "after-gallbladder-consultation",
+      "words": 1051,
+      "status": "draft",
+      "plannedDate": "2026-09-30"
+    },
+    {
+      "key": "pcos-insulin-test-context",
+      "words": 1015,
+      "status": "draft",
+      "plannedDate": "2026-09-30"
+    },
+    {
+      "key": "whole-grain-shopping-skill",
+      "words": 1036,
+      "status": "draft",
+      "plannedDate": "2026-09-30"
+    }
+  ]
+}

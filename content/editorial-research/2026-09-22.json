@@ -1,0 +1,119 @@
+{
+  "date": "2026-09-22",
+  "reviewedArticleCount": 53,
+  "method": "Fetched origin/master 9a61f7b; clean worktree; live sitemap HTTP200 and no Sep21 dates. Full 53-article catalog and briefs reviewed for overlap. Current primary medical sources and Arabic search results checked; no Search Console query dataset used, no volume or ranking claims. Query opportunities remain editorial hypotheses.",
+  "sources": [
+    {
+      "name": "موناش: الإرشادات الدولية للتكيس",
+      "url": "https://www.monash.edu/medicine/mchri/pcos/guideline",
+      "checked": "2026-09-22"
+    },
+    {
+      "name": "NHS: انقطاع النفس أثناء النوم",
+      "url": "https://www.nhs.uk/conditions/sleep-apnoea/",
+      "checked": "2026-09-22"
+    },
+    {
+      "name": "وزارة الصحة السعودية: توقف التنفس أثناء النوم",
+      "url": "https://www.moh.gov.sa/healthawareness/educationalcontent/diseases/mental/pages/sleep-apnea.aspx",
+      "checked": "2026-09-22"
+    },
+    {
+      "name": "NIDDK: تغيير العادات لصحة أفضل",
+      "url": "https://www.niddk.nih.gov/health-information/diet-nutrition/changing-habits-better-health",
+      "checked": "2026-09-22"
+    },
+    {
+      "name": "CDC: أهداف واقعية ومراجعة التقدم",
+      "url": "https://www.cdc.gov/healthy-weight-growth/losing-weight/index.html",
+      "checked": "2026-09-22"
+    },
+    {
+      "name": "NIDDK: تشخيص السيلياك",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/diagnosis",
+      "checked": "2026-09-22"
+    },
+    {
+      "name": "NIDDK: الغذاء مع السيلياك",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/eating-diet-nutrition",
+      "checked": "2026-09-22"
+    },
+    {
+      "name": "FDA: معلومات ملصق خال من الغلوتين",
+      "url": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/gluten-free-labeling-foods",
+      "checked": "2026-09-22"
+    },
+    {
+      "name": "NHS: فقر الدم ونقص الحديد",
+      "url": "https://www.nhs.uk/conditions/iron-deficiency-anaemia/",
+      "checked": "2026-09-22"
+    },
+    {
+      "name": "NHS: مصادر الحديد",
+      "url": "https://www.nhs.uk/conditions/vitamins-and-minerals/iron/",
+      "checked": "2026-09-22"
+    },
+    {
+      "name": "NHS: طريقة تناول كبريتات الحديد",
+      "url": "https://www.nhs.uk/medicines/ferrous-sulfate/how-and-when-to-take-ferrous-sulfate/",
+      "checked": "2026-09-22"
+    },
+    {
+      "name": "FDA: فهم الملصق الغذائي واستخدامه",
+      "url": "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label",
+      "checked": "2026-09-22"
+    }
+  ],
+  "briefs": [
+    {
+      "key": "pcos-sleep-assessment",
+      "primaryKeyword": "النوم مع تكيس المبايض",
+      "supporting": [
+        "تكيس المبايض والشخير",
+        "تقييم النوم مع التكيس"
+      ],
+      "intent": "تمييز الحاجة إلى تقييم النوم عن تعلم معلومات عامة عن التكيس",
+      "overlap": "sleep يتناول الوزن والنوم عموماً؛ الجديد يختص بفرز أعراض النوم مع التكيس وحدود التثقيف، ولا يعيد الروتين أو الحمية.",
+      "goal": "course"
+    },
+    {
+      "key": "course-application",
+      "primaryKeyword": "تطبيق كورس التغذية",
+      "supporting": [
+        "الاستفادة من كورس التغذية",
+        "تنظيم تعلم التغذية"
+      ],
+      "intent": "تقييم وقت التطبيق وطريقة الاستفادة قبل الاشتراك وخلال التعلم",
+      "overlap": "habits أهداف عامة؛ recorded-live صيغة الكورس؛ الجديد يركز على نقل التعلم واستيعاب الدرس وتقييم المهارة، لا يعيد مقارنة الدورات.",
+      "goal": "course"
+    },
+    {
+      "key": "celiac-consultation",
+      "primaryKeyword": "استشارة تغذية للسيلياك",
+      "supporting": [
+        "التغذية بعد تشخيص السيلياك",
+        "تجنب انتقال الغلوتين"
+      ],
+      "intent": "التحضير لدعم غذائي متخصص بعد التشخيص وتأكيد ملاءمة الخدمة",
+      "overlap": "لا مقال سيلياك متخصص؛ IBS فودماب مختلف؛ food-exclusions عن عدم المنع التلقائي بالتكيس. الجديد عن الحمية المطلوبة بعد التشخيص.",
+      "goal": "consultation"
+    },
+    {
+      "key": "iron-consultation",
+      "primaryKeyword": "استشارة تغذية لنقص الحديد",
+      "supporting": [
+        "التحضير لاستشارة نقص الحديد",
+        "الغذاء ومكمل الحديد"
+      ],
+      "intent": "تنظيم الجانب الغذائي بالتكامل مع علاج سبب نقص الحديد",
+      "overlap": "cycle-nutrition يتناول الدورة؛ consultation-labs تحضير عام؛ الجديد دعم نقص الحديد المثبت وتنسيق الوجبات وتعليمات الدواء دون تكرار تشخيص عام.",
+      "goal": "consultation"
+    }
+  ],
+  "offerScope": "Live PCOS, Healthy Path and booking pages HTTP200. PCOS 33 recorded lessons in five modules match source JSON. Healthy Path includes goals, shopping, labels and habits. No prices or unverified access terms stated. Articles explain general education vs medical care. No Meta access.",
+  "googlePolicyChecked": "2026-09-22",
+  "googlePolicySources": [
+    "https://support.google.com/business/answer/7342169?hl=en",
+    "https://support.google.com/business/answer/7400114?hl=en"
+  ]
+}

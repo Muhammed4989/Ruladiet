@@ -568,5 +568,790 @@
     "visual": "images/blog/visual-recorded-live-course.svg",
     "secondVisual": "images/blog/visual-recorded-live-course-questions.svg",
     "note": "Fictional illustrative people; not Rula, patients or testimonials."
+  },
+  {
+    "key": "consultation-labs",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-16",
+    "prompt": "Photorealistic 16:9 calm still life of closed laboratory document folder, glasses, pen and notebook on a naturally lit home desk; sage accents; no readable personal information, text or logos.",
+    "sourceMaster": "../marketing/2026-09-16/consultation-labs.png",
+    "cover": "images/blog/consultation-labs-1280.webp",
+    "responsive": [
+      "images/blog/consultation-labs-400.webp",
+      "images/blog/consultation-labs-800.webp",
+      "images/blog/consultation-labs-1280.webp"
+    ],
+    "visual": "images/blog/visual-consultation-labs.svg",
+    "secondVisual": "images/blog/visual-consultation-labs-questions.svg",
+    "note": "Original generated illustration for this project. Fictional people, no real patient or outcome. Educational SVG diagrams generated locally."
+  },
+  {
+    "key": "pcos-supplements",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-16",
+    "prompt": "Photorealistic 16:9 fictional modest Middle Eastern woman with hijab and opaque long sleeves inspecting a plain supplement bottle and writing questions at a softly lit home desk; no logos, text or medical claims.",
+    "sourceMaster": "../marketing/2026-09-16/pcos-supplements.png",
+    "cover": "images/blog/pcos-supplements-1280.webp",
+    "responsive": [
+      "images/blog/pcos-supplements-400.webp",
+      "images/blog/pcos-supplements-800.webp",
+      "images/blog/pcos-supplements-1280.webp"
+    ],
+    "visual": "images/blog/visual-pcos-supplements.svg",
+    "secondVisual": "images/blog/visual-pcos-supplements-questions.svg",
+    "note": "Original generated illustration for this project. Fictional people, no real patient or outcome. Educational SVG diagrams generated locally."
+  },
+  {
+    "key": "food-diary",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-16",
+    "prompt": "Natural 16:9 editorial photo of a fictional modest hijabi adult woman writing a daily notebook at a softly lit home kitchen table after a meal; opaque long sleeves; no calorie app, scales, logos or text.",
+    "sourceMaster": "../marketing/2026-09-16/food-diary.png",
+    "cover": "images/blog/food-diary-1280.webp",
+    "responsive": [
+      "images/blog/food-diary-400.webp",
+      "images/blog/food-diary-800.webp",
+      "images/blog/food-diary-1280.webp"
+    ],
+    "visual": "images/blog/visual-food-diary.svg",
+    "secondVisual": "images/blog/visual-food-diary-questions.svg",
+    "note": "Original generated illustration for this project. Fictional people, no real patient or outcome. Educational SVG diagrams generated locally."
+  },
+  {
+    "key": "pcos-normal-weight",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-16",
+    "prompt": "Natural 16:9 editorial photograph of a fictional modest adult Middle Eastern hijabi woman wearing loose opaque long sleeves and trousers walking calmly in a leafy park; soft morning light; no text, scales, body comparison or medical symbols.",
+    "sourceMaster": "../marketing/2026-09-16/pcos-normal-weight.png",
+    "cover": "images/blog/pcos-normal-weight-1280.webp",
+    "responsive": [
+      "images/blog/pcos-normal-weight-400.webp",
+      "images/blog/pcos-normal-weight-800.webp",
+      "images/blog/pcos-normal-weight-1280.webp"
+    ],
+    "visual": "images/blog/visual-pcos-normal-weight.svg",
+    "secondVisual": "images/blog/visual-pcos-normal-weight-questions.svg",
+    "note": "Original generated illustration for this project. Fictional people, no real patient or outcome. Educational SVG diagrams generated locally."
+  },
+  {
+    "key": "pcos-movement",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-20",
+    "prompt": "Fictional modest Arab adult woman walking in a green park, calm morning, 16:9 editorial photo, opaque long sleeves and hijab, no text or outcome claim.",
+    "sourceMaster": "../marketing/2026-09-20/pcos-movement.png",
+    "cover": "images/blog/pcos-movement-1280.webp",
+    "responsive": [
+      "images/blog/pcos-movement-400.webp",
+      "images/blog/pcos-movement-800.webp",
+      "images/blog/pcos-movement-1280.webp"
+    ],
+    "visual": "images/blog/visual-pcos-movement.svg",
+    "secondVisual": "images/blog/visual-pcos-movement-questions.svg",
+    "note": "Original generated project image; fictional people, no real patients. Two original educational SVG diagrams."
+  },
+  {
+    "key": "pcos-food-exclusions",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-20",
+    "prompt": "16:9 calm natural still life of milk, wholegrain bread and blank notebook on sage cream kitchen table; no text, logos or medical claims.",
+    "sourceMaster": "../marketing/2026-09-20/pcos-food-exclusions.png",
+    "cover": "images/blog/pcos-food-exclusions-1280.webp",
+    "responsive": [
+      "images/blog/pcos-food-exclusions-400.webp",
+      "images/blog/pcos-food-exclusions-800.webp",
+      "images/blog/pcos-food-exclusions-1280.webp"
+    ],
+    "visual": "images/blog/visual-pcos-food-exclusions.svg",
+    "secondVisual": "images/blog/visual-pcos-food-exclusions-questions.svg",
+    "note": "Original generated project image; fictional people, no real patients. Two original educational SVG diagrams."
+  },
+  {
+    "key": "selective-eating-consultation",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-20",
+    "prompt": "Fictional modest hijabi mother and fully clothed child in a calm home dining conversation, no feeding pressure, soft natural light, no text or testimonial.",
+    "sourceMaster": "../marketing/2026-09-20/selective-eating-consultation.png",
+    "cover": "images/blog/selective-eating-consultation-1280.webp",
+    "responsive": [
+      "images/blog/selective-eating-consultation-400.webp",
+      "images/blog/selective-eating-consultation-800.webp",
+      "images/blog/selective-eating-consultation-1280.webp"
+    ],
+    "visual": "images/blog/visual-selective-eating-consultation.svg",
+    "secondVisual": "images/blog/visual-selective-eating-consultation-questions.svg",
+    "note": "Original generated project image; fictional people, no real patients. Two original educational SVG diagrams."
+  },
+  {
+    "key": "vegan-consultation",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-20",
+    "prompt": "Fictional modest hijabi adult comparing plain plant-based cartons in a bright kitchen with notebook, human planning moment, 16:9 no logos or health promises.",
+    "sourceMaster": "../marketing/2026-09-20/vegan-consultation-fixed.png",
+    "cover": "images/blog/vegan-consultation-1280.webp",
+    "responsive": [
+      "images/blog/vegan-consultation-400.webp",
+      "images/blog/vegan-consultation-800.webp",
+      "images/blog/vegan-consultation-1280.webp"
+    ],
+    "visual": "images/blog/visual-vegan-consultation.svg",
+    "secondVisual": "images/blog/visual-vegan-consultation-questions.svg",
+    "note": "Original generated project image; fictional people, no real patients. Two original educational SVG diagrams.",
+    "editNote": "Built-in imagegen removed an extra generated hand; final two-hand anatomy visually verified."
+  },
+  {
+    "key": "pcos-emotional-support",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-21",
+    "prompt": "Create a unique 16:9 editorial watercolor cover for an Arabic article about emotional wellbeing and choosing support with PCOS. A fictional adult Arab woman wearing loose opaque full-length sage clothing with high neckline and a beige hijab, sitting quietly on a garden bench with a closed notebook, a supportive female friend at respectful distance beside her, soft blush flowers and olive foliage, warm cream textured paper and gentle golden light. Calm dignity, no sadness stereotypes, no medical symbolism, no weighing scale, no food, no text, no logo. Course-inspired delicate watercolor, airy professional composition. Not real patients.",
+    "sourceMaster": "../marketing/2026-09-21/pcos-emotional-support.png",
+    "cover": "images/blog/pcos-emotional-support-1280.webp",
+    "responsive": [
+      "images/blog/pcos-emotional-support-400.webp",
+      "images/blog/pcos-emotional-support-800.webp",
+      "images/blog/pcos-emotional-support-1280.webp"
+    ],
+    "visual": "images/blog/visual-pcos-emotional-support.svg",
+    "secondVisual": "images/blog/visual-pcos-emotional-support-questions.svg",
+    "note": "Original generated project cover, inspected. Two original educational SVGs. Fictional people, no real patients; two watercolor covers inspired by course palette, two natural photos."
+  },
+  {
+    "key": "budget-nutrition-learning",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-21",
+    "prompt": "Create a unique 16:9 watercolor editorial cover about eating well on a realistic budget. Overhead three-quarter composition of a wooden kitchen table: an open blank planning notebook, a simple shopping tote, a few lentil jars, seasonal produce, a pencil and reusable containers, no money or prices, no written text. Warm cream paper texture, muted sage olive and peach, subtle botanical edges, gentle golden daylight. Elegant spacious watercolor consistent with nutrition course artwork but distinct composition. No people or logos.",
+    "sourceMaster": "../marketing/2026-09-21/budget-nutrition-learning.png",
+    "cover": "images/blog/budget-nutrition-learning-1280.webp",
+    "responsive": [
+      "images/blog/budget-nutrition-learning-400.webp",
+      "images/blog/budget-nutrition-learning-800.webp",
+      "images/blog/budget-nutrition-learning-1280.webp"
+    ],
+    "visual": "images/blog/visual-budget-nutrition-learning.svg",
+    "secondVisual": "images/blog/visual-budget-nutrition-learning-questions.svg",
+    "note": "Original generated project cover, inspected. Two original educational SVGs. Fictional people, no real patients; two watercolor covers inspired by course palette, two natural photos."
+  },
+  {
+    "key": "ibs-consultation",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-21",
+    "prompt": "Create a unique 16:9 natural editorial photograph for an Arabic article preparing for a nutrition consultation with irritable bowel syndrome. Fictional adult Arab woman in a modest opaque loose long-sleeve high-neck cream outfit and sage hijab sitting at home beside a window, organizing a plain folder and blank notebook, calm thoughtful expression, hands natural, warm daylight, neutral home and small plant. No exposed body, no pain pose, no doctor or clinic, no labels/text/logos, no medical equipment, no implied patient outcome.",
+    "sourceMaster": "../marketing/2026-09-21/ibs-consultation.png",
+    "cover": "images/blog/ibs-consultation-1280.webp",
+    "responsive": [
+      "images/blog/ibs-consultation-400.webp",
+      "images/blog/ibs-consultation-800.webp",
+      "images/blog/ibs-consultation-1280.webp"
+    ],
+    "visual": "images/blog/visual-ibs-consultation.svg",
+    "secondVisual": "images/blog/visual-ibs-consultation-questions.svg",
+    "note": "Original generated project cover, inspected. Two original educational SVGs. Fictional people, no real patients; two watercolor covers inspired by course palette, two natural photos."
+  },
+  {
+    "key": "gestational-diabetes-consultation",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-21",
+    "prompt": "Create a unique 16:9 natural editorial photograph for an Arabic article about preparing for a gestational diabetes nutrition appointment. Fictional visibly pregnant adult Arab woman wearing an opaque loose full-length long-sleeve high-neck blue-gray dress and cream hijab, seated at a home table with her partner in modest long-sleeve clothing, reviewing a blank notebook together, natural thoughtful supportive mood. Warm daylight, quiet cream interior, no exposed belly, no white coats, no medical equipment, no text or logos. Not actual patients or a testimonial.",
+    "sourceMaster": "../marketing/2026-09-21/gestational-diabetes-consultation.png",
+    "cover": "images/blog/gestational-diabetes-consultation-1280.webp",
+    "responsive": [
+      "images/blog/gestational-diabetes-consultation-400.webp",
+      "images/blog/gestational-diabetes-consultation-800.webp",
+      "images/blog/gestational-diabetes-consultation-1280.webp"
+    ],
+    "visual": "images/blog/visual-gestational-diabetes-consultation.svg",
+    "secondVisual": "images/blog/visual-gestational-diabetes-consultation-questions.svg",
+    "note": "Original generated project cover, inspected. Two original educational SVGs. Fictional people, no real patients; two watercolor covers inspired by course palette, two natural photos."
+  },
+  {
+    "key": "pcos-sleep-assessment",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-22",
+    "prompt": "16:9 editorial watercolor, warm cream paper sage olive blush peach, modest woman with sleep notebook by bedroom morning window, fictional model, calm airy botanical course-inspired art, no text or logo.",
+    "sourceMaster": "../marketing/2026-09-22/pcos-sleep-assessment.png",
+    "cover": "images/blog/pcos-sleep-assessment-1280.webp",
+    "responsive": [
+      "images/blog/pcos-sleep-assessment-400.webp",
+      "images/blog/pcos-sleep-assessment-800.webp",
+      "images/blog/pcos-sleep-assessment-1280.webp"
+    ],
+    "visual": "images/blog/visual-pcos-sleep-assessment.svg",
+    "secondVisual": "images/blog/visual-pcos-sleep-assessment-questions.svg",
+    "note": "Original generated project cover, inspected. Two original educational SVGs. Fictional people, no real patients; two watercolor covers inspired by course palette, two natural photos."
+  },
+  {
+    "key": "course-application",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-22",
+    "prompt": "16:9 watercolor learning desk, blank notebook laptop abstract blocks three blank cards toward sunny kitchen, cream paper sage olive peach blush, no people no text no logos, original course-inspired art.",
+    "sourceMaster": "../marketing/2026-09-22/course-application.png",
+    "cover": "images/blog/course-application-1280.webp",
+    "responsive": [
+      "images/blog/course-application-400.webp",
+      "images/blog/course-application-800.webp",
+      "images/blog/course-application-1280.webp"
+    ],
+    "visual": "images/blog/visual-course-application.svg",
+    "secondVisual": "images/blog/visual-course-application-questions.svg",
+    "note": "Original generated project cover, inspected. Two original educational SVGs. Fictional people, no real patients; two watercolor covers inspired by course palette, two natural photos."
+  },
+  {
+    "key": "celiac-consultation",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-22",
+    "prompt": "16:9 realistic editorial photo, modest woman loose sage high-neck blouse cream headscarf reading unbranded packet by notebook home kitchen storage boxes, daylight, fictional model no patient testimonial no medical instruments.",
+    "sourceMaster": "../marketing/2026-09-22/celiac-consultation.png",
+    "cover": "images/blog/celiac-consultation-1280.webp",
+    "responsive": [
+      "images/blog/celiac-consultation-400.webp",
+      "images/blog/celiac-consultation-800.webp",
+      "images/blog/celiac-consultation-1280.webp"
+    ],
+    "visual": "images/blog/visual-celiac-consultation.svg",
+    "secondVisual": "images/blog/visual-celiac-consultation-questions.svg",
+    "note": "Original generated project cover, inspected. Two original educational SVGs. Fictional people, no real patients; two watercolor covers inspired by course palette, two natural photos."
+  },
+  {
+    "key": "iron-consultation",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-22",
+    "prompt": "16:9 realistic editorial photograph modest woman loose cream high neck tunic terracotta headscarf sorting document folder notebook dining table morning window, lentils pepper at distant edge, no pills no text fictional model.",
+    "sourceMaster": "../marketing/2026-09-22/iron-consultation.png",
+    "cover": "images/blog/iron-consultation-1280.webp",
+    "responsive": [
+      "images/blog/iron-consultation-400.webp",
+      "images/blog/iron-consultation-800.webp",
+      "images/blog/iron-consultation-1280.webp"
+    ],
+    "visual": "images/blog/visual-iron-consultation.svg",
+    "secondVisual": "images/blog/visual-iron-consultation-questions.svg",
+    "note": "Original generated project cover, inspected. Two original educational SVGs. Fictional people, no real patients; two watercolor covers inspired by course palette, two natural photos."
+  },
+  {
+    "key": "pcos-cycle-log",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-23",
+    "prompt": "Create a unique 16:9 editorial watercolor cover for an Arabic nutrition article on keeping a menstrual-cycle log with PCOS. Calm fictional adult Arab woman in loose opaque sage long-sleeve high-neck blouse, seated at an airy cream desk thoughtfully marking a small paper calendar with a pen. No legible text, no typography or logos, no medical/anatomy symbols. Warm cream watercolor paper texture, muted blush and olive botanical edge accents, gentle morning light, spacious refined composition inspired by a gentle wellness course cover. Not a patient or real person. Natural hands.",
+    "sourceMaster": "../marketing/2026-09-23/pcos-cycle-log.png",
+    "cover": "images/blog/pcos-cycle-log-1280.webp",
+    "responsive": [
+      "images/blog/pcos-cycle-log-400.webp",
+      "images/blog/pcos-cycle-log-800.webp",
+      "images/blog/pcos-cycle-log-1280.webp"
+    ],
+    "visual": "images/blog/visual-pcos-cycle-log.svg",
+    "secondVisual": "images/blog/visual-pcos-cycle-log-questions.svg",
+    "note": "Original generated project cover, inspected. Two original educational SVGs. Fictional people, no real patients; two watercolor covers inspired by course palette, two natural photos."
+  },
+  {
+    "key": "shift-work-meals",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-23",
+    "prompt": "Create a 16:9 realistic editorial photograph for an Arabic article about organizing food during rotating work shifts. Fictional adult Arab woman in a modest loose opaque long-sleeve high-neck beige shirt and dark trousers, seated in a quiet clean workplace break room, opening an insulated lunch bag beside a water bottle and closed notebook. Window shows blue evening light, warm interior lamps, natural candid expression, ordinary portions, food secondary to thoughtful human scene. No uniforms, no medical setting, no brands, no readable text, no before/after or body focus. Professional gentle natural photography.",
+    "sourceMaster": "../marketing/2026-09-23/shift-work-meals.png",
+    "cover": "images/blog/shift-work-meals-1280.webp",
+    "responsive": [
+      "images/blog/shift-work-meals-400.webp",
+      "images/blog/shift-work-meals-800.webp",
+      "images/blog/shift-work-meals-1280.webp"
+    ],
+    "visual": "images/blog/visual-shift-work-meals.svg",
+    "secondVisual": "images/blog/visual-shift-work-meals-questions.svg",
+    "note": "Original generated project cover, inspected. Two original educational SVGs. Fictional people, no real patients; two watercolor covers inspired by course palette, two natural photos."
+  },
+  {
+    "key": "cholesterol-consultation",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-23",
+    "prompt": "Create a unique 16:9 soft watercolor editorial cover for Arabic nutrition article preparing for a cholesterol nutrition consultation. Still life on warm cream paper: a closed sage health-report folder with a simple abstract heart outline on cover, an open blank questions notebook and a pencil, small olive branch, soft sunshine across a wooden desk, blush and olive palette, subtle paper grain, tasteful calm composition, balanced focal objects. No people, no readable words, no fake graphs, no medical numbers, no pills, no brand. Inspired by refined watercolor wellness course art, but unique paperwork/decision composition.",
+    "sourceMaster": "../marketing/2026-09-23/cholesterol-consultation.png",
+    "cover": "images/blog/cholesterol-consultation-1280.webp",
+    "responsive": [
+      "images/blog/cholesterol-consultation-400.webp",
+      "images/blog/cholesterol-consultation-800.webp",
+      "images/blog/cholesterol-consultation-1280.webp"
+    ],
+    "visual": "images/blog/visual-cholesterol-consultation.svg",
+    "secondVisual": "images/blog/visual-cholesterol-consultation-questions.svg",
+    "note": "Original generated project cover, inspected. Two original educational SVGs. Fictional people, no real patients; two watercolor covers inspired by course palette, two natural photos."
+  },
+  {
+    "key": "weight-gain-consultation",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-23",
+    "prompt": "Create a 16:9 natural editorial photograph for Arabic nutrition article preparing a gradual weight-gain consultation. Fictional adult Arab woman in modest loose opaque dusty-rose long-sleeve high-neck tunic and cream headscarf, standing comfortably in a sunlit home kitchen placing a small yogurt bowl and bread on a table, natural relaxed thoughtful expression. No body emphasis, no scale, no thinness comparison, no clinic, no before/after. Gentle warm daylight, realistic hands and props, sage plants in background, calm human scene more prominent than food, no brands or text.",
+    "sourceMaster": "../marketing/2026-09-23/weight-gain-consultation.png",
+    "cover": "images/blog/weight-gain-consultation-1280.webp",
+    "responsive": [
+      "images/blog/weight-gain-consultation-400.webp",
+      "images/blog/weight-gain-consultation-800.webp",
+      "images/blog/weight-gain-consultation-1280.webp"
+    ],
+    "visual": "images/blog/visual-weight-gain-consultation.svg",
+    "secondVisual": "images/blog/visual-weight-gain-consultation-questions.svg",
+    "note": "Original generated project cover, inspected. Two original educational SVGs. Fictional people, no real patients; two watercolor covers inspired by course palette, two natural photos."
+  },
+  {
+    "key": "pcos-hair-loss",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-24",
+    "prompt": "Create a wide 16:9 editorial watercolor illustration for an Arabic nutrition article about hair thinning and PCOS, supporting thoughtful medical evaluation rather than beauty promises. A fictional adult woman in a loose opaque high-neck long-sleeved sage blouse sits sideways at a light wooden dressing table in a calm room, gently holding a simple wooden hairbrush; her dark hair looks ordinary, no bald patches or medical before-after. A small blank notebook on table, botanical background. Warm cream paper texture, muted blush and olive accents, soft golden light inspired by gentle nutrition course artwork. Tasteful spacious composition, no text, no logos, no supplements, no excessive loose hairs, no claim of regrowth.",
+    "sourceMaster": "../marketing/2026-09-24/pcos-hair-loss.png",
+    "cover": "images/blog/pcos-hair-loss-1280.webp",
+    "responsive": [
+      "images/blog/pcos-hair-loss-400.webp",
+      "images/blog/pcos-hair-loss-800.webp",
+      "images/blog/pcos-hair-loss-1280.webp"
+    ],
+    "visual": "images/blog/visual-pcos-hair-loss.svg",
+    "secondVisual": "images/blog/visual-pcos-hair-loss-questions.svg",
+    "note": "Original generated project cover, inspected. Two original educational SVGs. Fictional people, no real patients; two watercolor covers inspired by course palette, two natural photos."
+  },
+  {
+    "key": "dining-out-skills",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-24",
+    "prompt": "Create a wide 16:9 natural editorial photograph for an Arabic article about choosing meals when dining out. Two fictional adult Middle Eastern female friends in modest opaque loose long-sleeved high-neck clothing, one in muted rose and one in cream, sitting at a quiet sunlit cafe terrace, looking together at a single menu with indistinct unreadable markings. One simple meal and water glass, candid warm relaxed conversation, greenery and neutral stone background, natural realistic hands and faces. No brand, no legible text, no weight loss imagery, no exposed cleavage, no medical implication.",
+    "sourceMaster": "../marketing/2026-09-24/dining-out-skills.png",
+    "cover": "images/blog/dining-out-skills-1280.webp",
+    "responsive": [
+      "images/blog/dining-out-skills-400.webp",
+      "images/blog/dining-out-skills-800.webp",
+      "images/blog/dining-out-skills-1280.webp"
+    ],
+    "visual": "images/blog/visual-dining-out-skills.svg",
+    "secondVisual": "images/blog/visual-dining-out-skills-questions.svg",
+    "note": "Original generated project cover, inspected. Two original educational SVGs. Fictional people, no real patients; two watercolor covers inspired by course palette, two natural photos."
+  },
+  {
+    "key": "reflux-nutrition",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-24",
+    "prompt": "Create a wide 16:9 natural editorial lifestyle photo for an Arabic nutrition article about reflux symptoms and meal timing. A fictional adult Middle Eastern woman in loose opaque high-neck long-sleeved cream clothing taking a calm evening stroll along an ordinary garden path near home, upright comfortable posture, greenery softly blurred, warm late afternoon light, contemplative expression. Environmental wide shot, olive and peach palette, realistic anatomy. No food props, no hand clutching chest, no distress, no medical before-after, no text or logos.",
+    "sourceMaster": "../marketing/2026-09-24/reflux-nutrition.png",
+    "cover": "images/blog/reflux-nutrition-1280.webp",
+    "responsive": [
+      "images/blog/reflux-nutrition-400.webp",
+      "images/blog/reflux-nutrition-800.webp",
+      "images/blog/reflux-nutrition-1280.webp"
+    ],
+    "visual": "images/blog/visual-reflux-nutrition.svg",
+    "secondVisual": "images/blog/visual-reflux-nutrition-questions.svg",
+    "note": "Original generated project cover, inspected. Two original educational SVGs. Fictional people, no real patients; two watercolor covers inspired by course palette, two natural photos."
+  },
+  {
+    "key": "blood-pressure-nutrition",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-24",
+    "prompt": "Create a wide 16:9 watercolor editorial still life for an Arabic nutrition article about reducing salt with high blood pressure. A warm cream kitchen counter, three small bowls of herbs thyme and cumin and chopped parsley, a lemon half, a plain unbranded salt shaker positioned slightly farther back, and a blank folded recipe card. Botanical sage and olive, muted peach and blush, paper grain, softly painted details, elegant nutrition course illustration mood, realistic ordinary kitchen objects. No text, no health icons, no pills, no blood pressure measurements, no logos. Composition spacious and calm, not food advertising.",
+    "sourceMaster": "../marketing/2026-09-24/blood-pressure-nutrition.png",
+    "cover": "images/blog/blood-pressure-nutrition-1280.webp",
+    "responsive": [
+      "images/blog/blood-pressure-nutrition-400.webp",
+      "images/blog/blood-pressure-nutrition-800.webp",
+      "images/blog/blood-pressure-nutrition-1280.webp"
+    ],
+    "visual": "images/blog/visual-blood-pressure-nutrition.svg",
+    "secondVisual": "images/blog/visual-blood-pressure-nutrition-questions.svg",
+    "note": "Original generated project cover, inspected. Two original educational SVGs. Fictional people, no real patients; two watercolor covers inspired by course palette, two natural photos."
+  },
+  {
+    "key": "pcos-acne",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-25",
+    "prompt": "Watercolor 16:9 PCOS acne scene; fictional modest Arab woman at mirror; cream, blush and sage course-inspired palette; no text, logo, medical icons or testimonial.",
+    "sourceMaster": "../marketing/2026-09-25/pcos-acne.png",
+    "cover": "images/blog/pcos-acne-1280.webp",
+    "responsive": [
+      "images/blog/pcos-acne-400.webp",
+      "images/blog/pcos-acne-800.webp",
+      "images/blog/pcos-acne-1280.webp"
+    ],
+    "visual": "images/blog/visual-pcos-acne.svg",
+    "secondVisual": "images/blog/visual-pcos-acne-questions.svg",
+    "note": "Original generated project cover inspected. Two original educational SVGs. Fictional people; two watercolor covers inspired by course palette and two natural photos."
+  },
+  {
+    "key": "travel-meal-planning",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-25",
+    "prompt": "Watercolor 16:9 travel nutrition scene; fictional modest hijabi traveler on railway platform; cream, sage and golden course-inspired palette; no text, brands or logos.",
+    "sourceMaster": "../marketing/2026-09-25/travel-meal-planning.png",
+    "cover": "images/blog/travel-meal-planning-1280.webp",
+    "responsive": [
+      "images/blog/travel-meal-planning-400.webp",
+      "images/blog/travel-meal-planning-800.webp",
+      "images/blog/travel-meal-planning-1280.webp"
+    ],
+    "visual": "images/blog/visual-travel-meal-planning.svg",
+    "secondVisual": "images/blog/visual-travel-meal-planning-questions.svg",
+    "note": "Original generated project cover inspected. Two original educational SVGs. Fictional people; two watercolor covers inspired by course palette and two natural photos."
+  },
+  {
+    "key": "fatty-liver-consultation",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-25",
+    "prompt": "Photorealistic 16:9 home consultation preparation; fictional modest Middle Eastern woman organizing blank medical papers; navy, cream and wood; no readable data or logos.",
+    "sourceMaster": "../marketing/2026-09-25/fatty-liver-consultation.png",
+    "cover": "images/blog/fatty-liver-consultation-1280.webp",
+    "responsive": [
+      "images/blog/fatty-liver-consultation-400.webp",
+      "images/blog/fatty-liver-consultation-800.webp",
+      "images/blog/fatty-liver-consultation-1280.webp"
+    ],
+    "visual": "images/blog/visual-fatty-liver-consultation.svg",
+    "secondVisual": "images/blog/visual-fatty-liver-consultation-questions.svg",
+    "note": "Original generated project cover inspected. Two original educational SVGs. Fictional people; two watercolor covers inspired by course palette and two natural photos."
+  },
+  {
+    "key": "food-allergy-consultation",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-25",
+    "prompt": "Photorealistic 16:9 food allergy planning at home; fictional modest Arab mother and daughter reading an unbranded package; warm cream, sage and terracotta; no text or distress.",
+    "sourceMaster": "../marketing/2026-09-25/food-allergy-consultation.png",
+    "cover": "images/blog/food-allergy-consultation-1280.webp",
+    "responsive": [
+      "images/blog/food-allergy-consultation-400.webp",
+      "images/blog/food-allergy-consultation-800.webp",
+      "images/blog/food-allergy-consultation-1280.webp"
+    ],
+    "visual": "images/blog/visual-food-allergy-consultation.svg",
+    "secondVisual": "images/blog/visual-food-allergy-consultation-questions.svg",
+    "note": "Original generated project cover inspected. Two original educational SVGs. Fictional people; two watercolor covers inspired by course palette and two natural photos."
+  },
+  {
+    "key": "pcos-after-diagnosis",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-26",
+    "prompt": "Watercolor 16:9 PCOS after-diagnosis planning; fictional modest Arab woman with notebook, calendar and blank reports; course-inspired cream, blush, sage and olive; no text, logos or claims.",
+    "sourceMaster": "../marketing/2026-09-26/pcos-after-diagnosis.png",
+    "cover": "images/blog/pcos-after-diagnosis-1280.webp",
+    "responsive": [
+      "images/blog/pcos-after-diagnosis-400.webp",
+      "images/blog/pcos-after-diagnosis-800.webp",
+      "images/blog/pcos-after-diagnosis-1280.webp"
+    ],
+    "visual": "images/blog/visual-pcos-after-diagnosis.svg",
+    "secondVisual": "images/blog/visual-pcos-after-diagnosis-questions.svg",
+    "note": "Original generated project cover inspected. Two original educational SVGs. Fictional people; two watercolor covers inspired by course palette and two natural photos."
+  },
+  {
+    "key": "free-nutrition-course-start",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-26",
+    "prompt": "Watercolor 16:9 beginner nutrition learning; fictional modest Arab woman following generic laptop lesson and taking notes; warm course-inspired cream blush sage; no text or logos.",
+    "sourceMaster": "../marketing/2026-09-26/free-nutrition-course-start.png",
+    "cover": "images/blog/free-nutrition-course-start-1280.webp",
+    "responsive": [
+      "images/blog/free-nutrition-course-start-400.webp",
+      "images/blog/free-nutrition-course-start-800.webp",
+      "images/blog/free-nutrition-course-start-1280.webp"
+    ],
+    "visual": "images/blog/visual-free-nutrition-course-start.svg",
+    "secondVisual": "images/blog/visual-free-nutrition-course-start-questions.svg",
+    "note": "Original generated project cover inspected. Two original educational SVGs. Fictional people; two watercolor covers inspired by course palette and two natural photos."
+  },
+  {
+    "key": "gout-consultation",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-26",
+    "prompt": "Photorealistic 16:9 gout nutrition consultation preparation; fictional modest Middle Eastern woman with blank lab papers, water and notebook; warm daylight, cream sage; no text or logos.",
+    "sourceMaster": "../marketing/2026-09-26/gout-consultation.png",
+    "cover": "images/blog/gout-consultation-1280.webp",
+    "responsive": [
+      "images/blog/gout-consultation-400.webp",
+      "images/blog/gout-consultation-800.webp",
+      "images/blog/gout-consultation-1280.webp"
+    ],
+    "visual": "images/blog/visual-gout-consultation.svg",
+    "secondVisual": "images/blog/visual-gout-consultation-questions.svg",
+    "note": "Original generated project cover inspected. Two original educational SVGs. Fictional people; two watercolor covers inspired by course palette and two natural photos."
+  },
+  {
+    "key": "constipation-consultation",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-26",
+    "prompt": "Photorealistic 16:9 chronic constipation nutrition preparation; fictional modest Arab woman by window with notebook, water, oats and fruit; warm cream terracotta sage; no text or claims.",
+    "sourceMaster": "../marketing/2026-09-26/constipation-consultation.png",
+    "cover": "images/blog/constipation-consultation-1280.webp",
+    "responsive": [
+      "images/blog/constipation-consultation-400.webp",
+      "images/blog/constipation-consultation-800.webp",
+      "images/blog/constipation-consultation-1280.webp"
+    ],
+    "visual": "images/blog/visual-constipation-consultation.svg",
+    "secondVisual": "images/blog/visual-constipation-consultation-questions.svg",
+    "note": "Original generated project cover inspected. Two original educational SVGs. Fictional people; two watercolor covers inspired by course palette and two natural photos."
+  },
+  {
+    "key": "pcos-course-goals",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-27",
+    "prompt": "Watercolor fictional modest Arab woman choosing three learning goals; cream blush sage course-inspired palette; no text or claims.",
+    "sourceMaster": "Codex generated_images/exec-e788b0c1-a3a5-4844-b5e7-37da065b397f.png",
+    "cover": "images/blog/pcos-course-goals-1280.webp",
+    "responsive": [
+      "images/blog/pcos-course-goals-400.webp",
+      "images/blog/pcos-course-goals-800.webp",
+      "images/blog/pcos-course-goals-1280.webp"
+    ],
+    "visual": "images/blog/visual-pcos-course-goals.svg",
+    "secondVisual": "images/blog/visual-pcos-course-goals-questions.svg",
+    "note": "Original generated cover inspected. Two original educational SVGs. Fictional people; two course-inspired watercolor covers and two natural photographs."
+  },
+  {
+    "key": "healthy-path-after-diets",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-27",
+    "prompt": "Course-inspired watercolor fictional modest Arab woman leaving restrictive diet checklist for flexible habits; no text or claims.",
+    "sourceMaster": "Codex generated_images/exec-f05e9d38-19b2-4ff1-a3bf-b17d2c8c00b4.png",
+    "cover": "images/blog/healthy-path-after-diets-1280.webp",
+    "responsive": [
+      "images/blog/healthy-path-after-diets-400.webp",
+      "images/blog/healthy-path-after-diets-800.webp",
+      "images/blog/healthy-path-after-diets-1280.webp"
+    ],
+    "visual": "images/blog/visual-healthy-path-after-diets.svg",
+    "secondVisual": "images/blog/visual-healthy-path-after-diets-questions.svg",
+    "note": "Original generated cover inspected. Two original educational SVGs. Fictional people; two course-inspired watercolor covers and two natural photographs."
+  },
+  {
+    "key": "kidney-stones-consultation",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-27",
+    "prompt": "Natural editorial photo of fictional modest Arab woman preparing blank reports, water and notebook for kidney-stone nutrition consultation.",
+    "sourceMaster": "Codex generated_images/exec-1091bfa7-ec77-4e85-b104-04ef5d4c2992.png",
+    "cover": "images/blog/kidney-stones-consultation-1280.webp",
+    "responsive": [
+      "images/blog/kidney-stones-consultation-400.webp",
+      "images/blog/kidney-stones-consultation-800.webp",
+      "images/blog/kidney-stones-consultation-1280.webp"
+    ],
+    "visual": "images/blog/visual-kidney-stones-consultation.svg",
+    "secondVisual": "images/blog/visual-kidney-stones-consultation-questions.svg",
+    "note": "Original generated cover inspected. Two original educational SVGs. Fictional people; two course-inspired watercolor covers and two natural photographs."
+  },
+  {
+    "key": "bone-health-consultation",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-27",
+    "prompt": "Natural editorial photo of fictional modest middle-aged Arab woman walking near calcium-rich foods and blank notes; no claims.",
+    "sourceMaster": "Codex generated_images/exec-5b24ab96-e9a0-4315-bce2-a42efb3c2f16.png",
+    "cover": "images/blog/bone-health-consultation-1280.webp",
+    "responsive": [
+      "images/blog/bone-health-consultation-400.webp",
+      "images/blog/bone-health-consultation-800.webp",
+      "images/blog/bone-health-consultation-1280.webp"
+    ],
+    "visual": "images/blog/visual-bone-health-consultation.svg",
+    "secondVisual": "images/blog/visual-bone-health-consultation-questions.svg",
+    "note": "Original generated cover inspected. Two original educational SVGs. Fictional people; two course-inspired watercolor covers and two natural photographs."
+  },
+  {
+    "key": "ckd-nutrition-consultation",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-28",
+    "prompt": "Natural editorial photograph of a fictional modest Arab woman in a sage blouse and cream headscarf preparing blank reports and a notebook at a calm home desk. Cream/sage palette, no diagnoses or text.",
+    "sourceMaster": "Codex generated_images/exec-a891913b-13dc-48ce-8e9b-2782e9557560.png",
+    "cover": "images/blog/ckd-nutrition-consultation-1280.webp",
+    "responsive": [
+      "images/blog/ckd-nutrition-consultation-400.webp",
+      "images/blog/ckd-nutrition-consultation-800.webp",
+      "images/blog/ckd-nutrition-consultation-1280.webp"
+    ],
+    "visual": "images/blog/visual-ckd-nutrition-consultation.svg",
+    "secondVisual": "images/blog/visual-ckd-nutrition-consultation-questions.svg",
+    "note": "Original generated cover inspected. Two original educational SVGs. Fictional modest people; two course-inspired watercolor illustrations and two natural photographs. Rights/provenance: original generated assets, no stock/third-party photography; no patient identity or outcome claim."
+  },
+  {
+    "key": "bariatric-followup-nutrition",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-28",
+    "prompt": "Natural editorial photograph of a fictional modest adult Arab woman in cream clothing and headscarf reviewing blank follow-up notes at home with a closed medicine organizer. No clinical scene, scars or outcomes.",
+    "sourceMaster": "Codex generated_images/exec-ac7df1be-0855-419f-8970-f2dab5e7b15c.png",
+    "cover": "images/blog/bariatric-followup-nutrition-1280.webp",
+    "responsive": [
+      "images/blog/bariatric-followup-nutrition-400.webp",
+      "images/blog/bariatric-followup-nutrition-800.webp",
+      "images/blog/bariatric-followup-nutrition-1280.webp"
+    ],
+    "visual": "images/blog/visual-bariatric-followup-nutrition.svg",
+    "secondVisual": "images/blog/visual-bariatric-followup-nutrition-questions.svg",
+    "note": "Original generated cover inspected. Two original educational SVGs. Fictional modest people; two course-inspired watercolor illustrations and two natural photographs. Rights/provenance: original generated assets, no stock/third-party photography; no patient identity or outcome claim."
+  },
+  {
+    "key": "adolescent-pcos-learning",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-28",
+    "prompt": "Course-inspired watercolor illustration, warm cream/blush/sage botanical framing, fictional modest teenage Arab girl and supportive mother in opaque clothes and headscarves, blank notebook, calm learning scene. No text, diagnosis or medical imagery.",
+    "sourceMaster": "Codex generated_images/exec-49b444ca-d32a-4dc0-9360-7ec4f17cfdbe.png",
+    "cover": "images/blog/adolescent-pcos-learning-1280.webp",
+    "responsive": [
+      "images/blog/adolescent-pcos-learning-400.webp",
+      "images/blog/adolescent-pcos-learning-800.webp",
+      "images/blog/adolescent-pcos-learning-1280.webp"
+    ],
+    "visual": "images/blog/visual-adolescent-pcos-learning.svg",
+    "secondVisual": "images/blog/visual-adolescent-pcos-learning-questions.svg",
+    "note": "Original generated cover inspected. Two original educational SVGs. Fictional modest people; two course-inspired watercolor illustrations and two natural photographs. Rights/provenance: original generated assets, no stock/third-party photography; no patient identity or outcome claim."
+  },
+  {
+    "key": "plant-protein-skills",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-28",
+    "prompt": "Course-inspired watercolor illustration cream/sage/olive/blush botanical framing. Fictional modest Arab woman in opaque olive long sleeves and headscarf arranging lentils chickpeas tofu nuts and a blank shopping notebook at home. No claims or text.",
+    "sourceMaster": "Codex generated_images/exec-7041ac93-5f57-43f9-b0c8-b6718c1b0e65.png",
+    "cover": "images/blog/plant-protein-skills-1280.webp",
+    "responsive": [
+      "images/blog/plant-protein-skills-400.webp",
+      "images/blog/plant-protein-skills-800.webp",
+      "images/blog/plant-protein-skills-1280.webp"
+    ],
+    "visual": "images/blog/visual-plant-protein-skills.svg",
+    "secondVisual": "images/blog/visual-plant-protein-skills-questions.svg",
+    "note": "Original generated cover inspected. Two original educational SVGs. Fictional modest people; two course-inspired watercolor illustrations and two natural photographs. Rights/provenance: original generated assets, no stock/third-party photography; no patient identity or outcome claim."
+  },
+  {
+    "key": "lactose-consultation",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-29",
+    "prompt": "Wide 16:9 natural editorial photograph for an Arabic nutrition blog. A modestly dressed fictional Arab woman in a full opaque sage tunic, cream hijab, thoughtfully comparing two generic milk alternative and lactose-free cartons with NO legible text in a bright tidy home kitchen, small notebook, warm daylight, calm realistic face and anatomically correct hands, no clinician, no patient claim, no product branding, no headlines. Olive and cream brand palette, premium composition.",
+    "sourceMaster": "../assets/blog-editorial/source/lactose-consultation.png",
+    "cover": "images/blog/lactose-consultation-1280.webp",
+    "responsive": [
+      "images/blog/lactose-consultation-400.webp",
+      "images/blog/lactose-consultation-800.webp",
+      "images/blog/lactose-consultation-1280.webp"
+    ],
+    "visual": "images/blog/visual-lactose-consultation.svg",
+    "secondVisual": "images/blog/visual-lactose-consultation-questions.svg",
+    "note": "Original generated asset inspected; fictional modest people, no patient/outcome claims. Two natural editorial photographs and two course-inspired illustrations. Original SVG diagrams generated by blog renderer; no third-party stock assets."
+  },
+  {
+    "key": "swallowing-nutrition-coordination",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-29",
+    "prompt": "Wide 16:9 natural documentary editorial photograph: an elderly fictional Arab man fully dressed in an opaque light beige shirt and cardigan sits calmly with his adult daughter in an opaque long sleeve loose outfit and hijab, organizing a blank care folder at a quiet living room table. Daughter listening respectfully, no eating or drinks or medical devices, no exposed bodies, correct hands, gentle morning light, muted olive and cream. Illustrates family care coordination, not a patient testimonial. No text.",
+    "sourceMaster": "../assets/blog-editorial/source/swallowing-nutrition-coordination.png",
+    "cover": "images/blog/swallowing-nutrition-coordination-1280.webp",
+    "responsive": [
+      "images/blog/swallowing-nutrition-coordination-400.webp",
+      "images/blog/swallowing-nutrition-coordination-800.webp",
+      "images/blog/swallowing-nutrition-coordination-1280.webp"
+    ],
+    "visual": "images/blog/visual-swallowing-nutrition-coordination.svg",
+    "secondVisual": "images/blog/visual-swallowing-nutrition-coordination-questions.svg",
+    "note": "Original generated asset inspected; fictional modest people, no patient/outcome claims. Two natural editorial photographs and two course-inspired illustrations. Original SVG diagrams generated by blog renderer; no third-party stock assets."
+  },
+  {
+    "key": "pcos-fertility-questions",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-29",
+    "prompt": "Wide 16:9 premium soft watercolor editorial illustration inspired by calm wellness course artwork: fictional adult Arab woman in a full opaque loose sage dress and cream hijab taking a peaceful reflective stroll on a botanical garden path, small closed notebook carried naturally, subtle abstract calendar paper motif in composition, blush peach and warm cream textured paper, muted olive, airy calm composition. No baby, no pregnancy belly, no anatomy, no fertility success symbolism, no text or logo. Beautiful correct anatomy, fully modest.",
+    "sourceMaster": "../assets/blog-editorial/source/pcos-fertility-questions.png",
+    "cover": "images/blog/pcos-fertility-questions-1280.webp",
+    "responsive": [
+      "images/blog/pcos-fertility-questions-400.webp",
+      "images/blog/pcos-fertility-questions-800.webp",
+      "images/blog/pcos-fertility-questions-1280.webp"
+    ],
+    "visual": "images/blog/visual-pcos-fertility-questions.svg",
+    "secondVisual": "images/blog/visual-pcos-fertility-questions-questions.svg",
+    "note": "Original generated asset inspected; fictional modest people, no patient/outcome claims. Two natural editorial photographs and two course-inspired illustrations. Original SVG diagrams generated by blog renderer; no third-party stock assets."
+  },
+  {
+    "key": "frozen-vegetable-skills",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-29",
+    "prompt": "Wide 16:9 premium soft watercolor illustration for nutrition education: overhead still life on warm cream paper of a plain unbranded frozen vegetable bag with peas carrots broccoli, clean kitchen storage basket, small cooking pot and blank meal planning card, subtle sage and peach palette and botanical touches, artisanal course-like art, no people, no logos, no text, no nutritional claims. Distinct balanced airy composition.",
+    "sourceMaster": "../assets/blog-editorial/source/frozen-vegetable-skills.png",
+    "cover": "images/blog/frozen-vegetable-skills-1280.webp",
+    "responsive": [
+      "images/blog/frozen-vegetable-skills-400.webp",
+      "images/blog/frozen-vegetable-skills-800.webp",
+      "images/blog/frozen-vegetable-skills-1280.webp"
+    ],
+    "visual": "images/blog/visual-frozen-vegetable-skills.svg",
+    "secondVisual": "images/blog/visual-frozen-vegetable-skills-questions.svg",
+    "note": "Original generated asset inspected; fictional modest people, no patient/outcome claims. Two natural editorial photographs and two course-inspired illustrations. Original SVG diagrams generated by blog renderer; no third-party stock assets."
+  },
+  {
+    "key": "medication-appetite-review",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-30",
+    "sourceMaster": "../assets/blog-editorial/source/medication-appetite-review.png",
+    "cover": "images/blog/medication-appetite-review-1280.webp",
+    "responsive": [
+      "images/blog/medication-appetite-review-400.webp",
+      "images/blog/medication-appetite-review-800.webp",
+      "images/blog/medication-appetite-review-1280.webp"
+    ],
+    "visual": "images/blog/visual-medication-appetite-review.svg",
+    "secondVisual": "images/blog/visual-medication-appetite-review-questions.svg",
+    "note": "Original AI-generated asset inspected; fictional modest women; two photographs and two watercolor illustrations in course-inspired palette. Two original explanatory SVGs per article."
+  },
+  {
+    "key": "after-gallbladder-consultation",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-30",
+    "sourceMaster": "../assets/blog-editorial/source/after-gallbladder-consultation.png",
+    "cover": "images/blog/after-gallbladder-consultation-1280.webp",
+    "responsive": [
+      "images/blog/after-gallbladder-consultation-400.webp",
+      "images/blog/after-gallbladder-consultation-800.webp",
+      "images/blog/after-gallbladder-consultation-1280.webp"
+    ],
+    "visual": "images/blog/visual-after-gallbladder-consultation.svg",
+    "secondVisual": "images/blog/visual-after-gallbladder-consultation-questions.svg",
+    "note": "Original AI-generated asset inspected; fictional modest women; two photographs and two watercolor illustrations in course-inspired palette. Two original explanatory SVGs per article."
+  },
+  {
+    "key": "pcos-insulin-test-context",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-30",
+    "sourceMaster": "../assets/blog-editorial/source/pcos-insulin-test-context.png",
+    "cover": "images/blog/pcos-insulin-test-context-1280.webp",
+    "responsive": [
+      "images/blog/pcos-insulin-test-context-400.webp",
+      "images/blog/pcos-insulin-test-context-800.webp",
+      "images/blog/pcos-insulin-test-context-1280.webp"
+    ],
+    "visual": "images/blog/visual-pcos-insulin-test-context.svg",
+    "secondVisual": "images/blog/visual-pcos-insulin-test-context-questions.svg",
+    "note": "Original AI-generated asset inspected; fictional modest women; two photographs and two watercolor illustrations in course-inspired palette. Two original explanatory SVGs per article."
+  },
+  {
+    "key": "whole-grain-shopping-skill",
+    "tool": "built-in image_gen",
+    "generated": "2026-09-30",
+    "sourceMaster": "../assets/blog-editorial/source/whole-grain-shopping-skill.png",
+    "cover": "images/blog/whole-grain-shopping-skill-1280.webp",
+    "responsive": [
+      "images/blog/whole-grain-shopping-skill-400.webp",
+      "images/blog/whole-grain-shopping-skill-800.webp",
+      "images/blog/whole-grain-shopping-skill-1280.webp"
+    ],
+    "visual": "images/blog/visual-whole-grain-shopping-skill.svg",
+    "secondVisual": "images/blog/visual-whole-grain-shopping-skill-questions.svg",
+    "note": "Original AI-generated asset inspected; fictional modest women; two photographs and two watercolor illustrations in course-inspired palette. Two original explanatory SVGs per article."
+  },
+  {
+    "key":"gastroparesis-consultation","tool":"built-in image_gen","generated":"2026-10-01",
+    "prompt":"Wide 16:9 natural editorial photograph for an Arabic nutrition clinic article about preparing for a gastroparesis nutrition consultation. Fictional adult Middle Eastern woman in modest opaque long-sleeved clothing and hijab, seated at a calm home table reviewing a simple symptom notebook and water glass; gentle morning window light, warm cream and sage palette, realistic hands, premium quiet composition, no text, no logos, no medical devices, no implied patient outcome.",
+    "sourceMaster":"../assets/blog-editorial/source/gastroparesis-consultation.png","cover":"images/blog/gastroparesis-consultation-1280.webp","responsive":["images/blog/gastroparesis-consultation-400.webp","images/blog/gastroparesis-consultation-800.webp","images/blog/gastroparesis-consultation-1280.webp"],"visual":"images/blog/visual-gastroparesis-consultation.svg","secondVisual":"images/blog/visual-gastroparesis-consultation-questions.svg","note":"Original generated photograph visually reviewed; fictional model. Two original SVG educational diagrams rendered by the blog generator."
+  },
+  {
+    "key":"pcos-lipid-screening","tool":"built-in image_gen","generated":"2026-10-01",
+    "prompt":"Wide 16:9 soft watercolor editorial illustration inspired by premium nutrition course artwork, for an educational article about PCOS and blood lipid screening. A fictional modestly dressed Arab woman in loose long sleeves and hijab walking through a tranquil garden path holding a blank health notebook, subtle symbolic heart and leaf motifs only, warm cream blush sage olive palette, sophisticated airy composition, no text, no logos, no pseudo-anatomy, no implied cure.",
+    "sourceMaster":"../assets/blog-editorial/source/pcos-lipid-screening.png","cover":"images/blog/pcos-lipid-screening-1280.webp","responsive":["images/blog/pcos-lipid-screening-400.webp","images/blog/pcos-lipid-screening-800.webp","images/blog/pcos-lipid-screening-1280.webp"],"visual":"images/blog/visual-pcos-lipid-screening.svg","secondVisual":"images/blog/visual-pcos-lipid-screening-questions.svg","note":"Original generated watercolor visually reviewed; fictional model, no health outcome claim. Two original SVG educational diagrams rendered by the blog generator."
+  },
+  {
+    "key":"ulcerative-colitis-consultation","tool":"built-in image_gen","generated":"2026-10-01",
+    "prompt":"Wide 16:9 natural editorial photograph for an Arabic article about nutrition consultation with ulcerative colitis. Fictional adult Middle Eastern woman in modest opaque long-sleeved blouse and hijab, quietly planning questions in a notebook at a sunlit living room desk, neutral expression, warm home setting, sage and cream colors, accurate hands, no food close-up, no text, no logos, no disease or outcome depiction.",
+    "sourceMaster":"../assets/blog-editorial/source/ulcerative-colitis-consultation.png","cover":"images/blog/ulcerative-colitis-consultation-1280.webp","responsive":["images/blog/ulcerative-colitis-consultation-400.webp","images/blog/ulcerative-colitis-consultation-800.webp","images/blog/ulcerative-colitis-consultation-1280.webp"],"visual":"images/blog/visual-ulcerative-colitis-consultation.svg","secondVisual":"images/blog/visual-ulcerative-colitis-consultation-questions.svg","note":"Original generated photograph visually reviewed; fictional model. Two original SVG educational diagrams rendered by the blog generator."
+  },
+  {
+    "key":"sodium-label-shopping","tool":"built-in image_gen","generated":"2026-10-01",
+    "prompt":"Wide 16:9 premium watercolor editorial illustration inspired by calm course cover art for an Arabic article on reading sodium on food labels. An airy grocery shopping still life with two plain unbranded packaged foods with blank labels, shopping basket, herbs and a pencil on warm cream paper, subtle sage olive blush palette, no legible text, no logos, no people, no nutritional claims.",
+    "sourceMaster":"../assets/blog-editorial/source/sodium-label-shopping.png","cover":"images/blog/sodium-label-shopping-1280.webp","responsive":["images/blog/sodium-label-shopping-400.webp","images/blog/sodium-label-shopping-800.webp","images/blog/sodium-label-shopping-1280.webp"],"visual":"images/blog/visual-sodium-label-shopping.svg","secondVisual":"images/blog/visual-sodium-label-shopping-questions.svg","note":"Original generated watercolor visually reviewed. Two original SVG educational diagrams rendered by the blog generator."
   }
 ]

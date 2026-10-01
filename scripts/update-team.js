@@ -8,7 +8,8 @@ const members = [
   {image:'/images/yasmin-team.webp', name:'ياسمين رسلان', role:'اختصاصية تغذية'},
   {image:'/images/menna-team.webp', name:'منة', role:'اختصاصية تغذية'},
   {image:'/images/abeer-team.webp', name:'عبير ناشد', role:'إدارية'},
-  {image:'/images/shahd-team.webp', name:'شهد', role:'إدارة منصات التواصل'},
+  // Owner-supplied replacement portrait, 2026-09-30. Keep a new URL for caches.
+  {image:'/images/shahd-team-20260930.webp', previousImage:'/images/shahd-team.webp', width:600, height:750, name:'شهد', role:'إدارة منصات التواصل'},
   {image:'/images/3-350x700.webp', name:'المهندس محمد الحسن', role:'تسويق رقمي'}
 ];
 const original = fs.readFileSync(file,'utf8');
@@ -20,8 +21,16 @@ const cards = members.map(member=>{
   const range = elementRange(oldGrid.slice(offset),'team-member-card');
   const card = oldGrid.slice(offset+range.start,offset+range.end);
   offset += range.end;
-  if(!card.includes('src="'+member.image+'"')) throw new Error('Unexpected portrait for '+member.name);
-  const image = card.match(/<img\b[^>]*>/)[0].replace(/\balt="[^"]*"/,'alt="'+member.name+'"');
+  const acceptedImages = [member.image, member.previousImage].filter(Boolean);
+  if(!acceptedImages.some(src=>card.includes('src="'+src+'"'))) throw new Error('Unexpected portrait for '+member.name);
+  let image = card.match(/<img\b[^>]*>/)[0].replace(/\balt="[^"]*"/,'alt="'+member.name+'"');
+  if(member.previousImage) {
+    image = image.replace(/\bsrc="[^"]*"/, 'src="'+member.image+'"')
+      .replace(/\bwidth="[^"]*"/, 'width="'+member.width+'"')
+      .replace(/\bheight="[^"]*"/, 'height="'+member.height+'"')
+      .replace(/\sstyle="[^"]*"/g, '')
+      .replace(/\s*\/?>$/, ' style="object-fit:cover;object-position:50% 30%">');
+  }
   return `<div class="team-member-card"><div class="team-avatar">${image}</div><h3 class="member-name">${member.name}</h3><p class="member-role">${member.role}</p></div>`;
 }).join('');
 html = html.slice(0,grid.contentStart)+cards+html.slice(grid.contentEnd);

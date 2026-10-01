@@ -57,7 +57,21 @@
     ],
     "researchNote": "أُجري بحث استكشافي في 12 سبتمبر 2026. ظهرت صفحات مقدمي استشارات عند البحث عن الاستشارات الأونلاين؛ لم يثبت حجم طلب على كورسات التكيس أو الكلمات المحلية. لا يُستنتج ترتيب ثابت من هذه العينة. توفر الاستشارة الأونلاين مثبت بصفحة الحجز الحالية في المستودع؛ ومحتوى كورس التكيس موثق في content/pcos-course.json.",
     "profileEvidence": "content/author-rula.json",
-    "noProviderComparisons": true
+    "noProviderComparisons": true,
+    "weightMedicationOpportunity": {
+      "recorded": "2026-09-29",
+      "evidence": "Owner reports sustained visitors to mounjaro-diet; no Search Console traffic/query numbers independently verified in this run.",
+      "anchorArticle": "mounjaro-diet",
+      "principle": "دواء أو ظرف صحي + سؤال غذائي عملي + خطوة مناسبة للاستشارة. تحسين المقال القائم أولاً وربط الموضوعات المكملة به دون تكرار نية ماذا آكل.",
+      "targetPage": "/احجز-موعد",
+      "cadence": "أولوية لموضوع واحد مناسب ضمن حصة الاستشارات في الدفعات القادمة؛ المحافظة على توازن الاستشارات والكورسات. لا نشر إضافي لتعويض الأيام.",
+      "protected": [
+        "URL",
+        "headline",
+        "original publication date"
+      ],
+      "measurement": "Review Search Console queries/clicks/impressions for these pages when available; no sales tracking or health advertising events."
+    }
   },
   "topics": [
     {
@@ -329,6 +343,1030 @@
       "targetPage": "/course/المسار-الصحي",
       "bodyWordsExcludingHeadings": 1127,
       "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/كورس-تغذية-مسجل-أم-مباشر"
+    },
+    {
+      "topic": "هل تحتاجين تحاليل قبل استشارة التغذية؟ دليل التحضير",
+      "articleKey": "consultation-labs",
+      "primaryKeyword": "تحاليل قبل استشارة التغذية",
+      "supportingKeywords": [
+        "هل أحتاج تحاليل قبل الرجيم",
+        "تجهيز نتائج التحاليل للاستشارة"
+      ],
+      "intent": "الاستعداد للموعد وفهم متى يستفسر القارئ عن الفحوص بدلاً من شراء باقة تلقائياً",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": "دليل الاستشارة الأونلاين يشرح اختيار الخدمة؛ هذه المقالة تتناول ملف النتائج وحدود التفسير والتحضير للفحص فقط.",
+      "decisionHelp": "الاستعداد للموعد وفهم متى يستفسر القارئ عن الفحوص بدلاً من شراء باقة تلقائياً",
+      "status": "published",
+      "plannedFor": "2026-09-16",
+      "bodyWordsExcludingHeadings": 1023,
+      "keywordCheckedAt": "2026-09-16",
+      "publishedDate": "2026-09-19",
+      "plannedDate": "2026-09-19"
+    },
+    {
+      "topic": "مكملات تكيس المبايض والإينوزيتول: أسئلة قبل الشراء",
+      "articleKey": "pcos-supplements",
+      "primaryKeyword": "مكملات تكيس المبايض",
+      "supportingKeywords": [
+        "الإينوزيتول لتكيس المبايض",
+        "أسئلة قبل شراء مكملات التكيس"
+      ],
+      "intent": "تقييم ادعاءات المكملات وفهم الدليل والحدود قبل اتخاذ قرار أو اختيار تثقيف منظم",
+      "businessGoal": "course",
+      "targetPage": "/course/تكيس-المبايض",
+      "avoidOverlap": "لا يعيد قائمة الوجبات ولا مقارنة الكورس بالاستشارة؛ يشرح قرار المكمل وحدود الأدلة دون بيع مكملات.",
+      "decisionHelp": "تقييم ادعاءات المكملات وفهم الدليل والحدود قبل اتخاذ قرار أو اختيار تثقيف منظم",
+      "status": "published",
+      "plannedFor": "2026-09-16",
+      "bodyWordsExcludingHeadings": 1028,
+      "keywordCheckedAt": "2026-09-16",
+      "publishedDate": "2026-09-19",
+      "plannedDate": "2026-09-19"
+    },
+    {
+      "topic": "مذكرات الطعام قبل استشارة التغذية: سجّل بسيط دون لوم",
+      "articleKey": "food-diary",
+      "primaryKeyword": "مذكرات الطعام قبل استشارة التغذية",
+      "supportingKeywords": [
+        "كيف أكتب سجل الطعام",
+        "تسجيل الوجبات لاختصاصية التغذية"
+      ],
+      "intent": "إعداد معلومات مفيدة للموعد مع احترام الخصوصية وتجنب تسجيل قهري أو استنتاج تشخيص",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": "الدليل العام يذكر التحضير بإيجاز؛ المقال الحالي يشرح أداة محددة مع نموذج محايد وحدودها، لا يعيد اختيار الخدمة.",
+      "decisionHelp": "إعداد معلومات مفيدة للموعد مع احترام الخصوصية وتجنب تسجيل قهري أو استنتاج تشخيص",
+      "status": "published",
+      "plannedFor": "2026-09-16",
+      "bodyWordsExcludingHeadings": 1025,
+      "keywordCheckedAt": "2026-09-16",
+      "publishedDate": "2026-09-19",
+      "plannedDate": "2026-09-19"
+    },
+    {
+      "topic": "تكيس المبايض مع وزن طبيعي: أهداف تتجاوز خسارة الوزن",
+      "articleKey": "pcos-normal-weight",
+      "primaryKeyword": "تكيس المبايض مع وزن طبيعي",
+      "supportingKeywords": [
+        "تكيس المبايض دون زيادة وزن",
+        "هل أحتاج رجيم مع التكيس"
+      ],
+      "intent": "فهم ملاءمة التثقيف والتغذية عندما لا يكون إنقاص الوزن هدفاً، وصياغة أسئلة للمتابعة",
+      "businessGoal": "course",
+      "targetPage": "/course/تكيس-المبايض",
+      "avoidOverlap": "لا يعيد النظام الغذائي العام أو تشخيص الكيس؛ يركز على احتياج قارئة لا تسعى لخسارة الوزن واختيار أهداف ومحتوى مناسبين.",
+      "decisionHelp": "فهم ملاءمة التثقيف والتغذية عندما لا يكون إنقاص الوزن هدفاً، وصياغة أسئلة للمتابعة",
+      "status": "published",
+      "plannedFor": "2026-09-16",
+      "bodyWordsExcludingHeadings": 1048,
+      "keywordCheckedAt": "2026-09-16",
+      "publishedDate": "2026-09-19",
+      "plannedDate": "2026-09-19"
+    },
+    {
+      "topic": "الرياضة مع تكيس المبايض: كيف تختارين حركة تناسبك؟",
+      "articleKey": "pcos-movement",
+      "primaryKeyword": "الرياضة مع تكيس المبايض",
+      "supportingKeywords": [
+        "المشي وتكيس المبايض",
+        "اختيار تمارين للتكيس"
+      ],
+      "intent": "اختيار نشاط وخدمة مناسبة دون البحث عن تمرين سحري",
+      "businessGoal": "course",
+      "targetPage": "/course/تكيس-المبايض",
+      "avoidOverlap": "مقال التكيس العام يركز على الغذاء، ومقال الوزن الطبيعي على الأهداف؛ هذا المقال يختص بقرار النشاط والبرنامج والعوائق.",
+      "decisionHelp": "اختيار نشاط وخدمة مناسبة دون البحث عن تمرين سحري",
+      "status": "published",
+      "plannedFor": "2026-09-20",
+      "bodyWordsExcludingHeadings": 1042,
+      "keywordCheckedAt": "2026-09-20",
+      "publishedDate": "2026-09-20"
+    },
+    {
+      "topic": "تكيس المبايض والغلوتين والألبان: هل يلزم المنع؟",
+      "articleKey": "pcos-food-exclusions",
+      "primaryKeyword": "تكيس المبايض والغلوتين والألبان",
+      "supportingKeywords": [
+        "هل الحليب ممنوع للتكيس",
+        "حمية خالية من الغلوتين للتكيس"
+      ],
+      "intent": "تقييم قرار الاستبعاد قبل شراء برنامج أو بدائل خاصة",
+      "businessGoal": "course",
+      "targetPage": "/course/تكيس-المبايض",
+      "avoidOverlap": "لا يعيد جدول وجبات التكيس أو المكملات؛ يعالج حصراً سبب الاستبعاد والتشخيص والبدائل وأسئلة البرامج.",
+      "decisionHelp": "تقييم قرار الاستبعاد قبل شراء برنامج أو بدائل خاصة",
+      "status": "published",
+      "plannedFor": "2026-09-20",
+      "bodyWordsExcludingHeadings": 1009,
+      "keywordCheckedAt": "2026-09-20",
+      "publishedDate": "2026-09-20"
+    },
+    {
+      "topic": "الطفل الانتقائي في الأكل: متى وكيف تستعدين للاستشارة؟",
+      "articleKey": "selective-eating-consultation",
+      "primaryKeyword": "استشارة تغذية للطفل الانتقائي",
+      "supportingKeywords": [
+        "طفلي انتقائي في الأكل",
+        "متى أراجع اختصاصية تغذية للأطفال"
+      ],
+      "intent": "تحديد جهة الدعم والتحضير للموعد دون تشخيص منزلي",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": "اللانش بوكس مقال أفكار وجبات؛ هذا المقال عن التقييم والانتقائية وسلامة البلع والتحضير للموعد.",
+      "decisionHelp": "تحديد جهة الدعم والتحضير للموعد دون تشخيص منزلي",
+      "status": "published",
+      "plannedFor": "2026-09-20",
+      "bodyWordsExcludingHeadings": 1052,
+      "keywordCheckedAt": "2026-09-20",
+      "publishedDate": "2026-09-20"
+    },
+    {
+      "topic": "استشارة تغذية للنباتيين: أسئلة وتحضير لخطة تناسبك",
+      "articleKey": "vegan-consultation",
+      "primaryKeyword": "استشارة تغذية للنباتيين",
+      "supportingKeywords": [
+        "تخطيط النظام النباتي",
+        "مكملات النباتيين قبل الاستشارة"
+      ],
+      "intent": "التحضير لخطة نباتية شخصية وتقييم احتياج المتابعة",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": "الخطة الشخصية العامة تشرح الاختيار؛ هذه نية خاصة بتركيب الغذاء النباتي ومراجعة مصادر العناصر والبدائل.",
+      "decisionHelp": "التحضير لخطة نباتية شخصية وتقييم احتياج المتابعة",
+      "status": "published",
+      "plannedFor": "2026-09-20",
+      "bodyWordsExcludingHeadings": 1068,
+      "keywordCheckedAt": "2026-09-20",
+      "publishedDate": "2026-09-20"
+    },
+    {
+      "topic": "الدعم النفسي مع تكيس المبايض: كيف تختارين المساندة؟",
+      "articleKey": "pcos-emotional-support",
+      "primaryKeyword": "الدعم النفسي مع تكيس المبايض",
+      "supportingKeywords": [
+        "تكيس المبايض وصورة الجسم",
+        "حدود كورس التكيس"
+      ],
+      "intent": "تحديد نوع الدعم وحدود التثقيف قبل الاشتراك",
+      "businessGoal": "course",
+      "targetPage": "/course/تكيس-المبايض",
+      "avoidOverlap": "مقال التكيس أم استشارة يقارن شكل الخدمة؛ الجديد يركز على صورة الجسم والضيق النفسي وحدود دور الكورس، ولا يعيد غذاء التكيس.",
+      "decisionHelp": "تحديد نوع الدعم وحدود التثقيف قبل الاشتراك",
+      "status": "published",
+      "plannedFor": "2026-09-21",
+      "bodyWordsExcludingHeadings": 1018,
+      "keywordCheckedAt": "2026-09-21",
+      "publishedDate": "2026-09-21"
+    },
+    {
+      "topic": "التغذية الصحية بميزانية محدودة: مهارات قبل الشراء",
+      "articleKey": "budget-nutrition-learning",
+      "primaryKeyword": "التغذية الصحية بميزانية محدودة",
+      "supportingKeywords": [
+        "التسوق الصحي بميزانية",
+        "تكلفة تطبيق برنامج غذائي"
+      ],
+      "intent": "تقييم مهارات الشراء والتكلفة الفعلية قبل اختيار محتوى تعليمي",
+      "businessGoal": "course",
+      "targetPage": "/course/المسار-الصحي",
+      "avoidOverlap": "تجهيز الوجبات يركز على التحضير؛ الملصقات على المعلومات الغذائية؛ الجديد يركز على تكلفة الاستخدام والعبوات وكلفة تطبيق التعلم.",
+      "decisionHelp": "تقييم مهارات الشراء والتكلفة الفعلية قبل اختيار محتوى تعليمي",
+      "status": "published",
+      "plannedFor": "2026-09-21",
+      "bodyWordsExcludingHeadings": 1059,
+      "keywordCheckedAt": "2026-09-21",
+      "publishedDate": "2026-09-21"
+    },
+    {
+      "topic": "استشارة تغذية للقولون العصبي: التحضير وأسئلة الفودماب",
+      "articleKey": "ibs-consultation",
+      "primaryKeyword": "استشارة تغذية للقولون العصبي",
+      "supportingKeywords": [
+        "التحضير لحمية الفودماب",
+        "إعادة إدخال الأطعمة والقولون العصبي"
+      ],
+      "intent": "التحضير لمتابعة غذائية بعد التقييم الطبي وفحص حدود خدمة الفودماب",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": "لا يوجد مقال متخصص بالقولون؛ مذكرات الطعام أداة عامة، والجديد عن التشخيص ومراحل الفودماب والقيود الهضمية.",
+      "decisionHelp": "التحضير لمتابعة غذائية بعد التقييم الطبي وفحص حدود خدمة الفودماب",
+      "status": "published",
+      "plannedFor": "2026-09-21",
+      "bodyWordsExcludingHeadings": 1041,
+      "keywordCheckedAt": "2026-09-21",
+      "publishedDate": "2026-09-21"
+    },
+    {
+      "topic": "استشارة تغذية لسكري الحمل: ماذا تحضرين وتسألين؟",
+      "articleKey": "gestational-diabetes-consultation",
+      "primaryKeyword": "استشارة تغذية لسكري الحمل",
+      "supportingKeywords": [
+        "التحضير لموعد سكري الحمل",
+        "أسئلة الوجبات وقياس السكر للحامل"
+      ],
+      "intent": "الاستعداد لاستشارة تنسق مع فريق الحمل دون تغيير الدواء أو الحصص ذاتياً",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": "تغذية الحمل العامة لا تغطي قرار متابعة سكري الحمل والسجلات؛ مقال السكري2 مختلف في الفئة والاحتياجات.",
+      "decisionHelp": "الاستعداد لاستشارة تنسق مع فريق الحمل دون تغيير الدواء أو الحصص ذاتياً",
+      "status": "published",
+      "plannedFor": "2026-09-21",
+      "bodyWordsExcludingHeadings": 1017,
+      "keywordCheckedAt": "2026-09-21",
+      "publishedDate": "2026-09-21"
+    },
+    {
+      "topic": "النوم مع تكيس المبايض: متى تحتاجين تقييماً؟",
+      "articleKey": "pcos-sleep-assessment",
+      "primaryKeyword": "النوم مع تكيس المبايض",
+      "supportingKeywords": [
+        "تكيس المبايض والشخير",
+        "تقييم النوم مع التكيس"
+      ],
+      "intent": "تمييز الحاجة إلى تقييم النوم عن تعلم معلومات عامة عن التكيس",
+      "businessGoal": "course",
+      "targetPage": "/course/تكيس-المبايض",
+      "avoidOverlap": "sleep يتناول الوزن والنوم عموماً؛ الجديد يختص بفرز أعراض النوم مع التكيس وحدود التثقيف، ولا يعيد الروتين أو الحمية.",
+      "decisionHelp": "تمييز الحاجة إلى تقييم النوم عن تعلم معلومات عامة عن التكيس",
+      "status": "published",
+      "plannedFor": "2026-09-22",
+      "bodyWordsExcludingHeadings": 1083,
+      "keywordCheckedAt": "2026-09-22",
+      "publishedDate": "2026-09-22"
+    },
+    {
+      "topic": "تطبيق كورس التغذية: من مشاهدة الدرس إلى مهارة يومية",
+      "articleKey": "course-application",
+      "primaryKeyword": "تطبيق كورس التغذية",
+      "supportingKeywords": [
+        "الاستفادة من كورس التغذية",
+        "تنظيم تعلم التغذية"
+      ],
+      "intent": "تقييم وقت التطبيق وطريقة الاستفادة قبل الاشتراك وخلال التعلم",
+      "businessGoal": "course",
+      "targetPage": "/course/المسار-الصحي",
+      "avoidOverlap": "habits أهداف عامة؛ recorded-live صيغة الكورس؛ الجديد يركز على نقل التعلم واستيعاب الدرس وتقييم المهارة، لا يعيد مقارنة الدورات.",
+      "decisionHelp": "تقييم وقت التطبيق وطريقة الاستفادة قبل الاشتراك وخلال التعلم",
+      "status": "published",
+      "plannedFor": "2026-09-22",
+      "bodyWordsExcludingHeadings": 1181,
+      "keywordCheckedAt": "2026-09-22",
+      "publishedDate": "2026-09-22"
+    },
+    {
+      "topic": "استشارة تغذية للسيلياك: التحضير بعد التشخيص",
+      "articleKey": "celiac-consultation",
+      "primaryKeyword": "استشارة تغذية للسيلياك",
+      "supportingKeywords": [
+        "التغذية بعد تشخيص السيلياك",
+        "تجنب انتقال الغلوتين"
+      ],
+      "intent": "التحضير لدعم غذائي متخصص بعد التشخيص وتأكيد ملاءمة الخدمة",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": "لا مقال سيلياك متخصص؛ IBS فودماب مختلف؛ food-exclusions عن عدم المنع التلقائي بالتكيس. الجديد عن الحمية المطلوبة بعد التشخيص.",
+      "decisionHelp": "التحضير لدعم غذائي متخصص بعد التشخيص وتأكيد ملاءمة الخدمة",
+      "status": "published",
+      "plannedFor": "2026-09-22",
+      "bodyWordsExcludingHeadings": 1095,
+      "keywordCheckedAt": "2026-09-22",
+      "publishedDate": "2026-09-22"
+    },
+    {
+      "topic": "استشارة تغذية لنقص الحديد: التقارير وأسئلة الوجبات",
+      "articleKey": "iron-consultation",
+      "primaryKeyword": "استشارة تغذية لنقص الحديد",
+      "supportingKeywords": [
+        "التحضير لاستشارة نقص الحديد",
+        "الغذاء ومكمل الحديد"
+      ],
+      "intent": "تنظيم الجانب الغذائي بالتكامل مع علاج سبب نقص الحديد",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": "cycle-nutrition يتناول الدورة؛ consultation-labs تحضير عام؛ الجديد دعم نقص الحديد المثبت وتنسيق الوجبات وتعليمات الدواء دون تكرار تشخيص عام.",
+      "decisionHelp": "تنظيم الجانب الغذائي بالتكامل مع علاج سبب نقص الحديد",
+      "status": "published",
+      "plannedFor": "2026-09-22",
+      "bodyWordsExcludingHeadings": 1112,
+      "keywordCheckedAt": "2026-09-22",
+      "publishedDate": "2026-09-22"
+    },
+    {
+      "topic": "متابعة الدورة مع تكيس المبايض: سجل وأسئلة للطبيب",
+      "articleKey": "pcos-cycle-log",
+      "primaryKeyword": "متابعة الدورة مع تكيس المبايض",
+      "supportingKeywords": [
+        "سجل الدورة مع التكيس",
+        "تأخر الدورة والتكيس"
+      ],
+      "intent": "تنظيم ملاحظات الدورة وفهم حدود التعلم قبل اختيار دعم تثقيفي",
+      "businessGoal": "course",
+      "targetPage": "/course/تكيس-المبايض",
+      "avoidOverlap": "cycle-nutrition يشرح الطعام خلال الدورة؛ pcos-normal-weight يناقش أهدافاً خارج الوزن؛ الجديد أداة تسجيل وتواصل حول النزف وليس حمية أو تشخيصاً أو حساب إباضة.",
+      "decisionHelp": "تنظيم ملاحظات الدورة وفهم حدود التعلم قبل اختيار دعم تثقيفي",
+      "status": "published",
+      "plannedFor": "2026-09-23",
+      "bodyWordsExcludingHeadings": 1029,
+      "keywordCheckedAt": "2026-09-23",
+      "publishedDate": "2026-09-23"
+    },
+    {
+      "topic": "التغذية مع المناوبات الليلية: تنظيم الوجبات بمرونة",
+      "articleKey": "shift-work-meals",
+      "primaryKeyword": "التغذية مع المناوبات الليلية",
+      "supportingKeywords": [
+        "وجبات العمل الليلي",
+        "تنظيم الطعام مع المناوبات"
+      ],
+      "intent": "تحديد المهارات اللوجستية والغذائية اللازمة للعمل المتبدل ومدى فائدة التعلم العام",
+      "businessGoal": "course",
+      "targetPage": "/course/المسار-الصحي",
+      "avoidOverlap": "weekly-meals يغطي التجهيز والحفظ المنزلي؛ الجديد يركز على التناوب والاستراحة ومكان العمل والبديل عند تغير الوردية، لا يعيد كورس الاختيار أو التطبيق.",
+      "decisionHelp": "تحديد المهارات اللوجستية والغذائية اللازمة للعمل المتبدل ومدى فائدة التعلم العام",
+      "status": "published",
+      "plannedFor": "2026-09-23",
+      "bodyWordsExcludingHeadings": 1142,
+      "keywordCheckedAt": "2026-09-23",
+      "publishedDate": "2026-09-23"
+    },
+    {
+      "topic": "استشارة تغذية لارتفاع الكوليسترول: جهزي ملفك وأسئلتك",
+      "articleKey": "cholesterol-consultation",
+      "primaryKeyword": "استشارة تغذية لارتفاع الكوليسترول",
+      "supportingKeywords": [
+        "التحضير لاستشارة الكوليسترول",
+        "تقرير الدهون والتغذية"
+      ],
+      "intent": "تحضير ملف وشرح احتياجات التطبيق الغذائي والتنسيق مع الطبيب قبل الموعد",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": "heart-nutrition يملك شرح البدائل الغذائية وخفض الكوليسترول؛ الجديد لا يعيد الحمية، بل يركز على تنظيم التقرير والوحدات والأدوية وأسئلة نطاق الخدمة والمتابعة.",
+      "decisionHelp": "تحضير ملف وشرح احتياجات التطبيق الغذائي والتنسيق مع الطبيب قبل الموعد",
+      "status": "published",
+      "plannedFor": "2026-09-23",
+      "bodyWordsExcludingHeadings": 1103,
+      "keywordCheckedAt": "2026-09-23",
+      "publishedDate": "2026-09-23"
+    },
+    {
+      "topic": "استشارة تغذية لزيادة الوزن: ما الذي تحضرينه وتسألينه؟",
+      "articleKey": "weight-gain-consultation",
+      "primaryKeyword": "استشارة تغذية لزيادة الوزن",
+      "supportingKeywords": [
+        "التحضير لاستشارة النحافة",
+        "ضعف الشهية وزيادة الوزن"
+      ],
+      "intent": "اختيار تسلسل التقييم الطبي والتحضير لخطة غذائية لزيادة الوزن تناسب العائق الفعلي",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": "older-nutrition يخص كبار السن؛ personal-meal-plan يقارن صيغ الخطط؛ الجديد مخصص للبالغات والسياق الزمني لانخفاض الوزن والشهية وحدود المكملات قبل الحجز.",
+      "decisionHelp": "اختيار تسلسل التقييم الطبي والتحضير لخطة غذائية لزيادة الوزن تناسب العائق الفعلي",
+      "status": "published",
+      "plannedFor": "2026-09-23",
+      "bodyWordsExcludingHeadings": 1182,
+      "keywordCheckedAt": "2026-09-23",
+      "publishedDate": "2026-09-23"
+    },
+    {
+      "topic": "تكيس المبايض وتساقط الشعر: حدود التغذية وأسئلة التقييم",
+      "articleKey": "pcos-hair-loss",
+      "primaryKeyword": "تكيس المبايض وتساقط الشعر",
+      "supportingKeywords": [
+        "التغذية وتساقط الشعر مع التكيس",
+        "فيتامينات الشعر والتكيس"
+      ],
+      "intent": "تمييز التقييم الطبي عن التعلم الغذائي قبل شراء حلول للشعر",
+      "businessGoal": "course",
+      "targetPage": "/course/تكيس-المبايض",
+      "avoidOverlap": "pcos-supplements يناقش الإينوزيتول ومكملات التكيس؛ الجديد يملك شكوى الشعر وتعدد أسبابها ونطاق كل جهة، ولا يعيد توصيات المكملات العامة.",
+      "decisionHelp": "تمييز التقييم الطبي عن التعلم الغذائي قبل شراء حلول للشعر",
+      "status": "published",
+      "plannedFor": "2026-09-24",
+      "bodyWordsExcludingHeadings": 1030,
+      "keywordCheckedAt": "2026-09-24",
+      "publishedDate": "2026-09-24"
+    },
+    {
+      "topic": "الأكل الصحي خارج المنزل: مهارات قراءة القائمة والطلب",
+      "articleKey": "dining-out-skills",
+      "primaryKeyword": "الأكل الصحي خارج المنزل",
+      "supportingKeywords": [
+        "اختيار وجبة في المطعم",
+        "قراءة قائمة الطعام"
+      ],
+      "intent": "تعلم مهارات المقارنة والطلب في المطاعم وتقييم الحاجة لتعلم غذائي عام",
+      "businessGoal": "course",
+      "targetPage": "/course/المسار-الصحي",
+      "avoidOverlap": "food-labels للعبوات، budget-nutrition-learning للتسوق، weekly-meals للتحضير؛ الجديد لقائمة المطعم والتفاوض على الطلب والمواقف الاجتماعية.",
+      "decisionHelp": "تعلم مهارات المقارنة والطلب في المطاعم وتقييم الحاجة لتعلم غذائي عام",
+      "status": "published",
+      "plannedFor": "2026-09-24",
+      "bodyWordsExcludingHeadings": 1093,
+      "keywordCheckedAt": "2026-09-24",
+      "publishedDate": "2026-09-24"
+    },
+    {
+      "topic": "التغذية مع ارتجاع المريء: التوقيت والمحفزات دون منع شامل",
+      "articleKey": "reflux-nutrition",
+      "primaryKeyword": "التغذية مع ارتجاع المريء",
+      "supportingKeywords": [
+        "استشارة تغذية للارتجاع",
+        "محفزات ارتجاع المريء"
+      ],
+      "intent": "اختيار تعديل غذائي فردي للارتجاع بعد التقييم، وتحديد متى لا تكفي قائمة الطعام",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": "ibs-consultation خاص بالقولون والفودماب؛ food-diary أداة تدوين عامة؛ الجديد توقيت النوم والوجبات ومحفزات الارتجاع وحدود التجارب الغذائية.",
+      "decisionHelp": "اختيار تعديل غذائي فردي للارتجاع بعد التقييم، وتحديد متى لا تكفي قائمة الطعام",
+      "status": "published",
+      "plannedFor": "2026-09-24",
+      "bodyWordsExcludingHeadings": 1094,
+      "keywordCheckedAt": "2026-09-24",
+      "publishedDate": "2026-09-24"
+    },
+    {
+      "topic": "التغذية لارتفاع ضغط الدم: تقليل الملح وخيارات تناسب البيت",
+      "articleKey": "blood-pressure-nutrition",
+      "primaryKeyword": "التغذية لارتفاع ضغط الدم",
+      "supportingKeywords": [
+        "تقليل الملح مع الضغط",
+        "بدائل الملح والبوتاسيوم",
+        "نظام داش الغذائي"
+      ],
+      "intent": "تحويل نصيحة تقليل الملح إلى قرار شراء ووصفة قابلة للتطبيق مع مراعاة الأدوية والكلى",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": "heart-nutrition للكوليسترول والدهون؛ food-labels قراءة عامة؛ الجديد الصوديوم والوصفة المشتركة واستثناءات بدائل الملح مع الضغط.",
+      "decisionHelp": "تحويل نصيحة تقليل الملح إلى قرار شراء ووصفة قابلة للتطبيق مع مراعاة الأدوية والكلى",
+      "status": "published",
+      "plannedFor": "2026-09-24",
+      "bodyWordsExcludingHeadings": 1117,
+      "keywordCheckedAt": "2026-09-24",
+      "publishedDate": "2026-09-24"
+    },
+    {
+      "topic": "تكيس المبايض وحب الشباب: أين تدخل التغذية؟",
+      "articleKey": "pcos-acne",
+      "primaryKeyword": "تكيس المبايض وحب الشباب",
+      "supportingKeywords": [
+        "التغذية وحب الشباب مع التكيس",
+        "حمية تكيس المبايض للبشرة"
+      ],
+      "intent": "فهم حدود الغذاء واختيار التقييم الطبي أو التعلم المنظم دون شراء وعود للبشرة",
+      "businessGoal": "course",
+      "targetPage": "/course/تكيس-المبايض",
+      "avoidOverlap": "pcos-hair-loss يتناول الشعر، وpcos-food-exclusions يتناول المنع؛ الجديد يملك شكوى حب الشباب وتقسيم الأدوار بين الجلدية والتغذية والكورس.",
+      "decisionHelp": "فهم حدود الغذاء واختيار التقييم الطبي أو التعلم المنظم دون شراء وعود للبشرة",
+      "status": "published",
+      "plannedFor": "2026-09-25",
+      "publishedDate": "2026-09-25",
+      "bodyWordsExcludingHeadings": 1051,
+      "keywordCheckedAt": "2026-09-25"
+    },
+    {
+      "topic": "تنظيم الأكل أثناء السفر: خطة مرنة وآمنة",
+      "articleKey": "travel-meal-planning",
+      "primaryKeyword": "تنظيم الأكل أثناء السفر",
+      "supportingKeywords": [
+        "وجبات صحية للسفر",
+        "التغذية في السفر"
+      ],
+      "intent": "تعلم مهارات غذائية قابلة للنقل وتقييم الحاجة إلى كورس عام منظم",
+      "businessGoal": "course",
+      "targetPage": "/course/المسار-الصحي",
+      "avoidOverlap": "dining-out-skills للمطاعم، والweekly-meals للتحضير المنزلي؛ الجديد لمسار السفر والتأخير والحفظ والعودة للروتين.",
+      "decisionHelp": "تعلم مهارات غذائية قابلة للنقل وتقييم الحاجة إلى كورس عام منظم",
+      "status": "published",
+      "plannedFor": "2026-09-25",
+      "publishedDate": "2026-09-25",
+      "bodyWordsExcludingHeadings": 1032,
+      "keywordCheckedAt": "2026-09-25"
+    },
+    {
+      "topic": "استشارة تغذية للكبد الدهني: ماذا تحضرين وتسألين؟",
+      "articleKey": "fatty-liver-consultation",
+      "primaryKeyword": "استشارة تغذية للكبد الدهني",
+      "supportingKeywords": [
+        "نظام غذائي للكبد الدهني",
+        "التحضير لاستشارة MASLD"
+      ],
+      "intent": "التحضير لخدمة فردية بعد التشخيص وفهم حدودها مقابل المتابعة الطبية",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": "weight-gain-consultation وconsultation-labs عامان؛ الجديد لتشخيص MASLD وتقارير الكبد والتنسيق مع الطبيب.",
+      "decisionHelp": "التحضير لخدمة فردية بعد التشخيص وفهم حدودها مقابل المتابعة الطبية",
+      "status": "published",
+      "plannedFor": "2026-09-25",
+      "publishedDate": "2026-09-25",
+      "bodyWordsExcludingHeadings": 1040,
+      "keywordCheckedAt": "2026-09-25"
+    },
+    {
+      "topic": "استشارة تغذية لحساسية الطعام: التحضير والبدائل الآمنة",
+      "articleKey": "food-allergy-consultation",
+      "primaryKeyword": "استشارة تغذية لحساسية الطعام",
+      "supportingKeywords": [
+        "بدائل حساسية الطعام",
+        "قراءة ملصقات مسببات الحساسية"
+      ],
+      "intent": "التحضير لاستشارة تطبيقية بعد التشخيص مع فصل السلامة الطبية عن تخطيط الوجبات",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": "food-labels عام للبطاقة، وceliac-consultation خاص بالسيلياك؛ الجديد للحساسية المناعية وخطة الطوارئ والتلامس المتبادل.",
+      "decisionHelp": "التحضير لاستشارة تطبيقية بعد التشخيص مع فصل السلامة الطبية عن تخطيط الوجبات",
+      "status": "published",
+      "plannedFor": "2026-09-25",
+      "publishedDate": "2026-09-25",
+      "bodyWordsExcludingHeadings": 1033,
+      "keywordCheckedAt": "2026-09-25"
+    },
+    {
+      "topic": "ماذا بعد تشخيص تكيس المبايض؟ خارطة الأسئلة والخطوات",
+      "articleKey": "pcos-after-diagnosis",
+      "primaryKeyword": "ماذا بعد تشخيص تكيس المبايض",
+      "supportingKeywords": [
+        "أول خطوات بعد تشخيص التكيس",
+        "أسئلة بعد تشخيص تكيس المبايض"
+      ],
+      "intent": "تنظيم الخطوات الأولى بعد التشخيص وتقييم ملاءمة التعلم المنظم مع الحفاظ على دور الطبيب",
+      "businessGoal": "course",
+      "targetPage": "/course/تكيس-المبايض",
+      "avoidOverlap": "pcos-support يقارن بين الكورس والاستشارة، وpcos-cycle-log يركز على سجل الدورة؛ الجديد يبني خارطة الأيام الأولى بعد التشخيص وتقسيم الأسئلة.",
+      "decisionHelp": "تنظيم الخطوات الأولى بعد التشخيص وتقييم ملاءمة التعلم المنظم مع الحفاظ على دور الطبيب",
+      "status": "draft",
+      "plannedFor": "2026-09-26",
+      "bodyWordsExcludingHeadings": 1044,
+      "keywordCheckedAt": "2026-09-26"
+    },
+    {
+      "topic": "كورس تغذية مجاني للمبتدئات: كيف تستفيدين منه؟",
+      "articleKey": "free-nutrition-course-start",
+      "primaryKeyword": "كورس تغذية مجاني للمبتدئات",
+      "supportingKeywords": [
+        "كورس تغذية مجاني",
+        "تعلم التغذية للمبتدئين"
+      ],
+      "intent": "تقييم نقطة بداية مجانية والاستفادة منها قبل قرار برنامج أعمق أو استشارة",
+      "businessGoal": "course",
+      "targetPage": "/course/رحلة-التغيير",
+      "avoidOverlap": "nutrition-course-choice يقارن معايير شراء الكورسات، وcourse-application يشرح التطبيق بعد التسجيل؛ الجديد يركز على أول تجربة مجانية وكيفية قياس ملاءمتها.",
+      "decisionHelp": "تقييم نقطة بداية مجانية والاستفادة منها قبل قرار برنامج أعمق أو استشارة",
+      "status": "draft",
+      "plannedFor": "2026-09-26",
+      "bodyWordsExcludingHeadings": 1006,
+      "keywordCheckedAt": "2026-09-26"
+    },
+    {
+      "topic": "استشارة تغذية للنقرس وارتفاع حمض اليوريك: ماذا تحضرين؟",
+      "articleKey": "gout-consultation",
+      "primaryKeyword": "استشارة تغذية للنقرس",
+      "supportingKeywords": [
+        "نظام غذائي لارتفاع حمض اليوريك",
+        "التحضير لاستشارة النقرس"
+      ],
+      "intent": "التحضير لخدمة غذائية بعد التقييم الطبي وفهم أن الغذاء يدعم العلاج ولا يستبدله",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": "kidney-stone content غير موجود، وfood-diary عام؛ الجديد يخص النقرس وحمض اليوريك وتقسيم الدور بين الروماتيزم والتغذية.",
+      "decisionHelp": "التحضير لخدمة غذائية بعد التقييم الطبي وفهم أن الغذاء يدعم العلاج ولا يستبدله",
+      "status": "draft",
+      "plannedFor": "2026-09-26",
+      "bodyWordsExcludingHeadings": 1012,
+      "keywordCheckedAt": "2026-09-26"
+    },
+    {
+      "topic": "استشارة تغذية للإمساك المزمن: التحضير والألياف بأمان",
+      "articleKey": "constipation-consultation",
+      "primaryKeyword": "استشارة تغذية للإمساك المزمن",
+      "supportingKeywords": [
+        "الألياف للإمساك",
+        "التحضير لاستشارة الإمساك"
+      ],
+      "intent": "التحضير لخدمة فردية مع فرز علامات الإنذار وتجنب زيادة الألياف أو المكملات عشوائياً",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": "ibs-consultation يركز على القولون العصبي وفودماب؛ الجديد للإمساك المزمن والسجل والأدوية والتدرج.",
+      "decisionHelp": "التحضير لخدمة فردية مع فرز علامات الإنذار وتجنب زيادة الألياف أو المكملات عشوائياً",
+      "status": "draft",
+      "plannedFor": "2026-09-26",
+      "bodyWordsExcludingHeadings": 1135,
+      "keywordCheckedAt": "2026-09-26"
+    },
+    {
+      "topic": "كيف تختارين هدفك داخل كورس تكيس المبايض؟",
+      "articleKey": "pcos-course-goals",
+      "primaryKeyword": "كورس تكيس المبايض",
+      "supportingKeywords": [
+        "اختيار هدف كورس التكيس",
+        "كيف أستفيد من كورس تكيس المبايض"
+      ],
+      "intent": "مساعدة الباحثة القريبة من الاشتراك على اختيار هدف تعلم واقعي وفهم حدود الكورس.",
+      "businessGoal": "course",
+      "targetPage": "/course/تكيس-المبايض",
+      "avoidOverlap": "pcos-support يقارن الكورس بالاستشارة، وpcos-after-diagnosis يرتب الأيام الأولى؛ هذه الصفحة تركز على اختيار مسار التعلم داخل المنهج.",
+      "decisionHelp": "مساعدة الباحثة القريبة من الاشتراك على اختيار هدف تعلم واقعي وفهم حدود الكورس.",
+      "status": "draft",
+      "plannedFor": "2026-09-27",
+      "bodyWordsExcludingHeadings": 1069,
+      "keywordCheckedAt": "2026-09-27"
+    },
+    {
+      "topic": "كورس المسار الصحي بعد الحميات المتكررة: كيف تبدئين؟",
+      "articleKey": "healthy-path-after-diets",
+      "primaryKeyword": "كورس المسار الصحي",
+      "supportingKeywords": [
+        "كورس بعد الحميات المتكررة",
+        "تعلم العادات الغذائية الصحية"
+      ],
+      "intent": "مساعدة الباحثة في تقييم التعلم المنظم بعد تكرار الحميات والاستعداد لاستخدام الكورس بواقعية.",
+      "businessGoal": "course",
+      "targetPage": "/course/المسار-الصحي",
+      "avoidOverlap": "weight-maintenance يشرح الحفاظ على الوزن، وnutrition-course-choice يشرح معايير الشراء؛ هذه الصفحة تعالج بداية الكورس بعد خبرة الحميات المتكررة.",
+      "decisionHelp": "مساعدة الباحثة في تقييم التعلم المنظم بعد تكرار الحميات والاستعداد لاستخدام الكورس بواقعية.",
+      "status": "draft",
+      "plannedFor": "2026-09-27",
+      "bodyWordsExcludingHeadings": 1025,
+      "keywordCheckedAt": "2026-09-27"
+    },
+    {
+      "topic": "استشارة تغذية لحصوات الكلى: ماذا تحضرين؟",
+      "articleKey": "kidney-stones-consultation",
+      "primaryKeyword": "استشارة تغذية لحصوات الكلى",
+      "supportingKeywords": [
+        "نظام غذائي لحصوات الكلى",
+        "التحضير لاستشارة حصوات الكلى"
+      ],
+      "intent": "تحضير الباحثة لخدمة فردية بعد التشخيص وفهم ارتباط الغذاء بنوع الحصوة.",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": "gout-consultation يخص النقرس وحمض اليوريك؛ هذه الصفحة تركز على أنواع حصوات الكلى والتقارير والسوائل والكالسيوم.",
+      "decisionHelp": "تحضير الباحثة لخدمة فردية بعد التشخيص وفهم ارتباط الغذاء بنوع الحصوة.",
+      "status": "draft",
+      "plannedFor": "2026-09-27",
+      "bodyWordsExcludingHeadings": 1010,
+      "keywordCheckedAt": "2026-09-27"
+    },
+    {
+      "topic": "استشارة تغذية لصحة العظام بعد انقطاع الطمث: ماذا تحضرين؟",
+      "articleKey": "bone-health-consultation",
+      "primaryKeyword": "استشارة تغذية لصحة العظام بعد انقطاع الطمث",
+      "supportingKeywords": [
+        "تغذية هشاشة العظام",
+        "الكالسيوم وفيتامين د بعد انقطاع الطمث"
+      ],
+      "intent": "تحضير المرأة لخدمة غذائية داعمة بعد تقييم كثافة العظام مع إبقاء التشخيص والدواء لدى الطبيب.",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": "menopause-nutrition يقدم نظرة عامة للمرحلة؛ هذه الصفحة دليل قرار وتحضير لاستشارة صحة العظام.",
+      "decisionHelp": "تحضير المرأة لخدمة غذائية داعمة بعد تقييم كثافة العظام مع إبقاء التشخيص والدواء لدى الطبيب.",
+      "status": "draft",
+      "plannedFor": "2026-09-27",
+      "bodyWordsExcludingHeadings": 1041,
+      "keywordCheckedAt": "2026-09-27"
+    },
+    {
+      "articleKey": "ckd-nutrition-consultation",
+      "primaryKeyword": "استشارة تغذية لمرض الكلى المزمن",
+      "supportingKeywords": [
+        "غذاء مرض الكلى المزمن",
+        "البروتين والغسيل الكلوي",
+        "تحضير استشارة تغذية كلوية"
+      ],
+      "intent": "معلوماتي داعم لقرار ملاءمة الخدمة والتحضير، لا نية شراء مباشرة",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": [
+        "kidney-stones-consultation",
+        "consultation-labs"
+      ],
+      "decisionHelp": "تحديد خدمة تغذية كلوية مناسبة وتجهيز التعليمات والتقارير؛ لا حمية حصوات أو تفسير تحاليل.",
+      "status": "published",
+      "plannedFor": "2026-09-28",
+      "bodyWordsExcludingHeadings": 1149,
+      "keywordCheckedAt": "2026-09-28",
+      "publishedDate": "2026-09-28",
+      "canonicalUrl": "https://ruladiet.com/blog/التغذية-اليومية/أساسيات-التغذية/استشارة-تغذية-لمرض-الكلى-المزمن"
+    },
+    {
+      "articleKey": "bariatric-followup-nutrition",
+      "primaryKeyword": "التغذية بعد جراحة السمنة",
+      "supportingKeywords": [
+        "متابعة التغذية بعد التكميم",
+        "استشارة تغذية بعد جراحة السمنة",
+        "مراحل الطعام بعد الجراحة"
+      ],
+      "intent": "معلوماتي داعم لقرار ملاءمة الخدمة والتحضير، لا نية شراء مباشرة",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": [
+        "weight-maintenance",
+        "injection-diet",
+        "consultation-labs"
+      ],
+      "decisionHelp": "اختيار متابعة ملائمة للعملية والتنسيق مع المركز، وليس جدولاً جراحياً أو بيع خدمة متخصصة غير مؤكدة.",
+      "status": "published",
+      "plannedFor": "2026-09-28",
+      "bodyWordsExcludingHeadings": 1115,
+      "keywordCheckedAt": "2026-09-28",
+      "publishedDate": "2026-09-28",
+      "canonicalUrl": "https://ruladiet.com/blog/إدارة-الوزن/خسارة-الوزن/التغذية-بعد-جراحة-السمنة-للمتابعة"
+    },
+    {
+      "articleKey": "adolescent-pcos-learning",
+      "primaryKeyword": "تكيس المبايض عند المراهقات",
+      "supportingKeywords": [
+        "تشخيص تكيس المبايض للمراهقات",
+        "عدم انتظام الدورة في المراهقة",
+        "تثقيف الأسرة عن التكيس"
+      ],
+      "intent": "معلوماتي داعم لقرار ملاءمة الخدمة والتحضير، لا نية شراء مباشرة",
+      "businessGoal": "course",
+      "targetPage": "/course/تكيس-المبايض",
+      "avoidOverlap": [
+        "teen-nutrition",
+        "pcos-cyst-difference",
+        "pcos-support",
+        "pcos-course-goals"
+      ],
+      "decisionHelp": "التقييم أولاً؛ تحديد حدود مادة عامة لولي الأمر وعدم تقديم كورس البالغات كعلاج للمراهقة.",
+      "status": "published",
+      "plannedFor": "2026-09-28",
+      "bodyWordsExcludingHeadings": 1129,
+      "keywordCheckedAt": "2026-09-28",
+      "publishedDate": "2026-09-28",
+      "canonicalUrl": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/تكيس-المبايض-عند-المراهقات-وحدود-التعلم"
+    },
+    {
+      "articleKey": "plant-protein-skills",
+      "primaryKeyword": "تنويع البروتين النباتي",
+      "supportingKeywords": [
+        "مصادر البروتين النباتي للوجبات",
+        "مسحوق البروتين أم الطعام",
+        "تعلم تجهيز وجبات نباتية"
+      ],
+      "intent": "معلوماتي داعم لقرار ملاءمة الخدمة والتحضير، لا نية شراء مباشرة",
+      "businessGoal": "course",
+      "targetPage": "/course/المسار-الصحي",
+      "avoidOverlap": [
+        "vegan-consultation",
+        "weekly-meals",
+        "food-labels"
+      ],
+      "decisionHelp": "تعلم تركيب وجبات ومقارنة المنتجات قبل شراء مسحوق؛ لا مراجعة كفاية نظام نباتي كامل أو أهداف علاجية.",
+      "status": "published",
+      "plannedFor": "2026-09-28",
+      "bodyWordsExcludingHeadings": 1136,
+      "keywordCheckedAt": "2026-09-28",
+      "publishedDate": "2026-09-28",
+      "canonicalUrl": "https://ruladiet.com/blog/التغذية-اليومية/الوجبات-والوصفات/تنويع-البروتين-النباتي-قبل-شراء-المساحيق"
+    },
+    {
+      "articleKey": "lactose-consultation",
+      "primaryKeyword": "بدائل الحليب لعدم تحمل اللاكتوز",
+      "supportingKeywords": [
+        "استشارة تغذية للاكتوز",
+        "اللاكتوز وحساسية الحليب"
+      ],
+      "intent": "معلوماتي داعم لملاءمة الخدمة والتعلم، لا صفحة بيع منافسة",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": [
+        "food-allergy-consultation",
+        "ibs-consultation",
+        "food-labels"
+      ],
+      "decisionHelp": "اختيار تقييم مناسب وتنظيم البدائل بعد وضوح التشخيص؛ لا خطة حساسية أو حمية فودماب.",
+      "status": "published",
+      "plannedFor": "2026-09-29",
+      "bodyWordsExcludingHeadings": 1118,
+      "keywordCheckedAt": "2026-09-29",
+      "published": "2026-09-29",
+      "url": "https://ruladiet.com/blog/التغذية-اليومية/أساسيات-التغذية/استشارة-تغذية-لعدم-تحمل-اللاكتوز"
+    },
+    {
+      "articleKey": "swallowing-nutrition-coordination",
+      "primaryKeyword": "التغذية مع صعوبة البلع",
+      "supportingKeywords": [
+        "استشارة تغذية عسر البلع",
+        "تقرير البلع للأسرة"
+      ],
+      "intent": "معلوماتي داعم لملاءمة الخدمة والتعلم، لا صفحة بيع منافسة",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": [
+        "older-nutrition",
+        "reflux-nutrition"
+      ],
+      "decisionHelp": "اختيار خدمة تعمل داخل تقرير بلع معتمد وتنسيق الفريق؛ لا قائمة طعام لين أو تشخيص.",
+      "status": "published",
+      "plannedFor": "2026-09-29",
+      "bodyWordsExcludingHeadings": 1104,
+      "keywordCheckedAt": "2026-09-29",
+      "published": "2026-09-29",
+      "url": "https://ruladiet.com/blog/تغذية-الأسرة/تغذية-كبار-السن/التغذية-مع-صعوبة-البلع-وتنسيق-الرعاية"
+    },
+    {
+      "articleKey": "pcos-fertility-questions",
+      "primaryKeyword": "تكيس المبايض وتأخر الحمل",
+      "supportingKeywords": [
+        "أسئلة طبيب الخصوبة مع التكيس",
+        "كورس التكيس والتبويض"
+      ],
+      "intent": "معلوماتي داعم لملاءمة الخدمة والتعلم، لا صفحة بيع منافسة",
+      "businessGoal": "course",
+      "targetPage": "/course/تكيس-المبايض",
+      "avoidOverlap": [
+        "preconception-consultation",
+        "pcos-cycle-log",
+        "pcos-course-goals"
+      ],
+      "decisionHelp": "اختيار تقييم الخصوبة في وقته وفهم أن وحدة الحمل تعليم عام؛ ليس سجل الدورة أو التحضير الغذائي العام قبل الحمل.",
+      "status": "published",
+      "plannedFor": "2026-09-29",
+      "bodyWordsExcludingHeadings": 1128,
+      "keywordCheckedAt": "2026-09-29",
+      "published": "2026-09-29",
+      "url": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/تكيس-المبايض-وتأخر-الحمل-أسئلة-التقييم"
+    },
+    {
+      "articleKey": "frozen-vegetable-skills",
+      "primaryKeyword": "الخضراوات المجمدة الصحية",
+      "supportingKeywords": [
+        "طهي الخضراوات المجمدة",
+        "شراء الخضراوات المجمدة"
+      ],
+      "intent": "معلوماتي داعم لملاءمة الخدمة والتعلم، لا صفحة بيع منافسة",
+      "businessGoal": "course",
+      "targetPage": "/course/المسار-الصحي",
+      "avoidOverlap": [
+        "weekly-meals",
+        "budget-nutrition-learning",
+        "food-labels"
+      ],
+      "decisionHelp": "تعلم اختيار منتج مجمد وتحضيره وفق عبوة محددة؛ لا إعادة خطة أسبوعية أو مقارنة عامة للميزانية.",
+      "status": "published",
+      "plannedFor": "2026-09-29",
+      "bodyWordsExcludingHeadings": 1103,
+      "keywordCheckedAt": "2026-09-29",
+      "published": "2026-09-29",
+      "url": "https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/اختيار-الخضراوات-المجمدة-للوجبات"
+    },
+    {
+      "articleKey": "medication-low-appetite-assessment",
+      "topic": "ضعف الشهية مع أدوية التنحيف: تقييم كفاية الغذاء قبل المتابعة",
+      "primaryKeyword": "ضعف الشهية مع إبر التنحيف",
+      "supportingKeywords": [
+        "قلة الأكل مع مونجارو",
+        "استشارة تغذية مع أدوية التنحيف"
+      ],
+      "decisionHelp": "معرفة ما يجمع للتقييم الغذائي ومتى تحتاج الأعراض إلى الطبيب، دون تكرار جدول وجبات مونجارو.",
+      "avoidOverlap": [
+        "mounjaro-diet",
+        "older-nutrition",
+        "injection-diet"
+      ],
+      "researchRequirement": "Verify current primary guidance on nutritional adequacy and medical warning signs before drafting; no diagnosis or drug changes.",
+      "status": "priority-backlog",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "intent": "معلوماتي داعم لاتخاذ قرار المتابعة الغذائية",
+      "keywordEvidence": "Owner-reported demand on anchor article; these related query hypotheses require current SERP/Search Console validation before publication.",
+      "priority": 1,
+      "topicId": "weight-medication",
+      "minimumWords": 1000
+    },
+    {
+      "articleKey": "weight-medication-transition",
+      "topic": "التغذية عند تغيير أو إيقاف أدوية التنحيف بإشراف الطبيب",
+      "primaryKeyword": "تثبيت الوزن بعد إيقاف إبر التنحيف",
+      "supportingKeywords": [
+        "عودة الشهية بعد أدوية التنحيف",
+        "متابعة التغذية بعد مونجارو"
+      ],
+      "decisionHelp": "التحضير لتغير الشهية بالتنسيق مع الطبيب واختيار متابعة الغذاء، دون تشجيع إيقاف الدواء أو إعادة مقال تثبيت الوزن العام.",
+      "avoidOverlap": [
+        "weight-maintenance",
+        "mounjaro",
+        "injection-diet"
+      ],
+      "researchRequirement": "Verify primary withdrawal trials and current guidance; no guaranteed prevention of regain or stopping instructions.",
+      "status": "priority-backlog",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "intent": "معلوماتي داعم لاتخاذ قرار المتابعة الغذائية",
+      "keywordEvidence": "Owner-reported demand on anchor article; these related query hypotheses require current SERP/Search Console validation before publication.",
+      "priority": 1,
+      "topicId": "weight-medication",
+      "minimumWords": 1000
+    },
+    {
+      "articleKey": "weight-medication-protein-review",
+      "topic": "البروتين أثناء أدوية التنحيف: الطعام أم المكمل؟",
+      "primaryKeyword": "البروتين مع إبر التنحيف",
+      "supportingKeywords": [
+        "مكمل بروتين مع مونجارو",
+        "الغذاء والعضلات أثناء أدوية التنحيف"
+      ],
+      "decisionHelp": "مراجعة مصادر الطعام والسياق الصحي والحاجة الفردية قبل شراء مسحوق؛ لا جرعة بروتين موحدة أو وعد بحفظ العضلات.",
+      "avoidOverlap": [
+        "mounjaro-diet",
+        "plant-protein-skills",
+        "ckd-nutrition-consultation"
+      ],
+      "researchRequirement": "Verify primary guidance on body composition and individualized nutrition; distinguish from plant-protein shopping article.",
+      "status": "priority-backlog",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "intent": "معلوماتي داعم لاتخاذ قرار المتابعة الغذائية",
+      "keywordEvidence": "Owner-reported demand on anchor article; these related query hypotheses require current SERP/Search Console validation before publication.",
+      "priority": 1,
+      "topicId": "weight-medication",
+      "minimumWords": 1000
+    },
+    {
+      "articleKey": "medication-appetite-review",
+      "primaryKeyword": "ضعف الشهية مع أدوية التنحيف",
+      "supportingKeywords": [
+        "تغذية مع حقن التنحيف",
+        "متى أراجع الطبيب مع تيرزيباتيد"
+      ],
+      "intent": "معلوماتي داعم لملاءمة الخدمة والتعلم، لا صفحة بيع منافسة",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": [
+        "mounjaro-diet",
+        "injection-diet",
+        "weight-maintenance"
+      ],
+      "decisionHelp": "تمييز مراجعة كفاية الغذاء عن الأعراض التي تتطلب الطبيب، والتحضير لسؤال متابعة التغذية.",
+      "status": "draft",
+      "plannedFor": "2026-09-30",
+      "bodyWordsExcludingHeadings": 1140,
+      "keywordCheckedAt": "2026-09-30"
+    },
+    {
+      "articleKey": "after-gallbladder-consultation",
+      "primaryKeyword": "استشارة تغذية بعد استئصال المرارة",
+      "supportingKeywords": [
+        "الأكل بعد استئصال المرارة",
+        "إسهال بعد عملية المرارة"
+      ],
+      "intent": "معلوماتي داعم لملاءمة الخدمة والتعلم، لا صفحة بيع منافسة",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": [
+        "reflux-nutrition",
+        "food-diary",
+        "bariatric-followup-nutrition"
+      ],
+      "decisionHelp": "التمييز بين العودة التدريجية للغذاء والحاجة لتقييم أعراض بعد الجراحة، واختيار نطاق استشارة مناسب.",
+      "status": "draft",
+      "plannedFor": "2026-09-30",
+      "bodyWordsExcludingHeadings": 1051,
+      "keywordCheckedAt": "2026-09-30"
+    },
+    {
+      "articleKey": "pcos-insulin-test-context",
+      "primaryKeyword": "تحليل الإنسولين مع تكيس المبايض",
+      "supportingKeywords": [
+        "مقاومة الإنسولين والتكيس",
+        "فحوص السكر مع التكيس"
+      ],
+      "intent": "معلوماتي داعم لملاءمة الخدمة والتعلم، لا صفحة بيع منافسة",
+      "businessGoal": "course",
+      "targetPage": "/course/تكيس-المبايض",
+      "avoidOverlap": [
+        "pcos-supplements",
+        "pcos-normal-weight",
+        "pcos-course-goals"
+      ],
+      "decisionHelp": "فهم حدود تحليل الإنسولين، سؤال الطبيب عن فحوص السكر المناسبة، واختيار الكورس للتثقيف فقط.",
+      "status": "draft",
+      "plannedFor": "2026-09-30",
+      "bodyWordsExcludingHeadings": 1015,
+      "keywordCheckedAt": "2026-09-30"
+    },
+    {
+      "articleKey": "whole-grain-shopping-skill",
+      "primaryKeyword": "اختيار الحبوب الكاملة من الملصق",
+      "supportingKeywords": [
+        "الخبز الأسمر والحبوب الكاملة",
+        "قراءة مكونات الخبز"
+      ],
+      "intent": "معلوماتي داعم لملاءمة الخدمة والتعلم، لا صفحة بيع منافسة",
+      "businessGoal": "course",
+      "targetPage": "/course/المسار-الصحي",
+      "avoidOverlap": [
+        "food-labels",
+        "budget-nutrition-learning",
+        "frozen-vegetable-skills"
+      ],
+      "decisionHelp": "اختيار عبوة حبوب محددة وتجربتها ضمن وجبة؛ المقال القديم يشرح الملصق عموماً.",
+      "status": "draft",
+      "plannedFor": "2026-09-30",
+      "bodyWordsExcludingHeadings": 1036,
+      "keywordCheckedAt": "2026-09-30"
     }
   ],
   "coverageBatch": {
@@ -678,6 +1716,848 @@
       "googleBlocker": null,
       "googleCheckedAt": "2026-09-15T10:08:27.624Z",
       "googleNote": "Observed pre-existing insulin-resistance update published today; daily Google target already met. No extra post submitted. Clinic-guide draft retained in the Google ledger draftQueue."
+    },
+    {
+      "date": "2026-09-19",
+      "status": "published",
+      "websiteStatus": "published",
+      "articles": [
+        {
+          "key": "consultation-labs",
+          "words": 1023,
+          "status": "published",
+          "plannedDate": "2026-09-19",
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/تحاليل-قبل-استشارة-التغذية",
+          "publishedDate": "2026-09-19"
+        },
+        {
+          "key": "pcos-supplements",
+          "words": 1028,
+          "status": "published",
+          "plannedDate": "2026-09-19",
+          "canonicalUrl": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/مكملات-تكيس-المبايض-قبل-الشراء",
+          "publishedDate": "2026-09-19"
+        },
+        {
+          "key": "food-diary",
+          "words": 1025,
+          "status": "published",
+          "plannedDate": "2026-09-19",
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/مذكرات-الطعام-قبل-استشارة-التغذية",
+          "publishedDate": "2026-09-19"
+        },
+        {
+          "key": "pcos-normal-weight",
+          "words": 1048,
+          "status": "published",
+          "plannedDate": "2026-09-19",
+          "canonicalUrl": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/تكيس-المبايض-مع-وزن-طبيعي",
+          "publishedDate": "2026-09-19"
+        }
+      ],
+      "businessBalance": {
+        "consultation": 2,
+        "course": 2
+      },
+      "research": "content/editorial-research/2026-09-16.json",
+      "blocker": null,
+      "publicationDateNote": "Original four drafts prepared Sep16 and published Sep19; no catch-up batch.",
+      "validation": {
+        "checkedAt": "2026-09-19T10:56:53.846Z",
+        "checkBlog": "pass: 45 articles, 45 unique covers",
+        "checkSite": "pass: 93 pages, 177 schemas, 3819 links; existing 588 null-byte warning unchanged",
+        "navigation": "pass: 77 breadcrumbs",
+        "migration": "pass: 945 redirects",
+        "categoryGuides": "pass: 31 guides, minimum 552 body words",
+        "diffCheck": "pass",
+        "coverVisualInspection": "All four covers inspected; modest fictional models/still life and no text artifacts.",
+        "browserPreview": "All four exact-head previews visually checked; descriptive Arabic TOC anchor verified. Mobile viewport override did not take effect; no mobile verification claimed.",
+        "production": "All four production pages HTTP200, Sep19 dates, HTML equals local after CRLF normalization; six responsive image assets per article HTTP200 and byte matched."
+      },
+      "preparedDate": "2026-09-16",
+      "productionCommit": "bec8de3958a98f1fe5b2cf063a9c244b8f0e2f72",
+      "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/33",
+      "verifiedAt": "2026-09-19T10:56:53.846Z",
+      "indexNow": {
+        "submittedAt": "2026-09-19T10:56:59.701Z",
+        "status": 200,
+        "changedUrls": 11
+      },
+      "googleStatus": "live",
+      "googleBlocker": null,
+      "googleCheckedAt": "2026-09-19T11:05:33.503Z"
+    },
+    {
+      "date": "2026-09-20",
+      "status": "published",
+      "websiteStatus": "published",
+      "articles": [
+        {
+          "key": "pcos-movement",
+          "words": 1042,
+          "status": "published",
+          "plannedDate": "2026-09-20",
+          "canonicalUrl": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/الرياضة-مع-تكيس-المبايض",
+          "publishedDate": "2026-09-20"
+        },
+        {
+          "key": "pcos-food-exclusions",
+          "words": 1009,
+          "status": "published",
+          "plannedDate": "2026-09-20",
+          "canonicalUrl": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/تكيس-المبايض-والغلوتين-والألبان",
+          "publishedDate": "2026-09-20"
+        },
+        {
+          "key": "selective-eating-consultation",
+          "words": 1052,
+          "status": "published",
+          "plannedDate": "2026-09-20",
+          "canonicalUrl": "https://ruladiet.com/blog/category/تغذية-الأسرة/تغذية-الأطفال/استشارة-تغذية-للطفل-الانتقائي",
+          "publishedDate": "2026-09-20"
+        },
+        {
+          "key": "vegan-consultation",
+          "words": 1068,
+          "status": "published",
+          "plannedDate": "2026-09-20",
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/استشارة-تغذية-للنباتيين",
+          "publishedDate": "2026-09-20"
+        }
+      ],
+      "businessBalance": {
+        "consultation": 2,
+        "course": 2
+      },
+      "research": "content/editorial-research/2026-09-20.json",
+      "blocker": null,
+      "productionCommit": "4f717f198e2a7b7b6cfadfa40c7281d1c807346e",
+      "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/35",
+      "verifiedAt": "2026-09-20T06:47:57.945Z",
+      "indexNow": {
+        "submittedAt": "2026-09-20T06:48:04.936Z",
+        "status": 200,
+        "changedUrls": 13
+      },
+      "validation": {
+        "checkBlog": "49 articles,49 covers,0 errors",
+        "checkSite": "97 pages,185 schemas,3975 links,94 sitemap URLs,0 errors; existing588NUL warning unchanged",
+        "navigation": "379 headings,81breadcrumbs,0errors",
+        "migration": "1029redirectvariants,1110assets,0errors",
+        "categoryGuides": "31guides,min552bodywords,0errors",
+        "diffCheck": "pass",
+        "browserPreview": "All four exact-head previews visually reviewed; named Arabic TOC navigation verified. No layout changes or mobile verification claimed.",
+        "production": "All four live HTML equal local after CRLF normalization; Sep20dates; six referenced assets per page HTTP200 and byte matched."
+      },
+      "googleStatus": "live",
+      "googleBlocker": null,
+      "googleCheckedAt": "2026-09-20T06:53:31.558Z"
+    },
+    {
+      "date": "2026-09-21",
+      "status": "published",
+      "websiteStatus": "published",
+      "articles": [
+        {
+          "key": "pcos-emotional-support",
+          "words": 1018,
+          "status": "published",
+          "plannedDate": "2026-09-21",
+          "canonicalUrl": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/الدعم-النفسي-مع-تكيس-المبايض",
+          "publishedDate": "2026-09-21"
+        },
+        {
+          "key": "budget-nutrition-learning",
+          "words": 1059,
+          "status": "published",
+          "plannedDate": "2026-09-21",
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/الملصقات-والتسوق/التغذية-الصحية-بميزانية-محدودة",
+          "publishedDate": "2026-09-21"
+        },
+        {
+          "key": "ibs-consultation",
+          "words": 1041,
+          "status": "published",
+          "plannedDate": "2026-09-21",
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/استشارة-تغذية-للقولون-العصبي",
+          "publishedDate": "2026-09-21"
+        },
+        {
+          "key": "gestational-diabetes-consultation",
+          "words": 1017,
+          "status": "published",
+          "plannedDate": "2026-09-21",
+          "canonicalUrl": "https://ruladiet.com/blog/category/تغذية-الأسرة/تغذية-الحوامل/استشارة-تغذية-لسكري-الحمل",
+          "publishedDate": "2026-09-21"
+        }
+      ],
+      "businessBalance": {
+        "consultation": 2,
+        "course": 2
+      },
+      "research": "content/editorial-research/2026-09-21.json",
+      "blocker": null,
+      "productionCommit": "06e398457425f6695dbb0972feb10fdf3507c28c",
+      "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/39",
+      "verifiedAt": "2026-09-21T07:54:38.933Z",
+      "indexNow": {
+        "submittedAt": "2026-09-21T07:54:42.516Z",
+        "status": 200,
+        "changedUrls": 14
+      },
+      "validation": {
+        "checkBlog": "53 articles,53 covers,0 errors",
+        "checkSite": "101 pages,193 schemas,4132 links,98 sitemap URLs,0 errors; existing588NUL warning unchanged",
+        "navigation": "409 headings,85 breadcrumbs,0 errors",
+        "migration": "1113 redirect variants,1202 assets,0 errors",
+        "categoryGuides": "31 guides,min552 body words,0 errors",
+        "diffCheck": "pass",
+        "browserPreview": "Four previews visually reviewed, final grammar revision preview reloaded and exact-head Vercel passed; descriptive Arabic TOC link tested. No layout changes or mobile verification claimed.",
+        "production": "All four live HTML equal local after CRLF normalization; Sep21 dates; six referenced assets per page HTTP200 and byte matched."
+      },
+      "googleStatus": "live",
+      "googleCheckedAt": "2026-09-21T08:07:34.174Z",
+      "googlePostId": "7621719336271311959",
+      "googleBlocker": null
+    },
+    {
+      "date": "2026-09-22",
+      "status": "completed",
+      "websiteStatus": "published",
+      "articles": [
+        {
+          "key": "pcos-sleep-assessment",
+          "words": 1083,
+          "status": "published",
+          "plannedDate": "2026-09-22",
+          "publishedDate": "2026-09-22",
+          "canonicalUrl": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/النوم-مع-تكيس-المبايض"
+        },
+        {
+          "key": "course-application",
+          "words": 1181,
+          "status": "published",
+          "plannedDate": "2026-09-22",
+          "publishedDate": "2026-09-22",
+          "canonicalUrl": "https://ruladiet.com/blog/category/السلوك-الغذائي/بناء-العادات/تطبيق-كورس-التغذية"
+        },
+        {
+          "key": "celiac-consultation",
+          "words": 1095,
+          "status": "published",
+          "plannedDate": "2026-09-22",
+          "publishedDate": "2026-09-22",
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/استشارة-تغذية-للسيلياك"
+        },
+        {
+          "key": "iron-consultation",
+          "words": 1112,
+          "status": "published",
+          "plannedDate": "2026-09-22",
+          "publishedDate": "2026-09-22",
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/استشارة-تغذية-لنقص-الحديد"
+        }
+      ],
+      "businessBalance": {
+        "consultation": 2,
+        "course": 2
+      },
+      "research": "content/editorial-research/2026-09-22.json",
+      "blocker": null,
+      "productionCommit": "c63d53cc3026fc2ae3ab9aa51a9ea442161b917c",
+      "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/41",
+      "verifiedAt": "2026-09-22T07:18:06.938Z",
+      "indexNow": {
+        "submittedAt": "2026-09-22T07:18:11.516Z",
+        "status": 200,
+        "changedUrls": 13
+      },
+      "validation": {
+        "checkBlog": "57 articles,57 covers,0 errors",
+        "checkSite": "105 pages,201 schemas,4290 links,102 sitemap URLs,0 errors; existing588NUL warning unchanged",
+        "navigation": "440 headings,89 breadcrumbs,0 errors",
+        "migration": "1197 redirect variants,1294 assets,0 errors",
+        "categoryGuides": "31 guides,min552 body words,0 errors",
+        "diffCheck": "pass",
+        "browserPreview": "Four previews visually reviewed. Descriptive Arabic TOC links tested. No layout changes or mobile verification claimed.",
+        "production": "Four live HTML pages equal local after CRLF normalization; Sep22 dates; six referenced assets per page HTTP200 and byte matched."
+      },
+      "googleStatus": "live",
+      "googleCheckedAt": "2026-09-22T07:19:23.446Z",
+      "googlePostId": "1250544067686574753",
+      "googleBlocker": null
+    },
+    {
+      "date": "2026-09-23",
+      "status": "completed",
+      "websiteStatus": "published",
+      "articles": [
+        {
+          "key": "pcos-cycle-log",
+          "words": 1029,
+          "status": "published",
+          "plannedDate": "2026-09-23",
+          "publishedDate": "2026-09-23",
+          "canonicalUrl": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/متابعة-الدورة-مع-تكيس-المبايض"
+        },
+        {
+          "key": "shift-work-meals",
+          "words": 1142,
+          "status": "published",
+          "plannedDate": "2026-09-23",
+          "publishedDate": "2026-09-23",
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/الوجبات-والوصفات/التغذية-مع-المناوبات-الليلية"
+        },
+        {
+          "key": "cholesterol-consultation",
+          "words": 1103,
+          "status": "published",
+          "plannedDate": "2026-09-23",
+          "publishedDate": "2026-09-23",
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-والحالات-الصحية/الكوليسترول-وصحة-القلب/استشارة-تغذية-لارتفاع-الكوليسترول"
+        },
+        {
+          "key": "weight-gain-consultation",
+          "words": 1182,
+          "status": "published",
+          "plannedDate": "2026-09-23",
+          "publishedDate": "2026-09-23",
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/استشارة-تغذية-لزيادة-الوزن"
+        }
+      ],
+      "businessBalance": {
+        "consultation": 2,
+        "course": 2
+      },
+      "research": "content/editorial-research/2026-09-23.json",
+      "blocker": null,
+      "productionCommit": "6cc17059dcf8643fe4aebab96de06694b19313f7",
+      "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/43",
+      "verifiedAt": "2026-09-23T06:44:45.804Z",
+      "indexNow": {
+        "submittedAt": "2026-09-23T06:44:57.841Z",
+        "status": 200,
+        "changedUrls": 14
+      },
+      "validation": {
+        "checkBlog": "61 articles,61 covers,178 contextual links,0 errors",
+        "checkSite": "109 pages,209 schemas,4446 links,106 sitemap URLs,0 errors; existing588NUL warning unchanged",
+        "navigation": "467 headings,93 breadcrumbs,31 archives,0 errors",
+        "migration": "1281 redirect variants,1386 assets,0 errors",
+        "categoryGuides": "31 guides,min552 body words,0 errors",
+        "diffCheck": "pass",
+        "browserPreview": "Four previews visually reviewed; PCOS Arabic TOC navigation verified. No mobile verification claimed.",
+        "production": "Four live HTML pages equal local after CRLF normalization; six referenced assets per page HTTP200 and byte matched."
+      },
+      "googleStatus": "pending",
+      "googleCheckedAt": "2026-09-23T10:42:34.125Z",
+      "googlePostId": "836217167795185088",
+      "googleBlocker": null
+    },
+    {
+      "date": "2026-09-24",
+      "status": "completed",
+      "websiteStatus": "published",
+      "articles": [
+        {
+          "key": "pcos-hair-loss",
+          "words": 1030,
+          "status": "published",
+          "plannedDate": "2026-09-24",
+          "publishedDate": "2026-09-24",
+          "canonicalUrl": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/تكيس-المبايض-وتساقط-الشعر"
+        },
+        {
+          "key": "dining-out-skills",
+          "words": 1093,
+          "status": "published",
+          "plannedDate": "2026-09-24",
+          "publishedDate": "2026-09-24",
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/الوجبات-والوصفات/الأكل-الصحي-خارج-المنزل"
+        },
+        {
+          "key": "reflux-nutrition",
+          "words": 1094,
+          "status": "published",
+          "plannedDate": "2026-09-24",
+          "publishedDate": "2026-09-24",
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/التغذية-مع-ارتجاع-المريء"
+        },
+        {
+          "key": "blood-pressure-nutrition",
+          "words": 1117,
+          "status": "published",
+          "plannedDate": "2026-09-24",
+          "publishedDate": "2026-09-24",
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-والحالات-الصحية/الكوليسترول-وصحة-القلب/التغذية-لارتفاع-ضغط-الدم"
+        }
+      ],
+      "businessBalance": {
+        "consultation": 2,
+        "course": 2
+      },
+      "research": "content/editorial-research/2026-09-24.json",
+      "blocker": null,
+      "productionCommit": "482c86a5d7fa3f178be49f2f9cfb774b8bebd389",
+      "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/45",
+      "verifiedAt": "2026-09-24T06:22:01.447Z",
+      "productionVerification": [
+        {
+          "key": "pcos-hair-loss",
+          "url": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/تكيس-المبايض-وتساقط-الشعر",
+          "status": 200,
+          "assets": 6
+        },
+        {
+          "key": "dining-out-skills",
+          "url": "https://ruladiet.com/blog/category/التغذية-اليومية/الوجبات-والوصفات/الأكل-الصحي-خارج-المنزل",
+          "status": 200,
+          "assets": 6
+        },
+        {
+          "key": "reflux-nutrition",
+          "url": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/التغذية-مع-ارتجاع-المريء",
+          "status": 200,
+          "assets": 6
+        },
+        {
+          "key": "blood-pressure-nutrition",
+          "url": "https://ruladiet.com/blog/category/التغذية-والحالات-الصحية/الكوليسترول-وصحة-القلب/التغذية-لارتفاع-ضغط-الدم",
+          "status": 200,
+          "assets": 6
+        }
+      ],
+      "indexNow": {
+        "submittedAt": "2026-09-24T06:22:05.112Z",
+        "status": 200,
+        "submittedUrls": 14,
+        "receipt": "content/editorial-research/2026-09-24-indexnow.json"
+      },
+      "validation": {
+        "requiredChecks": "All five required check scripts and git diff --check passed.",
+        "production": "All four article HTML files and six assets per article returned HTTP 200 and matched local files.",
+        "preview": "All four Vercel previews visually reviewed. Arabic TOC href and heading targets statically verified; navigation check passed. No mobile verification."
+      },
+      "googleStatus": "live",
+      "googleCheckedAt": "2026-09-24T06:32:18.140Z",
+      "googlePostId": "7586626916842225341",
+      "googleBlocker": null
+    },
+    {
+      "date": "2026-09-25",
+      "status": "published",
+      "websiteStatus": "published",
+      "articles": [
+        {
+          "key": "pcos-acne",
+          "words": 1051,
+          "status": "published",
+          "plannedDate": "2026-09-25",
+          "publishedDate": "2026-09-25",
+          "canonicalUrl": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/تكيس-المبايض-وحب-الشباب"
+        },
+        {
+          "key": "travel-meal-planning",
+          "words": 1032,
+          "status": "published",
+          "plannedDate": "2026-09-25",
+          "publishedDate": "2026-09-25",
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/الوجبات-والوصفات/تنظيم-الأكل-أثناء-السفر"
+        },
+        {
+          "key": "fatty-liver-consultation",
+          "words": 1040,
+          "status": "published",
+          "plannedDate": "2026-09-25",
+          "publishedDate": "2026-09-25",
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/استشارة-تغذية-للكبد-الدهني"
+        },
+        {
+          "key": "food-allergy-consultation",
+          "words": 1033,
+          "status": "published",
+          "plannedDate": "2026-09-25",
+          "publishedDate": "2026-09-25",
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/استشارة-تغذية-لحساسية-الطعام"
+        }
+      ],
+      "businessBalance": {
+        "consultation": 2,
+        "course": 2
+      },
+      "research": "content/editorial-research/2026-09-25.json",
+      "blocker": null,
+      "productionCommit": "774ea8950773f0ae026d6f96ad827e319cc42bbf",
+      "productionVerifiedAt": "2026-09-25T11:47:29.064Z",
+      "productionVerification": "All four canonical production URLs returned HTTP 200 with matching title, publication date and cover image. Required blog, site, navigation, URL migration and category-guide checks passed before publication.",
+      "indexNow": {
+        "status": "attempted_unverified",
+        "attemptedAt": "2026-09-25T11:47:29.064Z",
+        "note": "Submission command completed without a captured response body. No blind retry was made because IndexNow submissions are not idempotency-verifiable and indexing is never guaranteed."
+      }
+    },
+    {
+      "date": "2026-09-26",
+      "status": "published",
+      "websiteStatus": "published",
+      "articles": [
+        {
+          "key": "pcos-after-diagnosis",
+          "words": 1044,
+          "status": "published",
+          "plannedDate": "2026-09-26",
+          "publishedDate": "2026-09-26",
+          "canonicalUrl": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/ماذا-بعد-تشخيص-تكيس-المبايض"
+        },
+        {
+          "key": "free-nutrition-course-start",
+          "words": 1006,
+          "status": "published",
+          "plannedDate": "2026-09-26",
+          "publishedDate": "2026-09-26",
+          "canonicalUrl": "https://ruladiet.com/blog/category/السلوك-الغذائي/بناء-العادات/كورس-تغذية-مجاني-للمبتدئات"
+        },
+        {
+          "key": "gout-consultation",
+          "words": 1012,
+          "status": "published",
+          "plannedDate": "2026-09-26",
+          "publishedDate": "2026-09-26",
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/استشارة-تغذية-للنقرس-وحمض-اليوريك"
+        },
+        {
+          "key": "constipation-consultation",
+          "words": 1135,
+          "status": "published",
+          "plannedDate": "2026-09-26",
+          "publishedDate": "2026-09-26",
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/استشارة-تغذية-للإمساك-المزمن"
+        }
+      ],
+      "businessBalance": {
+        "consultation": 2,
+        "course": 2
+      },
+      "research": "content/editorial-research/2026-09-26.json",
+      "blocker": null,
+      "productionCommit": "312ad959ae3e968a64c1d8658e795c810cd60e99",
+      "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/48",
+      "productionVerifiedAt": "2026-09-26T08:53:00.000Z",
+      "productionVerification": "All four canonical production URLs returned HTTP 200 with the expected title, publication date and cover image. Vercel preview passed and three representative pages were visually reviewed before merge.",
+      "validation": {
+        "checkBlog": "73 articles, 73 unique covers, 73 educational visuals, 227 contextual links, 0 errors",
+        "checkSite": "121 pages, 233 schemas, 4927 internal links, 118 sitemap URLs, 0 errors; known 588 NUL warning unchanged",
+        "navigation": "73 articles, 570 headings, 31 archives, 105 breadcrumbs, 0 errors",
+        "migration": "73 hierarchical articles, 1533 redirect variants, 1662 assets, 0 errors",
+        "categoryGuides": "31 guides, minimum 552 words, 0 errors",
+        "diffCheck": "pass"
+      },
+      "googleStatus": "draft",
+      "googleBlocker": "google_reauthentication_required_before_duplicate_check_and_submission",
+      "indexNow": {
+        "submittedAt": "2026-09-26T09:04:24.764Z",
+        "status": 200,
+        "submittedUrls": 4,
+        "receipt": "content/editorial-research/2026-09-26-indexnow.json"
+      }
+    },
+    {
+      "date": "2026-09-27",
+      "status": "published",
+      "websiteStatus": "published",
+      "articles": [
+        {
+          "key": "pcos-course-goals",
+          "words": 1069,
+          "status": "published",
+          "plannedDate": "2026-09-27",
+          "publishedDate": "2026-09-27",
+          "canonicalUrl": "https://ruladiet.com/blog/category/صحة-المرأة/تكيس-المبايض/اختيار-الهدف-داخل-كورس-تكيس-المبايض"
+        },
+        {
+          "key": "healthy-path-after-diets",
+          "words": 1025,
+          "status": "published",
+          "plannedDate": "2026-09-27",
+          "publishedDate": "2026-09-27",
+          "canonicalUrl": "https://ruladiet.com/blog/category/إدارة-الوزن/تثبيت-الوزن/كورس-المسار-الصحي-بعد-الحميات-المتكررة"
+        },
+        {
+          "key": "kidney-stones-consultation",
+          "words": 1010,
+          "status": "published",
+          "plannedDate": "2026-09-27",
+          "publishedDate": "2026-09-27",
+          "canonicalUrl": "https://ruladiet.com/blog/category/التغذية-اليومية/أساسيات-التغذية/استشارة-تغذية-لحصوات-الكلى"
+        },
+        {
+          "key": "bone-health-consultation",
+          "words": 1041,
+          "status": "published",
+          "plannedDate": "2026-09-27",
+          "publishedDate": "2026-09-27",
+          "canonicalUrl": "https://ruladiet.com/blog/category/صحة-المرأة/انقطاع-الطمث/استشارة-تغذية-لصحة-العظام-بعد-انقطاع-الطمث"
+        }
+      ],
+      "businessBalance": {
+        "consultation": 2,
+        "course": 2
+      },
+      "research": "content/editorial-research/2026-09-27.json",
+      "blocker": null,
+      "productionCommit": "ce2e01962caaf155d38722240ee2c40d20156fa9",
+      "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/50",
+      "productionVerifiedAt": "2026-09-27T06:51:00.000Z",
+      "productionVerification": "All four canonical production URLs returned HTTP 200 with the expected title, publication date and cover image. Vercel preview passed and two representative layouts were visually reviewed before merge.",
+      "validation": {
+        "checkBlog": "77 articles, 77 unique covers, 77 educational visuals, 255 contextual links, 0 errors",
+        "checkSite": "125 pages, 241 schemas, 5099 internal links, 122 sitemap URLs, 0 errors; known 588 NUL warning unchanged",
+        "navigation": "77 articles, 618 headings, 31 archives, 109 breadcrumbs, 0 errors",
+        "migration": "77 hierarchical articles, 1617 redirect variants, 1754 assets, 0 errors",
+        "categoryGuides": "31 guides, minimum 552 words, 0 errors",
+        "diffCheck": "pass"
+      },
+      "googleStatus": "draft",
+      "googleBlocker": "awaiting_action_time_confirmation_before_final_post_click",
+      "indexNow": {
+        "submittedAt": "2026-09-27T06:52:39.796Z",
+        "status": 200,
+        "submittedUrls": 4,
+        "receipt": "content/editorial-research/2026-09-27-indexnow.json"
+      }
+    },
+    {
+      "date": "2026-09-28",
+      "status": "published",
+      "target": 4,
+      "articles": [
+        {
+          "key": "ckd-nutrition-consultation",
+          "words": 1149,
+          "status": "published",
+          "plannedDate": "2026-09-28",
+          "publishedDate": "2026-09-28",
+          "canonicalUrl": "https://ruladiet.com/blog/التغذية-اليومية/أساسيات-التغذية/استشارة-تغذية-لمرض-الكلى-المزمن"
+        },
+        {
+          "key": "bariatric-followup-nutrition",
+          "words": 1115,
+          "status": "published",
+          "plannedDate": "2026-09-28",
+          "publishedDate": "2026-09-28",
+          "canonicalUrl": "https://ruladiet.com/blog/إدارة-الوزن/خسارة-الوزن/التغذية-بعد-جراحة-السمنة-للمتابعة"
+        },
+        {
+          "key": "adolescent-pcos-learning",
+          "words": 1129,
+          "status": "published",
+          "plannedDate": "2026-09-28",
+          "publishedDate": "2026-09-28",
+          "canonicalUrl": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/تكيس-المبايض-عند-المراهقات-وحدود-التعلم"
+        },
+        {
+          "key": "plant-protein-skills",
+          "words": 1136,
+          "status": "published",
+          "plannedDate": "2026-09-28",
+          "publishedDate": "2026-09-28",
+          "canonicalUrl": "https://ruladiet.com/blog/التغذية-اليومية/الوجبات-والوصفات/تنويع-البروتين-النباتي-قبل-شراء-المساحيق"
+        }
+      ],
+      "businessBalance": {
+        "consultation": 2,
+        "course": 2
+      },
+      "research": "content/editorial-research/2026-09-28.json",
+      "blocker": null,
+      "productionCommit": "006a2d5c9d3b70f7122712a67791dc777ad1cada",
+      "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/58",
+      "productionVerifiedAt": "2026-09-28T06:30:09.117Z",
+      "productionVerification": "content/editorial-research/2026-09-28-production.json",
+      "googleStatus": "live",
+      "googleBlocker": null,
+      "googlePostId": "7689741418647803500",
+      "validation": {
+        "checkBlog": "81 articles, 81 unique covers, 0 errors",
+        "checkSite": "129 pages, 249 schemas, 126 sitemap URLs, 0 errors; known pre-existing NUL warning unchanged",
+        "navigation": "81 articles, 654 headings, 31 archives, 113 breadcrumbs, 0 errors",
+        "migration": "1863 redirect variants, 1846 assets, 0 errors",
+        "categoryGuides": "31 guides, minimum 552 words, 0 errors",
+        "diffCheck": "pass"
+      },
+      "indexNow": {
+        "submittedAt": "2026-09-28T06:34:14.049Z",
+        "status": 200,
+        "submittedUrls": 4,
+        "receipt": "content/editorial-research/2026-09-28-indexnow.json"
+      },
+      "googleVerifiedAt": "2026-09-29T10:22:36.235Z"
+    },
+    {
+      "date": "2026-09-29",
+      "status": "published",
+      "target": 4,
+      "articles": [
+        {
+          "key": "lactose-consultation",
+          "words": 1118,
+          "status": "published",
+          "plannedDate": "2026-09-29",
+          "url": "https://ruladiet.com/blog/التغذية-اليومية/أساسيات-التغذية/استشارة-تغذية-لعدم-تحمل-اللاكتوز",
+          "published": "2026-09-29",
+          "verifiedAt": "2026-09-29T10:21:32.912Z"
+        },
+        {
+          "key": "swallowing-nutrition-coordination",
+          "words": 1104,
+          "status": "published",
+          "plannedDate": "2026-09-29",
+          "url": "https://ruladiet.com/blog/تغذية-الأسرة/تغذية-كبار-السن/التغذية-مع-صعوبة-البلع-وتنسيق-الرعاية",
+          "published": "2026-09-29",
+          "verifiedAt": "2026-09-29T10:21:32.912Z"
+        },
+        {
+          "key": "pcos-fertility-questions",
+          "words": 1128,
+          "status": "published",
+          "plannedDate": "2026-09-29",
+          "url": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/تكيس-المبايض-وتأخر-الحمل-أسئلة-التقييم",
+          "published": "2026-09-29",
+          "verifiedAt": "2026-09-29T10:21:32.912Z"
+        },
+        {
+          "key": "frozen-vegetable-skills",
+          "words": 1103,
+          "status": "published",
+          "plannedDate": "2026-09-29",
+          "url": "https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/اختيار-الخضراوات-المجمدة-للوجبات",
+          "published": "2026-09-29",
+          "verifiedAt": "2026-09-29T10:21:32.912Z"
+        }
+      ],
+      "businessBalance": {
+        "consultation": 2,
+        "course": 2
+      },
+      "research": "content/editorial-research/2026-09-29.json",
+      "blocker": null,
+      "googleStatus": "live_existing_scheduled",
+      "googlePostId": "5036888080999380717",
+      "googleNote": "Existing September 29 scheduled update verified Published 2 hours ago; counts for today, no additional post.",
+      "productionCommit": "dc75a82c8c0e3c1fb903e60f273132694edcf25f",
+      "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/60",
+      "productionVerifiedAt": "2026-09-29T10:21:32.912Z",
+      "productionVerification": "content/editorial-research/2026-09-29-production.json",
+      "previewVerification": "content/editorial-research/2026-09-29-preview.json",
+      "validation": {
+        "checkBlog": "85 unique covers, 0 errors",
+        "checkSite": "133 pages, 257 schemas, 130 sitemap URLs, 0 errors; pre-existing NUL warning unchanged",
+        "navigation": "686 named headings, 117 breadcrumbs, 0 errors",
+        "migration": "1955 redirect variants, 1938 assets, 0 errors",
+        "categoryGuides": "31 guides, minimum 552 words, 0 errors",
+        "diffCheck": "pass",
+        "oldArticleBodiesAndDates": "81 unchanged"
+      },
+      "indexNow": {
+        "submittedAt": "2026-09-29T10:22:36.059Z",
+        "status": 200,
+        "submittedUrls": 4,
+        "receipt": "content/editorial-research/2026-09-29-indexnow.json"
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "status": "published",
+      "target": 4,
+      "articles": [
+        {
+          "key": "medication-appetite-review",
+          "words": 1140,
+          "status": "published",
+          "plannedDate": "2026-09-30",
+          "published": "2026-09-30",
+          "url": "https://ruladiet.com/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/ضعف-الشهية-مع-أدوية-التنحيف-وتقييم-الغذاء",
+          "verifiedAt": "2026-09-30T06:46:33.339Z"
+        },
+        {
+          "key": "after-gallbladder-consultation",
+          "words": 1051,
+          "status": "published",
+          "plannedDate": "2026-09-30",
+          "published": "2026-09-30",
+          "url": "https://ruladiet.com/blog/التغذية-اليومية/أساسيات-التغذية/استشارة-تغذية-بعد-استئصال-المرارة",
+          "verifiedAt": "2026-09-30T06:46:33.339Z"
+        },
+        {
+          "key": "pcos-insulin-test-context",
+          "words": 1015,
+          "status": "published",
+          "plannedDate": "2026-09-30",
+          "published": "2026-09-30",
+          "url": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/تحليل-الإنسولين-مع-تكيس-المبايض",
+          "verifiedAt": "2026-09-30T06:46:33.339Z"
+        },
+        {
+          "key": "whole-grain-shopping-skill",
+          "words": 1036,
+          "status": "published",
+          "plannedDate": "2026-09-30",
+          "published": "2026-09-30",
+          "url": "https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/اختيار-الحبوب-الكاملة-من-الملصق",
+          "verifiedAt": "2026-09-30T06:46:33.339Z"
+        }
+      ],
+      "businessBalance": {
+        "consultation": 2,
+        "course": 2
+      },
+      "research": "content/editorial-research/2026-09-30.json",
+      "blocker": null,
+      "googleStatus": "pending_review",
+      "productionCommit": "b00bbd1a27523e81e721ad72de3e41cec37edda7",
+      "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/63",
+      "productionVerifiedAt": "2026-09-30T06:46:33.339Z",
+      "productionVerification": "content/editorial-research/2026-09-30-production.json",
+      "previewVerification": "content/editorial-research/2026-09-30-preview.json",
+      "validation": {
+        "checkBlog": "89 unique covers, 0 errors",
+        "checkSite": "137 pages, 265 schemas, 134 sitemap URLs, 0 errors; pre-existing NUL warning unchanged",
+        "navigation": "717 named headings, 121 breadcrumbs, 0 errors",
+        "migration": "2047 redirect variants, 2030 local assets, 0 errors",
+        "categoryGuides": "31 guides, minimum 552 words, 0 errors",
+        "diffCheck": "pass",
+        "oldArticleBodiesAndDates": "85 unchanged"
+      },
+      "indexNow": {
+        "submittedAt": "2026-09-30T06:43:07.923Z",
+        "status": 200,
+        "submittedUrls": 4,
+        "receipt": "content/editorial-research/2026-09-30-indexnow.json"
+      },
+      "googleNote": "Sep 30 Update submitted to the verified Rula Diet clinic only, post ID 1013200483600098436. Admin All posts shows Pending; no public visibility claimed."
+    },
+    {
+      "date": "2026-10-01",
+      "status": "published",
+      "target": 4,
+      "articles": [
+        {"key":"gastroparesis-consultation","words":1084,"status":"published","plannedDate":"2026-10-01","published":"2026-10-01","url":"https://ruladiet.com/blog/التغذية-اليومية/أساسيات-التغذية/استشارة-تغذية-مع-بطء-إفراغ-المعدة"},
+        {"key":"pcos-lipid-screening","words":1065,"status":"published","plannedDate":"2026-10-01","published":"2026-10-01","url":"https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/فحص-دهون-الدم-مع-تكيس-المبايض"},
+        {"key":"ulcerative-colitis-consultation","words":1075,"status":"published","plannedDate":"2026-10-01","published":"2026-10-01","url":"https://ruladiet.com/blog/التغذية-اليومية/أساسيات-التغذية/استشارة-تغذية-مع-التهاب-القولون-التقرحي"},
+        {"key":"sodium-label-shopping","words":1098,"status":"published","plannedDate":"2026-10-01","published":"2026-10-01","url":"https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/قراءة-الصوديوم-على-الملصق-الغذائي"}
+      ],
+      "businessBalance": {"consultation":2,"course":2},
+      "research": "content/editorial-research/2026-10-01.json",
+      "blocker": null,
+      "googleStatus": "live",
+      "googlePostId": "8053478122328949988",
+      "productionCommit": "33fc27fd52b5f16bd1bc73b3ff3bb68acab14eef",
+      "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/68",
+      "productionVerification": "content/editorial-research/2026-10-01-production.json",
+      "previewVerification": "content/editorial-research/2026-10-01-preview.json",
+      "validation": {"checkBlog":"93 unique covers, 0 errors","checkSite":"141 pages, 273 schemas, 138 sitemap URLs, 0 errors; pre-existing NUL warning unchanged","navigation":"741 named headings, 125 breadcrumbs, 0 errors","migration":"2139 redirect variants, 0 errors","categoryGuides":"31 guides, minimum 552 words, 0 errors","diffCheck":"pass"},
+      "indexNow": {"submittedAt":"2026-10-01T06:26:36.922Z","status":200,"submittedUrls":4,"receipt":"content/editorial-research/2026-10-01-indexnow.json"},
+      "googleNote": "Oct 1 Update published on the verified Rula Diet clinic only, post ID 8053478122328949988. Admin All posts showed Published after submission."
     }
   ],
   "contentMaintenance": {
@@ -700,5 +2580,24 @@
     ],
     "serviceReadingManifest": "content/service-reading.json",
     "reviews": []
+  },
+  "advertisingManagement": {
+    "status": "owner_managed",
+    "effectiveDate": "2026-09-19",
+    "note": "Owner explicitly instructed: never open Meta again. Do not open, navigate to, inspect, or interact with Meta, Facebook, Instagram, Ads Manager or Business Suite, including existing tabs. Ambient browser context is not authorization. Advertising remains owner-managed. Continue website articles and Google Business publication only.",
+    "accessProhibited": true,
+    "updated": "2026-09-21"
+  },
+  "visualDirection": {
+    "updated": "2026-09-20",
+    "effectiveFrom": "Next articles after the Sep20 published batch",
+    "policy": "content/editorial-policy.md#article-art-direction-owner-request-2026-09-20",
+    "references": [
+      "images/course-pcos.webp",
+      "images/course-massar.webp",
+      "images/course-rehla.webp",
+      "images/course1.webp"
+    ],
+    "approach": "Mix course-inspired watercolor illustrations with natural photography; warm cream, blush, sage and olive; unique topic-specific compositions, modest clothing and fictional people. Roughly two illustrated covers per four-article batch when appropriate. Keep internal diagrams useful and legible."
   }
 }

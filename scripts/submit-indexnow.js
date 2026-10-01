@@ -10,9 +10,10 @@ const endpoint = 'https://api.indexnow.org/indexnow';
 const args = process.argv.slice(2);
 const submit = args.includes('--submit');
 const all = args.includes('--all');
+const blog = args.includes('--blog');
 const explicit = args.filter(a=>!a.startsWith('--'));
-assert(args.every(a=>!a.startsWith('--')||['--all','--submit'].includes(a)), 'Unknown flag');
-assert(all !== (explicit.length > 0), 'Use --all OR a list of canonical URLs');
+assert(args.every(a=>!a.startsWith('--')||['--all','--blog','--submit'].includes(a)), 'Unknown flag');
+assert(Number(all)+Number(blog)+Number(explicit.length>0)===1, 'Use --all, --blog, OR a list of canonical URLs');
 assert(/^[a-f0-9]{32}\.txt$/.test(keyFile), 'Invalid verification filename');
 const key = fs.readFileSync(path.join(root,keyFile),'utf8').trim();
 assert.equal(keyFile,key+'.txt');
@@ -27,7 +28,8 @@ async function get(url) {
   assert(/xml/i.test(sitemap.type),'Sitemap must be XML');
   const sitemapUrls=[...sitemap.body.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>new URL(m[1].replaceAll('&amp;','&')).href);
   assert(sitemapUrls.length>0,'Empty production sitemap');
-  const urls=[...new Set((all?sitemapUrls:explicit).map(u=>new URL(u).href))];
+  const selected=all?sitemapUrls:blog?sitemapUrls.filter(u=>new URL(u).pathname.startsWith('/blog/')):explicit;
+  const urls=[...new Set(selected.map(u=>new URL(u).href))];
   assert(urls.length>0&&urls.length<=10000,'Invalid batch size');
   for(const url of urls){
     const u=new URL(url);
