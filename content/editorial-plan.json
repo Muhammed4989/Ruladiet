@@ -2558,7 +2558,8 @@
       "validation": {"checkBlog":"93 unique covers, 0 errors","checkSite":"141 pages, 273 schemas, 138 sitemap URLs, 0 errors; pre-existing NUL warning unchanged","navigation":"741 named headings, 125 breadcrumbs, 0 errors","migration":"2139 redirect variants, 0 errors","categoryGuides":"31 guides, minimum 552 words, 0 errors","diffCheck":"pass"},
       "indexNow": {"submittedAt":"2026-10-01T06:26:36.922Z","status":200,"submittedUrls":4,"receipt":"content/editorial-research/2026-10-01-indexnow.json"},
       "googleNote": "Oct 1 Update published on the verified Rula Diet clinic only, post ID 8053478122328949988. Admin All posts showed Published after submission."
-    }
+    },
+    {"date":"2026-10-02","status":"draft","target":4,"articles":[{"key":"weight-medication-transition","status":"draft","words":1082,"canonicalUrl":"https://ruladiet.com/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/التغذية-بعد-تغيير-أدوية-التنحيف"},{"key":"weight-medication-protein-review","status":"draft","words":1097,"canonicalUrl":"https://ruladiet.com/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/البروتين-مع-أدوية-التنحيف-طعام-أم-مكمل"},{"key":"pcos-glucose-followup","status":"draft","words":1046,"canonicalUrl":"https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/متابعة-السكر-مع-تكيس-المبايض"},{"key":"added-sugar-drink-labels","status":"draft","words":1032,"canonicalUrl":"https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/قراءة-السكر-المضاف-في-المشروبات"}],"businessBalance":{"consultation":2,"course":2},"research":"content/editorial-research/2026-10-02.json","blocker":null,"googleStatus":"not_started"}
   ],
   "advertisingManagement": {
     "status": "owner_managed",

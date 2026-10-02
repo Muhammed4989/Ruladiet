@@ -293,6 +293,10 @@
     "gastroparesis-consultation": "nutrition-basics",
     "pcos-lipid-screening": "pcos",
     "ulcerative-colitis-consultation": "nutrition-basics",
-    "sodium-label-shopping": "labels-shopping"
+    "sodium-label-shopping": "labels-shopping",
+    "weight-medication-transition": "weight-medication",
+    "weight-medication-protein-review": "weight-medication",
+    "pcos-glucose-followup": "pcos",
+    "added-sugar-drink-labels": "labels-shopping"
   }
 }
