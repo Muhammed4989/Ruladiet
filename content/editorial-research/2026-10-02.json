@@ -78,27 +78,30 @@
   "articles": [
     {
       "key": "weight-medication-transition",
-      "status": "draft",
+      "status": "published",
       "words": 1082,
       "canonicalUrl": "https://ruladiet.com/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/التغذية-بعد-تغيير-أدوية-التنحيف"
     },
     {
       "key": "weight-medication-protein-review",
-      "status": "draft",
+      "status": "published",
       "words": 1097,
       "canonicalUrl": "https://ruladiet.com/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/البروتين-مع-أدوية-التنحيف-طعام-أم-مكمل"
     },
     {
       "key": "pcos-glucose-followup",
-      "status": "draft",
+      "status": "published",
       "words": 1046,
       "canonicalUrl": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/متابعة-السكر-مع-تكيس-المبايض"
     },
     {
       "key": "added-sugar-drink-labels",
-      "status": "draft",
+      "status": "published",
       "words": 1032,
       "canonicalUrl": "https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/قراءة-السكر-المضاف-في-المشروبات"
     }
-  ]
+  ],
+  "productionCommit": "71a3b9f23a5425c33376c529feb0a6d618bbcdb9",
+  "productionVerifiedAt": "2026-10-02T06:39:00Z",
+  "indexNowReceipt": "content/editorial-research/2026-10-02-indexnow.json"
 }
