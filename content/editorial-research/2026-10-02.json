@@ -1,0 +1,104 @@
+{
+  "date": "2026-10-02",
+  "timezone": "Europe/Istanbul",
+  "searchConsole": "No fresh query export inspected; owner-reported recurring traffic to the Mounjaro nutrition article guided two distinct adjacent questions. No search volume, ranking or sales estimate asserted.",
+  "catalogReview": "Reviewed 93 published daily articles and legacy catalog. Transition after medication differs from general weight maintenance; protein food-versus-supplement differs from plant protein shopping and meal pattern; glycaemic follow-up interval differs from insulin-test interpretation; added sugar in beverages differs from general label and sodium comparison.",
+  "offers": {
+    "consultation": "/احجز-موعد, no price or drug-management claim.",
+    "pcos": "/course/تكيس-المبايض, educational course verified against content/pcos-course.json.",
+    "massar": "/course/المسار-الصحي, general food skills only."
+  },
+  "briefs": [
+    {
+      "key": "weight-medication-transition",
+      "primaryKeyword": "التغذية بعد إيقاف أدوية التنحيف",
+      "supportingKeywords": [
+        "تثبيت الوزن بعد مونجارو",
+        "عودة الشهية بعد إبر التنحيف"
+      ],
+      "intent": "Plan questions for supervised treatment transition and nutrition follow-up",
+      "offer": "/احجز-موعد",
+      "overlap": "General weight maintenance and Mounjaro meal guide answer different questions.",
+      "decision": "What to prepare for clinician and dietitian when a medication change is discussed.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10714284/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12264624/"
+      ]
+    },
+    {
+      "key": "weight-medication-protein-review",
+      "primaryKeyword": "البروتين مع أدوية التنحيف",
+      "supportingKeywords": [
+        "مكمل بروتين مع مونجارو",
+        "البروتين مع إبر التنحيف"
+      ],
+      "intent": "Assess food adequacy before buying a supplement",
+      "offer": "/احجز-موعد",
+      "overlap": "Plant protein shopping is a general food-source skill, not GLP-1 nutrition assessment.",
+      "decision": "Whether to seek an individualized protein and meal review.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12264624/",
+        "https://pubmed.ncbi.nlm.nih.gov/42419343/",
+        "https://www.myplate.gov/web/web/eat-healthy/protein-foods"
+      ]
+    },
+    {
+      "key": "pcos-glucose-followup",
+      "primaryKeyword": "متابعة سكر الدم مع تكيس المبايض",
+      "supportingKeywords": [
+        "متى إعادة فحص السكر مع التكيس",
+        "اختبار تحمل الغلوكوز مع التكيس"
+      ],
+      "intent": "Understand recommended reassessment and limits of educational course",
+      "offer": "/course/تكيس-المبايض",
+      "overlap": "Insulin-test article interprets why a single insulin number is insufficient; this covers test selection and follow-up interval.",
+      "decision": "Which questions to ask clinician and whether course suits general learning.",
+      "sources": [
+        "https://prod.asrm.org/practice-guidance/practice-committee-documents/recommendations-from-the-2023-international-evidence-based-guideline-for-the-assessment-and-management-of-polycystic-ovary-syndrome/",
+        "https://pubmed.ncbi.nlm.nih.gov/37589624/"
+      ]
+    },
+    {
+      "key": "added-sugar-drink-labels",
+      "primaryKeyword": "قراءة السكر المضاف في المشروبات",
+      "supportingKeywords": [
+        "السكر الكلي والمضاف في المشروب",
+        "حجم الحصة على ملصق المشروبات"
+      ],
+      "intent": "Apply label comparison to an actual drink purchase",
+      "offer": "/course/المسار-الصحي",
+      "overlap": "General label article covers all fields; sodium label covers another nutrient. This focuses on drink serving size and total versus added sugar.",
+      "decision": "How to compare two similar drinks and whether to learn broader shopping skills.",
+      "sources": [
+        "https://www.fda.gov/food/nutrition-facts-label/added-sugars-nutrition-facts-label",
+        "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "key": "weight-medication-transition",
+      "status": "draft",
+      "words": 1082,
+      "canonicalUrl": "https://ruladiet.com/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/التغذية-بعد-تغيير-أدوية-التنحيف"
+    },
+    {
+      "key": "weight-medication-protein-review",
+      "status": "draft",
+      "words": 1097,
+      "canonicalUrl": "https://ruladiet.com/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/البروتين-مع-أدوية-التنحيف-طعام-أم-مكمل"
+    },
+    {
+      "key": "pcos-glucose-followup",
+      "status": "draft",
+      "words": 1046,
+      "canonicalUrl": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/متابعة-السكر-مع-تكيس-المبايض"
+    },
+    {
+      "key": "added-sugar-drink-labels",
+      "status": "draft",
+      "words": 1032,
+      "canonicalUrl": "https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/قراءة-السكر-المضاف-في-المشروبات"
+    }
+  ]
+}
