@@ -1367,6 +1367,94 @@
       "plannedFor": "2026-09-30",
       "bodyWordsExcludingHeadings": 1036,
       "keywordCheckedAt": "2026-09-30"
+    },
+    {
+      "articleKey": "mounjaro-nausea-meals",
+      "primaryKeyword": "الغثيان مع مونجارو",
+      "supportingKeywords": [
+        "ماذا آكل عند الغثيان مع مونجارو",
+        "القيء مع مونجارو ومتى أطلب المساعدة"
+      ],
+      "intent": "معلوماتي داعم للقرار والملاءمة والتحضير؛ لا ينافس صفحة العرض",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": [
+        "mounjaro-diet",
+        "medication-appetite-review",
+        "gastroparesis-consultation"
+      ],
+      "overlapAssessment": "دليل مونجارو العام لمكونات الوجبات؛ ضعف الشهية لكفاية الغذاء؛ خزل المعدة لتشخيص قائم. المقال الجديد لتحمل الطعام والغثيان دون افتراض تشخيص.",
+      "decisionHelp": "تمييز المساعدة الطبية العاجلة عن تعديل وجبة وتحضير ملاحظات لتقييم الغذاء.",
+      "status": "draft",
+      "plannedFor": "2026-10-03",
+      "bodyWordsExcludingHeadings": 1066,
+      "keywordCheckedAt": "2026-10-03"
+    },
+    {
+      "articleKey": "crohn-nutrition-stage",
+      "primaryKeyword": "التغذية مع مرض كرون",
+      "supportingKeywords": [
+        "الغذاء مع كرون أثناء الاستقرار",
+        "كرون والتضيق والألياف"
+      ],
+      "intent": "معلوماتي داعم للقرار والملاءمة والتحضير؛ لا ينافس صفحة العرض",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": [
+        "ulcerative-colitis-consultation",
+        "ibs-consultation",
+        "gastroparesis-consultation"
+      ],
+      "overlapAssessment": "كرون يتطلب سياق الأمعاء الدقيقة والعمليات والتضيق؛ ليس إعادة صياغة مقالة التهاب القولون التقرحي أو القولون العصبي.",
+      "decisionHelp": "تحضير سياق المرض والأكل قبل طلب تقييم غذائي مناسب للمرحلة.",
+      "status": "draft",
+      "plannedFor": "2026-10-03",
+      "bodyWordsExcludingHeadings": 1090,
+      "keywordCheckedAt": "2026-10-03"
+    },
+    {
+      "articleKey": "pcos-metformin-questions",
+      "primaryKeyword": "الميتفورمين مع تكيس المبايض",
+      "supportingKeywords": [
+        "الميتفورمين والتكيس وفيتامين باء اثنا عشر",
+        "أسئلة المتابعة مع جلوكوفاج والتكيس"
+      ],
+      "intent": "معلوماتي داعم للقرار والملاءمة والتحضير؛ لا ينافس صفحة العرض",
+      "businessGoal": "course",
+      "targetPage": "/course/تكيس-المبايض",
+      "avoidOverlap": [
+        "pcos-glucose-followup",
+        "pcos-insulin-test-context",
+        "pcos-supplements"
+      ],
+      "overlapAssessment": "نية متابعة دواء موصوف وحدوده، لا تواتر فحوص السكر أو تفسير تحليل إنسولين أو قائمة مشتريات مكملات.",
+      "decisionHelp": "تحديد ما يفيد فهمه من التعلم وما يجب أخذه للطبيب حول الوصفة والغذاء.",
+      "status": "draft",
+      "plannedFor": "2026-10-03",
+      "bodyWordsExcludingHeadings": 1098,
+      "keywordCheckedAt": "2026-10-03"
+    },
+    {
+      "articleKey": "cooking-oil-shopping",
+      "primaryKeyword": "اختيار زيت الطبخ",
+      "supportingKeywords": [
+        "زيت الزيتون الخفيف والسعرات",
+        "قراءة ملصق زيت الطبخ وتخزينه"
+      ],
+      "intent": "معلوماتي داعم للقرار والملاءمة والتحضير؛ لا ينافس صفحة العرض",
+      "businessGoal": "course",
+      "targetPage": "/course/المسار-الصحي",
+      "avoidOverlap": [
+        "food-labels",
+        "heart-nutrition",
+        "sodium-label-shopping"
+      ],
+      "overlapAssessment": "تطبيق خاص بنوع الدهون وتصنيف الزيت والتخزين، لا تكرار شرح الملصق العام أو علاج الكوليسترول.",
+      "decisionHelp": "مقارنة منتجين وشراء حجم مناسب وربط الاختيار بطبخة معتادة.",
+      "status": "draft",
+      "plannedFor": "2026-10-03",
+      "bodyWordsExcludingHeadings": 1114,
+      "keywordCheckedAt": "2026-10-03"
     }
   ],
   "coverageBatch": {
@@ -2541,12 +2629,43 @@
       "status": "published",
       "target": 4,
       "articles": [
-        {"key":"gastroparesis-consultation","words":1084,"status":"published","plannedDate":"2026-10-01","published":"2026-10-01","url":"https://ruladiet.com/blog/التغذية-اليومية/أساسيات-التغذية/استشارة-تغذية-مع-بطء-إفراغ-المعدة"},
-        {"key":"pcos-lipid-screening","words":1065,"status":"published","plannedDate":"2026-10-01","published":"2026-10-01","url":"https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/فحص-دهون-الدم-مع-تكيس-المبايض"},
-        {"key":"ulcerative-colitis-consultation","words":1075,"status":"published","plannedDate":"2026-10-01","published":"2026-10-01","url":"https://ruladiet.com/blog/التغذية-اليومية/أساسيات-التغذية/استشارة-تغذية-مع-التهاب-القولون-التقرحي"},
-        {"key":"sodium-label-shopping","words":1098,"status":"published","plannedDate":"2026-10-01","published":"2026-10-01","url":"https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/قراءة-الصوديوم-على-الملصق-الغذائي"}
+        {
+          "key": "gastroparesis-consultation",
+          "words": 1084,
+          "status": "published",
+          "plannedDate": "2026-10-01",
+          "published": "2026-10-01",
+          "url": "https://ruladiet.com/blog/التغذية-اليومية/أساسيات-التغذية/استشارة-تغذية-مع-بطء-إفراغ-المعدة"
+        },
+        {
+          "key": "pcos-lipid-screening",
+          "words": 1065,
+          "status": "published",
+          "plannedDate": "2026-10-01",
+          "published": "2026-10-01",
+          "url": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/فحص-دهون-الدم-مع-تكيس-المبايض"
+        },
+        {
+          "key": "ulcerative-colitis-consultation",
+          "words": 1075,
+          "status": "published",
+          "plannedDate": "2026-10-01",
+          "published": "2026-10-01",
+          "url": "https://ruladiet.com/blog/التغذية-اليومية/أساسيات-التغذية/استشارة-تغذية-مع-التهاب-القولون-التقرحي"
+        },
+        {
+          "key": "sodium-label-shopping",
+          "words": 1098,
+          "status": "published",
+          "plannedDate": "2026-10-01",
+          "published": "2026-10-01",
+          "url": "https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/قراءة-الصوديوم-على-الملصق-الغذائي"
+        }
       ],
-      "businessBalance": {"consultation":2,"course":2},
+      "businessBalance": {
+        "consultation": 2,
+        "course": 2
+      },
       "research": "content/editorial-research/2026-10-01.json",
       "blocker": null,
       "googleStatus": "live",
@@ -2555,11 +2674,105 @@
       "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/68",
       "productionVerification": "content/editorial-research/2026-10-01-production.json",
       "previewVerification": "content/editorial-research/2026-10-01-preview.json",
-      "validation": {"checkBlog":"93 unique covers, 0 errors","checkSite":"141 pages, 273 schemas, 138 sitemap URLs, 0 errors; pre-existing NUL warning unchanged","navigation":"741 named headings, 125 breadcrumbs, 0 errors","migration":"2139 redirect variants, 0 errors","categoryGuides":"31 guides, minimum 552 words, 0 errors","diffCheck":"pass"},
-      "indexNow": {"submittedAt":"2026-10-01T06:26:36.922Z","status":200,"submittedUrls":4,"receipt":"content/editorial-research/2026-10-01-indexnow.json"},
+      "validation": {
+        "checkBlog": "93 unique covers, 0 errors",
+        "checkSite": "141 pages, 273 schemas, 138 sitemap URLs, 0 errors; pre-existing NUL warning unchanged",
+        "navigation": "741 named headings, 125 breadcrumbs, 0 errors",
+        "migration": "2139 redirect variants, 0 errors",
+        "categoryGuides": "31 guides, minimum 552 words, 0 errors",
+        "diffCheck": "pass"
+      },
+      "indexNow": {
+        "submittedAt": "2026-10-01T06:26:36.922Z",
+        "status": 200,
+        "submittedUrls": 4,
+        "receipt": "content/editorial-research/2026-10-01-indexnow.json"
+      },
       "googleNote": "Oct 1 Update published on the verified Rula Diet clinic only, post ID 8053478122328949988. Admin All posts showed Published after submission."
     },
-    {"date":"2026-10-02","status":"published","target":4,"articles":[{"key":"weight-medication-transition","status":"published","words":1082,"canonicalUrl":"https://ruladiet.com/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/التغذية-بعد-تغيير-أدوية-التنحيف"},{"key":"weight-medication-protein-review","status":"published","words":1097,"canonicalUrl":"https://ruladiet.com/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/البروتين-مع-أدوية-التنحيف-طعام-أم-مكمل"},{"key":"pcos-glucose-followup","status":"published","words":1046,"canonicalUrl":"https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/متابعة-السكر-مع-تكيس-المبايض"},{"key":"added-sugar-drink-labels","status":"published","words":1032,"canonicalUrl":"https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/قراءة-السكر-المضاف-في-المشروبات"}],"businessBalance":{"consultation":2,"course":2},"research":"content/editorial-research/2026-10-02.json","blocker":null,"googleStatus":"live","googlePostId":"6110627219762358227","productionCommit":"71a3b9f23a5425c33376c529feb0a6d618bbcdb9","pullRequest":"https://github.com/Muhammed4989/Ruladiet/pull/75","productionVerifiedAt":"2026-10-02T06:39:00Z","indexNow":{"submittedAt":"2026-10-02T06:43:59.471Z","status":200,"submittedUrls":4,"receipt":"content/editorial-research/2026-10-02-indexnow.json"},"googleNote":"Oct 2 Update published on the correct managed Rula Diet clinic only, post ID 6110627219762358227. Admin All posts showed Published after submission; no other profile selected."}
+    {
+      "date": "2026-10-02",
+      "status": "published",
+      "target": 4,
+      "articles": [
+        {
+          "key": "weight-medication-transition",
+          "status": "published",
+          "words": 1082,
+          "canonicalUrl": "https://ruladiet.com/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/التغذية-بعد-تغيير-أدوية-التنحيف"
+        },
+        {
+          "key": "weight-medication-protein-review",
+          "status": "published",
+          "words": 1097,
+          "canonicalUrl": "https://ruladiet.com/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/البروتين-مع-أدوية-التنحيف-طعام-أم-مكمل"
+        },
+        {
+          "key": "pcos-glucose-followup",
+          "status": "published",
+          "words": 1046,
+          "canonicalUrl": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/متابعة-السكر-مع-تكيس-المبايض"
+        },
+        {
+          "key": "added-sugar-drink-labels",
+          "status": "published",
+          "words": 1032,
+          "canonicalUrl": "https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/قراءة-السكر-المضاف-في-المشروبات"
+        }
+      ],
+      "businessBalance": {
+        "consultation": 2,
+        "course": 2
+      },
+      "research": "content/editorial-research/2026-10-02.json",
+      "blocker": null,
+      "googleStatus": "live",
+      "googlePostId": "6110627219762358227",
+      "productionCommit": "71a3b9f23a5425c33376c529feb0a6d618bbcdb9",
+      "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/75",
+      "productionVerifiedAt": "2026-10-02T06:39:00Z",
+      "indexNow": {
+        "submittedAt": "2026-10-02T06:43:59.471Z",
+        "status": 200,
+        "submittedUrls": 4,
+        "receipt": "content/editorial-research/2026-10-02-indexnow.json"
+      },
+      "googleNote": "Oct 2 Update published on the correct managed Rula Diet clinic only, post ID 6110627219762358227. Admin All posts showed Published after submission; no other profile selected."
+    },
+    {
+      "date": "2026-10-03",
+      "status": "draft",
+      "target": 4,
+      "articles": [
+        {
+          "key": "mounjaro-nausea-meals",
+          "status": "draft",
+          "words": 1066
+        },
+        {
+          "key": "crohn-nutrition-stage",
+          "status": "draft",
+          "words": 1090
+        },
+        {
+          "key": "pcos-metformin-questions",
+          "status": "draft",
+          "words": 1098
+        },
+        {
+          "key": "cooking-oil-shopping",
+          "status": "draft",
+          "words": 1114
+        }
+      ],
+      "businessBalance": {
+        "consultation": 2,
+        "course": 2
+      },
+      "research": "content/editorial-research/2026-10-03.json",
+      "blocker": null,
+      "googleStatus": "not_prepared"
+    }
   ],
   "advertisingManagement": {
     "status": "owner_managed",

@@ -11,3 +11,5 @@ download-videos.js
 *.bak-address
 *.bak-dir
 Claude outputs/
+
+.env*

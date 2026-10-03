@@ -1,0 +1,149 @@
+{
+  "date": "2026-10-03",
+  "timezone": "Europe/Istanbul",
+  "searchConsole": "No fresh query export. Owner-reported recurring Mounjaro visitors guided a distinct adjacent symptom-support intent. No volume, ranking or sales estimates.",
+  "catalogReview": "Reviewed all 97 published articles (17 legacy,80 daily). Four distinct intents; no catch-up publication.",
+  "offers": {
+    "consultation": "Existing booking page; no price or drug-management claim.",
+    "pcos": "Educational curriculum checked against content/pcos-course.json; includes metformin, no personal treatment.",
+    "massar": "General food skills, no invented oil-specific lesson."
+  },
+  "briefs": [
+    {
+      "key": "mounjaro-nausea-meals",
+      "primaryKeyword": "الغثيان مع مونجارو",
+      "supportingKeywords": [
+        "ماذا آكل عند الغثيان مع مونجارو",
+        "القيء مع مونجارو ومتى أطلب المساعدة"
+      ],
+      "intent": "Supportive information and decision preparation",
+      "offer": "/احجز-موعد",
+      "overlap": [
+        "mounjaro-diet",
+        "medication-appetite-review",
+        "gastroparesis-consultation"
+      ],
+      "overlapAssessment": "دليل مونجارو العام لمكونات الوجبات؛ ضعف الشهية لكفاية الغذاء؛ خزل المعدة لتشخيص قائم. المقال الجديد لتحمل الطعام والغثيان دون افتراض تشخيص.",
+      "decision": "تمييز المساعدة الطبية العاجلة عن تعديل وجبة وتحضير ملاحظات لتقييم الغذاء.",
+      "sources": [
+        "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215866s044s045lbl.pdf",
+        "https://www.cuh.nhs.uk/patient-information/dietary-advice-for-people-with-type-2-diabetes-using-tirzepatide-mounjaro/",
+        "https://www.guysandstthomas.nhs.uk/health-information/lifestyle-advice-people-taking-weight-loss-medicines/managing-side-effects-diet",
+        "https://www.nhs.uk/medicines/tirzepatide/"
+      ]
+    },
+    {
+      "key": "crohn-nutrition-stage",
+      "primaryKeyword": "التغذية مع مرض كرون",
+      "supportingKeywords": [
+        "الغذاء مع كرون أثناء الاستقرار",
+        "كرون والتضيق والألياف"
+      ],
+      "intent": "Supportive information and decision preparation",
+      "offer": "/احجز-موعد",
+      "overlap": [
+        "ulcerative-colitis-consultation",
+        "ibs-consultation",
+        "gastroparesis-consultation"
+      ],
+      "overlapAssessment": "كرون يتطلب سياق الأمعاء الدقيقة والعمليات والتضيق؛ ليس إعادة صياغة مقالة التهاب القولون التقرحي أو القولون العصبي.",
+      "decision": "تحضير سياق المرض والأكل قبل طلب تقييم غذائي مناسب للمرحلة.",
+      "sources": [
+        "https://www.nhs.uk/conditions/crohns-disease/",
+        "https://2022.espen.org/files/ESPEN-Guidelines/ESPEN_guideline_on_Clinical_nutrition_in_inflammatory_bowel_disease.pdf",
+        "https://www.cuh.nhs.uk/patient-information/advice-for-managing-your-diet-with-a-stricture/",
+        "https://www.cuh.nhs.uk/patient-information/the-cambridge-crohns-and-colitis-service/",
+        "https://www.dgft.nhs.uk/pil/bowel-obstruction/"
+      ]
+    },
+    {
+      "key": "pcos-metformin-questions",
+      "primaryKeyword": "الميتفورمين مع تكيس المبايض",
+      "supportingKeywords": [
+        "الميتفورمين والتكيس وفيتامين باء اثنا عشر",
+        "أسئلة المتابعة مع جلوكوفاج والتكيس"
+      ],
+      "intent": "Supportive information and decision preparation",
+      "offer": "/course/تكيس-المبايض",
+      "overlap": [
+        "pcos-glucose-followup",
+        "pcos-insulin-test-context",
+        "pcos-supplements"
+      ],
+      "overlapAssessment": "نية متابعة دواء موصوف وحدوده، لا تواتر فحوص السكر أو تفسير تحليل إنسولين أو قائمة مشتريات مكملات.",
+      "decision": "تحديد ما يفيد فهمه من التعلم وما يجب أخذه للطبيب حول الوصفة والغذاء.",
+      "sources": [
+        "https://www.asrm.org/practice-guidance/practice-committee-documents/recommendations-from-the-2023-international-evidence-based-guideline-for-the-assessment-and-management-of-polyendocrine-metabolic-ovarian-syndrome-2023/",
+        "https://www.gov.uk/drug-safety-update/metformin-and-reduced-vitamin-b12-levels-new-advice-for-monitoring-patients-at-risk",
+        "https://www.nhs.uk/medicines/metformin/"
+      ]
+    },
+    {
+      "key": "cooking-oil-shopping",
+      "primaryKeyword": "اختيار زيت الطبخ",
+      "supportingKeywords": [
+        "زيت الزيتون الخفيف والسعرات",
+        "قراءة ملصق زيت الطبخ وتخزينه"
+      ],
+      "intent": "Supportive information and decision preparation",
+      "offer": "/course/المسار-الصحي",
+      "overlap": [
+        "food-labels",
+        "heart-nutrition",
+        "sodium-label-shopping"
+      ],
+      "overlapAssessment": "تطبيق خاص بنوع الدهون وتصنيف الزيت والتخزين، لا تكرار شرح الملصق العام أو علاج الكوليسترول.",
+      "decision": "مقارنة منتجين وشراء حجم مناسب وربط الاختيار بطبخة معتادة.",
+      "sources": [
+        "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+        "https://www.fda.gov/food/nutrition-facts-label/whats-nutrition-facts-label",
+        "https://www.ucdavis.edu/research/labs-to-lives/blog/olive-avocado-oil"
+      ]
+    }
+  ],
+  "sourceReview": {
+    "checkedAt": "2026-10-03T07:27:07.942Z",
+    "notes": [
+      "FDA Mounjaro 2026: severe pain warning and dehydration; no dosing.",
+      "CUH Mounjaro type2 audience stated, GST side-effects guidance for meal tolerance/fluids.",
+      "ESPEN 2023: malnutrition screening and remission; CUH May2026 stricture advice not for all Crohn.",
+      "ASRM guideline 4.3, MHRA B12, NHS metformin reviewed August2026.",
+      "WHO healthy diet 2026, FDA labels, UC Davis oil research Sep30,2026.",
+      "NIDDK fetch timeout; accessible NHS page used instead."
+    ],
+    "copyright": "No quotations. Concise medical paraphrases; original preparation/comparison examples. No invented anecdotes or cases."
+  },
+  "bodyWordCounts": [
+    {
+      "key": "mounjaro-nausea-meals",
+      "status": "draft",
+      "words": 1066
+    },
+    {
+      "key": "crohn-nutrition-stage",
+      "status": "draft",
+      "words": 1090
+    },
+    {
+      "key": "pcos-metformin-questions",
+      "status": "draft",
+      "words": 1098
+    },
+    {
+      "key": "cooking-oil-shopping",
+      "status": "draft",
+      "words": 1114
+    }
+  ],
+  "publication": {
+    "status": "draft"
+  },
+  "deploymentRepair": {
+    "failedPreview": "dpl_3APVi4Y8Ajb4jMr7b9YMJw29ugbo",
+    "message": "Invalid vercel.json file provided",
+    "beforeBytes": 512185,
+    "afterBytes": 156289,
+    "change": "Replace per-article and per-archive normalization variants with nine generic hierarchy rules; explicit migration mappings unchanged and prioritized.",
+    "temporaryProject": "CLI diagnostic command initially auto-created site-work because local project linkage was absent. Command stopped; relinked to ruladiet-site. Cleanup pending."
+  }
+}

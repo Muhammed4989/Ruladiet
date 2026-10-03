@@ -362,19 +362,79 @@
       "verification": "The correct managed clinic's All posts list shows the new image and Learn more card as Pending. The post ID was captured from the Google copy-post screen. No other profiles were selected; Skip was used. The short button URL was tested in a browser and redirects to the canonical article. Pending is not public approval."
     },
     {
-      "date":"2026-10-01",
-      "articleKey":"sodium-label-shopping",
-      "canonicalUrl":"https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/قراءة-الصوديوم-على-الملصق-الغذائي",
-      "text":"حين تقارنين منتجين في المتجر، ابدئي بحجم الحصة المكتوب على الملصق قبل النظر إلى كمية الصوديوم. قد تعرض عبوة رقماً أصغر لمجرد أن حصتها أصغر. اختاري منتجين متشابهين، وحددي المقدار الذي تستخدمينه فعلاً، ثم قارني كمية الصوديوم أو نسبته اليومية على هذا الأساس. المذاق المالح أو كلمة «طبيعي» على الواجهة لا يكفيان للحكم. لا تحتاجين تحويل كل وجبة إلى حسابات؛ جربي المقارنة على صنف تشترينه باستمرار، وراجعي الطعم والتكلفة وإمكان تكرار الاختيار. إذا كانت لديك تعليمات طبية خاصة بالضغط أو الكلى، اتبعي خطة فريقك. اقرئي الدليل الكامل عبر زر «معرفة المزيد». الرسم توضيحي لمنتجات غير موسومة، وليس إعلاناً لعلامة تجارية.",
-      "imagePath":"../assets/blog-editorial/sodium-label-shopping-google.jpg",
-      "button":{"type":"LEARN_MORE","url":"https://ruladiet.com/blog/قراءة-الصوديوم-على-الملصق-الغذائي"},
-      "status":"live","preparedAt":"2026-10-01T06:29:00Z","submittedAt":null,"checkedAt":"2026-10-01T06:34:07Z","postId":"8053478122328949988","postUrl":null,"blocker":null,
-      "sourcePolicy":["https://support.google.com/business/answer/7342169?hl=en","https://support.google.com/business/answer/7400114?hl=en"],
-      "duplicateCheck":"Correct managed Rula Diet clinic verified by name, ruladiet.com, Başakşehir address and management controls. All posts list showed no October 1 post; latest visible update was published 22 hours ago. Local ledger has no October 1 entry before this draft.",
-      "wordCount":100,
-      "verification":"Submitted once on Oct 1 around 06:33 UTC; exact send timestamp was not recorded. Google displayed the Oct 1 image and Learn more card at the top of the correct managed Rula Diet clinic All posts list with Published 24 seconds ago at the 06:34:07 check. The post ID was captured from the copy-post screen. No other business was selected; Skip was used. The button URL redirects to the canonical article."
+      "date": "2026-10-01",
+      "articleKey": "sodium-label-shopping",
+      "canonicalUrl": "https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/قراءة-الصوديوم-على-الملصق-الغذائي",
+      "text": "حين تقارنين منتجين في المتجر، ابدئي بحجم الحصة المكتوب على الملصق قبل النظر إلى كمية الصوديوم. قد تعرض عبوة رقماً أصغر لمجرد أن حصتها أصغر. اختاري منتجين متشابهين، وحددي المقدار الذي تستخدمينه فعلاً، ثم قارني كمية الصوديوم أو نسبته اليومية على هذا الأساس. المذاق المالح أو كلمة «طبيعي» على الواجهة لا يكفيان للحكم. لا تحتاجين تحويل كل وجبة إلى حسابات؛ جربي المقارنة على صنف تشترينه باستمرار، وراجعي الطعم والتكلفة وإمكان تكرار الاختيار. إذا كانت لديك تعليمات طبية خاصة بالضغط أو الكلى، اتبعي خطة فريقك. اقرئي الدليل الكامل عبر زر «معرفة المزيد». الرسم توضيحي لمنتجات غير موسومة، وليس إعلاناً لعلامة تجارية.",
+      "imagePath": "../assets/blog-editorial/sodium-label-shopping-google.jpg",
+      "button": {
+        "type": "LEARN_MORE",
+        "url": "https://ruladiet.com/blog/قراءة-الصوديوم-على-الملصق-الغذائي"
+      },
+      "status": "live",
+      "preparedAt": "2026-10-01T06:29:00Z",
+      "submittedAt": null,
+      "checkedAt": "2026-10-01T06:34:07Z",
+      "postId": "8053478122328949988",
+      "postUrl": null,
+      "blocker": null,
+      "sourcePolicy": [
+        "https://support.google.com/business/answer/7342169?hl=en",
+        "https://support.google.com/business/answer/7400114?hl=en"
+      ],
+      "duplicateCheck": "Correct managed Rula Diet clinic verified by name, ruladiet.com, Başakşehir address and management controls. All posts list showed no October 1 post; latest visible update was published 22 hours ago. Local ledger has no October 1 entry before this draft.",
+      "wordCount": 100,
+      "verification": "Submitted once on Oct 1 around 06:33 UTC; exact send timestamp was not recorded. Google displayed the Oct 1 image and Learn more card at the top of the correct managed Rula Diet clinic All posts list with Published 24 seconds ago at the 06:34:07 check. The post ID was captured from the copy-post screen. No other business was selected; Skip was used. The button URL redirects to the canonical article."
     },
-    {"date":"2026-10-02","articleKey":"added-sugar-drink-labels","canonicalUrl":"https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/قراءة-السكر-المضاف-في-المشروبات","text":"عند مقارنة مشروبين، ابدئي بحجم الحصة وعدد الحصص في العبوة. فالرقم الأصغر على الملصق قد يخص كمية أصغر، لا مشروباً أفضل بالضرورة. بعد ذلك فرقي بين السكر الكلي والسكر المضاف؛ المضاف جزء من الإجمالي ولا يُجمع معه مرة ثانية. قارني منتجات متشابهة وبالكمية التي تشربينها فعلاً، ثم ضعي الطعم والسعر ومدى تكرار الاستخدام في القرار. لا تحتاجين إلى منع كل مشروب محلى أو قراءة كل عبوة في البيت اليوم. جربي المقارنة على صنف واحد تشترينه بانتظام. إذا كانت لديك تعليمات خاصة بالسكري أو حالة صحية أخرى، اتبعي خطة فريقك. الدليل الكامل عبر زر معرفة المزيد. الصورة توضيحية لعبوات غير موسومة.","imagePath":"../assets/blog-editorial/added-sugar-drink-labels-google.jpg","button":{"type":"LEARN_MORE","url":"https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/قراءة-السكر-المضاف-في-المشروبات"},"status":"live","preparedAt":"2026-10-02T06:37:30.531Z","submittedAt":"2026-10-02T06:42:00Z","checkedAt":"2026-10-02T06:44:20Z","postId":"6110627219762358227","postUrl":null,"blocker":null,"sourcePolicy":["https://support.google.com/business/answer/7342169?hl=en","https://support.google.com/business/answer/7400114?hl=en"],"wordCount":100,"duplicateCheck":"Managed Rula Diet clinic (correct business ID, website, Başakşehir address) All posts list showed no October 2 update; latest post published yesterday.","verification":"Correct managed Rula Diet clinic All posts showed this text, image and Learn more card as Published 23 seconds ago. Post ID captured from copy-post screen. Skip used; no other profiles selected."}
+    {
+      "date": "2026-10-02",
+      "articleKey": "added-sugar-drink-labels",
+      "canonicalUrl": "https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/قراءة-السكر-المضاف-في-المشروبات",
+      "text": "عند مقارنة مشروبين، ابدئي بحجم الحصة وعدد الحصص في العبوة. فالرقم الأصغر على الملصق قد يخص كمية أصغر، لا مشروباً أفضل بالضرورة. بعد ذلك فرقي بين السكر الكلي والسكر المضاف؛ المضاف جزء من الإجمالي ولا يُجمع معه مرة ثانية. قارني منتجات متشابهة وبالكمية التي تشربينها فعلاً، ثم ضعي الطعم والسعر ومدى تكرار الاستخدام في القرار. لا تحتاجين إلى منع كل مشروب محلى أو قراءة كل عبوة في البيت اليوم. جربي المقارنة على صنف واحد تشترينه بانتظام. إذا كانت لديك تعليمات خاصة بالسكري أو حالة صحية أخرى، اتبعي خطة فريقك. الدليل الكامل عبر زر معرفة المزيد. الصورة توضيحية لعبوات غير موسومة.",
+      "imagePath": "../assets/blog-editorial/added-sugar-drink-labels-google.jpg",
+      "button": {
+        "type": "LEARN_MORE",
+        "url": "https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/قراءة-السكر-المضاف-في-المشروبات"
+      },
+      "status": "live",
+      "preparedAt": "2026-10-02T06:37:30.531Z",
+      "submittedAt": "2026-10-02T06:42:00Z",
+      "checkedAt": "2026-10-02T06:44:20Z",
+      "postId": "6110627219762358227",
+      "postUrl": null,
+      "blocker": null,
+      "sourcePolicy": [
+        "https://support.google.com/business/answer/7342169?hl=en",
+        "https://support.google.com/business/answer/7400114?hl=en"
+      ],
+      "wordCount": 100,
+      "duplicateCheck": "Managed Rula Diet clinic (correct business ID, website, Başakşehir address) All posts list showed no October 2 update; latest post published yesterday.",
+      "verification": "Correct managed Rula Diet clinic All posts showed this text, image and Learn more card as Published 23 seconds ago. Post ID captured from copy-post screen. Skip used; no other profiles selected."
+    },
+    {
+      "date": "2026-10-03",
+      "articleKey": "cooking-oil-shopping",
+      "canonicalUrl": "https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/اختيار-زيت-الطبخ",
+      "text": "اختيار زيت الطبخ يبدأ من الاستخدام اليومي، لا من أجمل عبوة. قبل الشراء، راجعي مصدر الزيت ومكوناته، وقارني القيم الغذائية لكمية متساوية بين منتجين. كلمة «خفيف» على زيت الزيتون تصف عادةً لوناً ونكهة أخف، ولا تعني سعرات أقل. فكري أيضاً في حجم العبوة: هل ستستخدمينها فعلاً، وأين ستخزنينها؟ اختاري مكاناً بعيداً عن حرارة الموقد والضوء، وأغلقي الغطاء بعد الاستعمال وفق إرشادات المنتج. جربي المقارنة على زيت واحد وطبخة معتادة، بدلاً من تغيير المطبخ كله. في دليل رولا دايت الجديد نرتب خطوات الاختيار والتخزين بأمثلة عملية وروابط للمراجع. اقرئيه عبر زر معرفة المزيد. الرسم توضيحي لعبوات غير موسومة، وليس إعلاناً لمنتج.",
+      "imagePath": "../assets/blog-editorial/cooking-oil-shopping-google.jpg",
+      "button": {
+        "type": "LEARN_MORE",
+        "url": "https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/اختيار-زيت-الطبخ"
+      },
+      "status": "draft",
+      "preparedAt": "2026-10-03T07:32:17.689Z",
+      "submittedAt": null,
+      "checkedAt": null,
+      "postId": null,
+      "postUrl": null,
+      "blocker": null,
+      "sourcePolicy": [
+        "https://support.google.com/business/answer/7342169?hl=en",
+        "https://support.google.com/business/answer/7400114?hl=en"
+      ],
+      "wordCount": 100,
+      "duplicateCheck": "Correct verified managed clinic business ID15771110234456492391 and Başakşehir address; All posts latest Published yesterday (October2), no October3 post. Hold draft until website publication verified."
+    }
   ],
   "draftQueue": [
     {

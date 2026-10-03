@@ -3918,18 +3918,55 @@
     "summary": "تقرير التشخيص وسجل الأعراض وكفاية الطعام أهم من قائمة منع عامة؛ رتبي أسئلتك ضمن خطة الطبيب.",
     "coverAlt": "امرأة محجبة تسجل أعراضها وأسئلتها في دفتر على طاولة منزلية هادئة بجوار كوب ماء",
     "visualHeading": "ملف الزيارة",
-    "steps": ["تقرير التشخيص", "سجل الطعام", "قائمة الأدوية"],
-    "secondVisual": {"title":"تقسيم المسؤولية","steps":["الأعراض للطبيب","الكفاية للاختصاصية","الخطة بالمشاركة"],"alt":"مخطط يوضح دور الطبيب واختصاصية التغذية في متابعة بطء إفراغ المعدة","caption":"الاستشارة الغذائية تنسق مع التشخيص والعلاج الطبي ولا تستبدلهما."},
-    "related": ["مذكرات-الطعام-قبل-استشارة-التغذية", "استشارة-تغذية-بعد-استئصال-المرارة", "التغذية-مع-ارتجاع-المريء"],
-    "cta": {"href":"/احجز-موعد","label":"اسألي عن ملاءمة استشارة التغذية","note":"أحضري تشخيص الطبيب وخطة العلاج؛ الاستشارة لا تشخص بطء المعدة أو تغير الدواء."},
-    "sources": [
-      {"name":"NIDDK: تشخيص بطء إفراغ المعدة","url":"https://www.niddk.nih.gov/health-information/digestive-diseases/gastroparesis/diagnosis"},
-      {"name":"NIDDK: الأكل والتغذية مع بطء إفراغ المعدة","url":"https://www.niddk.nih.gov/health-information/digestive-diseases/gastroparesis/eating-diet-nutrition"},
-      {"name":"NIDDK: علاج بطء إفراغ المعدة","url":"https://www.niddk.nih.gov/health-information/digestive-diseases/gastroparesis/treatment"},
-      {"name":"NIDDK: الأعراض والأسباب","url":"https://www.niddk.nih.gov/health-information/digestive-diseases/gastroparesis/symptoms-causes"}
+    "steps": [
+      "تقرير التشخيص",
+      "سجل الطعام",
+      "قائمة الأدوية"
     ],
-    "icon":"medical","published":"2026-10-01","updated":"2026-10-01","workflow":"daily","publicationBatch":"daily-2026-10-01",
-    "coverCaption":"صورة توضيحية مولدة؛ الشخصية خيالية ولا تمثل رولا أو إحدى المراجعات أو نتيجة علاج."
+    "secondVisual": {
+      "title": "تقسيم المسؤولية",
+      "steps": [
+        "الأعراض للطبيب",
+        "الكفاية للاختصاصية",
+        "الخطة بالمشاركة"
+      ],
+      "alt": "مخطط يوضح دور الطبيب واختصاصية التغذية في متابعة بطء إفراغ المعدة",
+      "caption": "الاستشارة الغذائية تنسق مع التشخيص والعلاج الطبي ولا تستبدلهما."
+    },
+    "related": [
+      "مذكرات-الطعام-قبل-استشارة-التغذية",
+      "استشارة-تغذية-بعد-استئصال-المرارة",
+      "التغذية-مع-ارتجاع-المريء"
+    ],
+    "cta": {
+      "href": "/احجز-موعد",
+      "label": "اسألي عن ملاءمة استشارة التغذية",
+      "note": "أحضري تشخيص الطبيب وخطة العلاج؛ الاستشارة لا تشخص بطء المعدة أو تغير الدواء."
+    },
+    "sources": [
+      {
+        "name": "NIDDK: تشخيص بطء إفراغ المعدة",
+        "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gastroparesis/diagnosis"
+      },
+      {
+        "name": "NIDDK: الأكل والتغذية مع بطء إفراغ المعدة",
+        "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gastroparesis/eating-diet-nutrition"
+      },
+      {
+        "name": "NIDDK: علاج بطء إفراغ المعدة",
+        "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gastroparesis/treatment"
+      },
+      {
+        "name": "NIDDK: الأعراض والأسباب",
+        "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gastroparesis/symptoms-causes"
+      }
+    ],
+    "icon": "medical",
+    "published": "2026-10-01",
+    "updated": "2026-10-01",
+    "workflow": "daily",
+    "publicationBatch": "daily-2026-10-01",
+    "coverCaption": "صورة توضيحية مولدة؛ الشخصية خيالية ولا تمثل رولا أو إحدى المراجعات أو نتيجة علاج."
   },
   {
     "key": "pcos-lipid-screening",
@@ -3938,17 +3975,51 @@
     "summary": "فحص الدهون عند التشخيص يضيف صورة عن الصحة الاستقلابية حتى مع وزن طبيعي؛ افهمي السؤال قبل تفسير الرقم.",
     "coverAlt": "رسم مائي لامرأة محجبة تمشي في حديقة هادئة تحمل دفتر متابعة صحية مع رمز قلب نباتي بسيط",
     "visualHeading": "صورة المتابعة",
-    "steps": ["ملف الدهون", "ضغط الدم", "خطة الطبيب"],
-    "secondVisual": {"title":"قراءة النتيجة","steps":["احفظي التقرير","اسألي عن السياق","راجعي الهدف"],"alt":"مخطط لمناقشة تقرير دهون الدم وسياقه وخطة المتابعة مع الطبيب","caption":"رقم واحد لا يحدد خطة دواء أو طعام شخصية."},
-    "related": ["تحليل-الإنسولين-مع-تكيس-المبايض", "تكيس-المبايض-مع-وزن-طبيعي", "استشارة-تغذية-لارتفاع-الكوليسترول"],
-    "cta": {"href":"/course/تكيس-المبايض","label":"راجعي منهج كورس تكيس المبايض","note":"الكورس تثقيفي ولا يفسر التحليل الفردي أو يستبدل قرار الطبيب."},
-    "sources": [
-      {"name":"ASRM: الإرشادات الدولية لتكيس المبايض 2023، فحص الدهون والضغط","url":"https://www.asrm.org/practice-guidance/practice-committee-documents/recommendations-from-the-2023-international-evidence-based-guideline-for-the-assessment-and-management-of-polyendocrine-metabolic-ovarian-syndrome-2023/"},
-      {"name":"Monash: إرشادات التكيس الدولية","url":"https://www.monash.edu/medicine/mchri/pcos/guideline"},
-      {"name":"ASRM: الوثيقة الأصلية لإرشادات التكيس 2023","url":"https://integration.asrm.org/globalassets/_asrm/practice-guidance/practice-guidelines/pdf/recommendations_from_the_2023_int_evidence-based_guideline_on_pcos.pdf"}
+    "steps": [
+      "ملف الدهون",
+      "ضغط الدم",
+      "خطة الطبيب"
     ],
-    "icon":"heart","published":"2026-10-01","updated":"2026-10-01","workflow":"daily","publicationBatch":"daily-2026-10-01",
-    "coverCaption":"رسم توضيحي مولد؛ الشخصية خيالية ولا تمثل رولا أو إحدى المراجعات أو نتيجة علاج."
+    "secondVisual": {
+      "title": "قراءة النتيجة",
+      "steps": [
+        "احفظي التقرير",
+        "اسألي عن السياق",
+        "راجعي الهدف"
+      ],
+      "alt": "مخطط لمناقشة تقرير دهون الدم وسياقه وخطة المتابعة مع الطبيب",
+      "caption": "رقم واحد لا يحدد خطة دواء أو طعام شخصية."
+    },
+    "related": [
+      "تحليل-الإنسولين-مع-تكيس-المبايض",
+      "تكيس-المبايض-مع-وزن-طبيعي",
+      "استشارة-تغذية-لارتفاع-الكوليسترول"
+    ],
+    "cta": {
+      "href": "/course/تكيس-المبايض",
+      "label": "راجعي منهج كورس تكيس المبايض",
+      "note": "الكورس تثقيفي ولا يفسر التحليل الفردي أو يستبدل قرار الطبيب."
+    },
+    "sources": [
+      {
+        "name": "ASRM: الإرشادات الدولية لتكيس المبايض 2023، فحص الدهون والضغط",
+        "url": "https://www.asrm.org/practice-guidance/practice-committee-documents/recommendations-from-the-2023-international-evidence-based-guideline-for-the-assessment-and-management-of-polyendocrine-metabolic-ovarian-syndrome-2023/"
+      },
+      {
+        "name": "Monash: إرشادات التكيس الدولية",
+        "url": "https://www.monash.edu/medicine/mchri/pcos/guideline"
+      },
+      {
+        "name": "ASRM: الوثيقة الأصلية لإرشادات التكيس 2023",
+        "url": "https://integration.asrm.org/globalassets/_asrm/practice-guidance/practice-guidelines/pdf/recommendations_from_the_2023_int_evidence-based_guideline_on_pcos.pdf"
+      }
+    ],
+    "icon": "heart",
+    "published": "2026-10-01",
+    "updated": "2026-10-01",
+    "workflow": "daily",
+    "publicationBatch": "daily-2026-10-01",
+    "coverCaption": "رسم توضيحي مولد؛ الشخصية خيالية ولا تمثل رولا أو إحدى المراجعات أو نتيجة علاج."
   },
   {
     "key": "ulcerative-colitis-consultation",
@@ -3957,17 +4028,51 @@
     "summary": "رتبي تقارير العلاج والطعام والأعراض، وراجعي القيود الغذائية دون استبدال علاج الالتهاب بحمية.",
     "coverAlt": "امرأة محجبة تراجع أسئلتها الصحية في دفتر بجوار حاسوب داخل غرفة منزلية مضاءة بهدوء",
     "visualHeading": "قبل الموعد",
-    "steps": ["خطة الطبيب", "الأعراض الحالية", "الأطعمة المحذوفة"],
-    "secondVisual": {"title":"هدف المتابعة","steps":["كفاية الطعام","قيود أقل","مراجعة واضحة"],"alt":"مخطط يوضح أهداف الاستشارة الغذائية: الكفاية وتقليل المنع غير الضروري والمراجعة","caption":"تغير الطعام يدعم التغذية ولا يعالج الالتهاب وحده."},
-    "related": ["مذكرات-الطعام-قبل-استشارة-التغذية", "استشارة-تغذية-لنقص-الحديد", "استشارة-تغذية-للقولون-العصبي"],
-    "cta": {"href":"/احجز-موعد","label":"اسألي عن ملاءمة استشارة التغذية","note":"التشخيص والعلاج ومتابعة النوبات تبقى لدى طبيب الجهاز الهضمي."},
-    "sources": [
-      {"name":"NIDDK: علاج التهاب القولون التقرحي","url":"https://www.niddk.nih.gov/health-information/digestive-diseases/ulcerative-colitis/treatment"},
-      {"name":"Crohn's & Colitis Foundation: الطعام مع أمراض الأمعاء الالتهابية","url":"https://www.crohnscolitisfoundation.org/patientsandcaregivers/diet-and-nutrition/what-should-i-eat"},
-      {"name":"Crohn's & Colitis Foundation: المكملات ونقص المغذيات","url":"https://www.crohnscolitisfoundation.org/patientsandcaregivers/diet-and-nutrition/supplementation"}
+    "steps": [
+      "خطة الطبيب",
+      "الأعراض الحالية",
+      "الأطعمة المحذوفة"
     ],
-    "icon":"medical","published":"2026-10-01","updated":"2026-10-01","workflow":"daily","publicationBatch":"daily-2026-10-01",
-    "coverCaption":"صورة توضيحية مولدة؛ الشخصية خيالية ولا تمثل رولا أو إحدى المراجعات أو نتيجة علاج."
+    "secondVisual": {
+      "title": "هدف المتابعة",
+      "steps": [
+        "كفاية الطعام",
+        "قيود أقل",
+        "مراجعة واضحة"
+      ],
+      "alt": "مخطط يوضح أهداف الاستشارة الغذائية: الكفاية وتقليل المنع غير الضروري والمراجعة",
+      "caption": "تغير الطعام يدعم التغذية ولا يعالج الالتهاب وحده."
+    },
+    "related": [
+      "مذكرات-الطعام-قبل-استشارة-التغذية",
+      "استشارة-تغذية-لنقص-الحديد",
+      "استشارة-تغذية-للقولون-العصبي"
+    ],
+    "cta": {
+      "href": "/احجز-موعد",
+      "label": "اسألي عن ملاءمة استشارة التغذية",
+      "note": "التشخيص والعلاج ومتابعة النوبات تبقى لدى طبيب الجهاز الهضمي."
+    },
+    "sources": [
+      {
+        "name": "NIDDK: علاج التهاب القولون التقرحي",
+        "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/ulcerative-colitis/treatment"
+      },
+      {
+        "name": "Crohn's & Colitis Foundation: الطعام مع أمراض الأمعاء الالتهابية",
+        "url": "https://www.crohnscolitisfoundation.org/patientsandcaregivers/diet-and-nutrition/what-should-i-eat"
+      },
+      {
+        "name": "Crohn's & Colitis Foundation: المكملات ونقص المغذيات",
+        "url": "https://www.crohnscolitisfoundation.org/patientsandcaregivers/diet-and-nutrition/supplementation"
+      }
+    ],
+    "icon": "medical",
+    "published": "2026-10-01",
+    "updated": "2026-10-01",
+    "workflow": "daily",
+    "publicationBatch": "daily-2026-10-01",
+    "coverCaption": "صورة توضيحية مولدة؛ الشخصية خيالية ولا تمثل رولا أو إحدى المراجعات أو نتيجة علاج."
   },
   {
     "key": "sodium-label-shopping",
@@ -3976,40 +4081,490 @@
     "summary": "ابدئي بحجم الحصة، ثم قارني الملليغرام والنسبة اليومية بين منتجات متشابهة دون تحويل كل عبوة إلى حكم صحي.",
     "coverAlt": "رسم مائي لمنتجات غذائية بلا علامات تجارية وملصقات فارغة بجوار سلة تسوق وأعشاب ودفتر",
     "visualHeading": "أربع خطوات للملصق",
-    "steps": ["حجم الحصة", "كمية الصوديوم", "مقارنة عادلة"],
-    "secondVisual": {"title":"بعد الشراء","steps":["راقبي الاستخدام","راجعي الطعم","اختاري ما يتكرر"],"alt":"مخطط لتجربة منتج أقل صوديومًا ومراجعة استخدامه وطعمه وإمكان تكراره","caption":"الملصق أداة للمقارنة، وليس وصفة علاجية فردية."},
-    "related": ["اختيار-الحبوب-الكاملة-من-الملصق", "التغذية-لارتفاع-ضغط-الدم", "قراءة-البطاقة-الغذائية"],
-    "cta": {"href":"/course/المسار-الصحي","label":"راجعي تفاصيل المسار الصحي","note":"تعلم عام للعادات الغذائية؛ لا نفترض درساً متخصصاً بالصوديوم أو علاجاً فردياً ضمن الكورس."},
-    "sources": [
-      {"name":"FDA: الصوديوم في بطاقة القيم الغذائية","url":"https://www.fda.gov/food/nutrition-education-resources-materials/sodium-nutrition-facts-label"},
-      {"name":"FDA: كيفية فهم الملصق وحجم الحصة","url":"https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label"},
-      {"name":"FDA: مصادر الصوديوم في الغذاء","url":"https://www.fda.gov/food/nutrition-education-resources-materials/sodium-your-diet"}
+    "steps": [
+      "حجم الحصة",
+      "كمية الصوديوم",
+      "مقارنة عادلة"
     ],
-    "icon":"box","published":"2026-10-01","updated":"2026-10-01","workflow":"daily","publicationBatch":"daily-2026-10-01",
-    "coverCaption":"رسم توضيحي مولد لعناصر غذائية غير موسومة؛ بلا ادعاءات علاجية."
+    "secondVisual": {
+      "title": "بعد الشراء",
+      "steps": [
+        "راقبي الاستخدام",
+        "راجعي الطعم",
+        "اختاري ما يتكرر"
+      ],
+      "alt": "مخطط لتجربة منتج أقل صوديومًا ومراجعة استخدامه وطعمه وإمكان تكراره",
+      "caption": "الملصق أداة للمقارنة، وليس وصفة علاجية فردية."
+    },
+    "related": [
+      "اختيار-الحبوب-الكاملة-من-الملصق",
+      "التغذية-لارتفاع-ضغط-الدم",
+      "قراءة-البطاقة-الغذائية"
+    ],
+    "cta": {
+      "href": "/course/المسار-الصحي",
+      "label": "راجعي تفاصيل المسار الصحي",
+      "note": "تعلم عام للعادات الغذائية؛ لا نفترض درساً متخصصاً بالصوديوم أو علاجاً فردياً ضمن الكورس."
+    },
+    "sources": [
+      {
+        "name": "FDA: الصوديوم في بطاقة القيم الغذائية",
+        "url": "https://www.fda.gov/food/nutrition-education-resources-materials/sodium-nutrition-facts-label"
+      },
+      {
+        "name": "FDA: كيفية فهم الملصق وحجم الحصة",
+        "url": "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label"
+      },
+      {
+        "name": "FDA: مصادر الصوديوم في الغذاء",
+        "url": "https://www.fda.gov/food/nutrition-education-resources-materials/sodium-your-diet"
+      }
+    ],
+    "icon": "box",
+    "published": "2026-10-01",
+    "updated": "2026-10-01",
+    "workflow": "daily",
+    "publicationBatch": "daily-2026-10-01",
+    "coverCaption": "رسم توضيحي مولد لعناصر غذائية غير موسومة؛ بلا ادعاءات علاجية."
   },
   {
-    "key":"weight-medication-transition","slug":"التغذية-بعد-تغيير-أدوية-التنحيف","title":"التغذية بعد تغيير أو إيقاف أدوية التنحيف: كيف تستعدين؟","summary":"قرار تعديل الدواء للطبيب، وخطة الغذاء تحتاج متابعة للشهية والعادات دون وعود بثبات الوزن. أسئلة عملية قبل الاستشارة.",
-    "coverAlt":"امرأة محجبة تخطط لوجباتها في دفتر قرب نافذة مضيئة وحذاء مشي على الأرض","visualHeading":"قبل التغيير","steps":["راجعي الطبيب","سجلي الشهية","حضري الوجبات"],"secondVisual":{"title":"خطة المتابعة","steps":["سبب التغيير","طعام واقعي","مراجعة لاحقة"],"alt":"مخطط يربط قرار الطبيب بمراجعة الطعام ثم المتابعة","caption":"قرار الدواء للطبيب؛ الغذاء جزء من خطة طويلة المدى."},
-    "related":["تثبيت-الوزن-بعد-الرجيم","ضعف-الشهية-مع-أدوية-التنحيف-وتقييم-الغذاء","مذكرات-الطعام-قبل-استشارة-التغذية"],"cta":{"href":"/احجز-موعد","label":"اسألي عن متابعة التغذية","note":"ناقشي تغيير الدواء مع الطبيب الواصف أولاً؛ الاستشارة الغذائية تساعد في تنظيم الطعام ولا تضمن ثبات الوزن."},
-    "sources":[{"name":"تجربة SURMOUNT-4 العشوائية حول استمرار تيرزيباتيد أو سحبه","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC10714284/"},{"name":"المشورة المهنية المشتركة للتغذية مع أدوية GLP-1","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC12264624/"},{"name":"FDA: نشرة تيرزيباتيد الرسمية والتحذيرات","url":"https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/217806s002lbl.pdf"}],"icon":"check","published":"2026-10-02","updated":"2026-10-02","workflow":"daily","publicationBatch":"daily-2026-10-02","coverCaption":"صورة توضيحية مولدة؛ الشخصية خيالية ولا تمثل رولا أو مريضة أو نتيجة علاج."
+    "key": "weight-medication-transition",
+    "slug": "التغذية-بعد-تغيير-أدوية-التنحيف",
+    "title": "التغذية بعد تغيير أو إيقاف أدوية التنحيف: كيف تستعدين؟",
+    "summary": "قرار تعديل الدواء للطبيب، وخطة الغذاء تحتاج متابعة للشهية والعادات دون وعود بثبات الوزن. أسئلة عملية قبل الاستشارة.",
+    "coverAlt": "امرأة محجبة تخطط لوجباتها في دفتر قرب نافذة مضيئة وحذاء مشي على الأرض",
+    "visualHeading": "قبل التغيير",
+    "steps": [
+      "راجعي الطبيب",
+      "سجلي الشهية",
+      "حضري الوجبات"
+    ],
+    "secondVisual": {
+      "title": "خطة المتابعة",
+      "steps": [
+        "سبب التغيير",
+        "طعام واقعي",
+        "مراجعة لاحقة"
+      ],
+      "alt": "مخطط يربط قرار الطبيب بمراجعة الطعام ثم المتابعة",
+      "caption": "قرار الدواء للطبيب؛ الغذاء جزء من خطة طويلة المدى."
+    },
+    "related": [
+      "تثبيت-الوزن-بعد-الرجيم",
+      "ضعف-الشهية-مع-أدوية-التنحيف-وتقييم-الغذاء",
+      "مذكرات-الطعام-قبل-استشارة-التغذية"
+    ],
+    "cta": {
+      "href": "/احجز-موعد",
+      "label": "اسألي عن متابعة التغذية",
+      "note": "ناقشي تغيير الدواء مع الطبيب الواصف أولاً؛ الاستشارة الغذائية تساعد في تنظيم الطعام ولا تضمن ثبات الوزن."
+    },
+    "sources": [
+      {
+        "name": "تجربة SURMOUNT-4 العشوائية حول استمرار تيرزيباتيد أو سحبه",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10714284/"
+      },
+      {
+        "name": "المشورة المهنية المشتركة للتغذية مع أدوية GLP-1",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12264624/"
+      },
+      {
+        "name": "FDA: نشرة تيرزيباتيد الرسمية والتحذيرات",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/217806s002lbl.pdf"
+      }
+    ],
+    "icon": "check",
+    "published": "2026-10-02",
+    "updated": "2026-10-02",
+    "workflow": "daily",
+    "publicationBatch": "daily-2026-10-02",
+    "coverCaption": "صورة توضيحية مولدة؛ الشخصية خيالية ولا تمثل رولا أو مريضة أو نتيجة علاج."
   },
   {
-    "key":"weight-medication-protein-review","slug":"البروتين-مع-أدوية-التنحيف-طعام-أم-مكمل","title":"البروتين مع أدوية التنحيف: الطعام أم المكمل؟","summary":"راجعي كفاية الوجبات والمصادر المتاحة قبل شراء مسحوق بروتين، مع مراعاة الأعراض والحالات الصحية وخطة الطبيب.",
-    "coverAlt":"رسم مائي لامرأة محجبة تحضر وجبة متنوعة من البقول والبيض واللبن والخضراوات","visualHeading":"قبل المسحوق","steps":["راجعي الطعام","حددي الصعوبة","اسألي المختص"],"secondVisual":{"title":"صورة أوسع","steps":["بروتين متنوع","حركة مناسبة","متابعة طبية"],"alt":"مخطط يوضح دور الطعام المتنوع والحركة والمتابعة أثناء علاج الوزن","caption":"مكمل البروتين لا يعوض خطة الغذاء أو الحركة أو متابعة الطبيب."},
-    "related":["ضعف-الشهية-مع-أدوية-التنحيف-وتقييم-الغذاء","تنويع-البروتين-النباتي-قبل-شراء-المساحيق","نظام-غذائي-مع-مونجارو"],"cta":{"href":"/احجز-موعد","label":"راجعي ملاءمة استشارة التغذية","note":"الاحتياج الفردي ومشكلات التحمل والأمراض المصاحبة تُناقش مع الفريق الصحي، لا من جرعة عامة على الإنترنت."},
-    "sources":[{"name":"المشورة المهنية المشتركة للتغذية مع أدوية GLP-1","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC12264624/"},{"name":"بيان إجماع EASO وEFAD وECPO حول التغذية مع أدوية الإنكريتين","url":"https://pubmed.ncbi.nlm.nih.gov/42419343/"},{"name":"USDA MyPlate: مصادر البروتين","url":"https://www.myplate.gov/web/web/eat-healthy/protein-foods"},{"name":"FDA: نشرة تيرزيباتيد الرسمية","url":"https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/217806s002lbl.pdf"}],"icon":"plate","published":"2026-10-02","updated":"2026-10-02","workflow":"daily","publicationBatch":"daily-2026-10-02","coverCaption":"رسم توضيحي مولد؛ الشخصية خيالية ولا تمثل رولا أو مريضة أو نتيجة علاج."
+    "key": "weight-medication-protein-review",
+    "slug": "البروتين-مع-أدوية-التنحيف-طعام-أم-مكمل",
+    "title": "البروتين مع أدوية التنحيف: الطعام أم المكمل؟",
+    "summary": "راجعي كفاية الوجبات والمصادر المتاحة قبل شراء مسحوق بروتين، مع مراعاة الأعراض والحالات الصحية وخطة الطبيب.",
+    "coverAlt": "رسم مائي لامرأة محجبة تحضر وجبة متنوعة من البقول والبيض واللبن والخضراوات",
+    "visualHeading": "قبل المسحوق",
+    "steps": [
+      "راجعي الطعام",
+      "حددي الصعوبة",
+      "اسألي المختص"
+    ],
+    "secondVisual": {
+      "title": "صورة أوسع",
+      "steps": [
+        "بروتين متنوع",
+        "حركة مناسبة",
+        "متابعة طبية"
+      ],
+      "alt": "مخطط يوضح دور الطعام المتنوع والحركة والمتابعة أثناء علاج الوزن",
+      "caption": "مكمل البروتين لا يعوض خطة الغذاء أو الحركة أو متابعة الطبيب."
+    },
+    "related": [
+      "ضعف-الشهية-مع-أدوية-التنحيف-وتقييم-الغذاء",
+      "تنويع-البروتين-النباتي-قبل-شراء-المساحيق",
+      "نظام-غذائي-مع-مونجارو"
+    ],
+    "cta": {
+      "href": "/احجز-موعد",
+      "label": "راجعي ملاءمة استشارة التغذية",
+      "note": "الاحتياج الفردي ومشكلات التحمل والأمراض المصاحبة تُناقش مع الفريق الصحي، لا من جرعة عامة على الإنترنت."
+    },
+    "sources": [
+      {
+        "name": "المشورة المهنية المشتركة للتغذية مع أدوية GLP-1",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12264624/"
+      },
+      {
+        "name": "بيان إجماع EASO وEFAD وECPO حول التغذية مع أدوية الإنكريتين",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42419343/"
+      },
+      {
+        "name": "USDA MyPlate: مصادر البروتين",
+        "url": "https://www.myplate.gov/web/web/eat-healthy/protein-foods"
+      },
+      {
+        "name": "FDA: نشرة تيرزيباتيد الرسمية",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/217806s002lbl.pdf"
+      }
+    ],
+    "icon": "plate",
+    "published": "2026-10-02",
+    "updated": "2026-10-02",
+    "workflow": "daily",
+    "publicationBatch": "daily-2026-10-02",
+    "coverCaption": "رسم توضيحي مولد؛ الشخصية خيالية ولا تمثل رولا أو مريضة أو نتيجة علاج."
   },
   {
-    "key":"pcos-glucose-followup","slug":"متابعة-السكر-مع-تكيس-المبايض","title":"متابعة سكر الدم مع تكيس المبايض: متى يُعاد الفحص؟","summary":"الإرشادات توصي بتقييم السكر عند التشخيص وإعادة النظر في الفحص وفق عوامل الخطر؛ افهمي دور الطبيب وحدود التعلم العام.",
-    "coverAlt":"رسم مائي لامرأة محجبة تمشي بهدوء في حديقة وتحمل دفتر أسئلة للمتابعة الصحية","visualHeading":"أسئلة الطبيب","steps":["آخر فحص","نوع الفحص","موعد الإعادة"],"secondVisual":{"title":"حدود الأدوار","steps":["الفحص للطبيب","التعلم للكورس","الغذاء حسب حالتك"],"alt":"مخطط يفرق بين قرار الفحص الطبي والتعلم العام والخطة الغذائية الفردية","caption":"الكورس لا يفسر نتائج التحاليل أو يشخص السكري."},
-    "related":["تحليل-الإنسولين-مع-تكيس-المبايض","ماذا-بعد-تشخيص-تكيس-المبايض","تكيس-المبايض-مع-وزن-طبيعي"],"cta":{"href":"/course/تكيس-المبايض","label":"راجعي كورس تكيس المبايض التعليمي","note":"للتثقيف وتنظيم الأسئلة؛ لا يطلب فحوصك أو يفسر نتائجك ولا يضمن الشفاء."},
-    "sources":[{"name":"إرشادات تكيس المبايض الدولية لعام 2023، ASRM","url":"https://prod.asrm.org/practice-guidance/practice-committee-documents/recommendations-from-the-2023-international-evidence-based-guideline-for-the-assessment-and-management-of-polycystic-ovary-syndrome/"},{"name":"الدراسة المنشورة للإرشادات الدولية، PubMed","url":"https://pubmed.ncbi.nlm.nih.gov/37589624/"},{"name":"مركز موناش للإرشادات الدولية لتكيس المبايض","url":"https://www.monash.edu/medicine/mchri/pcos/guideline"}],"icon":"medical","published":"2026-10-02","updated":"2026-10-02","workflow":"daily","publicationBatch":"daily-2026-10-02","coverCaption":"رسم توضيحي مولد؛ الشخصية خيالية ولا تمثل رولا أو مريضة أو نتيجة علاج."
+    "key": "pcos-glucose-followup",
+    "slug": "متابعة-السكر-مع-تكيس-المبايض",
+    "title": "متابعة سكر الدم مع تكيس المبايض: متى يُعاد الفحص؟",
+    "summary": "الإرشادات توصي بتقييم السكر عند التشخيص وإعادة النظر في الفحص وفق عوامل الخطر؛ افهمي دور الطبيب وحدود التعلم العام.",
+    "coverAlt": "رسم مائي لامرأة محجبة تمشي بهدوء في حديقة وتحمل دفتر أسئلة للمتابعة الصحية",
+    "visualHeading": "أسئلة الطبيب",
+    "steps": [
+      "آخر فحص",
+      "نوع الفحص",
+      "موعد الإعادة"
+    ],
+    "secondVisual": {
+      "title": "حدود الأدوار",
+      "steps": [
+        "الفحص للطبيب",
+        "التعلم للكورس",
+        "الغذاء حسب حالتك"
+      ],
+      "alt": "مخطط يفرق بين قرار الفحص الطبي والتعلم العام والخطة الغذائية الفردية",
+      "caption": "الكورس لا يفسر نتائج التحاليل أو يشخص السكري."
+    },
+    "related": [
+      "تحليل-الإنسولين-مع-تكيس-المبايض",
+      "ماذا-بعد-تشخيص-تكيس-المبايض",
+      "تكيس-المبايض-مع-وزن-طبيعي"
+    ],
+    "cta": {
+      "href": "/course/تكيس-المبايض",
+      "label": "راجعي كورس تكيس المبايض التعليمي",
+      "note": "للتثقيف وتنظيم الأسئلة؛ لا يطلب فحوصك أو يفسر نتائجك ولا يضمن الشفاء."
+    },
+    "sources": [
+      {
+        "name": "إرشادات تكيس المبايض الدولية لعام 2023، ASRM",
+        "url": "https://prod.asrm.org/practice-guidance/practice-committee-documents/recommendations-from-the-2023-international-evidence-based-guideline-for-the-assessment-and-management-of-polycystic-ovary-syndrome/"
+      },
+      {
+        "name": "الدراسة المنشورة للإرشادات الدولية، PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37589624/"
+      },
+      {
+        "name": "مركز موناش للإرشادات الدولية لتكيس المبايض",
+        "url": "https://www.monash.edu/medicine/mchri/pcos/guideline"
+      }
+    ],
+    "icon": "medical",
+    "published": "2026-10-02",
+    "updated": "2026-10-02",
+    "workflow": "daily",
+    "publicationBatch": "daily-2026-10-02",
+    "coverCaption": "رسم توضيحي مولد؛ الشخصية خيالية ولا تمثل رولا أو مريضة أو نتيجة علاج."
   },
   {
-    "key":"added-sugar-drink-labels","slug":"قراءة-السكر-المضاف-في-المشروبات","title":"قراءة السكر المضاف في المشروبات: كيف تقارنين عبوتين؟","summary":"ابدئي بالحصة، ثم فرقي بين السكر الكلي والمضاف وقارني منتجات متشابهة دون أن يتحول الملصق إلى قائمة منع.",
-    "coverAlt":"مشروبان بعبوات غير موسومة على طاولة تسوق قرب دفتر وقلم وكوب ماء","visualHeading":"مقارنة عادلة","steps":["حجم الحصة","السكر المضاف","الاستخدام الفعلي"],"secondVisual":{"title":"قرار المتجر","steps":["الطعم والسعر","الكمية المعتادة","خيار قابل للتكرار"],"alt":"مخطط لمقارنة طعم المشروب وسعره والكمية المعتادة قبل الشراء","caption":"قراءة الملصق مهارة اختيار عامة وليست وصفة علاجية."},
-    "related":["قراءة-البطاقة-الغذائية","قراءة-الصوديوم-على-الملصق-الغذائي","شرب-الماء-لخسارة-الوزن"],"cta":{"href":"/course/المسار-الصحي","label":"راجعي تفاصيل المسار الصحي","note":"تعلم عام للتسوق والوجبات؛ لا نفترض درساً خاصاً بالمشروبات أو خطة علاج فردية داخل الكورس."},
-    "sources":[{"name":"FDA: الفرق بين السكر الكلي والمضاف على الملصق","url":"https://www.fda.gov/food/nutrition-facts-label/added-sugars-nutrition-facts-label"},{"name":"FDA: كيفية قراءة الحصة والنسبة اليومية","url":"https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label"},{"name":"FDA: بطاقة القيم الغذائية التفاعلية للسكر الكلي والمضاف","url":"https://www.accessdata.fda.gov/scripts/interactivenutritionfactslabel/assets/InteractiveNFL_Total%26AddedSugars_October2021.pdf"}],"icon":"box","published":"2026-10-02","updated":"2026-10-02","workflow":"daily","publicationBatch":"daily-2026-10-02","coverCaption":"صورة توضيحية مولدة لمنتجات غير موسومة؛ لا تمثل منتجاً تجارياً أو ادعاء صحياً."
+    "key": "added-sugar-drink-labels",
+    "slug": "قراءة-السكر-المضاف-في-المشروبات",
+    "title": "قراءة السكر المضاف في المشروبات: كيف تقارنين عبوتين؟",
+    "summary": "ابدئي بالحصة، ثم فرقي بين السكر الكلي والمضاف وقارني منتجات متشابهة دون أن يتحول الملصق إلى قائمة منع.",
+    "coverAlt": "مشروبان بعبوات غير موسومة على طاولة تسوق قرب دفتر وقلم وكوب ماء",
+    "visualHeading": "مقارنة عادلة",
+    "steps": [
+      "حجم الحصة",
+      "السكر المضاف",
+      "الاستخدام الفعلي"
+    ],
+    "secondVisual": {
+      "title": "قرار المتجر",
+      "steps": [
+        "الطعم والسعر",
+        "الكمية المعتادة",
+        "خيار قابل للتكرار"
+      ],
+      "alt": "مخطط لمقارنة طعم المشروب وسعره والكمية المعتادة قبل الشراء",
+      "caption": "قراءة الملصق مهارة اختيار عامة وليست وصفة علاجية."
+    },
+    "related": [
+      "قراءة-البطاقة-الغذائية",
+      "قراءة-الصوديوم-على-الملصق-الغذائي",
+      "شرب-الماء-لخسارة-الوزن"
+    ],
+    "cta": {
+      "href": "/course/المسار-الصحي",
+      "label": "راجعي تفاصيل المسار الصحي",
+      "note": "تعلم عام للتسوق والوجبات؛ لا نفترض درساً خاصاً بالمشروبات أو خطة علاج فردية داخل الكورس."
+    },
+    "sources": [
+      {
+        "name": "FDA: الفرق بين السكر الكلي والمضاف على الملصق",
+        "url": "https://www.fda.gov/food/nutrition-facts-label/added-sugars-nutrition-facts-label"
+      },
+      {
+        "name": "FDA: كيفية قراءة الحصة والنسبة اليومية",
+        "url": "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label"
+      },
+      {
+        "name": "FDA: بطاقة القيم الغذائية التفاعلية للسكر الكلي والمضاف",
+        "url": "https://www.accessdata.fda.gov/scripts/interactivenutritionfactslabel/assets/InteractiveNFL_Total%26AddedSugars_October2021.pdf"
+      }
+    ],
+    "icon": "box",
+    "published": "2026-10-02",
+    "updated": "2026-10-02",
+    "workflow": "daily",
+    "publicationBatch": "daily-2026-10-02",
+    "coverCaption": "صورة توضيحية مولدة لمنتجات غير موسومة؛ لا تمثل منتجاً تجارياً أو ادعاء صحياً."
+  },
+  {
+    "key": "mounjaro-nausea-meals",
+    "slug": "الغثيان-مع-مونجارو",
+    "title": "الغثيان مع مونجارو: تنظيم الطعام ومتى تطلبين المساعدة؟",
+    "summary": "ابدئي بتقييم علامات الخطر، ثم جربي وجبات أصغر وأسهل وسجلي ما يمنع الطعام أو السوائل؛ لا تغيّري العلاج من نفسك.",
+    "coverAlt": "امرأة بملابس محتشمة قرب نافذة أمام وجبة صغيرة وكوب ماء ودفتر مغلق",
+    "visualHeading": "رتبي قرار اليوم",
+    "steps": [
+      "علامات تحتاج مساعدة",
+      "طعام وسوائل محتملة",
+      "ملاحظات للفريق"
+    ],
+    "secondVisual": {
+      "title": "قبل المتابعة",
+      "steps": [
+        "وقت العرض",
+        "أثره على الأكل",
+        "ما جربته فعلاً"
+      ],
+      "alt": "مخطط لتسجيل وقت الغثيان وأثره على الطعام والتغيير المجرب قبل التواصل مع الفريق",
+      "caption": "تنظيم الغذاء يدعم المتابعة، ولا يفسر الأعراض أو يغير جرعة العلاج."
+    },
+    "cta": {
+      "href": "/احجز-موعد",
+      "label": "اسألي عن تقييم غذائك مع مونجارو",
+      "note": "وضحي صعوبات الوجبات واسألي عن ملاءمة الاستشارة بالتنسيق مع طبيبك. العلامات العاجلة تحتاج تقييماً طبياً؛ الاستشارة لا تصف الدواء أو تعدل جرعته."
+    },
+    "sources": [
+      {
+        "name": "FDA: النشرة الرسمية لمونجارو، إصدار 2026",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215866s044s045lbl.pdf"
+      },
+      {
+        "name": "CUH: الغذاء مع تيرزيباتيد لدى مرضى السكري من النوع الثاني",
+        "url": "https://www.cuh.nhs.uk/patient-information/dietary-advice-for-people-with-type-2-diabetes-using-tirzepatide-mounjaro/"
+      },
+      {
+        "name": "Guy’s and St Thomas’: تحمل الطعام والسوائل مع أدوية الوزن",
+        "url": "https://www.guysandstthomas.nhs.uk/health-information/lifestyle-advice-people-taking-weight-loss-medicines/managing-side-effects-diet"
+      },
+      {
+        "name": "NHS: تيرزيباتيد والأدوية والمشروبات",
+        "url": "https://www.nhs.uk/medicines/tirzepatide/"
+      }
+    ],
+    "icon": "plate",
+    "related": [
+      "نظام-غذائي-مع-مونجارو",
+      "ضعف-الشهية-مع-أدوية-التنحيف-وتقييم-الغذاء",
+      "البروتين-مع-أدوية-التنحيف-طعام-أم-مكمل"
+    ],
+    "published": "2026-10-03",
+    "updated": "2026-10-03",
+    "workflow": "daily",
+    "publicationBatch": "daily-2026-10-03",
+    "coverCaption": "مشهد توضيحي مولد؛ الشخص نموذج خيالي لا يمثل رولا أو مريضاً أو نتيجة علاج."
+  },
+  {
+    "key": "crohn-nutrition-stage",
+    "slug": "التغذية-مع-مرض-كرون",
+    "title": "التغذية مع مرض كرون: كيف تختلف الخطة بين الاستقرار والنشاط؟",
+    "summary": "تبدأ الخطة بحالة المرض وموقعه والعمليات والتضيق إن وجد، ثم بتقييم الغذاء دون استبعادات عامة أو بديل عن العلاج.",
+    "coverAlt": "رجل بملابس هادئة يكتب في دفتر على طاولة منزلية قرب طبق خضار مطهوة",
+    "visualHeading": "سياق الخطة",
+    "steps": [
+      "حالة المرض",
+      "الطعام المتاح",
+      "تعليمات الفريق"
+    ],
+    "secondVisual": {
+      "title": "جهزي معلوماتك",
+      "steps": [
+        "تقارير وعمليات",
+        "قيود موصوفة",
+        "هدف غذائي قريب"
+      ],
+      "alt": "مخطط لجمع تقارير كرون والعمليات وتعليمات الغذاء وتحديد هدف للاستشارة",
+      "caption": "التضيق أو الجراحة أو الأعراض النشطة قد تتطلب خطة خاصة؛ لا تطبقي قائمة موحدة."
+    },
+    "cta": {
+      "href": "/احجز-موعد",
+      "label": "اسألي عن ملاءمة استشارة تغذية مع كرون",
+      "note": "اذكري التشخيص والقيود الحالية واسألي عن تقييم الغذاء بالتنسيق مع طبيب الجهاز الهضمي. لا تؤخر الاستشارة تقييم الأعراض المتفاقمة أو العاجلة."
+    },
+    "sources": [
+      {
+        "name": "NHS: مرض كرون والتغذية والمتابعة",
+        "url": "https://www.nhs.uk/conditions/crohns-disease/"
+      },
+      {
+        "name": "ESPEN: إرشادات التغذية في أمراض الأمعاء الالتهابية 2023",
+        "url": "https://2022.espen.org/files/ESPEN-Guidelines/ESPEN_guideline_on_Clinical_nutrition_in_inflammatory_bowel_disease.pdf"
+      },
+      {
+        "name": "CUH: الغذاء والقوام عند وجود تضيق",
+        "url": "https://www.cuh.nhs.uk/patient-information/advice-for-managing-your-diet-with-a-stricture/"
+      },
+      {
+        "name": "CUH: خدمة كرون ودور اختصاصيي التغذية",
+        "url": "https://www.cuh.nhs.uk/patient-information/the-cambridge-crohns-and-colitis-service/"
+      },
+      {
+        "name": "NHS Dudley Group: علامات انسداد الأمعاء",
+        "url": "https://www.dgft.nhs.uk/pil/bowel-obstruction/"
+      }
+    ],
+    "icon": "medical",
+    "related": [
+      "استشارة-تغذية-مع-التهاب-القولون-التقرحي",
+      "مذكرات-الطعام-قبل-استشارة-التغذية",
+      "خطة-غذائية-شخصية-أم-جدول-جاهز"
+    ],
+    "published": "2026-10-03",
+    "updated": "2026-10-03",
+    "workflow": "daily",
+    "publicationBatch": "daily-2026-10-03",
+    "coverCaption": "مشهد توضيحي مولد؛ الشخص نموذج خيالي لا يمثل رولا أو مريضاً أو نتيجة علاج."
+  },
+  {
+    "key": "pcos-metformin-questions",
+    "slug": "الميتفورمين-مع-تكيس-المبايض",
+    "title": "الميتفورمين مع تكيس المبايض: أسئلة الغذاء والمتابعة",
+    "summary": "افهمي هدف الوصفة وتعليماتها، وسجلي الأعراض وناقشي متابعة فيتامين باء اثني عشر عند الحاجة؛ التعلم لا يقرر العلاج.",
+    "coverAlt": "رسم مائي لامرأة محتشمة ترتب بطاقات أسئلة فارغة قرب دفتر وعبوة غير موسومة",
+    "visualHeading": "افهمي الوصفة",
+    "steps": [
+      "هدف الاستخدام",
+      "تعليمات واضحة",
+      "متابعة ملائمة"
+    ],
+    "secondVisual": {
+      "title": "أسئلة مختلفة",
+      "steps": [
+        "سؤال للطبيب",
+        "خطوة غذائية",
+        "فحص عند الحاجة"
+      ],
+      "alt": "مخطط لتمييز السؤال الدوائي عن تنظيم الغذاء وعن فحص فيتامين باء اثني عشر عند الحاجة",
+      "caption": "ليس كل تكيس بحاجة إلى الميتفورمين أو مكمل؛ القرار فردي مع الفريق الطبي."
+    },
+    "cta": {
+      "href": "/course/تكيس-المبايض",
+      "label": "راجعي منهج كورس تكيس المبايض",
+      "note": "محتوى تثقيفي موثق يشمل الخيارات العلاجية والميتفورمين. لا يحدد وصفة أو جرعة أو متابعة فردية، ولا يضمن الشفاء."
+    },
+    "sources": [
+      {
+        "name": "الدليل الدولي للتكيس 2023: الميتفورمين وأهداف المتابعة",
+        "url": "https://www.asrm.org/practice-guidance/practice-committee-documents/recommendations-from-the-2023-international-evidence-based-guideline-for-the-assessment-and-management-of-polyendocrine-metabolic-ovarian-syndrome-2023/"
+      },
+      {
+        "name": "MHRA: الميتفورمين وفيتامين باء اثنا عشر",
+        "url": "https://www.gov.uk/drug-safety-update/metformin-and-reduced-vitamin-b12-levels-new-advice-for-monitoring-patients-at-risk"
+      },
+      {
+        "name": "NHS: الميتفورمين والآثار الجانبية، مراجعة أغسطس 2026",
+        "url": "https://www.nhs.uk/medicines/metformin/"
+      }
+    ],
+    "icon": "medical",
+    "related": [
+      "متابعة-السكر-مع-تكيس-المبايض",
+      "تحليل-الإنسولين-مع-تكيس-المبايض",
+      "مكملات-تكيس-المبايض-قبل-الشراء"
+    ],
+    "published": "2026-10-03",
+    "updated": "2026-10-03",
+    "workflow": "daily",
+    "publicationBatch": "daily-2026-10-03",
+    "coverCaption": "مشهد توضيحي مولد؛ الشخص نموذج خيالي لا يمثل رولا أو مريضاً أو نتيجة علاج."
+  },
+  {
+    "key": "cooking-oil-shopping",
+    "slug": "اختيار-زيت-الطبخ",
+    "title": "اختيار زيت الطبخ: الملصق والاستعمال والتخزين",
+    "summary": "قارني نوع الدهن والمكونات بكمية متساوية، وميزي معنى خفيف، ثم اختاري حجماً يناسب الاستخدام والتخزين.",
+    "coverAlt": "رسم مائي لعبوات زيت غير موسومة وملعقة قياس وقطعة قماش وأغصان زيتون في مطبخ هادئ",
+    "visualHeading": "اختيار العبوة",
+    "steps": [
+      "نوع الدهن",
+      "مقارنة متساوية",
+      "استخدام واقعي"
+    ],
+    "secondVisual": {
+      "title": "بعد الشراء",
+      "steps": [
+        "حجم مناسب",
+        "بعيد عن الحرارة",
+        "غطاء مغلق"
+      ],
+      "alt": "مخطط لاختيار حجم زيت يلائم الاستعمال وحفظه بعيداً عن الضوء والحرارة مع إغلاق الغطاء",
+      "caption": "الجودة والنوع والكمية والاستخدام أسئلة مختلفة؛ الاسم والسعر وحدهما لا يكفيان."
+    },
+    "cta": {
+      "href": "/course/المسار-الصحي",
+      "label": "اطلعي على تفاصيل كورس المسار الصحي",
+      "note": "تعلم عام لبناء عادات غذائية وتنظيم الخيارات؛ لا نفترض درساً عن كل زيت أو خطة علاج فردية داخل الكورس."
+    },
+    "sources": [
+      {
+        "name": "WHO: نوع الدهون ضمن الغذاء الصحي، تحديث 2026",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+      },
+      {
+        "name": "FDA: بيانات الحصة والدهون على البطاقة الغذائية",
+        "url": "https://www.fda.gov/food/nutrition-facts-label/whats-nutrition-facts-label"
+      },
+      {
+        "name": "UC Davis: أبحاث اختيار زيت الزيتون والأفوكادو وتخزينهما، سبتمبر 2026",
+        "url": "https://www.ucdavis.edu/research/labs-to-lives/blog/olive-avocado-oil"
+      }
+    ],
+    "icon": "drop",
+    "related": [
+      "قراءة-البطاقة-الغذائية",
+      "خفض-الكوليسترول-بالغذاء",
+      "تجهيز-وجبات-صحية-للأسبوع"
+    ],
+    "published": "2026-10-03",
+    "updated": "2026-10-03",
+    "workflow": "daily",
+    "publicationBatch": "daily-2026-10-03",
+    "coverCaption": "رسم توضيحي مولد لعبوات غير موسومة؛ لا يمثل منتجاً تجارياً."
   }
 ]

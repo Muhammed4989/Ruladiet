@@ -297,6 +297,10 @@
     "weight-medication-transition": "weight-medication",
     "weight-medication-protein-review": "weight-medication",
     "pcos-glucose-followup": "pcos",
-    "added-sugar-drink-labels": "labels-shopping"
+    "added-sugar-drink-labels": "labels-shopping",
+    "mounjaro-nausea-meals": "weight-medication",
+    "crohn-nutrition-stage": "nutrition-basics",
+    "pcos-metformin-questions": "pcos",
+    "cooking-oil-shopping": "labels-shopping"
   }
 }
