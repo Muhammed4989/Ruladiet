@@ -1,0 +1,145 @@
+{
+  "verifiedAt": "2026-10-03T07:55:01.706Z",
+  "productionCommit": "9e3200c",
+  "checks": [
+    {
+      "key": "mounjaro-nausea-meals",
+      "url": "https://ruladiet.com/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/الغثيان-مع-مونجارو",
+      "status": 200,
+      "htmlMatchesIgnoringLineEndings": true,
+      "assets": [
+        {
+          "path": "/images/responsive/RULA-DIET-LOGO-384.webp",
+          "status": 200
+        },
+        {
+          "path": "/images/blog/mounjaro-nausea-meals-1280.webp",
+          "status": 200
+        },
+        {
+          "path": "/images/blog/visual-mounjaro-nausea-meals.svg",
+          "status": 200
+        },
+        {
+          "path": "/images/blog/mounjaro-nausea-meals-400.webp",
+          "status": 200
+        },
+        {
+          "path": "/images/blog/mounjaro-nausea-meals-800.webp",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "key": "crohn-nutrition-stage",
+      "url": "https://ruladiet.com/blog/التغذية-اليومية/أساسيات-التغذية/التغذية-مع-مرض-كرون",
+      "status": 200,
+      "htmlMatchesIgnoringLineEndings": true,
+      "assets": [
+        {
+          "path": "/images/responsive/RULA-DIET-LOGO-384.webp",
+          "status": 200
+        },
+        {
+          "path": "/images/blog/crohn-nutrition-stage-1280.webp",
+          "status": 200
+        },
+        {
+          "path": "/images/blog/visual-crohn-nutrition-stage.svg",
+          "status": 200
+        },
+        {
+          "path": "/images/blog/crohn-nutrition-stage-400.webp",
+          "status": 200
+        },
+        {
+          "path": "/images/blog/crohn-nutrition-stage-800.webp",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "key": "pcos-metformin-questions",
+      "url": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/الميتفورمين-مع-تكيس-المبايض",
+      "status": 200,
+      "htmlMatchesIgnoringLineEndings": true,
+      "assets": [
+        {
+          "path": "/images/responsive/RULA-DIET-LOGO-384.webp",
+          "status": 200
+        },
+        {
+          "path": "/images/blog/pcos-metformin-questions-1280.webp",
+          "status": 200
+        },
+        {
+          "path": "/images/blog/visual-pcos-metformin-questions.svg",
+          "status": 200
+        },
+        {
+          "path": "/images/blog/pcos-metformin-questions-400.webp",
+          "status": 200
+        },
+        {
+          "path": "/images/blog/pcos-metformin-questions-800.webp",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "key": "cooking-oil-shopping",
+      "url": "https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/اختيار-زيت-الطبخ",
+      "status": 200,
+      "htmlMatchesIgnoringLineEndings": true,
+      "assets": [
+        {
+          "path": "/images/responsive/RULA-DIET-LOGO-384.webp",
+          "status": 200
+        },
+        {
+          "path": "/images/blog/cooking-oil-shopping-1280.webp",
+          "status": 200
+        },
+        {
+          "path": "/images/blog/visual-cooking-oil-shopping.svg",
+          "status": 200
+        },
+        {
+          "path": "/images/blog/cooking-oil-shopping-400.webp",
+          "status": 200
+        },
+        {
+          "path": "/images/blog/cooking-oil-shopping-800.webp",
+          "status": 200
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "path": "/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/الغثيان-مع-مونجارو.html",
+      "status": 308,
+      "location": "/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/الغثيان-مع-مونجارو"
+    },
+    {
+      "path": "/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/الغثيان-مع-مونجارو.html/",
+      "status": 308,
+      "location": "/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/الغثيان-مع-مونجارو"
+    },
+    {
+      "path": "/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/الغثيان-مع-مونجارو/",
+      "status": 308,
+      "location": "/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/الغثيان-مع-مونجارو"
+    },
+    {
+      "path": "/blog/category/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/الغثيان-مع-مونجارو",
+      "status": 308,
+      "location": "/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/الغثيان-مع-مونجارو"
+    },
+    {
+      "path": "/blog/إدارة-الوزن.html/",
+      "status": 308,
+      "location": "/blog/إدارة-الوزن"
+    }
+  ]
+}

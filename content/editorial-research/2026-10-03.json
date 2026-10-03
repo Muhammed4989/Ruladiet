@@ -116,27 +116,68 @@
   "bodyWordCounts": [
     {
       "key": "mounjaro-nausea-meals",
-      "status": "draft",
+      "status": "published",
       "words": 1066
     },
     {
       "key": "crohn-nutrition-stage",
-      "status": "draft",
+      "status": "published",
       "words": 1090
     },
     {
       "key": "pcos-metformin-questions",
-      "status": "draft",
+      "status": "published",
       "words": 1098
     },
     {
       "key": "cooking-oil-shopping",
-      "status": "draft",
+      "status": "published",
       "words": 1114
     }
   ],
   "publication": {
-    "status": "draft"
+    "status": "published",
+    "verifiedAt": "2026-10-03T07:55:01.706Z",
+    "productionCommit": "9e3200c",
+    "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/77",
+    "articles": [
+      {
+        "key": "mounjaro-nausea-meals",
+        "status": "published",
+        "words": 1066,
+        "url": "https://ruladiet.com/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/الغثيان-مع-مونجارو"
+      },
+      {
+        "key": "crohn-nutrition-stage",
+        "status": "published",
+        "words": 1090,
+        "url": "https://ruladiet.com/blog/التغذية-اليومية/أساسيات-التغذية/التغذية-مع-مرض-كرون"
+      },
+      {
+        "key": "pcos-metformin-questions",
+        "status": "published",
+        "words": 1098,
+        "url": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/الميتفورمين-مع-تكيس-المبايض"
+      },
+      {
+        "key": "cooking-oil-shopping",
+        "status": "published",
+        "words": 1114,
+        "url": "https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/اختيار-زيت-الطبخ"
+      }
+    ],
+    "preview": {
+      "deploymentId": "dpl_GbqRb3mfDuD64Y6cqmLLNj9aw6Sz",
+      "commit": "f1f62f04d5ff6291984516c20470dbfe93b1ea34",
+      "status": "READY",
+      "visualReview": "Desktop and 390px mobile checked; actual .html/ URL normalized to canonical in preview. Production 4 pages,20 assets,5 redirects verified."
+    },
+    "indexNowReceipt": "content/editorial-research/2026-10-03-indexnow.json",
+    "google": {
+      "status": "live",
+      "postId": "8133349639154025286",
+      "checkedAt": "2026-10-03T08:03:20.870Z"
+    }
   },
   "deploymentRepair": {
     "failedPreview": "dpl_3APVi4Y8Ajb4jMr7b9YMJw29ugbo",
@@ -144,6 +185,7 @@
     "beforeBytes": 512185,
     "afterBytes": 156289,
     "change": "Replace per-article and per-archive normalization variants with nine generic hierarchy rules; explicit migration mappings unchanged and prioritized.",
-    "temporaryProject": "CLI diagnostic command initially auto-created site-work because local project linkage was absent. Command stopped; relinked to ruladiet-site. Cleanup pending."
-  }
+    "temporaryProject": "Diagnostic scratch project site-work removed successfully through Vercel CLI; correct ruladiet-site linkage restored. No production project changed."
+  },
+  "metadataRepair": "New articles now use their own primary/supporting keywords instead of inherited template keywords; no old article metadata changed."
 }

@@ -83,6 +83,7 @@ for(const p of posts){
  html=html.replace(/<link rel="canonical" href="[^"]*">/,`<link rel="canonical" href="${url}">`);
  html=html.replace(/<title>[\s\S]*?<\/title>/,`<title>${e(p.title)} | رولا دايت</title>`);
  for(const key of ['description','twitter:description'])html=meta(html,key,p.summary);
+ if(p.keywords)html=meta(html,'keywords',p.keywords.join(', '));
  html=meta(html,'twitter:title',p.title);html=meta(html,'twitter:image',origin+'/images/blog/'+p.key+'-1280.webp');
  for(const [key,value] of Object.entries({'og:title':p.title,'og:description':p.summary,'og:url':url,'og:image':origin+'/images/blog/'+p.key+'-1280.webp','og:image:alt':p.coverAlt||descriptions[p.key],'article:author':origin+authorPath,'article:published_time':published,'article:modified_time':updated,'og:image:width':'1280','og:image:height':'720'}))html=meta(html,key,value,true);
  html=html.replace(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g,(all,json)=>{let data=JSON.parse(json);if(data['@type']==='BlogPosting'){Object.assign(data,{headline:p.title,description:p.summary,image:origin+'/images/blog/'+p.key+'-1280.webp',url,mainEntityOfPage:{'@type':'WebPage','@id':url},datePublished:published,dateModified:updated,wordCount,articleSection:[category.name,topic.name],citation:p.sources.map(s=>s.url)});data.author={'@type':'Person','@id':authorId,name:'رولا علوش',url:origin+authorPath};delete data.about;}else if(data['@type']==='BreadcrumbList'){data=breadcrumbSchema(crumbs);}return '<script type="application/ld+json">'+JSON.stringify(data)+'</script>';});

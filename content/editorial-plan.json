@@ -1385,10 +1385,12 @@
       ],
       "overlapAssessment": "دليل مونجارو العام لمكونات الوجبات؛ ضعف الشهية لكفاية الغذاء؛ خزل المعدة لتشخيص قائم. المقال الجديد لتحمل الطعام والغثيان دون افتراض تشخيص.",
       "decisionHelp": "تمييز المساعدة الطبية العاجلة عن تعديل وجبة وتحضير ملاحظات لتقييم الغذاء.",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-10-03",
       "bodyWordsExcludingHeadings": 1066,
-      "keywordCheckedAt": "2026-10-03"
+      "keywordCheckedAt": "2026-10-03",
+      "publishedAt": "2026-10-03T07:55:01.706Z",
+      "url": "https://ruladiet.com/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/الغثيان-مع-مونجارو"
     },
     {
       "articleKey": "crohn-nutrition-stage",
@@ -1407,10 +1409,12 @@
       ],
       "overlapAssessment": "كرون يتطلب سياق الأمعاء الدقيقة والعمليات والتضيق؛ ليس إعادة صياغة مقالة التهاب القولون التقرحي أو القولون العصبي.",
       "decisionHelp": "تحضير سياق المرض والأكل قبل طلب تقييم غذائي مناسب للمرحلة.",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-10-03",
       "bodyWordsExcludingHeadings": 1090,
-      "keywordCheckedAt": "2026-10-03"
+      "keywordCheckedAt": "2026-10-03",
+      "publishedAt": "2026-10-03T07:55:01.706Z",
+      "url": "https://ruladiet.com/blog/التغذية-اليومية/أساسيات-التغذية/التغذية-مع-مرض-كرون"
     },
     {
       "articleKey": "pcos-metformin-questions",
@@ -1429,10 +1433,12 @@
       ],
       "overlapAssessment": "نية متابعة دواء موصوف وحدوده، لا تواتر فحوص السكر أو تفسير تحليل إنسولين أو قائمة مشتريات مكملات.",
       "decisionHelp": "تحديد ما يفيد فهمه من التعلم وما يجب أخذه للطبيب حول الوصفة والغذاء.",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-10-03",
       "bodyWordsExcludingHeadings": 1098,
-      "keywordCheckedAt": "2026-10-03"
+      "keywordCheckedAt": "2026-10-03",
+      "publishedAt": "2026-10-03T07:55:01.706Z",
+      "url": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/الميتفورمين-مع-تكيس-المبايض"
     },
     {
       "articleKey": "cooking-oil-shopping",
@@ -1451,10 +1457,12 @@
       ],
       "overlapAssessment": "تطبيق خاص بنوع الدهون وتصنيف الزيت والتخزين، لا تكرار شرح الملصق العام أو علاج الكوليسترول.",
       "decisionHelp": "مقارنة منتجين وشراء حجم مناسب وربط الاختيار بطبخة معتادة.",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-10-03",
       "bodyWordsExcludingHeadings": 1114,
-      "keywordCheckedAt": "2026-10-03"
+      "keywordCheckedAt": "2026-10-03",
+      "publishedAt": "2026-10-03T07:55:01.706Z",
+      "url": "https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/اختيار-زيت-الطبخ"
     }
   ],
   "coverageBatch": {
@@ -2741,28 +2749,32 @@
     },
     {
       "date": "2026-10-03",
-      "status": "draft",
+      "status": "published",
       "target": 4,
       "articles": [
         {
           "key": "mounjaro-nausea-meals",
-          "status": "draft",
-          "words": 1066
+          "status": "published",
+          "words": 1066,
+          "url": "https://ruladiet.com/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/الغثيان-مع-مونجارو"
         },
         {
           "key": "crohn-nutrition-stage",
-          "status": "draft",
-          "words": 1090
+          "status": "published",
+          "words": 1090,
+          "url": "https://ruladiet.com/blog/التغذية-اليومية/أساسيات-التغذية/التغذية-مع-مرض-كرون"
         },
         {
           "key": "pcos-metformin-questions",
-          "status": "draft",
-          "words": 1098
+          "status": "published",
+          "words": 1098,
+          "url": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/الميتفورمين-مع-تكيس-المبايض"
         },
         {
           "key": "cooking-oil-shopping",
-          "status": "draft",
-          "words": 1114
+          "status": "published",
+          "words": 1114,
+          "url": "https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/اختيار-زيت-الطبخ"
         }
       ],
       "businessBalance": {
@@ -2771,7 +2783,13 @@
       },
       "research": "content/editorial-research/2026-10-03.json",
       "blocker": null,
-      "googleStatus": "not_prepared"
+      "googleStatus": "live",
+      "verifiedAt": "2026-10-03T07:55:01.706Z",
+      "productionCommit": "9e3200c",
+      "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/77",
+      "googlePostId": "8133349639154025286",
+      "indexNowReceipt": "content/editorial-research/2026-10-03-indexnow.json",
+      "productionEvidence": "content/editorial-research/2026-10-03-production.json"
     }
   ],
   "advertisingManagement": {

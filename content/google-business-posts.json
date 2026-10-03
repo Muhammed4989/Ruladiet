@@ -421,19 +421,24 @@
         "type": "LEARN_MORE",
         "url": "https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/اختيار-زيت-الطبخ"
       },
-      "status": "draft",
+      "status": "live",
       "preparedAt": "2026-10-03T07:32:17.689Z",
-      "submittedAt": null,
-      "checkedAt": null,
-      "postId": null,
-      "postUrl": null,
+      "submittedAt": "2026-10-03T08:03:20.870Z",
+      "checkedAt": "2026-10-03T08:03:20.870Z",
+      "postId": "8133349639154025286",
+      "postUrl": "https://www.google.com/local/business/u/1/15771110234456492391/promote/updates",
       "blocker": null,
       "sourcePolicy": [
         "https://support.google.com/business/answer/7342169?hl=en",
         "https://support.google.com/business/answer/7400114?hl=en"
       ],
       "wordCount": 100,
-      "duplicateCheck": "Correct verified managed clinic business ID15771110234456492391 and Başakşehir address; All posts latest Published yesterday (October2), no October3 post. Hold draft until website publication verified."
+      "duplicateCheck": "Correct verified managed clinic business ID15771110234456492391 and Başakşehir address; All posts latest Published yesterday (October2), no October3 post. Hold draft until website publication verified.",
+      "sourceArticleVerifiedAt": "2026-10-03T07:55:01.706Z",
+      "uiStatus": "Published 31 seconds ago",
+      "proofImage": "../assets/blog-editorial/google-post-2026-10-03.jpg",
+      "note": "Submitted once to the verified Rula Diet clinic. Skipped copy to other profiles. All posts shows Published; text, image and Learn more present.",
+      "submittedAtNote": "Timestamp recorded immediately after verification, not exact click time."
     }
   ],
   "draftQueue": [
