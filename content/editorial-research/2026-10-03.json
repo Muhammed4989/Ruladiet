@@ -137,5 +137,13 @@
   ],
   "publication": {
     "status": "draft"
+  },
+  "deploymentRepair": {
+    "failedPreview": "dpl_3APVi4Y8Ajb4jMr7b9YMJw29ugbo",
+    "message": "Invalid vercel.json file provided",
+    "beforeBytes": 512185,
+    "afterBytes": 156289,
+    "change": "Replace per-article and per-archive normalization variants with nine generic hierarchy rules; explicit migration mappings unchanged and prioritized.",
+    "temporaryProject": "CLI diagnostic command initially auto-created site-work because local project linkage was absent. Command stopped; relinked to ruladiet-site. Cleanup pending."
   }
 }
