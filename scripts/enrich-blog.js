@@ -114,3 +114,4 @@ require('./migrate-blog-urls')();
 require('./build-blog-archives')();
 require('./remove-old-blog-category')();
 require('./build-redirects');
+require('./sync-service-reading')();
