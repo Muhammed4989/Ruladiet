@@ -439,6 +439,29 @@
       "proofImage": "../assets/blog-editorial/google-post-2026-10-03.jpg",
       "note": "Submitted once to the verified Rula Diet clinic. Skipped copy to other profiles. All posts shows Published; text, image and Learn more present.",
       "submittedAtNote": "Timestamp recorded immediately after verification, not exact click time."
+    },
+    {
+      "date": "2026-10-04",
+      "articleKey": "yogurt-shopping-choice",
+      "canonicalUrl": "https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/اختيار-الزبادي-من-الملصق",
+      "text": "أمام رف الزبادي، ابدئي بهدف الوجبة قبل الاسم على العبوة. هل ستستخدمينه في الإفطار، أم كوجبة خفيفة، أم في الطبخ؟ قارني القيم لكمية متساوية، لأن حجم العبوة قد يختلف. السكر الكلي يشمل السكر الموجود طبيعياً في الحليب، ولا يعني كله سكراً مضافاً. راجعي المكونات والبروتين، وفي البدائل النباتية تحققي من التدعيم بالكالسيوم بدلاً من افتراضه. تذكري أيضاً أن الخالي من اللاكتوز قد يبقى مصنوعاً من الحليب، فلا يُعد بديلاً آمناً لحساسية الحليب لمجرد هذه العبارة. اختاري حجماً ستستخدمينه فعلاً واتّبعي تعليمات الحفظ. دليل رولا دايت الجديد يرتب هذه الخطوات مع المراجع عبر زر معرفة المزيد. الرسم توضيحي لعبوات غير موسومة.",
+      "imagePath": "../assets/blog-editorial/yogurt-shopping-choice-google.jpg",
+      "button": {
+        "type": "LEARN_MORE",
+        "url": "https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/اختيار-الزبادي-من-الملصق"
+      },
+      "status": "draft",
+      "preparedAt": "2026-10-04T06:34:27.847Z",
+      "submittedAt": null,
+      "checkedAt": null,
+      "postId": null,
+      "blocker": null,
+      "sourcePolicy": [
+        "https://support.google.com/business/answer/7342169?hl=en",
+        "https://support.google.com/business/answer/7400114?hl=en"
+      ],
+      "wordCount": 100,
+      "duplicateCheck": "Local ledger has no October4 post. Browser identity and UI duplicate check still required; do not submit before website is verified."
     }
   ],
   "draftQueue": [

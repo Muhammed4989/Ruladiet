@@ -1,0 +1,156 @@
+{
+  "date": "2026-10-04",
+  "timezone": "Europe/Istanbul",
+  "catalogReview": "All101 article identities reviewed; no October4 articles or run recorded. Production sitemap HTTP200 and no October4 lastmod. Historical draft labels refer to already published pages; do not republish them.",
+  "searchConsole": "No fresh query export in this run. Current primary-source search checked informational intent; keywords are editorial hypotheses, not volumes, ranks or sales forecasts.",
+  "offers": "Production booking and both target course pages HTTP200. PCOS33 lessons/5modules in pcos-course.json; educational symptoms/treatment overview, no individualized care. Massar general food skills; no invented specific yogurt lesson. No prices stated.",
+  "briefs": [
+    {
+      "key": "levothyroxine-meal-routine",
+      "slug": "الطعام-مع-الليفوثيروكسين",
+      "title": "الطعام مع الليفوثيروكسين: تنظيم الروتين دون منع شامل",
+      "topic": "thyroid",
+      "primaryKeyword": "الطعام مع الليفوثيروكسين",
+      "supportingKeywords": [
+        "دواء الغدة والقهوة",
+        "الليفوثيروكسين والحديد والكالسيوم"
+      ],
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": [
+        "thyroid",
+        "consultation-labs",
+        "food-diary"
+      ],
+      "overlapAssessment": "المقال القديم عن علاقة الغدة بالوزن؛ هذه نية عملية عن تنسيق الروتين مع وصفة قائمة، بلا تغيير جرعة أو تشخيص.",
+      "decisionHelp": "إعداد جدول واقعي للطعام والمكملات لمراجعته مع الصيدلي، ثم تحديد الحاجة إلى تخصيص غذائي.",
+      "bodyWords": 1237,
+      "references": [
+        {
+          "name": "NHS: الليفوثيروكسين وتعليمات الاستخدام، مراجعة يوليو 2026",
+          "url": "https://www.nhs.uk/medicines/levothyroxine/"
+        },
+        {
+          "name": "MedlinePlus: الليفوثيروكسين والتداخلات مع المكملات والطعام",
+          "url": "https://medlineplus.gov/druginfo/meds/a682461.html"
+        },
+        {
+          "name": "NIDDK: قصور الغدة الدرقية وعلاج تعويض الهرمون والمتابعة",
+          "url": "https://www.niddk.nih.gov/health-information/endocrine-diseases/hypothyroidism"
+        }
+      ]
+    },
+    {
+      "key": "chemotherapy-food-support",
+      "slug": "التغذية-أثناء-العلاج-الكيميائي",
+      "title": "التغذية أثناء العلاج الكيميائي: الأكل والسلامة ودور الفريق",
+      "topic": "nutrition-basics",
+      "primaryKeyword": "التغذية أثناء العلاج الكيميائي",
+      "supportingKeywords": [
+        "ضعف الشهية مع العلاج الكيميائي",
+        "سلامة الطعام أثناء علاج السرطان"
+      ],
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": [
+        "weight-gain-consultation",
+        "swallowing-nutrition-coordination",
+        "weekly-meals"
+      ],
+      "overlapAssessment": "لا توجد تغطية للسرطان. السياق خاص بتنسيق علاج الأورام وسلامة الطعام، لا جدول زيادة وزن أو متابعة بلع عامة.",
+      "decisionHelp": "معرفة ما يسبق النصائح العامة وتحضير احتياجات الغذاء لطلب دعم مؤهل مع فريق الأورام؛ لا نفترض خبرة خدمة الأورام في العيادة.",
+      "bodyWords": 1196,
+      "references": [
+        {
+          "name": "NCI: التغذية أثناء علاج السرطان",
+          "url": "https://www.cancer.gov/about-cancer/treatment/side-effects/nutrition"
+        },
+        {
+          "name": "NCI: العدوى والحمى أثناء علاج السرطان",
+          "url": "https://www.cancer.gov/about-cancer/treatment/side-effects/infection"
+        },
+        {
+          "name": "FDA: سلامة الغذاء للمرضى الأكثر عرضة لعدوى الطعام",
+          "url": "https://www.fda.gov/food/people-risk-foodborne-illness/food-safety-older-adults-and-people-cancer-diabetes-hivaids-organ-transplants-and-autoimmune"
+        }
+      ]
+    },
+    {
+      "key": "pcos-hirsutism-learning",
+      "slug": "الشعر-الزائد-مع-تكيس-المبايض",
+      "title": "الشعر الزائد مع تكيس المبايض: حدود الغذاء وأسئلة الخيارات",
+      "topic": "pcos",
+      "primaryKeyword": "الشعر الزائد مع تكيس المبايض",
+      "supportingKeywords": [
+        "تكيس المبايض والليزر",
+        "هل الغذاء يزيل الشعر الزائد"
+      ],
+      "businessGoal": "course",
+      "targetPage": "/course/تكيس-المبايض",
+      "avoidOverlap": [
+        "pcos-hair-loss",
+        "pcos-acne",
+        "pcos-emotional-support"
+      ],
+      "overlapAssessment": "زيادة الشعر الخشن في الوجه تختلف عن تساقط شعر الرأس والحبوب؛ لا نكرر التشخيص العام أو الدعم النفسي.",
+      "decisionHelp": "تمييز التعلم عن علاج الشعر ومقارنة هدف الغذاء بخيارات المختص قبل دفع تكلفة إزالة أو مكمل.",
+      "bodyWords": 1204,
+      "references": [
+        {
+          "name": "الدليل الدولي للتكيس 2023: الغذاء وخيارات الشعرانية",
+          "url": "https://www.asrm.org/practice-guidance/practice-committee-documents/recommendations-from-the-2023-international-evidence-based-guideline-for-the-assessment-and-management-of-polyendocrine-metabolic-ovarian-syndrome-2023/"
+        },
+        {
+          "name": "NHS: الشعرانية وأسباب طلب التقييم الطبي",
+          "url": "https://www.nhs.uk/symptoms/hirsutism/"
+        },
+        {
+          "name": "جمعية الغدد الصماء: الشعرانية وحق مناقشة العلاج عند الانزعاج",
+          "url": "https://www.endocrine.org/patient-engagement/endocrine-library/hirsutism"
+        }
+      ]
+    },
+    {
+      "key": "yogurt-shopping-choice",
+      "slug": "اختيار-الزبادي-من-الملصق",
+      "title": "اختيار الزبادي من الملصق: السكر والبروتين والبدائل",
+      "topic": "labels-shopping",
+      "primaryKeyword": "اختيار الزبادي من الملصق",
+      "supportingKeywords": [
+        "الزبادي اليوناني أم العادي",
+        "السكر في الزبادي والبدائل النباتية"
+      ],
+      "businessGoal": "course",
+      "targetPage": "/course/المسار-الصحي",
+      "avoidOverlap": [
+        "food-labels",
+        "added-sugar-drink-labels",
+        "lactose-consultation",
+        "pcos-food-exclusions"
+      ],
+      "overlapAssessment": "تطبيق على منتج محدد ووظيفته في وجبة والقوام والتدعيم، لا إعادة شرح السكر في المشروبات أو معالجة اللاكتوز.",
+      "decisionHelp": "مقارنة عبوتين مناسبتين للاستعمال والتكلفة دون افتراض تفوق اسم يوناني أو خال من الدسم.",
+      "bodyWords": 1176,
+      "references": [
+        {
+          "name": "FDA: الفرق بين السكر الكلي والمضاف",
+          "url": "https://www.fda.gov/food/nutrition-facts-label/added-sugars-nutrition-facts-label"
+        },
+        {
+          "name": "NHS: الألبان والبدائل وحساسية الحليب",
+          "url": "https://www.nhs.uk/live-well/eat-well/food-types/milk-and-dairy-nutrition/"
+        },
+        {
+          "name": "NIDDK: الغذاء وعدم تحمل اللاكتوز",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/lactose-intolerance/eating-diet-nutrition"
+        }
+      ]
+    }
+  ],
+  "publication": {
+    "status": "ready_for_checks",
+    "published": 0
+  },
+  "sourceCheckedAt": "2026-10-04T06:34:27.734Z",
+  "copyrightReview": "No verbatim quotations. Source-derived medical summaries kept concise (under200 words per primary webpage); remainder original practical planning and decision examples. All source URLs checked live during this run."
+}

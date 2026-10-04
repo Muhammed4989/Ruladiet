@@ -1525,5 +1525,69 @@
     "visual": "images/blog/visual-cooking-oil-shopping.svg",
     "secondVisual": "images/blog/visual-cooking-oil-shopping-questions.svg",
     "note": "Unique generated artwork; fictional modest people, not Rula or patients. Original educational SVGs. Masters inspected for anatomy and modest clothing. No stock or brand."
+  },
+  {
+    "key": "levothyroxine-meal-routine",
+    "tool": "built-in image_gen",
+    "generated": "2026-10-04",
+    "prompt": "Use case: photorealistic-natural. Unique editorial blog cover, landscape 16:9. A modest adult woman wearing a loose opaque long-sleeved sage blouse with a high neckline and a beige headscarf, seated at a bright home breakfast table, calmly arranging a closed blank planner beside a glass of water and a simple breakfast on a separate plate. No visible medicine or labels. Focus on the practical morning routine rather than food display. Natural warm golden morning light, cream and olive palette, authentic subtle textures, realistic hands and anatomy, spacious composition. Fictional model, not a clinician or patient, no cure or before-and-after implication. No text, logos, watermarks, no revealing clothing.",
+    "sourceMaster": "../assets/blog-editorial/source/levothyroxine-meal-routine.png",
+    "cover": "images/blog/levothyroxine-meal-routine-1280.webp",
+    "responsive": [
+      400,
+      800,
+      1280
+    ],
+    "visual": "images/blog/visual-levothyroxine-meal-routine.svg",
+    "secondVisual": "images/blog/visual-levothyroxine-meal-routine-questions.svg",
+    "note": "Unique generated cover; fictional modest models, no clinician/patient/result representation. Original educational SVG diagrams rendered from article-specific metadata. No third-party stock or course image copied."
+  },
+  {
+    "key": "chemotherapy-food-support",
+    "tool": "built-in image_gen",
+    "generated": "2026-10-04",
+    "prompt": "Use case: photorealistic-natural. Unique landscape16:9 editorial cover about family help preparing food during a demanding treatment period. An older fictional adult man in a loose opaque long-sleeved cream shirt and a younger adult male family helper in a fully buttoned olive long-sleeved shirt calmly portioning a small bowl of soup at a clean home kitchen table, ordinary healthy-looking people, no hospital or cancer cues, no hair loss, no medical devices, no patient identity. Focus on gentle cooperative human scene, small practical meal, realistic hands and anatomy, warm natural daylight, muted cream sage olive tones, varied composition, no text or logos or watermarks.",
+    "sourceMaster": "../assets/blog-editorial/source/chemotherapy-food-support.png",
+    "cover": "images/blog/chemotherapy-food-support-1280.webp",
+    "responsive": [
+      400,
+      800,
+      1280
+    ],
+    "visual": "images/blog/visual-chemotherapy-food-support.svg",
+    "secondVisual": "images/blog/visual-chemotherapy-food-support-questions.svg",
+    "note": "Unique generated cover; fictional modest models, no clinician/patient/result representation. Original educational SVG diagrams rendered from article-specific metadata. No third-party stock or course image copied."
+  },
+  {
+    "key": "pcos-hirsutism-learning",
+    "tool": "built-in image_gen",
+    "generated": "2026-10-04",
+    "prompt": "Use case: illustration-story. Unique landscape16:9 soft watercolor editorial blog cover on warm cream paper, inspired by calm nutrition course palette of sage olive muted blush peach and gentle sunlight. A modest fictional adult woman in a flowing opaque long-sleeved high-neck dusty peach blouse and ivory headscarf quietly reflecting by a garden window, a blank small question-card notebook on her lap, another hand resting naturally on chair arm. Side three-quarter portrait, natural face with no retouching ideals, thoughtful calm mood. No exaggerated facial hair, no beauty comparison, no mirror, no medicines or lasers, no clinic scene. Anatomically correct hands, airy botanical accents and generous composition. No text, logos or watermarks.",
+    "sourceMaster": "../assets/blog-editorial/source/pcos-hirsutism-learning.png",
+    "cover": "images/blog/pcos-hirsutism-learning-1280.webp",
+    "responsive": [
+      400,
+      800,
+      1280
+    ],
+    "visual": "images/blog/visual-pcos-hirsutism-learning.svg",
+    "secondVisual": "images/blog/visual-pcos-hirsutism-learning-questions.svg",
+    "note": "Unique generated cover; fictional modest models, no clinician/patient/result representation. Original educational SVG diagrams rendered from article-specific metadata. No third-party stock or course image copied."
+  },
+  {
+    "key": "yogurt-shopping-choice",
+    "tool": "built-in image_gen",
+    "generated": "2026-10-04",
+    "prompt": "Use case: illustration-story. Unique landscape16:9 watercolor editorial still life on textured warm cream paper. A practical comparison of two plain unbranded yogurt cups on a quiet kitchen table, one closed with a blank lid and one open showing natural plain yogurt, a small bowl with oats and berries separate to one side, a simple metal spoon, a closed blank shopping notebook and a subtle sage botanical twig. Warm cream blush peach olive color palette inspired by nutrition course art, gentle window daylight, spacious refined composition, varied realistic cup shapes. No printed labels, invented nutrition numbers, text, brand logos, medical claims or people.",
+    "sourceMaster": "../assets/blog-editorial/source/yogurt-shopping-choice.png",
+    "cover": "images/blog/yogurt-shopping-choice-1280.webp",
+    "responsive": [
+      400,
+      800,
+      1280
+    ],
+    "visual": "images/blog/visual-yogurt-shopping-choice.svg",
+    "secondVisual": "images/blog/visual-yogurt-shopping-choice-questions.svg",
+    "note": "Unique generated cover; fictional modest models, no clinician/patient/result representation. Original educational SVG diagrams rendered from article-specific metadata. No third-party stock or course image copied."
   }
 ]
