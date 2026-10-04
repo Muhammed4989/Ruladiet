@@ -1,0 +1,42 @@
+{
+  "checkedAt": "2026-10-04T07:06:57.400Z",
+  "date": "2026-10-04",
+  "productionCommit": "2b1bf65105fa836b9520c06e59e63c2b316ee530",
+  "articles": [
+    {
+      "key": "levothyroxine-meal-routine",
+      "url": "https://ruladiet.com/blog/التغذية-والحالات-الصحية/الغدة-الدرقية/الطعام-مع-الليفوثيروكسين",
+      "status": 200,
+      "assetsVerified": 5,
+      "htmlMatches": true,
+      "bodyWords": 1237
+    },
+    {
+      "key": "chemotherapy-food-support",
+      "url": "https://ruladiet.com/blog/التغذية-اليومية/أساسيات-التغذية/التغذية-أثناء-العلاج-الكيميائي",
+      "status": 200,
+      "assetsVerified": 5,
+      "htmlMatches": true,
+      "bodyWords": 1196
+    },
+    {
+      "key": "pcos-hirsutism-learning",
+      "url": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/الشعر-الزائد-مع-تكيس-المبايض",
+      "status": 200,
+      "assetsVerified": 5,
+      "htmlMatches": true,
+      "bodyWords": 1204
+    },
+    {
+      "key": "yogurt-shopping-choice",
+      "url": "https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/اختيار-الزبادي-من-الملصق",
+      "status": 200,
+      "assetsVerified": 5,
+      "htmlMatches": true,
+      "bodyWords": 1176
+    }
+  ],
+  "internalDestinationsVerified": 14,
+  "sitemapContainsAll": true,
+  "validationNote": "Earlier production check completed all4 HTML byte-equivalence checks after CRLF normalization, schema/date/author/canonical checks,20 exact asset byte checks and all internal destinations. Its final sitemap assertion compared raw Arabic against percent-encoded XML and failed; this separate check parses and decodes the sitemap locations correctly."
+}

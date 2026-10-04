@@ -1485,9 +1485,13 @@
       "decisionHelp": "إعداد جدول واقعي للطعام والمكملات لمراجعته مع الصيدلي، ثم تحديد الحاجة إلى تخصيص غذائي.",
       "articleKey": "levothyroxine-meal-routine",
       "intent": "معلوماتي داعم لقرار مناسب؛ صفحة العرض تملك الطلب المباشر",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-10-04",
-      "keywordCheckedAt": "2026-10-04"
+      "keywordCheckedAt": "2026-10-04",
+      "published": "2026-10-04",
+      "words": 1237,
+      "url": "https://ruladiet.com/blog/التغذية-والحالات-الصحية/الغدة-الدرقية/الطعام-مع-الليفوثيروكسين",
+      "verifiedAt": "2026-10-04T07:06:57.400Z"
     },
     {
       "key": "chemotherapy-food-support",
@@ -1510,9 +1514,13 @@
       "decisionHelp": "معرفة ما يسبق النصائح العامة وتحضير احتياجات الغذاء لطلب دعم مؤهل مع فريق الأورام؛ لا نفترض خبرة خدمة الأورام في العيادة.",
       "articleKey": "chemotherapy-food-support",
       "intent": "معلوماتي داعم لقرار مناسب؛ صفحة العرض تملك الطلب المباشر",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-10-04",
-      "keywordCheckedAt": "2026-10-04"
+      "keywordCheckedAt": "2026-10-04",
+      "published": "2026-10-04",
+      "words": 1196,
+      "url": "https://ruladiet.com/blog/التغذية-اليومية/أساسيات-التغذية/التغذية-أثناء-العلاج-الكيميائي",
+      "verifiedAt": "2026-10-04T07:06:57.400Z"
     },
     {
       "key": "pcos-hirsutism-learning",
@@ -1535,9 +1543,13 @@
       "decisionHelp": "تمييز التعلم عن علاج الشعر ومقارنة هدف الغذاء بخيارات المختص قبل دفع تكلفة إزالة أو مكمل.",
       "articleKey": "pcos-hirsutism-learning",
       "intent": "معلوماتي داعم لقرار مناسب؛ صفحة العرض تملك الطلب المباشر",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-10-04",
-      "keywordCheckedAt": "2026-10-04"
+      "keywordCheckedAt": "2026-10-04",
+      "published": "2026-10-04",
+      "words": 1204,
+      "url": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/الشعر-الزائد-مع-تكيس-المبايض",
+      "verifiedAt": "2026-10-04T07:06:57.400Z"
     },
     {
       "key": "yogurt-shopping-choice",
@@ -1561,9 +1573,13 @@
       "decisionHelp": "مقارنة عبوتين مناسبتين للاستعمال والتكلفة دون افتراض تفوق اسم يوناني أو خال من الدسم.",
       "articleKey": "yogurt-shopping-choice",
       "intent": "معلوماتي داعم لقرار مناسب؛ صفحة العرض تملك الطلب المباشر",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-10-04",
-      "keywordCheckedAt": "2026-10-04"
+      "keywordCheckedAt": "2026-10-04",
+      "published": "2026-10-04",
+      "words": 1176,
+      "url": "https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/اختيار-الزبادي-من-الملصق",
+      "verifiedAt": "2026-10-04T07:06:57.400Z"
     }
   ],
   "coverageBatch": {
@@ -2894,24 +2910,32 @@
     },
     {
       "date": "2026-10-04",
-      "status": "draft",
+      "status": "published",
       "target": 4,
       "articles": [
         {
           "key": "levothyroxine-meal-routine",
-          "status": "draft"
+          "status": "published",
+          "words": 1237,
+          "url": "https://ruladiet.com/blog/التغذية-والحالات-الصحية/الغدة-الدرقية/الطعام-مع-الليفوثيروكسين"
         },
         {
           "key": "chemotherapy-food-support",
-          "status": "draft"
+          "status": "published",
+          "words": 1196,
+          "url": "https://ruladiet.com/blog/التغذية-اليومية/أساسيات-التغذية/التغذية-أثناء-العلاج-الكيميائي"
         },
         {
           "key": "pcos-hirsutism-learning",
-          "status": "draft"
+          "status": "published",
+          "words": 1204,
+          "url": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/الشعر-الزائد-مع-تكيس-المبايض"
         },
         {
           "key": "yogurt-shopping-choice",
-          "status": "draft"
+          "status": "published",
+          "words": 1176,
+          "url": "https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/اختيار-الزبادي-من-الملصق"
         }
       ],
       "businessBalance": {
@@ -2919,8 +2943,13 @@
         "course": 2
       },
       "research": "content/editorial-research/2026-10-04.json",
-      "googleStatus": "not_prepared",
-      "blocker": null
+      "googleStatus": "blocked",
+      "blocker": "Google browser runtime timed out repeatedly on targeted Google-only entry points. Complete draft retained; no submission attempted, identity or current-day UI not verified.",
+      "verifiedAt": "2026-10-04T07:06:57.400Z",
+      "productionCommit": "2b1bf65105fa836b9520c06e59e63c2b316ee530",
+      "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/79",
+      "productionEvidence": "content/editorial-research/2026-10-04-production.json",
+      "indexNowReceipt": "content/editorial-research/2026-10-04-indexnow.json"
     }
   ],
   "advertisingManagement": {
