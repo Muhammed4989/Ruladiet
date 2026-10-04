@@ -38,7 +38,9 @@
           "name": "NIDDK: قصور الغدة الدرقية وعلاج تعويض الهرمون والمتابعة",
           "url": "https://www.niddk.nih.gov/health-information/endocrine-diseases/hypothyroidism"
         }
-      ]
+      ],
+      "status": "published",
+      "url": "https://ruladiet.com/blog/التغذية-والحالات-الصحية/الغدة-الدرقية/الطعام-مع-الليفوثيروكسين"
     },
     {
       "key": "chemotherapy-food-support",
@@ -73,7 +75,9 @@
           "name": "FDA: سلامة الغذاء للمرضى الأكثر عرضة لعدوى الطعام",
           "url": "https://www.fda.gov/food/people-risk-foodborne-illness/food-safety-older-adults-and-people-cancer-diabetes-hivaids-organ-transplants-and-autoimmune"
         }
-      ]
+      ],
+      "status": "published",
+      "url": "https://ruladiet.com/blog/التغذية-اليومية/أساسيات-التغذية/التغذية-أثناء-العلاج-الكيميائي"
     },
     {
       "key": "pcos-hirsutism-learning",
@@ -108,7 +112,9 @@
           "name": "جمعية الغدد الصماء: الشعرانية وحق مناقشة العلاج عند الانزعاج",
           "url": "https://www.endocrine.org/patient-engagement/endocrine-library/hirsutism"
         }
-      ]
+      ],
+      "status": "published",
+      "url": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/الشعر-الزائد-مع-تكيس-المبايض"
     },
     {
       "key": "yogurt-shopping-choice",
@@ -144,13 +150,32 @@
           "name": "NIDDK: الغذاء وعدم تحمل اللاكتوز",
           "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/lactose-intolerance/eating-diet-nutrition"
         }
-      ]
+      ],
+      "status": "published",
+      "url": "https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/اختيار-الزبادي-من-الملصق"
     }
   ],
   "publication": {
-    "status": "ready_for_checks",
-    "published": 0
+    "status": "published",
+    "published": 4,
+    "verifiedAt": "2026-10-04T07:06:57.400Z",
+    "productionCommit": "2b1bf65105fa836b9520c06e59e63c2b316ee530",
+    "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/79",
+    "productionEvidence": "content/editorial-research/2026-10-04-production.json",
+    "indexNowReceipt": "content/editorial-research/2026-10-04-indexnow.json"
   },
   "sourceCheckedAt": "2026-10-04T06:34:27.734Z",
-  "copyrightReview": "No verbatim quotations. Source-derived medical summaries kept concise (under200 words per primary webpage); remainder original practical planning and decision examples. All source URLs checked live during this run."
+  "copyrightReview": "No verbatim quotations. Source-derived medical summaries kept concise (under200 words per primary webpage); remainder original practical planning and decision examples. All source URLs checked live during this run.",
+  "previewReview": {
+    "deploymentId": "dpl_FQh6Yok9Chz159pGSEQC7Qh81Jww",
+    "state": "READY",
+    "commit": "a99d4616f2f6f7b71a1f80ae62cd83cb1aac888e",
+    "method": "Git checks successful and authenticated CLI confirmed correct deployment/project/commit. Local isolated browser checked4 article layouts at390px; PCOS desktop and diagrams screenshots checked. Protected preview URL was not fetched; temporary bypass link was rejected and not created. Authenticated file tree/content read returned404. Safe alternative: reviewed exact source locally, then verified4 live HTML pages (normalized newline identity),20 asset bytes,14 destinations and sitemap on production.",
+    "localProofs": [
+      "../assets/blog-editorial/pcos-hirsutism-oct4-desktop.png",
+      "../assets/blog-editorial/pcos-hirsutism-oct4-mobile.png",
+      "../assets/blog-editorial/pcos-hirsutism-oct4-diagram.png"
+    ],
+    "productionProof": "../assets/blog-editorial/yogurt-oct4-production.png"
+  }
 }
