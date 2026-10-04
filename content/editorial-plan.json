@@ -1463,6 +1463,107 @@
       "keywordCheckedAt": "2026-10-03",
       "publishedAt": "2026-10-03T07:55:01.706Z",
       "url": "https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/اختيار-زيت-الطبخ"
+    },
+    {
+      "key": "levothyroxine-meal-routine",
+      "slug": "الطعام-مع-الليفوثيروكسين",
+      "title": "الطعام مع الليفوثيروكسين: تنظيم الروتين دون منع شامل",
+      "topic": "thyroid",
+      "primaryKeyword": "الطعام مع الليفوثيروكسين",
+      "supportingKeywords": [
+        "دواء الغدة والقهوة",
+        "الليفوثيروكسين والحديد والكالسيوم"
+      ],
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": [
+        "thyroid",
+        "consultation-labs",
+        "food-diary"
+      ],
+      "overlapAssessment": "المقال القديم عن علاقة الغدة بالوزن؛ هذه نية عملية عن تنسيق الروتين مع وصفة قائمة، بلا تغيير جرعة أو تشخيص.",
+      "decisionHelp": "إعداد جدول واقعي للطعام والمكملات لمراجعته مع الصيدلي، ثم تحديد الحاجة إلى تخصيص غذائي.",
+      "articleKey": "levothyroxine-meal-routine",
+      "intent": "معلوماتي داعم لقرار مناسب؛ صفحة العرض تملك الطلب المباشر",
+      "status": "draft",
+      "plannedFor": "2026-10-04",
+      "keywordCheckedAt": "2026-10-04"
+    },
+    {
+      "key": "chemotherapy-food-support",
+      "slug": "التغذية-أثناء-العلاج-الكيميائي",
+      "title": "التغذية أثناء العلاج الكيميائي: الأكل والسلامة ودور الفريق",
+      "topic": "nutrition-basics",
+      "primaryKeyword": "التغذية أثناء العلاج الكيميائي",
+      "supportingKeywords": [
+        "ضعف الشهية مع العلاج الكيميائي",
+        "سلامة الطعام أثناء علاج السرطان"
+      ],
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": [
+        "weight-gain-consultation",
+        "swallowing-nutrition-coordination",
+        "weekly-meals"
+      ],
+      "overlapAssessment": "لا توجد تغطية للسرطان. السياق خاص بتنسيق علاج الأورام وسلامة الطعام، لا جدول زيادة وزن أو متابعة بلع عامة.",
+      "decisionHelp": "معرفة ما يسبق النصائح العامة وتحضير احتياجات الغذاء لطلب دعم مؤهل مع فريق الأورام؛ لا نفترض خبرة خدمة الأورام في العيادة.",
+      "articleKey": "chemotherapy-food-support",
+      "intent": "معلوماتي داعم لقرار مناسب؛ صفحة العرض تملك الطلب المباشر",
+      "status": "draft",
+      "plannedFor": "2026-10-04",
+      "keywordCheckedAt": "2026-10-04"
+    },
+    {
+      "key": "pcos-hirsutism-learning",
+      "slug": "الشعر-الزائد-مع-تكيس-المبايض",
+      "title": "الشعر الزائد مع تكيس المبايض: حدود الغذاء وأسئلة الخيارات",
+      "topic": "pcos",
+      "primaryKeyword": "الشعر الزائد مع تكيس المبايض",
+      "supportingKeywords": [
+        "تكيس المبايض والليزر",
+        "هل الغذاء يزيل الشعر الزائد"
+      ],
+      "businessGoal": "course",
+      "targetPage": "/course/تكيس-المبايض",
+      "avoidOverlap": [
+        "pcos-hair-loss",
+        "pcos-acne",
+        "pcos-emotional-support"
+      ],
+      "overlapAssessment": "زيادة الشعر الخشن في الوجه تختلف عن تساقط شعر الرأس والحبوب؛ لا نكرر التشخيص العام أو الدعم النفسي.",
+      "decisionHelp": "تمييز التعلم عن علاج الشعر ومقارنة هدف الغذاء بخيارات المختص قبل دفع تكلفة إزالة أو مكمل.",
+      "articleKey": "pcos-hirsutism-learning",
+      "intent": "معلوماتي داعم لقرار مناسب؛ صفحة العرض تملك الطلب المباشر",
+      "status": "draft",
+      "plannedFor": "2026-10-04",
+      "keywordCheckedAt": "2026-10-04"
+    },
+    {
+      "key": "yogurt-shopping-choice",
+      "slug": "اختيار-الزبادي-من-الملصق",
+      "title": "اختيار الزبادي من الملصق: السكر والبروتين والبدائل",
+      "topic": "labels-shopping",
+      "primaryKeyword": "اختيار الزبادي من الملصق",
+      "supportingKeywords": [
+        "الزبادي اليوناني أم العادي",
+        "السكر في الزبادي والبدائل النباتية"
+      ],
+      "businessGoal": "course",
+      "targetPage": "/course/المسار-الصحي",
+      "avoidOverlap": [
+        "food-labels",
+        "added-sugar-drink-labels",
+        "lactose-consultation",
+        "pcos-food-exclusions"
+      ],
+      "overlapAssessment": "تطبيق على منتج محدد ووظيفته في وجبة والقوام والتدعيم، لا إعادة شرح السكر في المشروبات أو معالجة اللاكتوز.",
+      "decisionHelp": "مقارنة عبوتين مناسبتين للاستعمال والتكلفة دون افتراض تفوق اسم يوناني أو خال من الدسم.",
+      "articleKey": "yogurt-shopping-choice",
+      "intent": "معلوماتي داعم لقرار مناسب؛ صفحة العرض تملك الطلب المباشر",
+      "status": "draft",
+      "plannedFor": "2026-10-04",
+      "keywordCheckedAt": "2026-10-04"
     }
   ],
   "coverageBatch": {
@@ -2790,6 +2891,36 @@
       "googlePostId": "8133349639154025286",
       "indexNowReceipt": "content/editorial-research/2026-10-03-indexnow.json",
       "productionEvidence": "content/editorial-research/2026-10-03-production.json"
+    },
+    {
+      "date": "2026-10-04",
+      "status": "draft",
+      "target": 4,
+      "articles": [
+        {
+          "key": "levothyroxine-meal-routine",
+          "status": "draft"
+        },
+        {
+          "key": "chemotherapy-food-support",
+          "status": "draft"
+        },
+        {
+          "key": "pcos-hirsutism-learning",
+          "status": "draft"
+        },
+        {
+          "key": "yogurt-shopping-choice",
+          "status": "draft"
+        }
+      ],
+      "businessBalance": {
+        "consultation": 2,
+        "course": 2
+      },
+      "research": "content/editorial-research/2026-10-04.json",
+      "googleStatus": "not_prepared",
+      "blocker": null
     }
   ],
   "advertisingManagement": {
