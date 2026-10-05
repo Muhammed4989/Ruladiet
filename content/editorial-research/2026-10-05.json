@@ -1,0 +1,156 @@
+{
+  "date": "2026-10-05",
+  "timezone": "Europe/Istanbul",
+  "catalogReview": "All105 identities reviewed; clean workspace and origin/master fetched. No October5 metadata or production sitemap lastmod. Historical draft topic labels refer to already live content; not republished.",
+  "searchConsole": "No fresh query export. Arabic search results checked query context, primary guidance checked clinical claims; keywords are hypotheses, no volume/rank/sales claims.",
+  "offers": "Production booking, PCOS and Massar pages HTTP200. PCOS33lessons/5modules includes hormonal pills, exclusions and side effects. Massar includes label and shopping skills. No prices stated or niche-clinic expertise assumed.",
+  "briefs": [
+    {
+      "key": "diverticular-food-stages",
+      "slug": "التغذية-مع-داء-الرتوج",
+      "title": "التغذية مع داء الرتوج: الألياف بحسب المرحلة والتحضير للاستشارة",
+      "topic": "nutrition-basics",
+      "primaryKeyword": "التغذية مع داء الرتوج",
+      "supportingKeywords": [
+        "الألياف والتهاب الرتوج",
+        "الأكل بعد التهاب الرتوج"
+      ],
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": [
+        "constipation-consultation",
+        "ibs-consultation",
+        "crohn-nutrition-stage"
+      ],
+      "overlapAssessment": "مرحلة داء الرتوج تختلف عن الإمساك والقولون العصبي وكرون؛ لا يوجد مقال بهذه النية في الفهرس.",
+      "decisionHelp": "تمييز ما يسبق الغذاء من تقييم طبي وتحضير معلومات الاستشارة عند العودة إلى وجبات متنوعة.",
+      "bodyWords": 1028,
+      "references": [
+        {
+          "name": "NIDDK: الغذاء والألياف مع داء الرتوج",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/diverticulosis-diverticulitis/eating-diet-nutrition"
+        },
+        {
+          "name": "NIDDK: أعراض داء الرتوج والحاجة إلى التقييم",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/diverticulosis-diverticulitis/symptoms-causes"
+        },
+        {
+          "name": "NHS: اختلاف داء الرتوج عن التهابها والرعاية بحسب المرحلة",
+          "url": "https://www.nhs.uk/conditions/diverticular-disease-and-diverticulitis/"
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "key": "pancreatic-nutrition-coordination",
+      "slug": "التغذية-مع-قصور-البنكرياس-الخارجي",
+      "title": "التغذية مع قصور البنكرياس الخارجي: تنسيق الوجبات والعلاج",
+      "topic": "nutrition-basics",
+      "primaryKeyword": "التغذية مع قصور البنكرياس الخارجي",
+      "supportingKeywords": [
+        "إنزيمات البنكرياس والوجبات",
+        "التحضير لاستشارة تغذية لقصور البنكرياس"
+      ],
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": [
+        "after-gallbladder-consultation",
+        "weight-gain-consultation",
+        "consultation-labs"
+      ],
+      "overlapAssessment": "قصور إفراز الإنزيمات وتنسيق PERT لا يغطيهما مقال المرارة أو زيادة الوزن؛ لا نضيف وصفة أو ندعي توافر رعاية متخصصة.",
+      "decisionHelp": "معرفة حدود الدعم الغذائي وتحضير الروتين والوصفة قبل اختيار خدمة بالتنسيق مع الطبيب.",
+      "bodyWords": 1064,
+      "references": [
+        {
+          "name": "NIDDK: تغذية قصور البنكرياس وسوء الامتصاص",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/exocrine-pancreatic-insufficiency/eating-diet-nutrition"
+        },
+        {
+          "name": "NIDDK: علاج القصور وتعويض الإنزيمات",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/exocrine-pancreatic-insufficiency/treatment"
+        },
+        {
+          "name": "NIDDK: تشخيص القصور وفحوص البراز",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/exocrine-pancreatic-insufficiency/diagnosis"
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "key": "pcos-pill-decision",
+      "slug": "حبوب-منع-الحمل-مع-تكيس-المبايض",
+      "title": "حبوب منع الحمل مع تكيس المبايض: أسئلة قبل اختيار الخطة",
+      "topic": "pcos",
+      "primaryKeyword": "حبوب منع الحمل مع تكيس المبايض",
+      "supportingKeywords": [
+        "الحبوب الهرمونية للتكيس",
+        "أسئلة قبل الحبوب المركبة"
+      ],
+      "businessGoal": "course",
+      "targetPage": "/course/تكيس-المبايض",
+      "avoidOverlap": [
+        "pcos-metformin-questions",
+        "pcos-hirsutism-learning",
+        "pcos-cycle-log"
+      ],
+      "overlapAssessment": "تركيز على قرار الحبوب المركبة والملاءمة والروتين، لا إعادة شرح الشعرانية أو الميتفورمين أو تتبع الدورة.",
+      "decisionHelp": "التحضير لقرار طبي مستنير وتقييم التعلم المنظم عن الأدوية وحدوده.",
+      "bodyWords": 1064,
+      "references": [
+        {
+          "name": "الدليل الدولي للتكيس 2023: الحبوب المركبة والقرار الفردي",
+          "url": "https://www.asrm.org/practice-guidance/practice-committee-documents/recommendations-from-the-2023-international-evidence-based-guideline-for-the-assessment-and-management-of-polyendocrine-metabolic-ovarian-syndrome-2023/"
+        },
+        {
+          "name": "NHS: من يمكنه استخدام الحبوب المركبة",
+          "url": "https://www.nhs.uk/contraception/methods-of-contraception/combined-pill/who-can-take-it/"
+        },
+        {
+          "name": "NHS: الآثار الجانبية والمخاطر للحبوب المركبة",
+          "url": "https://www.nhs.uk/contraception/methods-of-contraception/combined-pill/side-effects/"
+        }
+      ],
+      "status": "draft"
+    },
+    {
+      "key": "breakfast-cereal-shopping",
+      "slug": "اختيار-حبوب-الإفطار",
+      "title": "اختيار حبوب الإفطار: مقارنة الحصة والسكر والألياف",
+      "topic": "labels-shopping",
+      "primaryKeyword": "اختيار حبوب الإفطار",
+      "supportingKeywords": [
+        "قراءة ملصق الجرانولا",
+        "السكر والألياف في حبوب الإفطار"
+      ],
+      "businessGoal": "course",
+      "targetPage": "/course/المسار-الصحي",
+      "avoidOverlap": [
+        "food-labels",
+        "whole-grain-shopping-skill",
+        "added-sugar-drink-labels",
+        "yogurt-shopping-choice"
+      ],
+      "overlapAssessment": "تطبيق على الإفطار الجاهز والجرانولا وفرق الحصة والوجبة المحضرة؛ ليست صفحة سكر عام أو تكرار اختيار الحبوب الكاملة.",
+      "decisionHelp": "مقارنة عبوتين للاستخدام الفعلي وتقييم تعلم مهارات التسوق بدل تصديق شعارات المنتج.",
+      "bodyWords": 1051,
+      "references": [
+        {
+          "name": "FDA: الحصة وأساس مقارنة القيم الغذائية",
+          "url": "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label"
+        },
+        {
+          "name": "FDA: السكر الكلي والمضاف على الملصق",
+          "url": "https://www.fda.gov/food/nutrition-facts-label/added-sugars-nutrition-facts-label"
+        },
+        {
+          "name": "NHS: النشويات والحبوب الكاملة وخيارات الإفطار",
+          "url": "https://www.nhs.uk/live-well/eat-well/food-types/starchy-foods-and-carbohydrates/"
+        }
+      ],
+      "status": "draft"
+    }
+  ],
+  "sourceCheckedAt": "2026-10-05T07:28:34.678Z",
+  "google": "Same browser runtime timeout as Oct4; no submission and no repeated owner action request."
+}

@@ -1589,5 +1589,69 @@
     "visual": "images/blog/visual-yogurt-shopping-choice.svg",
     "secondVisual": "images/blog/visual-yogurt-shopping-choice-questions.svg",
     "note": "Unique generated cover; fictional modest models, no clinician/patient/result representation. Original educational SVG diagrams rendered from article-specific metadata. No third-party stock or course image copied."
+  },
+  {
+    "key": "diverticular-food-stages",
+    "tool": "built-in image_gen",
+    "generated": "2026-10-05",
+    "prompt": "Use case: editorial photo. Create a unique landscape16:9 realistic calm morning scene: a modestly dressed middle-aged Arab woman in a loose opaque sage long-sleeve blouse with high closed neckline and cream hijab seated in a sunlit home dining area, calmly organizing a blank notebook and a small stack of plain medical papers before a nutrition appointment. Show ordinary domestic context, not a clinic. A bowl of cooked grains discreetly to one side, leafy garden through window. Warm cream, muted sage, peach accents and golden daylight. Natural unretouched proportions and hands, spacious composition, no text, logos, medicines or medical anatomy. Fictional model, not Rula or a patient; no weight loss before-after.",
+    "sourceMaster": "../assets/blog-editorial/source/diverticular-food-stages.png",
+    "cover": "images/blog/diverticular-food-stages-1280.webp",
+    "responsive": [
+      400,
+      800,
+      1280
+    ],
+    "visual": "images/blog/visual-diverticular-food-stages.svg",
+    "secondVisual": "images/blog/visual-diverticular-food-stages-questions.svg",
+    "note": "Unique generated cover. Fictional modest models are not Rula, patients or outcomes. Original educational diagrams from article-specific metadata; no stock or copied course image."
+  },
+  {
+    "key": "pancreatic-nutrition-coordination",
+    "tool": "built-in image_gen",
+    "generated": "2026-10-05",
+    "prompt": "Use case: editorial photo. Unique landscape16:9 natural domestic scene focused on a modestly dressed mature Arab man in an opaque loose cream long-sleeve shirt and trousers, calmly preparing a small ordinary lunch at a bright kitchen counter, looking at a blank weekly organizer notebook. Plain plate, folded paper and small bowl, no medications. Warm cream beige sage palette, gentle golden daylight, peaceful home with plants, spacious photograph with realistic hands and anatomy. No exposed bodies, text, logos, treatment result or clinician portrayal. Fictional model, not a real patient.",
+    "sourceMaster": "../assets/blog-editorial/source/pancreatic-nutrition-coordination.png",
+    "cover": "images/blog/pancreatic-nutrition-coordination-1280.webp",
+    "responsive": [
+      400,
+      800,
+      1280
+    ],
+    "visual": "images/blog/visual-pancreatic-nutrition-coordination.svg",
+    "secondVisual": "images/blog/visual-pancreatic-nutrition-coordination-questions.svg",
+    "note": "Unique generated cover. Fictional modest models are not Rula, patients or outcomes. Original educational diagrams from article-specific metadata; no stock or copied course image."
+  },
+  {
+    "key": "pcos-pill-decision",
+    "tool": "built-in image_gen",
+    "generated": "2026-10-05",
+    "prompt": "Use case: illustration-story. Unique landscape16:9 refined watercolor editorial illustration on warm cream textured paper, a modest Arab young adult woman in opaque loose blush long-sleeve high-neck clothing and sage hijab, thoughtfully reviewing two blank cards with a simple unmarked calendar at a quiet desk near a leafy window. No pill brand or drug depiction needed. Soft peach sage olive and golden light, botanical accents, spacious calm composition, careful anatomy and natural hands. Represents preparing questions and informed choices, not treatment. No text, logos, uterus shapes, exposed skin or before-after. Fictional model, not Rula or patient.",
+    "sourceMaster": "../assets/blog-editorial/source/pcos-pill-decision.png",
+    "cover": "images/blog/pcos-pill-decision-1280.webp",
+    "responsive": [
+      400,
+      800,
+      1280
+    ],
+    "visual": "images/blog/visual-pcos-pill-decision.svg",
+    "secondVisual": "images/blog/visual-pcos-pill-decision-questions.svg",
+    "note": "Unique generated cover. Fictional modest models are not Rula, patients or outcomes. Original educational diagrams from article-specific metadata; no stock or copied course image."
+  },
+  {
+    "key": "breakfast-cereal-shopping",
+    "tool": "built-in image_gen",
+    "generated": "2026-10-05",
+    "prompt": "Use case: illustration-story. Unique landscape16:9 watercolor editorial still life inspired by nutrition course palette: two different unbranded blank cardboard breakfast cereal boxes beside a clear jar of plain oats, small bowl of simple flakes, tablespoon, closed shopping notebook and a pale sage linen cloth on a cream kitchen table. Textured watercolor paper, cream blush peach olive muted colors, gentle daylight, botanical accent, spacious refined composition. No printed words, nutrition numbers, logos, brands, overflowing food or health claims. A practical product comparison scene, not product advertisement.",
+    "sourceMaster": "../assets/blog-editorial/source/breakfast-cereal-shopping.png",
+    "cover": "images/blog/breakfast-cereal-shopping-1280.webp",
+    "responsive": [
+      400,
+      800,
+      1280
+    ],
+    "visual": "images/blog/visual-breakfast-cereal-shopping.svg",
+    "secondVisual": "images/blog/visual-breakfast-cereal-shopping-questions.svg",
+    "note": "Unique generated cover. Fictional modest models are not Rula, patients or outcomes. Original educational diagrams from article-specific metadata; no stock or copied course image."
   }
 ]
