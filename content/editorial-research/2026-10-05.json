@@ -39,7 +39,8 @@
           "url": "https://www.nhs.uk/conditions/diverticular-disease-and-diverticulitis/"
         }
       ],
-      "status": "draft"
+      "status": "published",
+      "url": "https://ruladiet.com/blog/التغذية-اليومية/أساسيات-التغذية/التغذية-مع-داء-الرتوج"
     },
     {
       "key": "pancreatic-nutrition-coordination",
@@ -75,7 +76,8 @@
           "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/exocrine-pancreatic-insufficiency/diagnosis"
         }
       ],
-      "status": "draft"
+      "status": "published",
+      "url": "https://ruladiet.com/blog/التغذية-اليومية/أساسيات-التغذية/التغذية-مع-قصور-البنكرياس-الخارجي"
     },
     {
       "key": "pcos-pill-decision",
@@ -111,7 +113,8 @@
           "url": "https://www.nhs.uk/contraception/methods-of-contraception/combined-pill/side-effects/"
         }
       ],
-      "status": "draft"
+      "status": "published",
+      "url": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/حبوب-منع-الحمل-مع-تكيس-المبايض"
     },
     {
       "key": "breakfast-cereal-shopping",
@@ -148,9 +151,12 @@
           "url": "https://www.nhs.uk/live-well/eat-well/food-types/starchy-foods-and-carbohydrates/"
         }
       ],
-      "status": "draft"
+      "status": "published",
+      "url": "https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/اختيار-حبوب-الإفطار"
     }
   ],
   "sourceCheckedAt": "2026-10-05T07:28:34.678Z",
-  "google": "Same browser runtime timeout as Oct4; no submission and no repeated owner action request."
+  "google": "Same browser runtime timeout as Oct4; no submission and no repeated owner action request.",
+  "productionVerifiedAt": "2026-10-05T07:38:48.910Z",
+  "previewVerification": "Local isolated Chrome render of four articles reviewed. Mobile no horizontal overflow; eager decode verified assets. Desktop TOC click produced descriptive Arabic heading hash. Vercel Ready correct project and Git SHA03fa4b659eebae899c69111bbd5b0ea30416b674. Protected preview not fetched and no bypass link created; production HTML and all20assets verified against local content."
 }

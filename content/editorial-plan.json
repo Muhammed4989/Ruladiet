@@ -1594,10 +1594,12 @@
       "targetPage": "/احجز-موعد",
       "avoidOverlap": "مرحلة داء الرتوج تختلف عن الإمساك والقولون العصبي وكرون؛ لا يوجد مقال بهذه النية في الفهرس.",
       "decisionHelp": "تمييز ما يسبق الغذاء من تقييم طبي وتحضير معلومات الاستشارة عند العودة إلى وجبات متنوعة.",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-10-05",
       "bodyWordsExcludingHeadings": 1028,
-      "keywordCheckedAt": "2026-10-05"
+      "keywordCheckedAt": "2026-10-05",
+      "publishedAt": "2026-10-05",
+      "productionUrl": "https://ruladiet.com/blog/التغذية-اليومية/أساسيات-التغذية/التغذية-مع-داء-الرتوج"
     },
     {
       "topic": "التغذية مع قصور البنكرياس الخارجي: تنسيق الوجبات والعلاج",
@@ -1612,10 +1614,12 @@
       "targetPage": "/احجز-موعد",
       "avoidOverlap": "قصور إفراز الإنزيمات وتنسيق PERT لا يغطيهما مقال المرارة أو زيادة الوزن؛ لا نضيف وصفة أو ندعي توافر رعاية متخصصة.",
       "decisionHelp": "معرفة حدود الدعم الغذائي وتحضير الروتين والوصفة قبل اختيار خدمة بالتنسيق مع الطبيب.",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-10-05",
       "bodyWordsExcludingHeadings": 1064,
-      "keywordCheckedAt": "2026-10-05"
+      "keywordCheckedAt": "2026-10-05",
+      "publishedAt": "2026-10-05",
+      "productionUrl": "https://ruladiet.com/blog/التغذية-اليومية/أساسيات-التغذية/التغذية-مع-قصور-البنكرياس-الخارجي"
     },
     {
       "topic": "حبوب منع الحمل مع تكيس المبايض: أسئلة قبل اختيار الخطة",
@@ -1630,10 +1634,12 @@
       "targetPage": "/course/تكيس-المبايض",
       "avoidOverlap": "تركيز على قرار الحبوب المركبة والملاءمة والروتين، لا إعادة شرح الشعرانية أو الميتفورمين أو تتبع الدورة.",
       "decisionHelp": "التحضير لقرار طبي مستنير وتقييم التعلم المنظم عن الأدوية وحدوده.",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-10-05",
       "bodyWordsExcludingHeadings": 1064,
-      "keywordCheckedAt": "2026-10-05"
+      "keywordCheckedAt": "2026-10-05",
+      "publishedAt": "2026-10-05",
+      "productionUrl": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/حبوب-منع-الحمل-مع-تكيس-المبايض"
     },
     {
       "topic": "اختيار حبوب الإفطار: مقارنة الحصة والسكر والألياف",
@@ -1648,10 +1654,12 @@
       "targetPage": "/course/المسار-الصحي",
       "avoidOverlap": "تطبيق على الإفطار الجاهز والجرانولا وفرق الحصة والوجبة المحضرة؛ ليست صفحة سكر عام أو تكرار اختيار الحبوب الكاملة.",
       "decisionHelp": "مقارنة عبوتين للاستخدام الفعلي وتقييم تعلم مهارات التسوق بدل تصديق شعارات المنتج.",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-10-05",
       "bodyWordsExcludingHeadings": 1051,
-      "keywordCheckedAt": "2026-10-05"
+      "keywordCheckedAt": "2026-10-05",
+      "publishedAt": "2026-10-05",
+      "productionUrl": "https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/اختيار-حبوب-الإفطار"
     }
   ],
   "coverageBatch": {
@@ -3025,28 +3033,32 @@
     },
     {
       "date": "2026-10-05",
-      "status": "draft",
+      "status": "published",
       "target": 4,
       "articles": [
         {
           "key": "diverticular-food-stages",
-          "status": "draft",
-          "words": 1028
+          "status": "published",
+          "words": 1028,
+          "url": "https://ruladiet.com/blog/التغذية-اليومية/أساسيات-التغذية/التغذية-مع-داء-الرتوج"
         },
         {
           "key": "pancreatic-nutrition-coordination",
-          "status": "draft",
-          "words": 1064
+          "status": "published",
+          "words": 1064,
+          "url": "https://ruladiet.com/blog/التغذية-اليومية/أساسيات-التغذية/التغذية-مع-قصور-البنكرياس-الخارجي"
         },
         {
           "key": "pcos-pill-decision",
-          "status": "draft",
-          "words": 1064
+          "status": "published",
+          "words": 1064,
+          "url": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/حبوب-منع-الحمل-مع-تكيس-المبايض"
         },
         {
           "key": "breakfast-cereal-shopping",
-          "status": "draft",
-          "words": 1051
+          "status": "published",
+          "words": 1051,
+          "url": "https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/اختيار-حبوب-الإفطار"
         }
       ],
       "businessBalance": {
@@ -3055,7 +3067,23 @@
       },
       "research": "content/editorial-research/2026-10-05.json",
       "googleStatus": "blocked",
-      "blocker": "Unchanged targeted Google browser runtime timeout; owner request already sent Oct4. No current-day UI read or submission."
+      "blocker": "Unchanged targeted Google browser runtime timeout; owner request already sent Oct4. No current-day UI read or submission.",
+      "verifiedAt": "2026-10-05T07:38:48.910Z",
+      "productionCommit": "b624423c671a1ab54e5c3dad0d6d8614b2c3aacd",
+      "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/81",
+      "productionEvidence": "content/editorial-research/2026-10-05-production.json",
+      "indexNowReceipt": "content/editorial-research/2026-10-05-indexnow.json",
+      "validation": {
+        "checkBlog": "109 articles,109 unique covers,0errors",
+        "checkSite": "157pages,305schemas,154sitemapURLs,0errors; known pre-existing course NUL warning unchanged",
+        "navigation": "109 articles,860 named headings,31archives,0errors",
+        "urlMigration": "2693variants and2490local assets checked,0errors",
+        "categoryGuides": "31guides, minimum552bodywords,0errors",
+        "oldArticleDates": "105 existing articles preserved",
+        "diff": "passed",
+        "preview": "Local isolated Chrome render of four articles reviewed. Mobile no horizontal overflow; eager decode verified assets. Desktop TOC click produced descriptive Arabic heading hash. Vercel Ready correct project and Git SHA03fa4b659eebae899c69111bbd5b0ea30416b674. Protected preview not fetched and no bypass link created; production HTML and all20assets verified against local content.",
+        "production": "All4pages HTTP200,exact normalized HTML matches;20assets byte matches;13contextual/CTA destinations200; all4canonicalURLs in sitemap"
+      }
     }
   ],
   "advertisingManagement": {

@@ -1,0 +1,220 @@
+{
+  "date": "2026-10-05",
+  "verifiedAt": "2026-10-05T07:38:48.910Z",
+  "productionCommit": "b624423c671a1ab54e5c3dad0d6d8614b2c3aacd",
+  "pages": [
+    {
+      "key": "diverticular-food-stages",
+      "url": "https://ruladiet.com/blog/التغذية-اليومية/أساسيات-التغذية/التغذية-مع-داء-الرتوج",
+      "status": 200,
+      "htmlMatchesLocal": true,
+      "published": "2026-10-05",
+      "author": "https://ruladiet.com/author/rulaalloush#person",
+      "sitemap": true
+    },
+    {
+      "key": "pancreatic-nutrition-coordination",
+      "url": "https://ruladiet.com/blog/التغذية-اليومية/أساسيات-التغذية/التغذية-مع-قصور-البنكرياس-الخارجي",
+      "status": 200,
+      "htmlMatchesLocal": true,
+      "published": "2026-10-05",
+      "author": "https://ruladiet.com/author/rulaalloush#person",
+      "sitemap": true
+    },
+    {
+      "key": "pcos-pill-decision",
+      "url": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/حبوب-منع-الحمل-مع-تكيس-المبايض",
+      "status": 200,
+      "htmlMatchesLocal": true,
+      "published": "2026-10-05",
+      "author": "https://ruladiet.com/author/rulaalloush#person",
+      "sitemap": true
+    },
+    {
+      "key": "breakfast-cereal-shopping",
+      "url": "https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/اختيار-حبوب-الإفطار",
+      "status": 200,
+      "htmlMatchesLocal": true,
+      "published": "2026-10-05",
+      "author": "https://ruladiet.com/author/rulaalloush#person",
+      "sitemap": true
+    }
+  ],
+  "assets": [
+    {
+      "path": "images/blog/diverticular-food-stages-400.webp",
+      "status": 200,
+      "bytes": 20790,
+      "sha256": "a22d9e58767b830484e2e9a341a22818c292f602887ed3cc7ebf3cd70530e73c"
+    },
+    {
+      "path": "images/blog/diverticular-food-stages-800.webp",
+      "status": 200,
+      "bytes": 53276,
+      "sha256": "8aeb47cc2826a9f402b7f287f2872faff4a20e44a9427bcef44f701f6f01029e"
+    },
+    {
+      "path": "images/blog/diverticular-food-stages-1280.webp",
+      "status": 200,
+      "bytes": 95348,
+      "sha256": "18fc5a0f1dee2f4df22acac404e7d0f757101f3b01f316e0c874553016a55815"
+    },
+    {
+      "path": "images/blog/visual-diverticular-food-stages.svg",
+      "status": 200,
+      "bytes": 1804,
+      "sha256": "873ac6af3ceacb8184254019815bfd0597fbe82350812ee56c6ca09aed5e8e29"
+    },
+    {
+      "path": "images/blog/visual-diverticular-food-stages-questions.svg",
+      "status": 200,
+      "bytes": 1786,
+      "sha256": "6842096763d39b4bee7f38ce1495b2ffc0610b70102ad0c085b155af9d524c55"
+    },
+    {
+      "path": "images/blog/pancreatic-nutrition-coordination-400.webp",
+      "status": 200,
+      "bytes": 18606,
+      "sha256": "ead11ccc9b83b534c1b4493745e7c87f0528eaa90c5268a88e440df573a4dcfd"
+    },
+    {
+      "path": "images/blog/pancreatic-nutrition-coordination-800.webp",
+      "status": 200,
+      "bytes": 46780,
+      "sha256": "d27aa2fff87bf4f011e4fc153b545faabba6a57788763dd023ecc8bc8d62cbe9"
+    },
+    {
+      "path": "images/blog/pancreatic-nutrition-coordination-1280.webp",
+      "status": 200,
+      "bytes": 84292,
+      "sha256": "7103fa3c45bcc7ca79fc3451841bf6a5cf58d5bd014ac100e1d556945a5fb02d"
+    },
+    {
+      "path": "images/blog/visual-pancreatic-nutrition-coordination.svg",
+      "status": 200,
+      "bytes": 1783,
+      "sha256": "82b4c240f0b457ba043e3c649b0469a18e8b6af3d81febb89d1bd21491e6d486"
+    },
+    {
+      "path": "images/blog/visual-pancreatic-nutrition-coordination-questions.svg",
+      "status": 200,
+      "bytes": 1813,
+      "sha256": "2bbbf1791c89bdd411b771a0db2a0e5e207e0ece4c2539b515b429e42874c459"
+    },
+    {
+      "path": "images/blog/pcos-pill-decision-400.webp",
+      "status": 200,
+      "bytes": 20336,
+      "sha256": "2569325aba8edfad8bff1423b625206a61750c25b06e5a0603b4749f3fd18b58"
+    },
+    {
+      "path": "images/blog/pcos-pill-decision-800.webp",
+      "status": 200,
+      "bytes": 60118,
+      "sha256": "fda4b9970c76f1f4971ef1a4c8dd08fdb545cf5f682f4ccba71a1084d35e63c9"
+    },
+    {
+      "path": "images/blog/pcos-pill-decision-1280.webp",
+      "status": 200,
+      "bytes": 115426,
+      "sha256": "74dd0beac5c57c93ba650de9f59fb936b95a72cb79283cac993cd681c093b2a7"
+    },
+    {
+      "path": "images/blog/visual-pcos-pill-decision.svg",
+      "status": 200,
+      "bytes": 1736,
+      "sha256": "5fba069ccee824626c87c30d6b599bfb470061b16f6aa55f0a5501951c33616e"
+    },
+    {
+      "path": "images/blog/visual-pcos-pill-decision-questions.svg",
+      "status": 200,
+      "bytes": 1780,
+      "sha256": "11f0201d0661360aab88fc82071a395f1120f0ce29d50d24961623feda6a33b5"
+    },
+    {
+      "path": "images/blog/breakfast-cereal-shopping-400.webp",
+      "status": 200,
+      "bytes": 16934,
+      "sha256": "a5830f30de29c52bd4efe084dc9035582562c20e438b479ac39d66368a69260d"
+    },
+    {
+      "path": "images/blog/breakfast-cereal-shopping-800.webp",
+      "status": 200,
+      "bytes": 53188,
+      "sha256": "13e2d7de90864f947d737d5cadc94c94175def850c811d1f08fa92bac619757f"
+    },
+    {
+      "path": "images/blog/breakfast-cereal-shopping-1280.webp",
+      "status": 200,
+      "bytes": 113170,
+      "sha256": "363a7b2c1ce65a6c8013164430c671468132e3ae4d09abb3884278522c7b244f"
+    },
+    {
+      "path": "images/blog/visual-breakfast-cereal-shopping.svg",
+      "status": 200,
+      "bytes": 1853,
+      "sha256": "0621f3cef42daaf213697b39b257fbad0c7c604f9a3dcb5764753f2a951546c6"
+    },
+    {
+      "path": "images/blog/visual-breakfast-cereal-shopping-questions.svg",
+      "status": 200,
+      "bytes": 1827,
+      "sha256": "682560dd917c65bcf689c7d933351bb3699b1bed8f74cde9b83789a680af02b7"
+    }
+  ],
+  "contextualDestinations": [
+    {
+      "path": "/blog/التغذية-اليومية/أساسيات-التغذية/مذكرات-الطعام-قبل-استشارة-التغذية",
+      "status": 200
+    },
+    {
+      "path": "/blog/التغذية-اليومية/الوجبات-والوصفات/تجهيز-وجبات-صحية-للأسبوع",
+      "status": 200
+    },
+    {
+      "path": "/blog/التغذية-اليومية/أساسيات-التغذية/استشارة-تغذية-للإمساك-المزمن",
+      "status": 200
+    },
+    {
+      "path": "/احجز-موعد",
+      "status": 200
+    },
+    {
+      "path": "/blog/التغذية-اليومية/أساسيات-التغذية/تحاليل-قبل-استشارة-التغذية",
+      "status": 200
+    },
+    {
+      "path": "/blog/صحة-المرأة/تكيس-المبايض/متابعة-الدورة-مع-تكيس-المبايض",
+      "status": 200
+    },
+    {
+      "path": "/blog/صحة-المرأة/تكيس-المبايض/تكيس-المبايض-وتأخر-الحمل-أسئلة-التقييم",
+      "status": 200
+    },
+    {
+      "path": "/blog/صحة-المرأة/تكيس-المبايض/الميتفورمين-مع-تكيس-المبايض",
+      "status": 200
+    },
+    {
+      "path": "/course/تكيس-المبايض",
+      "status": 200
+    },
+    {
+      "path": "/blog/التغذية-اليومية/الملصقات-والتسوق/اختيار-الحبوب-الكاملة-من-الملصق",
+      "status": 200
+    },
+    {
+      "path": "/blog/التغذية-اليومية/الملصقات-والتسوق/قراءة-السكر-المضاف-في-المشروبات",
+      "status": 200
+    },
+    {
+      "path": "/blog/التغذية-اليومية/الملصقات-والتسوق/اختيار-الزبادي-من-الملصق",
+      "status": 200
+    },
+    {
+      "path": "/course/المسار-الصحي",
+      "status": 200
+    }
+  ],
+  "sitemapStatus": 200
+}
