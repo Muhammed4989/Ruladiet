@@ -494,7 +494,7 @@
       ],
       "wordCount": 98,
       "duplicateCheck": "No October5 submission in ledger. Current-day UI identity and duplicate check could not run because targeted Google-only CUA entry timed out. Must reconcile before any submission.",
-      "sourceArticleVerifiedAt": null,
+      "sourceArticleVerifiedAt": "2026-10-05T07:38:48.910Z",
       "draftComplete": true,
       "blockerDetail": "Unchanged browser connection timeout as October4. No post submitted and no repeated owner notification. Correct profile record preserved; no inference of revoked Google permission."
     }
