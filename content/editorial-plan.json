@@ -1580,6 +1580,78 @@
       "words": 1176,
       "url": "https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/اختيار-الزبادي-من-الملصق",
       "verifiedAt": "2026-10-04T07:06:57.400Z"
+    },
+    {
+      "topic": "التغذية مع داء الرتوج: الألياف بحسب المرحلة والتحضير للاستشارة",
+      "articleKey": "diverticular-food-stages",
+      "primaryKeyword": "التغذية مع داء الرتوج",
+      "supportingKeywords": [
+        "الألياف والتهاب الرتوج",
+        "الأكل بعد التهاب الرتوج"
+      ],
+      "intent": "تمييز ما يسبق الغذاء من تقييم طبي وتحضير معلومات الاستشارة عند العودة إلى وجبات متنوعة.",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": "مرحلة داء الرتوج تختلف عن الإمساك والقولون العصبي وكرون؛ لا يوجد مقال بهذه النية في الفهرس.",
+      "decisionHelp": "تمييز ما يسبق الغذاء من تقييم طبي وتحضير معلومات الاستشارة عند العودة إلى وجبات متنوعة.",
+      "status": "draft",
+      "plannedFor": "2026-10-05",
+      "bodyWordsExcludingHeadings": 1028,
+      "keywordCheckedAt": "2026-10-05"
+    },
+    {
+      "topic": "التغذية مع قصور البنكرياس الخارجي: تنسيق الوجبات والعلاج",
+      "articleKey": "pancreatic-nutrition-coordination",
+      "primaryKeyword": "التغذية مع قصور البنكرياس الخارجي",
+      "supportingKeywords": [
+        "إنزيمات البنكرياس والوجبات",
+        "التحضير لاستشارة تغذية لقصور البنكرياس"
+      ],
+      "intent": "معرفة حدود الدعم الغذائي وتحضير الروتين والوصفة قبل اختيار خدمة بالتنسيق مع الطبيب.",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": "قصور إفراز الإنزيمات وتنسيق PERT لا يغطيهما مقال المرارة أو زيادة الوزن؛ لا نضيف وصفة أو ندعي توافر رعاية متخصصة.",
+      "decisionHelp": "معرفة حدود الدعم الغذائي وتحضير الروتين والوصفة قبل اختيار خدمة بالتنسيق مع الطبيب.",
+      "status": "draft",
+      "plannedFor": "2026-10-05",
+      "bodyWordsExcludingHeadings": 1064,
+      "keywordCheckedAt": "2026-10-05"
+    },
+    {
+      "topic": "حبوب منع الحمل مع تكيس المبايض: أسئلة قبل اختيار الخطة",
+      "articleKey": "pcos-pill-decision",
+      "primaryKeyword": "حبوب منع الحمل مع تكيس المبايض",
+      "supportingKeywords": [
+        "الحبوب الهرمونية للتكيس",
+        "أسئلة قبل الحبوب المركبة"
+      ],
+      "intent": "التحضير لقرار طبي مستنير وتقييم التعلم المنظم عن الأدوية وحدوده.",
+      "businessGoal": "course",
+      "targetPage": "/course/تكيس-المبايض",
+      "avoidOverlap": "تركيز على قرار الحبوب المركبة والملاءمة والروتين، لا إعادة شرح الشعرانية أو الميتفورمين أو تتبع الدورة.",
+      "decisionHelp": "التحضير لقرار طبي مستنير وتقييم التعلم المنظم عن الأدوية وحدوده.",
+      "status": "draft",
+      "plannedFor": "2026-10-05",
+      "bodyWordsExcludingHeadings": 1064,
+      "keywordCheckedAt": "2026-10-05"
+    },
+    {
+      "topic": "اختيار حبوب الإفطار: مقارنة الحصة والسكر والألياف",
+      "articleKey": "breakfast-cereal-shopping",
+      "primaryKeyword": "اختيار حبوب الإفطار",
+      "supportingKeywords": [
+        "قراءة ملصق الجرانولا",
+        "السكر والألياف في حبوب الإفطار"
+      ],
+      "intent": "مقارنة عبوتين للاستخدام الفعلي وتقييم تعلم مهارات التسوق بدل تصديق شعارات المنتج.",
+      "businessGoal": "course",
+      "targetPage": "/course/المسار-الصحي",
+      "avoidOverlap": "تطبيق على الإفطار الجاهز والجرانولا وفرق الحصة والوجبة المحضرة؛ ليست صفحة سكر عام أو تكرار اختيار الحبوب الكاملة.",
+      "decisionHelp": "مقارنة عبوتين للاستخدام الفعلي وتقييم تعلم مهارات التسوق بدل تصديق شعارات المنتج.",
+      "status": "draft",
+      "plannedFor": "2026-10-05",
+      "bodyWordsExcludingHeadings": 1051,
+      "keywordCheckedAt": "2026-10-05"
     }
   ],
   "coverageBatch": {
@@ -2950,6 +3022,40 @@
       "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/79",
       "productionEvidence": "content/editorial-research/2026-10-04-production.json",
       "indexNowReceipt": "content/editorial-research/2026-10-04-indexnow.json"
+    },
+    {
+      "date": "2026-10-05",
+      "status": "draft",
+      "target": 4,
+      "articles": [
+        {
+          "key": "diverticular-food-stages",
+          "status": "draft",
+          "words": 1028
+        },
+        {
+          "key": "pancreatic-nutrition-coordination",
+          "status": "draft",
+          "words": 1064
+        },
+        {
+          "key": "pcos-pill-decision",
+          "status": "draft",
+          "words": 1064
+        },
+        {
+          "key": "breakfast-cereal-shopping",
+          "status": "draft",
+          "words": 1051
+        }
+      ],
+      "businessBalance": {
+        "consultation": 2,
+        "course": 2
+      },
+      "research": "content/editorial-research/2026-10-05.json",
+      "googleStatus": "blocked",
+      "blocker": "Unchanged targeted Google browser runtime timeout; owner request already sent Oct4. No current-day UI read or submission."
     }
   ],
   "advertisingManagement": {

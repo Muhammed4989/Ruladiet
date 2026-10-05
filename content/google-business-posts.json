@@ -12,10 +12,10 @@
     "fid": "9264577843169494728"
   },
   "access": {
-    "lastChecked": "2026-10-04",
+    "lastChecked": "2026-10-05",
     "verifiedAt": "2026-09-30T06:46:33.339Z",
     "status": "browser_runtime_unavailable",
-    "note": "October4 targeted browser connection timed out; management identity and today posts could not be rechecked. Last October3 post was verified live. No Google post was sent today.",
+    "note": "October5 targeted Google-only browser entry timed out. Last successful post verification October3; complete current-day draft saved. Same blocker and no repeated owner action request.",
     "previousStatus": "verified_management_access",
     "lastSuccessfulPostVerificationAt": "2026-10-03T08:03:20.870Z",
     "blockerCode": "browser_runtime_unavailable",
@@ -471,6 +471,32 @@
       "blockerDetail": "cua_repl repeatedly timed out and reset on selecting/creating only the known Google Business tab. No live UI read and no submission occurred. Do not infer lost Google access or request passwords. Restore Codex browser connection and recheck identity/posts before any submit.",
       "draftComplete": true,
       "ownerActionRequired": "Restore the Codex in-app browser connection, then confirm the managed clinic is open."
+    },
+    {
+      "date": "2026-10-05",
+      "articleKey": "breakfast-cereal-shopping",
+      "canonicalUrl": "https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/اختيار-حبوب-الإفطار",
+      "text": "اختيار حبوب الإفطار يبدأ من استخدامك اليومي، لا من كلمة لياقة على العبوة. قبل المقارنة، تأكدي هل القيم مكتوبة للحصة، أم لكل مئة غرام، أم بعد إضافة الحليب. قارني كمية متساوية بين المنتجين، ثم راجعي المكونات والألياف والسكريات. السكر المضاف جزء من السكر الكلي، فلا تجمعي الرقمين. فكري أيضاً في الوجبة كاملة: ما الذي ستضيفينه، وهل المنتج يناسب تعليماتك الفردية والحساسية إن وجدت؟ اختاري حجماً ستستخدمينه فعلاً واتّبعي تعليمات الحفظ. دليل رولا دايت الجديد يرتب هذه الخطوات، ويقدم مثالاً حسابياً افتراضياً لتوضيح فرق الحصص دون تفضيل علامة تجارية. اقرئيه عبر زر معرفة المزيد. الرسم توضيحي لعبوات غير موسومة.",
+      "imagePath": "../assets/blog-editorial/breakfast-cereal-shopping-google.jpg",
+      "button": {
+        "type": "LEARN_MORE",
+        "url": "https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/اختيار-حبوب-الإفطار"
+      },
+      "status": "blocked",
+      "preparedAt": "2026-10-05T07:29:19.601Z",
+      "submittedAt": null,
+      "checkedAt": "2026-10-05T07:29:19.605Z",
+      "postId": null,
+      "blocker": "browser_runtime_unavailable",
+      "sourcePolicy": [
+        "https://support.google.com/business/answer/7342169?hl=en",
+        "https://support.google.com/business/answer/7400114?hl=en"
+      ],
+      "wordCount": 98,
+      "duplicateCheck": "No October5 submission in ledger. Current-day UI identity and duplicate check could not run because targeted Google-only CUA entry timed out. Must reconcile before any submission.",
+      "sourceArticleVerifiedAt": null,
+      "draftComplete": true,
+      "blockerDetail": "Unchanged browser connection timeout as October4. No post submitted and no repeated owner notification. Correct profile record preserved; no inference of revoked Google permission."
     }
   ],
   "draftQueue": [
