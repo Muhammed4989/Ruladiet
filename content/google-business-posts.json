@@ -13,14 +13,15 @@
   },
   "access": {
     "lastChecked": "2026-10-05",
-    "verifiedAt": "2026-09-30T06:46:33.339Z",
-    "status": "browser_runtime_unavailable",
-    "note": "October5 targeted Google-only browser entry timed out. Last successful post verification October3; complete current-day draft saved. Same blocker and no repeated owner action request.",
-    "previousStatus": "verified_management_access",
-    "lastSuccessfulPostVerificationAt": "2026-10-03T08:03:20.870Z",
-    "blockerCode": "browser_runtime_unavailable",
+    "verifiedAt": "2026-10-05T08:04:04.327Z",
+    "status": "verified_management_access",
+    "note": "Browser connection restored. Verified managed Rula Diet clinic, website and Basaksehir address; All posts contained no October5 post before submission.",
+    "previousStatus": "browser_runtime_unavailable",
+    "lastSuccessfulPostVerificationAt": "2026-10-05T08:08:40.846Z",
+    "blockerCode": null,
     "ownerActionRequestedAt": "2026-10-04T07:11:38.433Z",
-    "ownerNotification": "Requested once on October4 to reopen Codex/Google clinic tab. Do not repeat the same unchanged browser blocker."
+    "ownerNotification": "Requested once on October4 to reopen Codex/Google clinic tab. Do not repeat the same unchanged browser blocker.",
+    "ownerActionFulfilledAt": "2026-10-05T08:04:04.327Z"
   },
   "entryFields": [
     "date",
@@ -482,21 +483,27 @@
         "type": "LEARN_MORE",
         "url": "https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/اختيار-حبوب-الإفطار"
       },
-      "status": "blocked",
+      "status": "live",
       "preparedAt": "2026-10-05T07:29:19.601Z",
-      "submittedAt": null,
-      "checkedAt": "2026-10-05T07:29:19.605Z",
-      "postId": null,
-      "blocker": "browser_runtime_unavailable",
+      "submittedAt": "2026-10-05T08:05:39.740Z",
+      "checkedAt": "2026-10-05T08:08:40.846Z",
+      "postId": "4422836605813955614",
+      "blocker": null,
       "sourcePolicy": [
         "https://support.google.com/business/answer/7342169?hl=en",
         "https://support.google.com/business/answer/7400114?hl=en"
       ],
       "wordCount": 98,
-      "duplicateCheck": "No October5 submission in ledger. Current-day UI identity and duplicate check could not run because targeted Google-only CUA entry timed out. Must reconcile before any submission.",
+      "duplicateCheck": "Verified correct managed clinic in Google. All posts inspected: latest existing cooking-oil update Published yesterday; no October5 update or pending submission. Publish current-day draft only.",
       "sourceArticleVerifiedAt": "2026-10-05T07:38:48.910Z",
       "draftComplete": true,
-      "blockerDetail": "Unchanged browser connection timeout as October4. No post submitted and no repeated owner notification. Correct profile record preserved; no inference of revoked Google permission."
+      "blockerHistory": "Unchanged browser connection timeout as October4. No post submitted and no repeated owner notification. Correct profile record preserved; no inference of revoked Google permission.",
+      "submissionStartedAt": "2026-10-05T08:05:39.740Z",
+      "uploadedImageFormat": "JPEG",
+      "postUrl": null,
+      "verification": "Correct clinic All posts shows submitted breakfast cereal Update with exact text, uploaded image and Learn more; Published 51 seconds ago. No duplicate submitted.",
+      "publishedLabel": "Published 51 seconds ago",
+      "evidencePath": "../assets/blog-editorial/google-post-2026-10-05.jpg"
     }
   ],
   "draftQueue": [
