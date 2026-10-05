@@ -3066,8 +3066,8 @@
         "course": 2
       },
       "research": "content/editorial-research/2026-10-05.json",
-      "googleStatus": "blocked",
-      "blocker": "Unchanged targeted Google browser runtime timeout; owner request already sent Oct4. No current-day UI read or submission.",
+      "googleStatus": "live",
+      "blocker": null,
       "verifiedAt": "2026-10-05T07:38:48.910Z",
       "productionCommit": "b624423c671a1ab54e5c3dad0d6d8614b2c3aacd",
       "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/81",
@@ -3083,7 +3083,9 @@
         "diff": "passed",
         "preview": "Local isolated Chrome render of four articles reviewed. Mobile no horizontal overflow; eager decode verified assets. Desktop TOC click produced descriptive Arabic heading hash. Vercel Ready correct project and Git SHA03fa4b659eebae899c69111bbd5b0ea30416b674. Protected preview not fetched and no bypass link created; production HTML and all20assets verified against local content.",
         "production": "All4pages HTTP200,exact normalized HTML matches;20assets byte matches;13contextual/CTA destinations200; all4canonicalURLs in sitemap"
-      }
+      },
+      "googlePostId": "4422836605813955614",
+      "googleVerifiedAt": "2026-10-05T08:08:40.846Z"
     }
   ],
   "advertisingManagement": {
