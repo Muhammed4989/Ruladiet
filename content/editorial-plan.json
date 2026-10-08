@@ -1678,9 +1678,10 @@
       ],
       "overlapAssessment": "النية عرض أثناء دواء محدد: ترتيب الخطوات مع تغير الشهية والأدوية؛ ليست تكرار دليل الإمساك المزمن أو خطة وجبات مونجارو العامة.",
       "decisionHelp": "تمييز طلب الطبيب من تعديلات الروتين والتحضير لاستشارة غذائية منسقة مع العلاج.",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-10-08",
-      "keywordCheckedAt": "2026-10-08"
+      "keywordCheckedAt": "2026-10-08",
+      "publishedAt": "2026-10-08T06:17:06.882Z"
     },
     {
       "articleKey": "pcos-amh-diagnostic-context",
@@ -1699,9 +1700,10 @@
       ],
       "overlapAssessment": "النية هي جدوى AMH وحدوده عند التشخيص وليست شرح التكيس العام أو علاج العقم.",
       "decisionHelp": "سؤال الطبيب عن مبرر الفحص واختيار الكورس للفهم العام دون تفسير فردي.",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-10-08",
-      "keywordCheckedAt": "2026-10-08"
+      "keywordCheckedAt": "2026-10-08",
+      "publishedAt": "2026-10-08T06:17:06.882Z"
     }
   ],
   "coverageBatch": {
@@ -3132,15 +3134,19 @@
     {
       "date": "2026-10-08",
       "target": 2,
-      "status": "draft",
+      "status": "articles_published_google_blocked",
       "articles": [
         {
           "key": "mounjaro-constipation-care",
-          "status": "draft"
+          "status": "published",
+          "words": 1063,
+          "url": "https://ruladiet.com/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/الإمساك-مع-مونجارو"
         },
         {
           "key": "pcos-amh-diagnostic-context",
-          "status": "draft"
+          "status": "published",
+          "words": 1116,
+          "url": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/تحليل-amh-مع-تكيس-المبايض"
         }
       ],
       "businessBalance": {
@@ -3148,7 +3154,24 @@
         "course": 1
       },
       "research": "content/editorial-research/2026-10-08.json",
-      "googleStatus": "draft"
+      "googleStatus": "draft",
+      "blocker": "Google form repeatedly shows A link is required for this button despite complete valid article URL. No successful submission or new post confirmation. Owner asked once to complete field and Post; recheck UI before any retry.",
+      "verifiedAt": "2026-10-08T06:17:06.882Z",
+      "productionCommit": "e2cfc08a873ef80084d7dcca77e801a519356bc1",
+      "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/85",
+      "productionEvidence": "content/editorial-research/2026-10-08-production.json",
+      "indexNowReceipt": "content/editorial-research/2026-10-08-indexnow.json",
+      "validation": {
+        "checkBlog": "111 articles,111 unique covers,0errors",
+        "checkSite": "159 pages,309 schemas,156 sitemap URLs,0errors; pre-existing course NUL warning unchanged",
+        "navigation": "111 articles,876 named headings,31 archives,0errors",
+        "urlMigration": "2739 variants,2536 assets,0errors",
+        "categoryGuides": "31 guides,min552bodywords,0errors",
+        "oldArticleDates": "All109 existing article dates preserved",
+        "preview": "Vercel Ready SHA0373b945fe9800e349996f672ad8955390429015; authenticated preview both article covers/layout reviewed,390px AMH no horizontal overflow; Mounjaro TOC Enter updates named Arabic hash",
+        "production": "Both pages HTTP200 and exact normalized HTML match;10assets match;8internal/CTA destinations200;both in sitemap",
+        "diff": "passed"
+      }
     }
   ],
   "advertisingManagement": {
