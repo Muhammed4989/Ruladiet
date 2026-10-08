@@ -1653,5 +1653,39 @@
     "visual": "images/blog/visual-breakfast-cereal-shopping.svg",
     "secondVisual": "images/blog/visual-breakfast-cereal-shopping-questions.svg",
     "note": "Unique generated cover. Fictional modest models are not Rula, patients or outcomes. Original educational diagrams from article-specific metadata; no stock or copied course image."
+  },
+  {
+    "key": "mounjaro-constipation-care",
+    "generated": "2026-10-08",
+    "generator": "OpenAI built-in image generation",
+    "rights": "Generated for Rula Diet editorial use; no third-party stock image copied.",
+    "sourceMaster": "../assets/blog-editorial/source/mounjaro-constipation-care.png",
+    "cover": "images/blog/mounjaro-constipation-care-1280.webp",
+    "responsive": [
+      400,
+      800,
+      1280
+    ],
+    "visual": "images/blog/visual-mounjaro-constipation-care.svg",
+    "secondVisual": "images/blog/visual-mounjaro-constipation-care-questions.svg",
+    "prompt": "Natural editorial photograph of a modest fictional woman walking in a sunlit garden with a water bottle; no medical products or outcome claims.",
+    "note": "Fictional model is not Rula or a patient. Two original educational SVG diagrams derive from article-specific metadata."
+  },
+  {
+    "key": "pcos-amh-diagnostic-context",
+    "generated": "2026-10-08",
+    "generator": "OpenAI built-in image generation",
+    "rights": "Generated for Rula Diet editorial use; no third-party stock image copied.",
+    "sourceMaster": "../assets/blog-editorial/source/pcos-amh-diagnostic-context.png",
+    "cover": "images/blog/pcos-amh-diagnostic-context-1280.webp",
+    "responsive": [
+      400,
+      800,
+      1280
+    ],
+    "visual": "images/blog/visual-pcos-amh-diagnostic-context.svg",
+    "secondVisual": "images/blog/visual-pcos-amh-diagnostic-context-questions.svg",
+    "prompt": "New cream/blush/sage watercolor illustration: modest fictional woman organizing an unlettered report, calendar and notebook; no clinical claims, course-inspired palette.",
+    "note": "Fictional model is not Rula or a patient. Two original educational SVG diagrams derive from article-specific metadata."
   }
 ]

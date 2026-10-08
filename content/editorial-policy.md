@@ -76,3 +76,8 @@ Apply to future articles after the Sep20 batch. The owner requested that some ar
 ## Owner restriction: no Meta access (2026-09-21)
 
 The owner explicitly instructed never to open Meta again. Do not open, navigate to, inspect or interact with Meta, Facebook, Instagram, Ads Manager or Business Suite, including existing tabs. Ambient browser context does not authorize access. Do not check Instagram follower counts as part of content research. Advertising is owner-managed; continue website articles and Google Business publication only. This restriction overrides earlier Meta or Instagram access tasks unless the owner explicitly changes it.
+
+
+## Current publishing scope (owner update, 2026-10-07)
+
+The owner resumed only two original website articles and one Google Business Update daily at 09:00 Europe/Istanbul. This overrides all older four-article targets above. Complete only the missing daily count; never catch up paused dates. Existing offers, renewals and advertising remain paused. Put the homepage URL once in Google Update text when supported and the verified article URL in its Learn more button; verify rendering rather than assuming both are clickable. Current article URLs use /blog/<category>/<topic>/<slug>, without the historical category segment.

@@ -2,12 +2,12 @@
   "timezone": "Europe/Istanbul",
   "schedule": "Daily batch starts at 09:00 Europe/Istanbul",
   "automationId": "automation",
-  "scheduleUpdated": "2026-09-13",
-  "effectiveFrom": "2026-09-14",
-  "dailyWebsiteArticles": 4,
+  "scheduleUpdated": "2026-10-07",
+  "effectiveFrom": "2026-10-07",
+  "dailyWebsiteArticles": 2,
   "dailyGoogleBusinessPosts": 1,
   "googleBusinessLedger": "content/google-business-posts.json",
-  "dailyRunRule": "تحقق من master والموقع الفعلي بتاريخ إسطنبول، ثم أكمل العدد إلى أربع مقالات متميزة فقط ومنشور Google واحد. استكمل العمل المحفوظ دون تكرار، والمنشور قيد المراجعة يُعد مرسلاً ولا يعاد إرساله. لا تعوض الأيام الفائتة بنشر كثيف أو تنشر محتوى ناقصاً لتحقيق العدد.",
+  "dailyRunRule": "تحقق من الإنتاج وسجل تاريخ إسطنبول وأكمل مقالتين فقط ومنشور Google واحد دون تكرار أو تعويض الأيام الفائتة.",
   "minimumBodyWords": 1000,
   "taxonomy": "content/blog-taxonomy.json",
   "taxonomyRule": "كل مقالة ضمن تصنيف عام وفرعي واحد؛ أضف مفتاحها إلى articleTopics قبل النشر. تغذية الحوامل والمرضعات والرضع والأطفال ضمن تغذية الأسرة.",
@@ -1660,6 +1660,48 @@
       "keywordCheckedAt": "2026-10-05",
       "publishedAt": "2026-10-05",
       "productionUrl": "https://ruladiet.com/blog/التغذية-اليومية/الملصقات-والتسوق/اختيار-حبوب-الإفطار"
+    },
+    {
+      "articleKey": "mounjaro-constipation-care",
+      "primaryKeyword": "الإمساك مع مونجارو",
+      "supportingKeywords": [
+        "الألياف مع مونجارو",
+        "التغذية والإمساك مع إبر التنحيف"
+      ],
+      "intent": "معلوماتي داعم لاتخاذ قرار بشأن الاستشارة أو التعلم",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": [
+        "constipation-consultation",
+        "mounjaro-nausea-meals",
+        "medication-appetite-review"
+      ],
+      "overlapAssessment": "النية عرض أثناء دواء محدد: ترتيب الخطوات مع تغير الشهية والأدوية؛ ليست تكرار دليل الإمساك المزمن أو خطة وجبات مونجارو العامة.",
+      "decisionHelp": "تمييز طلب الطبيب من تعديلات الروتين والتحضير لاستشارة غذائية منسقة مع العلاج.",
+      "status": "draft",
+      "plannedFor": "2026-10-08",
+      "keywordCheckedAt": "2026-10-08"
+    },
+    {
+      "articleKey": "pcos-amh-diagnostic-context",
+      "primaryKeyword": "تحليل AMH مع تكيس المبايض",
+      "supportingKeywords": [
+        "AMH أم السونار للتكيس",
+        "ارتفاع مخزون المبيض والتكيس"
+      ],
+      "intent": "معلوماتي داعم لاتخاذ قرار بشأن الاستشارة أو التعلم",
+      "businessGoal": "course",
+      "targetPage": "/course/تكيس-المبايض",
+      "avoidOverlap": [
+        "pcos-cyst-difference",
+        "pcos-fertility-questions",
+        "adolescent-pcos-learning"
+      ],
+      "overlapAssessment": "النية هي جدوى AMH وحدوده عند التشخيص وليست شرح التكيس العام أو علاج العقم.",
+      "decisionHelp": "سؤال الطبيب عن مبرر الفحص واختيار الكورس للفهم العام دون تفسير فردي.",
+      "status": "draft",
+      "plannedFor": "2026-10-08",
+      "keywordCheckedAt": "2026-10-08"
     }
   ],
   "coverageBatch": {
@@ -3086,6 +3128,27 @@
       },
       "googlePostId": "4422836605813955614",
       "googleVerifiedAt": "2026-10-05T08:08:40.846Z"
+    },
+    {
+      "date": "2026-10-08",
+      "target": 2,
+      "status": "draft",
+      "articles": [
+        {
+          "key": "mounjaro-constipation-care",
+          "status": "draft"
+        },
+        {
+          "key": "pcos-amh-diagnostic-context",
+          "status": "draft"
+        }
+      ],
+      "businessBalance": {
+        "consultation": 1,
+        "course": 1
+      },
+      "research": "content/editorial-research/2026-10-08.json",
+      "googleStatus": "draft"
     }
   ],
   "advertisingManagement": {

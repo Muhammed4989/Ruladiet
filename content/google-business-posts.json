@@ -504,6 +504,28 @@
       "verification": "Correct clinic All posts shows submitted breakfast cereal Update with exact text, uploaded image and Learn more; Published 51 seconds ago. No duplicate submitted.",
       "publishedLabel": "Published 51 seconds ago",
       "evidencePath": "../assets/blog-editorial/google-post-2026-10-05.jpg"
+    },
+    {
+      "date": "2026-10-08",
+      "articleKey": "pcos-amh-diagnostic-context",
+      "canonicalUrl": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/تحليل-amh-مع-تكيس-المبايض",
+      "text": "تحليل AMH لا يجيب وحده عن كل الأسئلة المتعلقة بتكيس المبايض أو الخصوبة. قبل مناقشة النتيجة، احتفظي بالتقرير كاملاً مع تاريخ الفحص ووحدة القياس، واكتبي سبب طلب التحليل والأدوية المستخدمة. اسألي الطبيب: ما السؤال الذي يحاول الفحص الإجابة عنه، وهل ستغيّر نتيجته خطة المتابعة؟ لا تقارني رقمك برقم صديقة، ولا تطلبي إعادة التحليل لمجرد القلق. في مقال رولا دايت الجديد نوضح موضع AMH ضمن التقييم، وحدوده، وكيف تجهزين أسئلتك للموعد. المقال تثقيفي ولا يفسر نتيجة شخصية أو يضمن حدوث الحمل. للمزيد عن رولا دايت وخدماتها: https://ruladiet.com/ واقرئي المقال الكامل عبر زر معرفة المزيد. الصورة رسم توضيحي لشخصية خيالية.",
+      "imagePath": "../assets/blog-editorial/pcos-amh-diagnostic-context-google.jpg",
+      "button": {
+        "type": "LEARN_MORE",
+        "url": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/تحليل-amh-مع-تكيس-المبايض"
+      },
+      "status": "draft",
+      "preparedAt": "2026-10-08T06:11:56.949Z",
+      "postId": null,
+      "submittedAt": null,
+      "wordCount": 98,
+      "duplicateCheck": "Correct managed clinic identity, website and address verified. All posts UI latest updates October5; no today post or pending item. No submission made.",
+      "sourcePolicy": [
+        "https://support.google.com/business/answer/7342169?hl=en",
+        "https://support.google.com/business/answer/7400114?hl=en"
+      ],
+      "draftComplete": true
     }
   ],
   "draftQueue": [
