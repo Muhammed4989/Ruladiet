@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-08",
+  "timezone": "Europe/Istanbul",
+  "catalogReview": "All109 existing identities reviewed; clean checkout, fetched origin/master 1f68911. No current-day record. Past draft labels already correspond to live articles and were not republished.",
+  "searchConsole": "No new Search Console export available in this run; search queries checked as editorial hypotheses. No volume, ranking or sales claims.",
+  "keywordEvidence": "Arabic AMH query results show questions about diagnosis versus reserve/ fertility; primary ASRM and MedlinePlus used, commercial results not cited. CUH and official drug label establish constipation context. Search results are not demand estimates.",
+  "offers": "Live PCOS page confirms diagnosis and test timing lessons; booking offers online/in-person Istanbul. No prices or unverified access promises stated.",
+  "briefs": [
+    {
+      "articleKey": "mounjaro-constipation-care",
+      "primaryKeyword": "الإمساك مع مونجارو",
+      "supportingKeywords": [
+        "الألياف مع مونجارو",
+        "التغذية والإمساك مع إبر التنحيف"
+      ],
+      "intent": "معلوماتي داعم لاتخاذ قرار بشأن الاستشارة أو التعلم",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": [
+        "constipation-consultation",
+        "mounjaro-nausea-meals",
+        "medication-appetite-review"
+      ],
+      "overlapAssessment": "النية عرض أثناء دواء محدد: ترتيب الخطوات مع تغير الشهية والأدوية؛ ليست تكرار دليل الإمساك المزمن أو خطة وجبات مونجارو العامة.",
+      "decisionHelp": "تمييز طلب الطبيب من تعديلات الروتين والتحضير لاستشارة غذائية منسقة مع العلاج.",
+      "status": "draft",
+      "plannedFor": "2026-10-08",
+      "keywordCheckedAt": "2026-10-08",
+      "sources": [
+        {
+          "name": "النشرة الرسمية لمونجارو: الإمساك والأعراض الهضمية",
+          "url": "https://pi.lilly.com/us/mounjaro-uspi.pdf"
+        },
+        {
+          "name": "NIDDK: أعراض الإمساك وعلامات طلب المساعدة",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/constipation/symptoms-causes"
+        },
+        {
+          "name": "NIDDK: علاج الإمساك والعادات والأدوية",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/constipation/treatment"
+        },
+        {
+          "name": "CUH: نصائح التغذية مع تيرزيباتيد لمرضى السكري",
+          "url": "https://www.cuh.nhs.uk/patient-information/dietary-advice-for-people-with-type-2-diabetes-using-tirzepatide-mounjaro/"
+        }
+      ]
+    },
+    {
+      "articleKey": "pcos-amh-diagnostic-context",
+      "primaryKeyword": "تحليل AMH مع تكيس المبايض",
+      "supportingKeywords": [
+        "AMH أم السونار للتكيس",
+        "ارتفاع مخزون المبيض والتكيس"
+      ],
+      "intent": "معلوماتي داعم لاتخاذ قرار بشأن الاستشارة أو التعلم",
+      "businessGoal": "course",
+      "targetPage": "/course/تكيس-المبايض",
+      "avoidOverlap": [
+        "pcos-cyst-difference",
+        "pcos-fertility-questions",
+        "adolescent-pcos-learning"
+      ],
+      "overlapAssessment": "النية هي جدوى AMH وحدوده عند التشخيص وليست شرح التكيس العام أو علاج العقم.",
+      "decisionHelp": "سؤال الطبيب عن مبرر الفحص واختيار الكورس للفهم العام دون تفسير فردي.",
+      "status": "draft",
+      "plannedFor": "2026-10-08",
+      "keywordCheckedAt": "2026-10-08",
+      "sources": [
+        {
+          "name": "الدليل الدولي للتكيس 2023: دور AMH وحدود التشخيص",
+          "url": "https://www.asrm.org/practice-guidance/practice-committee-documents/recommendations-from-the-2023-international-evidence-based-guideline-for-the-assessment-and-management-of-polyendocrine-metabolic-ovarian-syndrome-2023/"
+        },
+        {
+          "name": "MedlinePlus: فحص الهرمون المضاد لمولّر",
+          "url": "https://medlineplus.gov/lab-tests/anti-mullerian-hormone-test/"
+        },
+        {
+          "name": "ASRM: تفسير اختبارات مخزون المبيض وحدود توقع الخصوبة",
+          "url": "https://www.asrm.org/practice-guidance/practice-committee-documents/testing-and-interpreting-measures-of-ovarian-reserve-a-committee-opinion-2020/"
+        }
+      ]
+    }
+  ],
+  "sourceCheckedAt": "2026-10-08T06:07:07.483Z",
+  "policy": [
+    "https://support.google.com/business/answer/7342169?hl=en",
+    "https://support.google.com/business/answer/7400114?hl=en"
+  ]
+}
