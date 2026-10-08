@@ -23,7 +23,7 @@
       ],
       "overlapAssessment": "النية عرض أثناء دواء محدد: ترتيب الخطوات مع تغير الشهية والأدوية؛ ليست تكرار دليل الإمساك المزمن أو خطة وجبات مونجارو العامة.",
       "decisionHelp": "تمييز طلب الطبيب من تعديلات الروتين والتحضير لاستشارة غذائية منسقة مع العلاج.",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-10-08",
       "keywordCheckedAt": "2026-10-08",
       "sources": [
@@ -43,7 +43,8 @@
           "name": "CUH: نصائح التغذية مع تيرزيباتيد لمرضى السكري",
           "url": "https://www.cuh.nhs.uk/patient-information/dietary-advice-for-people-with-type-2-diabetes-using-tirzepatide-mounjaro/"
         }
-      ]
+      ],
+      "url": "https://ruladiet.com/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/الإمساك-مع-مونجارو"
     },
     {
       "articleKey": "pcos-amh-diagnostic-context",
@@ -62,7 +63,7 @@
       ],
       "overlapAssessment": "النية هي جدوى AMH وحدوده عند التشخيص وليست شرح التكيس العام أو علاج العقم.",
       "decisionHelp": "سؤال الطبيب عن مبرر الفحص واختيار الكورس للفهم العام دون تفسير فردي.",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-10-08",
       "keywordCheckedAt": "2026-10-08",
       "sources": [
@@ -78,12 +79,16 @@
           "name": "ASRM: تفسير اختبارات مخزون المبيض وحدود توقع الخصوبة",
           "url": "https://www.asrm.org/practice-guidance/practice-committee-documents/testing-and-interpreting-measures-of-ovarian-reserve-a-committee-opinion-2020/"
         }
-      ]
+      ],
+      "url": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/تحليل-amh-مع-تكيس-المبايض"
     }
   ],
   "sourceCheckedAt": "2026-10-08T06:07:07.483Z",
   "policy": [
     "https://support.google.com/business/answer/7342169?hl=en",
     "https://support.google.com/business/answer/7400114?hl=en"
-  ]
+  ],
+  "status": "published",
+  "verifiedAt": "2026-10-08T06:17:06.882Z",
+  "productionEvidence": "content/editorial-research/2026-10-08-production.json"
 }

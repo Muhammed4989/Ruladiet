@@ -525,7 +525,22 @@
         "https://support.google.com/business/answer/7342169?hl=en",
         "https://support.google.com/business/answer/7400114?hl=en"
       ],
-      "draftComplete": true
+      "draftComplete": true,
+      "sourceArticleVerifiedAt": "2026-10-08T06:17:06.882Z",
+      "submissionStartedAt": "2026-10-08T06:18:58.724Z",
+      "uploadedImageFormat": "JPEG",
+      "checkedAt": "2026-10-08T06:26:13.302Z",
+      "blocker": "google_button_url_form_validation",
+      "blockerDetail": "Google form repeatedly shows A link is required for this button despite complete valid article URL. No successful submission or new post confirmation. Owner asked once to complete field and Post; recheck UI before any retry.",
+      "ownerActionRequired": "Re-enter article URL in open Add post form and click Post, then confirm. Do not duplicate if owner submits.",
+      "ownerNotifiedAt": "2026-10-08T06:26:13.304Z",
+      "googleProfileId": "15771110234456492391",
+      "linkRendering": {
+        "homepageInText": true,
+        "articleButtonPrepared": true,
+        "publicClickabilityVerified": false
+      },
+      "draftTabUrl": "https://www.google.com/local/business/u/1/15771110234456492391/promote/updates/add?hl=en-GB&dcs=1&ih=lu&origin=https%3A%2F%2Fwww.google.com"
     }
   ],
   "draftQueue": [
