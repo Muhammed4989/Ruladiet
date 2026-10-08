@@ -3134,7 +3134,7 @@
     {
       "date": "2026-10-08",
       "target": 2,
-      "status": "articles_published_google_blocked",
+      "status": "completed",
       "articles": [
         {
           "key": "mounjaro-constipation-care",
@@ -3154,8 +3154,8 @@
         "course": 1
       },
       "research": "content/editorial-research/2026-10-08.json",
-      "googleStatus": "draft",
-      "blocker": "Google form repeatedly shows A link is required for this button despite complete valid article URL. No successful submission or new post confirmation. Owner asked once to complete field and Post; recheck UI before any retry.",
+      "googleStatus": "live",
+      "blocker": null,
       "verifiedAt": "2026-10-08T06:17:06.882Z",
       "productionCommit": "e2cfc08a873ef80084d7dcca77e801a519356bc1",
       "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/85",
@@ -3171,7 +3171,9 @@
         "preview": "Vercel Ready SHA0373b945fe9800e349996f672ad8955390429015; authenticated preview both article covers/layout reviewed,390px AMH no horizontal overflow; Mounjaro TOC Enter updates named Arabic hash",
         "production": "Both pages HTTP200 and exact normalized HTML match;10assets match;8internal/CTA destinations200;both in sitemap",
         "diff": "passed"
-      }
+      },
+      "googlePostId": "6109967924868073860",
+      "googleVerifiedAt": "2026-10-08T06:42:09Z"
     }
   ],
   "advertisingManagement": {

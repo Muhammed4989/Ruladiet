@@ -515,12 +515,12 @@
         "type": "LEARN_MORE",
         "url": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/تحليل-amh-مع-تكيس-المبايض"
       },
-      "status": "draft",
+      "status": "live",
       "preparedAt": "2026-10-08T06:11:56.949Z",
-      "postId": null,
+      "postId": "6109967924868073860",
       "submittedAt": null,
       "wordCount": 98,
-      "duplicateCheck": "Correct managed clinic identity, website and address verified. All posts UI latest updates October5; no today post or pending item. No submission made.",
+      "duplicateCheck": "Checked existing posts before submission. Created exactly one post; corrected description by editing the same post. Published state verified in manager and Google Search public-facing Updates.",
       "sourcePolicy": [
         "https://support.google.com/business/answer/7342169?hl=en",
         "https://support.google.com/business/answer/7400114?hl=en"
@@ -529,18 +529,31 @@
       "sourceArticleVerifiedAt": "2026-10-08T06:17:06.882Z",
       "submissionStartedAt": "2026-10-08T06:18:58.724Z",
       "uploadedImageFormat": "JPEG",
-      "checkedAt": "2026-10-08T06:26:13.302Z",
-      "blocker": "google_button_url_form_validation",
-      "blockerDetail": "Google form repeatedly shows A link is required for this button despite complete valid article URL. No successful submission or new post confirmation. Owner asked once to complete field and Post; recheck UI before any retry.",
-      "ownerActionRequired": "Re-enter article URL in open Add post form and click Post, then confirm. Do not duplicate if owner submits.",
+      "checkedAt": "2026-10-08T06:42:09Z",
+      "blocker": null,
+      "blockerDetail": null,
+      "ownerActionRequired": null,
       "ownerNotifiedAt": "2026-10-08T06:26:13.304Z",
       "googleProfileId": "15771110234456492391",
       "linkRendering": {
         "homepageInText": true,
+        "homepageClickable": true,
         "articleButtonPrepared": true,
-        "publicClickabilityVerified": false
+        "articleButtonClickTest": "Opened correct published AMH article",
+        "publicClickabilityVerified": true
       },
-      "draftTabUrl": "https://www.google.com/local/business/u/1/15771110234456492391/promote/updates/add?hl=en-GB&dcs=1&ih=lu&origin=https%3A%2F%2Fwww.google.com"
+      "draftTabUrl": "https://www.google.com/local/business/u/1/15771110234456492391/promote/updates/add?hl=en-GB&dcs=1&ih=lu&origin=https%3A%2F%2Fwww.google.com",
+      "blockerHistory": [
+        {
+          "checkedAt": "2026-10-08T06:26:13.302Z",
+          "blocker": "google_button_url_form_validation",
+          "detail": "Google form repeatedly shows A link is required for this button despite complete valid article URL. No successful submission or new post confirmation. Owner asked once to complete field and Post; recheck UI before any retry."
+        }
+      ],
+      "adminUrl": "https://www.google.com/local/business/u/1/15771110234456492391/promote/updates/6109967924868073860/edit",
+      "resolution": "Visible input values were not registering through fill/paste. Clear each field then enter with pressSequentially in small chunks and Tab. Raw Arabic canonical URL accepted and automatically encoded. Reopened saved post to verify complete description, image and Learn more URL.",
+      "verification": "Published in manager; full description and both clickable links rendered in Google Search Updates. Clicked Learn more and article opened with correct AMH heading.",
+      "evidencePath": "../assets/blog-editorial/google-post-2026-10-08-public.png"
     }
   ],
   "draftQueue": [
