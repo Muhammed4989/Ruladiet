@@ -23,7 +23,7 @@
       ],
       "overlapAssessment": "التعامل مع الإسهال وفقد السوائل أثناء الدواء، لا خطة الوجبات العامة أو الإمساك أو الغثيان.",
       "decisionHelp": "تحديد أولوية الاتصال بالطبيب مقابل دعم تنظيم الطعام والسوائل.",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-10-09",
       "keywordCheckedAt": "2026-10-09",
       "sources": [
@@ -67,7 +67,7 @@
       ],
       "overlapAssessment": "تمييز تفسير ارتفاع البرولاكتين عن تشخيص التكيس، لا إعادة نية AMH أو متابعة الدورة.",
       "decisionHelp": "اختيار التقييم الطبي لتفسير التحليل والتعلم المنظم لفهم المصطلحات.",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-10-09",
       "keywordCheckedAt": "2026-10-09",
       "sources": [
@@ -100,5 +100,6 @@
     "mounjaro": "Known diarrhea and volume-depletion renal risk from August2026 label; no dose changes. NIDDK diet guidance rejects fasting/restrictive diet; ORS instructions follow packaging/professional advice. Red flags grounded in NHS.",
     "prolactin": "MedlinePlus test is not cause diagnosis; ASRM2024 differential and macroprolactin; NIDDK benign tumor is only one cause. No food cure or individualized treatment. NHS supports urgent sudden severe headache/vision symptoms."
   },
-  "status": "draft"
+  "status": "published",
+  "verifiedAt": "2026-10-09T06:26:16.814Z"
 }

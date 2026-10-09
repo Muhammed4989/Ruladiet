@@ -1722,7 +1722,7 @@
       ],
       "overlapAssessment": "التعامل مع الإسهال وفقد السوائل أثناء الدواء، لا خطة الوجبات العامة أو الإمساك أو الغثيان.",
       "decisionHelp": "تحديد أولوية الاتصال بالطبيب مقابل دعم تنظيم الطعام والسوائل.",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-10-09",
       "keywordCheckedAt": "2026-10-09",
       "sources": [
@@ -1766,7 +1766,7 @@
       ],
       "overlapAssessment": "تمييز تفسير ارتفاع البرولاكتين عن تشخيص التكيس، لا إعادة نية AMH أو متابعة الدورة.",
       "decisionHelp": "اختيار التقييم الطبي لتفسير التحليل والتعلم المنظم لفهم المصطلحات.",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-10-09",
       "keywordCheckedAt": "2026-10-09",
       "sources": [
@@ -3262,17 +3262,17 @@
     {
       "date": "2026-10-09",
       "target": 2,
-      "status": "draft",
+      "status": "completed",
       "articles": [
         {
           "key": "mounjaro-diarrhea-hydration",
-          "status": "draft",
+          "status": "published",
           "words": 1113,
           "url": "https://ruladiet.com/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/الإسهال-مع-مونجارو"
         },
         {
           "key": "pcos-prolactin-difference",
-          "status": "draft",
+          "status": "published",
           "words": 1123,
           "url": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/ارتفاع-هرمون-الحليب-وتكيس-المبايض"
         }
@@ -3282,8 +3282,26 @@
         "course": 1
       },
       "research": "content/editorial-research/2026-10-09.json",
-      "googleStatus": "draft",
-      "blocker": null
+      "googleStatus": "live",
+      "blocker": null,
+      "verifiedAt": "2026-10-09T06:26:16.814Z",
+      "productionCommit": "2fc4f25ac2cca6859c53d2e4080ba955f09dbafa",
+      "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/88",
+      "productionEvidence": "content/editorial-research/2026-10-09-production.json",
+      "validation": {
+        "checkBlog": "113 articles,113 covers,0 errors",
+        "checkSite": "161 pages,313 schemas,158 sitemap URLs,0 errors; known course NUL warning unchanged",
+        "navigation": "113 articles,890 named headings,145 breadcrumbs,0 errors",
+        "urlMigration": "2785 variants,2582 assets,0 errors",
+        "categoryGuides": "31 guides,min552 bodywords,0 errors",
+        "oldArticleDates": "All111 metadata entries preserved exactly",
+        "diff": "passed",
+        "preview": "Authenticated Vercel Ready a997936, both articles covers and layout inspected; Mounjaro TOC Enter updates named Arabic hash",
+        "production": "Both HTML pages match local,10 assets byte match,7 internal destinations200,both sitemap URLs present"
+      },
+      "googlePostId": "7319161866071068444",
+      "googleVerifiedAt": "2026-10-09T06:30:14.337Z",
+      "indexNowReceipt": "content/editorial-research/2026-10-09-indexnow.json"
     }
   ],
   "advertisingManagement": {
