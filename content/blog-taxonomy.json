@@ -311,6 +311,8 @@
     "pcos-pill-decision": "pcos",
     "breakfast-cereal-shopping": "labels-shopping",
     "mounjaro-constipation-care": "weight-medication",
-    "pcos-amh-diagnostic-context": "pcos"
+    "pcos-amh-diagnostic-context": "pcos",
+    "mounjaro-diarrhea-hydration": "weight-medication",
+    "pcos-prolactin-difference": "pcos"
   }
 }

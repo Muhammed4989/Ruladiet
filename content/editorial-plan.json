@@ -1704,6 +1704,90 @@
       "plannedFor": "2026-10-08",
       "keywordCheckedAt": "2026-10-08",
       "publishedAt": "2026-10-08T06:17:06.882Z"
+    },
+    {
+      "articleKey": "mounjaro-diarrhea-hydration",
+      "primaryKeyword": "الإسهال مع مونجارو",
+      "supportingKeywords": [
+        "ماذا آكل مع إسهال مونجارو",
+        "السوائل مع أدوية التنحيف"
+      ],
+      "intent": "معلوماتي داعم لقرار المتابعة أو التعلم",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": [
+        "mounjaro-constipation-care",
+        "mounjaro-nausea-meals",
+        "mounjaro-diet"
+      ],
+      "overlapAssessment": "التعامل مع الإسهال وفقد السوائل أثناء الدواء، لا خطة الوجبات العامة أو الإمساك أو الغثيان.",
+      "decisionHelp": "تحديد أولوية الاتصال بالطبيب مقابل دعم تنظيم الطعام والسوائل.",
+      "status": "draft",
+      "plannedFor": "2026-10-09",
+      "keywordCheckedAt": "2026-10-09",
+      "sources": [
+        {
+          "name": "Lilly: النشرة الرسمية لمونجارو، مراجعة أغسطس 2026",
+          "url": "https://pi.lilly.com/us/mounjaro-uspi.pdf"
+        },
+        {
+          "name": "NIDDK: الطعام أثناء الإسهال وتجنب الحميات المقيدة",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/diarrhea/eating-diet-nutrition"
+        },
+        {
+          "name": "NIDDK: تعويض السوائل والأملاح في الإسهال",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/diarrhea/treatment"
+        },
+        {
+          "name": "NHS: الإسهال والقيء ومتى تطلب المساعدة",
+          "url": "https://www.nhs.uk/symptoms/diarrhoea-and-vomiting/"
+        },
+        {
+          "name": "Guy’s and St Thomas’: التعامل الغذائي مع أعراض أدوية الوزن",
+          "url": "https://www.guysandstthomas.nhs.uk/health-information/lifestyle-advice-people-taking-weight-loss-medicines/managing-side-effects-diet"
+        }
+      ],
+      "url": "https://ruladiet.com/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/الإسهال-مع-مونجارو"
+    },
+    {
+      "articleKey": "pcos-prolactin-difference",
+      "primaryKeyword": "ارتفاع هرمون الحليب وتكيس المبايض",
+      "supportingKeywords": [
+        "البرولاكتين واضطراب الدورة",
+        "هل التكيس يفسر ارتفاع هرمون الحليب"
+      ],
+      "intent": "معلوماتي داعم لقرار المتابعة أو التعلم",
+      "businessGoal": "course",
+      "targetPage": "/course/تكيس-المبايض",
+      "avoidOverlap": [
+        "pcos-amh-diagnostic-context",
+        "pcos-cycle-log",
+        "pcos-cyst-difference"
+      ],
+      "overlapAssessment": "تمييز تفسير ارتفاع البرولاكتين عن تشخيص التكيس، لا إعادة نية AMH أو متابعة الدورة.",
+      "decisionHelp": "اختيار التقييم الطبي لتفسير التحليل والتعلم المنظم لفهم المصطلحات.",
+      "status": "draft",
+      "plannedFor": "2026-10-09",
+      "keywordCheckedAt": "2026-10-09",
+      "sources": [
+        {
+          "name": "MedlinePlus: تحليل البرولاكتين والتحضير وتفسير الارتفاع",
+          "url": "https://medlineplus.gov/lab-tests/prolactin-levels/"
+        },
+        {
+          "name": "NIDDK: الورم البرولاكتيني وأسباب ارتفاع هرمون الحليب",
+          "url": "https://www.niddk.nih.gov/health-information/endocrine-diseases/prolactinoma"
+        },
+        {
+          "name": "ASRM 2024: تقييم غياب الدورة والبرولاكتين والماكروبرولاكتين",
+          "url": "https://www.asrm.org/practice-guidance/practice-committee-documents/current-evaluation-of-amenorrhea/"
+        },
+        {
+          "name": "NHS: الصداع وعلامات طلب المساعدة العاجلة",
+          "url": "https://www.nhs.uk/symptoms/headaches/"
+        }
+      ],
+      "url": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/ارتفاع-هرمون-الحليب-وتكيس-المبايض"
     }
   ],
   "coverageBatch": {
@@ -3174,6 +3258,32 @@
       },
       "googlePostId": "6109967924868073860",
       "googleVerifiedAt": "2026-10-08T06:42:09Z"
+    },
+    {
+      "date": "2026-10-09",
+      "target": 2,
+      "status": "draft",
+      "articles": [
+        {
+          "key": "mounjaro-diarrhea-hydration",
+          "status": "draft",
+          "words": 1113,
+          "url": "https://ruladiet.com/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/الإسهال-مع-مونجارو"
+        },
+        {
+          "key": "pcos-prolactin-difference",
+          "status": "draft",
+          "words": 1123,
+          "url": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/ارتفاع-هرمون-الحليب-وتكيس-المبايض"
+        }
+      ],
+      "businessBalance": {
+        "consultation": 1,
+        "course": 1
+      },
+      "research": "content/editorial-research/2026-10-09.json",
+      "googleStatus": "draft",
+      "blocker": null
     }
   ],
   "advertisingManagement": {
