@@ -1687,5 +1687,39 @@
     "secondVisual": "images/blog/visual-pcos-amh-diagnostic-context-questions.svg",
     "prompt": "New cream/blush/sage watercolor illustration: modest fictional woman organizing an unlettered report, calendar and notebook; no clinical claims, course-inspired palette.",
     "note": "Fictional model is not Rula or a patient. Two original educational SVG diagrams derive from article-specific metadata."
+  },
+  {
+    "key": "mounjaro-diarrhea-hydration",
+    "generated": "2026-10-09",
+    "generator": "OpenAI built-in image generation",
+    "rights": "Generated for Rula Diet editorial use; no third-party stock image copied.",
+    "sourceMaster": "../assets/blog-editorial/source/mounjaro-diarrhea-hydration.png",
+    "cover": "images/blog/mounjaro-diarrhea-hydration-1280.webp",
+    "responsive": [
+      400,
+      800,
+      1280
+    ],
+    "visual": "images/blog/visual-mounjaro-diarrhea-hydration.svg",
+    "secondVisual": "images/blog/visual-mounjaro-diarrhea-hydration-questions.svg",
+    "prompt": "Natural quiet photography; modest fictional Arab woman pouring water in sunlit kitchen, small rice/carrot plate; sage and cream, no medicine, text or testimonial.",
+    "note": "Fictional model is not Rula or a patient. Two original SVGs convey article-specific steps."
+  },
+  {
+    "key": "pcos-prolactin-difference",
+    "generated": "2026-10-09",
+    "generator": "OpenAI built-in image generation",
+    "rights": "Generated for Rula Diet editorial use; no third-party stock image copied.",
+    "sourceMaster": "../assets/blog-editorial/source/pcos-prolactin-difference.png",
+    "cover": "images/blog/pcos-prolactin-difference-1280.webp",
+    "responsive": [
+      400,
+      800,
+      1280
+    ],
+    "visual": "images/blog/visual-pcos-prolactin-difference.svg",
+    "secondVisual": "images/blog/visual-pcos-prolactin-difference-questions.svg",
+    "prompt": "Cream peach sage watercolor; modest fictional Arab woman choosing two unlettered books in sunlit library; calendar, botanical framing, course-inspired palette, no medical claims.",
+    "note": "Fictional model is not Rula or a patient. Two original SVGs convey article-specific steps."
   }
 ]

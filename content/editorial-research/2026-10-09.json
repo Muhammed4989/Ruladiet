@@ -1,0 +1,104 @@
+{
+  "date": "2026-10-09",
+  "timezone": "Europe/Istanbul",
+  "catalogReview": "Reviewed all111 catalog identities, no Oct9 entries or sitemap lastmod before work. Started clean origin/master f758451668182e2e5685be4321a7d2a19d368ac2. No catch-up.",
+  "searchConsole": "No current Rula Search Console export available. Arabic query results checked for questions and intent, not demand estimates; no volume/rank/sales claims.",
+  "keywordEvidence": "Arabic queries about diarrhea with Mounjaro and high prolactin versus PCOS show symptom/food and differential-evaluation questions. Primary official clinical sources used; commercial results not cited.",
+  "offers": "Live PCOS curriculum and booking page checked. Course has prolactin lesson, educational only. No prices or new access promises stated.",
+  "briefs": [
+    {
+      "articleKey": "mounjaro-diarrhea-hydration",
+      "primaryKeyword": "الإسهال مع مونجارو",
+      "supportingKeywords": [
+        "ماذا آكل مع إسهال مونجارو",
+        "السوائل مع أدوية التنحيف"
+      ],
+      "intent": "معلوماتي داعم لقرار المتابعة أو التعلم",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": [
+        "mounjaro-constipation-care",
+        "mounjaro-nausea-meals",
+        "mounjaro-diet"
+      ],
+      "overlapAssessment": "التعامل مع الإسهال وفقد السوائل أثناء الدواء، لا خطة الوجبات العامة أو الإمساك أو الغثيان.",
+      "decisionHelp": "تحديد أولوية الاتصال بالطبيب مقابل دعم تنظيم الطعام والسوائل.",
+      "status": "draft",
+      "plannedFor": "2026-10-09",
+      "keywordCheckedAt": "2026-10-09",
+      "sources": [
+        {
+          "name": "Lilly: النشرة الرسمية لمونجارو، مراجعة أغسطس 2026",
+          "url": "https://pi.lilly.com/us/mounjaro-uspi.pdf"
+        },
+        {
+          "name": "NIDDK: الطعام أثناء الإسهال وتجنب الحميات المقيدة",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/diarrhea/eating-diet-nutrition"
+        },
+        {
+          "name": "NIDDK: تعويض السوائل والأملاح في الإسهال",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/diarrhea/treatment"
+        },
+        {
+          "name": "NHS: الإسهال والقيء ومتى تطلب المساعدة",
+          "url": "https://www.nhs.uk/symptoms/diarrhoea-and-vomiting/"
+        },
+        {
+          "name": "Guy’s and St Thomas’: التعامل الغذائي مع أعراض أدوية الوزن",
+          "url": "https://www.guysandstthomas.nhs.uk/health-information/lifestyle-advice-people-taking-weight-loss-medicines/managing-side-effects-diet"
+        }
+      ],
+      "url": "https://ruladiet.com/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/الإسهال-مع-مونجارو"
+    },
+    {
+      "articleKey": "pcos-prolactin-difference",
+      "primaryKeyword": "ارتفاع هرمون الحليب وتكيس المبايض",
+      "supportingKeywords": [
+        "البرولاكتين واضطراب الدورة",
+        "هل التكيس يفسر ارتفاع هرمون الحليب"
+      ],
+      "intent": "معلوماتي داعم لقرار المتابعة أو التعلم",
+      "businessGoal": "course",
+      "targetPage": "/course/تكيس-المبايض",
+      "avoidOverlap": [
+        "pcos-amh-diagnostic-context",
+        "pcos-cycle-log",
+        "pcos-cyst-difference"
+      ],
+      "overlapAssessment": "تمييز تفسير ارتفاع البرولاكتين عن تشخيص التكيس، لا إعادة نية AMH أو متابعة الدورة.",
+      "decisionHelp": "اختيار التقييم الطبي لتفسير التحليل والتعلم المنظم لفهم المصطلحات.",
+      "status": "draft",
+      "plannedFor": "2026-10-09",
+      "keywordCheckedAt": "2026-10-09",
+      "sources": [
+        {
+          "name": "MedlinePlus: تحليل البرولاكتين والتحضير وتفسير الارتفاع",
+          "url": "https://medlineplus.gov/lab-tests/prolactin-levels/"
+        },
+        {
+          "name": "NIDDK: الورم البرولاكتيني وأسباب ارتفاع هرمون الحليب",
+          "url": "https://www.niddk.nih.gov/health-information/endocrine-diseases/prolactinoma"
+        },
+        {
+          "name": "ASRM 2024: تقييم غياب الدورة والبرولاكتين والماكروبرولاكتين",
+          "url": "https://www.asrm.org/practice-guidance/practice-committee-documents/current-evaluation-of-amenorrhea/"
+        },
+        {
+          "name": "NHS: الصداع وعلامات طلب المساعدة العاجلة",
+          "url": "https://www.nhs.uk/symptoms/headaches/"
+        }
+      ],
+      "url": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/ارتفاع-هرمون-الحليب-وتكيس-المبايض"
+    }
+  ],
+  "sourceCheckedAt": "2026-10-09T06:21:50.858Z",
+  "policy": [
+    "https://support.google.com/business/answer/7342169?hl=en",
+    "https://support.google.com/business/answer/7400114?hl=en"
+  ],
+  "claimReview": {
+    "mounjaro": "Known diarrhea and volume-depletion renal risk from August2026 label; no dose changes. NIDDK diet guidance rejects fasting/restrictive diet; ORS instructions follow packaging/professional advice. Red flags grounded in NHS.",
+    "prolactin": "MedlinePlus test is not cause diagnosis; ASRM2024 differential and macroprolactin; NIDDK benign tumor is only one cause. No food cure or individualized treatment. NHS supports urgent sudden severe headache/vision symptoms."
+  },
+  "status": "draft"
+}
