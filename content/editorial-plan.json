@@ -3304,6 +3304,27 @@
       "indexNowReceipt": "content/editorial-research/2026-10-09-indexnow.json"
     }
   ],
+  "contentMaintenance": {
+    "adoptedAt": "2026-09-15",
+    "cadence": "First existing daily run of each calendar month",
+    "nextReviewDue": "2026-10-01",
+    "lastCompletedReview": null,
+    "decisions": [
+      "KEEP",
+      "UPDATE",
+      "MERGE",
+      "REDIRECT",
+      "NOINDEX"
+    ],
+    "reviewCriteria": [
+      "Changed primary health guidance and stale offers",
+      "Overlapping search intent and substantive originality",
+      "Broken references, incoming links and relevant offer links",
+      "Available aggregate Search Console evidence; no invented metrics"
+    ],
+    "serviceReadingManifest": "content/service-reading.json",
+    "reviews": []
+  },
   "advertisingManagement": {
     "status": "owner_managed",
     "effectiveDate": "2026-09-19",
