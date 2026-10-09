@@ -12,12 +12,12 @@
     "fid": "9264577843169494728"
   },
   "access": {
-    "lastChecked": "2026-10-05",
-    "verifiedAt": "2026-10-05T08:04:04.327Z",
+    "lastChecked": "2026-10-09",
+    "verifiedAt": "2026-10-09T06:26:16.824Z",
     "status": "verified_management_access",
-    "note": "Browser connection restored. Verified managed Rula Diet clinic, website and Basaksehir address; All posts contained no October5 post before submission.",
+    "note": "Verified clinic name, address, website and management controls; All posts latest Oct8, no Oct9 existing or pending item.",
     "previousStatus": "browser_runtime_unavailable",
-    "lastSuccessfulPostVerificationAt": "2026-10-05T08:08:40.846Z",
+    "lastSuccessfulPostVerificationAt": "2026-10-09T06:30:14.337Z",
     "blockerCode": null,
     "ownerActionRequestedAt": "2026-10-04T07:11:38.433Z",
     "ownerNotification": "Requested once on October4 to reopen Codex/Google clinic tab. Do not repeat the same unchanged browser blocker.",
@@ -554,6 +554,35 @@
       "resolution": "Visible input values were not registering through fill/paste. Clear each field then enter with pressSequentially in small chunks and Tab. Raw Arabic canonical URL accepted and automatically encoded. Reopened saved post to verify complete description, image and Learn more URL.",
       "verification": "Published in manager; full description and both clickable links rendered in Google Search Updates. Clicked Learn more and article opened with correct AMH heading.",
       "evidencePath": "../assets/blog-editorial/google-post-2026-10-08-public.png"
+    },
+    {
+      "date": "2026-10-09",
+      "articleKey": "pcos-prolactin-difference",
+      "canonicalUrl": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/ارتفاع-هرمون-الحليب-وتكيس-المبايض",
+      "text": "ارتفاع هرمون الحليب لا يعني تلقائياً وجود تكيس المبايض. قد تتشابه بعض الأعراض، لكن تفسير التحليل يحتاج إلى معرفة ظروف الفحص والأدوية والأعراض، وليس مقارنة الرقم بنتيجة صديقة.\n\nقبل الموعد، جهزي التقرير كاملاً مع وحدة القياس، وقائمة الأدوية والمكملات، وتواريخ الدورة. اسألي الطبيب: هل تحتاج النتيجة إلى إعادة أو تقييم سبب آخر، وما الخطوة التالية؟ لا توقفي دواءً موصوفاً من نفسك، ولا تعتمدي على حمية أو أعشاب لتفسير الارتفاع أو علاجه.\n\nفي مقال رولا دايت الجديد نرتب هذه الأسئلة ونوضح الفرق بين التعلم العام والتقييم الفردي. معلومات المقال تثقيفية ولا تقدم تشخيصاً شخصياً.\nللتعرّف إلى رولا دايت وخدماتها: https://ruladiet.com/\nواقرئي المقال عبر زر «معرفة المزيد».\nالصورة رسم توضيحي لشخصية خيالية.",
+      "imagePath": "images/blog/pcos-prolactin-difference-1280.webp",
+      "uploadImagePath": "../assets/blog-editorial/google-post-2026-10-09.jpg",
+      "button": {
+        "type": "LEARN_MORE",
+        "url": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/ارتفاع-هرمون-الحليب-وتكيس-المبايض"
+      },
+      "status": "live",
+      "preparedAt": "2026-10-09T06:26:16.824Z",
+      "submittedAt": "2026-10-09T06:28:43.490Z",
+      "checkedAt": "2026-10-09T06:30:14.337Z",
+      "postId": "7319161866071068444",
+      "postUrl": null,
+      "blocker": null,
+      "sourceArticleVerifiedAt": "2026-10-09T06:26:16.814Z",
+      "verification": "Published in manager and rendered publicly in Google Search Updates with image and complete description. Homepage visible as clickable anchor. Learn more clicked and opened exact published prolactin article.",
+      "links": {
+        "homepage": "https://ruladiet.com/",
+        "homepageRenderedClickable": true,
+        "articleButton": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/ارتفاع-هرمون-الحليب-وتكيس-المبايض",
+        "articleButtonClickTest": "Opened correct published prolactin article",
+        "publicClickabilityVerified": true
+      },
+      "evidencePath": "../assets/blog-editorial/google-post-2026-10-09-public.jpg"
     }
   ],
   "draftQueue": [
