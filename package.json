@@ -3,7 +3,8 @@
     "optimize:images": "node scripts/optimize-images.js",
     "maintain:seo": "node scripts/maintain-seo.js",
     "build:redirects": "node scripts/build-redirects.js",
-    "check:site": "node scripts/check-site.js"
+    "check:site": "node scripts/check-site.js",
+    "sync:footer": "node scripts/sync-footer.js"
   },
   "dependencies": {
     "html-minifier": "^4.0.0",
