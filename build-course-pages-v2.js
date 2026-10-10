@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const {syncFooter} = require('./scripts/sync-footer');
 
 const COURSES_DIR = path.join(__dirname, 'course');
 
@@ -630,7 +631,7 @@ ${includesHTML}
 courses.forEach(c => {
   const html = generateCourseHTML(c);
   const filePath = path.join(COURSES_DIR, c.file);
-  fs.writeFileSync(filePath, html, 'utf8');
+  fs.writeFileSync(filePath, syncFooter(html), 'utf8');
   console.log(`✅ Generated: ${c.file}`);
 });
 

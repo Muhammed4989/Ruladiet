@@ -1,0 +1,46 @@
+/* Shared footer refinements across homepage, articles and courses. */
+.footer .footer-brand p,
+.footer .footer-brand .footer-address {
+  color: #d9e8de !important;
+  line-height: 1.7;
+}
+.footer .footer-address { margin-top: 12px; font-size: .85rem; text-align: right; }
+.footer .footer-links-new { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; min-width: 0; }
+.footer .footer-col-new { min-width: 0; }
+.footer .footer-col-new h4,
+.footer .footer-map h4 { color: #ead0a9; }
+.footer .footer-col-new li { margin: 0; }
+.footer .footer-col-new a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  max-width: 100%;
+  color: #e0eee5;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+.footer .footer-col-new a:hover,
+.footer .footer-map-actions a:hover { color: #fff; text-decoration: underline; padding-right: 0; }
+.footer .footer-booking-link { color: #f3d7ac !important; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+.footer .footer-social a { width: 44px; height: 44px; }
+.footer .footer-bottom-new p { color: #cadbcf !important; }
+.footer .footer-bottom-new p a { color: #dbe9df !important; }
+.footer a:focus-visible { outline: 3px solid #f3d7ac; outline-offset: 3px; border-radius: 3px; }
+.footer .footer-map-actions a { min-height: 44px; color: #f3d7ac; }
+.footer .footer-map-fallback,
+.footer .footer-map-fallback a { color: #dbe9df !important; }
+
+@media (min-width: 901px) and (max-width: 1099px) {
+  .footer .footer-top { grid-template-columns: minmax(200px, 1fr) minmax(0, 2fr) !important; }
+  .footer .footer-map { grid-column: 1 / -1; max-width: 500px; }
+}
+@media (max-width: 900px) {
+  .footer .footer-address { text-align: center; }
+  .footer .footer-links-new { width: 100%; max-width: 600px; margin-inline: auto; text-align: right; }
+}
+@media (max-width: 599px) {
+  .footer .footer-links-new { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+  .footer .footer-col-new:last-child { grid-column: 1 / -1; }
+  .footer .footer-map { min-width: 0; }
+  .footer .footer-bottom-new { gap: 12px; }
+}
