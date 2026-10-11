@@ -583,6 +583,33 @@
         "publicClickabilityVerified": true
       },
       "evidencePath": "../assets/blog-editorial/google-post-2026-10-09-public.jpg"
+    },
+    {
+      "date": "2026-10-11",
+      "articleKey": "triglycerides-consultation-prep",
+      "canonicalUrl": "https://ruladiet.com/blog/التغذية-والحالات-الصحية/الكوليسترول-وصحة-القلب/الدهون-الثلاثية-والاستشارة-الغذائية",
+      "text": "ارتفاع الدهون الثلاثية لا يُفسَّر من رقم مقتطع من التقرير. قبل استشارة التغذية، احتفظي بتحليل الدهون كاملاً مع التاريخ ووحدة القياس، واكتبي الأدوية والحالات الصحية، ومثالاً من وجباتك ومشروباتك المعتادة.\n\nاسألي الطبيب عن درجة الارتفاع وما إذا كانت النتيجة تحتاج إلى متابعة سريعة، خصوصاً عند الارتفاع الشديد. ثم ناقشي مع اختصاصية التغذية تغييراً واقعياً يناسب وقتك وطعام بيتك؛ لا تبدئي حمية شديدة أو مكملات علاجية من نفسك.\n\nمقال رولا دايت الجديد يرتب خطوات التحضير والأسئلة التي تساعدك في الموعد. المعلومات عامة ولا تفسر تحليلاً شخصياً. للتعرّف إلى الموقع وخدماته: https://ruladiet.com/\nواقرئي الدليل الكامل من زر «معرفة المزيد». الصورة لشخصية توضيحية خيالية.",
+      "imagePath": "images/blog/triglycerides-consultation-prep-1280.webp",
+      "uploadImagePath": "../assets/blog-editorial/google-post-2026-10-11.jpg",
+      "button": {
+        "type": "LEARN_MORE",
+        "url": "https://ruladiet.com/blog/التغذية-والحالات-الصحية/الكوليسترول-وصحة-القلب/الدهون-الثلاثية-والاستشارة-الغذائية"
+      },
+      "status": "live",
+      "preparedAt": "2026-10-11T01:54:45.063Z",
+      "submittedAt": "2026-10-11T02:06:32.444Z",
+      "checkedAt": "2026-10-11T02:06:32.444Z",
+      "postId": "1000149389960101218",
+      "postUrl": "https://www.google.com/local/business/u/1/15771110234456492391/promote/updates/1000149389960101218/edit",
+      "blocker": null,
+      "sourceArticleVerifiedAt": "2026-10-11T01:54:45.070Z",
+      "links": {
+        "homepage": "https://ruladiet.com/",
+        "homepageRenderedClickable": null,
+        "articleButton": "https://ruladiet.com/blog/التغذية-والحالات-الصحية/الكوليسترول-وصحة-القلب/الدهون-الثلاثية-والاستشارة-الغذائية",
+        "publicClickabilityVerified": false
+      },
+      "verification": "The Rula Diet clinic management UI showed Published, the full text, image and Learn more after saving the description edit."
     }
   ],
   "draftQueue": [

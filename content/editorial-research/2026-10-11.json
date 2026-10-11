@@ -22,7 +22,7 @@
       ],
       "overlapAssessment": "تحضير لاستشارة ارتفاع الدهون الثلاثية وحدود التدخل الطبي، لا إعادة مقال LDL أو فحص الدهون ضمن التكيس.",
       "decisionHelp": "تمييز الحاجة إلى تقييم طبي سريع من موعد دعم غذائي، وتجهيز أسئلة الاستشارة.",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-10-11",
       "keywordCheckedAt": "2026-10-11",
       "sources": [
@@ -40,7 +40,8 @@
         }
       ],
       "url": "https://ruladiet.com/blog/التغذية-والحالات-الصحية/الكوليسترول-وصحة-القلب/الدهون-الثلاثية-والاستشارة-الغذائية",
-      "bodyWords": 1152
+      "bodyWords": 1152,
+      "verifiedAt": "2026-10-11T02:06:32.444Z"
     },
     {
       "articleKey": "pcos-endometriosis-difference",
@@ -59,7 +60,7 @@
       ],
       "overlapAssessment": "تمييز ألم بطانة الرحم المهاجرة عن ملامح اضطراب الإباضة؛ ليس الفرق بين كيس منفرد والمتلازمة أو تتبع الدورة فقط.",
       "decisionHelp": "اختيار التقييم الطبي للألم والتعلم المنظم عندما يكون سؤال القارئة عن التكيس.",
-      "status": "draft",
+      "status": "published",
       "plannedFor": "2026-10-11",
       "keywordCheckedAt": "2026-10-11",
       "sources": [
@@ -77,7 +78,14 @@
         }
       ],
       "url": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/تكيس-المبايض-وبطانة-الرحم-المهاجرة",
-      "bodyWords": 1111
+      "bodyWords": 1111,
+      "verifiedAt": "2026-10-11T02:06:32.444Z"
     }
-  ]
+  ],
+  "production": {
+    "status": "verified",
+    "verifiedAt": "2026-10-11T02:06:32.444Z",
+    "commit": "00026d832aa6e495bea9d766a9defb7c1088e5d3",
+    "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/92"
+  }
 }
