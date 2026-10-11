@@ -313,6 +313,8 @@
     "mounjaro-constipation-care": "weight-medication",
     "pcos-amh-diagnostic-context": "pcos",
     "mounjaro-diarrhea-hydration": "weight-medication",
-    "pcos-prolactin-difference": "pcos"
+    "pcos-prolactin-difference": "pcos",
+    "triglycerides-consultation-prep": "heart-health",
+    "pcos-endometriosis-difference": "pcos"
   }
 }

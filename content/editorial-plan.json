@@ -1788,6 +1788,80 @@
         }
       ],
       "url": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/ارتفاع-هرمون-الحليب-وتكيس-المبايض"
+    },
+    {
+      "articleKey": "triglycerides-consultation-prep",
+      "primaryKeyword": "ارتفاع الدهون الثلاثية واستشارة التغذية",
+      "supportingKeywords": [
+        "الاستعداد لاستشارة الدهون الثلاثية",
+        "متى تراجع الطبيب للدهون الثلاثية"
+      ],
+      "intent": "معلوماتي داعم لقرار المتابعة أو التعلم",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": [
+        "cholesterol-consultation",
+        "heart-nutrition",
+        "pcos-lipid-screening"
+      ],
+      "overlapAssessment": "تحضير لاستشارة ارتفاع الدهون الثلاثية وحدود التدخل الطبي، لا إعادة مقال LDL أو فحص الدهون ضمن التكيس.",
+      "decisionHelp": "تمييز الحاجة إلى تقييم طبي سريع من موعد دعم غذائي، وتجهيز أسئلة الاستشارة.",
+      "status": "draft",
+      "plannedFor": "2026-10-11",
+      "keywordCheckedAt": "2026-10-11",
+      "sources": [
+        {
+          "name": "ACC 2021: مسار التعامل مع ارتفاع الدهون الثلاثية",
+          "url": "https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2021/07/27/21/04/2021-ACC-ECDP-Hypertriglyceridemia"
+        },
+        {
+          "name": "جمعية القلب الأميركية: فهم نتائج الكوليسترول والدهون",
+          "url": "https://www.heart.org/en/health-topics/cholesterol/about-cholesterol/what-your-cholesterol-levels-mean"
+        },
+        {
+          "name": "NHLBI: ارتفاع الدهون الثلاثية، الفحص والأسباب وتغييرات نمط الحياة",
+          "url": "https://www.nhlbi.nih.gov/health/high-blood-triglycerides"
+        }
+      ],
+      "url": "https://ruladiet.com/blog/التغذية-والحالات-الصحية/الكوليسترول-وصحة-القلب/الدهون-الثلاثية-والاستشارة-الغذائية",
+      "bodyWords": 1152
+    },
+    {
+      "articleKey": "pcos-endometriosis-difference",
+      "primaryKeyword": "تكيس المبايض وبطانة الرحم المهاجرة",
+      "supportingKeywords": [
+        "الفرق بين التكيس وبطانة الرحم المهاجرة",
+        "ألم الدورة مع تكيس المبايض"
+      ],
+      "intent": "معلوماتي داعم لقرار المتابعة أو التعلم",
+      "businessGoal": "course",
+      "targetPage": "/course/تكيس-المبايض",
+      "avoidOverlap": [
+        "pcos-cyst-difference",
+        "pcos-cycle-log",
+        "pcos-prolactin-difference"
+      ],
+      "overlapAssessment": "تمييز ألم بطانة الرحم المهاجرة عن ملامح اضطراب الإباضة؛ ليس الفرق بين كيس منفرد والمتلازمة أو تتبع الدورة فقط.",
+      "decisionHelp": "اختيار التقييم الطبي للألم والتعلم المنظم عندما يكون سؤال القارئة عن التكيس.",
+      "status": "draft",
+      "plannedFor": "2026-10-11",
+      "keywordCheckedAt": "2026-10-11",
+      "sources": [
+        {
+          "name": "WHO: بطانة الرحم المهاجرة والأعراض والتقييم",
+          "url": "https://www.who.int/news-room/fact-sheets/endometriosis"
+        },
+        {
+          "name": "ASRM: الإرشادات الدولية لتقييم تكيس المبايض 2023",
+          "url": "https://www.asrm.org/practice-guidance/practice-committee-documents/recommendations-from-the-2023-international-evidence-based-guideline-for-the-assessment-and-management-of-polyendocrine-metabolic-ovarian-syndrome-2023/"
+        },
+        {
+          "name": "NICE NG73: تقييم بطانة الرحم المهاجرة والتصوير",
+          "url": "https://www.nice.org.uk/guidance/ng73/chapter/Recommendations"
+        }
+      ],
+      "url": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/تكيس-المبايض-وبطانة-الرحم-المهاجرة",
+      "bodyWords": 1111
     }
   ],
   "coverageBatch": {
@@ -3302,6 +3376,32 @@
       "googlePostId": "7319161866071068444",
       "googleVerifiedAt": "2026-10-09T06:30:14.337Z",
       "indexNowReceipt": "content/editorial-research/2026-10-09-indexnow.json"
+    },
+    {
+      "date": "2026-10-11",
+      "target": 2,
+      "status": "draft",
+      "articles": [
+        {
+          "key": "triglycerides-consultation-prep",
+          "status": "draft",
+          "words": 1152,
+          "url": "https://ruladiet.com/blog/التغذية-والحالات-الصحية/الكوليسترول-وصحة-القلب/الدهون-الثلاثية-والاستشارة-الغذائية"
+        },
+        {
+          "key": "pcos-endometriosis-difference",
+          "status": "draft",
+          "words": 1111,
+          "url": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/تكيس-المبايض-وبطانة-الرحم-المهاجرة"
+        }
+      ],
+      "businessBalance": {
+        "consultation": 1,
+        "course": 1
+      },
+      "research": "content/editorial-research/2026-10-11.json",
+      "googleStatus": "not_started",
+      "blocker": null
     }
   ],
   "advertisingManagement": {
