@@ -1,0 +1,11 @@
+{
+  "submittedAt": "2026-10-11T02:05:22.822Z",
+  "endpoint": "https://api.indexnow.org/indexnow",
+  "status": 200,
+  "submittedUrls": 2,
+  "urls": [
+    "https://ruladiet.com/blog/التغذية-والحالات-الصحية/الكوليسترول-وصحة-القلب/الدهون-الثلاثية-والاستشارة-الغذائية",
+    "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/تكيس-المبايض-وبطانة-الرحم-المهاجرة"
+  ],
+  "meaning": "Received; indexing is not guaranteed"
+}
