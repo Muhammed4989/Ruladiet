@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-11",
+  "timezone": "Europe/Istanbul",
+  "catalogReview": "Reviewed 113 existing article identities and Oct11 ledger; no same-intent article, no catch-up of Oct10. Clean branch from origin/master acefa92; original user working tree untouched.",
+  "searchConsole": "Verified Search Console performance UI on 2026-10-11: last 28 days 178 clicks / 8.39K impressions, last update 52.5 hours ago. Mounjaro meal-plan URLs led pages (101 and 35 clicks); top visible queries were Mounjaro meal-plan variants. No visible query evidence for either new topic. Keyword choices are differentiated editorial hypotheses, without demand, rank or sales estimates.",
+  "offers": "Public booking and PCOS course pages verified. PCOS course 33 lessons in 5 modules, educational only; no price claim made.",
+  "briefs": [
+    {
+      "articleKey": "triglycerides-consultation-prep",
+      "primaryKeyword": "ارتفاع الدهون الثلاثية واستشارة التغذية",
+      "supportingKeywords": [
+        "الاستعداد لاستشارة الدهون الثلاثية",
+        "متى تراجع الطبيب للدهون الثلاثية"
+      ],
+      "intent": "معلوماتي داعم لقرار المتابعة أو التعلم",
+      "businessGoal": "consultation",
+      "targetPage": "/احجز-موعد",
+      "avoidOverlap": [
+        "cholesterol-consultation",
+        "heart-nutrition",
+        "pcos-lipid-screening"
+      ],
+      "overlapAssessment": "تحضير لاستشارة ارتفاع الدهون الثلاثية وحدود التدخل الطبي، لا إعادة مقال LDL أو فحص الدهون ضمن التكيس.",
+      "decisionHelp": "تمييز الحاجة إلى تقييم طبي سريع من موعد دعم غذائي، وتجهيز أسئلة الاستشارة.",
+      "status": "draft",
+      "plannedFor": "2026-10-11",
+      "keywordCheckedAt": "2026-10-11",
+      "sources": [
+        {
+          "name": "ACC 2021: مسار التعامل مع ارتفاع الدهون الثلاثية",
+          "url": "https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2021/07/27/21/04/2021-ACC-ECDP-Hypertriglyceridemia"
+        },
+        {
+          "name": "جمعية القلب الأميركية: فهم نتائج الكوليسترول والدهون",
+          "url": "https://www.heart.org/en/health-topics/cholesterol/about-cholesterol/what-your-cholesterol-levels-mean"
+        },
+        {
+          "name": "NHLBI: ارتفاع الدهون الثلاثية، الفحص والأسباب وتغييرات نمط الحياة",
+          "url": "https://www.nhlbi.nih.gov/health/high-blood-triglycerides"
+        }
+      ],
+      "url": "https://ruladiet.com/blog/التغذية-والحالات-الصحية/الكوليسترول-وصحة-القلب/الدهون-الثلاثية-والاستشارة-الغذائية",
+      "bodyWords": 1152
+    },
+    {
+      "articleKey": "pcos-endometriosis-difference",
+      "primaryKeyword": "تكيس المبايض وبطانة الرحم المهاجرة",
+      "supportingKeywords": [
+        "الفرق بين التكيس وبطانة الرحم المهاجرة",
+        "ألم الدورة مع تكيس المبايض"
+      ],
+      "intent": "معلوماتي داعم لقرار المتابعة أو التعلم",
+      "businessGoal": "course",
+      "targetPage": "/course/تكيس-المبايض",
+      "avoidOverlap": [
+        "pcos-cyst-difference",
+        "pcos-cycle-log",
+        "pcos-prolactin-difference"
+      ],
+      "overlapAssessment": "تمييز ألم بطانة الرحم المهاجرة عن ملامح اضطراب الإباضة؛ ليس الفرق بين كيس منفرد والمتلازمة أو تتبع الدورة فقط.",
+      "decisionHelp": "اختيار التقييم الطبي للألم والتعلم المنظم عندما يكون سؤال القارئة عن التكيس.",
+      "status": "draft",
+      "plannedFor": "2026-10-11",
+      "keywordCheckedAt": "2026-10-11",
+      "sources": [
+        {
+          "name": "WHO: بطانة الرحم المهاجرة والأعراض والتقييم",
+          "url": "https://www.who.int/news-room/fact-sheets/endometriosis"
+        },
+        {
+          "name": "ASRM: الإرشادات الدولية لتقييم تكيس المبايض 2023",
+          "url": "https://www.asrm.org/practice-guidance/practice-committee-documents/recommendations-from-the-2023-international-evidence-based-guideline-for-the-assessment-and-management-of-polyendocrine-metabolic-ovarian-syndrome-2023/"
+        },
+        {
+          "name": "NICE NG73: تقييم بطانة الرحم المهاجرة والتصوير",
+          "url": "https://www.nice.org.uk/guidance/ng73/chapter/Recommendations"
+        }
+      ],
+      "url": "https://ruladiet.com/blog/صحة-المرأة/تكيس-المبايض/تكيس-المبايض-وبطانة-الرحم-المهاجرة",
+      "bodyWords": 1111
+    }
+  ]
+}
