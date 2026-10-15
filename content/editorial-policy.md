@@ -91,3 +91,12 @@ Use the useful part of automated SEO tools as a repeatable research and measurem
 - Revisit published pages after enough Search Console data has accumulated, normally at about 28 and 90 days rather than the day of publication. Compare query mix, impressions, clicks, CTR and indexing across comparable time windows; annotate seasonality and small samples. Identify the next action: retain, improve title/snippet for a genuine mismatch, expand a missing answer, strengthen contextual links, refresh changed medical guidance, or consolidate overlapping pages. Rankings and traffic alone do not establish bookings or course sales.
 - For medical topics, recheck the current primary guidance and article claims before any substantive refresh. Keep the original publication date, set the update date only when content materially changes, and retain the byline/source/illustration standards above. Do not manufacture extra articles or near-identical query variants to satisfy a content quota.
 - For AI search visibility, prioritize a crawlable, clearly structured answer with specific evidence, author identity and helpful internal navigation. Do not create separate pages or schema solely to target AI answers, and do not promise inclusion in Google or any AI product.
+
+## Curated service reading (2026-10-15)
+
+Maintain two or three relevant readings per offer in `content/service-reading.json`.
+Use current catalog titles and permanent paths; run `node scripts/sync-service-reading.js`
+after course/booking rebuilds (also called by blog maintenance). Preserve current
+offer terms and primary registration/booking actions. Verify targets and keyboard,
+mobile and desktop presentation when changing the selection or layout.
+This complements the current publishing scope and search feedback loop above.

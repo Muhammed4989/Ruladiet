@@ -293,3 +293,12 @@ The owner explicitly instructed never to open Meta again. Do not open, navigate 
 ## Current publishing scope (owner update, 2026-10-07)
 
 The owner resumed only two original website articles and one Google Business Update daily at 09:00 Europe/Istanbul. This overrides all older four-article targets above. Complete only the missing daily count; never catch up paused dates. Existing offers, renewals and advertising remain paused. Put the homepage URL once in Google Update text when supported and the verified article URL in its Learn more button; verify rendering rather than assuming both are clickable. Current article URLs use /blog/<category>/<topic>/<slug>, without the historical category segment.
+
+## Curated service reading (2026-10-15)
+
+- `content/service-reading.json` selects two or three articles for each of the four
+  course/booking pages. Run `node scripts/sync-service-reading.js` after rebuilding
+  those pages; `enrich-blog.js` also invokes it. Paths and titles come from the
+  current catalog/taxonomy. Update the manifest date only for substantive changes.
+- Preserve current booking details, offers, checkout links, footer and editorial
+  policy. Validate the 11 targets, renderer idempotence and mobile/desktop layout.
