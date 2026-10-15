@@ -117,3 +117,6 @@ require('./build-redirects');
 // Keep generated articles and archive shells aligned with the shared footer.
 const footerSync = require('./sync-footer');
 footerSync.allFooterFiles().forEach(file => footerSync.syncFile(file));
+
+// Restore curated offer reading after blog maintenance.
+require('./sync-service-reading')();
