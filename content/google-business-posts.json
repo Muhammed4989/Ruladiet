@@ -610,6 +610,32 @@
         "publicClickabilityVerified": false
       },
       "verification": "The Rula Diet clinic management UI showed Published, the full text, image and Learn more after saving the description edit."
+    },
+    {
+      "id": "2026-10-19-mounjaro-hair-shedding",
+      "date": "2026-10-19",
+      "articleKey": "mounjaro-hair-shedding",
+      "text": "تساقط الشعر أثناء استخدام دواء موصوف يثير أسئلة كثيرة، لكن ملاحظة التوقيت وحدها لا تحدد السبب. في مقال رولا دايت الجديد نرتب ما يمكن تجهيزه قبل الموعد: اسم المنتج، وتوقيت ملاحظة التساقط، والتغيرات السابقة في الوزن والطعام، وقائمة المكملات. ونوضح الفرق بين تقييم طبيب الجلدية ومراجعة كفاية الغذاء مع اختصاصية التغذية، ولماذا لا تعني مكملات الشعر حلاً مناسباً للجميع. الدليل يساعدك على صياغة أسئلتك ومناقشة الخيارات مع الفريق المتابع، دون تشخيص شخصي أو وعد بنتيجة. تعرّفي إلى رولا دايت وخدماتها عبر https://ruladiet.com/ واقرئي المقال كاملاً من زر «معرفة المزيد».",
+      "canonicalUrl": "https://ruladiet.com/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/تساقط-الشعر-مع-مونجارو",
+      "plannedCanonicalUrl": "https://ruladiet.com/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/تساقط-الشعر-مع-مونجارو",
+      "button": {
+        "type": "LEARN_MORE",
+        "url": "https://ruladiet.com/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/تساقط-الشعر-مع-مونجارو"
+      },
+      "imagePath": "../assets/blog-editorial/drafts/2026-10-19/google-cover.jpg",
+      "status": "live",
+      "preparedAt": "2026-10-19T06:30:17.900Z",
+      "submittedAt": "2026-10-19T06:39:20.059Z",
+      "postId": "7412454966712401986",
+      "postUrl": "https://www.google.com/local/business/u/1/15771110234456492391/promote/updates",
+      "blocker": null,
+      "sourceArticleVerifiedAt": "2026-10-19T06:27:28.046Z",
+      "clinicalReview": "Owner confirms completed review by Rula and approves publication on 2026-10-19.",
+      "submissionSurface": "Authorized in-app browser; Chrome extension form binding failed before submission.",
+      "checkedAt": "2026-10-19T06:39:20.059Z",
+      "verification": "Google management UI shows Published; saved Learn more URL matches live verified article. Cover and text present.",
+      "buttonDestinationStatus": 200,
+      "homepageTextClickable": "not verified"
     }
   ],
   "draftQueue": [
@@ -635,25 +661,6 @@
       "deferredAt": "2026-09-15T10:08:27.624Z",
       "deferReason": "Existing insulin-resistance post already published today. Preserve one Google post per day; no duplicate added.",
       "scheduledFor": null
-    },
-    {
-      "id": "2026-10-19-mounjaro-hair-shedding",
-      "date": "2026-10-19",
-      "articleKey": "mounjaro-hair-shedding",
-      "text": "تساقط الشعر أثناء استخدام دواء موصوف يثير أسئلة كثيرة، لكن ملاحظة التوقيت وحدها لا تحدد السبب. في مقال رولا دايت الجديد نرتب ما يمكن تجهيزه قبل الموعد: اسم المنتج، وتوقيت ملاحظة التساقط، والتغيرات السابقة في الوزن والطعام، وقائمة المكملات. ونوضح الفرق بين تقييم طبيب الجلدية ومراجعة كفاية الغذاء مع اختصاصية التغذية، ولماذا لا تعني مكملات الشعر حلاً مناسباً للجميع. الدليل يساعدك على صياغة أسئلتك ومناقشة الخيارات مع الفريق المتابع، دون تشخيص شخصي أو وعد بنتيجة. تعرّفي إلى رولا دايت وخدماتها عبر https://ruladiet.com/ واقرئي المقال كاملاً من زر «معرفة المزيد».",
-      "canonicalUrl": null,
-      "plannedCanonicalUrl": "https://ruladiet.com/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/تساقط-الشعر-مع-مونجارو",
-      "button": {
-        "type": "LEARN_MORE",
-        "url": "https://ruladiet.com/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/تساقط-الشعر-مع-مونجارو"
-      },
-      "imagePath": "../assets/blog-editorial/drafts/2026-10-19/cover-1280.webp",
-      "status": "draft",
-      "preparedAt": "2026-10-19T06:12:50.009Z",
-      "submittedAt": null,
-      "postId": null,
-      "postUrl": null,
-      "blocker": "Article requires actual qualified review by Rula and verified production publication before Google submission."
     }
   ],
   "observedScheduledPosts": [

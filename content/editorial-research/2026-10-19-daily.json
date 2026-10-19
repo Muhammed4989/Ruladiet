@@ -97,9 +97,14 @@
       "evidence": "Owner confirmed review completed and approved publication on 2026-10-19."
     },
     "publication": {
-      "status": "awaiting_clinical_review",
-      "published": false,
-      "datePublished": null
+      "status": "published_verified",
+      "published": true,
+      "datePublished": "2026-10-19",
+      "commit": "38e8c671cde619f6c4b87363470a06b97f8b5fb7",
+      "url": "https://ruladiet.com/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/تساقط-الشعر-مع-مونجارو",
+      "verifiedAt": "2026-10-19T06:27:28.046Z",
+      "bodyWords": 1056,
+      "indexNow": "received_200"
     },
     "images": {
       "cover": "cover-1280.webp",
@@ -176,11 +181,16 @@
     "managementId": "15771110234456492391",
     "website": "https://ruladiet.com/",
     "addressObserved": "Kayabaşı, Adnan Menderes Bulvari Emlak Konut Kuzey Yakası A2 Blok no3, 34494 Başakşehir/İstanbul",
-    "state": "draft awaiting reviewed published article",
-    "submitted": false,
+    "state": "live",
+    "submitted": true,
     "latestObservedPublishedPostDate": "2026-10-11",
     "postsUiChecked": true,
-    "todayPostObserved": false,
-    "reviewNote": "Owner designated Rula as reviewer; no completed review or approval received."
+    "todayPostObserved": true,
+    "reviewNote": "Owner confirms Rula completed review and approves publication.",
+    "postId": "7412454966712401986",
+    "postUrl": "https://www.google.com/local/business/u/1/15771110234456492391/promote/updates",
+    "checkedAt": "2026-10-19T06:39:20.059Z",
+    "buttonDestinationStatus": 200,
+    "verification": "Google management UI shows Published; saved Learn more URL matches live verified article. Cover and text present."
   }
 }
