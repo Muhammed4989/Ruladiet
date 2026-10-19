@@ -3414,7 +3414,7 @@
     },
     {
       "date": "2026-10-19",
-      "status": "article_awaiting_clinical_review",
+      "status": "approved_article_preparing_publication",
       "newArticlesPublished": 0,
       "article": {
         "key": "mounjaro-hair-shedding",
@@ -3423,8 +3423,10 @@
         "localDraft": "../assets/blog-editorial/drafts/2026-10-19/preview.html",
         "reviewer": "رولا علوش",
         "reviewDesignationConfirmed": true,
-        "reviewCompleted": false,
-        "productionUrl": null
+        "reviewCompleted": true,
+        "productionUrl": null,
+        "approvedBodySha256": "09e39fb3ba7bb702592faca75036def0936e3d5a79d30f24d341c84a02a6f386",
+        "approvalEvidence": "Owner confirmed review completed and approved publication on 2026-10-19."
       },
       "improvement": {
         "key": "mounjaro-diet",
