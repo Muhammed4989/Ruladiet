@@ -2,12 +2,12 @@
   "timezone": "Europe/Istanbul",
   "schedule": "Daily batch starts at 09:00 Europe/Istanbul",
   "automationId": "automation",
-  "scheduleUpdated": "2026-10-07",
-  "effectiveFrom": "2026-10-07",
-  "dailyWebsiteArticles": 2,
+  "scheduleUpdated": "2026-10-18",
+  "effectiveFrom": "2026-10-18",
+  "dailyWebsiteArticles": 1,
   "dailyGoogleBusinessPosts": 1,
   "googleBusinessLedger": "content/google-business-posts.json",
-  "dailyRunRule": "تحقق من الإنتاج وسجل تاريخ إسطنبول وأكمل مقالتين فقط ومنشور Google واحد دون تكرار أو تعويض الأيام الفائتة.",
+  "dailyRunRule": "تحقق من الإنتاج وسجل تاريخ إسطنبول وأكمل مقالاً واحداً فقط ومنشور Google واحد، مع مراجعة وتحسين محدود موثق، دون تكرار أو تعويض أيام التوقف.",
   "minimumBodyWords": 1000,
   "taxonomy": "content/blog-taxonomy.json",
   "taxonomyRule": "كل مقالة ضمن تصنيف عام وفرعي واحد؛ أضف مفتاحها إلى articleTopics قبل النشر. تغذية الحوامل والمرضعات والرضع والأطفال ضمن تغذية الأسرة.",
@@ -3411,6 +3411,33 @@
       "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/92",
       "indexNowStatus": "received_200",
       "googlePostId": "1000149389960101218"
+    },
+    {
+      "date": "2026-10-19",
+      "status": "article_awaiting_clinical_review",
+      "newArticlesPublished": 0,
+      "article": {
+        "key": "mounjaro-hair-shedding",
+        "title": "تساقط الشعر مع مونجارو: كيف تجهزين أسئلة الغذاء والطبيب؟",
+        "bodyWords": 1056,
+        "localDraft": "../assets/blog-editorial/drafts/2026-10-19/preview.html",
+        "reviewer": "رولا علوش",
+        "reviewDesignationConfirmed": true,
+        "reviewCompleted": false,
+        "productionUrl": null
+      },
+      "improvement": {
+        "key": "mounjaro-diet",
+        "type": "three-contextual-internal-links",
+        "clinicalWordingChanged": false,
+        "publicationDatesChanged": false,
+        "status": "validated_locally"
+      },
+      "google": {
+        "status": "draft",
+        "reason": "Awaiting actual clinical approval and live source article; not submitted"
+      },
+      "research": "content/editorial-research/2026-10-19-daily.json"
     }
   ],
   "advertisingManagement": {
