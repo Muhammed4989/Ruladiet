@@ -3431,7 +3431,11 @@
         "type": "three-contextual-internal-links",
         "clinicalWordingChanged": false,
         "publicationDatesChanged": false,
-        "status": "validated_locally"
+        "status": "published_verified",
+        "commit": "ba1af77810c3a47dc69ba8540e3be673228e20ce",
+        "url": "https://ruladiet.com/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/نظام-غذائي-مع-مونجارو",
+        "verifiedAt": "2026-10-19T06:17:15.183Z",
+        "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/97"
       },
       "google": {
         "status": "draft",
