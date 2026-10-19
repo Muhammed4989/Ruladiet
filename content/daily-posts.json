@@ -5426,5 +5426,85 @@
     "updated": "2026-10-11",
     "workflow": "daily",
     "publicationBatch": "daily-2026-10-11"
+  },
+  {
+    "key": "mounjaro-hair-shedding",
+    "slug": "تساقط-الشعر-مع-مونجارو",
+    "title": "تساقط الشعر مع مونجارو: كيف تجهزين أسئلة الغذاء والطبيب؟",
+    "summary": "قد يتزامن تساقط الشعر مع تغير الوزن والغذاء أثناء العلاج. رتّبي أسئلتك للطبيب، وافهمي حدود دور التغذية والمكملات دون تغيير الدواء بنفسك.",
+    "coverAlt": "امرأة تجلس قرب نافذة وتكتب أسئلتها في دفتر وبجوارها فرشاة شعر ونبتة",
+    "coverCaption": "تدوين التغيرات والأسئلة يساعد على تنظيم الموعد.",
+    "visualHeading": "رتبي خطك الزمني",
+    "steps": [
+      "ملاحظة التساقط",
+      "التغيرات السابقة",
+      "أسئلة الموعد"
+    ],
+    "secondVisual": {
+      "title": "نسقي المتابعة",
+      "steps": [
+        "تقييم الجلدية",
+        "خطة الطبيب",
+        "مراجعة الغذاء"
+      ],
+      "alt": "مخطط لتنظيم أسئلة المتابعة بين طبيب الجلدية والطبيب المتابع واختصاصية التغذية",
+      "caption": "وضوح دور كل مختص يساعد على تنسيق المتابعة."
+    },
+    "icon": "medical",
+    "cta": {
+      "href": "/احجز-موعد",
+      "label": "استفسري عن ملاءمة استشارة التغذية مع العلاج الموصوف",
+      "note": "اسألي الفريق عن نطاق الخدمة؛ تقييم سبب تساقط الشعر وقرارات الدواء للطبيب المختص."
+    },
+    "sources": [
+      {
+        "url": "https://www.aad.org/public/everyday-care/skin-care-secrets/prevent-skin-problems/glp1-drugs-and-side-effects",
+        "name": "الأكاديمية الأمريكية للأمراض الجلدية: أدوية GLP-1 والشعر"
+      },
+      {
+        "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=487cd7e7-434c-4925-99fa-aa80b1cc776b",
+        "name": "النشرة الأمريكية لـZepbound: المعلومات والآثار المبلغ عنها"
+      },
+      {
+        "url": "https://www.aad.org/public/diseases/hair-loss/insider/shedding/",
+        "name": "الأكاديمية الأمريكية للأمراض الجلدية: الفرق بين التساقط وفقدان الشعر"
+      },
+      {
+        "url": "https://www.cuh.nhs.uk/patient-information/dietary-advice-for-people-with-type-2-diabetes-using-tirzepatide-mounjaro/",
+        "name": "مستشفيات جامعة كامبريدج: التغذية مع تيرزيباتيد لمرضى السكري"
+      },
+      {
+        "url": "https://ods.od.nih.gov/factsheets/Biotin-Consumer/",
+        "name": "المعاهد الوطنية الأمريكية للصحة: البيوتين"
+      },
+      {
+        "url": "https://www.aad.org/public/diseases/hair-loss/treatment/diagnosis-treat/",
+        "name": "الأكاديمية الأمريكية للأمراض الجلدية: التشخيص والتقييم"
+      },
+      {
+        "url": "https://www.aad.org/public/diseases/hair-loss/treatment/tips",
+        "name": "الأكاديمية الأمريكية للأمراض الجلدية: العناية بالشعر"
+      }
+    ],
+    "related": [
+      "نظام-غذائي-مع-مونجارو",
+      "البروتين-مع-أدوية-التنحيف-طعام-أم-مكمل",
+      "مذكرات-الطعام-قبل-استشارة-التغذية"
+    ],
+    "keywords": [
+      "تساقط الشعر مع مونجارو",
+      "هل مونجارو يسبب تساقط الشعر",
+      "تساقط الشعر مع أدوية التنحيف"
+    ],
+    "published": "2026-10-19",
+    "updated": "2026-10-19",
+    "workflow": "daily",
+    "publicationBatch": "daily-2026-10-19",
+    "clinicalReview": {
+      "reviewer": "رولا علوش",
+      "completed": true,
+      "evidence": "Owner confirmed actual review and approved this exact draft in the publication request on 2026-10-19.",
+      "approvedBodySha256": "09e39fb3ba7bb702592faca75036def0936e3d5a79d30f24d341c84a02a6f386"
+    }
   }
 ]

@@ -92,8 +92,9 @@
     "clinicalReview": {
       "reviewer": "رولا علوش",
       "designationConfirmedByOwner": "2026-10-19",
-      "completed": false,
-      "approvedAt": null
+      "completed": true,
+      "approvedAt": null,
+      "evidence": "Owner confirmed review completed and approved publication on 2026-10-19."
     },
     "publication": {
       "status": "awaiting_clinical_review",

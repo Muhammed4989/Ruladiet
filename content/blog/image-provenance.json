@@ -1755,5 +1755,19 @@
     "secondVisual": "images/blog/visual-pcos-endometriosis-difference-questions.svg",
     "prompt": "Modest fictional Arab woman near window with notebook and calendar, course-inspired sage cream rose.",
     "note": "Fictional model is not Rula or a patient. Two original SVGs convey article-specific steps."
+  },
+  {
+    "key": "mounjaro-hair-shedding",
+    "generated": "2026-10-19",
+    "generator": "OpenAI built-in image generation",
+    "rights": "Generated for Rula Diet; original educational SVGs",
+    "sourceMaster": "C:/Users/moham/.codex/generated_images/01a085a3-5714-7152-9c15-5d627075f87f/exec-0ef19732-2fa6-4beb-96ab-22322a85d775.png",
+    "cover": "images/blog/mounjaro-hair-shedding-1280.webp",
+    "responsive": [
+      400,
+      800,
+      1280
+    ],
+    "note": "Inspected original illustration; fictional adult model, not Rula or a patient. Two article-specific educational SVGs."
   }
 ]
