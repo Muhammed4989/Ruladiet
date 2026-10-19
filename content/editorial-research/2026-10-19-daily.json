@@ -1,0 +1,154 @@
+{
+  "date": "2026-10-19",
+  "source": "Windsor.ai searchconsole",
+  "property": "https://ruladiet.com/",
+  "reusedEvidence": "seo-audit/2026-10-19/gsc-windsor.json and gsc-comparison.json prepared earlier the same day",
+  "current": {
+    "from": "2026-09-19",
+    "to": "2026-10-16",
+    "clicks": 113,
+    "impressions": 8244,
+    "ctr": 0.013706938379427462
+  },
+  "previous": {
+    "from": "2026-08-22",
+    "to": "2026-09-18",
+    "clicks": 146,
+    "impressions": 5374,
+    "ctr": 0.0271678451804987
+  },
+  "limitations": [
+    "Query rows are privacy/collection limited; site totals fetched independently.",
+    "GSC date boundaries use Pacific time; settlement completeness not independently certified.",
+    "No measured search volume for the hair-shedding query.",
+    "AI referrals, citations and qualified leads are unmeasured."
+  ],
+  "strength": "Mounjaro dietary cluster leads observed nonbrand entries; recent weekly clicks increased.",
+  "weakness": "Lower aggregate monthly CTR merits query-mix review, not an automatic title rewrite.",
+  "coverageDecision": {
+    "checkedCatalogArticles": 115,
+    "existing": "pcos-hair-loss addresses a different clinical context; medication nutrition/protein articles do not address hair-shedding evaluation",
+    "decision": "New distinct question; retain original meal-plan canonical and commercial booking owner"
+  },
+  "readerDecision": "Coordinate hair-shedding evaluation with medical team and assess suitability of nutrition consultation without buying random supplements.",
+  "draft": {
+    "preparedOn": "2026-10-19",
+    "key": "mounjaro-hair-shedding",
+    "slug": "تساقط-الشعر-مع-مونجارو",
+    "title": "تساقط الشعر مع مونجارو: كيف تجهزين أسئلة الغذاء والطبيب؟",
+    "plannedCanonical": "https://ruladiet.com/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/تساقط-الشعر-مع-مونجارو",
+    "primaryQuery": "تساقط الشعر مع مونجارو",
+    "supportingQueries": [
+      "هل مونجارو يسبب تساقط الشعر",
+      "تساقط الشعر مع أدوية التنحيف"
+    ],
+    "intent": "Understand uncertainty and prepare dermatology/nutrition questions, not a cure or medication instruction",
+    "topicId": "weight-medication",
+    "targetOffer": "/احجز-موعد",
+    "gscEvidence": {
+      "source": "seo-audit/2026-10-19/gsc-windsor.json",
+      "range": [
+        "2026-09-19",
+        "2026-10-16"
+      ],
+      "observation": "Mounjaro dietary cluster remains strongest observed nonbrand entry. No measured demand for this new hair query is claimed."
+    },
+    "overlap": {
+      "checkedCatalogArticles": 115,
+      "existing": "pcos-hair-loss addresses a different clinical context; medication nutrition/protein articles do not address hair-shedding evaluation",
+      "decision": "New distinct question; retain original meal-plan canonical and commercial booking owner"
+    },
+    "sources": [
+      {
+        "url": "https://www.aad.org/public/everyday-care/skin-care-secrets/prevent-skin-problems/glp1-drugs-and-side-effects",
+        "checkedOn": "2026-10-19"
+      },
+      {
+        "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=487cd7e7-434c-4925-99fa-aa80b1cc776b",
+        "checkedOn": "2026-10-19"
+      },
+      {
+        "url": "https://www.aad.org/public/diseases/hair-loss/insider/shedding/",
+        "checkedOn": "2026-10-19"
+      },
+      {
+        "url": "https://www.cuh.nhs.uk/patient-information/dietary-advice-for-people-with-type-2-diabetes-using-tirzepatide-mounjaro/",
+        "checkedOn": "2026-10-19"
+      },
+      {
+        "url": "https://ods.od.nih.gov/factsheets/Biotin-Consumer/",
+        "checkedOn": "2026-10-19"
+      },
+      {
+        "url": "https://www.aad.org/public/diseases/hair-loss/treatment/diagnosis-treat/",
+        "checkedOn": "2026-10-19"
+      },
+      {
+        "url": "https://www.aad.org/public/diseases/hair-loss/treatment/tips",
+        "checkedOn": "2026-10-19"
+      }
+    ],
+    "bodyWords": 1056,
+    "clinicalReview": {
+      "reviewer": "رولا علوش",
+      "designationConfirmedByOwner": "2026-10-19",
+      "completed": false,
+      "approvedAt": null
+    },
+    "publication": {
+      "status": "awaiting_clinical_review",
+      "published": false,
+      "datePublished": null
+    },
+    "images": {
+      "cover": "cover-1280.webp",
+      "responsive": [
+        400,
+        800,
+        1280
+      ],
+      "inline": [
+        "timeline.svg",
+        "questions.svg"
+      ],
+      "generator": "OpenAI built-in image generation",
+      "sourceMaster": "C:/Users/moham/.codex/generated_images/01a085a3-5714-7152-9c15-5d627075f87f/exec-0ef19732-2fa6-4beb-96ab-22322a85d775.png",
+      "rights": "Generated for Rula Diet; original educational SVGs",
+      "note": "Fictional model; not Rula or a patient. Provenance retained internally; descriptive public caption only."
+    },
+    "bodySha256": "09e39fb3ba7bb702592faca75036def0936e3d5a79d30f24d341c84a02a6f386"
+  },
+  "improvement": {
+    "canonical": "https://ruladiet.com/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/نظام-غذائي-مع-مونجارو",
+    "baselineLiveMatchesMaster": {
+      "status": 200,
+      "sourceMatchesLive": true,
+      "liveSha": "448397867252e3283855726098c9070078e95498e412731982eecfc9b77ccbd9",
+      "masterSha": "448397867252e3283855726098c9070078e95498e412731982eecfc9b77ccbd9"
+    },
+    "change": "Wrap three existing body labels with contextual links to published protein, nausea and constipation guides; no new clinical claim or date bump.",
+    "files": [
+      "content/blog/mounjaro-diet.html",
+      "blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/نظام-غذائي-مع-مونجارو.html",
+      "scripts/link-mounjaro-support.js"
+    ],
+    "checks": [
+      "check-site",
+      "check-blog",
+      "check-blog-navigation",
+      "check-blog-url-migration",
+      "check-category-guides",
+      "git diff --check"
+    ],
+    "deployment": null
+  },
+  "google": {
+    "profileVerified": true,
+    "profileName": "اختصاصية التغذية رولا علوش- عيادة تغذية / Rula Diet clinic",
+    "managementId": "15771110234456492391",
+    "website": "https://ruladiet.com/",
+    "addressObserved": "Kayabaşı, Adnan Menderes Bulvari Emlak Konut Kuzey Yakası A2 Blok no3, 34494 Başakşehir/İstanbul",
+    "state": "draft awaiting reviewed published article",
+    "submitted": false
+  }
+}
