@@ -3414,8 +3414,8 @@
     },
     {
       "date": "2026-10-19",
-      "status": "approved_article_preparing_publication",
-      "newArticlesPublished": 0,
+      "status": "completed",
+      "newArticlesPublished": 1,
       "article": {
         "key": "mounjaro-hair-shedding",
         "title": "تساقط الشعر مع مونجارو: كيف تجهزين أسئلة الغذاء والطبيب؟",
@@ -3424,9 +3424,10 @@
         "reviewer": "رولا علوش",
         "reviewDesignationConfirmed": true,
         "reviewCompleted": true,
-        "productionUrl": null,
+        "productionUrl": "https://ruladiet.com/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/تساقط-الشعر-مع-مونجارو",
         "approvedBodySha256": "09e39fb3ba7bb702592faca75036def0936e3d5a79d30f24d341c84a02a6f386",
-        "approvalEvidence": "Owner confirmed review completed and approved publication on 2026-10-19."
+        "approvalEvidence": "Owner confirmed review completed and approved publication on 2026-10-19.",
+        "status": "published_verified"
       },
       "improvement": {
         "key": "mounjaro-diet",
@@ -3440,10 +3441,14 @@
         "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/97"
       },
       "google": {
-        "status": "draft",
-        "reason": "Awaiting actual clinical approval and live source article; not submitted"
+        "status": "live",
+        "postId": "7412454966712401986",
+        "postUrl": "https://www.google.com/local/business/u/1/15771110234456492391/promote/updates",
+        "buttonDestinationStatus": 200
       },
-      "research": "content/editorial-research/2026-10-19-daily.json"
+      "research": "content/editorial-research/2026-10-19-daily.json",
+      "productionCommit": "38e8c671cde619f6c4b87363470a06b97f8b5fb7",
+      "indexNowStatus": "received_200"
     }
   ],
   "advertisingManagement": {
