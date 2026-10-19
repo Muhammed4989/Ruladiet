@@ -140,7 +140,34 @@
       "check-category-guides",
       "git diff --check"
     ],
-    "deployment": null
+    "deployment": {
+      "checkedAt": "2026-10-19T06:17:15.183Z",
+      "commit": "ba1af77810c3a47dc69ba8540e3be673228e20ce",
+      "articleUrl": "https://ruladiet.com/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/نظام-غذائي-مع-مونجارو",
+      "status": 200,
+      "links": [
+        {
+          "key": "weight-medication-protein-review",
+          "path": "/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/البروتين-مع-أدوية-التنحيف-طعام-أم-مكمل",
+          "status": 200,
+          "contextual": true
+        },
+        {
+          "key": "mounjaro-nausea-meals",
+          "path": "/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/الغثيان-مع-مونجارو",
+          "status": 200,
+          "contextual": true
+        },
+        {
+          "key": "mounjaro-constipation-care",
+          "path": "/blog/إدارة-الوزن/التغذية-مع-أدوية-التنحيف/الإمساك-مع-مونجارو",
+          "status": 200,
+          "contextual": true
+        }
+      ],
+      "passed": true,
+      "indexNow": "Not submitted: navigation-only link addition without substantive content/date change."
+    }
   },
   "google": {
     "profileVerified": true,
@@ -149,6 +176,10 @@
     "website": "https://ruladiet.com/",
     "addressObserved": "Kayabaşı, Adnan Menderes Bulvari Emlak Konut Kuzey Yakası A2 Blok no3, 34494 Başakşehir/İstanbul",
     "state": "draft awaiting reviewed published article",
-    "submitted": false
+    "submitted": false,
+    "latestObservedPublishedPostDate": "2026-10-11",
+    "postsUiChecked": true,
+    "todayPostObserved": false,
+    "reviewNote": "Owner designated Rula as reviewer; no completed review or approval received."
   }
 }
