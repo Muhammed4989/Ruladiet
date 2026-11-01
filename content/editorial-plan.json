@@ -3449,6 +3449,37 @@
       "research": "content/editorial-research/2026-10-19-daily.json",
       "productionCommit": "38e8c671cde619f6c4b87363470a06b97f8b5fb7",
       "indexNowStatus": "received_200"
+    },
+    {
+      "date": "2026-11-01",
+      "status": "website_completed_google_blocked",
+      "newArticlesPublished": 0,
+      "existingArticlesImproved": 2,
+      "articles": [
+        {
+          "key": "lunchbox",
+          "status": "published_verified",
+          "url": "https://ruladiet.com/blog/تغذية-الأسرة/تغذية-الأطفال/المهمة-المستحيلة-للأمهات",
+          "verifiedAt": "2026-11-01T04:14:49Z"
+        },
+        {
+          "key": "weekly-meals",
+          "status": "published_verified",
+          "url": "https://ruladiet.com/blog/التغذية-اليومية/الوجبات-والوصفات/تجهيز-وجبات-صحية-للأسبوع",
+          "verifiedAt": "2026-11-01T04:14:49Z"
+        }
+      ],
+      "google": {
+        "status": "blocked_before_identity_and_duplicate_checks",
+        "submissionAcceptance": "not_attempted",
+        "publicVisibility": "not_checked",
+        "blocker": "Available browser session redirected to Google sign-in; no authenticated management session or connector was available."
+      },
+      "research": "content/editorial-research/2026-11-01.json",
+      "productionCommit": "93ae34ec025dff1152aae573902b50c248bfd91b",
+      "productionDeployment": "dpl_FVHwqLUfYK4gknzZqCAV7LDEfpfC",
+      "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/101",
+      "indexNowStatus": "received_200"
     }
   ],
   "advertisingManagement": {
