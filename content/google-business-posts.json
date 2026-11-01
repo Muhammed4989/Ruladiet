@@ -636,6 +636,25 @@
       "verification": "Google management UI shows Published; saved Learn more URL matches live verified article. Cover and text present.",
       "buttonDestinationStatus": 200,
       "homepageTextClickable": "not verified"
+    },
+    {
+      "id": "2026-11-01-weekly-meals-access-blocked",
+      "date": "2026-11-01",
+      "articleKey": "weekly-meals",
+      "canonicalUrl": "https://ruladiet.com/blog/التغذية-اليومية/الوجبات-والوصفات/تجهيز-وجبات-صحية-للأسبوع",
+      "text": null,
+      "imagePath": null,
+      "button": null,
+      "status": "blocked",
+      "preparedAt": null,
+      "submittedAt": null,
+      "checkedAt": "2026-11-01T04:07:00Z",
+      "postId": null,
+      "postUrl": null,
+      "blocker": "Google Business Profile management entry redirected the available browser session to Google sign-in. Without an authenticated management session or connector, the exact profile identity, management permission and today's live/pending/scheduled posts could not be verified; no duplicate check or submission was attempted.",
+      "sourceArticleVerifiedAt": "2026-11-01T04:14:49Z",
+      "submissionAcceptance": "not_attempted",
+      "publicVisibility": "not_checked"
     }
   ],
   "draftQueue": [

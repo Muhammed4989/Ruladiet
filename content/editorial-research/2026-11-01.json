@@ -107,11 +107,24 @@
     }
   ],
   "publication": {
-    "sourceStatus": "draft",
-    "previewStatus": "not_started",
-    "productionAcceptance": "not_started",
-    "productionVisibility": "not_started",
-    "googleBusinessStatus": "not_checked",
-    "googlePublicVisibility": "not_checked"
+    "sourceStatus": "merged",
+    "pullRequest": "https://github.com/Muhammed4989/Ruladiet/pull/101",
+    "productionCommit": "93ae34ec025dff1152aae573902b50c248bfd91b",
+    "previewStatus": "ready_and_render_verified",
+    "previewDeployment": "dpl_CYDzUic7wLQ9eb3ZAAVEAbDAMMWo",
+    "productionAcceptance": "ready",
+    "productionDeployment": "dpl_FVHwqLUfYK4gknzZqCAV7LDEfpfC",
+    "productionVisibility": "both_live_pages_render_verified",
+    "productionVerifiedAt": "2026-11-01T04:14:49Z",
+    "indexNow": {
+      "status": 200,
+      "submittedUrls": 2,
+      "submittedAt": "2026-11-01T04:15:08.019Z",
+      "meaning": "Received; indexing is not guaranteed"
+    },
+    "googleBusinessStatus": "blocked_before_identity_and_duplicate_checks",
+    "googleSubmissionAcceptance": "not_attempted",
+    "googlePublicVisibility": "not_checked",
+    "googleBlocker": "The available browser session redirected the documented Google Business Profile management entry to Google sign-in. No authenticated management session or Google Business connector was available, so profile identity, management permission, today's live/pending/scheduled posts and duplicate state could not be verified. No post was drafted in Google or submitted."
   }
 }
