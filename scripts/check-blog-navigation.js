@@ -16,6 +16,8 @@ assert.equal(headingSlug('  تَغْذِيَة الرُّضَّع: 6 أشهر &a
 const fixture=addHeadingAnchors('<h2>وجبة متوازنة</h2><h3>وجبة متوازنة</h3><h2>وجبة متوازنة</h2>');
 assert.deepEqual(fixture.headings.map(h=>h.id),['وجبة-متوازنة','وجبة-متوازنة-2','وجبة-متوازنة-3']);
 for(let i=1;i<=3;i++)assert(fixture.body.includes('id="section-'+i+'"'),'Missing legacy alias');
+const preserved=addHeadingAnchors('<h2>عنوان جديد</h2><h2>عنوان قديم</h2>',new Map([['عنوان-قديم','section-1']]));
+assert(preserved.body.indexOf('id="section-2"') < preserved.body.indexOf('id="section-1"'),'New headings must use unused aliases without moving legacy fragments');
 function checkCrumbs(html, expected){
  const schema=schemas(html).find(s=>s['@type']==='BreadcrumbList');
  assert(schema,'Missing BreadcrumbList');
@@ -38,10 +40,12 @@ for(const p of posts){
  const sourceHeadings=[...source.matchAll(/<(h[23])(?:\s[^>]*)?>([\s\S]*?)<\/\1>/g)];
  const rendered=[...html.matchAll(/<(h[23])\b[^>]*id="([^"]+)"[^>]*>([\s\S]*?)<\/\1>/g)].filter(h=>!['article-sources-title','next-step-title'].includes(h[2]));
  assert.equal(rendered.length,sourceHeadings.length,p.key+' lost heading');
+ const legacyAliases=[...html.matchAll(/id="(section-\d+)"/g)].map(m=>m[1]);
+ assert.equal(legacyAliases.length,sourceHeadings.length,p.key+' legacy alias count');
+ assert.equal(new Set(legacyAliases).size,legacyAliases.length,p.key+' duplicate legacy aliases');
  rendered.forEach((h,i)=>{
   assert.equal(text(h[3]),text(sourceHeadings[i][2]));
   assert(!/^section-\d+$/.test(h[2]),p.key+' numbered TOC anchor');
-  assert(html.includes('id="section-'+(i+1)+'"'),p.key+' legacy link lost');
   assert(h[2].startsWith(headingSlug(h[3])),p.key+' heading slug mismatch');
  });
  const toc=html.match(/<nav class="sidebar-toc"[\s\S]*?<\/nav>/)?.[0];
