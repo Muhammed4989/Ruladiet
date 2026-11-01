@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-01",
+  "timeZone": "Europe/Istanbul",
+  "scope": "Rula only",
+  "sourceBaseline": {
+    "repository": "Muhammed4989/Ruladiet",
+    "branch": "master",
+    "commit": "8fae39ad8b3daeecb32151a09acbc8d2c774bae3",
+    "productionProject": "ruladiet-site",
+    "productionCommit": "8fae39ad8b3daeecb32151a09acbc8d2c774bae3",
+    "productionState": "READY",
+    "openPublisherWorkObserved": true,
+    "openPublisherWorkNote": "Open PRs #96 and #32 concern curated reading on service pages. They are not merged into master and do not change the two selected article source files; this branch preserves the current master baseline and does not import their stale snapshots.",
+    "localBaselineClean": true
+  },
+  "searchConsole": {
+    "property": "https://ruladiet.com/",
+    "window": {
+      "from": "2026-10-01",
+      "to": "2026-10-29"
+    },
+    "accessedAt": "2026-11-01",
+    "freshness": "cached connector data; forced refresh unavailable on the connected plan",
+    "observations": [
+      {
+        "query": "لانش بوكس صحي للاطفال",
+        "pageKey": "lunchbox",
+        "impressions": 74,
+        "clicks": 0,
+        "ctr": 0,
+        "averagePosition": 9.3514,
+        "decision": "Improve the existing page title, introduction, answer structure, internal links and current official safety references; do not create a competing article."
+      },
+      {
+        "query": "أفكار لانش بوكس صحي للاطفال",
+        "pageKey": "lunchbox",
+        "impressions": 50,
+        "clicks": 0,
+        "ctr": 0,
+        "averagePosition": 9.86,
+        "decision": "Address the exact practical intent on the existing page."
+      },
+      {
+        "query": "تجهيز وجبات الاسبوع",
+        "pageKey": "weekly-meals",
+        "impressions": 5,
+        "clicks": 2,
+        "ctr": 0.4,
+        "averagePosition": 6.8,
+        "decision": "Preserve the successful URL and expand the existing guide rather than split authority."
+      },
+      {
+        "query": "تحضير وجبات دايت لأسبوع",
+        "pageKey": "weekly-meals",
+        "impressions": 2,
+        "clicks": 0,
+        "ctr": 0,
+        "averagePosition": 8,
+        "decision": "Answer the wording without presenting a restrictive or therapeutic diet."
+      }
+    ]
+  },
+  "editorialDecision": {
+    "type": "two_substantive_existing_article_improvements",
+    "newUrlsCreated": 0,
+    "pages": [
+      {
+        "key": "lunchbox",
+        "clinicalReviewRequiredForThisChange": false,
+        "reason": "Search-intent, usability, food-safety sourcing and general educational structure only; no diagnosis or individualized therapeutic advice added."
+      },
+      {
+        "key": "weekly-meals",
+        "clinicalReviewRequiredForThisChange": false,
+        "reason": "General planning and food-safety education only; explicit boundary retained for clinical conditions."
+      }
+    ],
+    "deferredClinicalOpportunities": [
+      "Mounjaro query refinements",
+      "metformin and PCOS query refinements",
+      "prolactin and PCOS query refinements"
+    ],
+    "deferReason": "No new qualified clinical review was available for this run."
+  },
+  "primarySourcesChecked": [
+    {
+      "url": "https://ask.fsis.usda.gov/article/How-do-you-keep-a-bag-lunch-safe",
+      "publisher": "USDA FSIS",
+      "lastUpdated": "2025-03-07",
+      "usedFor": "Two cold sources and insulated lunch transport."
+    },
+    {
+      "url": "https://www.cdc.gov/infant-toddler-nutrition/foods-and-drinks/choking-hazards.html",
+      "publisher": "CDC",
+      "usedFor": "Age-appropriate food shape, size and texture."
+    },
+    {
+      "url": "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely",
+      "publisher": "USDA FSIS",
+      "lastUpdated": "2024-12-20",
+      "usedFor": "Cooling and refrigerated leftover window."
+    },
+    {
+      "url": "https://www.myplate.gov/sites/default/files/2024-09/MyPlate-Partner-Resource-Healthy-Eating-And-Savings-Time-Saving.pdf",
+      "publisher": "USDA MyPlate",
+      "usedFor": "Planning, freezer options and time-saving meal components."
+    }
+  ],
+  "publication": {
+    "sourceStatus": "draft",
+    "previewStatus": "not_started",
+    "productionAcceptance": "not_started",
+    "productionVisibility": "not_started",
+    "googleBusinessStatus": "not_checked",
+    "googlePublicVisibility": "not_checked"
+  }
+}
