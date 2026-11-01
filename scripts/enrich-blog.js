@@ -5,7 +5,7 @@ const posts = require('./blog-catalog');
 const {descriptions,diagram,escape:e} = require('./blog-visuals');
 const {categories,categoryPath,trail,breadcrumb,breadcrumbSchema,topicPath,postPath,postFile} = require('./blog-taxonomy');
 const {rewriteBlogLinks}=require('./blog-links');
-const {addHeadingAnchors} = require('./blog-headings');
+const {addHeadingAnchors,extractLegacyHeadingAliases} = require('./blog-headings');
 const origin = 'https://ruladiet.com';
 const authorPath = '/author/rulaalloush';
 const authorId = origin + authorPath + '#person';
@@ -43,6 +43,7 @@ for(const p of posts){
  const previousFile=file.replace(/^blog\//,'blog/category/');
  const candidates=[file,previousFile,'blog/'+p.slug+'.html',postFile(posts.find(q=>q.key==='water')),'blog/category/إدارة-الوزن/خسارة-الوزن/شرب-الماء-لخسارة-الوزن.html','blog/شرب-الماء-لخسارة-الوزن.html'];
  let html=fs.readFileSync(root+'/'+candidates.find(f=>fs.existsSync(root+'/'+f)),'utf8');
+ const legacyHeadingAliases=extractLegacyHeadingAliases(html);
  html=html.replace(/((?:href|src)=")(?:\.\.\/)(css|js|images|fonts)\//g,'$1/$2/');
  const originalSchema=[...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(m=>JSON.parse(m[1])).find(x=>x['@type']==='BlogPosting');
  const published=p.published || originalSchema.datePublished;
@@ -61,7 +62,7 @@ for(const p of posts){
   body=at===undefined?body+second:body.slice(0,at)+second+body.slice(at);
   write('images/blog/visual-'+p.key+'-questions.svg',diagram({...p,steps:p.secondVisual.steps,visualHeading:p.secondVisual.title}));
  }
- const anchored=addHeadingAnchors(body);body=anchored.body;
+ const anchored=addHeadingAnchors(body,legacyHeadingAliases);body=anchored.body;
  const toc=`<ol class="toc-list">${anchored.headings.filter(h=>h.tag==='h2').map(h=>`<li><a href="#${h.id}">${e(h.label)}</a></li>`).join('')}</ol>`;
  const sources=`<section class="article-sources" aria-labelledby="article-sources-title"><h2 id="article-sources-title">المصادر والمراجع</h2><ul>${p.sources.map(s=>`<li><a href="${e(s.url)}" target="_blank" rel="noopener noreferrer">${e(s.name)}</a></li>`).join('')}</ul><p>المعلومات للتثقيف العام؛ تُخصّص الخطة الغذائية والعلاجية حسب الحالة مع المختص. الأمثلة الغذائية ليست وصفة فردية.</p></section>`;
  const cta=`<section class="article-next-step" aria-labelledby="next-step-title"><span>خطوتك التالية</span><h2 id="next-step-title">${e(p.cta.label)}</h2><p>${e(p.cta.note)}</p><a class="btn btn-primary" href="${p.cta.href}">${e(p.cta.label)} <span aria-hidden="true">←</span></a></section>`;
