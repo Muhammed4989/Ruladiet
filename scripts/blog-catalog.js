@@ -47,4 +47,38 @@ const rows = [
  ['نظام-غذائي-مع-مونجارو','mounjaro-diet','نظام غذائي مع مونجارو: ماذا تأكلين وكيف تنظّمين الوجبات؟','مع تغيّر الشهية، تصبح كفاية الغذاء والسوائل مهمة. ابدئي بحصص مريحة وأطعمة تتحملينها، وتواصلي مع الطبيب عند أعراض مستمرة أو شديدة.',['مونجارو','مذكرات-الطعام-قبل-استشارة-التغذية','اختيار-استشارة-تغذية-أونلاين'],mounjaroConsult,['tirzepatide','balance','mounjaroNutrition'],['حصص مريحة','مصدر بروتين','سوائل بانتظام'],'plate'],
  ['الأنظمة-الغذائية-مع-ابر-التنحيف','injection-diet','التغذية مع إبر التنحيف: اختيار نمط أكل يدعم العلاج','لا توجد حمية موحدة لكل من يستخدم إبر إدارة الوزن. الخطة الجيدة تراعي الشهية والحالة الصحية وكفاية الطعام وسهولة الاستمرار.',['نظام-غذائي-مع-مونجارو','ابر-التنحيف-الحديثة','خسارة-الوزن'],consult,['meds','balance'],['اختاري نمطاً مرناً','تابعي كفاية الغذاء','عدّلي مع المختص'],'plate']
 ];
-module.exports = rows.map(([slug,key,title,summary,related,cta,sources,steps,icon]) => ({slug,key,title,summary,related,cta,sources:sources.map(s=>({name:S[s][0],url:S[s][1]})),steps,icon,...(key==='mounjaro-diet'?{updated:'2026-09-29'}:{}),...(key==='lunchbox'?{updated:'2026-11-01'}:{})})).concat(require('../content/daily-posts.json')).map(p=>({...p,...require('./blog-taxonomy').postTaxonomy(p.key)}));
+const breakfastCerealSources = [
+  {
+    name: 'FDA: الحصة وأساس مقارنة القيم الغذائية',
+    url: 'https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label'
+  },
+  {
+    name: 'FDA: السكر الكلي والمضاف على الملصق',
+    url: 'https://www.fda.gov/food/nutrition-facts-label/added-sugars-nutrition-facts-label'
+  },
+  {
+    name: 'MyPlate: خيارات الحبوب الكاملة في الإفطار',
+    url: 'https://www.myplate.gov/sites/default/files/2024-06/TipSheet-4-Make-Half-Your-Grains.pdf'
+  }
+];
+
+module.exports = rows
+  .map(([slug,key,title,summary,related,cta,sources,steps,icon]) => ({
+    slug,
+    key,
+    title,
+    summary,
+    related,
+    cta,
+    sources:sources.map(s=>({name:S[s][0],url:S[s][1]})),
+    steps,
+    icon,
+    ...(key==='mounjaro-diet'?{updated:'2026-09-29'}:{}),
+    ...(key==='lunchbox'?{updated:'2026-11-01'}:{}),
+    ...(key==='weight'?{updated:'2026-11-02'}:{})
+  }))
+  .concat(require('../content/daily-posts.json'))
+  .map(p => p.key === 'breakfast-cereal-shopping'
+    ? {...p, updated:'2026-11-02', sources:breakfastCerealSources}
+    : p)
+  .map(p=>({...p,...require('./blog-taxonomy').postTaxonomy(p.key)}));
