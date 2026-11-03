@@ -62,6 +62,30 @@ const breakfastCerealSources = [
   }
 ];
 
+const novemberThirdUpdates = {
+  'nutrition-course-choice': {
+    title: 'كيف تختارين كورس تغذية صحية يناسبك؟',
+    summary: 'دليل عملي لمقارنة منهج كورس الدايت وطريقة التطبيق وشروط الوصول، مع قراءة موثقة لبنية كورس المسار الصحي والفرق بين التعلم والخدمة الفردية.',
+    updated: '2026-11-03',
+    sources: [
+      {name:'منظمة الصحة العالمية: مبادئ الغذاء الصحي — تحديث 26 يناير 2026',url:'https://www.who.int/news-room/fact-sheets/detail/healthy-diet'},
+      {name:'NIDDK: مراحل تغيير العادات والاستعداد للتطبيق',url:'https://www.niddk.nih.gov/health-information/diet-nutrition/changing-habits-better-health'},
+      {name:'رولا دايت: المنهج المنشور لكورس المسار الصحي',url:'https://ruladiet.com/course/المسار-الصحي'}
+    ]
+  },
+  'istanbul-clinic-guide': {
+    title: 'تبحثين عن أفضل عيادة تغذية في إسطنبول؟ دليل رولا دايت',
+    summary: 'تحققي من هوية رولا دايت في باشاك شهير، ومؤهلات رولا وعنوان العيادة ونطاق الموعد والأسئلة التي تساعدك على اختيار خدمة تغذية مناسبة.',
+    updated: '2026-11-03',
+    sources: [
+      {name:'رولا دايت: السيرة المهنية المنشورة لرولا علوش',url:'https://ruladiet.com/رولا-علوش'},
+      {name:'Google Maps: الملف المحدد لعيادة Rula Diet clinic',url:'https://www.google.com/maps/search/?api=1&query=Rula%20Diet%20clinic&query_place_id=ChIJPxfeU-unyhQRyIYSaHZkkoA'},
+      {name:'الجزيرة نت: صفحة الكاتبة رولا علوش',url:'https://www.aljazeera.net/author/رولا-علوش'},
+      {name:'عربي بوست: صفحة الكاتبة رولا علوش',url:'https://arabicpost.net/author/rula-alloush/'}
+    ]
+  }
+};
+
 module.exports = rows
   .map(([slug,key,title,summary,related,cta,sources,steps,icon]) => ({
     slug,
@@ -80,5 +104,8 @@ module.exports = rows
   .concat(require('../content/daily-posts.json'))
   .map(p => p.key === 'breakfast-cereal-shopping'
     ? {...p, updated:'2026-11-02', sources:breakfastCerealSources}
+    : p)
+  .map(p => novemberThirdUpdates[p.key]
+    ? {...p, ...novemberThirdUpdates[p.key]}
     : p)
   .map(p=>({...p,...require('./blog-taxonomy').postTaxonomy(p.key)}));
