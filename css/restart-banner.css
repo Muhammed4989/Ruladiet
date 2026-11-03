@@ -16,7 +16,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 24px;
+  gap: 22px;
 }
 
 .restart-banner__message {
@@ -32,7 +32,24 @@
 .restart-banner__message strong { font-weight: 800; }
 .restart-banner__message span { color: #e3ecdf; }
 
+.restart-banner__countdown {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  color: #fff;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.restart-banner__countdown-label { margin-inline-end: 4px; color: #e3ecdf; }
+.restart-banner__countdown-part { display: inline-flex; align-items: baseline; gap: 2px; }
+.restart-banner__countdown-part b { font-size: 17px; font-variant-numeric: tabular-nums; }
+.restart-banner__countdown-part small { font-size: 11px; color: #e3ecdf; }
+
 .restart-banner__link {
+  position: relative;
+  overflow: hidden;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -50,15 +67,39 @@
   transition: background-color .2s ease, transform .2s ease;
 }
 
+.restart-banner__link::after {
+  content: '';
+  position: absolute;
+  inset: -30% auto -30% -45%;
+  width: 45%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, .85), transparent);
+  transform: translateX(-100%) skewX(-24deg);
+  animation: restart-banner-shine 3.5s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes restart-banner-shine {
+  0%, 35% { transform: translateX(-100%) skewX(-24deg); }
+  70%, 100% { transform: translateX(750%) skewX(-24deg); }
+}
+
 .restart-banner__link:hover { background: #fff; transform: translateY(-2px); }
 .restart-banner__link:focus-visible { outline: 3px solid #e9d9a6; outline-offset: 3px; }
-body:has(> .restart-banner) { padding-bottom: 66px; }
+body:has(> .restart-banner) { padding-bottom: 78px; }
+
+@media (max-width: 900px) {
+  .restart-banner__inner { flex-wrap: wrap; gap: 5px 18px; }
+  .restart-banner__message { width: 100%; justify-content: center; }
+  body:has(> .restart-banner) { padding-bottom: 106px; }
+}
 
 @media (max-width: 640px) {
-  .restart-banner__inner { flex-direction: column; gap: 5px; padding: 9px 12px 11px; }
+  .restart-banner__inner { flex-direction: column; gap: 5px; padding: 8px 12px 10px; }
   .restart-banner__message { gap: 7px; font-size: 14px; }
+  .restart-banner__countdown { font-size: 12px; }
+  .restart-banner__countdown-part b { font-size: 15px; }
   .restart-banner__link { min-height: 38px; width: min(100%, 330px); font-size: 14px; }
-  body:has(> .restart-banner) { padding-bottom: 103px; }
+  body:has(> .restart-banner) { padding-bottom: 134px; }
 }
 
 @media (max-width: 360px) {
@@ -67,4 +108,5 @@ body:has(> .restart-banner) { padding-bottom: 66px; }
 
 @media (prefers-reduced-motion: reduce) {
   .restart-banner__link { transition: none; }
+  .restart-banner__link::after { animation: none; }
 }
