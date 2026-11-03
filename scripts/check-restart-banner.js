@@ -10,6 +10,8 @@ for (const file of files) {
   const html = fs.readFileSync(path.join(root, file), 'utf8');
   assert.equal((html.match(/<!-- restart-banner:start -->/g) || []).length, 1, `${file}: banner count`);
   assert.equal((html.match(/href="\/css\/restart-banner\.css"/g) || []).length, 1, `${file}: stylesheet count`);
+  assert.equal((html.match(/src="\/js\/restart-banner\.js"/g) || []).length, 1, `${file}: countdown script count`);
+  assert.equal((html.match(/class="restart-banner__countdown"/g) || []).length, 1, `${file}: countdown count`);
   assert.equal((html.match(/utm_medium=onsite_banner/g) || []).length, 1, `${file}: source link count`);
   assert.equal(update(html), html, `${file}: banner out of sync`);
 }

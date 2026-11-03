@@ -7,8 +7,9 @@ const root = path.resolve(__dirname, '..');
 const start = '<!-- restart-banner:start -->';
 const end = '<!-- restart-banner:end -->';
 const stylesheet = '<link rel="stylesheet" href="/css/restart-banner.css">';
+const script = '<script src="/js/restart-banner.js" defer></script>';
 const destination = 'https://course.ruladiet.com/restart?utm_source=ruladiet.com&amp;utm_medium=onsite_banner&amp;utm_campaign=restart_nov2026&amp;utm_content=persistent_ribbon';
-const banner = `${start}<aside class="restart-banner" aria-label="تحدّي Restart"><div class="restart-banner__inner"><p class="restart-banner__message"><strong>تحدّي Restart</strong><span>6 أسابيع تبدأ في 23 نوفمبر</span></p><a class="restart-banner__link" href="${destination}">تفاصيل التحدّي والتسجيل <span aria-hidden="true">←</span></a></div></aside>${end}`;
+const banner = `${start}<aside class="restart-banner" aria-label="تحدّي Restart"><div class="restart-banner__inner"><p class="restart-banner__message"><strong>تحدّي Restart</strong><span>6 أسابيع تبدأ في 23 نوفمبر</span></p><time class="restart-banner__countdown" datetime="2026-11-23"><span class="restart-banner__countdown-label">باقي للبداية</span><span class="restart-banner__countdown-part"><b data-restart-days>--</b><small>يوم</small></span><span class="restart-banner__countdown-part"><b data-restart-hours>--</b><small>ساعة</small></span><span class="restart-banner__countdown-part"><b data-restart-minutes>--</b><small>دقيقة</small></span><span class="restart-banner__countdown-part"><b data-restart-seconds>--</b><small>ثانية</small></span></time><a class="restart-banner__link" href="${destination}">تفاصيل التحدّي والتسجيل <span aria-hidden="true">←</span></a></div></aside>${end}`;
 
 function update(html) {
   if (!/<body\b[^>]*>/i.test(html) || !/<\/head>/i.test(html)) throw new Error('Missing document structure');
@@ -20,6 +21,7 @@ function update(html) {
     result = result.replace(/<body\b[^>]*>/i, match => match + banner);
   }
   if (!result.includes(stylesheet)) result = result.replace(/<\/head>/i, stylesheet + '</head>');
+  if (!result.includes(script)) result = result.replace(/<\/body>/i, script + '</body>');
   return result;
 }
 
