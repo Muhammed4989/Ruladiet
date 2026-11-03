@@ -1,0 +1,70 @@
+.restart-banner {
+  position: fixed;
+  inset: auto 0 0;
+  z-index: 1100;
+  background: #2d4939;
+  color: #fff;
+  border-top: 1px solid #b9c9b5;
+  box-shadow: 0 -8px 24px rgba(28, 52, 38, .18);
+  font-family: Tajawal, sans-serif;
+}
+
+.restart-banner__inner {
+  max-width: 1200px;
+  margin: auto;
+  padding: 11px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.restart-banner__message {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.restart-banner__message strong { font-weight: 800; }
+.restart-banner__message span { color: #e3ecdf; }
+
+.restart-banner__link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex: none;
+  padding: 8px 18px;
+  min-height: 42px;
+  border-radius: 10px;
+  background: #f5f3e8;
+  color: #2d4939;
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 1.2;
+  text-decoration: none;
+  transition: background-color .2s ease, transform .2s ease;
+}
+
+.restart-banner__link:hover { background: #fff; transform: translateY(-2px); }
+.restart-banner__link:focus-visible { outline: 3px solid #e9d9a6; outline-offset: 3px; }
+body:has(> .restart-banner) { padding-bottom: 66px; }
+
+@media (max-width: 640px) {
+  .restart-banner__inner { flex-direction: column; gap: 5px; padding: 9px 12px 11px; }
+  .restart-banner__message { gap: 7px; font-size: 14px; }
+  .restart-banner__link { min-height: 38px; width: min(100%, 330px); font-size: 14px; }
+  body:has(> .restart-banner) { padding-bottom: 103px; }
+}
+
+@media (max-width: 360px) {
+  .restart-banner__message { font-size: 13px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .restart-banner__link { transition: none; }
+}

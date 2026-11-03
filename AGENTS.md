@@ -78,6 +78,7 @@ node scripts/optimize-images.js    # reapply responsive logo and card images
 node scripts/enhance-brand-navigation.js # restore clear, linked logos and same-window free-course registration
 node scripts/sync-course-enrollments.js # align course card counts with the detail pages
 node scripts/check-site.js         # links, sitemap, scripts and JSON-LD checks
+node scripts/sync-restart-banner.js # restore the site-wide Restart invitation
 ```
 
 All three are idempotent and safe to re-run at any time. Each writes a `.bak-*` copy
@@ -149,6 +150,10 @@ check afterwards; its known null-byte warning is not a new regression.
   duration claims or unverified extras/certificates.
 - Site-wide edits go through a **script committed to the repo**, so they can be re-run
   after a rebuild. Do not hand-edit 30 files.
+- The fixed Restart ribbon is maintained by `scripts/sync-restart-banner.js` on public
+  pages. Re-run it after any page generator, then run `scripts/check-restart-banner.js`.
+  Its fixed UTM values identify clicks from this site ribbon; they do not prove
+  that the visitor originally arrived via organic search or that a purchase occurred.
 - Verify JSON-LD still parses after touching any `<script type="application/ld+json">`
   block. There are 56 of them across the site.
 - Do not add `localStorage`/`sessionStorage` — nothing here needs it.
