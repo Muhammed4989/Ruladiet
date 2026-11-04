@@ -2075,6 +2075,10 @@
     },
     "sources": [
       {
+        "name": "رولا دايت: منهج كورس المسار الصحي الحالي",
+        "url": "https://ruladiet.com/course/%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D8%B1-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A"
+      },
+      {
         "name": "NIDDK: تغيير العادات لصحة أفضل",
         "url": "https://www.niddk.nih.gov/health-information/diet-nutrition/changing-habits-better-health"
       },
@@ -2088,7 +2092,7 @@
       }
     ],
     "published": "2026-09-22",
-    "updated": "2026-09-22",
+    "updated": "2026-11-04",
     "workflow": "daily",
     "publicationBatch": "daily-2026-09-22",
     "icon": "check"
@@ -2935,12 +2939,16 @@
     },
     "sources": [
       {
+        "name": "رولا دايت: كورس رحلة التغيير المجاني",
+        "url": "https://ruladiet.com/course/%D8%B1%D8%AD%D9%84%D8%A9-%D8%A7%D9%84%D8%AA%D8%BA%D9%8A%D9%8A%D8%B1"
+      },
+      {
         "name": "منظمة الصحة العالمية: الغذاء الصحي",
         "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
       },
       {
-        "name": "منظمة الصحة العالمية: مبادئ تغيير السلوك الصحي",
-        "url": "https://www.who.int/philippines/news/detail-global/22-09-2026-who-launches-new-e-learning-course-on-behavioural-sciences-for-better-health"
+        "name": "NIDDK: تغيير العادات لصحة أفضل",
+        "url": "https://www.niddk.nih.gov/health-information/diet-nutrition/changing-habits-better-health"
       },
       {
         "name": "NIDDK: معايير اختيار برنامج صحي آمن",
@@ -2948,7 +2956,7 @@
       }
     ],
     "published": "2026-09-26",
-    "updated": "2026-09-26",
+    "updated": "2026-11-04",
     "workflow": "daily",
     "publicationBatch": "daily-2026-09-26",
     "icon": "check"
