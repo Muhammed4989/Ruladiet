@@ -86,6 +86,17 @@ const novemberThirdUpdates = {
   }
 };
 
+const novemberFifthUpdates = {
+  habits: {
+    updated: '2026-11-05',
+    sources: [
+      {name:'NIDDK: تغيير العادات ومراحل الاستعداد والعوائق',url:'https://www.niddk.nih.gov/health-information/diet-nutrition/changing-habits-better-health'},
+      {name:'CDC: خطوات تدريجية لإدارة الوزن والصحة',url:'https://www.cdc.gov/healthy-weight-growth/losing-weight/index.html'},
+      {name:'MyPlate: التخطيط للغذاء الصحي والميزانية',url:'https://www.myplate.gov/web/eat-healthy/healthy-eating-budget'}
+    ]
+  }
+};
+
 module.exports = rows
   .map(([slug,key,title,summary,related,cta,sources,steps,icon]) => ({
     slug,
@@ -107,5 +118,8 @@ module.exports = rows
     : p)
   .map(p => novemberThirdUpdates[p.key]
     ? {...p, ...novemberThirdUpdates[p.key]}
+    : p)
+  .map(p => novemberFifthUpdates[p.key]
+    ? {...p, ...novemberFifthUpdates[p.key]}
     : p)
   .map(p=>({...p,...require('./blog-taxonomy').postTaxonomy(p.key)}));

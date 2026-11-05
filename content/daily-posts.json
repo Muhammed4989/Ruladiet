@@ -2732,7 +2732,7 @@
       },
       {
         "name": "CDC Yellow Book: احتياطات الطعام والماء",
-        "url": "https://cdc.gov/yellow-book/hcp/preparing-international-travelers/food-and-water-precautions-for-travelers.html"
+        "url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/food-and-water-precautions-for-travelers.html"
       },
       {
         "name": "CDC: تبريد الطعام القابل للتلف خلال ساعتين",
@@ -2740,7 +2740,7 @@
       }
     ],
     "published": "2026-09-25",
-    "updated": "2026-09-25",
+    "updated": "2026-11-05",
     "workflow": "daily",
     "publicationBatch": "daily-2026-09-25",
     "icon": "check"
