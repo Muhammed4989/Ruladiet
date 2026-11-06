@@ -68,7 +68,7 @@
     "title": "قراءة البطاقة الغذائية: دليل الحصص والسكر والملح",
     "summary": "تعلّمي قراءة البطاقة الغذائية ومقارنة الحصص والمكونات والسكر والملح، مع أمثلة عملية وتوضيح اختلاف النسبة اليومية بين أمريكا وكندا.",
     "published": "2026-09-12",
-    "updated": "2026-09-12",
+    "updated": "2026-11-06",
     "workflow": "daily",
     "coverAlt": "عبوتا شوفان ببطاقات غذائية توضيحية وعدسة مكبرة بجانب وعاء شوفان ولبن",
     "coverCaption": "صورة توضيحية؛ العبوات والملصقات لا تمثل منتجات تجارية أو قيماً غذائية حقيقية.",
@@ -1484,6 +1484,10 @@
         "url": "https://www.lnds.nhs.uk/_PatientsandPublic-DietandLifestyleAdvice-FoodRecordDiaries.aspx"
       },
       {
+        "name": "Royal Free London NHS: تتبع عادات الأكل قبل موعد اختصاصي التغذية",
+        "url": "https://www.royalfree.nhs.uk/patients-and-visitors/patient-information-leaflets/keeping-track-of-your-eating-habits/submit/43795"
+      },
+      {
         "name": "NIDDK: تغيير العادات وتجاوز العوائق",
         "url": "https://www.niddk.nih.gov/health-information/diet-nutrition/changing-habits-better-health"
       },
@@ -1493,7 +1497,7 @@
       }
     ],
     "published": "2026-09-19",
-    "updated": "2026-09-19",
+    "updated": "2026-11-06",
     "workflow": "daily",
     "publicationBatch": "daily-2026-09-16",
     "icon": "check"
