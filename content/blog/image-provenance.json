@@ -1769,5 +1769,22 @@
       1280
     ],
     "note": "Inspected original illustration; fictional adult model, not Rula or a patient. Two article-specific educational SVGs."
+  },
+  {
+    "key": "healthy-food-day-children",
+    "generated": "2026-11-07",
+    "generator": "OpenAI built-in image generation",
+    "rights": "Generated for Rula Diet editorial use; no third-party stock image copied.",
+    "sourceMaster": "generated_images/exec-51ff5013-365a-4394-bbe5-4095833ff0fc.png",
+    "cover": "images/blog/healthy-food-day-children-1280.webp",
+    "responsive": [
+      400,
+      800,
+      1280
+    ],
+    "visual": "images/blog/visual-healthy-food-day-children.svg",
+    "secondVisual": "images/blog/visual-healthy-food-day-children-questions.svg",
+    "prompt": "Photorealistic 16:9 classroom scene with four fictional Middle Eastern children in modest school clothing sorting picture cards of varied foods with a teacher; inclusive, calm, no text, logos, medical or weight imagery.",
+    "note": "Fictional models are not Rula, patients or identifiable real children. Two original SVGs convey article-specific steps."
   }
 ]
