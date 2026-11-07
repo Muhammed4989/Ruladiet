@@ -5518,5 +5518,67 @@
       "evidence": "Owner confirmed actual review and approved this exact draft in the publication request on 2026-10-19.",
       "approvedBodySha256": "09e39fb3ba7bb702592faca75036def0936e3d5a79d30f24d341c84a02a6f386"
     }
+  },
+  {
+    "key": "healthy-food-day-children",
+    "slug": "أفكار-ليوم-الغذاء-الصحي-للأطفال",
+    "title": "أفكار ليوم الغذاء الصحي للأطفال: 8 أنشطة للمدرسة والبيت",
+    "summary": "أنشطة تعليمية غير وصمية ليوم الغذاء الصحي للأطفال، مع خطة حصة جاهزة وبدائل بلا تذوق وضوابط الحساسية وسياسة المدرسة.",
+    "coverAlt": "أطفال بملابس مدرسية محتشمة يرتبون بطاقات مصورة لأطعمة متنوعة في نشاط صفي بإشراف معلمة",
+    "coverCaption": "مشهد مولّد لشخصيات خيالية يوضح نشاطاً صفياً؛ لا يمثل أطفالاً حقيقيين أو مرضى أو نتيجة علاج.",
+    "visualHeading": "خططي لليوم",
+    "steps": [
+      "هدف تعليمي واحد",
+      "نشاط يناسب العمر",
+      "مشاركة آمنة للجميع"
+    ],
+    "secondVisual": {
+      "title": "قبل إدخال الطعام",
+      "steps": [
+        "راجعي سياسة المدرسة",
+        "تحققي من الحساسية",
+        "وفري بديلاً بلا تذوق"
+      ],
+      "alt": "مخطط يوضح مراجعة سياسة المدرسة والتحقق من الحساسية وتوفير بديل لا يعتمد على تذوق الطعام",
+      "caption": "يمكن تنفيذ يوم تعليمي كامل بالصور والبطاقات؛ لا يُقدَّم طعام قبل استكمال ضوابط المدرسة."
+    },
+    "icon": "box",
+    "cta": {
+      "href": "/احجز-موعد",
+      "label": "تعرّفي إلى نطاق استشارة تغذية الأطفال",
+      "note": "الأنشطة للتثقيف العام؛ الحساسية وصعوبات البلع أو النمو أو الأكل المستمرة تحتاج تقييماً فردياً مناسباً."
+    },
+    "sources": [
+      {
+        "name": "CDC: التثقيف الغذائي في المدرسة ودمجه في المواد",
+        "url": "https://www.cdc.gov/school-nutrition/education/index.html"
+      },
+      {
+        "name": "CDC: إدارة الحساسية الغذائية في المدارس",
+        "url": "https://www.cdc.gov/school-health-conditions/food-allergies/index.html"
+      },
+      {
+        "name": "USDA MyPlate: إشراك الأطفال في الطعام والتعلم",
+        "url": "https://www.myplate.gov/sites/default/files/2022-04/TipSheet_17_HealthyEatingForKids.pdf"
+      },
+      {
+        "name": "USDA Team Nutrition: دليل تخطيط فعالية عائلية للغذاء والحركة",
+        "url": "https://professionalstandards.fns.usda.gov/content/family-fun-food-and-fitness-event-planning-guide"
+      }
+    ],
+    "related": [
+      "المهمة-المستحيلة-للأمهات",
+      "قراءة-البطاقة-الغذائية",
+      "استشارة-تغذية-للطفل-الانتقائي"
+    ],
+    "keywords": [
+      "أفكار ليوم الغذاء الصحي للأطفال",
+      "أنشطة الغذاء الصحي للأطفال",
+      "فعالية الغذاء الصحي في المدرسة"
+    ],
+    "published": "2026-11-07",
+    "updated": "2026-11-07",
+    "workflow": "daily",
+    "publicationBatch": "daily-2026-11-07"
   }
 ]
