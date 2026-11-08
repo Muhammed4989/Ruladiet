@@ -1391,6 +1391,96 @@
       "permanent": true
     },
     {
+      "source": "/product/:legacy2(%[dD]9%83%[dD]9%88%[dD]8%[bB]1%[dD]8%[bB]3-%[dD]8%[bB]1%[dD]8%[aA][dD]%[dD]9%84%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]9%8[aA]%[dD]9%8[aA]%[dD]8%[bB]1)",
+      "destination": "/course/%D8%B1%D8%AD%D9%84%D8%A9-%D8%A7%D9%84%D8%AA%D8%BA%D9%8A%D9%8A%D8%B1",
+      "permanent": true
+    },
+    {
+      "source": "/product/:legacy2(%[dD]9%83%[dD]9%88%[dD]8%[bB]1%[dD]8%[bB]3-%[dD]8%[bB]1%[dD]8%[aA][dD]%[dD]9%84%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]9%8[aA]%[dD]9%8[aA]%[dD]8%[bB]1)/",
+      "destination": "/course/%D8%B1%D8%AD%D9%84%D8%A9-%D8%A7%D9%84%D8%AA%D8%BA%D9%8A%D9%8A%D8%B1",
+      "permanent": true
+    },
+    {
+      "source": "/product/:legacy2(%[dD]8%[aA][aA]%[dD]9%83%[dD]9%8[aA]%[dD]8%[bB]3-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[aA]8%[dD]8%[aA]7%[dD]9%8[aA]%[dD]8%[bB]6)",
+      "destination": "/course/%D8%AA%D9%83%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D9%8A%D8%B6",
+      "permanent": true
+    },
+    {
+      "source": "/product/:legacy2(%[dD]8%[aA][aA]%[dD]9%83%[dD]9%8[aA]%[dD]8%[bB]3-%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[aA]8%[dD]8%[aA]7%[dD]9%8[aA]%[dD]8%[bB]6)/",
+      "destination": "/course/%D8%AA%D9%83%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D8%A8%D8%A7%D9%8A%D8%B6",
+      "permanent": true
+    },
+    {
+      "source": "/product/:legacy2(%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]1-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]5%[dD]8%[aA][dD]%[dD]9%8[aA]-3-%[dD]8%[aA]3%[dD]8%[bB]4%[dD]9%87%[dD]8%[bB]1-%[dD]8%[aA][aA]%[dD]8%[aA][fF]%[dD]8%[bB]1%[dD]9%8[aA]%[dD]8%[aA]8%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%85%[dD]8%[aA]8%[dD]8%[aA]7%[dD]8%[bB]4%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]3%[dD]9%88%[dD]9%86)",
+      "destination": "/course/%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D8%B1-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A",
+      "permanent": true
+    },
+    {
+      "source": "/product/:legacy2(%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]1-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]5%[dD]8%[aA][dD]%[dD]9%8[aA]-3-%[dD]8%[aA]3%[dD]8%[bB]4%[dD]9%87%[dD]8%[bB]1-%[dD]8%[aA][aA]%[dD]8%[aA][fF]%[dD]8%[bB]1%[dD]9%8[aA]%[dD]8%[aA]8%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%85%[dD]8%[aA]8%[dD]8%[aA]7%[dD]8%[bB]4%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]3%[dD]9%88%[dD]9%86)/",
+      "destination": "/course/%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D8%B1-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A",
+      "permanent": true
+    },
+    {
+      "source": "/courses/:legacy2(%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]1-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]5%[dD]8%[aA][dD]%[dD]9%8[aA]-3-%[dD]8%[aA]3%[dD]8%[bB]4%[dD]9%87%[dD]8%[bB]1-%[dD]8%[aA][aA]%[dD]8%[aA][fF]%[dD]8%[bB]1%[dD]9%8[aA]%[dD]8%[aA]8%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%85%[dD]8%[aA]8%[dD]8%[aA]7%[dD]8%[bB]4%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]3%[dD]9%88%[dD]9%86)",
+      "destination": "/course/%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D8%B1-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A",
+      "permanent": true
+    },
+    {
+      "source": "/courses/:legacy2(%[dD]8%[aA]7%[dD]9%84%[dD]9%85%[dD]8%[bB]3%[dD]8%[aA]7%[dD]8%[bB]1-%[dD]8%[aA]7%[dD]9%84%[dD]8%[bB]5%[dD]8%[aA][dD]%[dD]9%8[aA]-3-%[dD]8%[aA]3%[dD]8%[bB]4%[dD]9%87%[dD]8%[bB]1-%[dD]8%[aA][aA]%[dD]8%[aA][fF]%[dD]8%[bB]1%[dD]9%8[aA]%[dD]8%[aA]8%[dD]9%8[aA]%[dD]8%[aA]9-%[dD]9%85%[dD]8%[aA]8%[dD]8%[aA]7%[dD]8%[bB]4%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]3%[dD]9%88%[dD]9%86)/",
+      "destination": "/course/%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D8%B1-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]5%[dD]8%[aA][fF]%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/course/:legacy5(%[dD]8%[bB]1%[dD]8%[aA][dD]%[dD]9%84%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]9%8[aA]%[dD]9%8[aA]%[dD]8%[bB]1\\.html)",
+      "destination": "/course/%D8%B1%D8%AD%D9%84%D8%A9-%D8%A7%D9%84%D8%AA%D8%BA%D9%8A%D9%8A%D8%B1",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:legacy3(%[dD]8%[aA]5%[dD]8%[aA][fF]%[dD]8%[aA]7%[dD]8%[bB]1%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]9%88%[dD]8%[bB]2%[dD]9%86)/course/:legacy5(%[dD]8%[bB]1%[dD]8%[aA][dD]%[dD]9%84%[dD]8%[aA]9-%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB][aA]%[dD]9%8[aA]%[dD]9%8[aA]%[dD]8%[bB]1\\.html)/",
+      "destination": "/course/%D8%B1%D8%AD%D9%84%D8%A9-%D8%A7%D9%84%D8%AA%D8%BA%D9%8A%D9%8A%D8%B1",
+      "permanent": true
+    },
+    {
+      "source": "/blog",
+      "destination": "/%D8%A7%D9%84%D9%85%D8%AF%D9%88%D9%86%D8%A9",
+      "permanent": true
+    },
+    {
+      "source": "/blog/",
+      "destination": "/%D8%A7%D9%84%D9%85%D8%AF%D9%88%D9%86%D8%A9",
+      "permanent": true
+    },
+    {
+      "source": "/profile/rula-alloush",
+      "destination": "/%D8%B1%D9%88%D9%84%D8%A7-%D8%B9%D9%84%D9%88%D8%B4",
+      "permanent": true
+    },
+    {
+      "source": "/profile/rula-alloush/",
+      "destination": "/%D8%B1%D9%88%D9%84%D8%A7-%D8%B9%D9%84%D9%88%D8%B4",
+      "permanent": true
+    },
+    {
+      "source": "/shop",
+      "destination": "/%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D8%A7%D8%AA",
+      "permanent": true
+    },
+    {
+      "source": "/shop/",
+      "destination": "/%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D8%A7%D8%AA",
+      "permanent": true
+    },
+    {
+      "source": "/course-category/:legacy2(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB]9%[dD]8%[aA]7%[dD]9%81%[dD]9%8[aA])",
+      "destination": "/%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D8%A7%D8%AA",
+      "permanent": true
+    },
+    {
+      "source": "/course-category/:legacy2(%[dD]8%[aA]7%[dD]9%84%[dD]8%[aA][aA]%[dD]8%[bB]9%[dD]8%[aA]7%[dD]9%81%[dD]9%8[aA])/",
+      "destination": "/%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D8%A7%D8%AA",
+      "permanent": true
+    },
+    {
       "source": "/blog/category/:path*",
       "destination": "/blog/:path*",
       "permanent": true
