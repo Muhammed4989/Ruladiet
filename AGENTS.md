@@ -79,6 +79,7 @@ node scripts/enhance-brand-navigation.js # restore clear, linked logos and same-
 node scripts/sync-course-enrollments.js # align course card counts with the detail pages
 node scripts/check-site.js         # links, sitemap, scripts and JSON-LD checks
 node scripts/sync-restart-banner.js # restore the site-wide Restart invitation
+node scripts/inject-gtm.js         # Google Tag Manager GTM-5R2Z54KG on every page (idempotent)
 ```
 
 All three are idempotent and safe to re-run at any time. Each writes a `.bak-*` copy
@@ -327,3 +328,13 @@ Centra and Areu are outside this initiative; do not access or modify them. These
 - An isolated working copy or new worktree must carry these essential instructions before new work. Keep accepted release candidates frozen as evidence; do not modify a frozen candidate merely to add instructions. Explicitly read the matching installed source AGENTS.md before creating a new instructed working copy.
 
 <!-- END owner-plan-ai-visibility-business -->
+
+## Tracking (2026-11-08)
+
+- All ruladiet.com tracking runs through Google Tag Manager container `GTM-5R2Z54KG`
+  (GA4 `G-H0FR7LEWPH`, Meta Pixel `1257416803171538` PageView limited to the
+  ruladiet.com hostname, WhatsApp click -> Meta `Contact` + GA4 `whatsapp_click`).
+  Do not paste gtag.js or Meta Pixel code into pages; add tags in GTM instead.
+- New or regenerated pages: run `node scripts/inject-gtm.js` (idempotent, byte-safe).
+- The Systeme pages on course.ruladiet.com carry their own direct Meta Pixel; the GTM
+  Pixel tag is hostname-limited so those visits are not double counted.

@@ -1026,5 +1026,41 @@
   {
     "source": "/blog/أفكار-ليوم-الغذاء-الصحي-للأطفال.html",
     "destination": "/blog/تغذية-الأسرة/تغذية-الأطفال/أفكار-ليوم-الغذاء-الصحي-للأطفال"
+  },
+  {
+    "source": "/product/كورس-رحلة-التغيير",
+    "destination": "/course/رحلة-التغيير"
+  },
+  {
+    "source": "/product/تكيس-المبايض",
+    "destination": "/course/تكيس-المبايض"
+  },
+  {
+    "source": "/product/المسار-الصحي-3-أشهر-تدريبية-مباشرة-أون",
+    "destination": "/course/المسار-الصحي"
+  },
+  {
+    "source": "/courses/المسار-الصحي-3-أشهر-تدريبية-مباشرة-أون",
+    "destination": "/course/المسار-الصحي"
+  },
+  {
+    "source": "/blog/category/إدارة-الوزن/course/رحلة-التغيير.html",
+    "destination": "/course/رحلة-التغيير"
+  },
+  {
+    "source": "/blog",
+    "destination": "/المدونة"
+  },
+  {
+    "source": "/profile/rula-alloush",
+    "destination": "/رولا-علوش"
+  },
+  {
+    "source": "/shop",
+    "destination": "/الدورات"
+  },
+  {
+    "source": "/course-category/التعافي",
+    "destination": "/الدورات"
   }
 ]
